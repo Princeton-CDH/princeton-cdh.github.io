@@ -16,7 +16,7 @@ DEVTEAM_PROJECTS = [
 
 def get_closed_issues():
     # Get APIs
-    ghub = GitHubAPI(os.environ['GH_USERNAME'], os.environ['GH_API_TOKEN'])
+    ghub = GitHubAPI(os.environ['GITHUB_USERNAME'], os.environ['GITHUB_API_TOKEN'])
     zhub = ZenHubAPI(os.environ['ZENHUB_API_TOKEN'])
 
     # Read existing CSV
