@@ -1,6 +1,6 @@
 [
     {
-        "repo": "cdh-web-thisShouldBeChangedInNextCommit",
+        "repo": "cdh-web",
         "tags": {
             "2.6": "2019-09-05T19:15:14Z",
             "2.5": "2019-07-17T15:45:30Z",
