@@ -23,8 +23,8 @@ jobs:
 
     - name: Generate release JSON
       env:
-        GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-        GITHUB_API_TOKEN: ${{ secrets.GITHUB_API_TOKEN }}
+        GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
+        GITHUB_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
       run: python .github/releases.py
 
 
@@ -37,4 +37,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_API_TOKEN }}
+        github_token: ${{ secrets.GH_API_TOKEN }}
