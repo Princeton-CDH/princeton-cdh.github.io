@@ -28,12 +28,13 @@ def get_repo_releases(since=date(2020, 6, 22)):
         repo_data = {}
         for tag in tags:
             commit_info = ghub.get_commit('Princeton-CDH', repo, tag['commit']['sha'])
-            date_parts = commit_info['commit']['author']['date'].split('T')[0].split('-')
-            release_date = date(*(int(part) for part in date_parts))
-            # if release_date >= since:
-                # print('%s %s' % (tag['name'], commit_info['commit']['author']['date']))
+            if commit_info:
+                date_parts = commit_info['commit']['author']['date'].split('T')[0].split('-')
+                release_date = date(*(int(part) for part in date_parts))
+                # if release_date >= since:
+                    # print('%s %s' % (tag['name'], commit_info['commit']['author']['date']))
 
-            repo_data[tag['name']] = commit_info['commit']['author']['date']
+                repo_data[tag['name']] = commit_info['commit']['author']['date']
 
         tag_data.append({'repo': repo, 'tags': repo_data})
 
