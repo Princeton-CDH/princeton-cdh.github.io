@@ -328,7 +328,7 @@
         "to": "2020-04-20",
         "dev": {
             "story_points": 0.0,
-            "issues_closed": 0.0
+            "issues_closed": 1.0
         },
         "design": {
             "story_points": 0.0,
@@ -375,12 +375,12 @@
         "from": "2020-06-15",
         "to": "2020-06-26",
         "dev": {
-            "story_points": 0.0,
-            "issues_closed": 1.0
+            "story_points": 19.0,
+            "issues_closed": 23.0
         },
         "design": {
-            "story_points": 0.0,
-            "issues_closed": 0.0
+            "story_points": 4.0,
+            "issues_closed": 2.0
         }
     },
     {
@@ -388,11 +388,11 @@
         "to": "2020-07-10",
         "dev": {
             "story_points": 10.0,
-            "issues_closed": 39.0
+            "issues_closed": 40.0
         },
         "design": {
             "story_points": 0.0,
-            "issues_closed": 1.0
+            "issues_closed": 0.0
         }
     }
 ]
