@@ -1,0 +1,51 @@
+issue,project,url,estimate,closed,labels
+Chore/migrate pages,cdh-web,https://api.github.com/repos/Princeton-CDH/cdh-web/issues/189,,,
+Add datapackages for data exports,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/682,,2020-07-10T14:33:31Z,
+generate a report of duplicates in event data export to aid review and cleaning,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/681,,2020-07-09T15:49:48Z,chore
+Add past slugs to works,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/680,,2020-07-07T21:07:12Z,
+Label to indicated that a item was returned.,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/679,,,enhancement
+Add signal handlers to reindex work on event save/delete #667,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/678,,2020-07-07T18:01:25Z,
+migrate CI to github actions,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/677,,,
+Revise data exports,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/676,,2020-07-02T14:55:20Z,
+"subscription amount on the website only includes price paid, not deposit",mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/675,,2020-07-08T18:10:23Z,bug
+Finalize Datasets for Deposit,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/673,,2020-07-08T16:00:37Z,chore
+100 years twitter — review and manage command ,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/672,,2020-07-02T14:28:42Z,
+Remove volume/issue list on bibliography page,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/670,0,2020-07-02T21:05:26Z,enhancement
+"Design // font of letter ""e"" with accent circonflexe",mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/669,,2020-06-18T14:33:17Z,invalid
+Book search is failing to reindex correctly if events are changed (add/delete/reassociate) without updating work record,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/667,,2020-07-09T02:32:44Z,bug
+100 years ago twitter bot & review page,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/642,,2020-07-10T18:18:30Z,
+"As an admin, when I change work slugs I want past slugs stored and used for redirects on public views so that links for edited works continue to resolve.",mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/613,1,2020-07-09T02:28:47Z,
+xml sitemaps for member pages #484,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/609,,2020-05-14T14:13:55Z,
+feature/include-recension,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/76,,2020-07-07T18:18:36Z,
+Include high-level metadata for the entire package,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/75,,,
+"Append ""required"" and ""unique"" constraints to datapackage fields",pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/74,,,
+Standardize capitalization to title case in row headers,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/73,,2020-07-07T19:29:40Z,
+"As a data manager, I want to see alerts when the data does not pass validation checks so that I can fix validation problems quickly.",pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/72,5,2020-07-09T15:33:29Z,awaiting testing
+Body of Story Start column position and validation,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/71,,2020-07-09T15:32:07Z,chore
+Revise schema and validation for added and revised fields,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/70,,2020-07-09T15:32:09Z,chore
+research and prototype an approach for analyzing order of stories in manuscripts,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/69,,2020-07-06T18:37:57Z,chore
+"As a cataloger, I want to see recension identifiers in the Incipit Search Tool so that I could find out not only a story ID, but also a recension",pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/65,2,2020-07-09T21:01:37Z,awaiting testing;enhancement
+Make a programmer-friendly version of data imported from Google Sheets,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/56,,2020-07-06T13:59:21Z,wontfix
+Grouping results by Macomber ID in the Incipit Search,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/40,,2020-07-09T23:28:07Z,enhancement;wontfix
+Protect spreadsheet header rows,pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/36,,2020-07-09T23:06:11Z,enhancement
+keyboard focus indicators (#85),startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/108,,2020-07-07T19:09:26Z,
+create README #11,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/107,,2020-07-02T19:47:31Z,
+Red arrow next to article title is only clickable for article on left side of issue detail page,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/105,,2020-07-09T13:57:16Z,bug
+Set up google analytics,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/104,,2020-07-01T18:46:12Z,chore
+Add Hugo built in twitter & opengraph templates,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/103,,2020-07-01T18:44:57Z,chore
+Add twitter & opengraph templates with basic configs & preliminary image,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/102,,2020-07-01T18:26:31Z,
+Add Google Analytics tracking id and include internal Hugo template,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/101,,2020-07-01T18:26:45Z,
+Update the author's text style on the article pages so that it matches the designs,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/100,,2020-07-02T20:14:35Z,chore
+Align all the red arrows on the homepage horizontally with the text next to them,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/99,,2020-07-07T19:13:12Z,chore
+Reduce the THEME font size to 18px on article pages,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/98,,2020-07-02T20:12:51Z,chore
+Basic postcss + autoprefixer setup,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/97,,2020-07-01T18:26:57Z,
+Add print css for generating PDFs with WeasyPrint,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/96,,2020-07-01T18:35:07Z,
+Revise article text template and handle alt text + extended descriptions,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/95,,,
+On narrow desktop view some contextual note containers are cut off,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/94,,2020-07-07T21:00:55Z,bug
+Scrolling through long text in contextual notes closes the note on iOS,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/90,,2020-07-09T14:14:35Z,bug
+"On mobile, clickable area of ""Issues"" in nav covers most of the ""S"" homepage link",startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/89,,2020-07-07T21:28:32Z,bug
+"As a keyboard user, I want to see a visual focus indicator so I can easily navigate around the site.",startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/85,2,,
+set up postcss pipe with autoprefixer,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/68,,2020-07-01T18:48:44Z,chore;enhancement
+"As a reader, I want the header navigation to get out of the way when I'm reading text.",startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/66,2,2020-07-09T14:15:47Z,
+"As a reader, I want to download an article as a formatted PDF.",startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/22,3,,
+create README,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/11,,2020-07-02T19:47:31Z,documentation
