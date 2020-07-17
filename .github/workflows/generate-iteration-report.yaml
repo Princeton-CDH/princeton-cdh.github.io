@@ -33,10 +33,10 @@ jobs:
         GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
         GITHUB_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
         ZENHUB_API_TOKEN: ${{ secrets.ZENHUB_API_TOKEN }}
-      run: python .github/velocity.py
+      run: python .github/get_issues.py
 
     - name: Update iteration summary JSON
-      run: python .github/velocity_iteration.py
+      run: python .github/summarize_iterations.py
 
     - name: Commit files
       run: |
