@@ -16,6 +16,9 @@ DEVTEAM_PROJECTS = [
 
 
 def get_repo_releases():
+    """Use the GitHub API to collect all tags from repos in DEVTEAM_PROJECTS list. 
+    Create a JSON of all releases and place it in the `data` dir as releases.json
+    """
     ghub = GitHubAPI(os.environ['GITHUB_USERNAME'], os.environ['GITHUB_API_TOKEN'])
 
     tag_data = []
@@ -26,6 +29,7 @@ def get_repo_releases():
         for tag in tags:
             commit_info = ghub.get_commit('Princeton-CDH', repo, tag['commit']['sha'])
             date_parts = commit_info['commit']['author']['date'].split('T')[0].split('-')
+            # TODO: release_date is never used, should it be included in our JSON?
             release_date = date(*(int(part) for part in date_parts))
             repo_data[tag['name']] = commit_info['commit']['author']['date']
 

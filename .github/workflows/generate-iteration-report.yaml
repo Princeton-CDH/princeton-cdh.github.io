@@ -49,3 +49,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GH_API_TOKEN }}
+        branch: 'feature/data-workflow'

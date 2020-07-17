@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 from datetime import date, datetime
 import csv
 import os
@@ -14,7 +13,13 @@ DEVTEAM_PROJECTS = [
     'ppa-django', 'parasolr', 'pemm-scripts', 'startwords'
 ]
 
-def get_closed_issues():
+def get_issues():
+    """
+    Use ZenHub and GitHub API to compile a CSV of all issues in the DEVTEAM_PROJECTS
+    list. If the CSV already exists, find the latest date in the CSV and update 
+    as necessary. Place the file into the `data` dir as issues.csv
+    """
+
     # Get APIs
     ghub = GitHubAPI(os.environ['GITHUB_USERNAME'], os.environ['GITHUB_API_TOKEN'])
     zhub = ZenHubAPI(os.environ['ZENHUB_API_TOKEN'])
@@ -27,7 +32,7 @@ def get_closed_issues():
         date_since = df['closed'].max()
         data_dict = df.to_dict('records')
     else:
-        date_since = date(2020, 4, 1) # HELP: How far back do we want to look?
+        date_since = date(2020, 7, 1) # HELP: How far back do we want to look?
         data_dict = []
 
     # get dict of repo by name -> id
@@ -57,4 +62,4 @@ def get_closed_issues():
 
 
 if __name__ == '__main__':
-    get_closed_issues()
+    get_issues()

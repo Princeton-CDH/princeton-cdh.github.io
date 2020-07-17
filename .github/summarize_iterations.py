@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 from datetime import datetime
 from datetime import date
 from collections import defaultdict
@@ -8,7 +9,11 @@ import pandas as pd
 import json
 
 
-def aggregate_velocity():
+def summarize_iterations():
+    """Divide the issues csv by iteration and by whether it contains the `design` label.
+    For dev and for design, summarize the story points and issues closed during 
+    the each iteration. Save the output json to the `data` dir as iteration-summary.json.
+    """
     df = pd.read_csv('data/issues.csv')
     df['closed'] = [pd.to_datetime(x.split('T')[0]) if not pd.isna(x) else None for x in df['closed']]
 
@@ -48,4 +53,4 @@ def aggregate_velocity():
         json.dump(output_l, f, indent=4)
 
 if __name__ == '__main__':
-    aggregate_velocity()
+    summarize_iterations()
