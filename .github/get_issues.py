@@ -35,9 +35,10 @@ def get_issues():
     if os.path.exists(filename):
         # get the last modification of the file in git
         last_commit_date = subprocess.check_output(
-            ['git', 'log', '--date=short', '--pretty=%ad', 'data/issues.csv'])
+            ['git', 'log', '-1', '--date=short', '--pretty=%ad',
+             'data/issues.csv'])
         # convert bytes to string
-        last_commit_date = last_commit_date.strip().decode()
+        last_commit_date = last_commit_date.decode().strip()
         date_since = datetime.datetime.strptime(last_commit_date, '%Y-%m-%d')
         df = pd.read_csv(filename, parse_dates=['closed'])
         data_dict = df.to_dict('records')
