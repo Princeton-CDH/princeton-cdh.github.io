@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 
-import csv
 from time import sleep
 
 import requests
@@ -56,17 +55,13 @@ class GitHubAPI(object):
 
     def get_repo_issues(self, owner, repo, params=None):
         url = '%s/repos/%s/%s/issues' % (self.endpoint, owner, repo)
-        print(params)
         if params is None:
             params = {}
         if 'state' not in params:
             params['state'] = 'all'
-        print(params)
         response = self._call(url, params=params)
-        print(response.url)
         issues = response.json()
         while 'next' in response.links:
-            print('following "next" link %s' % response.links['next'])
             response = self._call(response.links['next']['url'])
             issues.extend(response.json())
 
@@ -80,7 +75,6 @@ class GitHubAPI(object):
             sleep(3)
             return self.get_repo_commit_activity(owner, repo)
         elif response.status_code == 200:
-            print(response.json())
             return response.json()
 
     def get_releases(self, owner, repo):
@@ -100,49 +94,3 @@ class GitHubAPI(object):
         response = self._call(url)
         if response.status_code == requests.codes.ok:
             return response.json()
-
-
-if __name__ == '__main__':
-    ghub = GitHubAPI(os.environ['GITHUB_USERNAME'], os.environ['GITHUB_AUTH_TOKEN'])
-    # get dict of repo by name -> id
-    repos = ghub.get_org_repos('Princeton-CDH')
-    print(repos)
-
-    issues = ghub.get_repo_issues('Princeton-CDH', 'mep-django')
-    print(len(issues))
-
-    zhub = ZenHubAPI(os.environ['ZENHUB_API_TOKEN'])
-
-    project = 'ppa'
-    repo_id = repos['ppa-django']
-    # project = 'mep'
-    # repo_id = repos['mep-django']
-    with open('issue_storypoints.csv', 'w') as csvfile:
-        # title, # images, # complete, findingaid url, plum url
-        fieldnames = ['story', 'estimate', 'project', 'url']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-
-        print('%d total issues' % len(issues))
-        estimated = 0
-        for issue in issues:
-            print(issue['url'])
-            zhub_info = zhub.get_issue(repo_id, issue['number'])
-            print(zhub_info)
-            if zhub_info and 'estimate' in zhub_info and 'value' in zhub_info['estimate']:
-                info = {
-                    'story': issue['title'],
-                    'project': project,
-                    'url': issue['url'],
-                    'estimate': zhub_info['estimate']['value'],
-
-                }
-                estimated += 1
-                writer.writerow(info)
-
-        print('%d estimated issues' % estimated)
-
-
-    # for repo in repos
-        # for issue in repo
-        # get issue title, url, and current estimate
