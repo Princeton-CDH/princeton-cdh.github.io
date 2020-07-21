@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
 import json
 import os
 
-from storypoints import GitHubAPI
+from ghub_zhub import GitHubAPI
 
 
 def get_repo_releases():
@@ -21,7 +19,8 @@ def get_repo_releases():
         tags = ghub.get_tags(github_org, repo)
         repo_data = {}
         for tag in tags:
-            commit_info = ghub.get_commit(ghub_org, repo, tag['commit']['sha'])
+            commit_info = ghub.get_commit(github_org, repo,
+                                          tag['commit']['sha'])
             repo_data[tag['name']] = commit_info['commit']['author']['date']
 
         # skip if no tags

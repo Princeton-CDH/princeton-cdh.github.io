@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-
 import datetime
 import os
 import subprocess
 
 import pandas as pd
 
-from storypoints import GitHubAPI, ZenHubAPI
+from ghub_zhub import GitHubAPI, ZenHubAPI
 
 EXCLUDE_REPOS = [
     'bitKlavier', 'mapping-expatriate-paris', 'davilajs',
