@@ -50,10 +50,10 @@ def summarize_iterations():
         if i < 2:
             continue
         iteration['dev']['velocity'] = '%.2f' % \
-            (sum([i['dev']['points'] for i in iteration_data[i - 2:i]]) / 3.0)
+            (sum([i['dev']['points'] for i in iteration_data[i - 2:i + 1]]) / 3.0)
 
         iteration['design']['velocity'] = '%.2f' % \
-            (sum([i['design']['points'] for i in iteration_data[i - 2:i]]) / 3.0)
+            (sum([i['design']['points'] for i in iteration_data[i - 2:i + 1]]) / 3.0)
 
     with open('data/iteration-summary.json', 'w') as f:
         json.dump(iteration_data, f, indent=4)
