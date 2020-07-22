@@ -661,9 +661,9 @@
         "from": "2020-06-29",
         "to": "2020-07-17",
         "dev": {
-            "points": 30.0,
-            "issues": 82,
-            "velocity": 32.0
+            "points": 32.0,
+            "issues": 83,
+            "velocity": 32.67
         },
         "design": {
             "points": 0,
@@ -672,12 +672,12 @@
         "project_issues": {
             "startwords": 36,
             "mep-django": 19,
-            "pemm-scripts": 27
+            "pemm-scripts": 28
         },
         "project_points": {
             "startwords": 6.0,
             "mep-django": 3.0,
-            "pemm-scripts": 21.0
+            "pemm-scripts": 23.0
         }
     }
 ]
