@@ -28,7 +28,8 @@ def load_issues():
             labels = row['label'].split(';')
 
             issues.append(Issue(
-                int(row['estimate'] or 0),
+                # NOTE: integer failing here, not sure why CSV has non-ints
+                float(row['estimate'] or 0),
                 row['project'],
                 closed_date,
                 'design' in labels
