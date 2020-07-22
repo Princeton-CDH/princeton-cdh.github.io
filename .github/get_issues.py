@@ -46,7 +46,8 @@ def get_issues():
     github_org = os.environ['GITHUB_REPOSITORY'].split('/')[0]
     repos = ghub.get_org_repos(github_org)
 
-    get_issue_params = {}
+    # for reporting purposes, only include closed issues
+    get_issue_params = {'state': 'closed'}
     if date_since:
         get_issue_params['since'] = date_since.isoformat()
 
@@ -57,6 +58,12 @@ def get_issues():
 
         for issue in ghub.get_repo_issues(github_org, repo,
                                           params=get_issue_params):
+
+            # github returns pull requests in issue list,
+            # but we don't currently report on them
+            if 'pull_request' in issue:
+                continue
+
             zhub_info = zhub.get_issue(repo_id, issue['number'])
             milestone = issue['milestone']
 
