@@ -17,6 +17,9 @@ EXCLUDE_REPOS = [
 CSV_FIELDS = ['issue', 'project', 'url', 'estimate', 'closed',
               'labels', 'milestone']
 
+# filename where data will be stored or appended
+CSV_FILENAME = 'csv/issues.csv'
+
 
 def get_issues(all_issues=False):
     """
@@ -32,18 +35,16 @@ def get_issues(all_issues=False):
                      os.environ['GITHUB_API_TOKEN'])
     zhub = ZenHubAPI(os.environ['ZENHUB_API_TOKEN'])
 
-    # filename where data will be stored or appended
-    filename = 'data/issues.csv'
     date_since = None
     issue_count = 0
 
     # if the file exists and not retrieving all issues,
     # determine last commit
-    if os.path.exists(filename) and not all_issues:
+    if os.path.exists(CSV_FILENAME) and not all_issues:
         # get the last modification of the file in git
         last_commit_date = subprocess.check_output(
             ['git', 'log', '-1', '--date=short', '--pretty=%ad',
-             filename])
+             CSV_FILENAME])
         # convert bytes to string
         last_commit_date = last_commit_date.decode().strip()
         # NOTE: should add a flag or environment variable to turn this
@@ -60,7 +61,7 @@ def get_issues(all_issues=False):
 
     # open file in write mode if getting all issues; otherwise append
     write_mode = 'w' if all_issues else 'a'
-    with open(filename, write_mode) as csvfile:
+    with open(CSV_FILENAME, write_mode) as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=CSV_FIELDS)
         # when creating a new file, write out CSV header
         if all_issues:
