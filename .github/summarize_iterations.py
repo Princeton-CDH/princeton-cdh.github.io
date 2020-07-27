@@ -11,7 +11,7 @@ def load_issues():
     '''Read issues CSV and return as a list of :class:`Issue` sorted
     by date closed.'''
     issues = []
-    with open('data/issues.csv') as csvfile:
+    with open('csv/issues.csv') as csvfile:
         # issue, title, project, url, estimate, closed, labels, milestone
         fieldnames = ['issue', 'project', 'url',
                       'estimate', 'closed', 'label', 'milestone']
@@ -109,7 +109,7 @@ def summarize_iterations():
         iteration['design']['velocity'] = average(
             [i['design']['points'] for i in iteration_data[i - 2:i + 1]])
 
-    with open('data/iteration-summary.json', 'w') as f:
+    with open('data/iteration_summary.json', 'w') as f:
         json.dump(iteration_data, f, indent=4)
 
 
