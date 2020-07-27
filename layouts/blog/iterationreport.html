@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <div class="td-byline mb-4">
+        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+    </div>
+
+{{/* .Render "content" */}}   {{/* fixme — needs more granularity */}}
+
+{{/* Get iteration summary from data file */}}
+{{ $iterations := first 1 (where $.Site.Data.iteration_summary "from" .Params.iteration_start )}}
+{{ $iteration := (index $iterations 0) }}
+Report on iteration {{ $iteration.from }} — {{ $iteration.to }}
+
+<h2>Releases</h2>
+<ul>
+{{ range $repo := $.Site.Data.releases }}
+    {{ range $tagname, $tagdate :=  $repo.tags }}
+        {{ $tagday := (substr $tagdate 0 10) }}
+        {{ if (gt $tagday $iteration.from ) }}
+        <li>{{ $repo.repo }} v{{ $tagname }} — {{ dateFormat "Monday Jan 2, 2006" $tagday }}
+        </li>
+        {{ end }}
+    {{ end}}
+{{ end }}
+</ul>
+
+<h2>Velocity</h2>
+<h3>Development</h3>
+<p> {{ $iteration.dev.points }} points, {{ $iteration.dev.issues }} issues. Rolling velocity: <b>{{ $iteration.dev.velocity }}</b></p>
+
+<h3>Design</h3>
+<p> {{ $iteration.design.points }} points, {{ $iteration.design.issues }} issues. Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
+
+<hr/>
+   {{ .Content }}
+
+</div>
+
+{{ end }}
