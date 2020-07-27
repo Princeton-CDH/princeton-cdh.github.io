@@ -3648,3 +3648,8 @@ create README,startwords,https://api.github.com/repos/Princeton-CDH/startwords/i
 Customize article layouts to include metadata so zotero can harvest citations accurately,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/7,,2020-03-16 19:55:48+00:00,duplicate,Issue 1
 Plain text output should include space between paragraphs,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/5,,2020-03-16 19:57:45+00:00,duplicate,Issue 1
 "As an editor, I want to use a shortcode to format pull quotes in articles so that I can call attention to major insights.",startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/4,2.0,2020-06-22 18:53:08+00:00,,Issue 1
+split out CI builds,mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/634,,,chore,
+"As a user, I want to switch to a map view of the members list so that I discover proximity of members based on documented addresses.",mep-django,https://api.github.com/repos/Princeton-CDH/mep-django/issues/201,8,,question;wishlist,
+"As a cataloger, I want to see recension identifiers in the Incipit Search Tool so that I could find out not only a story ID, but also a recension",pemm-scripts,https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/65,2,2020-07-09T21:01:37Z,enhancement,
+styles for images in articles,startwords,https://api.github.com/repos/Princeton-CDH/startwords/issues/111,,,,Issue 1
+iteration report should only run when necessary,princeton-cdh.github.io,https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/4,,,,
