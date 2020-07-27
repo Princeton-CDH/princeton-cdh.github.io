@@ -50,4 +50,5 @@ jobs:
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GH_API_TOKEN }}
-        branch: 'feature/data-workflow'
+        branch: ${{ GITHUB_REF }}
+
