@@ -7,11 +7,17 @@
         <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
     </div>
 
-{{/* .Render "content" */}}   {{/* fixme — needs more granularity */}}
-
 {{/* Get iteration summary from data file */}}
 {{ $iterations := first 1 (where $.Site.Data.iteration_summary "from" .Params.iteration_start )}}
 {{ $iteration := (index $iterations 0) }}
+{{ $scratch := newScratch }}
+{{/* Determine current iteration index in the data file */}}
+{{ range $index, $element :=  $.Site.Data.iteration_summary }}
+    {{ if eq $element $iteration }}
+        {{ $scratch.Set "iteration_index" $index }}
+    {{ end }}
+{{ end }}
+
 Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}
 
 <h2>Releases</h2>
@@ -46,22 +52,26 @@ Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFo
     {{ end }}
 </ul>
 
+{{/* get the range of iterations show relative to the current iteration */}}
+{{ $range_start :=  sub ($scratch.Get "iteration_index") 5 }}
+{{ $show_iterations := first 6 (after $range_start $.Site.Data.iteration_summary) }}
+
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     drawVelocityChart({
         id: 'dev-velocity',
-        labels: [{{ range last 5 $.Site.Data.iteration_summary }} "{{ .from }}", {{ end }}],
-        points: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.points}}, {{ end }}],
-        issues: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.issues }}, {{ end }}],
-        velocity: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.velocity }}, {{ end }}]
+        labels: [{{ range $show_iterations }} "{{ .from }}", {{ end }}],
+        points: [{{ range $show_iterations }} {{ .dev.points}}, {{ end }}],
+        issues: [{{ range $show_iterations }} {{ .dev.issues }}, {{ end }}],
+        velocity: [{{ range $show_iterations }} {{ .dev.velocity }}, {{ end }}]
     });
 
     drawVelocityChart({
         id: 'design-velocity',
-        labels: [{{ range last 5 $.Site.Data.iteration_summary }} "{{ .from }}", {{ end }}],
-        points: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.points}}, {{ end }}],
-        issues: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.issues }}, {{ end }}],
-        velocity: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.velocity }}, {{ end }}]
+        labels: [{{ range $show_iterations }} "{{ .from }}", {{ end }}],
+        points: [{{ range $show_iterations }} {{ .design.points}}, {{ end }}],
+        issues: [{{ range $show_iterations }} {{ .design.issues }}, {{ end }}],
+        velocity: [{{ range $show_iterations }} {{ .design.velocity }}, {{ end }}]
     });
 
  });
