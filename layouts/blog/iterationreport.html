@@ -12,7 +12,7 @@
 {{/* Get iteration summary from data file */}}
 {{ $iterations := first 1 (where $.Site.Data.iteration_summary "from" .Params.iteration_start )}}
 {{ $iteration := (index $iterations 0) }}
-Report on iteration {{ $iteration.from }} — {{ $iteration.to }}
+Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}
 
 <h2>Releases</h2>
 <ul>
@@ -31,9 +31,41 @@ Report on iteration {{ $iteration.from }} — {{ $iteration.to }}
 <h3>Development</h3>
 <p> {{ $iteration.dev.points }} points, {{ $iteration.dev.issues }} issues. Rolling velocity: <b>{{ $iteration.dev.velocity }}</b></p>
 
+<canvas id="dev-velocity"></canvas>
+
 <h3>Design</h3>
 <p> {{ $iteration.design.points }} points, {{ $iteration.design.issues }} issues. Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
 
+<canvas id="design-velocity"></canvas>
+
+<h3>Active projects</h3>
+
+<ul>
+    {{ range $project, $issues := $iteration.project_issues }}
+    <li>{{ $project }} ({{ $issues }} issues, {{ index $iteration.project_points $project }} points)</li>
+    {{ end }}
+</ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    drawVelocityChart({
+        id: 'dev-velocity',
+        labels: [{{ range last 5 $.Site.Data.iteration_summary }} "{{ .from }}", {{ end }}],
+        points: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.points}}, {{ end }}],
+        issues: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.issues }}, {{ end }}],
+        velocity: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .dev.velocity }}, {{ end }}]
+    });
+
+    drawVelocityChart({
+        id: 'design-velocity',
+        labels: [{{ range last 5 $.Site.Data.iteration_summary }} "{{ .from }}", {{ end }}],
+        points: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.points}}, {{ end }}],
+        issues: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.issues }}, {{ end }}],
+        velocity: [{{ range last 5 $.Site.Data.iteration_summary }} {{ .design.velocity }}, {{ end }}]
+    });
+
+ });
+</script>
 <hr/>
    {{ .Content }}
 
