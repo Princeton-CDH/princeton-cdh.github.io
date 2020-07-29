@@ -1,6 +1,10 @@
 name: generate-iteration-report
 
-on: [push]
+on:
+  push:
+    branches:
+    - develop
+  pull_requests:
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
