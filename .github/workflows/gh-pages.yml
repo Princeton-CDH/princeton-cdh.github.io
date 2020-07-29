@@ -40,5 +40,3 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
-      with:
-        emptyCommits: false
