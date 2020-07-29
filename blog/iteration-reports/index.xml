@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development &amp; Design Team, Center for Digital Humanities @ Princeton – Iteration Reports</title><link>https://princeton-cdh.github.io/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Development &amp; Design Team, Center for Digital Humanities @ Princeton</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://princeton-cdh.github.io/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: July 21st, 2020</title><link>https://princeton-cdh.github.io/blog/iteration-reports/2020/07/july-21st-2020/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/blog/iteration-reports/2020/07/july-21st-2020/</guid><description>
+&lt;p>PEMM release with final updates to close out grant year.&lt;/p>
+&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item><item><title>Blog: June 30th, 2020</title><link>https://princeton-cdh.github.io/blog/iteration-reports/2020/06/june-30th-2020/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/blog/iteration-reports/2020/06/june-30th-2020/</guid><description>
+&lt;p>Lots of progress on &lt;em>Startwords&lt;/em>, but no official release until Issue 1 is ready.
+PEMM release put off until this iteration since only one feature was completed.&lt;/p>
+&lt;h2 id="demo">Demo&lt;/h2>
+&lt;h3 id="_startwords_">&lt;em>Startwords&lt;/em>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Scrollable contextual notes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/about/">We have an about page!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/">Pull quote!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/">Our first short piece!!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/#-">Amazing pit bar&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Princeton-CDH/startwords/issues/22#issuecomment-651201652">PDF&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
