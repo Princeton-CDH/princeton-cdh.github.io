@@ -3,7 +3,9 @@ title: "Dev/Design"
 linkTitle: "Home"
 ---
 
-{{< blocks/cover title="Dev/Design documentation" image_anchor="top" height="half" color="blue" >}}
+<!-- based on docsy home page example, needs modification -->
+
+{{< blocks/cover title="Dev/Design" image_anchor="top" height="min" color="blue" byline="Planning poker cards. Photo by Nick Budak." >}}
 <div class="mx-auto">
     <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
         Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -17,19 +19,18 @@ linkTitle: "Home"
 {{< /blocks/cover >}}
 
 
-
-{{% blocks/lead color="primary" %}}
+{{< blocks/lead color="primary" >}}
 Goldydocs provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating **your** porridge.
 
 (Sadly, Goldydocs isn't a real project, but you can use this site as an example to create your own real websites with [Docsy](http://docsy.dev))
-{{% /blocks/lead %}}
+{{< /blocks/lead >}}
 
 {{< blocks/section color="dark" >}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
+{{< blocks/feature icon="fa-lightbulb" title="New chair metrics!" >}}
 The Goldydocs UI now shows chair size metrics by default.
 
 Please follow this space for updates!
-{{% /blocks/feature %}}
+{{< /blocks/feature >}}
 
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
@@ -51,8 +52,6 @@ For announcement of latest features etc.
 </div>
 
 {{< /blocks/section >}}
-
-
 
 {{< blocks/section >}}
 {{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
@@ -79,8 +78,3 @@ For announcement of latest features etc.
 </div>
 
 {{< /blocks/section >}}
-
-    © 2020 GitHub, Inc.
-    Terms
-    Privacy
-    Security

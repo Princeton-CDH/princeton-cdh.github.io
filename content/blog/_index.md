@@ -1,6 +1,6 @@
 ---
-title: "Dev/Design Blog"
-linkTitle: "Blog"
+title: "Dev/Design Posts"
+linkTitle: "Posts"
 menu:
   main:
     weight: 30
