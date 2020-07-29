@@ -4,6 +4,11 @@ import os
 from ghub_zhub import GitHubAPI
 
 
+EXCLUDE_REPOS = [
+    'bitKlavier',
+]
+
+
 def get_repo_releases():
     """Use the GitHub API to collect all tags from all repositories
     in the GitHub organization.
@@ -16,6 +21,9 @@ def get_repo_releases():
 
     tag_data = []
     for repo in ghub.get_org_repos(github_org):
+        if repo in EXCLUDE_REPOS:
+            print('Skipping %s' % repo)
+            continue
         tags = ghub.get_tags(github_org, repo)
         repo_data = {}
         for tag in tags:
