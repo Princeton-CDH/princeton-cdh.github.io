@@ -6,7 +6,7 @@ on:
     - develop
   pull_request:
     branches:
-      - '*'
+    - '*'
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
@@ -54,7 +54,9 @@ jobs:
 
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
+      if: ${{ github.event_name == 'push' }}
       with:
         github_token: ${{ secrets.GH_API_TOKEN }}
         branch: ${{ github.ref }}
+
 
