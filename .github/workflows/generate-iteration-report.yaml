@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - develop
-  pull_requests:
+  pull_request:
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
