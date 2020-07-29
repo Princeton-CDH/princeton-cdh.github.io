@@ -1,0 +1,11 @@
+baseURL = "https://princeton-cdh.github.io/"
+languageCode = "en-us"
+title = "Development & Design Team, Center for Digital Humanities @ Princeton"
+theme = "docsy"
+
+# Will give values to .Lastmod etc.
+enableGitInfo = true
+
+
+[permalinks]
+blog = "/:sections/:year/:month/:slug/"

@@ -1,0 +1,84 @@
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <div class="td-byline mb-4">
+        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+    </div>
+
+{{/* Get iteration summary from data file */}}
+{{ $iterations := first 1 (where $.Site.Data.iteration_summary "from" .Params.iteration_start )}}
+{{ $iteration := (index $iterations 0) }}
+{{ $scratch := newScratch }}
+{{/* Determine current iteration index in the data file */}}
+{{ range $index, $element :=  $.Site.Data.iteration_summary }}
+    {{ if eq $element $iteration }}
+        {{ $scratch.Set "iteration_index" $index }}
+    {{ end }}
+{{ end }}
+
+Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}
+
+<h2>Releases</h2>
+<ul>
+{{ range $repo := $.Site.Data.releases }}
+    {{ range $tagname, $tagdate :=  $repo.tags }}
+        {{ $tagday := (substr $tagdate 0 10) }}
+        {{ if (gt $tagday $iteration.from ) }}
+        <li>{{ $repo.repo }} v{{ $tagname }} — {{ dateFormat "Monday Jan 2, 2006" $tagday }}
+        </li>
+        {{ end }}
+    {{ end}}
+{{ end }}
+</ul>
+
+<h2>Velocity</h2>
+<h3>Development</h3>
+<p> {{ $iteration.dev.points }} points, {{ $iteration.dev.issues }} issues. Rolling velocity: <b>{{ $iteration.dev.velocity }}</b></p>
+
+<canvas id="dev-velocity"></canvas>
+
+<h3>Design</h3>
+<p> {{ $iteration.design.points }} points, {{ $iteration.design.issues }} issues. Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
+
+<canvas id="design-velocity"></canvas>
+
+<h3>Active projects</h3>
+
+<ul>
+    {{ range $project, $issues := $iteration.project_issues }}
+    <li>{{ $project }} ({{ $issues }} issues, {{ index $iteration.project_points $project }} points)</li>
+    {{ end }}
+</ul>
+
+{{/* get the range of iterations show relative to the current iteration */}}
+{{ $range_start :=  sub ($scratch.Get "iteration_index") 5 }}
+{{ $show_iterations := first 6 (after $range_start $.Site.Data.iteration_summary) }}
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    drawVelocityChart({
+        id: 'dev-velocity',
+        labels: [{{ range $show_iterations }} "{{ .from }}", {{ end }}],
+        points: [{{ range $show_iterations }} {{ .dev.points}}, {{ end }}],
+        issues: [{{ range $show_iterations }} {{ .dev.issues }}, {{ end }}],
+        velocity: [{{ range $show_iterations }} {{ .dev.velocity }}, {{ end }}]
+    });
+
+    drawVelocityChart({
+        id: 'design-velocity',
+        labels: [{{ range $show_iterations }} "{{ .from }}", {{ end }}],
+        points: [{{ range $show_iterations }} {{ .design.points}}, {{ end }}],
+        issues: [{{ range $show_iterations }} {{ .design.issues }}, {{ end }}],
+        velocity: [{{ range $show_iterations }} {{ .design.velocity }}, {{ end }}]
+    });
+
+ });
+</script>
+<hr/>
+   {{ .Content }}
+
+</div>
+
+{{ end }}
