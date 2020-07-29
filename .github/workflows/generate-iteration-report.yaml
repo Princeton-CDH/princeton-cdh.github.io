@@ -5,6 +5,8 @@ on:
     branches:
     - develop
   pull_request:
+    branches:
+      - '*'
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
