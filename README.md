@@ -15,6 +15,23 @@ Because GitHub currently only supports publishing User and Organization sites fr
 To add a new iteration report, create a new post under `content/blog/iteration-reports` with `layout: iterationreport` and configure an `iteration_start` date that matches the iteration start value in the iterations summary data file.
 
 
+## setup
+
+When checking out for local development, make sure you have
+the docsy theme via git submodule:
+
+```
+git submodule update --init --recursive
+```
+
+Install npm dependencies:
+
+```
+npm install
+``
+
+
+
 
 
 
