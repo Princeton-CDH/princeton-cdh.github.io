@@ -1,0 +1,5 @@
+{{ if (eq .Params.layout "iterationreport") }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+{{ $velocity := resources.Get "js/velocity.js" }}
+<script type="text/javascript" src="{{ $velocity.RelPermalink }}" defer></script>
+{{ end }}
