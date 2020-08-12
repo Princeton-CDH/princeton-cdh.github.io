@@ -19,13 +19,18 @@ def load_issues():
         for row in csvreader:
             # skip any issues that are not yet closed
             if row['closed'] == 'closed' or not row['closed']:
-                    continue
+                continue
+            # split labels on ; so we can check individual labels
+            # (avoid partial string match for design related labels)
+            labels = row['label'].split(';')
+
+            # for reporting purposes, skip: wontfix, duplicate, invalid
+            skip_labels = ['wontfix', 'duplicate', 'invalid']
+            if any(skip in labels for skip in skip_labels):
+                continue
 
             closed_date = datetime.datetime.strptime(
                 row['closed'][:10], '%Y-%m-%d')
-            # split labels on ; to avoid partial string match for
-            # design and 'awaiting design testing'
-            labels = row['label'].split(';')
 
             issues.append(Issue(
                 # NOTE: integer failing here, not sure why CSV has non-ints
@@ -93,7 +98,8 @@ def summarize_iterations():
                     iteration[devdesign]['points'] += issue.estimate
                     iteration[devdesign]['issues'] += 1
                     iteration['project_issues'][issue.project] += 1
-                    iteration['project_points'][issue.project] += issue.estimate
+                    iteration['project_points'][issue.project] += \
+                        int(issue.estimate)
                 elif issue.date >= end:
                     # stop looping at first issue outside this iteration
                     issue_index += i - 1
