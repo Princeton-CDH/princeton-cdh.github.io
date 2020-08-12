@@ -1,0 +1,51 @@
+{{/* TODO: rename to project report and document options */}}
+
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <div class="td-byline mb-4">
+        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+    </div>
+
+{{ $date_range := .Params.date_range}}
+<h2>Releases</h2>
+<ul>
+{{ $project := index ( where $.Site.Data.releases "repo" .Params.project) 0 }}
+{{ range $tagname, $tagdate :=  $project.tags }}
+    {{ if and (ge $tagdate $date_range.start ) (le $tagdate $date_range.end ) }}
+    <li>v{{ $tagname }} ({{ dateFormat "Monday Jan 2, 2006" $tagdate }})
+    </li>
+    {{ end }}
+{{ end}}
+</ul>
+
+<section class="issue-details">
+<h2>Issues closed</h2>
+{{ $warranty_issues := where (where (where $.Site.Data.issues "closed" ">=" $date_range.start) "closed" "<=" $date_range.end) "project" "mep-django" }}
+<h3>Bugs</h3>
+<ul>
+    {{ range where $warranty_issues "labels" "bug" }}
+        <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
+            {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
+            {{ if .labels }}<span class="labels">{{ .labels }}</span>{{ end }}
+        </li>
+    {{ end }}
+</ul>
+
+<h3>Other</h3>
+<ul>
+    {{ range where $warranty_issues "labels" "ne" "bug" }}
+        <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
+            {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
+            {{ if .labels }}<span class="labels">{{ .labels }}</span>{{ end }}
+        </li>
+    {{ end }}
+</ul>
+
+</section>
+
+</div>
+
+{{ end }}
