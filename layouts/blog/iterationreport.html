@@ -10,6 +10,7 @@
 {{/* Get iteration summary from data file */}}
 {{ $iterations := first 1 (where $.Site.Data.iteration_summary "from" .Params.iteration_start )}}
 {{ $iteration := (index $iterations 0) }}
+
 {{ $scratch := newScratch }}
 {{/* Determine current iteration index in the data file */}}
 {{ range $index, $element :=  $.Site.Data.iteration_summary }}
@@ -18,15 +19,22 @@
     {{ end }}
 {{ end }}
 
-Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}
+<p>Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}</p>
+<hr/>
+
+{{/* display any content from the file (overview of the iteration etc.) */}}
+   {{ .Content }}
+
+<hr/>
 
 <h2>Releases</h2>
 <ul>
+{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<=" $iteration.to }}
+
 {{ range $repo := $.Site.Data.releases }}
     {{ range $tagname, $tagdate :=  $repo.tags }}
-        {{ $tagday := (substr $tagdate 0 10) }}
-        {{ if (gt $tagday $iteration.from ) }}
-        <li>{{ $repo.repo }} v{{ $tagname }} — {{ dateFormat "Monday Jan 2, 2006" $tagday }}
+        {{ if and (ge $tagdate $iteration.from ) (le $tagdate $iteration.to ) }}
+        <li>{{ $repo.repo }} v{{ $tagname }} — {{ dateFormat "Monday Jan 2, 2006" $tagdate }}
         </li>
         {{ end }}
     {{ end}}
@@ -35,12 +43,13 @@ Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFo
 
 <h2>Velocity</h2>
 <h3>Development</h3>
-<p> {{ $iteration.dev.points }} points, {{ $iteration.dev.issues }} issues. Rolling velocity: <b>{{ $iteration.dev.velocity }}</b></p>
+<p>{{ partial "issues_points.html" (dict "points" $iteration.dev.points "issues" $iteration.dev.issues ) }}. Rolling velocity: <b>{{ $iteration.dev.velocity }}</b></p>
 
 <canvas id="dev-velocity"></canvas>
 
 <h3>Design</h3>
-<p> {{ $iteration.design.points }} points, {{ $iteration.design.issues }} issues. Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
+<p>{{ partial "issues_points.html" (dict "points" $iteration.design.points "issues" $iteration.design.issues ) }}.
+Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
 
 <canvas id="design-velocity"></canvas>
 
@@ -48,7 +57,8 @@ Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFo
 
 <ul>
     {{ range $project, $issues := $iteration.project_issues }}
-    <li>{{ $project }} ({{ $issues }} issues, {{ index $iteration.project_points $project }} points)</li>
+        {{ $points := index $iteration.project_points $project }}
+    <li>{{ $project }} ({{ partial "issues_points.html" (dict "points" $points "issues" $issues ) }})
     {{ end }}
 </ul>
 
@@ -76,8 +86,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
  });
 </script>
+
 <hr/>
-   {{ .Content }}
+
+{{/* Get issues for this iteration  */}}
+{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<=" $iteration.to }}
+<section class="issue-details">
+<h3>Closed issues by project</h3>
+<ul>
+    {{ range $project, $issues := $iteration.project_issues }}
+    <li>{{ $project }}
+        <ul>
+            {{ range where $iteration_issues "project" $project }}
+                <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
+                    {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
+                    {{ if .labels }}<span class="labels">{{ .labels }}</span>{{ end }}
+                </li>
+            {{ end }}
+        </ul>
+    </li>
+    {{ end }}
+</ul>
+</section>
 
 </div>
 
