@@ -3,11 +3,11 @@
         "from": "2018-12-03",
         "to": "2018-12-18",
         "dev": {
-            "points": 55.0,
+            "points": 55,
             "issues": 48
         },
         "design": {
-            "points": 3.0,
+            "points": 3,
             "issues": 8
         },
         "project_issues": {
@@ -23,11 +23,11 @@
         "from": "2019-01-23",
         "to": "2019-02-17",
         "dev": {
-            "points": 14.0,
+            "points": 14,
             "issues": 13
         },
         "design": {
-            "points": 4.0,
+            "points": 4,
             "issues": 2
         },
         "project_issues": {
@@ -43,24 +43,24 @@
         "from": "2019-02-18",
         "to": "2019-03-03",
         "dev": {
-            "points": 33.0,
+            "points": 33,
             "issues": 32,
             "velocity": 34.0
         },
         "design": {
-            "points": 2.0,
+            "points": 2,
             "issues": 3,
             "velocity": 3.0
         },
         "project_issues": {
-            "ppa-django": 27,
             "parasolr": 1,
+            "ppa-django": 27,
             "mep-django": 6,
             "CDH_ansible": 1
         },
         "project_points": {
-            "ppa-django": 27,
             "parasolr": 0,
+            "ppa-django": 27,
             "mep-django": 8,
             "CDH_ansible": 0
         }
@@ -69,12 +69,12 @@
         "from": "2019-03-04",
         "to": "2019-03-17",
         "dev": {
-            "points": 20.0,
+            "points": 20,
             "issues": 9,
             "velocity": 22.33
         },
         "design": {
-            "points": 5.0,
+            "points": 5,
             "issues": 1,
             "velocity": 3.67
         },
@@ -93,12 +93,12 @@
         "from": "2019-03-18",
         "to": "2019-04-01",
         "dev": {
-            "points": 8.0,
+            "points": 8,
             "issues": 4,
             "velocity": 20.33
         },
         "design": {
-            "points": 16.0,
+            "points": 16,
             "issues": 5,
             "velocity": 7.67
         },
@@ -115,12 +115,12 @@
         "from": "2019-04-02",
         "to": "2019-04-12",
         "dev": {
-            "points": 25.0,
+            "points": 25,
             "issues": 17,
             "velocity": 17.67
         },
         "design": {
-            "points": 12.0,
+            "points": 12,
             "issues": 8,
             "velocity": 11.0
         },
@@ -141,12 +141,12 @@
         "from": "2019-04-15",
         "to": "2019-04-25",
         "dev": {
-            "points": 15.0,
+            "points": 15,
             "issues": 8,
             "velocity": 16.0
         },
         "design": {
-            "points": 5.0,
+            "points": 5,
             "issues": 1,
             "velocity": 11.0
         },
@@ -163,12 +163,12 @@
         "from": "2019-04-29",
         "to": "2019-05-09",
         "dev": {
-            "points": 15.0,
+            "points": 15,
             "issues": 9,
             "velocity": 18.33
         },
         "design": {
-            "points": 1.0,
+            "points": 1,
             "issues": 1,
             "velocity": 6.0
         },
@@ -185,7 +185,7 @@
         "from": "2019-05-13",
         "to": "2019-05-23",
         "dev": {
-            "points": 20.0,
+            "points": 20,
             "issues": 10,
             "velocity": 16.67
         },
@@ -204,7 +204,7 @@
         "from": "2019-06-04",
         "to": "2019-06-13",
         "dev": {
-            "points": 11.0,
+            "points": 11,
             "issues": 10,
             "velocity": 15.33
         },
@@ -225,12 +225,12 @@
         "from": "2019-06-24",
         "to": "2019-07-04",
         "dev": {
-            "points": 4.0,
+            "points": 4,
             "issues": 9,
             "velocity": 11.67
         },
         "design": {
-            "points": 8.0,
+            "points": 8,
             "issues": 2,
             "velocity": 2.67
         },
@@ -251,12 +251,12 @@
         "from": "2019-08-19",
         "to": "2019-09-05",
         "dev": {
-            "points": 26.0,
+            "points": 26,
             "issues": 18,
             "velocity": 13.67
         },
         "design": {
-            "points": 8.0,
+            "points": 8,
             "issues": 2,
             "velocity": 5.33
         },
@@ -273,7 +273,7 @@
         "from": "2019-09-16",
         "to": "2019-09-26",
         "dev": {
-            "points": 3.0,
+            "points": 3,
             "issues": 1,
             "velocity": 11.0
         },
@@ -292,12 +292,12 @@
         "from": "2019-09-30",
         "to": "2019-10-11",
         "dev": {
-            "points": 13.0,
+            "points": 13,
             "issues": 14,
             "velocity": 14.0
         },
         "design": {
-            "points": 7.0,
+            "points": 7,
             "issues": 4,
             "velocity": 5.0
         },
@@ -314,34 +314,34 @@
         "from": "2019-10-14",
         "to": "2019-10-25",
         "dev": {
-            "points": 17.0,
+            "points": 17,
             "issues": 14,
             "velocity": 11.0
         },
         "design": {
-            "points": 12.0,
+            "points": 12,
             "issues": 5,
             "velocity": 6.33
         },
         "project_issues": {
-            "mep-django": 18,
-            "CDH_ansible": 1
+            "CDH_ansible": 1,
+            "mep-django": 18
         },
         "project_points": {
-            "mep-django": 29,
-            "CDH_ansible": 0
+            "CDH_ansible": 0,
+            "mep-django": 29
         }
     },
     {
         "from": "2019-11-04",
         "to": "2019-11-15",
         "dev": {
-            "points": 25.0,
+            "points": 25,
             "issues": 11,
             "velocity": 18.33
         },
         "design": {
-            "points": 7.0,
+            "points": 7,
             "issues": 4,
             "velocity": 8.67
         },
@@ -356,12 +356,12 @@
         "from": "2019-11-18",
         "to": "2019-12-06",
         "dev": {
-            "points": 12.0,
+            "points": 12,
             "issues": 14,
             "velocity": 18.0
         },
         "design": {
-            "points": 3.0,
+            "points": 3,
             "issues": 8,
             "velocity": 7.33
         },
@@ -380,12 +380,12 @@
         "from": "2019-12-07",
         "to": "2019-12-31",
         "dev": {
-            "points": 17.0,
+            "points": 17,
             "issues": 22,
             "velocity": 18.0
         },
         "design": {
-            "points": 2.0,
+            "points": 2,
             "issues": 2,
             "velocity": 4.0
         },
@@ -402,7 +402,7 @@
         "from": "2020-01-01",
         "to": "2020-01-31",
         "dev": {
-            "points": 3.0,
+            "points": 3,
             "issues": 17,
             "velocity": 10.67
         },
@@ -429,12 +429,12 @@
         "from": "2020-02-01",
         "to": "2020-02-14",
         "dev": {
-            "points": 3.0,
+            "points": 3,
             "issues": 8,
             "velocity": 7.67
         },
         "design": {
-            "points": 3.0,
+            "points": 3,
             "issues": 2,
             "velocity": 1.67
         },
@@ -453,12 +453,12 @@
         "from": "2020-02-15",
         "to": "2020-03-02",
         "dev": {
-            "points": 11.0,
+            "points": 11,
             "issues": 8,
             "velocity": 5.67
         },
         "design": {
-            "points": 10.0,
+            "points": 10,
             "issues": 2,
             "velocity": 4.33
         },
@@ -475,12 +475,12 @@
         "from": "2020-03-03",
         "to": "2020-03-29",
         "dev": {
-            "points": 26.0,
+            "points": 26,
             "issues": 28,
             "velocity": 13.33
         },
         "design": {
-            "points": 15.0,
+            "points": 15,
             "issues": 6,
             "velocity": 9.33
         },
@@ -499,12 +499,12 @@
         "from": "2020-03-30",
         "to": "2020-04-10",
         "dev": {
-            "points": 13.0,
+            "points": 13,
             "issues": 11,
             "velocity": 16.67
         },
         "design": {
-            "points": 4.0,
+            "points": 4,
             "issues": 6,
             "velocity": 9.67
         },
@@ -523,12 +523,12 @@
         "from": "2020-04-11",
         "to": "2020-04-17",
         "dev": {
-            "points": 1.0,
+            "points": 1,
             "issues": 1,
             "velocity": 13.33
         },
         "design": {
-            "points": 8.0,
+            "points": 8,
             "issues": 2,
             "velocity": 9.0
         },
@@ -543,12 +543,12 @@
         "from": "2020-04-20",
         "to": "2020-05-01",
         "dev": {
-            "points": 13.0,
+            "points": 13,
             "issues": 16,
             "velocity": 9.0
         },
         "design": {
-            "points": 14.0,
+            "points": 14,
             "issues": 8,
             "velocity": 8.67
         },
@@ -567,12 +567,12 @@
         "from": "2020-05-04",
         "to": "2020-05-15",
         "dev": {
-            "points": 17.0,
+            "points": 17,
             "issues": 26,
             "velocity": 10.33
         },
         "design": {
-            "points": 6.0,
+            "points": 6,
             "issues": 10,
             "velocity": 9.33
         },
@@ -587,12 +587,12 @@
         "from": "2020-05-16",
         "to": "2020-05-29",
         "dev": {
-            "points": 5.0,
+            "points": 5,
             "issues": 33,
             "velocity": 11.67
         },
         "design": {
-            "points": 11.0,
+            "points": 11,
             "issues": 6,
             "velocity": 10.33
         },
@@ -609,12 +609,12 @@
         "from": "2020-05-30",
         "to": "2020-06-12",
         "dev": {
-            "points": 3.0,
+            "points": 3,
             "issues": 16,
             "velocity": 8.33
         },
         "design": {
-            "points": 8.0,
+            "points": 8,
             "issues": 5,
             "velocity": 8.33
         },
@@ -635,12 +635,12 @@
         "from": "2020-06-15",
         "to": "2020-06-26",
         "dev": {
-            "points": 19.0,
+            "points": 19,
             "issues": 15,
             "velocity": 9.0
         },
         "design": {
-            "points": 4.0,
+            "points": 4,
             "issues": 2,
             "velocity": 7.67
         },
@@ -657,7 +657,7 @@
         "from": "2020-06-29",
         "to": "2020-07-17",
         "dev": {
-            "points": 10.0,
+            "points": 10,
             "issues": 25,
             "velocity": 10.67
         },
@@ -674,6 +674,25 @@
             "startwords": 2,
             "mep-django": 1,
             "pemm-scripts": 7
+        }
+    },
+    {
+        "from": "2020-07-20",
+        "to": "2020-08-07",
+        "dev": {
+            "points": 0,
+            "issues": 4,
+            "velocity": 9.67
+        },
+        "design": {
+            "points": 0,
+            "velocity": 1.33
+        },
+        "project_issues": {
+            "mep-django": 4
+        },
+        "project_points": {
+            "mep-django": 0
         }
     }
 ]
