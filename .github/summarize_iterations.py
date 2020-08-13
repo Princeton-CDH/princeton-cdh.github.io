@@ -1,4 +1,3 @@
-import csv
 import datetime
 import json
 from collections import defaultdict, namedtuple
@@ -11,33 +10,28 @@ def load_issues():
     '''Read issues CSV and return as a list of :class:`Issue` sorted
     by date closed.'''
     issues = []
-    with open('csv/issues.csv') as csvfile:
-        # issue, title, project, url, estimate, closed, labels, milestone
-        fieldnames = ['issue', 'project', 'url',
-                      'estimate', 'closed', 'label', 'milestone']
-        csvreader = csv.DictReader(csvfile, fieldnames=fieldnames)
-        for row in csvreader:
+    with open('data/issues.json') as datafile:
+        data = json.load(datafile)
+
+        for issue in data:
             # skip any issues that are not yet closed
-            if row['closed'] == 'closed' or not row['closed']:
+            if issue['closed'] == 'closed' or not issue['closed']:
                 continue
-            # split labels on ; so we can check individual labels
-            # (avoid partial string match for design related labels)
-            labels = row['label'].split(';')
 
             # for reporting purposes, skip: wontfix, duplicate, invalid
             skip_labels = ['wontfix', 'duplicate', 'invalid']
-            if any(skip in labels for skip in skip_labels):
+            if any(skip in issue['labels'] for skip in skip_labels):
                 continue
 
             closed_date = datetime.datetime.strptime(
-                row['closed'][:10], '%Y-%m-%d')
+                issue['closed'][:10], '%Y-%m-%d')
 
             issues.append(Issue(
                 # NOTE: integer failing here, not sure why CSV has non-ints
-                float(row['estimate'] or 0),
-                row['project'],
+                int(issue['estimate'] or 0),
+                issue['project'],
                 closed_date,
-                'design' in labels
+                'design' in issue['labels']
             ))
     # sort issues by date
     return sorted(issues, key=lambda issue: issue.date)
@@ -110,10 +104,11 @@ def summarize_iterations():
         # not enough data; skip
         if i < 2:
             continue
+
         iteration['dev']['velocity'] = average(
-            [i['dev']['points'] for i in iteration_data[i - 2:i + 1]])
+            [it['dev']['points'] for it in iteration_data[i - 2:i + 1]])
         iteration['design']['velocity'] = average(
-            [i['design']['points'] for i in iteration_data[i - 2:i + 1]])
+            [it['design']['points'] for it in iteration_data[i - 2:i + 1]])
 
     with open('data/iteration_summary.json', 'w') as f:
         json.dump(iteration_data, f, indent=4)
