@@ -1,6 +1,7 @@
 import argparse
 import csv
 import datetime
+import json
 import os
 import subprocess
 
@@ -14,11 +15,8 @@ EXCLUDE_REPOS = [
 ]
 
 
-CSV_FIELDS = ['issue', 'project', 'url', 'estimate', 'closed',
-              'labels', 'milestone']
-
-# filename where data will be stored or appended
-CSV_FILENAME = 'csv/issues.csv'
+# file where data will be stored
+DATA_FILENAME = 'data/issues.json'
 
 
 def get_issues(all_issues=False):
@@ -40,62 +38,68 @@ def get_issues(all_issues=False):
 
     # if the file exists and not retrieving all issues,
     # determine last commit
-    if os.path.exists(CSV_FILENAME) and not all_issues:
+    if os.path.exists(DATA_FILENAME) and not all_issues:
         # get the last modification of the file in git
         last_commit_date = subprocess.check_output(
             ['git', 'log', '-1', '--date=short', '--pretty=%ad',
-             CSV_FILENAME])
+             DATA_FILENAME])
         # convert bytes to string
         last_commit_date = last_commit_date.decode().strip()
-        # NOTE: should add a flag or environment variable to turn this
-        # off and get an updated set of all issues
-        date_since = datetime.datetime.strptime(last_commit_date, '%Y-%m-%d')
+        if last_commit_date:
+            date_since = datetime.datetime.strptime(last_commit_date,
+                                                    '%Y-%m-%d')
 
     github_org = os.environ['GITHUB_REPOSITORY'].split('/')[0]
     repos = ghub.get_org_repos(github_org)
 
-    # for reporting purposes, only include closed issues
+    # NOTE: possible/useful to only include closed issues?
     get_issue_params = {}
     if date_since:
         get_issue_params['since'] = date_since.isoformat()
 
-    # open file in write mode if getting all issues; otherwise append
-    write_mode = 'w' if all_issues else 'a'
-    with open(CSV_FILENAME, write_mode) as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=CSV_FIELDS)
-        # when creating a new file, write out CSV header
-        if all_issues:
-            writer.writeheader()
+    # open file and load all previous issues
+    with open(DATA_FILENAME) as datafile:
+        data = json.load(datafile)
 
-        for repo, repo_id in repos.items():
-            if repo in EXCLUDE_REPOS:
-                print('Skipping %s' % repo)
+    # load into a dict keyed on issue url to uniquify and allow updating
+    issues = {}
+    for issue in data:
+        issues[issue['url']] = issue
+
+    for repo, repo_id in repos.items():
+        if repo in EXCLUDE_REPOS:
+            print('Skipping %s' % repo)
+            continue
+
+        for issue in ghub.get_repo_issues(github_org, repo,
+                                          params=get_issue_params):
+            # github returns pull requests in issue list,
+            # but we don't currently report on them
+            if 'pull_request' in issue:
                 continue
 
-            for issue in ghub.get_repo_issues(github_org, repo,
-                                              params=get_issue_params):
-                # github returns pull requests in issue list,
-                # but we don't currently report on them
-                if 'pull_request' in issue:
-                    continue
+            zhub_info = zhub.get_issue(repo_id, issue['number'])
+            milestone = issue['milestone']
+            info = {
+                'issue': issue['title'],
+                'project': repo,
+                'url': issue['url'],
+                'estimate': zhub_info.get('estimate', {}).get('value', ''),
+                'closed': issue['closed_at'],
+                'labels': [l['name'] for l in issue['labels']],
+                'milestone': milestone['title'] if milestone else '',
+            }
+            # add/update issue info in issue data dict
+            issues[info['url']] = info
 
-                zhub_info = zhub.get_issue(repo_id, issue['number'])
-                milestone = issue['milestone']
+            issue_count += 1
 
-                info = {
-                    'issue': issue['title'],
-                    'project': repo,
-                    'url': issue['url'],
-                    'estimate': zhub_info.get('estimate', {}).get('value', ''),
-                    'closed': issue['closed_at'],
-                    'labels': ';'.join([l['name'] for l in issue['labels']]),
-                    'milestone': milestone['title'] if milestone else '',
-                }
-                # write out to csv file
-                writer.writerow(info)
-                issue_count += 1
+    print('Downloaded updated data for %d issues' % issue_count)
 
-    print('Downloaded data for %d issues' % issue_count)
+    # write updated data file as a list of issues sorted by issue url
+    with open(DATA_FILENAME, 'w') as datafile:
+        json.dump([issues[url] for url in sorted(issues.keys())],
+                  datafile, indent=2)
 
 
 if __name__ == '__main__':
