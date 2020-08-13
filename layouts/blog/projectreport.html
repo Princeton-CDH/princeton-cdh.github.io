@@ -1,5 +1,13 @@
-{{/* TODO: rename to project report and document options */}}
+{{/* custom layout to report on work done on a single project for a specified date range.
 
+Page metadata should use the following structure to configure project and dates:
+
+layout: projectreport
+project: mep-django
+date_range:
+    start: "2020-06-01"
+    end: "2020-08-01"
+*/}}
 {{ define "main" }}
 <div class="td-content">
     <h1>{{ .Title }}</h1>
@@ -8,6 +16,10 @@
         {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
         <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
     </div>
+
+{{ .Content }}
+
+<hr/>
 
 {{ $date_range := .Params.date_range}}
 <h2>Releases</h2>
