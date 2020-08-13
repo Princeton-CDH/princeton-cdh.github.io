@@ -20,12 +20,19 @@
 {{ end }}
 
 <p>Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}</p>
-<hr/>
-
 {{/* display any content from the file (overview of the iteration etc.) */}}
-   {{ .Content }}
+{{ .Content }}
 
 <hr/>
+
+<h2>Active projects</h2>
+
+<ul>
+    {{ range $project, $issues := $iteration.project_issues }}
+        {{ $points := index $iteration.project_points $project }}
+    <li>{{ $project }} ({{ partial "issues_points.html" (dict "points" $points "issues" $issues ) }})
+    {{ end }}
+</ul>
 
 <h2>Releases</h2>
 <ul>
@@ -52,15 +59,6 @@
 Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
 
 <canvas id="design-velocity"></canvas>
-
-<h3>Active projects</h3>
-
-<ul>
-    {{ range $project, $issues := $iteration.project_issues }}
-        {{ $points := index $iteration.project_points $project }}
-    <li>{{ $project }} ({{ partial "issues_points.html" (dict "points" $points "issues" $issues ) }})
-    {{ end }}
-</ul>
 
 {{/* get the range of iterations show relative to the current iteration */}}
 {{ $range_start :=  sub ($scratch.Get "iteration_index") 5 }}
