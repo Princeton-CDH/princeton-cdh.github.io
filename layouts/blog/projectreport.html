@@ -24,23 +24,20 @@
 <section class="issue-details">
 <h2>Issues closed</h2>
 {{ $warranty_issues := where (where (where $.Site.Data.issues "closed" ">=" $date_range.start) "closed" "<=" $date_range.end) "project" "mep-django" }}
+{{ $bugs := where $warranty_issues "labels" "intersect" (slice "bug") }}
 <h3>Bugs</h3>
 <ul>
-    {{ range where $warranty_issues "labels" "bug" }}
-        <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
-            {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
-            {{ if .labels }}<span class="labels">{{ delimit .labels ", " }}</span>{{ end }}
-        </li>
+    {{ range $bugs }}
+        {{ partial "issue_single.html" . }}
     {{ end }}
 </ul>
 
 <h3>Other</h3>
 <ul>
-    {{ range where $warranty_issues "labels" "ne" "bug" }}
-        <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
-            {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
-            {{ if .labels }}<span class="labels">{{ .labels }}</span>{{ end }}
-        </li>
+    {{ range $warranty_issues }}
+        {{ if not (in .labels "bug") }}
+            {{ partial "issue_single.html" . }}
+        {{ end }}
     {{ end }}
 </ul>
 
