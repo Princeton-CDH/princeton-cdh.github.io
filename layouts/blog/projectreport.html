@@ -29,7 +29,7 @@
     {{ range where $warranty_issues "labels" "bug" }}
         <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
             {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
-            {{ if .labels }}<span class="labels">{{ .labels }}</span>{{ end }}
+            {{ if .labels }}<span class="labels">{{ delimit .labels ", " }}</span>{{ end }}
         </li>
     {{ end }}
 </ul>
