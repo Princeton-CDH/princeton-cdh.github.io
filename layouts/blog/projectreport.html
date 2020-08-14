@@ -27,7 +27,8 @@ date_range:
 {{ $project := index ( where $.Site.Data.releases "repo" .Params.project) 0 }}
 {{ range $tagname, $tagdate :=  $project.tags }}
     {{ if and (ge $tagdate $date_range.start ) (le $tagdate $date_range.end ) }}
-    <li>v{{ $tagname }} ({{ dateFormat "Monday Jan 2, 2006" $tagdate }})
+
+    <li><a href="{{ $.Site.Params.github_org_url }}{{ $project.repo }}/releases/tag/{{ $tagname }}">v{{ $tagname }}</a> — {{ dateFormat "Monday Jan 2, 2006" $tagdate }}
     </li>
     {{ end }}
 {{ end}}

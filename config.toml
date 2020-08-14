@@ -9,3 +9,7 @@ enableGitInfo = true
 
 [permalinks]
 blog = "/:sections/:year/:month/:slug/"
+
+
+[params]
+  github_org_url = "https://github.com/princeton-cdh/"
