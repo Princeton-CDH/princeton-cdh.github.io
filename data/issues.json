@@ -12685,6 +12685,17 @@
     "milestone": ""
   },
   {
+    "issue": "Increase links to github in iteration report",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/7",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Update the author's text style on the article pages so that it matches the designs",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/100",
