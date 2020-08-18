@@ -780,7 +780,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.6.1"
   },
   {
     "issue": "As a user, I want to view and download files associated with pages on the site so that I can access other materials related to the content.",
@@ -895,6 +895,17 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": "v2.6.1"
+  },
+  {
+    "issue": "upgrade django + mezzanine",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/193",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": "v2.6.1"
   },
   {
@@ -12680,7 +12691,7 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/6",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-14T13:48:02Z",
     "labels": [],
     "milestone": ""
   },
