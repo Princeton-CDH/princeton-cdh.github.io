@@ -84,4 +84,113 @@ Many of the decisions in IA, UI, IxD, and Visual Design require UX research and/
 Many of the decisions in the categories above depend on the data available, how it is structured, and Project Director research goals for the data.
 Knowledge about the structure of data, the goals of the project and its data, as well as UX Research all help determine site flows/user flows.
 Many of the terms above are interdependent.
-“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p></description></item></channel></rss>
+“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p></description></item><item><title>Docs: Workflows</title><link>https://princeton-cdh.github.io/docs/workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/docs/workflows/</guid><description>
+&lt;h2 id="communication">Communication&lt;/h2>
+&lt;h3 id="tools">Tools&lt;/h3>
+&lt;p>Project teams communicate primarily over Slack, using a channel in the CDH @ Princeton workspace. Project team members can be added to the CDH slack as single-channel guests so that they don’t have additional noise from other CDH channels. The Project may also maintain its own Slack workspace separate from CDH.&lt;/p>
+&lt;h3 id="workflow">Workflow&lt;/h3>
+&lt;p>These types of conversations normally happen on Slack.&lt;/p>
+&lt;ul>
+&lt;li>polling the team for advice on how to handle some part of the project data&lt;/li>
+&lt;li>notifying the team that work is starting to implement a feature of the project&lt;/li>
+&lt;li>checking whether an observed phenomenon is a bug&lt;/li>
+&lt;li>reporting on what team members accomplished during the day&lt;/li>
+&lt;li>asking team members to review or test a feature or design&lt;/li>
+&lt;li>thanking and appreciating team members&lt;/li>
+&lt;/ul>
+&lt;p>These types of conversations normally require further documentation, such as email or google doc.&lt;/p>
+&lt;ul>
+&lt;li>notifying project team members of absence or vacation&lt;/li>
+&lt;li>creating or modifying a project workflow&lt;/li>
+&lt;li>forming an agenda for a meeting and circulating it for comment&lt;/li>
+&lt;li>reviewing or testing a feature or design and leaving comments&lt;/li>
+&lt;/ul>
+&lt;h3 id="best-practices">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>customize your notifications settings so you aren’t bombarded by messages&lt;/li>
+&lt;li>use “do not disturb” mode when you don’t wish to be notified&lt;/li>
+&lt;li>use DMs for private conversations, including group DMs&lt;/li>
+&lt;li>use threads to keep conversations together&lt;/li>
+&lt;li>use tacos to show your appreciation for project team members&lt;/li>
+&lt;li>set your status to show what you’re working on and if you’re available&lt;/li>
+&lt;/ul>
+&lt;h2 id="file-storage">File Storage&lt;/h2>
+&lt;h3 id="tools-1">Tools&lt;/h3>
+&lt;p>Files are stored in a Google Shared Drive. Adding files to any folder in the drive automatically makes them available to all users who are members of the drive.&lt;/p>
+&lt;h3 id="workflow-1">Workflow&lt;/h3>
+&lt;p>These types of files are normally stored in Google Drive.&lt;/p>
+&lt;ul>
+&lt;li>meeting agendas (in a “meeting notes” folder)&lt;/li>
+&lt;li>charter documentation (in a “charter planning notes &amp;amp; docs” folder)&lt;/li>
+&lt;li>design files and assets (usually in a “design” folder)&lt;/li>
+&lt;li>data work protocols and checklists (usually in a “data work” folder)&lt;/li>
+&lt;li>written content and images to be used directly on a website&lt;/li>
+&lt;li>written content and images to be distributed for publicity purposes&lt;/li>
+&lt;li>old versions of any of the above (usually in an “archive” folder)&lt;/li>
+&lt;/ul>
+&lt;h3 id="best-practices-1">Best Practices&lt;/h3>
+&lt;ul>
+&lt;li>name files including a date, like “2020-06-30 design issues”, so they are findable&lt;/li>
+&lt;li>use the search function to find documents you’re looking for more easily&lt;/li>
+&lt;li>store files in the team drive rather than your personal drive&lt;/li>
+&lt;li>use document headings so that the “document map” function works&lt;/li>
+&lt;/ul>
+&lt;h2 id="meetings">Meetings&lt;/h2>
+&lt;h3 id="tools-2">Tools&lt;/h3>
+&lt;p>Meetings are conducted via Zoom. Meeting agendas are written as Google Docs and stored in the project’s Team Drive (see “File Storage” above).&lt;/p>
+&lt;h3 id="workflow--best-practices">Workflow &amp;amp; Best Practices&lt;/h3>
+&lt;p>Meeting norms for each project are established in documentation stored in the project&amp;rsquo;s Google Drive.&lt;/p>
+&lt;h2 id="project-management">Project Management&lt;/h2>
+&lt;h3 id="tools-3">Tools&lt;/h3>
+&lt;p>Project teams track tasks on an Asana board in the CDH @ Princeton workspace.&lt;/p>
+&lt;h3 id="workflow-2">Workflow&lt;/h3>
+&lt;p>Asana tasks are used to track:&lt;/p>
+&lt;ul>
+&lt;li>action items identified in meetings&lt;/li>
+&lt;li>preparation of agendas for meetings&lt;/li>
+&lt;li>communications and publicity work&lt;/li>
+&lt;li>editorial workflow for written website content or publicity materials&lt;/li>
+&lt;li>software releases, via a release checklist managed by CDH Lead Developer&lt;/li>
+&lt;li>data work (if helpful)&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-work">Data Work&lt;/h2>
+&lt;h3 id="tools-4">Tools&lt;/h3>
+&lt;p>The CDH usually customizes an interface for project team members to use to edit and update project data. This may take the form of a spreadsheet, or it may be an interface to a relational database.&lt;/p>
+&lt;h3 id="workflow-3">Workflow&lt;/h3>
+&lt;p>Any members of the project team who are working with the data (sometimes called “encoders”) use the project’s protocols to encode the data.&lt;/p>
+&lt;h3 id="best-practices-2">Best Practices&lt;/h3>
+&lt;p>The best practices for working with project data are codified as protocols and stored in the project’s Google Drive.&lt;/p>
+&lt;h2 id="development">Development&lt;/h2>
+&lt;h3 id="tools-5">Tools&lt;/h3>
+&lt;p>The project’s code is hosted on GitHub in a public repository under the &lt;a href="https://github.com/princeton-cdh">Princeton-CDH organization&lt;/a>. GitHub offers a wide range of functionality related to the project’s code. The project also uses &lt;a href="https://app.zenhub.com/">ZenHub&lt;/a>, which adds a layer of agile project management tooling on top of GitHub.&lt;/p>
+&lt;h3 id="workflow-4">Workflow&lt;/h3>
+&lt;p>The project team splits development up into two-week “iterations”; at the end of each iteration the completed features from that iteration are released and become public. Each iteration begins with a planning meeting of the dev &amp;amp; design team at which the team also reflects on the previous iteration.&lt;/p>
+&lt;p>Individual features and tasks are tracked using GitHub issues. Often, issues are written in the form of agile “user stories” - for example, “As a content editor, I want to select featured essays to show on the site home page so I can provide pathways into the content for non-academic users.” Some issues may not take the form of user stories - they may document bugs discovered in the project, or “chores” (one-off tasks that are necessary to support other work).&lt;/p>
+&lt;p>The dev &amp;amp; design team estimates the relative complexity of features in “points” to get a rough idea of how much work can be accomplished in a single iteration. GitHub does not natively provide features to track these points, so ZenHub is used to organize issues in terms of points and iterations.&lt;/p>
+&lt;p>ZenHub organizes dev and design issues using kanban-style boards; as issues are worked on they move through a pipeline of different stages from development to review to testing:&lt;/p>
+&lt;ul>
+&lt;li>an issue starts in the “icebox”, a place for work that isn’t ready to start yet&lt;/li>
+&lt;li>issues that are ready to be worked on in the current iteration are in the “backlog”&lt;/li>
+&lt;li>developers claim (assign) issues in the backlog and move them to “in progress”&lt;/li>
+&lt;li>when a feature’s code has been reviewed it goes to “development complete”&lt;/li>
+&lt;li>when a feature is ready to be tested it is delivered with notes and moved to “QA”&lt;/li>
+&lt;li>if the feature doesn’t pass testing it moves back to “in progress” for further work&lt;/li>
+&lt;li>if it does pass testing, it is closed and automatically moved to “completed”&lt;/li>
+&lt;/ul>
+&lt;p>The Project Manager uses GitHub and ZenHub extensively to participate in testing of issues and to get a sense of what the dev &amp;amp; design team is actively working on and has completed. These tools offer a variety of reporting functions to get a better picture of how the team works together to author source code.&lt;/p>
+&lt;h2 id="ux-design">UX Design&lt;/h2>
+&lt;h3 id="tools-6">Tools&lt;/h3>
+&lt;p>CDH projects may use &lt;a href="https://www.figma.com/">Figma&lt;/a> to create and store designs and possibly also &lt;a href="https://zeplin.io/">Zeplin&lt;/a> for &amp;ldquo;handing off&amp;rdquo; designs to developers. Design tasks are tracked on GitHub/ZenHub as issues, in a similar manner to features in development.&lt;/p>
+&lt;h3 id="workflow-5">Workflow&lt;/h3>
+&lt;p>The UX Designer collaborates with the dev team in two-week “iterations”. At the end of each iteration, design tasks that are completed and have passed the review stage will be ready for implementation in the upcoming iteration. During iterations the UX Designer also focuses on designing/researching/testing for long-term design goals for the project (within the scope of the project grant cycle).&lt;/p>
+&lt;p>Design tasks are tracked using GitHub issues with the label “Design”. Often, design issues are written in the following form (focused on user goals and actions) - for example, “Design a way for the user to access all the essays that an issue contains so they can read them.” Other design issues include “Design chores”, which often entail updating the designs or some type of cleanup. Design chores are neither estimated nor reviewed.&lt;/p>
+&lt;p>Each design issue is estimated for its relative complexity in “points” to get a rough idea of how much work can be accomplished in a single iteration.&lt;/p>
+&lt;p>As design issues are worked on they move through a pipeline of different stages from design to review:&lt;/p>
+&lt;ul>
+&lt;li>a design issue starts in the “icebox”&lt;/li>
+&lt;li>issues that are ready to be worked on in the current iteration are in the “backlog”&lt;/li>
+&lt;li>once the UX Designer has started to work on an issue they move it from the backlog to “in progress”&lt;/li>
+&lt;li>when a feature is ready to be reviewed it is delivered with notes and moved to “QA”&lt;/li>
+&lt;li>if the design issue doesn’t pass the review the UX Designer works to identify and address what revisions it will need, - where it moves back to “in progress” for further work&lt;/li>
+&lt;li>if it does pass the review, it is closed and automatically moved to “completed”.&lt;/li>
+&lt;/ul></description></item></channel></rss>
