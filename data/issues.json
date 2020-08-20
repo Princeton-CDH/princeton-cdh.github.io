@@ -3822,6 +3822,17 @@
     "milestone": ""
   },
   {
+    "issue": "Extend testing to include later versions of Django",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/7",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Add chatops QA deploy",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/1",
@@ -4531,10 +4542,10 @@
     "issue": "As a user, I want to filter library members by author of books borrowed so that I can find all members who read books by a particular author.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/193",
-    "estimate": 3,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T19:57:48Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -4542,10 +4553,10 @@
     "issue": "As a user, I want to filter library members by titles of books borrowed so that I can find all members who borrowed a particular book or combination of books.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/194",
-    "estimate": 3,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T19:56:21Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -4625,11 +4636,10 @@
     "issue": "As a user, I want to switch to a map view of the members list so that I discover proximity of members based on documented addresses.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/201",
-    "estimate": 8,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T19:54:56Z",
     "labels": [
-      "question",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -4875,10 +4885,10 @@
     "issue": "As a user, I want to filter library items by publication date so that I can see items that circulated based on publication time period.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/227",
-    "estimate": 2,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T19:56:01Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5325,10 +5335,10 @@
     "issue": "As a user, I want to see a network graph of book and member interaction so that I can discover reading communities within the library.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/268",
-    "estimate": 5,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:00:01Z",
     "labels": [
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -6898,10 +6908,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/452",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:59:06Z",
     "labels": [
-      "postpone",
-      "question"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7271,7 +7280,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/493",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:58:29Z",
     "labels": [
       "Epic"
     ],
@@ -7405,11 +7414,10 @@
     "issue": "Design page to display all events on a single day",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/504",
-    "estimate": 5,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T19:55:33Z",
     "labels": [
-      "design",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7418,10 +7426,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/505",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:59:30Z",
     "labels": [
-      "Epic",
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7430,9 +7437,10 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/506",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:59:45Z",
     "labels": [
-      "Epic"
+      "Epic",
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7711,10 +7719,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/537",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:49:25Z",
     "labels": [
-      "enhancement",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7953,9 +7960,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/568",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-08-20T19:56:54Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -8401,9 +8408,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/619",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T19:47:25Z",
     "labels": [
-      "bug"
+      "invalid"
     ],
     "milestone": ""
   },
@@ -12669,6 +12676,17 @@
     "milestone": "v0.11.0"
   },
   {
+    "issue": "Design a search interface that allows users to search for more than one tag a time so that I can ensure nothing is left out of my search",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/10",
+    "estimate": "",
+    "closed": "2020-08-20T19:13:40Z",
+    "labels": [
+      "design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Convert release report to separate javascript action",
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/3",
@@ -12704,6 +12722,15 @@
     "labels": [
       "enhancement"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a researcher I want to be able to search for more than one tag at at time so that I can ensure nothing is left out of my search",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/9",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -12795,8 +12822,19 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/113",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T15:46:03Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a way for readers to interact with image of the weaving piece through its annotations so that they can learn about it in more details",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/114",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "design"
+    ],
     "milestone": ""
   },
   {
@@ -13220,7 +13258,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/56",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-08-20T15:49:03Z",
     "labels": [],
     "milestone": "Issue 1"
   },
