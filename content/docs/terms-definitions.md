@@ -98,8 +98,8 @@ It encompasses:
 
 ### User Interface Design (UI)
 It entails the visual organization of information through grids, spacing, font styles (i.e. font weight, size, and leading/line-height), button styles, colors, etc. Its primary goal is to make it easier for users to read, understand and process information. Many of its aspects affect accessibility and are therefore created with respect to accessibility requirements. This is different from Graphic Design, which focuses on the creation of visual work mainly for print media. (Not Graphic Design)
-* Earlier in this phase wireframes are created: A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and *user journeys. Wireframes are used to establish the basic structure of a page before visual design and content is added.
-User Journey: A user journey is a path a user may take to reach their goal when using a particular website. User journeys are used in designing websites to identify the different ways to enable the user to achieve their goal more meaningfully, effectively, and efficiently.
+* Earlier in this phase wireframes are created: A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and       user journeys. Wireframes are used to establish the basic structure of a page before visual design and content is added.
+  * User Journey: A user journey is a path a user may take to reach their goal when using a particular website. User journeys are used in designing websites to identify the different ways to enable the user to achieve their goal more meaningfully, effectively, and efficiently.
 
 
 ### Interaction Design (IxD)
