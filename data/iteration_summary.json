@@ -1,722 +1,725 @@
 [
     {
-        "from": "2018-12-03",
-        "to": "2018-12-18",
+        "from": "2018-12-03", 
+        "project_issues": {
+            "mep-django": 6, 
+            "ppa-django": 50
+        }, 
+        "project_points": {
+            "mep-django": 4, 
+            "ppa-django": 54
+        }, 
         "dev": {
-            "points": 55,
+            "points": 55, 
             "issues": 48
-        },
+        }, 
+        "to": "2018-12-18", 
         "design": {
-            "points": 3,
+            "points": 3, 
             "issues": 8
-        },
-        "project_issues": {
-            "ppa-django": 50,
-            "mep-django": 6
-        },
-        "project_points": {
-            "ppa-django": 54,
-            "mep-django": 4
         }
-    },
+    }, 
     {
-        "from": "2019-01-23",
-        "to": "2019-02-17",
+        "from": "2019-01-23", 
+        "project_issues": {
+            "mep-django": 10, 
+            "parasolr": 5
+        }, 
+        "project_points": {
+            "mep-django": 13, 
+            "parasolr": 5
+        }, 
         "dev": {
-            "points": 14,
+            "points": 14, 
             "issues": 13
-        },
+        }, 
+        "to": "2019-02-17", 
         "design": {
-            "points": 4,
+            "points": 4, 
             "issues": 2
-        },
-        "project_issues": {
-            "mep-django": 10,
-            "parasolr": 5
-        },
-        "project_points": {
-            "mep-django": 13,
-            "parasolr": 5
         }
-    },
+    }, 
     {
-        "from": "2019-02-18",
-        "to": "2019-03-03",
-        "dev": {
-            "points": 33,
-            "issues": 32,
-            "velocity": 34.0
-        },
-        "design": {
-            "points": 2,
-            "issues": 3,
-            "velocity": 3.0
-        },
+        "from": "2019-02-18", 
         "project_issues": {
-            "parasolr": 1,
-            "ppa-django": 27,
-            "mep-django": 6,
+            "mep-django": 6, 
+            "ppa-django": 27, 
+            "parasolr": 1, 
             "CDH_ansible": 1
-        },
+        }, 
         "project_points": {
-            "parasolr": 0,
-            "ppa-django": 27,
-            "mep-django": 8,
+            "mep-django": 8, 
+            "ppa-django": 27, 
+            "parasolr": 0, 
             "CDH_ansible": 0
-        }
-    },
-    {
-        "from": "2019-03-04",
-        "to": "2019-03-17",
+        }, 
         "dev": {
-            "points": 20,
-            "issues": 9,
-            "velocity": 22.33
-        },
+            "velocity": 34.0, 
+            "points": 33, 
+            "issues": 32
+        }, 
+        "to": "2019-03-03", 
         "design": {
-            "points": 5,
-            "issues": 1,
-            "velocity": 3.67
-        },
+            "velocity": 3.0, 
+            "points": 2, 
+            "issues": 3
+        }
+    }, 
+    {
+        "from": "2019-03-04", 
         "project_issues": {
-            "ppa-django": 2,
-            "mep-django": 3,
+            "mep-django": 3, 
+            "ppa-django": 2, 
             "parasolr": 5
-        },
+        }, 
         "project_points": {
-            "ppa-django": 3,
-            "mep-django": 9,
+            "mep-django": 9, 
+            "ppa-django": 3, 
             "parasolr": 13
-        }
-    },
-    {
-        "from": "2019-03-18",
-        "to": "2019-04-01",
+        }, 
         "dev": {
-            "points": 8,
-            "issues": 4,
-            "velocity": 20.33
-        },
+            "velocity": 22.0, 
+            "points": 20, 
+            "issues": 9
+        }, 
+        "to": "2019-03-17", 
         "design": {
-            "points": 16,
-            "issues": 5,
-            "velocity": 7.67
-        },
+            "velocity": 3.0, 
+            "points": 5, 
+            "issues": 1
+        }
+    }, 
+    {
+        "from": "2019-03-18", 
         "project_issues": {
-            "mep-django": 8,
+            "mep-django": 8, 
             "ppa-django": 1
-        },
+        }, 
         "project_points": {
-            "mep-django": 24,
+            "mep-django": 24, 
             "ppa-django": 0
-        }
-    },
-    {
-        "from": "2019-04-02",
-        "to": "2019-04-12",
+        }, 
         "dev": {
-            "points": 25,
-            "issues": 17,
-            "velocity": 17.67
-        },
+            "velocity": 20.0, 
+            "points": 8, 
+            "issues": 4
+        }, 
+        "to": "2019-04-01", 
         "design": {
-            "points": 12,
-            "issues": 8,
-            "velocity": 11.0
-        },
+            "velocity": 7.0, 
+            "points": 16, 
+            "issues": 5
+        }
+    }, 
+    {
+        "from": "2019-04-02", 
         "project_issues": {
-            "mep-django": 11,
-            "ppa-django": 12,
-            "derrida-django": 1,
-            "parasolr": 1
-        },
+            "mep-django": 11, 
+            "ppa-django": 12, 
+            "parasolr": 1, 
+            "derrida-django": 1
+        }, 
         "project_points": {
-            "mep-django": 20,
-            "ppa-django": 17,
-            "derrida-django": 0,
-            "parasolr": 0
-        }
-    },
-    {
-        "from": "2019-04-15",
-        "to": "2019-04-25",
+            "mep-django": 20, 
+            "ppa-django": 17, 
+            "parasolr": 0, 
+            "derrida-django": 0
+        }, 
         "dev": {
-            "points": 15,
-            "issues": 8,
-            "velocity": 16.0
-        },
+            "velocity": 17.0, 
+            "points": 25, 
+            "issues": 17
+        }, 
+        "to": "2019-04-12", 
         "design": {
-            "points": 5,
-            "issues": 1,
-            "velocity": 11.0
-        },
+            "velocity": 11.0, 
+            "points": 12, 
+            "issues": 8
+        }
+    }, 
+    {
+        "from": "2019-04-15", 
         "project_issues": {
-            "mep-django": 8,
+            "mep-django": 8, 
             "parasolr": 1
-        },
+        }, 
         "project_points": {
-            "mep-django": 20,
+            "mep-django": 20, 
             "parasolr": 0
-        }
-    },
-    {
-        "from": "2019-04-29",
-        "to": "2019-05-09",
+        }, 
         "dev": {
-            "points": 15,
-            "issues": 9,
-            "velocity": 18.33
-        },
+            "velocity": 16.0, 
+            "points": 15, 
+            "issues": 8
+        }, 
+        "to": "2019-04-25", 
         "design": {
-            "points": 1,
-            "issues": 1,
-            "velocity": 6.0
-        },
+            "velocity": 11.0, 
+            "points": 5, 
+            "issues": 1
+        }
+    }, 
+    {
+        "from": "2019-04-29", 
         "project_issues": {
-            "mep-django": 9,
+            "mep-django": 9, 
             "ppa-django": 1
-        },
+        }, 
         "project_points": {
-            "mep-django": 16,
+            "mep-django": 16, 
             "ppa-django": 0
-        }
-    },
-    {
-        "from": "2019-05-13",
-        "to": "2019-05-23",
+        }, 
         "dev": {
-            "points": 20,
-            "issues": 10,
-            "velocity": 16.67
-        },
+            "velocity": 18.0, 
+            "points": 15, 
+            "issues": 9
+        }, 
+        "to": "2019-05-09", 
         "design": {
-            "points": 0,
-            "velocity": 2.0
-        },
+            "velocity": 6.0, 
+            "points": 1, 
+            "issues": 1
+        }
+    }, 
+    {
+        "from": "2019-05-13", 
         "project_issues": {
             "mep-django": 10
-        },
+        }, 
         "project_points": {
             "mep-django": 20
-        }
-    },
-    {
-        "from": "2019-06-04",
-        "to": "2019-06-13",
+        }, 
         "dev": {
-            "points": 11,
-            "issues": 10,
-            "velocity": 15.33
-        },
+            "velocity": 16.0, 
+            "points": 20, 
+            "issues": 10
+        }, 
+        "to": "2019-05-23", 
         "design": {
-            "points": 0,
-            "velocity": 0.33
-        },
+            "velocity": 2.0, 
+            "points": 0
+        }
+    }, 
+    {
+        "from": "2019-06-04", 
         "project_issues": {
-            "ppa-django": 3,
-            "mep-django": 7
-        },
+            "mep-django": 7, 
+            "ppa-django": 3
+        }, 
         "project_points": {
-            "ppa-django": 0,
-            "mep-django": 11
-        }
-    },
-    {
-        "from": "2019-06-24",
-        "to": "2019-07-04",
+            "mep-django": 11, 
+            "ppa-django": 0
+        }, 
         "dev": {
-            "points": 4,
-            "issues": 9,
-            "velocity": 11.67
-        },
+            "velocity": 15.0, 
+            "points": 11, 
+            "issues": 10
+        }, 
+        "to": "2019-06-13", 
         "design": {
-            "points": 8,
-            "issues": 2,
-            "velocity": 2.67
-        },
+            "velocity": 0.0, 
+            "points": 0
+        }
+    }, 
+    {
+        "from": "2019-06-24", 
         "project_issues": {
-            "mep-django": 8,
-            "CDH_ansible": 1,
-            "cdh-web": 1,
-            "django-pucas": 1
-        },
+            "mep-django": 8, 
+            "django-pucas": 1, 
+            "CDH_ansible": 1, 
+            "cdh-web": 1
+        }, 
         "project_points": {
-            "mep-django": 12,
-            "CDH_ansible": 0,
-            "cdh-web": 0,
-            "django-pucas": 0
-        }
-    },
-    {
-        "from": "2019-08-19",
-        "to": "2019-09-05",
+            "mep-django": 12, 
+            "django-pucas": 0, 
+            "CDH_ansible": 0, 
+            "cdh-web": 0
+        }, 
         "dev": {
-            "points": 26,
-            "issues": 18,
-            "velocity": 13.67
-        },
+            "velocity": 11.0, 
+            "points": 4, 
+            "issues": 9
+        }, 
+        "to": "2019-07-04", 
         "design": {
-            "points": 8,
-            "issues": 2,
-            "velocity": 5.33
-        },
+            "velocity": 2.0, 
+            "points": 8, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2019-08-19", 
         "project_issues": {
-            "cdh-web": 14,
-            "mep-django": 6
-        },
+            "mep-django": 6, 
+            "cdh-web": 14
+        }, 
         "project_points": {
-            "cdh-web": 16,
-            "mep-django": 18
-        }
-    },
-    {
-        "from": "2019-09-16",
-        "to": "2019-09-26",
+            "mep-django": 18, 
+            "cdh-web": 16
+        }, 
         "dev": {
-            "points": 3,
-            "issues": 1,
-            "velocity": 11.0
-        },
+            "velocity": 13.0, 
+            "points": 26, 
+            "issues": 18
+        }, 
+        "to": "2019-09-05", 
         "design": {
-            "points": 0,
-            "velocity": 5.33
-        },
+            "velocity": 5.0, 
+            "points": 8, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2019-09-16", 
         "project_issues": {
             "mep-django": 1
-        },
+        }, 
         "project_points": {
             "mep-django": 3
-        }
-    },
-    {
-        "from": "2019-09-30",
-        "to": "2019-10-11",
+        }, 
         "dev": {
-            "points": 13,
-            "issues": 14,
-            "velocity": 14.0
-        },
+            "velocity": 11.0, 
+            "points": 3, 
+            "issues": 1
+        }, 
+        "to": "2019-09-26", 
         "design": {
-            "points": 7,
-            "issues": 4,
-            "velocity": 5.0
-        },
+            "velocity": 5.0, 
+            "points": 0
+        }
+    }, 
+    {
+        "from": "2019-09-30", 
         "project_issues": {
-            "pemm-scripts": 3,
+            "pemm-scripts": 3, 
             "mep-django": 15
-        },
+        }, 
         "project_points": {
-            "pemm-scripts": 0,
+            "pemm-scripts": 0, 
             "mep-django": 20
-        }
-    },
-    {
-        "from": "2019-10-14",
-        "to": "2019-10-25",
+        }, 
         "dev": {
-            "points": 17,
-            "issues": 14,
-            "velocity": 11.0
-        },
+            "velocity": 14.0, 
+            "points": 13, 
+            "issues": 14
+        }, 
+        "to": "2019-10-11", 
         "design": {
-            "points": 12,
-            "issues": 5,
-            "velocity": 6.33
-        },
+            "velocity": 5.0, 
+            "points": 7, 
+            "issues": 4
+        }
+    }, 
+    {
+        "from": "2019-10-14", 
         "project_issues": {
-            "CDH_ansible": 1,
-            "mep-django": 18
-        },
+            "mep-django": 18, 
+            "CDH_ansible": 1
+        }, 
         "project_points": {
-            "CDH_ansible": 0,
-            "mep-django": 29
-        }
-    },
-    {
-        "from": "2019-11-04",
-        "to": "2019-11-15",
+            "mep-django": 29, 
+            "CDH_ansible": 0
+        }, 
         "dev": {
-            "points": 25,
-            "issues": 11,
-            "velocity": 18.33
-        },
+            "velocity": 11.0, 
+            "points": 17, 
+            "issues": 14
+        }, 
+        "to": "2019-10-25", 
         "design": {
-            "points": 7,
-            "issues": 4,
-            "velocity": 8.67
-        },
+            "velocity": 6.0, 
+            "points": 12, 
+            "issues": 5
+        }
+    }, 
+    {
+        "from": "2019-11-04", 
         "project_issues": {
             "mep-django": 15
-        },
+        }, 
         "project_points": {
             "mep-django": 32
-        }
-    },
-    {
-        "from": "2019-11-18",
-        "to": "2019-12-06",
+        }, 
         "dev": {
-            "points": 12,
-            "issues": 14,
-            "velocity": 18.0
-        },
+            "velocity": 18.0, 
+            "points": 25, 
+            "issues": 11
+        }, 
+        "to": "2019-11-15", 
         "design": {
-            "points": 3,
-            "issues": 8,
-            "velocity": 7.33
-        },
-        "project_issues": {
-            "mep-django": 17,
-            "parasolr": 4,
-            "pemm-scripts": 1
-        },
-        "project_points": {
-            "mep-django": 9,
-            "parasolr": 1,
-            "pemm-scripts": 5
+            "velocity": 8.0, 
+            "points": 7, 
+            "issues": 4
         }
-    },
+    }, 
     {
-        "from": "2019-12-07",
-        "to": "2019-12-31",
-        "dev": {
-            "points": 17,
-            "issues": 22,
-            "velocity": 18.0
-        },
-        "design": {
-            "points": 2,
-            "issues": 2,
-            "velocity": 4.0
-        },
+        "from": "2019-11-18", 
         "project_issues": {
-            "mep-django": 23,
-            "pemm-scripts": 1
-        },
+            "mep-django": 17, 
+            "pemm-scripts": 1, 
+            "parasolr": 4
+        }, 
         "project_points": {
-            "mep-django": 17,
+            "mep-django": 9, 
+            "pemm-scripts": 5, 
+            "parasolr": 1
+        }, 
+        "dev": {
+            "velocity": 18.0, 
+            "points": 12, 
+            "issues": 14
+        }, 
+        "to": "2019-12-06", 
+        "design": {
+            "velocity": 7.0, 
+            "points": 3, 
+            "issues": 8
+        }
+    }, 
+    {
+        "from": "2019-12-07", 
+        "project_issues": {
+            "mep-django": 23, 
+            "pemm-scripts": 1
+        }, 
+        "project_points": {
+            "mep-django": 17, 
             "pemm-scripts": 2
-        }
-    },
-    {
-        "from": "2020-01-01",
-        "to": "2020-01-31",
+        }, 
         "dev": {
-            "points": 3,
-            "issues": 17,
-            "velocity": 10.67
-        },
+            "velocity": 18.0, 
+            "points": 17, 
+            "issues": 22
+        }, 
+        "to": "2019-12-31", 
         "design": {
-            "points": 0,
-            "velocity": 1.67
-        },
+            "velocity": 4.0, 
+            "points": 2, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2020-01-01", 
         "project_issues": {
-            "ppa-django": 6,
-            "cdh-web": 1,
-            "derrida-django": 6,
-            "mep-django": 1,
-            "pemm-scripts": 3
-        },
+            "mep-django": 1, 
+            "pemm-scripts": 3, 
+            "derrida-django": 6, 
+            "ppa-django": 6, 
+            "cdh-web": 1
+        }, 
         "project_points": {
-            "ppa-django": 3,
-            "cdh-web": 0,
-            "derrida-django": 0,
-            "mep-django": 0,
-            "pemm-scripts": 0
-        }
-    },
-    {
-        "from": "2020-02-01",
-        "to": "2020-02-14",
+            "mep-django": 0, 
+            "pemm-scripts": 0, 
+            "derrida-django": 0, 
+            "ppa-django": 3, 
+            "cdh-web": 0
+        }, 
         "dev": {
-            "points": 3,
-            "issues": 8,
-            "velocity": 7.67
-        },
+            "velocity": 10.0, 
+            "points": 3, 
+            "issues": 17
+        }, 
+        "to": "2020-01-31", 
         "design": {
-            "points": 3,
-            "issues": 2,
-            "velocity": 1.67
-        },
-        "project_issues": {
-            "pemm-scripts": 1,
-            "startwords": 1,
-            "mep-django": 8
-        },
-        "project_points": {
-            "pemm-scripts": 0,
-            "startwords": 0,
-            "mep-django": 6
+            "velocity": 1.0, 
+            "points": 0
         }
-    },
+    }, 
     {
-        "from": "2020-02-15",
-        "to": "2020-03-02",
-        "dev": {
-            "points": 11,
-            "issues": 8,
-            "velocity": 5.67
-        },
-        "design": {
-            "points": 10,
-            "issues": 2,
-            "velocity": 4.33
-        },
+        "from": "2020-02-01", 
         "project_issues": {
-            "mep-django": 7,
-            "pemm-scripts": 3
-        },
-        "project_points": {
-            "mep-django": 18,
-            "pemm-scripts": 3
-        }
-    },
-    {
-        "from": "2020-03-03",
-        "to": "2020-03-29",
-        "dev": {
-            "points": 26,
-            "issues": 28,
-            "velocity": 13.33
-        },
-        "design": {
-            "points": 15,
-            "issues": 6,
-            "velocity": 9.33
-        },
-        "project_issues": {
-            "mep-django": 10,
-            "pemm-scripts": 12,
-            "startwords": 12
-        },
-        "project_points": {
-            "mep-django": 16,
-            "pemm-scripts": 12,
-            "startwords": 13
-        }
-    },
-    {
-        "from": "2020-03-30",
-        "to": "2020-04-10",
-        "dev": {
-            "points": 13,
-            "issues": 11,
-            "velocity": 16.67
-        },
-        "design": {
-            "points": 4,
-            "issues": 6,
-            "velocity": 9.67
-        },
-        "project_issues": {
-            "pemm-scripts": 2,
-            "mep-django": 14,
+            "pemm-scripts": 1, 
+            "mep-django": 8, 
             "startwords": 1
-        },
+        }, 
         "project_points": {
-            "pemm-scripts": 0,
-            "mep-django": 15,
-            "startwords": 2
-        }
-    },
-    {
-        "from": "2020-04-11",
-        "to": "2020-04-17",
+            "pemm-scripts": 0, 
+            "mep-django": 6, 
+            "startwords": 0
+        }, 
         "dev": {
-            "points": 1,
-            "issues": 1,
-            "velocity": 13.33
-        },
+            "velocity": 7.0, 
+            "points": 3, 
+            "issues": 8
+        }, 
+        "to": "2020-02-14", 
         "design": {
-            "points": 8,
-            "issues": 2,
-            "velocity": 9.0
-        },
+            "velocity": 1.0, 
+            "points": 3, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2020-02-15", 
+        "project_issues": {
+            "mep-django": 7, 
+            "pemm-scripts": 3
+        }, 
+        "project_points": {
+            "mep-django": 18, 
+            "pemm-scripts": 3
+        }, 
+        "dev": {
+            "velocity": 5.0, 
+            "points": 11, 
+            "issues": 8
+        }, 
+        "to": "2020-03-02", 
+        "design": {
+            "velocity": 4.0, 
+            "points": 10, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2020-03-03", 
+        "project_issues": {
+            "mep-django": 10, 
+            "pemm-scripts": 12, 
+            "startwords": 12
+        }, 
+        "project_points": {
+            "mep-django": 16, 
+            "pemm-scripts": 12, 
+            "startwords": 13
+        }, 
+        "dev": {
+            "velocity": 13.0, 
+            "points": 26, 
+            "issues": 28
+        }, 
+        "to": "2020-03-29", 
+        "design": {
+            "velocity": 9.0, 
+            "points": 15, 
+            "issues": 6
+        }
+    }, 
+    {
+        "from": "2020-03-30", 
+        "project_issues": {
+            "pemm-scripts": 2, 
+            "mep-django": 14, 
+            "startwords": 1
+        }, 
+        "project_points": {
+            "pemm-scripts": 0, 
+            "mep-django": 15, 
+            "startwords": 2
+        }, 
+        "dev": {
+            "velocity": 16.0, 
+            "points": 13, 
+            "issues": 11
+        }, 
+        "to": "2020-04-10", 
+        "design": {
+            "velocity": 9.0, 
+            "points": 4, 
+            "issues": 6
+        }
+    }, 
+    {
+        "from": "2020-04-11", 
         "project_issues": {
             "startwords": 3
-        },
+        }, 
         "project_points": {
             "startwords": 9
-        }
-    },
-    {
-        "from": "2020-04-20",
-        "to": "2020-05-01",
+        }, 
         "dev": {
-            "points": 13,
-            "issues": 16,
-            "velocity": 9.0
-        },
+            "velocity": 13.0, 
+            "points": 1, 
+            "issues": 1
+        }, 
+        "to": "2020-04-17", 
         "design": {
-            "points": 14,
-            "issues": 8,
-            "velocity": 8.67
-        },
+            "velocity": 9.0, 
+            "points": 8, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2020-04-20", 
         "project_issues": {
-            "mep-django": 17,
-            "startwords": 6,
+            "mep-django": 17, 
+            "startwords": 6, 
             "ppa-django": 1
-        },
+        }, 
         "project_points": {
-            "mep-django": 16,
-            "startwords": 11,
+            "mep-django": 16, 
+            "startwords": 11, 
             "ppa-django": 0
-        }
-    },
-    {
-        "from": "2020-05-04",
-        "to": "2020-05-15",
+        }, 
         "dev": {
-            "points": 17,
-            "issues": 26,
-            "velocity": 10.33
-        },
+            "velocity": 9.0, 
+            "points": 13, 
+            "issues": 16
+        }, 
+        "to": "2020-05-01", 
         "design": {
-            "points": 6,
-            "issues": 10,
-            "velocity": 9.33
-        },
+            "velocity": 8.0, 
+            "points": 14, 
+            "issues": 8
+        }
+    }, 
+    {
+        "from": "2020-05-04", 
         "project_issues": {
             "mep-django": 36
-        },
+        }, 
         "project_points": {
             "mep-django": 23
-        }
-    },
-    {
-        "from": "2020-05-16",
-        "to": "2020-05-29",
+        }, 
         "dev": {
-            "points": 5,
-            "issues": 33,
-            "velocity": 11.67
-        },
+            "velocity": 10.0, 
+            "points": 17, 
+            "issues": 26
+        }, 
+        "to": "2020-05-15", 
         "design": {
-            "points": 11,
-            "issues": 6,
-            "velocity": 10.33
-        },
+            "velocity": 9.0, 
+            "points": 6, 
+            "issues": 10
+        }
+    }, 
+    {
+        "from": "2020-05-16", 
         "project_issues": {
-            "pemm-scripts": 8,
+            "pemm-scripts": 8, 
             "mep-django": 31
-        },
+        }, 
         "project_points": {
-            "pemm-scripts": 0,
+            "pemm-scripts": 0, 
             "mep-django": 16
-        }
-    },
-    {
-        "from": "2020-05-30",
-        "to": "2020-06-12",
+        }, 
         "dev": {
-            "points": 3,
-            "issues": 16,
-            "velocity": 8.33
-        },
+            "velocity": 11.0, 
+            "points": 5, 
+            "issues": 33
+        }, 
+        "to": "2020-05-29", 
         "design": {
-            "points": 8,
-            "issues": 5,
-            "velocity": 8.33
-        },
+            "velocity": 10.0, 
+            "points": 11, 
+            "issues": 6
+        }
+    }, 
+    {
+        "from": "2020-05-30", 
         "project_issues": {
-            "startwords": 8,
-            "pemm-scripts": 6,
-            "mep-django": 6,
+            "pemm-scripts": 6, 
+            "mep-django": 6, 
+            "startwords": 8, 
             "parasolr": 1
-        },
+        }, 
         "project_points": {
-            "startwords": 10,
-            "pemm-scripts": 1,
-            "mep-django": 0,
+            "pemm-scripts": 1, 
+            "mep-django": 0, 
+            "startwords": 10, 
             "parasolr": 0
-        }
-    },
-    {
-        "from": "2020-06-15",
-        "to": "2020-06-26",
+        }, 
         "dev": {
-            "points": 19,
-            "issues": 15,
-            "velocity": 9.0
-        },
+            "velocity": 8.0, 
+            "points": 3, 
+            "issues": 16
+        }, 
+        "to": "2020-06-12", 
         "design": {
-            "points": 4,
-            "issues": 2,
-            "velocity": 7.67
-        },
+            "velocity": 8.0, 
+            "points": 8, 
+            "issues": 5
+        }
+    }, 
+    {
+        "from": "2020-06-15", 
         "project_issues": {
-            "startwords": 14,
-            "pemm-scripts": 3
-        },
+            "pemm-scripts": 3, 
+            "startwords": 14
+        }, 
         "project_points": {
-            "startwords": 22,
-            "pemm-scripts": 1
-        }
-    },
-    {
-        "from": "2020-06-29",
-        "to": "2020-07-17",
+            "pemm-scripts": 1, 
+            "startwords": 22
+        }, 
         "dev": {
-            "points": 10,
-            "issues": 25,
-            "velocity": 10.67
-        },
+            "velocity": 9.0, 
+            "points": 19, 
+            "issues": 15
+        }, 
+        "to": "2020-06-26", 
         "design": {
-            "points": 0,
-            "velocity": 4.0
-        },
+            "velocity": 7.0, 
+            "points": 4, 
+            "issues": 2
+        }
+    }, 
+    {
+        "from": "2020-06-29", 
         "project_issues": {
-            "startwords": 12,
-            "mep-django": 6,
-            "pemm-scripts": 7
-        },
+            "mep-django": 6, 
+            "pemm-scripts": 7, 
+            "startwords": 12
+        }, 
         "project_points": {
-            "startwords": 2,
-            "mep-django": 1,
-            "pemm-scripts": 7
-        }
-    },
-    {
-        "from": "2020-07-20",
-        "to": "2020-08-07",
+            "mep-django": 1, 
+            "pemm-scripts": 7, 
+            "startwords": 2
+        }, 
         "dev": {
-            "points": 0,
-            "issues": 4,
-            "velocity": 9.67
-        },
+            "velocity": 10.0, 
+            "points": 10, 
+            "issues": 25
+        }, 
+        "to": "2020-07-17", 
         "design": {
-            "points": 0,
-            "velocity": 1.33
-        },
+            "velocity": 4.0, 
+            "points": 0
+        }
+    }, 
+    {
+        "from": "2020-07-20", 
         "project_issues": {
             "mep-django": 4
-        },
+        }, 
         "project_points": {
             "mep-django": 0
-        }
-    },
-    {
-        "from": "2020-08-10",
-        "to": "2020-08-20",
+        }, 
         "dev": {
-            "points": 2,
-            "issues": 4,
-            "velocity": 4.0
-        },
+            "velocity": 9.0, 
+            "points": 0, 
+            "issues": 4
+        }, 
+        "to": "2020-08-07", 
         "design": {
-            "points": 0,
-            "issues": 1,
-            "velocity": 0.0
-        },
-        "project_issues": {
-            "princeton-cdh.github.io": 2,
-            "mep-django": 1,
-            "startwords": 2
-        },
-        "project_points": {
-            "princeton-cdh.github.io": 0,
-            "mep-django": 0,
-            "startwords": 2
+            "velocity": 1.0, 
+            "points": 0
         }
+    }, 
+    {
+        "from": "2020-08-10", 
+        "project_issues": {
+            "mep-django": 1, 
+            "startwords": 2, 
+            "princeton-cdh.github.io": 3
+        }, 
+        "project_points": {
+            "mep-django": 0, 
+            "startwords": 2, 
+            "princeton-cdh.github.io": 0
+        }, 
+        "dev": {
+            "velocity": 4.0, 
+            "points": 2, 
+            "issues": 5
+        }, 
+        "to": "2020-08-21", 
+        "design": {
+            "velocity": 0.0, 
+            "points": 0, 
+            "issues": 1
+        }
+    }, 
+    {
+        "from": "2020-08-24"
     }
 ]

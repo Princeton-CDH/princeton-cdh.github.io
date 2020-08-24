@@ -64,8 +64,10 @@ def summarize_iterations():
             # TOOD: if/when we consolidate iterations.json
             # and iteration-summary.json:
             # don't recalculate values that are already present
-            # if 'dev' in iteration:
-                # continue
+
+            # allow defining start of new iteration without specifying end
+            if 'to' not in iteration:
+                continue
 
             # use current iteration start as beginning of date range
             # and next iteration start as end
@@ -103,6 +105,9 @@ def summarize_iterations():
     for i, iteration in enumerate(iteration_data):
         # not enough data; skip
         if i < 2:
+            continue
+        # alow next iteration defined start but not end
+        if 'to' not in iteration:
             continue
 
         iteration['dev']['velocity'] = average(
