@@ -694,5 +694,29 @@
         "project_points": {
             "mep-django": 0
         }
+    },
+    {
+        "from": "2020-08-10",
+        "to": "2020-08-20",
+        "dev": {
+            "points": 2,
+            "issues": 4,
+            "velocity": 4.0
+        },
+        "design": {
+            "points": 0,
+            "issues": 1,
+            "velocity": 0.0
+        },
+        "project_issues": {
+            "princeton-cdh.github.io": 2,
+            "mep-django": 1,
+            "startwords": 2
+        },
+        "project_points": {
+            "princeton-cdh.github.io": 0,
+            "mep-django": 0,
+            "startwords": 2
+        }
     }
 ]

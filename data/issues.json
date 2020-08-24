@@ -3833,6 +3833,15 @@
     "milestone": ""
   },
   {
+    "issue": "Clarify only python 3 is supported in setup.py",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/8",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Add chatops QA deploy",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/1",
@@ -4896,10 +4905,10 @@
     "issue": "As a user, I want to filter library items by creator so that I can find all items by specific creators.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/228",
-    "estimate": 2,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T21:03:54Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -4907,10 +4916,10 @@
     "issue": "As a user, I want to filter library items by format so I can look at just books or periodicals or items in other formats.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/229",
-    "estimate": 1,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T21:04:22Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5028,10 +5037,10 @@
     "issue": "As a user, I want to sort card images by member name or date so that I can see them chronologically or by owner.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/240",
-    "estimate": 3,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:15:07Z",
     "labels": [
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5070,10 +5079,10 @@
     "issue": "As a user, I want to filter card images by titles of books referenced on that card so that I can find all cards associated with a particular book or combination of books.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/244",
-    "estimate": 2,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T21:03:10Z",
     "labels": [
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5092,10 +5101,10 @@
     "issue": "As a user, I want to filter card images by date so that I can see all cards from a particular time period.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/246",
-    "estimate": 2,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:15:29Z",
     "labels": [
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5150,9 +5159,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/251",
     "estimate": 2,
     "closed": null,
-    "labels": [
-      "wishlist"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5212,9 +5219,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/257",
     "estimate": 2,
     "closed": null,
-    "labels": [
-      "wishlist"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5275,10 +5280,10 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/262",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T20:16:04Z",
     "labels": [
       "Epic",
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5411,8 +5416,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -5443,8 +5447,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "accessibility",
-      "wishlist"
+      "accessibility"
     ],
     "milestone": ""
   },
@@ -5475,8 +5478,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug",
-      "wishlist"
+      "bug"
     ],
     "milestone": ""
   },
@@ -5504,10 +5506,10 @@
     "issue": "As a user, I want advanced filter options on search pages to be hidable, so that I can get to results more quickly if I'm not using them.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/288",
-    "estimate": 2,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:08:58Z",
     "labels": [
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -5527,8 +5529,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -5597,8 +5598,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug",
-      "wishlist"
+      "bug"
     ],
     "milestone": ""
   },
@@ -5755,8 +5755,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug",
-      "wishlist"
+      "bug"
     ],
     "milestone": ""
   },
@@ -5845,8 +5844,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -5909,8 +5907,7 @@
     "closed": null,
     "labels": [
       "accessibility",
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6004,8 +6001,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6069,11 +6065,10 @@
     "issue": "As a content admin, when I change or remove a Work URI or edition URI, I want the work and edition URIs validated and content from OCLC to be updated.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/354",
-    "estimate": 5,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:09:18Z",
     "labels": [
-      "question",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -6093,8 +6088,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6363,8 +6357,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6488,8 +6481,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "needs estimation",
-      "wishlist"
+      "needs estimation"
     ],
     "milestone": ""
   },
@@ -6543,8 +6535,7 @@
     "closed": null,
     "labels": [
       "accessibility",
-      "bug",
-      "wishlist"
+      "bug"
     ],
     "milestone": ""
   },
@@ -6577,8 +6568,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "needs estimation",
-      "postpone"
+      "needs estimation"
     ],
     "milestone": ""
   },
@@ -6589,8 +6579,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6624,8 +6613,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "postpone"
+      "chore"
     ],
     "milestone": ""
   },
@@ -6833,19 +6821,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/443",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "postpone"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
     "issue": "As a user, I want to be able to sort lists of borrowing and subscription events when viewing them on a mobile device so I can find relevant events more easily.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/444",
-    "estimate": 3,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T21:05:06Z",
     "labels": [
-      "postpone"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -6855,9 +6841,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/445",
     "estimate": 2,
     "closed": null,
-    "labels": [
-      "postpone"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6997,10 +6981,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/463",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T21:06:04Z",
     "labels": [
-      "chore",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7201,10 +7184,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/487",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T21:06:23Z",
     "labels": [
-      "bug",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7244,10 +7226,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/490",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-20T20:15:45Z",
     "labels": [
-      "chore",
-      "postpone"
+      "invalid"
     ],
     "milestone": ""
   },
@@ -7369,8 +7350,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "design",
-      "wishlist"
+      "design"
     ],
     "milestone": ""
   },
@@ -7398,11 +7378,10 @@
     "issue": "Design contextual footnotes ",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/503",
-    "estimate": 5,
-    "closed": null,
+    "estimate": "",
+    "closed": "2020-08-20T20:09:44Z",
     "labels": [
-      "design",
-      "wishlist"
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -12724,7 +12703,7 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/9",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-22T19:56:00Z",
     "labels": [],
     "milestone": ""
   },
