@@ -8024,8 +8024,7 @@
     "estimate": 0,
     "closed": "2020-05-13T16:40:53Z",
     "labels": [
-      "design",
-      "wishlist"
+      "design"
     ],
     "milestone": ""
   },
@@ -8045,8 +8044,7 @@
     "estimate": 0,
     "closed": "2020-05-13T16:41:50Z",
     "labels": [
-      "design",
-      "wishlist"
+      "design"
     ],
     "milestone": ""
   },
@@ -13658,7 +13656,7 @@
     "issue": "add custom css for dbv essay",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/88",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "chore"
@@ -14670,7 +14668,7 @@
     "issue": "As a user, I want to search books by keyword and phrase in book metadata so that I can find Winthrop books that match my interest.",
     "project": "winthrop-django",
     "url": "https://api.github.com/repos/Princeton-CDH/winthrop-django/issues/84",
-    "estimate": 1,
+    "estimate": "",
     "closed": null,
     "labels": [
       "awaiting testing"
