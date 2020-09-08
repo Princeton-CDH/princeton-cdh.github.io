@@ -7,6 +7,8 @@ layout: iterationreport
 
 The last iteration we continued to spend time on project maintenance and updates. Closed issues on *Startwords* and the pucas release are continuing and closing out work from the previous iterations.  Active work this iteration that is incomplete and not reflected in the closed tickets include django/mezzanine upgrades for cdhweb, and refactoring PPA to remove an outdated SolrClient dependency and use parasolr instead. We also have now migrated our first repositories to use **main** as the production branch name.
 
+Over the last iteration we also wrote a new *limited support agreement*, which was adapted and simplified from the ["Built by CDH" Long Term Service Agreement](https://doi.org/10.5281/zenodo.3359203) in order to offer minimal support for the [PEMM Incipit Search Tool](https://pemm.cdh.princeton.edu/) for a limited term (1 year, renewable for a second year). The limited support agreement for PEMM goes into effect today.
+
 ## Demos
 - [New dev/design site](https://princeton-cdh.github.io/) (still in progress)
 - *Startwords*:
