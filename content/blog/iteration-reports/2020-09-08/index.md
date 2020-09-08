@@ -12,3 +12,5 @@ The last iteration we continued to spend time on project maintenance and updates
 - *Startwords*:
   - [404 error design](https://www.figma.com/file/MEt3gfKX4N3WTLPbLGBbGC/Startwords?node-id=1104%3A3516)
   - [Articles now have image styles with automatic derivatives for different size screens](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/)
+
+{{< figure src="featured_startwords_404design.png" caption="Screenshot of new 404 page design for *Startwords*">}}
