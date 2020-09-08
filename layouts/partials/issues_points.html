@@ -1,3 +1,2 @@
 {{ with .points }}{{ . }} {{ cond (eq . 1.0) "point" "points" }},{{ else }}0 points,{{ end }}
 {{ with .issues }}{{ . }} {{ cond (eq . 1.0) "issue" "issues" }}{{ else }}0 issues{{ end }}
-
