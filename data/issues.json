@@ -746,6 +746,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "awaiting testing",
       "bug"
     ],
     "milestone": "v2.7"
