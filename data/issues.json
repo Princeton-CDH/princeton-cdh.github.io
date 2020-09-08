@@ -748,7 +748,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.7"
   },
   {
     "issue": "project alums display incorrectly lists members of most recent grant",
@@ -759,7 +759,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.7"
   },
   {
     "issue": "Home page carousel of featured blog posts should allow pausing",
