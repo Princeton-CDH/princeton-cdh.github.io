@@ -700,7 +700,7 @@
         "to": "2020-08-20",
         "dev": {
             "points": 2,
-            "issues": 4,
+            "issues": 5,
             "velocity": 4.0
         },
         "design": {
@@ -709,7 +709,7 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "princeton-cdh.github.io": 2,
+            "princeton-cdh.github.io": 3,
             "mep-django": 1,
             "startwords": 2
         },
@@ -717,6 +717,30 @@
             "princeton-cdh.github.io": 0,
             "mep-django": 0,
             "startwords": 2
+        }
+    },
+    {
+        "from": "2020-08-24",
+        "to": "2020-09-03",
+        "dev": {
+            "points": 5,
+            "issues": 7,
+            "velocity": 2.33
+        },
+        "design": {
+            "points": 3,
+            "issues": 1,
+            "velocity": 1.0
+        },
+        "project_issues": {
+            "django-pucas": 4,
+            "startwords": 3,
+            "cdh-web": 1
+        },
+        "project_points": {
+            "django-pucas": 0,
+            "startwords": 8,
+            "cdh-web": 0
         }
     }
 ]

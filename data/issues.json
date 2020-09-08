@@ -369,11 +369,12 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/134",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-03T19:32:48Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
-    "milestone": ""
+    "milestone": "v2.7"
   },
   {
     "issue": "display event sponsors on event detail page",
@@ -780,7 +781,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "v2.6.1"
+    "milestone": "v2.7"
   },
   {
     "issue": "As a user, I want to view and download files associated with pages on the site so that I can access other materials related to the content.",
@@ -892,21 +893,53 @@
     "issue": "show staff affiliates on affiliates page",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/192",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": "v2.6.1"
+    "milestone": "v2.7"
   },
   {
     "issue": "upgrade django + mezzanine",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/193",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-03T19:33:45Z",
     "labels": [
       "chore"
     ],
-    "milestone": "v2.6.1"
+    "milestone": "v2.7"
+  },
+  {
+    "issue": "As an admin, I want to add a virtual location to events so that people know they can join remotely.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/194",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "v2.7"
+  },
+  {
+    "issue": "affiliate grant year ranges on profile list pages are incorrect",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/197",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v2.7"
+  },
+  {
+    "issue": "set up a11y testing",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/198",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "accessibility",
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want an import of content from the previous version of the site so that all the information available on the old site is migrated to the new version.",
@@ -925,6 +958,17 @@
     "closed": "2017-08-31T19:17:36Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a user, I want to know when an event has been canceled, postponed, or moved so that I can keep up-to-date with CDH events.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/200",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view sponsored project details so I can read about project goals, progress, and contributors.",
@@ -3811,6 +3855,26 @@
     "milestone": "Library works and references (front-end I)"
   },
   {
+    "issue": "Configure GitHub Action to publish package to pypi when a new release is created",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/11",
+    "estimate": "",
+    "closed": "2020-08-26T15:53:11Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Setup continuous integration testing in Github Actions",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/12",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Add django-cas-ng 3.6+ compatibility",
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/4",
@@ -3826,8 +3890,9 @@
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/7",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-31T18:13:33Z",
     "labels": [
+      "chore",
       "enhancement"
     ],
     "milestone": ""
@@ -3837,7 +3902,18 @@
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/8",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-08-31T17:55:54Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename default branch from master -> main",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/9",
+    "estimate": "",
+    "closed": "2020-08-25T15:22:49Z",
     "labels": [],
     "milestone": ""
   },
@@ -9049,6 +9125,15 @@
     "milestone": ""
   },
   {
+    "issue": "generic events incorrectly go to the end of the list on the card pages",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/694",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Build accounts module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/7",
@@ -9467,6 +9552,24 @@
     "labels": [
       "bug"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename default branch from master -> main",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/44",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add needed features to support PPA ",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -12153,6 +12256,28 @@
     "milestone": ""
   },
   {
+    "issue": "Propose styles for keyboard navigation and revise the current click and hover styles",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/344",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "refactor solr code to use parasolr and remove dependency on forked version of SolrClient",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/345",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want to add all or selected works from the search results list to my Zotero library, so that I can efficiently save them for later research or citation.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/35",
@@ -12777,9 +12902,11 @@
     "issue": "styles for images in articles",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/111",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting review"
+    ],
     "milestone": "Issue 1"
   },
   {
@@ -12804,10 +12931,32 @@
     "issue": "Create a way for readers to interact with image of the weaving piece through its annotations so that they can learn about it in more details",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/114",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "allow changing image derivative sizes via a config file",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/118",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add lighthouse ci github actions workflow",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/119",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -12819,6 +12968,17 @@
     "closed": "2020-06-24T20:22:31Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "issue titles on issue list have insufficient contrast",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/120",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to read a short piece.",
@@ -12912,7 +13072,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/22",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-08-27T20:57:46Z",
     "labels": [],
     "milestone": "Issue 1"
   },
@@ -13209,7 +13369,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/50",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-08-27T21:25:13Z",
     "labels": [
       "design",
       "enhancement"
@@ -13468,7 +13628,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/85",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-08-27T20:59:57Z",
     "labels": [],
     "milestone": "Issue 1"
   },
