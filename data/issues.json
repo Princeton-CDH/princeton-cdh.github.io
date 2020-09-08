@@ -915,7 +915,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/194",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": "v2.7"
   },
   {
@@ -969,6 +971,17 @@
       "enhancement"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "rename master -> main",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/202",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.7"
   },
   {
     "issue": "As a user, I want to view sponsored project details so I can read about project goals, progress, and contributors.",
