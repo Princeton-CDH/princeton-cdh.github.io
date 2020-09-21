@@ -723,24 +723,26 @@
         "from": "2020-08-24",
         "to": "2020-09-04",
         "dev": {
-            "points": 5,
-            "issues": 7,
-            "velocity": 2.33
+            "points": 9,
+            "issues": 13,
+            "velocity": 3.67
         },
         "design": {
-            "points": 3,
-            "issues": 1,
-            "velocity": 1.0
+            "points": 6,
+            "issues": 4,
+            "velocity": 2.0
         },
         "project_issues": {
             "django-pucas": 4,
-            "startwords": 3,
-            "cdh-web": 1
+            "startwords": 5,
+            "cdh-web": 5,
+            "ppa-django": 3
         },
         "project_points": {
             "django-pucas": 0,
-            "startwords": 8,
-            "cdh-web": 0
+            "startwords": 9,
+            "cdh-web": 4,
+            "ppa-django": 2
         }
     },
     {
@@ -748,11 +750,25 @@
         "to": "2020-10-01",
         "dev": {
             "points": 0,
-            "velocity": 2.33
+            "velocity": 3.67
         },
         "design": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 2.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2020-10-05",
+        "to": "2020-10-15",
+        "dev": {
+            "points": 0,
+            "velocity": 3.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
