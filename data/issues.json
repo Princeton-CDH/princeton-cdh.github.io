@@ -799,11 +799,11 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/179",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-21T15:27:44Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.7"
   },
   {
     "issue": "As a user, I want to view and download files associated with pages on the site so that I can access other materials related to the content.",
@@ -912,7 +912,7 @@
     "milestone": ""
   },
   {
-    "issue": "show staff affiliates on affiliates page",
+    "issue": "As a content editor, I want to include staff affiliates on the affiliates page so I can highlight library staff directing data curation projects.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/192",
     "estimate": 2,
@@ -1012,9 +1012,20 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/204",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-09-21T15:23:15Z",
     "labels": [],
     "milestone": "v2.7"
+  },
+  {
+    "issue": "unable to save changes for some items in admin",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/206",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view sponsored project details so I can read about project goals, progress, and contributors.",
@@ -9178,6 +9189,17 @@
     "milestone": ""
   },
   {
+    "issue": "Twitter Bot - Redaction",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/695",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Build accounts module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/7",
@@ -9561,8 +9583,10 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/40",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2020-09-21T19:48:57Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -9603,8 +9627,10 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/44",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2020-09-21T19:47:50Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -9612,8 +9638,10 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/46",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2020-09-21T19:48:04Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -9625,6 +9653,24 @@
     "labels": [
       "enhancement"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "remove basic_configs for compatibility with solr >= 7",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/48",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "solr looks for configsets in wrong directory",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/49",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11764,8 +11810,7 @@
     "closed": null,
     "labels": [
       "awaiting testing",
-      "bug",
-      "tested needs attention"
+      "bug"
     ],
     "milestone": "3.4"
   },
@@ -12256,9 +12301,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/337",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-21T17:10:30Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": ""
@@ -12344,6 +12388,39 @@
     "closed": "2018-05-15T20:23:34Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "make page indexing more efficient",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/351",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "handle hyphenated words caused by page breaks in the text",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/353",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "ignore running headers when indexing page text content",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/354",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to add a work to my Zotero library from the individual item page so that I can save it for research without having to go back to the list of results.",
@@ -12876,7 +12953,7 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/7",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-22T15:59:38Z",
     "labels": [
       "enhancement"
     ],
@@ -12963,7 +13040,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/111",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting review"
+    ],
     "milestone": "Issue 1"
   },
   {
@@ -13043,7 +13122,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/121",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-22T15:27:44Z",
     "labels": [
       "enhancement"
     ],

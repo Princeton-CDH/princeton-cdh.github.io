@@ -723,52 +723,87 @@
         "from": "2020-08-24",
         "to": "2020-09-04",
         "dev": {
-            "points": 9,
-            "issues": 13,
-            "velocity": 3.67
+            "points": 5,
+            "issues": 7,
+            "velocity": 2.33
         },
         "design": {
-            "points": 6,
-            "issues": 4,
-            "velocity": 2.0
+            "points": 3,
+            "issues": 1,
+            "velocity": 1.0
         },
         "project_issues": {
             "django-pucas": 4,
-            "startwords": 5,
-            "cdh-web": 5,
-            "ppa-django": 3
+            "startwords": 3,
+            "cdh-web": 1
         },
         "project_points": {
             "django-pucas": 0,
-            "startwords": 9,
+            "startwords": 8,
+            "cdh-web": 0
+        }
+    },
+    {
+        "from": "2020-09-07",
+        "to": "2020-09-17",
+        "dev": {
+            "points": 4,
+            "issues": 6,
+            "velocity": 3.67
+        },
+        "design": {
+            "points": 3,
+            "issues": 3,
+            "velocity": 2.0
+        },
+        "project_issues": {
             "cdh-web": 4,
-            "ppa-django": 2
+            "ppa-django": 3,
+            "startwords": 2
+        },
+        "project_points": {
+            "cdh-web": 4,
+            "ppa-django": 2,
+            "startwords": 1
         }
     },
     {
         "from": "2020-09-21",
         "to": "2020-10-01",
         "dev": {
-            "points": 0,
+            "points": 2,
+            "issues": 8,
             "velocity": 3.67
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-web": 2,
+            "parasolr": 3,
+            "ppa-django": 1,
+            "princeton-cdh.github.io": 1,
+            "startwords": 1
+        },
+        "project_points": {
+            "cdh-web": 2,
+            "parasolr": 0,
+            "ppa-django": 0,
+            "princeton-cdh.github.io": 0,
+            "startwords": 0
+        }
     },
     {
         "from": "2020-10-05",
         "to": "2020-10-15",
         "dev": {
             "points": 0,
-            "velocity": 3.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 1.0
         },
         "project_issues": {},
         "project_points": {}
