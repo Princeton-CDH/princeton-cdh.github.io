@@ -772,7 +772,7 @@
         "to": "2020-10-02",
         "dev": {
             "points": 8,
-            "issues": 20,
+            "issues": 19,
             "velocity": 5.67
         },
         "design": {
@@ -784,7 +784,7 @@
             "parasolr": 4,
             "ppa-django": 3,
             "princeton-cdh.github.io": 1,
-            "startwords": 10
+            "startwords": 9
         },
         "project_points": {
             "cdh-web": 2,
