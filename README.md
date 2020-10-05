@@ -2,6 +2,8 @@
 
 This repository is used for automated reporting on development work and for maintenance of dev/design documentation and reporting site for the Center for Digital Humanities at Princeton Development and Design Team.
 
+[![github pages](https://github.com/Princeton-CDH/princeton-cdh.github.io/workflows/github%20pages/badge.svg)](https://princeton-cdh.github.io/)
+
 ## reporting
 
 GitHub Actions are used to collect data on releases (via repository tags) and issues closed, with points and velocity (based on GitHub and ZenHub APIs). The data files created by these scripts are used for reporting in the Hugo site.
