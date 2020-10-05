@@ -3975,6 +3975,39 @@
     "milestone": ""
   },
   {
+    "issue": "Create script to import geniza spreadsheet into solr",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Draft web annotation data model for transcription data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/6",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Set up a preliminary flask site with basic search",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/7",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Add chatops QA deploy",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/1",
@@ -9200,6 +9233,17 @@
     "milestone": ""
   },
   {
+    "issue": "twitter bot \u2014 generic event handling",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/696",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Build accounts module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/7",
@@ -9511,7 +9555,7 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/23",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-01T21:29:16Z",
     "labels": [
       "chore"
     ],
@@ -11807,9 +11851,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/274",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-23T17:14:31Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": "3.4"
@@ -12394,7 +12437,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/351",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-23T15:43:51Z",
     "labels": [
       "chore"
     ],
@@ -13039,10 +13082,8 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/111",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "awaiting review"
-    ],
+    "closed": "2020-09-30T16:21:13Z",
+    "labels": [],
     "milestone": "Issue 1"
   },
   {
@@ -13084,14 +13125,14 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "Issue 2"
+    "milestone": ""
   },
   {
     "issue": "add lighthouse ci github actions workflow",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/119",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-30T21:20:46Z",
     "labels": [
       "chore"
     ],
@@ -13107,11 +13148,11 @@
     "milestone": "Issue 1"
   },
   {
-    "issue": "issue titles on issue list have insufficient contrast",
+    "issue": "issue titles have insufficient contrast",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/120",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-29T15:15:20Z",
     "labels": [
       "bug"
     ],
@@ -13145,7 +13186,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/125",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-30T18:54:34Z",
     "labels": [
       "chore"
     ],
@@ -13155,12 +13196,12 @@
     "issue": "Create a \"Snippets\" header for short pieces listed on the issue page",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/126",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "Issue 1"
   },
   {
     "issue": "As a reader, I want to read a short piece.",
@@ -13170,6 +13211,59 @@
     "closed": "2020-06-23T21:26:09Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "As an editor, I want to associate articles with their generated PDFs.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/131",
+    "estimate": 1,
+    "closed": "2020-09-30T18:47:07Z",
+    "labels": [
+      "awaiting review"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "turn on branch protection for main branch",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/133",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add the zoom function to essay images when needed ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/134",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "add robots.txt with link to sitemap",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/138",
+    "estimate": "",
+    "closed": "2020-10-01T21:03:24Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "customize rss feed, add atom feed",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/139",
+    "estimate": "",
+    "closed": "2020-10-01T21:03:30Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to read notes in context as I'm reading an article so that I can refer to additional information without losing my place.",
@@ -13290,7 +13384,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/26",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-09-24T20:13:27Z",
     "labels": [
       "chore"
     ],
@@ -13329,12 +13423,12 @@
     "issue": "As a reader, I want to see an error page if content isn't found.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/30",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 2,
+    "closed": "2020-09-30T18:13:49Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "Issue 1"
   },
   {
     "issue": "As a content editor, I want to publish articles and supplementary content.",
@@ -13533,7 +13627,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "Issue 2"
   },
   {
     "issue": "Plain text output should include space between paragraphs",
@@ -13771,7 +13865,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "Issue 1"
+    "milestone": "Issue 2"
   },
   {
     "issue": "Design a footer for desktop",
@@ -13829,7 +13923,7 @@
     "issue": "Add a drop shadow to the contextual notes on tablet/desktop",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/87",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -13840,9 +13934,10 @@
     "issue": "add custom css for dbv essay",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/88",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
+      "awaiting review",
       "chore"
     ],
     "milestone": "Issue 1"
