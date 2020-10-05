@@ -2,8 +2,10 @@ name: iteration report
 
 on:
   push:
+    branches:
+    - main
     paths:
-    - '**/iterations.js'     # run when the iteration data file is changed
+    - 'data/iterations.js'     # run when the iteration data file is changed
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
