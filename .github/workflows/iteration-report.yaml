@@ -2,8 +2,9 @@ name: iteration report
 
 on:
   push:
-    branches:
-    - main
+    paths:
+    # run when the iteration date file is changed
+    - 'data/iterations.js'
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
@@ -38,7 +39,7 @@ jobs:
       with:
         author_name: GitHub Action
         author_email: action@github.com
-        message: "Automatic update from GitHub Actions"
+        message: "Update iteration summary data from GitHub Actions"
         add: "data/*"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
