@@ -13165,6 +13165,7 @@
     "estimate": "",
     "closed": "2020-09-22T15:27:44Z",
     "labels": [
+      "chore",
       "enhancement"
     ],
     "milestone": ""
@@ -13218,9 +13219,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/131",
     "estimate": 1,
     "closed": "2020-09-30T18:47:07Z",
-    "labels": [
-      "awaiting review"
-    ],
+    "labels": [],
     "milestone": "Issue 1"
   },
   {
@@ -13386,7 +13385,8 @@
     "estimate": "",
     "closed": "2020-09-24T20:13:27Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
     "milestone": "Issue 1"
   },
