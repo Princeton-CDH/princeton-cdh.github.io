@@ -1,9 +1,9 @@
-name: iteration report
+name: update issue data
 
 on:
-  push:
-    branches:
-    - main
+  schedule:
+    # run at 2:15am on Saturdays
+    - cron:  '15 2 * * SAT'
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
@@ -30,16 +30,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Update iteration summary JSON
-      run: python .github/summarize_iterations.py
+    - name: Get data for issues modified since last run and save in data file
+      run: python .github/get_issues.py
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
       with:
         author_name: GitHub Action
         author_email: action@github.com
-        message: "Automatic update from GitHub Actions"
-        add: "data/*"
+        message: "Update issue data from GitHub Actions"
+        add: "data/*"     # could just do data/issues.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

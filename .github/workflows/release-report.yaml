@@ -38,7 +38,7 @@ jobs:
         author_name: GitHub Action
         author_email: action@github.com
         message: "Update release data from GitHub Actions"
-        add: "data/*"
+        add: "data/*"     # could just do data/releases.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
