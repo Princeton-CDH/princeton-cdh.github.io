@@ -66,7 +66,7 @@
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/29",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-07T19:51:23Z",
     "labels": [
       "bug"
     ],
@@ -77,7 +77,7 @@
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/30",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-07T19:50:39Z",
     "labels": [
       "chore"
     ],
@@ -3986,6 +3986,50 @@
     "milestone": ""
   },
   {
+    "issue": "incorporate transcription data from TEI in search prototype",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/10",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "test eScriptorium on sample content",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/11",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "draft data diagram for relational database",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/12",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Get search prototype operating on Solr 8",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Draft web annotation data model for transcription data",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/6",
@@ -4000,6 +4044,28 @@
     "issue": "Set up a preliminary flask site with basic search",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/7",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create an ansible deploy script for qa for the flask prototype",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/8",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "configure unicode folding on text fields in Solr",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -12965,12 +13031,43 @@
     "milestone": ""
   },
   {
-    "issue": "Convert release report to separate javascript action",
+    "issue": "configure home page blocks and update placeholder content",
     "project": "princeton-cdh.github.io",
-    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/3",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/11",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "customize top-level documentation page",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/12",
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "add CDH logo to header and/or footer",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/13",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Convert release report to separate action",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/3",
+    "estimate": "",
+    "closed": "2020-10-05T21:32:26Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -13093,7 +13190,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "Issue 1"
   },
   {
     "issue": "articles should link to the issue they belong to",
@@ -13272,6 +13369,38 @@
     "closed": "2020-06-17T22:38:48Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "revise designs to display tags on article page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/140",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "design"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "add tags to article detail page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/141",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "Add comprehensive styles for dark mode",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/142",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a contributor, I want to embed images in pages.",
