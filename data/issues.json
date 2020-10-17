@@ -953,7 +953,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.8"
   },
   {
     "issue": "set up a11y testing",
@@ -965,7 +965,7 @@
       "accessibility",
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8"
   },
   {
     "issue": "As an admin, I want an import of content from the previous version of the site so that all the information available on the old site is migrated to the new version.",
@@ -1005,7 +1005,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8"
   },
   {
     "issue": "treat research lead co-PIs position as project director",
@@ -1025,7 +1025,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.8"
   },
   {
     "issue": "As a user, I want to view sponsored project details so I can read about project goals, progress, and contributors.",
@@ -1035,6 +1035,28 @@
     "closed": "2017-09-21T21:43:09Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "some affiliates are incorrectly listed as past",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/210",
+    "estimate": "",
+    "closed": "2020-10-13T21:26:57Z",
+    "labels": [
+      "invalid"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to learn about the DH Working Groups sponsored by the CDH.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/211",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v2.8"
   },
   {
     "issue": "As a user I want to view a list of staff members so I can get an idea of the people who work at the CDH.",
@@ -3975,13 +3997,13 @@
     "milestone": ""
   },
   {
-    "issue": "Create script to import geniza spreadsheet into solr",
+    "issue": "As a data editor, I want metadata from the geniza spreadsheet indexed into Solr so I can run more advanced searches to find geniza materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -3992,7 +4014,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -4003,7 +4025,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -4012,9 +4034,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/12",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-12T20:33:16Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -4025,7 +4047,18 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a data editor, I want to see the image linked to a record so that I don't need to look up the image manually.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/16",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -4041,13 +4074,14 @@
     "milestone": ""
   },
   {
-    "issue": "Set up a preliminary flask site with basic search",
+    "issue": "As a data editor, I want to search across multiple metadata fields so that I can find geniza items by keyword or phrase.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/7",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -4056,9 +4090,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/8",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-14T20:07:52Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -13295,7 +13329,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/126",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-10-14T19:12:27Z",
     "labels": [
       "enhancement"
     ],
@@ -13401,6 +13435,28 @@
       "design"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "allow reference of site style config in article-specific style files",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/143",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust main content container to max line length of ~75ch",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/145",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 1"
   },
   {
     "issue": "As a contributor, I want to embed images in pages.",
@@ -14066,7 +14122,6 @@
     "estimate": 5,
     "closed": null,
     "labels": [
-      "awaiting review",
       "chore"
     ],
     "milestone": "Issue 1"
