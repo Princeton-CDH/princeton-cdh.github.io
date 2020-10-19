@@ -798,22 +798,33 @@
         "from": "2020-10-05",
         "to": "2020-10-15",
         "dev": {
-            "points": 0,
-            "velocity": 4.0
+            "points": 1,
+            "issues": 6,
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
             "velocity": 1.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "princeton-cdh.github.io": 1,
+            "CDH_ansible": 2,
+            "geniza": 2,
+            "startwords": 1
+        },
+        "project_points": {
+            "princeton-cdh.github.io": 0,
+            "CDH_ansible": 0,
+            "geniza": 0,
+            "startwords": 1
+        }
     },
     {
         "from": "2020-10-19",
         "to": "2020-10-29",
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 3.0
         },
         "design": {
             "points": 0,
