@@ -30,10 +30,20 @@ Install npm dependencies:
 
 ```
 npm install
-``
+```
 
+## Creating iteration reports
 
+First, edit the iteration definition file `iterations.json` to add the dates for the next iteration. Push the change to github to trigger the iteration summary script run.
 
+Then create a new iteration report using the post-bundle archetype with the filename for the post you want to create. By convention, use isodates for iteration reports. To autogenerate with the current date, use this command:
 
+```
+hugo new --kind iteration-report blog/iteration-reports/`date +'%Y-%m-%d'`
+```
+
+The iteration report archetype assumes it is run on the first day of the new iteration; previous iteration start is calculated accordingly, and should be edited when necessary.
+
+Edit the new post to add content and any demo or featured content, then push to GitHub to publish.
 
 
