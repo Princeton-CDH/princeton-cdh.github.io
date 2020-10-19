@@ -54,7 +54,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Development & Design Team, Center for Digital Humanities @ Princeton"
+title = "Dev/Design @ CDH"
 description = "Technical documentation and reports for CDH Development and Design Team"
 languageName ="English"
 # Weight used for sorting.
@@ -73,8 +73,8 @@ weight = 1
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "Development and Design Team, Center for Digital Humanities at Princeton."
+#privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -178,5 +178,5 @@ enable = false
 	name = "Contact CDH"
 	url = "mailto:cdh-info@princeton.edu"
 	icon = "fa fa-envelope"
-        desc = "Email the Center for Digital Humanities for questions about our work"
+        desc = "Email the Center for Digital Humanities for inquiries about our work"
 
