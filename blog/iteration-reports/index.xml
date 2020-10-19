@@ -1,4 +1,28 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development &amp; Design Team, Center for Digital Humanities @ Princeton – Iteration Reports</title><link>https://princeton-cdh.github.io/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Development &amp; Design Team, Center for Digital Humanities @ Princeton</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://princeton-cdh.github.io/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: October 5th, 2020</title><link>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-5th-2020/</link><pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-5th-2020/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development &amp; Design Team, Center for Digital Humanities @ Princeton – Iteration Reports</title><link>https://princeton-cdh.github.io/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Development &amp; Design Team, Center for Digital Humanities @ Princeton</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://princeton-cdh.github.io/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: October 19th, 2020</title><link>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-19th-2020/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-19th-2020/</guid><description>
+&lt;img src="https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-19th-2020/featured-dbv-visuals_hu5a4dd102ce4f0bcbe542030242904bd8_198769_640x0_resize_box_2.png" width="640" height="207"/>
+&lt;p>Last iteration we put a lot of time and effort into Startwords as we get close to our issue 1 deadline and launch date, although that&amp;rsquo;s not reflected in the number of tickets closed on GitHub.&lt;/p>
+&lt;p>We&amp;rsquo;re continuing to make progress on Geniza planning and prototyping. That isn&amp;rsquo;t particularly evident from the issues closed, but that&amp;rsquo;s in part because we were hung up on getting the hostname for the new test server and acceptance testing only started at the end of the iteration. Design work at this point is primarily research, which we have not been tracking on GitHub.&lt;/p>
+&lt;p>We also made some minor improvements to our ansible deploys and dev/design site.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>&lt;figure>
+&lt;img src="featured-dbv-visuals.png"
+alt="Custom styles for Data Beyond Vision essay in Startwords"/> &lt;figcaption>
+&lt;p>Custom styles for Data Beyond Vision essay in &lt;em>Startwords&lt;/em>&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="dbv-icons.png"
+alt="Revised icons for Data Beyond Vision essay for Startwords"/> &lt;figcaption>
+&lt;p>Revised icons for Data Beyond Vision essay for &lt;em>Startwords&lt;/em>&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="geniza-search-prototype.png"
+alt="Geniza search prototype"/> &lt;figcaption>
+&lt;p>Geniza search prototype&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: October 5th, 2020</title><link>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-5th-2020/</link><pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate><guid>https://princeton-cdh.github.io/blog/iteration-reports/2020/10/october-5th-2020/</guid><description>
 &lt;p>This iteration marked our official start of work on the Geniza research partnership, now that the charter has been signed. We made progress on data modeling and a preliminary search prototype, but since none of those tasks have been completed they aren&amp;rsquo;t reflected in the issues and points below. We also saw a lot of activity on &lt;em>Startwords&lt;/em>, as the team makes the push to complete remaining functionality and styles needed for the project launch. We also made progress on PPA maintenance and bug fixes, although the fixes have not yet been released to production, and one bug fix is ready for testing but blocked waiting on HathiTrust restoring rsync dataset access.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
