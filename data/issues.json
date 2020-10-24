@@ -84,6 +84,17 @@
     "milestone": ""
   },
   {
+    "issue": "Change default production deploy branch from master -> main",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/35",
+    "estimate": "",
+    "closed": "2020-10-21T14:21:39Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "npm module doesn't register error on webpack build",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/9",
@@ -1001,7 +1012,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/202",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-21T14:47:08Z",
     "labels": [
       "chore"
     ],
@@ -1059,6 +1070,88 @@
     "milestone": "v2.8"
   },
   {
+    "issue": "project admin edit pages load slowly, especially for large projects",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/212",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "As a user, I want a prominent button to request a consultation on the home page so I immediately know that this service is available.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/213",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to see featured CDH projects displayed prominently on the homepage so that I know the major research collaborations that the CDH is engaged in.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/214",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want profiles of people who worked with CDH in the past to have a simplified display, so that I don't have to manually keep them up-to-date.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/215",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Some past student profiles are displaying twice",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/216",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "Move PGRAs to \"students\" and postdocs to \"staff\"",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/217",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "Shift ordering of student profiles to make grant awardees last",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/218",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "As a students, I want to see student profiles broken up according to their Princeton status, so that it's easier to find students like me.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/219",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user I want to view a list of staff members so I can get an idea of the people who work at the CDH.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/22",
@@ -1066,6 +1159,17 @@
     "closed": "2017-09-19T19:13:14Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As an admin, I want to highlight CDH projects that have received awards so that I can draw special attention to them.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/220",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see details about a staff member so I can learn about their role, research interests, and how to contact them.",
@@ -3224,6 +3328,17 @@
     "milestone": ""
   },
   {
+    "issue": "Rename default branch from master -> main",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/252",
+    "estimate": "",
+    "closed": "2020-10-21T14:26:47Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "books: associated derrida work with cited edition",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/26",
@@ -4000,9 +4115,10 @@
     "issue": "As a data editor, I want metadata from the geniza spreadsheet indexed into Solr so I can run more advanced searches to find geniza materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4052,14 +4168,33 @@
     "milestone": ""
   },
   {
-    "issue": "As a data editor, I want to see the image linked to a record so that I don't need to look up the image manually.",
+    "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/16",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a data editor, I want a report on automatically indentified named entities in item descriptions so I can compare it to entities I've already manually identified.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/18",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to search with multiple tags and choose how they should be combined (ANY/ALL) so that I can drill down or combine search results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/19",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -4077,7 +4212,7 @@
     "issue": "As a data editor, I want to search across multiple metadata fields so that I can find geniza items by keyword or phrase.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/7",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -4097,13 +4232,13 @@
     "milestone": ""
   },
   {
-    "issue": "configure unicode folding on text fields in Solr",
+    "issue": "As a user, I want to search on text with or without accents so that I can easily find word variants with or without accents.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -9326,7 +9461,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/695",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-23T16:16:05Z",
     "labels": [
       "enhancement"
     ],
@@ -9337,9 +9472,20 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/696",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-23T16:16:21Z",
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename default branch from master -> main",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/697",
+    "estimate": "",
+    "closed": "2020-10-21T14:22:20Z",
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -10483,6 +10629,17 @@
     "estimate": 2,
     "closed": "2019-12-18T14:35:11Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename default branch from master -> main",
+    "project": "pemm-scripts",
+    "url": "https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/81",
+    "estimate": "",
+    "closed": "2020-10-21T14:46:53Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -12497,8 +12654,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/342",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2020-10-21T14:24:36Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -13069,7 +13228,7 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/11",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-19T20:02:22Z",
     "labels": [
       "chore"
     ],
@@ -13080,8 +13239,10 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/12",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2020-10-19T19:39:21Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -13089,8 +13250,32 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/13",
     "estimate": "",
+    "closed": "2020-10-19T19:59:08Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create iteration report archetype and document how to use",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/14",
+    "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "fix site footer configuration",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/16",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -13240,9 +13425,8 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/114",
     "estimate": 5,
-    "closed": null,
+    "closed": "2020-10-22T19:57:47Z",
     "labels": [
-      "awaiting review",
       "design"
     ],
     "milestone": ""
@@ -13408,8 +13592,8 @@
     "issue": "revise designs to display tags on article page",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/140",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2020-10-22T19:58:23Z",
     "labels": [
       "design"
     ],
@@ -13448,11 +13632,42 @@
     "milestone": ""
   },
   {
-    "issue": "adjust main content container to max line length of ~75ch",
+    "issue": "adjust main content container to max line length of ~75 characters",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/145",
     "estimate": "",
+    "closed": "2020-10-23T21:23:46Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "pdf styles for DBV essay",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/147",
+    "estimate": 3,
     "closed": null,
+    "labels": [],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "change pdf generation workflow to use pagedjs",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/148",
+    "estimate": "",
+    "closed": "2020-10-23T20:01:38Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "fix pull-quote PDF rendering",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/149",
+    "estimate": "",
+    "closed": "2020-10-23T20:02:13Z",
     "labels": [
       "chore"
     ],
@@ -13468,11 +13683,84 @@
     "milestone": "Issue 1"
   },
   {
+    "issue": "convert dbv essay doc to markdown",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/150",
+    "estimate": 5,
+    "closed": "2020-10-21T15:46:05Z",
+    "labels": [],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "convert issue 1 snippets to markdown",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/151",
+    "estimate": 3,
+    "closed": "2020-10-22T18:02:16Z",
+    "labels": [],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "visiting anchor links cuts off top of page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/154",
+    "estimate": "",
+    "closed": "2020-10-23T14:37:37Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "lighthouse reports sitemap.xml is invalid",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/155",
+    "estimate": "",
+    "closed": "2020-10-22T19:16:24Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "Homepage currently previews a snippet rather than second featured essay",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/156",
+    "estimate": "",
+    "closed": "2020-10-22T20:35:07Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a reader, I want to preview the long pieces in an issue.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/16",
     "estimate": "",
     "closed": "2020-04-15T20:05:21Z",
+    "labels": [
+      "invalid"
+    ],
+    "milestone": "Issue 1"
+  },
+  {
+    "issue": "Endnotes not showing consistently",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/163",
+    "estimate": "",
+    "closed": "2020-10-23T21:25:42Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "pitbar behavior is broken",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/164",
+    "estimate": "",
+    "closed": "2020-10-23T19:10:58Z",
     "labels": [
       "invalid"
     ],
@@ -13889,7 +14177,7 @@
     "milestone": "Issue 1"
   },
   {
-    "issue": "integrate WeasyPrint into Hugo build for generating article PDFs",
+    "issue": "automate generating article PDFs",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/6",
     "estimate": "",
@@ -14120,10 +14408,8 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/88",
     "estimate": 5,
-    "closed": null,
-    "labels": [
-      "chore"
-    ],
+    "closed": "2020-10-21T18:10:50Z",
+    "labels": [],
     "milestone": "Issue 1"
   },
   {
