@@ -823,14 +823,34 @@
         "from": "2020-10-19",
         "to": "2020-10-29",
         "dev": {
-            "points": 0,
-            "velocity": 3.0
+            "points": 13,
+            "issues": 21,
+            "velocity": 7.33
         },
         "design": {
-            "points": 0,
-            "velocity": 0.0
+            "points": 6,
+            "issues": 2,
+            "velocity": 2.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "princeton-cdh.github.io": 3,
+            "CDH_ansible": 1,
+            "cdh-web": 1,
+            "derrida-django": 1,
+            "mep-django": 3,
+            "pemm-scripts": 1,
+            "ppa-django": 1,
+            "startwords": 12
+        },
+        "project_points": {
+            "princeton-cdh.github.io": 0,
+            "CDH_ansible": 0,
+            "cdh-web": 0,
+            "derrida-django": 0,
+            "mep-django": 0,
+            "pemm-scripts": 0,
+            "ppa-django": 0,
+            "startwords": 19
+        }
     }
 ]
