@@ -14,8 +14,6 @@ The dev/design site is generated with [Hugo](https://gohugo.io/) using the [Docs
 
 Because GitHub currently only supports publishing User and Organization sites from `master`, development on the site and scripts should be done on `develop`. The Hugo site is automatically compiled and published from the `develop` branch and published to `master`.
 
-To add a new iteration report, create a new post under `content/blog/iteration-reports` with `layout: iterationreport` and configure an `iteration_start` date that matches the iteration start value in the iterations summary data file.
-
 
 ## setup
 
@@ -34,16 +32,16 @@ npm install
 
 ## Creating iteration reports
 
-First, edit the iteration definition file `iterations.json` to add the dates for the next iteration. Push the change to github to trigger the iteration summary script run.
+First, edit the iteration definition file `iterations.json` to add the dates for the next iteration. Push the change to github to trigger the iteration summary GitHub Action to run.
 
-Then create a new iteration report using the post-bundle archetype with the filename for the post you want to create. By convention, use isodates for iteration reports. To autogenerate with the current date, use this command:
+Then create a new iteration report using the iteration report page bundle archetype with the filename for the post you want to create. By convention, use isodates for iteration reports. To autogenerate for the current date, use this command:
 
 ```
 hugo new --kind iteration-report blog/iteration-reports/`date +'%Y-%m-%d'`
 ```
 
-The iteration report archetype assumes it is run on the first day of the new iteration; previous iteration start is calculated accordingly, and should be edited when necessary.
+The iteration report archetype assumes it is run on the first day of the new iteration; previous iteration start is calculated accordingly, and should be edited when necessary. Make sure the `iteration_start` date matches the iteration start value in the iterations summary data file.
 
-Edit the new post to add content and any demo or featured content, then push to GitHub to publish.
+Edit the new post to add content and any demo or featured content, then commit and push to GitHub to publish.
 
 
