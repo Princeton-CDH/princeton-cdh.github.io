@@ -1097,7 +1097,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/214",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -1170,6 +1172,15 @@
       "enhancement"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to create staff projects that aren't R&D and have them show up on the Staff Projects page so I can highlight new work like Startwords.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/221",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v2.8"
   },
   {
     "issue": "As a user, I want to see details about a staff member so I can learn about their role, research interests, and how to contact them.",
@@ -4124,13 +4135,13 @@
     "milestone": ""
   },
   {
-    "issue": "incorporate transcription data from TEI in search prototype",
+    "issue": "As a user, I want to search on metadata and transcriptions together so that I can find records by description or content.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/10",
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -4172,9 +4183,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/16",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-10-28T21:07:52Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4213,9 +4223,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/7",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-10-28T21:08:31Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -9490,6 +9499,15 @@
     "milestone": ""
   },
   {
+    "issue": "As an admin, I want to add links to digital humanities projects relevant to the member featured on the page",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/698",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Build accounts module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/7",
@@ -13261,7 +13279,7 @@
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/14",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-28T16:38:24Z",
     "labels": [
       "chore"
     ],
@@ -13407,7 +13425,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/112",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-27T13:55:56Z",
     "labels": [],
     "milestone": "Issue 1"
   },
@@ -13604,7 +13622,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/141",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-10-26T13:49:47Z",
     "labels": [],
     "milestone": "Issue 1"
   },
@@ -13647,7 +13665,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/147",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-10-26T20:33:07Z",
     "labels": [],
     "milestone": "Issue 1"
   },
@@ -13909,7 +13927,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/31",
     "estimate": "",
     "closed": "2020-03-17T15:26:17Z",
-    "labels": [],
+    "labels": [
+      "invalid"
+    ],
     "milestone": "Issue 1"
   },
   {
