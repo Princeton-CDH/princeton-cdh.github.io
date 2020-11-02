@@ -41,7 +41,7 @@
 {{ range $repo := $.Site.Data.releases }}
     {{ range $tagname, $tagdate :=  $repo.tags }}
         {{ if and (ge $tagdate $iteration.from ) (le $tagdate $iteration.to ) }}
-        <li><a href="{{ $.Site.Params.github_org_url }}{{ $repo.repo }}/releases/tag/{{ $tagname }}">{{ $repo.repo }} v{{ $tagname }}</a> — {{ dateFormat "Monday Jan 2, 2006" $tagdate }}
+        <li><a href="{{ $.Site.Params.github_org_url }}{{ $repo.repo }}/releases/tag/{{ $tagname }}">{{ $repo.repo }} {{ $tagname }}</a> — {{ dateFormat "Monday Jan 2, 2006" $tagdate }}
         </li>
         {{ end }}
     {{ end}}
