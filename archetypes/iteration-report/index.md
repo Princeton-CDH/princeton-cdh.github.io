@@ -1,5 +1,5 @@
 ---
-title: "{{ now.Format "January 2, 2006" }}""
+title: "{{ now.Format "January 2, 2006" }}"
 date: {{ now.Format "2006-01-02" }}
 iteration_start: {{ dateFormat "2006-01-02" (now.AddDate 0 0 -14 ) }}
 layout: iterationreport
