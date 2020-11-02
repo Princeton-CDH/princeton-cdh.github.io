@@ -13,7 +13,7 @@ We're also continuing to make progress switching our GitHub repositories to a de
 
 ## Demos
 {{< figure src="featured-startwords-weaving-interface.png" caption="Screenshot of the *Startwords* experimental [Weaving as Interface](https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/) piece">}}
-{{< figure src="startwords-dbv-pdf.jpg" caption="Screenshot from the *Startwords* PDF for [Data Beyond Vision](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/)">}}
+{{< figure src="startwords-dbv-pdf.png" caption="Screenshot from the *Startwords* PDF for [Data Beyond Vision](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/)">}}
 
 
 
