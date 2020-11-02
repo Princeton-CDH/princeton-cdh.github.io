@@ -1,4 +1,22 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: October 19th, 2020</title><link>/blog/2020/10/october-19th-2020/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/october-19th-2020/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: November 2, 2020</title><link>/blog/2020/11/november-2-2020/</link><pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/november-2-2020/</guid><description>
+&lt;img src="/blog/2020/11/november-2-2020/featured-startwords-weaving-interface_hu6f24b4b9c5af428670450e95cc68919c_571393_640x0_resize_catmullrom_2.png" width="640" height="335"/>
+&lt;p>Very pleased to report that this past iteration we finally published &lt;a href="https://startwords.cdh.princeton.edu/issues/1/">Issue One of &lt;em>Startwords&lt;/em>&lt;/a>. The velocity charts below reflect the effort to get this out the door, including completion of design and implementation on an experimental piece and a large amount of work to finish converting the long &amp;ldquo;Data Beyond Vision&amp;rdquo; essay and related snippets to markdown, and to finish custom styles for the essay, including PDF styles.&lt;/p>
+&lt;p>We also continuing our work on prototyping and data exploration for the Geniza project; this iteration saw our first two search prototype stories accepted.&lt;/p>
+&lt;p>We&amp;rsquo;re also continuing to make progress switching our GitHub repositories to a default branch of &lt;strong>main&lt;/strong>. In the last iteration, we updated the Ansible deploys to use &lt;strong>main&lt;/strong> by default for production deploys, and updated all projects with a production deploy.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>&lt;figure>
+&lt;img src="featured-startwords-weaving-interface.png"
+alt="Screenshot of the Startwords experimental Weaving as Interface piece"/> &lt;figcaption>
+&lt;p>Screenshot of the &lt;em>Startwords&lt;/em> experimental &lt;a href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/">Weaving as Interface&lt;/a> piece&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="startwords-dbv-pdf.jpg"
+alt="Screenshot from the Startwords PDF for Data Beyond Vision"/> &lt;figcaption>
+&lt;p>Screenshot from the &lt;em>Startwords&lt;/em> PDF for &lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Data Beyond Vision&lt;/a>&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: October 19th, 2020</title><link>/blog/2020/10/october-19th-2020/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/october-19th-2020/</guid><description>
 &lt;img src="/blog/2020/10/october-19th-2020/featured-dbv-visuals_hu5a4dd102ce4f0bcbe542030242904bd8_198769_640x0_resize_catmullrom_2.png" width="640" height="207"/>
 &lt;p>Last iteration we put a lot of time and effort into Startwords as we get close to our issue 1 deadline and launch date, although that&amp;rsquo;s not reflected in the number of tickets closed on GitHub.&lt;/p>
 &lt;p>We&amp;rsquo;re continuing to make progress on Geniza planning and prototyping. That isn&amp;rsquo;t particularly evident from the issues closed, but that&amp;rsquo;s in part because we were hung up on getting the hostname for the new test server and acceptance testing only started at the end of the iteration. Design work at this point is primarily research, which we have not been tracking on GitHub.&lt;/p>
