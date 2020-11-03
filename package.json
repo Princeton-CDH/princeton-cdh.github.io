@@ -3,11 +3,11 @@
   "description": "",
   "license": "Apache-2.0",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2"
   },
+  "devDependencies": {},
   "scripts": {},
   "repository": {
     "type": "git",
