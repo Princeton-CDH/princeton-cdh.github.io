@@ -91,7 +91,51 @@ Many of the decisions in IA, UI, IxD, and Visual Design require UX research and/
 Many of the decisions in the categories above depend on the data available, how it is structured, and Project Director research goals for the data.
 Knowledge about the structure of data, the goals of the project and its data, as well as UX Research all help determine site flows/user flows.
 Many of the terms above are interdependent.
-“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p></description></item><item><title>Docs: Workflows</title><link>/docs/workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/workflows/</guid><description>
+“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p></description></item><item><title>Docs: User Stories</title><link>/docs/user-stories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-stories/</guid><description>
+&lt;h2 id="user-stories-should">User stories should:&lt;/h2>
+&lt;ul>
+&lt;li>describe something a particular kind of user (as recognizable to the software) can do in the application and why&lt;/li>
+&lt;li>describe features at a granular level (e.g., could be implemented in a day or less)&lt;/li>
+&lt;li>be something technical and non-technical team members can understand and agree on&lt;/li>
+&lt;li>not be too specific about implementation details (leave room for developers to make technical decisions)&lt;/li>
+&lt;li>provide user motivation or value for the feature (may influence development choices)&lt;/li>
+&lt;li>should be testable (when a developer completes a feature and delivers it for testing, the project team member will test that feature to see if it works as expected)&lt;/li>
+&lt;/ul>
+&lt;h2 id="user-story-template">User story template:&lt;/h2>
+&lt;blockquote>
+&lt;p>As a user (&lt;strong>WHO&lt;/strong> - specify type of user within the system if appropriate), I want to do X (&lt;strong>WHAT&lt;/strong> - feature or functionality) so that Y (&lt;strong>WHY&lt;/strong> - rationale or motivation).&lt;/p>
+&lt;/blockquote>
+&lt;p>Users in this context are intended to be users as the software can recognize them - e.g., anonymous user vs. logged in user, admin vs. blog editor or content editor. Unless otherwise specified, it will generally be assumed that users with more permissions can do everything an anonymous or generic user can do. If there are multiple types of users in a system, the terminology should be agreed upon and defined.&lt;/p>
+&lt;p>User scenarios or case studies referencing particular kinds of personas (researchers, students, general public, etc) are valuable and may well feed into development user stories, but they generally provide a different level of specificity than what is needed for development work.&lt;/p>
+&lt;h2 id="administrative-user-stories">Administrative User Stories&lt;/h2>
+&lt;p>Describing administrative functionality is just as important as public-facing user functionality. Articulating administrative needs will help the development team to build something that is more efficient and easy to use.&lt;/p>
+&lt;p>Some features may have two related stories - the public facing story and the admin functionality that supports it. For example:&lt;/p>
+&lt;ul>
+&lt;li>As a user, I want to read blog posts so I can keep up to date on project news.&lt;/li>
+&lt;li>As a blog editor, I want to create and update blog posts so I can post news for users.&lt;/li>
+&lt;/ul>
+&lt;h3 id="types-of-admin-users">Types of admin users&lt;/h3>
+&lt;p>It may be useful to articulate groups of admin users based on what they need to do with the data and what permissions they should have. For example, a content site could have:&lt;/p>
+&lt;ul>
+&lt;li>Blog authors, who can contribute blog posts but not edit other content&lt;/li>
+&lt;li>Content editors, who can manage blog posts and other site content&lt;/li>
+&lt;li>Admins, who can manage blog posts, content, users, etc.&lt;/li>
+&lt;/ul>
+&lt;p>In an admin site for managing data, we might have something like a data entry user or data curator.&lt;/p>
+&lt;p>Any custom admin user terms should be defined so that everyone reading the user stories understands which kinds of users are meant.&lt;/p>
+&lt;p>The development team can help create and set permissions for admin user groups when implementing the admin interface.&lt;/p>
+&lt;h3 id="django-admin-interface">Django Admin interface&lt;/h3>
+&lt;p>Django comes with an easy-to customize admin interface for database content. The development team may be able to make suggestions based on our understanding of the database, but knowing what you need to accomplish will help. Here are some features to keep in mind when thinking through admin needs:&lt;/p>
+&lt;ul>
+&lt;li>What fields or data should display when listing all data for a particular kind of item (e.g. book or person)&lt;/li>
+&lt;li>What fields should be searchable by default in the admin interface?&lt;/li>
+&lt;li>What fields would be useful for filtering a list of items?&lt;/li>
+&lt;li>When editing items, should related items be grouped or displayed together?&lt;/li>
+&lt;li>Do any fields need a special lookup from a different system? (e.g., VIAF or Geonames)&lt;/li>
+&lt;li>Would it be useful to have some fields editable on the item list view for batch editing?&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>For a critical discussion of user stories, see &lt;a href="https://cdh.princeton.edu/updates/2019/07/29/best-practices/">Best Practices?&lt;/a> by Rebecca Sutton Koeser and &lt;a href="http://visiblelanguagejournal.com/issue/172">“Meta!Meta!Meta! A Speculative Design Brief for the Digital Humanities” by Anne Burdick&lt;/a>.&lt;/p></description></item><item><title>Docs: Workflows</title><link>/docs/workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/workflows/</guid><description>
 &lt;h2 id="communication">Communication&lt;/h2>
 &lt;h3 id="tools">Tools&lt;/h3>
 &lt;p>Project teams communicate primarily over Slack, using a channel in the CDH @ Princeton workspace. Project team members can be added to the CDH slack as single-channel guests so that they don’t have additional noise from other CDH channels. The Project may also maintain its own Slack workspace separate from CDH.&lt;/p>
