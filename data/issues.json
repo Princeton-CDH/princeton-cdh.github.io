@@ -95,6 +95,15 @@
     "milestone": ""
   },
   {
+    "issue": "As a developer, I want Solr configuration updates and schema changes to be made automatically when I deploy new software, so I can trust that expected changes will always be made.",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/36",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "npm module doesn't register error on webpack build",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/9",
@@ -960,8 +969,9 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/197",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-11-05T19:15:15Z",
     "labels": [
+      "awaiting testing",
       "bug"
     ],
     "milestone": "v2.8"
@@ -1032,7 +1042,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/206",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-11-03T16:38:35Z",
     "labels": [
       "bug"
     ],
@@ -1062,9 +1072,10 @@
     "issue": "As a user, I want to learn about the DH Working Groups sponsored by the CDH.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/211",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2020-11-05T19:09:59Z",
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v2.8"
@@ -1125,22 +1136,27 @@
     "milestone": "v2.8"
   },
   {
-    "issue": "Move PGRAs to \"students\" and postdocs to \"staff\"",
+    "issue": "As a user, I want to see PGRA profiles listed with students and postdoc profiles listed with staff, so I understand how these people relate to the CDH.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/217",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing",
+      "enhancement"
+    ],
     "milestone": "v2.8"
   },
   {
-    "issue": "Shift ordering of student profiles to make grant awardees last",
+    "issue": "As a user, I want to see student profiles ordered with grant awardees last, so that the order reflects who actually works most closely with CDH.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/218",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
-    "labels": [],
-    "milestone": "v2.8"
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a students, I want to see student profiles broken up according to their Princeton status, so that it's easier to find students like me.",
@@ -1177,9 +1193,78 @@
     "issue": "As an admin, I want to create staff projects that aren't R&D and have them show up on the Staff Projects page so I can highlight new work like Startwords.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/221",
+    "estimate": 0,
+    "closed": "2020-11-05T19:01:17Z",
+    "labels": [
+      "awaiting testing",
+      "enhancement"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "As a user, I want to see the full range of years that someone was affiliated with the CDH, so I know who is a consistent collaborator.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/222",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "shift CI to github actions",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/224",
+    "estimate": "",
+    "closed": "2020-11-04T20:13:22Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "test against postgres in CI",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/225",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "test using rsync to copy assets to new QA machine",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/226",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "test migrating data to PUL postgres instances",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/227",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "migrate all site data to new PUL hosted instances",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/229",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": "v2.8"
   },
   {
@@ -1190,6 +1275,17 @@
     "closed": "2017-09-19T18:36:19Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As an admin, I want to control the student/staff status of profiles based on the positions held by people so I can make sure they show up on the right listing page.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/232",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user I want to view a list of upcoming events so that I can find and attend events that interest me.",
@@ -3350,6 +3446,17 @@
     "milestone": ""
   },
   {
+    "issue": "If cached iiif image urls change, images on the site will be broken",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/253",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "books: associated derrida work with cited edition",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/26",
@@ -4127,9 +4234,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-11-02T17:17:06Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4138,9 +4244,10 @@
     "issue": "As a user, I want to search on metadata and transcriptions together so that I can find records by description or content.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/10",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4202,9 +4309,77 @@
     "issue": "As a user, I want to search with multiple tags and choose how they should be combined (ANY/ALL) so that I can drill down or combine search results.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/19",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Prototype the holistic search so that users who are exploring documents through tags, or are looking for documents by inputting search terms/keywords can navigate through the site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/21",
+    "estimate": 3,
+    "closed": "2020-11-03T16:30:09Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to see a list of topic clusters so I can get a sense of the major areas of content and relationships between them.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/22",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a topic cluster I want to browse the documents in that cluster and see their metadata and other tags so that I can explore everything in that cluster.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/23",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I search by keyword I want to see a list of matching clusters with the most relevant documents so that I can get to results but also see the context of related materials.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/24",
+    "estimate": 5,
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want transcription language detected and used for search so that I can see what languages are used and take advantage of language-specific search functionality.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/27",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to see image thumbnails with search results when available, so that I can quickly see which records have images and what they look like.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/28",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
     "milestone": ""
   },
   {
@@ -4241,12 +4416,13 @@
     "milestone": ""
   },
   {
-    "issue": "As a user, I want to search on text with or without accents so that I can easily find word variants with or without accents.",
+    "issue": "As a user, I want to search on text with or without accents so that I can easily find variants of words with accents and diacritics in the data.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
-    "estimate": 2,
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -9508,6 +9684,17 @@
     "milestone": ""
   },
   {
+    "issue": "admin autocomplete regression",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/699",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Build accounts module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/7",
@@ -9515,6 +9702,15 @@
     "closed": "2017-07-20T14:14:55Z",
     "labels": [],
     "milestone": "Initial MEP Database"
+  },
+  {
+    "issue": "As a user, I want to see an alphabetized list of members on the members page, where letters come alphabetically before punctuation.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/700",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to merge person records so that I can combine account records when I've identified duplicated people.",
@@ -9968,7 +10164,7 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/48",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-11-03T16:30:01Z",
     "labels": [],
     "milestone": ""
   },
@@ -13785,6 +13981,17 @@
     "milestone": "Issue 1"
   },
   {
+    "issue": "add focus shifting when activating contextual notes",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/169",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a reader, I want to browse a list of all published issues.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/17",
@@ -13792,6 +13999,18 @@
     "closed": "2020-06-01T20:26:38Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "root font size is set in absolute units",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/171",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug",
+      "\u267f accessibility"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to read a statement from the editor describing the project.",
