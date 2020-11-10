@@ -1,0 +1,15 @@
+[
+    {
+        "mep-django": "#07ae79",
+        "ppa-django": "#f05b69",
+        "derrida-django": "#175498",
+        "pemm-scripts": "#ff6300",
+        "startwords": "#CE2949",
+        "cdh-web": "#00edff",
+        "geniza": "#6B59C1",
+        "parasolr": "#9590AF",
+        "CDH_ansible": "#996666",
+        "django-pucas": "#CCCCCC",
+        "princeton-cdh.github.io": "#AC9C68"
+    }
+]
