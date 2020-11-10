@@ -4,15 +4,14 @@ function activityGraph(options) {
     /*
     options:
         id:  container element id
-        labels: array of labels
-        points: array of point values
-        issues: array of issue totals
-        velocity: array of velocity
-
+        keys: labels for the groups of data in the dataset
+        data: data to be graphed
+        colors: lookup of colors to use based on key
+        label: label to display at the top left of the graph
+        drawLegend: boolean to indicate if the key legend should be added
     */
 
     var container = d3.select(options.id);
-//     var designChart = new Chart(design_ctx,
 
     var margin = {top: 60, right: 230, bottom: 50, left: 50},
         width = 800 - margin.left - margin.right,
