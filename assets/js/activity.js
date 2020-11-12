@@ -2,6 +2,9 @@
 
 function activityGraph(options) {
     /*
+
+    Draw a stacked area chart of project activity
+
     options:
         id:  container element id
         keys: labels for the groups of data in the dataset

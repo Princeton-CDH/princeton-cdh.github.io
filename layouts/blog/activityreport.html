@@ -25,10 +25,11 @@ date_range:
 {{/* gather iteration summary data for the specified date range */}}
 {{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
 
+{{/* containers where the charts will be added */}}
 <div id="project-points"></div>
-
 <div id="project-issues"></div>
 
+{{/* data for generating the charts */}}
 <script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
 <script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
 
@@ -38,9 +39,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const projectInfo = JSON.parse(document.getElementById('project-info').textContent);
 
     // generate unique list of projects included in this data
-    let projects = iterationData.map(x => Object.keys(x.project_points))
-        .flat()
-        .filter((v, i, a) => a.indexOf(v) === i);
+    let projects = Array.from(new Set(iterationData.flatMap(x => Object.keys(x.project_points))));
 
     var data = [];
     iterationData.forEach(function(iteration) {
