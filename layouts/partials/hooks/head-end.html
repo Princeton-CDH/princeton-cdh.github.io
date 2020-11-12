@@ -3,3 +3,9 @@
 {{ $velocity := resources.Get "js/velocity.js" }}
 <script type="text/javascript" src="{{ $velocity.RelPermalink }}" defer></script>
 {{ end }}
+{{ if (eq .Params.layout "activityreport") }}
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+{{ $activity := resources.Get "js/activity.js" }}
+<script type="text/javascript" src="{{ $activity.RelPermalink }}" defer></script>
+{{ end }}

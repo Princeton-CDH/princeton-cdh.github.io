@@ -1,0 +1,36 @@
+# information about projects
+# project name must match github repository
+# colors are used in activity report
+
+mep-django:
+  color: "#07ae79"
+
+ppa-django:
+  color: "#f05b69"
+
+derrida-django:
+  color: "#175498"
+
+pemm-scripts:
+  color: "#ff6300"
+
+startwords:
+  color: "#CE2949"
+
+cdh-web:
+  color: "#00edff"
+
+geniza:
+  color: "#6B59C1"
+
+parasolr:
+  color: "#9590AF"
+
+CDH_ansible:
+  color: "#996666"
+
+django-pucas:
+  color: "#CCCCCC"
+
+princeton-cdh.github.io:
+  color: "#AC9C68"

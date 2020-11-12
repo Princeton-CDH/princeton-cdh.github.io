@@ -1,0 +1,92 @@
+{{/* custom layout to report on project activity for a specified date range.
+
+Page metadata should use the following structure to configure dates:
+
+layout: activityreport
+date_range:
+    start: "2020-06-01"
+    end: "2020-08-01"
+*/}}
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <div class="td-byline mb-4">
+        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+    </div>
+
+{{ .Content }}
+
+<hr/>
+
+{{ $date_range := .Params.date_range }}
+
+{{/* gather iteration summary data for the specified date range */}}
+{{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
+
+{{/* containers where the charts will be added */}}
+<div id="project-points"></div>
+<div id="project-issues"></div>
+
+{{/* data for generating the charts */}}
+<script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
+<script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    const iterationData = JSON.parse(document.getElementById('iteration-data').textContent);
+    const projectInfo = JSON.parse(document.getElementById('project-info').textContent);
+
+    // generate unique list of projects included in this data
+    let projects = Array.from(new Set(iterationData.flatMap(x => Object.keys(x.project_points))));
+
+    var data = [];
+    iterationData.forEach(function(iteration) {
+        var dataPoint = {
+            date: new Date(iteration.from)
+        };
+        projects.forEach(function(project) {
+            dataPoint[project] = iteration.project_points[project] || 0;
+        });
+        data.push(dataPoint);
+    });
+
+    activityGraph({
+        id: '#project-points',
+        keys: projects,
+        data: data,
+        projects: projectInfo,
+        label: 'points by project',
+        drawLegend: true
+    });
+
+    var issueData = [];
+    iterationData.forEach(function(iteration) {
+        var dataPoint = {
+            date: new Date(iteration.from)
+        };
+        projects.forEach(function(project) {
+            dataPoint[project] = iteration.project_issues[project] || 0;
+        });
+        issueData.push(dataPoint);
+    });
+
+    activityGraph({
+        id: '#project-issues',
+        keys: projects,
+        data: issueData,
+        projects: projectInfo,
+        label: 'issues by project',
+        drawLegend: false
+    });
+
+ });
+</script>
+
+
+</section>
+
+</div>
+
+{{ end }}
