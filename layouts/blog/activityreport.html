@@ -1,42 +1,48 @@
 {{/* custom layout to report on project activity for a specified date range.
 
-Page metadata should use the following structure to configure dates:
+    Page metadata should use the following structure to configure dates:
 
-layout: activityreport
-date_range:
+    layout: activityreport
+    date_range:
     start: "2020-06-01"
     end: "2020-08-01"
-*/}}
-{{ define "main" }}
-<div class="td-content">
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
-    <div class="td-byline mb-4">
-        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
-        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
-    </div>
+    */}}
+    {{ define "main" }}
+    <div class="td-content">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+        <div class="td-byline mb-4">
+            {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+            <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+        </div>
 
-{{ .Content }}
+        {{ .Content }}
 
-<hr/>
+        <hr/>
 
-{{ $date_range := .Params.date_range }}
+        {{ $date_range := .Params.date_range }}
 
-{{/* gather iteration summary data for the specified date range */}}
-{{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
+        {{/* gather iteration summary data for the specified date range */}}
+        {{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
 
-{{/* containers where the charts will be added */}}
-<div id="project-points"></div>
-<div id="project-issues"></div>
+        {{/* containers where the charts will be added */}}
+        <div id="project-points"></div>
+        <div id="project-issues"></div>
 
-{{/* data for generating the charts */}}
-<script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
-<script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
+        {{/* data for generating the charts */}}
+        <script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
+        <script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
+        <script id="releases" type="application/json">{{ $.Site.Data.releases|jsonify (dict "indent" "  ") | safeJS }}</script>
 
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    const iterationData = JSON.parse(document.getElementById('iteration-data').textContent);
-    const projectInfo = JSON.parse(document.getElementById('project-info').textContent);
+        <script>
+        const dateRange = {
+            start: new Date("{{ $date_range.start }}"),
+            end: new Date("{{ $date_range.end }}")
+        };
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const iterationData = JSON.parse(document.getElementById('iteration-data').textContent);
+            const projectInfo = JSON.parse(document.getElementById('project-info').textContent);
+            const releases = JSON.parse(document.getElementById('releases').textContent);
 
     // generate unique list of projects included in this data
     let projects = Array.from(new Set(iterationData.flatMap(x => Object.keys(x.project_points))));
@@ -52,13 +58,53 @@ document.addEventListener('DOMContentLoaded', (event) => {
         data.push(dataPoint);
     });
 
+    const annotations = [];
+    // get a list of supporting repos based on type in project data file
+    const supportRepos = Object.keys(projectInfo).filter(el => projectInfo[el].type == 'support');
+    const supportAnnotations = []
+    releases.forEach(function(release) {
+        // only include releases for projects with points
+        if (projects.includes(release.repo)) {
+            var dy = 250;
+            for (const [tag, timestamp] of Object.entries(release.tags)) {
+                let tagDate = new Date(timestamp);
+                // only include releases in our time frame; exclude hotfix releases
+                if (tagDate >= dateRange.start && tagDate <= dateRange.end && tag.split('.').length < 3) {
+                    let note = {
+                        note: {
+                            label: release.repo + " " + tag
+                        },
+                        data: { date: tagDate },
+                        className: release.repo,
+                        dy: -dy,
+                        dx: 70
+                    };
+                    if (supportRepos.includes(release.repo)) {
+                        supportAnnotations.push(note);
+                    } else {
+                        annotations.push(note);
+                    }
+                    // adjust vertically to try to avoid overlap (hack)
+                    dy -= 20;
+                    if (dy < 50) {
+                        dy = 250;
+                    }
+
+                }
+            }
+        }
+
+    });
+    console.log(annotations);
+
     activityGraph({
         id: '#project-points',
         keys: projects,
         data: data,
         projects: projectInfo,
         label: 'points by project',
-        drawLegend: true
+        drawLegend: true,
+        annotations: annotations,
     });
 
     var issueData = [];
@@ -78,14 +124,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         data: issueData,
         projects: projectInfo,
         label: 'issues by project',
-        drawLegend: false
+        drawLegend: false,
+        annotations: supportAnnotations
     });
 
- });
-</script>
+});
+        </script>
 
 
-</section>
+    </section>
 
 </div>
 

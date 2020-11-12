@@ -138,11 +138,15 @@ function activityGraph(options) {
       d3.selectAll(".myArea").style("opacity", .1)
       // expect the one that is hovered
       d3.selectAll("."+d).style("opacity", 1)
+      // make annotations for this group visible
+      d3.selectAll(".annotation." + d).style("opacity", 1)
     }
 
     // And when it is not hovered anymore
     var noHighlight = function(d){
       d3.selectAll(".myArea").style("opacity", 1)
+      // hide annotations
+      d3.selectAll(".annotation").style("opacity", 0)
     }
 
     //////////
@@ -178,6 +182,28 @@ function activityGraph(options) {
             .style("alignment-baseline", "middle")
             .on("mouseover", highlight)
             .on("mouseleave", noHighlight);
+
+    }
+
+    if (options.annotations) {
+         const makeAnnotations = d3.annotation()
+          .editMode(true)
+          //also can set and override in the note.padding property
+          //of the annotation object
+          .notePadding(15)
+          .type(d3.annotationLabel)
+          //accessors & accessorsInverse not needed
+          //if using x, y in annotations JSON
+          .accessors({
+            x: d => x(d.date),
+            y: d => y(0)
+          })
+          .annotations(options.annotations)
+
+        svg.append("g")
+          .attr("class", "annotation-group")
+          .call(makeAnnotations);
+
 
     }
 }

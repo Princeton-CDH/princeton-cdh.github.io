@@ -5,7 +5,7 @@
 {{ end }}
 {{ if (eq .Params.layout "activityreport") }}
 <script src="https://d3js.org/d3.v4.js"></script>
-<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js" integrity="sha512-iBAeBWWWFb8HqSBcrqcz98iIpuVH1la39dEYHtyQ/pGpeCQTQVvLJOWAuhv2Q7JSHp9k7hWA7sGxU3hHJe+tFg==" crossorigin="anonymous"></script>
 {{ $activity := resources.Get "js/activity.js" }}
 <script type="text/javascript" src="{{ $activity.RelPermalink }}" defer></script>
 {{ end }}
