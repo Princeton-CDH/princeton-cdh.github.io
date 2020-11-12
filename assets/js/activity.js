@@ -6,7 +6,7 @@ function activityGraph(options) {
         id:  container element id
         keys: labels for the groups of data in the dataset
         data: data to be graphed
-        colors: lookup of colors to use based on key
+        projects: object with information about projects, including colors
         label: label to display at the top left of the graph
         drawLegend: boolean to indicate if the key legend should be added
     */
@@ -71,7 +71,7 @@ function activityGraph(options) {
         .enter()
         .append("path")
           .attr("class", function(d) { return "myArea " + d.key })
-          .style("fill", function(d) { return options.colors[d.key]; })
+          .style("fill", function(d) { return options.projects[d.key].color; })
           .attr("d", area)
 
 
@@ -158,7 +158,7 @@ function activityGraph(options) {
             .attr("y", function(d,i){ return 10 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
             .attr("width", size)
             .attr("height", size)
-            .style("fill", function(d){ return options.colors[d]})
+            .style("fill", function(d){ return options.projects[d].color})
             .on("mouseover", highlight)
             .on("mouseleave", noHighlight);
 
@@ -169,7 +169,7 @@ function activityGraph(options) {
           .append("text")
             .attr("x", 600 + size*1.2)
             .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-            .style("fill", function(d){ return options.colors[d]})
+            .style("fill", function(d){ return options.projects[d].color})
             .text(function(d){ return d})
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")

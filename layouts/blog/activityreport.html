@@ -30,12 +30,12 @@ date_range:
 <div id="project-issues"></div>
 
 <script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
-<script id="project-colors" type="application/json">{{ $.Site.Data.project_colors|jsonify (dict "indent" "  ") | safeJS }}</script>
+<script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     const iterationData = JSON.parse(document.getElementById('iteration-data').textContent);
-    const colors = JSON.parse(document.getElementById('project-colors').textContent);
+    const projectInfo = JSON.parse(document.getElementById('project-info').textContent);
 
     // generate unique list of projects included in this data
     let projects = iterationData.map(x => Object.keys(x.project_points))
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         id: '#project-points',
         keys: projects,
         data: data,
-        colors: colors[0],
+        projects: projectInfo,
         label: 'points by project',
         drawLegend: true
     });
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         id: '#project-issues',
         keys: projects,
         data: issueData,
-        colors: colors[0],
+        projects: projectInfo,
         label: 'issues by project',
         drawLegend: false
     });
