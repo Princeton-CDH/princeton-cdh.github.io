@@ -104,6 +104,28 @@
     "milestone": ""
   },
   {
+    "issue": "As a developer, I want to automatically test ansible roles and their dependencies so that I can make changes with confidence.",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/37",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I would like to automate the creation of the deploy user `conan` ",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/38",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "npm module doesn't register error on webpack build",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/9",
@@ -971,7 +993,6 @@
     "estimate": "",
     "closed": "2020-11-05T19:15:15Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": "v2.8"
@@ -986,7 +1007,7 @@
       "accessibility",
       "chore"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want an import of content from the previous version of the site so that all the information available on the old site is migrated to the new version.",
@@ -1075,7 +1096,6 @@
     "estimate": 3,
     "closed": "2020-11-05T19:09:59Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v2.8"
@@ -1085,7 +1105,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/212",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-11-12T19:37:25Z",
     "labels": [
       "bug"
     ],
@@ -1140,9 +1160,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/217",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-11-09T19:44:33Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v2.8"
@@ -1196,7 +1215,6 @@
     "estimate": 0,
     "closed": "2020-11-05T19:01:17Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v2.8"
@@ -1232,7 +1250,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "test using rsync to copy assets to new QA machine",
@@ -1243,7 +1261,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "test migrating data to PUL postgres instances",
@@ -1254,7 +1272,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "migrate all site data to new PUL hosted instances",
@@ -1265,7 +1283,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see details about a staff member so I can learn about their role, research interests, and how to contact them.",
@@ -1284,6 +1302,29 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to associate project contributors with projects based on the dates they were involved instead of by grant, so that I can accurately reflect project team membership over time.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/233",
+    "estimate": 5,
+    "closed": null,
+    "labels": [
+      "awaiting testing",
+      "enhancement"
+    ],
+    "milestone": "v2.8"
+  },
+  {
+    "issue": "slug logic doesn't ensure uniqueness",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/235",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
@@ -4245,9 +4286,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/10",
     "estimate": 5,
-    "closed": null,
+    "closed": "2020-11-10T12:25:25Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4297,7 +4337,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a data editor, I want a report on automatically indentified named entities in item descriptions so I can compare it to entities I've already manually identified.",
+    "issue": "As a data editor, I want a report on automatically identified named entities in item descriptions so I can compare it to entities I've already manually identified.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/18",
     "estimate": 3,
@@ -4332,7 +4372,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/22",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-11-13T14:48:21Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -4343,7 +4383,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/23",
     "estimate": 2,
-    "closed": null,
+    "closed": "2020-11-13T14:49:19Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -4379,6 +4419,28 @@
     "closed": null,
     "labels": [
       "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the new search prototype so that when a search term is entered document tags are matched while showing contextual information about the clusters in which the documents appear so that the user can learn more about the position of the document with respect to the clusters",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/31",
+    "estimate": 2,
+    "closed": "2020-11-11T19:00:36Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a way to navigate to a cluster from the search results so the user can view a specific cluster and learn more about the documents it contains",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/32",
+    "estimate": 1,
+    "closed": "2020-11-13T14:49:43Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -4420,9 +4482,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-11-10T12:25:03Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -13489,6 +13550,26 @@
     "closed": null,
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create new report to show activity across all projects & repositories",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/20",
+    "estimate": "",
+    "closed": "2020-11-12T16:50:01Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "show releases on activity report charts",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/21",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
