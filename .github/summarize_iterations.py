@@ -31,7 +31,7 @@ def load_issues():
                 int(issue['estimate'] or 0),
                 issue['project'],
                 closed_date,
-                'design' in issue['labels']
+                'design' in issue['labels'] or '🗺️ design' in issue['labels']
             ))
     # sort issues by date
     return sorted(issues, key=lambda issue: issue.date)

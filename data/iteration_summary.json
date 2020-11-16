@@ -859,13 +859,14 @@
         "from": "2020-11-02",
         "to": "2020-11-13",
         "dev": {
-            "points": 22,
-            "issues": 17,
-            "velocity": 14.33
+            "points": 16,
+            "issues": 14,
+            "velocity": 12.33
         },
         "design": {
-            "points": 0,
-            "velocity": 2.0
+            "points": 6,
+            "issues": 3,
+            "velocity": 4.0
         },
         "project_issues": {
             "geniza": 8,
@@ -885,11 +886,11 @@
         "to": "2020-11-27",
         "dev": {
             "points": 0,
-            "velocity": 14.0
+            "velocity": 12.0
         },
         "design": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 4.0
         },
         "project_issues": {},
         "project_points": {}
