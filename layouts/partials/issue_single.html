@@ -1,6 +1,6 @@
 {{/* list a single issue based on data structure in issues.json */}}
 <li><a href="{{ replace .url "api.github.com/repos/" "github.com/" }}">{{ .issue }}</a>
-    {{ if .estimate }}<span class="points">({{ .estimate }})</span>{{ end }}
+    {{ if ne .estimate "" }}<span class="points">({{ .estimate }})</span>{{ end }}
     {{ if .labels }}<span class="labels">{{ delimit .labels ", " }}</span>{{ end }}
 </li>
 
