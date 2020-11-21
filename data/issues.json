@@ -1065,7 +1065,7 @@
     "estimate": "",
     "closed": "2020-11-03T16:38:35Z",
     "labels": [
-      "bug"
+      "invalid"
     ],
     "milestone": "v2.8"
   },
@@ -1090,7 +1090,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a user, I want to learn about the DH Working Groups sponsored by the CDH.",
+    "issue": "As a user, I want to learn about the DH Working Groups sponsored by the CDH so that I can get involved with a group that matches my interests.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/211",
     "estimate": 3,
@@ -1153,7 +1153,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "v2.8"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see PGRA profiles listed with students and postdoc profiles listed with staff, so I understand how these people relate to the CDH.",
@@ -1310,9 +1310,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/233",
     "estimate": 5,
-    "closed": null,
+    "closed": "2020-11-16T15:13:00Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v2.8"
@@ -1326,7 +1325,29 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
+  },
+  {
+    "issue": "working groups display on main project page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/236",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v2.8.1"
+  },
+  {
+    "issue": "meta information for project pages is incorrect",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/237",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v2.8.1"
   },
   {
     "issue": "As a user I want to view a list of upcoming events so that I can find and attend events that interest me.",
@@ -4341,7 +4362,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/18",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-11-17T19:18:26Z",
     "labels": [],
     "milestone": ""
   },
@@ -4350,7 +4371,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/19",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-11-20T02:21:37Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -4393,9 +4414,10 @@
     "issue": "As a user, when I search by keyword I want to see a list of matching clusters with the most relevant documents so that I can get to results but also see the context of related materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/24",
-    "estimate": 5,
+    "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4441,6 +4463,72 @@
     "closed": "2020-11-13T14:49:43Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design document detail pages so that researchers can learn more about a particular document and the fragment where it belongs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/34",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create minimal django site with internationalization enabled",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/35",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add a model with translation to django multilingual experiment site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/36",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the information that appear on the cluster search results to better match researchers' needs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/37",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "run sample content through google cloud vision api ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/38",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "test aligning TEI transcriptions with output from eScriptorium and Google Cloud Vision API",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/39",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -9699,7 +9787,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/694",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
@@ -9741,7 +9831,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/698",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -9770,7 +9862,42 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/700",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Language in Menu Revision",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/701",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add footnotes for subscription events based on tags in notes",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/702",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Updated data exports to include source type or footnote to specific source",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/703",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
