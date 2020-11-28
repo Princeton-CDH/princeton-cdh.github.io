@@ -126,6 +126,50 @@
     "milestone": ""
   },
   {
+    "issue": "Create deploy playbook for geniza i18n prototype",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/42",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create playbook for geniza production deploys",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/43",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Change github deployment role to pre/post deployment step",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/45",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "automatically clean up old deploys",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "npm module doesn't register error on webpack build",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/9",
@@ -4415,9 +4459,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/24",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-11-23T18:36:32Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4529,6 +4572,18 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to see existing TEI transcriptions displayed with IIIF images so I can see how using annotations for transcription might work.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/43",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
@@ -9897,6 +9952,17 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "titles without years generate 100 years tweets with duplicate period ",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/704",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
