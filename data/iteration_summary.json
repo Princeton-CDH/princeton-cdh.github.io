@@ -860,7 +860,7 @@
         "to": "2020-11-14",
         "dev": {
             "points": 16,
-            "issues": 14,
+            "issues": 13,
             "velocity": 12.33
         },
         "design": {
@@ -870,14 +870,14 @@
         },
         "project_issues": {
             "geniza": 8,
-            "cdh-web": 7,
             "parasolr": 1,
+            "cdh-web": 6,
             "princeton-cdh.github.io": 1
         },
         "project_points": {
             "geniza": 17,
-            "cdh-web": 5,
             "parasolr": 0,
+            "cdh-web": 5,
             "princeton-cdh.github.io": 0
         }
     },
@@ -885,12 +885,33 @@
         "from": "2020-11-16",
         "to": "2020-11-27",
         "dev": {
-            "points": 0,
-            "velocity": 12.0
+            "points": 14,
+            "issues": 4,
+            "velocity": 16.67
         },
         "design": {
             "points": 0,
             "velocity": 4.0
+        },
+        "project_issues": {
+            "cdh-web": 1,
+            "geniza": 3
+        },
+        "project_points": {
+            "cdh-web": 5,
+            "geniza": 9
+        }
+    },
+    {
+        "from": "2020-11-30",
+        "to": "2020-12-11",
+        "dev": {
+            "points": 0,
+            "velocity": 10.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
