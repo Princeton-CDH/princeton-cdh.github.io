@@ -1,4 +1,22 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: November 16, 2020</title><link>/blog/2020/11/november-16-2020/</link><pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/november-16-2020/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: November 30, 2020</title><link>/blog/2020/11/november-30-2020/</link><pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/november-30-2020/</guid><description>
+&lt;img src="/blog/2020/11/november-30-2020/featured-geniza-tags_hue9cb7085157941caad4966623a815cc8_192671_640x0_resize_catmullrom_2.png" width="640" height="120"/>
+&lt;p>This was our last scheduled iteration for working on Geniza prototyping,
+so we made a push to finish as much of that work as possible before we switch to other things. Work completed includes a report of name extracted from metadata descriptions, to help with data work and future data migrations; an experimental tag filter that allows the user to select how tags are combined; and a keyword search on the experimental holistic search (the latter two will be used for usability testing). We also delivered for testing a simplistic implementation of TEI transcriptions converted to IIIF annotations and displayed in the Mirador 3 viewer, and finished work on a django prototype with internationalization. Unfortunately, complications with the deploy of the second prorotype meant we were unable to deliver that work for testing last week before the Thanksgiving holiday. No design tasks were marked as completed on GitHub, and the design work at this phase is still largely UX research; but there are in-progress design tasks for document detail page, holistic search results, and preliminary sitemap that we expect to close in this iteration.&lt;/p>
+&lt;p>This iteration also includes 5 points from a CDH web feature that was completed in the previous iteration, and a CDH web release with updates completed in the last iteration.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>&lt;figure>
+&lt;img src="featured-geniza-tags.png"
+alt="Screenshot of the new tags filter in the Geniza search prototype; searchers can choose how tags should be combined"/> &lt;figcaption>
+&lt;p>Screenshot of the new tags filter in the Geniza search prototype; searchers can choose how tags should be combined&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="geniza-cluster-search.png"
+alt="Screenshot of keyword search results the Geniza cluster search prototype"/> &lt;figcaption>
+&lt;p>Screenshot of keyword search results the Geniza cluster search prototype&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: November 16, 2020</title><link>/blog/2020/11/november-16-2020/</link><pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/november-16-2020/</guid><description>
 &lt;img src="/blog/2020/11/november-16-2020/featured-cluster-prototype_huc4dfd2b8c37a1e52c03ddc05f78843df_330385_640x0_resize_catmullrom_2.png" width="640" height="479"/>
 &lt;p>This iteration we made substantial progress on our Geniza search prototyping, most notably implementing the first two steps towards a prototype of the holistic search interface that Gissoo has been designing.&lt;/p>
 &lt;p>We also made some updates and fixed some bugs for CDH web, towards a maintenance release that will go out early this iteration.&lt;/p>
