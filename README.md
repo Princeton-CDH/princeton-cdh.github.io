@@ -10,10 +10,7 @@ GitHub Actions are used to collect data on releases (via repository tags) and is
 
 ## hugo site
 
-The dev/design site is generated with [Hugo](https://gohugo.io/) using the [Docsy](https://www.docsy.dev/) theme.
-
-Because GitHub currently only supports publishing User and Organization sites from `master`, development on the site and scripts should be done on `develop`. The Hugo site is automatically compiled and published from the `develop` branch and published to `master`.
-
+The dev/design site is generated with [Hugo](https://gohugo.io/) using the [Docsy](https://www.docsy.dev/) theme. The Hugo site is automatically compiled from the `main` branch and published to `gh-pages`.
 
 ## setup
 
