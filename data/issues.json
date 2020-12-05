@@ -115,7 +115,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a developer, I would like to automate the creation of the deploy user `conan` ",
+    "issue": "As a deployer, I would like to have the deploy user automatically created when running playbooks, so that required users are managed by the playbook.",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/38",
     "estimate": "",
@@ -162,6 +162,17 @@
     "issue": "automatically clean up old deploys",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "allow specifying and installing arbitrary python versions",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/48",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -1394,6 +1405,28 @@
     "milestone": "v2.8.1"
   },
   {
+    "issue": "new playbook for qa deploy to PUL VM with postgres",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/238",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "new playbook for production deploy to PUL VM",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/239",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user I want to view a list of upcoming events so that I can find and attend events that interest me.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/24",
@@ -1401,6 +1434,28 @@
     "closed": "2017-08-31T19:53:08Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "set up visual regression testing",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/240",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Include DB diagrams in documentation",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/241",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view event details so I can decide if I'm interested and know when and where to attend.",
@@ -4513,7 +4568,7 @@
     "issue": "Design document detail pages so that researchers can learn more about a particular document and the fragment where it belongs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/34",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -4585,6 +4640,35 @@
       "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a sitemap of the search, holistic search, and doc detail page to communicate the site structure and how the pieces are connected ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/45",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create playbook for geniza production deploys",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Create deploy playbook for geniza i18n prototype",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/47",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9929,7 +10013,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "chore"
     ],
     "milestone": ""
   },
@@ -9937,7 +10021,7 @@
     "issue": "Add footnotes for subscription events based on tags in notes",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/702",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -9948,7 +10032,7 @@
     "issue": "Updated data exports to include source type or footnote to specific source",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/703",
-    "estimate": "",
+    "estimate": 0,
     "closed": null,
     "labels": [
       "enhancement"
@@ -9963,6 +10047,17 @@
     "closed": null,
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Admin data download for creators to include VIAFs",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/705",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -12580,7 +12675,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "3.4"
+    "milestone": "3.5"
   },
   {
     "issue": "editorial page should list newest essays first",
@@ -13009,7 +13104,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "3.4"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see numbered results so I can keep track of results as I\u2019m scrolling and paging through.",
@@ -13073,7 +13168,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
     "issue": "split out CI builds",
@@ -13095,7 +13190,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
     "issue": "As a user, I want to see a simple timeline visualization of works by publication year so that I can get a sense of how the materials are distributed by time.",
@@ -13168,7 +13263,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
     "issue": "handle hyphenated words caused by page breaks in the text",
@@ -13767,6 +13862,17 @@
     "milestone": ""
   },
   {
+    "issue": "Iteration report links lead to 404",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/23",
+    "estimate": "",
+    "closed": "2020-12-01T16:01:12Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Convert release report to separate action",
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/3",
@@ -13980,7 +14086,6 @@
     "estimate": "",
     "closed": "2020-09-17T21:43:27Z",
     "labels": [
-      "awaiting review",
       "design"
     ],
     "milestone": ""
