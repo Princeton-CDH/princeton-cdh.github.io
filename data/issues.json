@@ -912,35 +912,35 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "create Pages app",
+    "issue": "As a content editor, I want to create, edit, and delete content pages in wagtail so that I can manage new and existing site content.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/180",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Resources app",
+    "issue": "As a content editor, I want to create and edit page resources in wagtail so that I can associate them with pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/181",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Projects app",
+    "issue": "As a content editor, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/182",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -949,42 +949,42 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/183",
     "estimate": "",
-    "closed": "2020-01-07T16:17:47Z",
+    "closed": null,
     "labels": [
       "chore"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Events app",
+    "issue": "As a content editor, I want to create and edit events in wagtail so that I can manage them just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/184",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Updates app",
+    "issue": "As a content editor, I want to create and edit blog posts in wagtail so that I can take advantage of its editing capabilities.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/185",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update People app",
+    "issue": "As a content editor, I want to create and edit people in wagtail so that I can manage them just like pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/186",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -993,11 +993,12 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/188",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-08T19:22:59Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
-    "milestone": "v3.0"
+    "milestone": ""
   },
   {
     "issue": "As a user I want to search across all pages by keyword so I can find specific content that interests me.",
@@ -1301,14 +1302,14 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/225",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-08T20:13:54Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
-    "issue": "test using rsync to copy assets to new QA machine",
+    "issue": "test copying uploaded media to new QA machine",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/226",
     "estimate": "",
@@ -1316,7 +1317,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "test migrating data to PUL postgres instances",
@@ -1327,7 +1328,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "migrate all site data to new PUL hosted instances",
@@ -1338,7 +1339,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "As a user, I want to see details about a staff member so I can learn about their role, research interests, and how to contact them.",
@@ -1413,7 +1414,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "new playbook for production deploy to PUL VM",
@@ -1424,7 +1425,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "As a user I want to view a list of upcoming events so that I can find and attend events that interest me.",
@@ -1444,7 +1445,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "Include DB diagrams in documentation",
@@ -1455,7 +1456,84 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "Create preliminary script with logic to convert mezzanine pages to wagtail pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/243",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing content pages migrated from mezzanine to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/244",
+    "estimate": 5,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want upload and manage documents in wagtail so that I can associate them with pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/245",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing attachments migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/246",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want to see the edit history for a page, including edits before the wagtail migration, so that I can see the history of edits to a page.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/247",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing uploaded images migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/248",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing page resources migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/249",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
   },
   {
     "issue": "As a user, I want to view event details so I can decide if I'm interested and know when and where to attend.",
@@ -1465,6 +1543,72 @@
     "closed": "2017-09-21T20:58:24Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a content editor, I want existing blog posts migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/250",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing projects migrated to wagtail so that I can manage them in the new system. ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/251",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing events migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/252",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want existing people migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/253",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "migrate sitemaps to wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/254",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I want to manage the menus displayed across the site in wagtail so that I can easily update them when needed.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/255",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
   },
   {
     "issue": "As a user, I want to download event information as ical so I can add it to my personal calendar.",
@@ -4569,7 +4713,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/34",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-12-10T22:09:03Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -4647,7 +4791,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/45",
     "estimate": 1,
-    "closed": null,
+    "closed": "2020-12-10T22:31:21Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9980,7 +10124,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/699",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:50:38Z",
     "labels": [
       "bug"
     ],
@@ -10000,66 +10144,99 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/700",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:55:15Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "Language in Menu Revision",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/701",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T14:57:54Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
-    "issue": "Add footnotes for subscription events based on tags in notes",
+    "issue": "As a data editor or dataset user, I want all source citations for all events so that I can tell which ones came from logbooks, address books, or cards.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/702",
     "estimate": 3,
-    "closed": null,
+    "closed": "2020-12-11T19:20:21Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "Updated data exports to include source type or footnote to specific source",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/703",
     "estimate": 0,
-    "closed": null,
+    "closed": "2020-12-10T21:47:57Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "titles without years generate 100 years tweets with duplicate period ",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/704",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:57:53Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "Admin data download for creators to include VIAFs",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/705",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T16:10:43Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "1.3"
+  },
+  {
+    "issue": "As a data editor, I need to enter subscriptions for the same person that start on the same date if they have different end dates, so I can track different subscriptions purchased at the same time.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/711",
+    "estimate": 0,
+    "closed": "2020-12-10T16:13:35Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "events without titles (such as subscriptions) without titles fix display strangely on card detail pages",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/712",
+    "estimate": "",
+    "closed": "2020-12-10T16:01:15Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "rename subscription type \"other\" to \"separate deposit\"",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/713",
+    "estimate": "",
+    "closed": "2020-12-10T16:09:12Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "1.3"
   },
   {
     "issue": "As a content editor, I want to merge person records so that I can combine account records when I've identified duplicated people.",
@@ -13188,7 +13365,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "tested needs attention"
     ],
     "milestone": "3.5"
   },
@@ -13284,6 +13462,17 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Long project role title creates misalignment on contributor page",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/355",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
