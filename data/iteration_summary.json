@@ -403,7 +403,7 @@
         "to": "2020-01-31",
         "dev": {
             "points": 3,
-            "issues": 17,
+            "issues": 16,
             "velocity": 10.67
         },
         "design": {
@@ -412,14 +412,12 @@
         },
         "project_issues": {
             "ppa-django": 6,
-            "cdh-web": 1,
             "derrida-django": 6,
             "mep-django": 1,
             "pemm-scripts": 3
         },
         "project_points": {
             "ppa-django": 3,
-            "cdh-web": 0,
             "derrida-django": 0,
             "mep-django": 0,
             "pemm-scripts": 0
@@ -906,12 +904,38 @@
         "from": "2020-11-30",
         "to": "2020-12-11",
         "dev": {
+            "points": 3,
+            "issues": 12,
+            "velocity": 11.0
+        },
+        "design": {
+            "points": 4,
+            "issues": 2,
+            "velocity": 3.33
+        },
+        "project_issues": {
+            "princeton-cdh.github.io": 1,
+            "cdh-web": 1,
+            "geniza": 2,
+            "mep-django": 10
+        },
+        "project_points": {
+            "princeton-cdh.github.io": 0,
+            "cdh-web": 0,
+            "geniza": 4,
+            "mep-django": 3
+        }
+    },
+    {
+        "from": "2020-12-14",
+        "to": "2021-01-8",
+        "dev": {
             "points": 0,
-            "velocity": 10.0
+            "velocity": 5.67
         },
         "design": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 1.33
         },
         "project_issues": {},
         "project_points": {}
