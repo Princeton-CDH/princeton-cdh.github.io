@@ -1014,7 +1014,7 @@
     "issue": "As a content editor, I want to create and edit people in wagtail so that I can manage them just like pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/186",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1645,7 +1645,7 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As a content editor, I would like it if the quotation marks on the blog defaulted to smart quoates.",
+    "issue": "As a content editor, I would like it if the quotation marks on the blog defaulted to smart quotes.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/256",
     "estimate": "",
@@ -1679,6 +1679,28 @@
     "issue": "add apache rewrite rule to ansible for migrated media",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "revisit image sizing guidelines",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/266",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.1"
+  },
+  {
+    "issue": "convert person list pages to wagtail pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/267",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -4889,6 +4911,19 @@
     "estimate": 5,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Synthesize and write a report to communicate the results of usability testing so that design decisions can be made and prioritized",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/49",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -10817,6 +10852,17 @@
     "estimate": 0,
     "closed": "2019-11-18T22:10:57Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "switch unit tests build from travis-ci to GitHub Actions",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/55",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
