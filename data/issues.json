@@ -46,7 +46,8 @@
     "estimate": "",
     "closed": "2020-12-14T21:45:27Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -951,12 +952,13 @@
     "estimate": 3,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "As a content editor, I want to create and edit page resources in wagtail so that I can associate them with pages.",
+    "issue": "As a content editor, I want to create and edit related links in wagtail so that I can associate them with pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/181",
     "estimate": 2,
@@ -970,7 +972,7 @@
     "issue": "As a content editor, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/182",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -992,7 +994,7 @@
     "issue": "As a content editor, I want to create and edit events in wagtail so that I can manage them just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/184",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1014,7 +1016,7 @@
     "issue": "As a content editor, I want to create and edit people in wagtail so that I can manage them just like pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/186",
-    "estimate": 5,
+    "estimate": 8,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1368,7 +1370,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/229",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-05T14:40:49Z",
     "labels": [
       "chore"
     ],
@@ -1454,7 +1456,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/239",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-05T14:40:30Z",
     "labels": [
       "chore"
     ],
@@ -1478,7 +1480,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v2.8.1"
+    "milestone": "v3.0"
   },
   {
     "issue": "Include DB diagrams in documentation",
@@ -1510,6 +1512,7 @@
     "estimate": 5,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1540,7 +1543,7 @@
     "issue": "As a content editor, I want to see the edit history for a page, including edits before the wagtail migration, so that I can see the history of edits to a page.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/247",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1559,10 +1562,10 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As a content editor, I want existing page resources migrated to wagtail so that I can manage them in the new system.",
+    "issue": "As a content editor, I want existing related links migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/249",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1604,7 +1607,7 @@
     "issue": "As a content editor, I want existing events migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/252",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1615,7 +1618,7 @@
     "issue": "As a content editor, I want existing people migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/253",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1716,6 +1719,28 @@
     "closed": "2017-09-22T19:06:49Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "remove inactive user accounts",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/270",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "investigate failing image exodizing",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/271",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
   },
   {
     "issue": "As a user, I want to view blog posts so that I can read updates about CDH and its work.",
