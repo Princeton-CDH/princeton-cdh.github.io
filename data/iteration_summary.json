@@ -928,10 +928,33 @@
     },
     {
         "from": "2020-12-14",
-        "to": "2021-01-8",
+        "to": "2021-01-08",
         "dev": {
             "points": 0,
+            "issues": 10,
             "velocity": 5.67
+        },
+        "design": {
+            "points": 0,
+            "velocity": 1.33
+        },
+        "project_issues": {
+            "CDH_ansible": 2,
+            "cdh-web": 7,
+            "ppa-django": 1
+        },
+        "project_points": {
+            "CDH_ansible": 0,
+            "cdh-web": 0,
+            "ppa-django": 0
+        }
+    },
+    {
+        "from": "2021-01-11",
+        "to": "2021-01-21",
+        "dev": {
+            "points": 0,
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
