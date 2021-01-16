@@ -1019,6 +1019,7 @@
     "estimate": 8,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1510,9 +1511,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/244",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-01-11T20:40:53Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1555,7 +1555,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/248",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-01-14T21:07:04Z",
     "labels": [
       "enhancement"
     ],
@@ -1619,7 +1619,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/253",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-01-15T21:02:09Z",
     "labels": [
       "enhancement"
     ],
@@ -1701,13 +1701,13 @@
     "milestone": "v3.1"
   },
   {
-    "issue": "convert person list pages to wagtail pages",
+    "issue": "As a content editor, I want to have people automatically organized into person list pages so I don't have to manually manage these pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/267",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -1741,6 +1741,28 @@
       "chore"
     ],
     "milestone": "v3.0"
+  },
+  {
+    "issue": "Embed sizing ignores container margins on mobile",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/273",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.1"
+  },
+  {
+    "issue": "Event times are incorrect for past events",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/274",
+    "estimate": "",
+    "closed": "2021-01-12T21:37:12Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view blog posts so that I can read updates about CDH and its work.",
@@ -4892,7 +4914,7 @@
     "issue": "As a user, I want to see existing TEI transcriptions displayed with IIIF images so I can see how using annotations for transcription might work.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/43",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -10400,7 +10422,7 @@
     "issue": "As an events data user, I want borrowing duration available in days so that I can easily calculate and compare borrowing events with known durations.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/718",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
