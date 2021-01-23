@@ -950,9 +950,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/180",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-01-17T01:48:54Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -964,6 +963,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -972,7 +972,7 @@
     "issue": "As a content editor, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/182",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1568,6 +1568,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1596,7 +1597,7 @@
     "issue": "As a content editor, I want existing projects migrated to wagtail so that I can manage them in the new system. ",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/251",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1707,7 +1708,8 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "enhancement"
+      "enhancement",
+      "tested needs attention"
     ],
     "milestone": "v3.0"
   },
@@ -1772,6 +1774,17 @@
     "closed": "2017-09-19T19:04:17Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a content editor, I want Projects automatically organized into list pages so I don't have to manually manage these pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/280",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
   },
   {
     "issue": "As an admin, I want user information and titles automatically populated so I don't have to manually enter it.",
@@ -4956,7 +4969,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/48",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-01-21T21:13:25Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
@@ -4968,7 +4981,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/49",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-01-21T21:14:25Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
@@ -9715,11 +9728,11 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/634",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-22T15:08:20Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "Add \"not mvp\" sticker to all \"Advanced Search\" designs on Zeplin  ",
@@ -10074,11 +10087,11 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/674",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-21T16:37:44Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "subscription amount on the website only includes price paid, not deposit",
@@ -10413,19 +10426,19 @@
     "issue": "As a data user, I want to see multiple source types and source citations when an event is documented in multiple sources, so that I can understand and access the sources for the data.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/717",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-01-22T15:01:31Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "As an events data user, I want borrowing duration available in days so that I can easily calculate and compare borrowing events with known durations.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/718",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 0,
+    "closed": "2021-01-22T15:00:23Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "As a content editor, I want to merge person records so that I can combine account records when I've identified duplicated people.",
@@ -10435,6 +10448,17 @@
     "closed": "2018-03-07T20:40:05Z",
     "labels": [],
     "milestone": "Personography merge function"
+  },
+  {
+    "issue": "make data exports scripts more efficient",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/723",
+    "estimate": "",
+    "closed": "2021-01-21T20:29:14Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "As a content editor, when I merge two individuals, I want the notes field to include the date when the merge was completed, so that I can keep track of biographical work in the archive.",
@@ -10909,6 +10933,39 @@
     "closed": null,
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Support configset management via HTTP APIs",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/56",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "queryset get_stats method isn't returning any stats",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/57",
+    "estimate": "",
+    "closed": "2021-01-21T20:32:32Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Improve SolrQuerySet caching and query efficiency",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/58",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
