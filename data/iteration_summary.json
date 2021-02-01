@@ -953,12 +953,38 @@
         "from": "2021-01-11",
         "to": "2021-01-21",
         "dev": {
+            "points": 16,
+            "issues": 11,
+            "velocity": 6.33
+        },
+        "design": {
+            "points": 8,
+            "issues": 2,
+            "velocity": 4.0
+        },
+        "project_issues": {
+            "cdh-web": 5,
+            "geniza": 2,
+            "mep-django": 5,
+            "parasolr": 1
+        },
+        "project_points": {
+            "cdh-web": 14,
+            "geniza": 8,
+            "mep-django": 2,
+            "parasolr": 0
+        }
+    },
+    {
+        "from": "2021-02-01",
+        "to": "2021-02-12",
+        "dev": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
-            "velocity": 1.33
+            "velocity": 2.67
         },
         "project_issues": {},
         "project_points": {}
