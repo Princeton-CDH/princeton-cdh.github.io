@@ -963,7 +963,6 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1481,7 +1480,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0"
+    "milestone": ""
   },
   {
     "issue": "Include DB diagrams in documentation",
@@ -1568,7 +1567,6 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1705,11 +1703,10 @@
     "issue": "As a content editor, I want to have people automatically organized into person list pages so I don't have to manually manage these pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/267",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
-      "enhancement",
-      "tested needs attention"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -4869,10 +4866,10 @@
     "milestone": ""
   },
   {
-    "issue": "create minimal django site with internationalization enabled",
+    "issue": "As a user, I want to read the geniza project in my native language so it's easier to understand.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/35",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83e\uddea experiment"
@@ -4880,10 +4877,10 @@
     "milestone": ""
   },
   {
-    "issue": "add a model with translation to django multilingual experiment site",
+    "issue": "As a content editor, I want to add data to the database in multiple languages so that I can fully represent existing project data.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/36",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83e\uddea experiment"
@@ -4928,9 +4925,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/43",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-02-02T17:59:43Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4989,13 +4985,114 @@
     "milestone": ""
   },
   {
+    "issue": "Design filters and the search menu so that users know how they can perform search on documents ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/50",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a generous search interface for the holistic search idea so that users can learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/51",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of the list of libraries that includes the full name and the abbreviation, so that I can manage the libraries\u2019 info in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/52",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want to be able to add a library not represented on the list in order to expand our content footprint and edit those already in the list.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/53",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want to be able to add and edit a language, script, or correlation between language and script in our ontology, in order to expand our content footprint.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/54",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to see the number of documents we have in each language/script combination, so that I can understand the relative proportions and provide information for data visualization and research. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/55",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of the list of all languages and scripts, and their correlation, so that I can access, display and manage the information in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/56",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the sitemap and site flow diagram so that the project team would know about the content that would exist on the site and the possible ways they are connected in a more comprehensible way to meet their needs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/57",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up new django project for the new site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/58",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Draft web annotation data model for transcription data",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/6",
     "estimate": "",
+    "closed": "2021-02-04T18:34:15Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a document detail page so that users can view all the contextual information for a single document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/60",
+    "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
