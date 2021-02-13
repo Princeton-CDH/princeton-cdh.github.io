@@ -1018,7 +1018,6 @@
     "estimate": 8,
     "closed": null,
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -4707,7 +4706,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/11",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-02-10T16:57:10Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -4870,7 +4869,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/35",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-02-11T19:33:46Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -4881,8 +4880,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/36",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-02-11T19:34:09Z",
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -4956,8 +4956,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/47",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-02-08T17:28:50Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -5000,7 +5002,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/51",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-02-12T15:06:53Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
@@ -5057,8 +5059,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/57",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-02-11T21:36:53Z",
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5094,6 +5097,69 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to flag and annotate a document as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/62",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to suppress documents, so that the records are kept updated. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/63",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the \"origins\" of the document and changes in the data. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/64",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/65",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of all documents currently in the PGP spreadsheet and the fields in the db populated accordingly, in order to work with the data in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/66",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to download any data sets created through filters so that I can work on a subset outside of the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/67",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to create, edit, filter and search documents so that I can add/edit information on documents in the database and find pertinent documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/68",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10487,7 +10553,7 @@
     "milestone": "1.3"
   },
   {
-    "issue": "events without titles (such as subscriptions) without titles fix display strangely on card detail pages",
+    "issue": "events without titles (such as subscriptions) display strangely on card detail pages",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/712",
     "estimate": "",
