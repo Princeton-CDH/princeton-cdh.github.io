@@ -1005,11 +1005,10 @@
         },
         "design": {
             "points": 0,
-            "issues": 1,
             "velocity": 4.0
         },
         "project_issues": {
-            "geniza": 5
+            "geniza": 4
         },
         "project_points": {
             "geniza": 5
