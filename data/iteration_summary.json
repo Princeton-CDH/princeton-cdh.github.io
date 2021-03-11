@@ -1018,8 +1018,30 @@
         "from": "2021-03-01",
         "to": "2021-03-12",
         "dev": {
+            "points": 31,
+            "issues": 11,
+            "velocity": 15.33
+        },
+        "design": {
+            "points": 4,
+            "issues": 2,
+            "velocity": 2.67
+        },
+        "project_issues": {
+            "cdh-web": 7,
+            "geniza": 6
+        },
+        "project_points": {
+            "cdh-web": 25,
+            "geniza": 10
+        }
+    },
+    {
+        "from": "2021-03-15",
+        "to": "2021-03-25",
+        "dev": {
             "points": 0,
-            "velocity": 5.0
+            "velocity": 12.0
         },
         "design": {
             "points": 0,
