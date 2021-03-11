@@ -957,7 +957,7 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "As an editor, I want to create, edit, and delete content pages in wagtail so that I can manage new and existing site content.",
+    "issue": "As a moderator, I want to create, edit, and delete content pages in wagtail so that I can manage new and existing site content.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/180",
     "estimate": 3,
@@ -968,25 +968,23 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want to create and edit related links in wagtail so that I can associate them with projects and people.",
+    "issue": "As a moderator, I want to create and edit related links in wagtail so that I can associate them with projects and people.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/181",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-11T19:21:57Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
+    "issue": "As a moderator, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/182",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-03-11T19:36:54Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1003,9 +1001,21 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want to create and edit events in wagtail so that I can manage them just like other pages.",
+    "issue": "As a moderator, I want to create and edit events in wagtail so that I can manage them just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/184",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "tested needs attention"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As an editor, I want to create and edit blog posts in wagtail so that I can take advantage of its editing capabilities.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/185",
     "estimate": 3,
     "closed": null,
     "labels": [
@@ -1014,24 +1024,12 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want to create and edit blog posts in wagtail so that I can take advantage of its editing capabilities.",
-    "project": "cdh-web",
-    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/185",
-    "estimate": 2,
-    "closed": null,
-    "labels": [
-      "enhancement"
-    ],
-    "milestone": "v3.0"
-  },
-  {
-    "issue": "As an editor, I want to create and edit people in wagtail so that I can manage them just like pages.",
+    "issue": "As a moderator, I want to create and edit people in wagtail so that I can manage them just like pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/186",
     "estimate": 8,
-    "closed": null,
+    "closed": "2021-03-04T11:47:27Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1519,7 +1517,7 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want existing content pages migrated from mezzanine to wagtail so that I can manage them in the new system.",
+    "issue": "As a moderator, I want existing content pages migrated from mezzanine to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/244",
     "estimate": 5,
@@ -1563,7 +1561,7 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want existing uploaded images migrated to wagtail so that I can manage them in the new system.",
+    "issue": "As a moderator, I want existing uploaded images migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/248",
     "estimate": 3,
@@ -1574,13 +1572,12 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want existing related links migrated to wagtail so that I can manage them in the new system.",
+    "issue": "As a moderator, I want existing related links migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/249",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-08T23:23:36Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1598,38 +1595,37 @@
     "issue": "As an editor, I want existing blog posts migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/250",
-    "estimate": 3,
-    "closed": null,
-    "labels": [
-      "enhancement"
-    ],
-    "milestone": "v3.0"
-  },
-  {
-    "issue": "As an editor, I want existing projects migrated to wagtail so that I can manage them in the new system. ",
-    "project": "cdh-web",
-    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/251",
     "estimate": 2,
     "closed": null,
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want existing events migrated to wagtail so that I can manage them in the new system.",
+    "issue": "As a moderator, I want existing projects migrated to wagtail so that I can manage them in the new system. ",
     "project": "cdh-web",
-    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/252",
-    "estimate": 1,
-    "closed": null,
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/251",
+    "estimate": 2,
+    "closed": "2021-03-11T19:00:55Z",
     "labels": [
       "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want existing people migrated to wagtail so that I can manage them in the new system.",
+    "issue": "As a moderator, I want existing events migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/252",
+    "estimate": 1,
+    "closed": "2021-03-11T15:22:16Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing people migrated to wagtail so that I can manage them in the new system.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/253",
     "estimate": 3,
@@ -1640,13 +1636,13 @@
     "milestone": "v3.0"
   },
   {
-    "issue": "migrate sitemaps to wagtail",
+    "issue": "As a search engine, I want a sitemap of all pages on the CDH site so that I can index them for users to search.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/254",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -1715,13 +1711,12 @@
     "milestone": "v3.1"
   },
   {
-    "issue": "As an editor, I want People automatically organized into person list pages so I don't have to manually manage these pages.",
+    "issue": "As a moderator, I want People automatically organized into person list pages so I don't have to manually manage these pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/267",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-03-10T21:53:30Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1789,7 +1784,7 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "As an editor, I want Projects automatically organized into list pages so I don't have to manually manage these pages.",
+    "issue": "As a moderator, I want Projects automatically organized into list pages so I don't have to manually manage these pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/280",
     "estimate": 2,
@@ -1810,6 +1805,40 @@
       "chore"
     ],
     "milestone": "v3.0.1"
+  },
+  {
+    "issue": "As a moderator, I want Events automatically organized by upcoming events and by semester, so that I don't have to manually manage these list pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/286",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "awaiting testing",
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want blog posts automatically listed by latest posts, by month, and by year so that I don't have to manually manage these pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/287",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "update blog RSS/Atom feeds to work with Wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/288",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
   },
   {
     "issue": "As an admin, I want user information and titles automatically populated so I don't have to manually enter it.",
@@ -2356,10 +2385,9 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug",
-      "tested needs attention"
+      "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "Project card - text padding",
@@ -3936,6 +3964,17 @@
     "milestone": ""
   },
   {
+    "issue": "sphinx docs site returns 404",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/254",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "books: associated derrida work with cited edition",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/26",
@@ -5054,8 +5093,7 @@
     "estimate": 2,
     "closed": "2021-02-23T16:09:33Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -5063,11 +5101,10 @@
     "issue": "As a global admin, I want to be able to add a library collection not represented on the list in order to expand our content footprint and edit those already in the list.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/53",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0ftested needs attention",
-      "\ud83c\udd95 enhancement"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -5078,8 +5115,7 @@
     "estimate": 2,
     "closed": "2021-02-18T17:27:02Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -5088,10 +5124,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/55",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "closed": "2021-03-11T14:49:07Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5100,10 +5134,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/56",
     "estimate": 1,
     "closed": "2021-02-18T17:27:37Z",
-    "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5157,9 +5188,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/62",
     "estimate": 2,
     "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5168,20 +5197,16 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/63",
     "estimate": 1,
     "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
-    "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the \"origins\" of the document and changes in the data. ",
+    "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/64",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "closed": "2021-03-11T14:43:53Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5202,7 +5227,7 @@
     "estimate": 5,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -5213,6 +5238,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
@@ -5221,11 +5247,9 @@
     "issue": "As a content editor, I want to create, edit, filter and search documents so that I can add/edit information on documents in the database and find pertinent documents.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/68",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "estimate": 3,
+    "closed": "2021-03-11T15:16:54Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5244,9 +5268,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/72",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-03-05T21:18:59Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5256,9 +5279,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/73",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-03-05T21:06:09Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5276,25 +5298,29 @@
     "issue": "As a content editor, I want to create and edit fragment records so that I can document changes in the fragments.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/75",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
-    "issue": "As a global admin, I want to create and edit tags, so that tags stay up to date. ",
+    "issue": "As a content editor, I want to add and edit tags on a document via autocomplete, so that I can reuse existing tags when appropriate.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/76",
-    "estimate": "",
+    "estimate": 0,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
     "issue": "As a content editor, I want to be able to flag and annotate a fragment as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/77",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -5303,7 +5329,7 @@
     "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/78",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -5320,6 +5346,63 @@
     "milestone": ""
   },
   {
+    "issue": "Revise designs on desktop for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/82",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "experiment with Solr clustering",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/83",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate network of tags with community detection to see if it's useful for clustering",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/84",
+    "estimate": "",
+    "closed": "2021-03-10T22:26:25Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/88",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile wireframes for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/89",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want to search on text with or without accents so that I can easily find variants of words with accents and diacritics in the data.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
@@ -5328,6 +5411,58 @@
     "labels": [
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Document Detail View ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/90",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design desktop wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/91",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a faster document search in the admin site, so that matches on long combinations of joins do not crash the site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/93",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/96",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want display name included in the one-time import of languages and scripts, so that I can start using display names while the import is still being developed and tested.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/98",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10454,7 +10589,8 @@
     "closed": null,
     "labels": [
       "accessibility",
-      "chore"
+      "chore",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -10716,7 +10852,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -10777,6 +10914,28 @@
     "closed": "2021-02-26T16:19:30Z",
     "labels": [
       "wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error when deleting address not associated with an account",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/726",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "event export 1.1 does not include subscription price/deposit for separate deposit events",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/727",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
