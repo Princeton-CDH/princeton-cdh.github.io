@@ -1,0 +1,79 @@
+{{/* custom layout to display planned iteration schedule for a specified datee range.
+
+Page metadata should use the following structure to configure dates:
+
+layout: quarterlyschedule
+date_range:
+    start: "2020-06-01"
+    end: "2020-08-01"
+*/}}
+{{ define "main" }}
+<div class="td-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <div class="td-byline mb-4">
+        {{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
+        <time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
+    </div>
+
+{{ .Content }}
+
+<hr/>
+
+{{/* Get iteration dates and planned projects from data file */}}
+{{ $iterations := where (where $.Site.Data.iterations "from" ">=" .Params.date_range.start ) "to" "<=" .Params.date_range.end }}
+
+{{/* generate list of unique projects for this iteration range */}}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "uniq_projects" (uniq (index $iterations 0).projects) }}
+{{ range $iterations }}
+    {{ $projects := $scratch.Get "uniq_projects" }}    
+    {{ $scratch.Set "uniq_projects" (uniq (union $projects .projects)) }}   
+{{ end }}
+{{ $projects := $scratch.Get "uniq_projects" }}    
+
+<table class="quarterly-schedule">
+    <tr>
+        <th>Iteration</th>  
+        {{ range $projects }}
+        <th class="project">{{ . }}</th>           
+        {{ end }}
+    </tr>
+
+{{ range $iteration := $iterations }}
+    <tr> {{/* first week of iteration */}}
+        <td>
+            {{ dateFormat "Jan 2" $iteration.from }}
+        </td>
+        {{ range $projects }}
+        {{/* for each projects, output a table cell; set class if active; add notes if present; if project is in partial list, add partial class */}}
+        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
+            {{/* display first note for this project if any */}}
+            {{ if $iteration.notes }}
+                {{ $project_notes := index $iteration.notes .}}
+                {{ if $project_notes }}
+                    {{ index $project_notes 0 }}
+                {{ end }}
+            {{ end }}
+        </td>
+        {{ end }}
+    </tr>
+    <tr> {{/* second week of iteration */}}    
+        <td></td> {{/* date */}}
+        {{ range $projects }}
+        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
+            {{/* display second note for this project if any */}}            
+            {{ if $iteration.notes }}
+                {{ $project_notes := index $iteration.notes .}}
+                {{ if $project_notes }} 
+                    {{ index $project_notes 1 }}
+                {{ end }}
+            {{ end }}
+        </td>
+        {{ end }}
+    </tr>
+{{ end }}
+
+</table>
+
+{{ end }}

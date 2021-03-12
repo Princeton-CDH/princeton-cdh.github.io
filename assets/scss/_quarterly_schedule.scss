@@ -1,0 +1,52 @@
+.td-content table.quarterly-schedule {
+
+	th.project {
+		width: 10em;
+	}
+
+	tr {
+		background-color: transparent !important;
+
+
+		&:nth-child(even) {
+			td {
+				border-top: 2px solid gray(169, 1) !important;
+			}
+		}
+	}	
+
+	td {
+		height: 50px;
+		border-right: 1px solid #dee2e6;
+	}
+
+
+	/* NOTE: some duplication of colors from projects data file */
+	.geniza {
+		background-color: #6B59C1;
+		color: white;
+
+
+	}
+
+	.cdh-web {
+		background-color: #00edff;
+		&.partial {
+			background-color: rgba(0, 237, 255, 0.5);
+		}
+	}
+
+	.maintenance {
+		background-color: #eb9469;
+	}
+
+	.ppa {
+		background-color: #f05b69;
+		color: white;	
+		&.partial {
+			background-color: rgba(240,91,105,0.5);
+			color:black;
+		}	
+	}
+
+}
