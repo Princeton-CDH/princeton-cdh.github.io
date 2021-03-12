@@ -230,7 +230,7 @@
 
     },
     {
-        "from": "2021-06-08",
+        "from": "2021-06-07",
         "to": "2021-06-18",
         "projects": ["cdh-web", "ppa"],
         "partial": ["cdh-web"],
