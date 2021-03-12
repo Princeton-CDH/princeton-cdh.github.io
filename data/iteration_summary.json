@@ -978,6 +978,10 @@
     {
         "from": "2021-02-01",
         "to": "2021-02-13",
+        "projects": [
+            "geniza",
+            "cdh-web"
+        ],
         "dev": {
             "points": 10,
             "issues": 6,
@@ -998,6 +1002,10 @@
     {
         "from": "2021-02-15",
         "to": "2021-02-26",
+        "projects": [
+            "geniza",
+            "cdh-web"
+        ],
         "dev": {
             "points": 5,
             "issues": 4,
@@ -1017,6 +1025,10 @@
     {
         "from": "2021-03-01",
         "to": "2021-03-12",
+        "projects": [
+            "geniza",
+            "cdh-web"
+        ],
         "dev": {
             "points": 31,
             "issues": 11,
@@ -1039,6 +1051,16 @@
     {
         "from": "2021-03-15",
         "to": "2021-03-25",
+        "projects": [
+            "geniza",
+            "cdh-web"
+        ],
+        "notes": {
+            "cdh-web": [
+                "",
+                "3.0 release"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 12.0
@@ -1046,6 +1068,175 @@
         "design": {
             "points": 0,
             "velocity": 1.33
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-03-29",
+        "to": "2021-04-09",
+        "projects": [
+            "geniza"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 10.33
+        },
+        "design": {
+            "points": 0,
+            "velocity": 1.33
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-04-12",
+        "to": "2021-04-23",
+        "projects": [
+            "geniza"
+        ],
+        "notes": {
+            "geniza": [
+                "",
+                "data import complete"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-04-26",
+        "to": "2021-05-07",
+        "projects": [
+            "cdh-web",
+            "maintenance"
+        ],
+        "partial": [
+            "cdh-web"
+        ],
+        "notes": {
+            "cdh-web": [
+                "",
+                "cleanup (v3.0.1)"
+            ],
+            "maintenance": [
+                "ppa updates; deploy scripts",
+                "Begin PUL migrations"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-05-10",
+        "to": "2021-05-21",
+        "projects": [
+            "geniza"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-05-24",
+        "to": "2021-06-04",
+        "projects": [
+            "geniza",
+            "ppa"
+        ],
+        "partial": [
+            "ppa"
+        ],
+        "notes": {
+            "ppa": [
+                "Planning+Design"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-06-07",
+        "to": "2021-06-18",
+        "projects": [
+            "cdh-web",
+            "ppa"
+        ],
+        "partial": [
+            "cdh-web"
+        ],
+        "notes": {
+            "cdh-web": [
+                "chartering"
+            ],
+            "ppa": [
+                "Implement Gale/ECCO import"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2021-06-21",
+        "to": "2021-07-02",
+        "projects": [
+            "cdh-web",
+            "ppa"
+        ],
+        "partial": [
+            "cdh-web"
+        ],
+        "notes": {
+            "cdh-web": [
+                "chartering"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
         },
         "project_issues": {},
         "project_points": {}
