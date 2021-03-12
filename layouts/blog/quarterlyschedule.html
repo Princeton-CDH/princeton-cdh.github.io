@@ -34,17 +34,19 @@ date_range:
 
 <table class="quarterly-schedule">
     <tr>
-        <th>Iteration</th>  
+        <th>week</th>          
+        <th style="writing-mode: vertical-rl">iteration</th>  
         {{ range $projects }}
         <th class="project">{{ . }}</th>           
         {{ end }}
     </tr>
 
 {{ range $iteration := $iterations }}
-    <tr> {{/* first week of iteration */}}
+    <tr class="iteration-start"> {{/* first week of iteration */}}
         <td>
             {{ dateFormat "Jan 2" $iteration.from }}
         </td>
+        <td rowspan="2"></td>
         {{ range $projects }}
         {{/* for each projects, output a table cell; set class if active; add notes if present; if project is in partial list, add partial class */}}
         <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
@@ -59,7 +61,9 @@ date_range:
         {{ end }}
     </tr>
     <tr> {{/* second week of iteration */}}    
-        <td></td> {{/* date */}}
+        <td>{{ with time  $iteration.from  }} {{/* parse date string as time so we can add 1 week */}}
+            {{ dateFormat "Jan 2" (.AddDate 0 0 7) }} {{ end }}
+        </td> {{/* date */}}
         {{ range $projects }}
         <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
             {{/* display second note for this project if any */}}            

@@ -1,12 +1,21 @@
 .td-content table.quarterly-schedule {
 
+	th {
+		vertical-align: bottom;
+	}
 	th.project {
 		width: 10em;
+	}
+	th.iteration {
+		writing-mode: vertical-rl;
 	}
 
 	tr {
 		background-color: transparent !important;
 
+		&.iteration-start {
+			border-top: 2px solid darkgray !important;			
+		}
 
 		&:nth-child(even) {
 			td {
@@ -25,19 +34,23 @@
 	.geniza {
 		background-color: #6B59C1;
 		color: white;
-
-
+		&.partial {
+			background-color: rgba(107, 89, 193, 0.5);
+		}
 	}
 
 	.cdh-web {
 		background-color: #00edff;
 		&.partial {
-			background-color: rgba(0, 237, 255, 0.5);
+			background-color: rgba(0, 237, 255, 0.4);
 		}
 	}
 
 	.maintenance {
 		background-color: #eb9469;
+		&.partial {
+			background-color: rgba(235, 148, 105, 0.5);
+		}
 	}
 
 	.ppa {
@@ -48,5 +61,23 @@
 			color:black;
 		}	
 	}
+
+	.mep {
+		background-color: #07ae79;
+		&.partial {
+			background-color: rgba(7, 174, 121, 0.5);
+		}
+	}
+
+	.startwords {
+		background-color: #CE2949;
+		&.partial {
+			background-color: rgba(206, 41, 73, 0.5);
+		}
+	}
+	
+    .out { 
+    	background-color: #b7b7b7; 
+    }
 
 }

@@ -54,3 +54,5 @@ For each iteration, add:
 - partial: optional, list of projects that are in planning or wrap up phases
 - notes: optional; dictionary with list of notes per project for display in the schedule; when two notes are displayed, the second will be displayed 
 the second week of the iteration
+
+Be sure to add project colors and partial colors to `_quarterly_schedule.scss` when you add new projects to the schedule.
