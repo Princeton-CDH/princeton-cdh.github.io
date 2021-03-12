@@ -42,3 +42,15 @@ The iteration report archetype assumes it is run on the first day of the new ite
 Edit the new post to add content and any demo or featured content, then commit and push to GitHub to publish.
 
 
+## Creating quarterly dev schedule
+
+Create a new post with layout *quarterlyschedule* and configure
+date range start and end in page parameters.
+
+Edit `iterations.json` data file to add the dates for all iterations during the time period you want to cover.
+
+For each iteration, add:
+- projects: the list of projects projected to be active that iteration
+- partial: optional, list of projects that are in planning or wrap up phases
+- notes: optional; dictionary with list of notes per project for display in the schedule; when two notes are displayed, the second will be displayed 
+the second week of the iteration
