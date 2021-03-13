@@ -1531,7 +1531,7 @@
     "issue": "As an editor, I want upload and manage page attachments in wagtail so that I can associate them with pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/245",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1697,7 +1697,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0.1"
+    "milestone": "v3.0"
   },
   {
     "issue": "revisit image sizing guidelines",
@@ -1811,9 +1811,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/286",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-03-11T21:48:17Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -2383,7 +2382,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/82",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-11T21:52:21Z",
     "labels": [
       "bug"
     ],
@@ -3968,7 +3967,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/254",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-12T16:49:31Z",
     "labels": [
       "bug"
     ],
@@ -5289,7 +5288,7 @@
     "issue": "As a content editor, when I change the shelfmark for a fragment I want the previous shelfmark automatically added to the list of historic shelfmarks in order to keep track of old identifiers.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/74",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -5463,6 +5462,17 @@
     "estimate": 0,
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Update dbdocs github action to use the new CI integration instructions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/99",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14804,6 +14814,28 @@
     "closed": "2020-12-01T16:01:12Z",
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "iteration report with no releases have an empty release heading but no text to indicate no release",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/25",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a new layout for quarterly dev schedule",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/26",
+    "estimate": "",
+    "closed": "2021-03-12T21:09:56Z",
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
