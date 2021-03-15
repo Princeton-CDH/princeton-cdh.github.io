@@ -1030,9 +1030,9 @@
             "cdh-web"
         ],
         "dev": {
-            "points": 31,
-            "issues": 11,
-            "velocity": 15.33
+            "points": 34,
+            "issues": 15,
+            "velocity": 16.33
         },
         "design": {
             "points": 4,
@@ -1040,12 +1040,16 @@
             "velocity": 2.67
         },
         "project_issues": {
-            "cdh-web": 7,
-            "geniza": 6
+            "cdh-web": 9,
+            "geniza": 6,
+            "derrida-django": 1,
+            "princeton-cdh.github.io": 1
         },
         "project_points": {
-            "cdh-web": 25,
-            "geniza": 10
+            "cdh-web": 28,
+            "geniza": 10,
+            "derrida-django": 0,
+            "princeton-cdh.github.io": 0
         }
     },
     {
@@ -1063,7 +1067,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 12.0
+            "velocity": 13.0
         },
         "design": {
             "points": 0,
@@ -1080,7 +1084,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 10.33
+            "velocity": 11.33
         },
         "design": {
             "points": 0,
