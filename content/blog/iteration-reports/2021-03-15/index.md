@@ -25,4 +25,5 @@ On the design side, we completed revisions to the sitemap diagram and created a 
 Four user stories related to the interface and data import process for Fragments are still in-progress.
 
 ## Demos
-{{< figure src="featured-pgp-tagnetwork.svg" caption="Visualization of tag network generated from Geniza document tags">}}
+{{< figure src="featured-geniza-tagnetwork-detail.png" caption="Visualization of tag network generated from Geniza document tags">}}
+{{< figure src="geniza-document-admin.png" caption="Screenshot of administrative interface for Geniza document database">}}
