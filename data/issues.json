@@ -226,13 +226,62 @@
     "milestone": ""
   },
   {
+    "issue": "Finish configuring projects for new rotating logs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Production deploys fail on context check",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Change github deployment role to pre/post deployment step",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/45",
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "chore",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "automatically clean up old deploys",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "allow specifying and installing arbitrary python versions",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/48",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -243,7 +292,19 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Configure custom nginx error page for QA/test/vpn-only sites",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/60",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -496,23 +557,23 @@
     "issue": "As an admin, I want to export project membership information so that I can report on project grant participation.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/126",
-    "estimate": 1,
+    "estimate": "",
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.0"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to export event information so I can report on CDH events over time.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/127",
-    "estimate": 1,
+    "estimate": "",
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.0"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to traverse the main navigation using a keyboard so that I can access site content more easily.",
@@ -724,7 +785,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/152",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-22T13:25:27Z",
     "labels": [
       "bug"
     ],
@@ -1022,7 +1083,6 @@
     "estimate": 3,
     "closed": "2021-03-16T14:47:53Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1032,9 +1092,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/185",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-03-24T18:58:17Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1548,7 +1607,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/245",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-03-26T15:04:48Z",
     "labels": [
       "enhancement"
     ],
@@ -1559,18 +1618,19 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/246",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-26T16:55:36Z",
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "As an editor, I want to see the edit history for a page, including edits before the wagtail migration, so that I can see the history of edits to a page.",
+    "issue": "As an admin, I want to see the edit history for a page, including edits before the wagtail migration, so that I can see the history of edits to a page.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/247",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-03-26T13:32:19Z",
     "labels": [
       "enhancement"
     ],
@@ -1612,9 +1672,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/250",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-24T12:32:04Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1659,7 +1718,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "enhancement"
+      "enhancement",
+      "tested needs attention"
     ],
     "milestone": "v3.0"
   },
@@ -1668,7 +1728,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/255",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-03-25T18:16:30Z",
     "labels": [
       "enhancement"
     ],
@@ -1710,7 +1770,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/264",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-25T20:45:50Z",
     "labels": [
       "chore"
     ],
@@ -1807,8 +1867,7 @@
     "estimate": 2,
     "closed": "2021-03-15T18:05:15Z",
     "labels": [
-      "enhancement",
-      "tested needs attention"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -1839,9 +1898,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/287",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-25T14:17:24Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1867,6 +1925,35 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "revisit sitemap priority logic",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/296",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement code block formatting in blog posts",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/297",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want existing django redirects migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/299",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "MVP Functonality",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/3",
@@ -1883,6 +1970,28 @@
     "closed": "2017-09-26T16:26:37Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Update dbdocs build to match geniza config",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/304",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
+    "issue": "Support embedding Media Central content via oEmbed",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/305",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.1"
   },
   {
     "issue": "As a content editor, I want the to mark an event as all-day so I can create events for untimed or multi-day events such as deadlines or conferences.",
@@ -4809,14 +4918,12 @@
     "milestone": ""
   },
   {
-    "issue": "Fix languagescript data import errors",
+    "issue": "As a global admin, I want documents associated with language+script based on display name when importing documents from metadata spreadsheet.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/106",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [
-      "\ud83d\udc1b bug"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -4895,6 +5002,26 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "fix document ordering so we don't get duplicate entries in django admin list view when sorting by shelfmark",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/113",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to filter/search within the \u201cneeds review\u201d field of the list of items \"awaiting review,\" so that I can more efficiently review issues of the same type in batches (docs that need fixes to description, shelfmark, etc).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/114",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5209,9 +5336,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/53",
     "estimate": 3,
     "closed": "2021-03-15T19:35:31Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5293,7 +5418,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/62",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-26T15:11:56Z",
     "labels": [],
     "milestone": ""
   },
@@ -5302,7 +5427,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/63",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-03-23T18:36:58Z",
     "labels": [],
     "milestone": ""
   },
@@ -5332,9 +5457,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/66",
     "estimate": 5,
     "closed": "2021-03-15T15:51:00Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5396,7 +5519,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/74",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-23T18:29:52Z",
     "labels": [],
     "milestone": ""
   },
@@ -5405,10 +5528,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/75",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-03-26T15:12:37Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5427,7 +5548,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/77",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-26T15:13:53Z",
     "labels": [],
     "milestone": ""
   },
@@ -5568,7 +5689,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/98",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-03-23T18:17:26Z",
     "labels": [],
     "milestone": ""
   },
@@ -11051,6 +11172,29 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/727",
     "estimate": "",
+    "closed": "2021-03-25T02:31:13Z",
+    "labels": [
+      "awaiting testing",
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed external content in editorial and other pages, so that I can include dynamic content in essays.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/731",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "tested needs attention"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename \"separate deposit,\" \"separate payment.\"",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/732",
+    "estimate": "",
     "closed": null,
     "labels": [
       "bug"
@@ -11529,7 +11673,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore"
+      "\ud83d\udea7 maintenance",
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
