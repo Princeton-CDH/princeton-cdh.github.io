@@ -1059,32 +1059,44 @@
             "geniza",
             "cdh-web"
         ],
-        "notes": {
-            "cdh-web": [
-                "",
-                "3.0 release"
-            ]
-        },
         "dev": {
-            "points": 0,
-            "velocity": 13.0
+            "points": 42,
+            "issues": 27,
+            "velocity": 27.0
         },
         "design": {
             "points": 0,
             "velocity": 1.33
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-web": 16,
+            "geniza": 10,
+            "mep-django": 1
+        },
+        "project_points": {
+            "cdh-web": 25,
+            "geniza": 17,
+            "mep-django": 0
+        }
     },
     {
         "from": "2021-03-29",
         "to": "2021-04-09",
         "projects": [
-            "geniza"
+            "geniza",
+            "cdh-web"
         ],
+        "partial": [
+            "cdh-web"
+        ],
+        "notes": {
+            "cdh-web": [
+                "3.0 release"
+            ]
+        },
         "dev": {
             "points": 0,
-            "velocity": 11.33
+            "velocity": 25.33
         },
         "design": {
             "points": 0,
@@ -1107,7 +1119,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 14.0
         },
         "design": {
             "points": 0,
