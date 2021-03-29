@@ -18,8 +18,6 @@ date_range:
 
 {{ .Content }}
 
-<hr/>
-
 {{/* Get iteration dates and planned projects from data file */}}
 {{ $iterations := where (where $.Site.Data.iterations "from" ">=" .Params.date_range.start ) "to" "<=" .Params.date_range.end }}
 
@@ -27,17 +25,17 @@ date_range:
 {{ $scratch := newScratch }}
 {{ $scratch.Set "uniq_projects" (uniq (index $iterations 0).projects) }}
 {{ range $iterations }}
-    {{ $projects := $scratch.Get "uniq_projects" }}    
-    {{ $scratch.Set "uniq_projects" (uniq (union $projects .projects)) }}   
+    {{ $projects := $scratch.Get "uniq_projects" }}
+    {{ $scratch.Set "uniq_projects" (uniq (union $projects .projects)) }}
 {{ end }}
-{{ $projects := $scratch.Get "uniq_projects" }}    
+{{ $projects := $scratch.Get "uniq_projects" }}
 
 <table class="quarterly-schedule">
     <tr>
-        <th>week</th>          
-        <th style="writing-mode: vertical-rl">iteration</th>  
+        <th>week</th>
+        <th class="iteration" >iteration</th>
         {{ range $projects }}
-        <th class="project">{{ . }}</th>           
+        <th class="project">{{ . }}</th>
         {{ end }}
     </tr>
 
@@ -60,16 +58,16 @@ date_range:
         </td>
         {{ end }}
     </tr>
-    <tr> {{/* second week of iteration */}}    
+    <tr> {{/* second week of iteration */}}
         <td>{{ with time  $iteration.from  }} {{/* parse date string as time so we can add 1 week */}}
             {{ dateFormat "Jan 2" (.AddDate 0 0 7) }} {{ end }}
         </td> {{/* date */}}
         {{ range $projects }}
         <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
-            {{/* display second note for this project if any */}}            
+            {{/* display second note for this project if any */}}
             {{ if $iteration.notes }}
                 {{ $project_notes := index $iteration.notes .}}
-                {{ if $project_notes }} 
+                {{ if $project_notes }}
                     {{ index $project_notes 1 }}
                 {{ end }}
             {{ end }}
