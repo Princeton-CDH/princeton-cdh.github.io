@@ -185,15 +185,16 @@
     {
         "from": "2021-03-15",
         "to": "2021-03-25",
-        "projects": ["geniza", "cdh-web"],
-        "notes": {
-            "cdh-web": ["", "3.0 release"]
-        }
+        "projects": ["geniza", "cdh-web"]
     },
     {
         "from": "2021-03-29",
         "to": "2021-04-09",
-        "projects": ["geniza"]
+        "projects": ["geniza", "cdh-web"],
+        "partial": ["cdh-web"],
+        "notes": {
+            "cdh-web": ["3.0 release"]
+        }
     },
     {
         "from": "2021-04-12",
