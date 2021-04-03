@@ -309,6 +309,17 @@
     "milestone": ""
   },
   {
+    "issue": "Django ansible role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/63",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Admin: CAS User login",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/1",
@@ -789,7 +800,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "Event card doesn't display names from person, only from profile",
@@ -1330,7 +1341,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "As a user, I want to see PGRA profiles listed with students and postdoc profiles listed with staff, so I understand how these people relate to the CDH.",
@@ -1502,7 +1513,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "working groups display on main project page",
@@ -1513,14 +1524,14 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "meta information for project pages is incorrect",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/237",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-30T14:54:16Z",
     "labels": [
       "bug"
     ],
@@ -1620,7 +1631,6 @@
     "estimate": 2,
     "closed": "2021-03-26T16:55:36Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.0"
@@ -1716,10 +1726,9 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/254",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-03-29T18:29:01Z",
     "labels": [
-      "enhancement",
-      "tested needs attention"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -1823,7 +1832,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/271",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-29T15:15:41Z",
     "labels": [
       "chore"
     ],
@@ -1994,12 +2003,45 @@
     "milestone": "v3.1"
   },
   {
+    "issue": "upgrade django and wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/306",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
+    "issue": "blog post previews don't work",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/309",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
     "issue": "As a content editor, I want the to mark an event as all-day so I can create events for untimed or multi-day events such as deadlines or conferences.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/31",
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error trying to add two speakers to an event",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/312",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
@@ -4923,42 +4965,43 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/106",
     "estimate": 1,
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a user, I want to be able to see the updates and changes made in the new database while the website is still in development. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have created and edited a document.",
+    "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a Content Editor I want to be able to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/109",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "test eScriptorium on sample content",
@@ -4975,45 +5018,45 @@
     "issue": "As a user, I want to view detailed information for a single Geniza document so that I can learn about that document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/110",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/111",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a Content Editor, I want to see who first input a document and who last edited it, and when, so that I can ensure records are kept up-to-date.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/112",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "fix document ordering so we don't get duplicate entries in django admin list view when sorting by shelfmark",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/113",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-02T13:49:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to be able to filter/search within the \u201cneeds review\u201d field of the list of items \"awaiting review,\" so that I can more efficiently review issues of the same type in batches (docs that need fixes to description, shelfmark, etc).",
@@ -5023,6 +5066,28 @@
     "closed": null,
     "labels": [],
     "milestone": ""
+  },
+  {
+    "issue": "generate a report of git commits on bitbucket for Alan to track his contributions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/115",
+    "estimate": "",
+    "closed": "2021-04-01T19:55:29Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Generate django translations when deploying",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/117",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "draft data diagram for relational database",
@@ -5036,7 +5101,7 @@
     "milestone": ""
   },
   {
-    "issue": "Get search prototype operating on Solr 8",
+    "issue": "Update ansible deploy so we can use PUL Solr 8 for search",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/14",
     "estimate": "",
@@ -5044,7 +5109,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
@@ -5260,7 +5325,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Create deploy playbook for geniza i18n prototype",
@@ -5328,7 +5393,7 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin, I want to be able to add a library collection not represented on the list in order to expand our content footprint and edit those already in the list.",
@@ -5337,7 +5402,7 @@
     "estimate": 3,
     "closed": "2021-03-15T19:35:31Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin, I want to be able to add and edit a language, script, or correlation between language and script in our ontology, in order to expand our content footprint.",
@@ -5348,7 +5413,7 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to see the number of documents we have in each language/script combination, so that I can understand the relative proportions and provide information for data visualization and research. ",
@@ -5357,7 +5422,7 @@
     "estimate": 1,
     "closed": "2021-03-11T14:49:07Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin, I want a one-time import of the list of all languages and scripts, and their correlation, so that I can access, display and manage the information in the database.",
@@ -5366,7 +5431,7 @@
     "estimate": 1,
     "closed": "2021-02-18T17:27:37Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Revise the sitemap and site flow diagram so that the project team would know about the content that would exist on the site and the possible ways they are connected in a more comprehensible way to meet their needs",
@@ -5388,7 +5453,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Draft web annotation data model for transcription data",
@@ -5420,7 +5485,7 @@
     "estimate": 2,
     "closed": "2021-03-26T15:11:56Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to suppress documents, so that the records are kept updated. ",
@@ -5429,7 +5494,7 @@
     "estimate": 1,
     "closed": "2021-03-23T18:36:58Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
@@ -5438,7 +5503,7 @@
     "estimate": 2,
     "closed": "2021-03-11T14:43:53Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.",
@@ -5449,7 +5514,7 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin, I want a one-time import of all documents and fragments currently in the PGP spreadsheet and the fields in the db populated accordingly, in order to work with the data in the database.",
@@ -5458,7 +5523,7 @@
     "estimate": 5,
     "closed": "2021-03-15T15:51:00Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to download any data sets created through filters so that I can work on a subset outside of the database.",
@@ -5479,7 +5544,7 @@
     "estimate": 3,
     "closed": "2021-03-11T15:16:54Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want to search across multiple metadata fields so that I can find geniza items by keyword or phrase.",
@@ -5521,7 +5586,7 @@
     "estimate": 2,
     "closed": "2021-03-23T18:29:52Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to create and edit fragment records so that I can document changes in the fragments.",
@@ -5530,7 +5595,7 @@
     "estimate": 2,
     "closed": "2021-03-26T15:12:37Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to add and edit tags on a document via autocomplete, so that I can reuse existing tags when appropriate.",
@@ -5538,10 +5603,8 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/76",
     "estimate": 0,
     "closed": "2021-03-15T15:37:03Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
-    "milestone": ""
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to be able to flag and annotate a fragment as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH. ",
@@ -5550,7 +5613,7 @@
     "estimate": 2,
     "closed": "2021-03-26T15:13:53Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
@@ -5604,7 +5667,7 @@
       "\ud83d\udee0\ufe0f chore",
       "\ud83e\uddea experiment"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Design mobile and tablet wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
@@ -5668,21 +5731,21 @@
     "issue": "As a content editor, I want a faster document search in the admin site, so that matches on long combinations of joins do not crash the site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/93",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/96",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\u2753 question"
+      "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a global admin, I want display name included in the one-time import of languages and scripts, so that I can start using display names while the import is still being developed and tested.",
@@ -5691,7 +5754,7 @@
     "estimate": 0,
     "closed": "2021-03-23T18:17:26Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Update dbdocs github action to use the new CI integration instructions",
@@ -5702,7 +5765,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Add chatops QA deploy",
@@ -11174,7 +11237,6 @@
     "estimate": "",
     "closed": "2021-03-25T02:31:13Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": ""
@@ -11184,10 +11246,8 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/731",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "tested needs attention"
-    ],
+    "closed": "2021-04-01T13:31:05Z",
+    "labels": [],
     "milestone": ""
   },
   {
