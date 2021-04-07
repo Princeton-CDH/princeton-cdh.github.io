@@ -1,11 +1,9 @@
 name: iteration report
 
 on:
-  push:
-    branches:
-    - main
-#    paths:
-#    - 'data/iterations.js'     # run when the iteration data file is changed
+  schedule:
+    # run at 4:15am on Saturdays
+    - cron:  '15 4 * * SAT'
 
 env:
   GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
