@@ -193,7 +193,7 @@
         "projects": ["geniza", "cdh-web"],
         "partial": ["cdh-web"],
         "notes": {
-            "cdh-web": ["3.0 release"]
+            "cdh-web": ["3.0 release", "v3.0.1 (cleanup)"]
         }
     },
     {
@@ -211,7 +211,7 @@
         "projects": ["cdh-web", "maintenance"],
         "partial": ["cdh-web"],
         "notes": {
-            "cdh-web": ["", "cleanup (v3.0.1)"],
+            "cdh-web": ["cleanup (v3.0.2)"],
             "maintenance": ["ppa updates; deploy scripts", "Begin PUL migrations"]
         }
     },
