@@ -320,6 +320,17 @@
     "milestone": ""
   },
   {
+    "issue": "playbook / role to synchronize database and media data from production to qa or dev environment",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/65",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Admin: CAS User login",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/1",
@@ -1763,7 +1774,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0.1"
+    "milestone": "v3.0.2"
   },
   {
     "issue": "As a user, I want to download event information as ical so I can add it to my personal calendar.",
@@ -1885,7 +1896,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/285",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-08T15:35:51Z",
     "labels": [
       "chore"
     ],
@@ -1958,8 +1969,10 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/299",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-04-05T15:35:23Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -1989,7 +2002,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0.1"
+    "milestone": "v3.0.2"
   },
   {
     "issue": "Support embedding Media Central content via oEmbed",
@@ -2011,14 +2024,14 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0.1"
+    "milestone": "v3.0.2"
   },
   {
     "issue": "blog post previews don't work",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/309",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-05T18:12:48Z",
     "labels": [
       "bug"
     ],
@@ -2038,8 +2051,43 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/312",
     "estimate": "",
+    "closed": "2021-04-05T18:15:25Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
+    "issue": "django admin is inaccessible (500 error)",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/313",
+    "estimate": "",
     "closed": null,
     "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.2"
+  },
+  {
+    "issue": "As a developer, I want to automatically crawl the site periodically so that I can prevent users from seeing any errors.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/315",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "migrated rich text content loses links and formatting when edited, has spaces added from exodus migration",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/316",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "awaiting testing",
       "bug"
     ],
     "milestone": ""
@@ -4977,6 +5025,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
@@ -4993,13 +5042,14 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a Content Editor I want to be able to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
+    "issue": "As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/109",
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5029,10 +5079,11 @@
     "issue": "As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/111",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5099,6 +5150,70 @@
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a one-time import of JTS IIIF images from Figgy into the database so that everyone has easy access to these images.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/120",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of documents in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Design mobile wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/123",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/124",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile wireframes of the filters to communicate the ways in which content can be curated when searching ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/125",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want new documents created in the database after data import to receive PGPIDs higher than the highest imported PGPID, so that identifiers will be unique and semi-sequential.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/127",
+    "estimate": 1,
+    "closed": "2021-04-09T21:23:32Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Update ansible deploy so we can use PUL Solr 8 for search",
@@ -5674,9 +5789,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/88",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-04-05T14:12:04Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5720,9 +5834,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/91",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-04-05T14:12:09Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5743,7 +5856,8 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
