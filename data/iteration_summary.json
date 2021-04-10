@@ -1091,19 +1091,30 @@
         ],
         "notes": {
             "cdh-web": [
-                "3.0 release"
+                "3.0 release",
+                "v3.0.1 (cleanup)"
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 25.33
+            "points": 4,
+            "issues": 10,
+            "velocity": 26.67
         },
         "design": {
-            "points": 0,
-            "velocity": 1.33
+            "points": 5,
+            "issues": 2,
+            "velocity": 3.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-web": 6,
+            "geniza": 5,
+            "mep-django": 1
+        },
+        "project_points": {
+            "cdh-web": 2,
+            "geniza": 6,
+            "mep-django": 1
+        }
     },
     {
         "from": "2021-04-12",
@@ -1119,11 +1130,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 14.0
+            "velocity": 15.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.67
         },
         "project_issues": {},
         "project_points": {}
@@ -1140,8 +1151,7 @@
         ],
         "notes": {
             "cdh-web": [
-                "",
-                "cleanup (v3.0.1)"
+                "cleanup (v3.0.2)"
             ],
             "maintenance": [
                 "ppa updates; deploy scripts",
@@ -1150,11 +1160,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.67
         },
         "project_issues": {},
         "project_points": {}
