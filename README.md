@@ -29,9 +29,11 @@ npm install
 
 ## Creating iteration reports
 
-First, edit the iteration definition file `iterations.json` to add the dates for the next iteration. Push the change to github to trigger the iteration summary GitHub Action to run.
+Update iteration definitions as needed in `iterations.json` if you need to add the dates for the next iteration (although these will likely be populated ahead of time now that we are using that data file for quarterly development shcedule). 
 
-Then create a new iteration report using the iteration report page bundle archetype with the filename for the post you want to create. By convention, use isodates for iteration reports. To autogenerate for the current date, use this command:
+Pull the latest changes from GitHub to get data added by the issue collection and iteration summary GitHub Action scripts, which run on Saturdays.
+
+Create a new iteration report using the iteration report page bundle archetype with the filename for the post you want to create. By convention, use isodates for iteration reports. To autogenerate for the current date, use this command:
 
 ```
 hugo new --kind iteration-report blog/iteration-reports/`date +'%Y-%m-%d'`
