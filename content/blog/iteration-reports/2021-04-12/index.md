@@ -18,6 +18,9 @@ This iteration we finished some smaller work related to the database and admin s
 
 Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work rolling, as we've had in the past. Rolling velocity will smooth out the volatility here, as intended.
 
+## Shakespeare and Company
+We had a small release for S&co with one bug fix (tested last iteration) and an enhancement adapted from PPA, to support embedding dynamic content (such as the map below) in Analysis essays and other site content pages.
+
 
 ## Demos
 {{< figure src="featured-sco_map_essay.png" caption="Screenshot of the dynamic map embedded in the newly published essay on the [Literary Right Bank](https://shakespeareandco.princeton.edu/analysis/2021/04/literary-right-bank/) on Shakespeare and Company Project">}}
