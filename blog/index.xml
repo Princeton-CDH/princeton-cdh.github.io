@@ -1,4 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: March 29, 2021</title><link>/blog/2021/03/march-29-2021/</link><pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/march-29-2021/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: April 12, 2021</title><link>/blog/2021/04/april-12-2021/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-12-2021/</guid><description>
+&lt;img src="/blog/2021/04/april-12-2021/featured-sco_map_essay_hu5a7f23e9c9277fbc92bf6da0a0ea5ae8_1305134_640x0_resize_catmullrom_2.png" width="640" height="331"/>
+&lt;p>The development points for this iteration were quite low (only 4 points), but our rolling velocity continues to be unnusually high (26 points) based on the last two iterations, which were included an enormous amount of work.&lt;/p>
+&lt;p>Based on the design velocidy graph, we might be finding a new rhythm with design work on our new adjusted design schedule.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We finally finished and deployed the 3.0 release, migrating content from the outdated and unsupported Mezzanine to Wagtail. This iteration included a few issues to close out the release, deploying the update and running the exodus script to convert content, and then some bugfixes and clean up work for a planned 3.0.1 release.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>This iteration we finished some smaller work related to the database and admin sorting, and made progress on document detail designs. Multiple larger features were delivered late in the iteration, which didn&amp;rsquo;t give enough time for testing to be completed.&lt;/p>
+&lt;p>Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work rolling, as we&amp;rsquo;ve had in the past. Rolling velocity will smooth out the volatility here, as intended.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="featured-sco_map_essay.png"
+alt="Screenshot of the dynamic map embedded in the newly published essay on the Literary Right Bank on Shakespeare and Company Project"/> &lt;figcaption>
+&lt;p>Screenshot of the dynamic map embedded in the newly published essay on the &lt;a href="https://shakespeareandco.princeton.edu/analysis/2021/04/literary-right-bank/">Literary Right Bank&lt;/a> on Shakespeare and Company Project&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: March 29, 2021</title><link>/blog/2021/03/march-29-2021/</link><pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/march-29-2021/</guid><description>
 &lt;img src="/blog/2021/03/march-29-2021/featured-cdhweb-page-history_hu3ccb080dc3feaf0cdac3a01620139301_83318_640x0_resize_catmullrom_2.png" width="640" height="359"/>
 &lt;p>The points and total number of issues closed for the last iteration is quite high — 42 points total, 25 for cdhweb and 17 for geniza, which results in a rolling velocity of 27. I&amp;rsquo;d like to think this is a sign that we&amp;rsquo;re gaining momentum on geniza work, but suspect that the high numbers are due to work that rolled over from the last iteration and a significant push to finish cdhweb 3.0.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
