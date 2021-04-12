@@ -6,7 +6,7 @@
 &lt;p>We finally finished and deployed the 3.0 release, migrating content from the outdated and unsupported Mezzanine to Wagtail. This iteration included a few issues to close out the release, deploying the update and running the exodus script to convert content, and then some bugfixes and clean up work for a planned 3.0.1 release.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
 &lt;p>This iteration we finished some smaller work related to the database and admin sorting, and made progress on document detail designs. Multiple larger features were delivered late in the iteration, which didn&amp;rsquo;t give enough time for testing to be completed.&lt;/p>
-&lt;p>Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work rolling, as we&amp;rsquo;ve had in the past. Rolling velocity will smooth out the volatility here, as intended.&lt;/p>
+&lt;p>Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work at the start of the iteration, as we&amp;rsquo;ve had in the past. Rolling velocity will smooth out the volatility here, as intended.&lt;/p>
 &lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
 &lt;p>We had a small release for S&amp;amp;co with one bug fix (tested last iteration) and an enhancement adapted from PPA, to support embedding dynamic content (such as the map below) in Analysis essays and other site content pages.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
