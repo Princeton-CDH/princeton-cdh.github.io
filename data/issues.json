@@ -2085,12 +2085,22 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/316",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-12T20:30:09Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Add explicit ordering for Page-derived models",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/318",
+    "estimate": "",
+    "closed": "2021-04-12T20:27:56Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
   },
   {
     "issue": "d",
@@ -4175,7 +4185,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -5012,7 +5023,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/106",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-04-14T19:31:24Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
@@ -5025,7 +5036,6 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
@@ -5080,10 +5090,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/111",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-04-14T19:46:52Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5094,7 +5103,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5210,8 +5220,49 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/127",
     "estimate": 1,
     "closed": "2021-04-09T21:23:32Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to view and search on PGPID so I can distinguish documents on the same shelfmark and refer to the same documents in the spreadsheet and database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/131",
+    "estimate": 0,
+    "closed": "2021-04-14T19:48:19Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a user, I want to view detailed information about all the sources that cite this document so that I can learn the volume and kind of academic engagement with the document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/135",
+    "estimate": "",
+    "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise document detail page design based on first-pass implementation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/136",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "look for edition info in TEI for records with \"Source of original transcription not noted in PGP database\" in metadata spreadsheet",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/137",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5854,10 +5905,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/96",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-04-14T19:01:07Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
