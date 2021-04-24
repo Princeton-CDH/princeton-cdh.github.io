@@ -1123,21 +1123,22 @@
             "geniza"
         ],
         "dev": {
-            "points": 9,
-            "issues": 6,
-            "velocity": 18.33
+            "points": 11,
+            "issues": 8,
+            "velocity": 19.0
         },
         "design": {
-            "points": 0,
-            "velocity": 1.67
+            "points": 7,
+            "issues": 4,
+            "velocity": 4.0
         },
         "project_issues": {
             "cdh-web": 2,
-            "geniza": 4
+            "geniza": 10
         },
         "project_points": {
             "cdh-web": 0,
-            "geniza": 9
+            "geniza": 18
         }
     },
     {
@@ -1157,11 +1158,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 4.33
+            "velocity": 5.0
         },
         "design": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 4.0
         },
         "project_issues": {},
         "project_points": {}
@@ -1188,11 +1189,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.0
+            "velocity": 3.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.33
         },
         "project_issues": {},
         "project_points": {}
