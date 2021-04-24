@@ -250,6 +250,15 @@
     "milestone": ""
   },
   {
+    "issue": "As a developer, I want Solr configuration updates and schema changes to be made automatically when I deploy new software, so I can trust that expected changes will always be made.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/36",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Change github deployment role to pre/post deployment step",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/45",
@@ -327,6 +336,17 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup passenger role and configure cdhwb playbooks to use it instead of apache",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/67",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -5024,9 +5044,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/106",
     "estimate": 1,
     "closed": "2021-04-14T19:31:24Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5056,10 +5074,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/109",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-04-20T17:40:52Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5078,10 +5095,11 @@
     "issue": "As a user, I want to view detailed information for a single Geniza document so that I can learn about that document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/110",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5176,38 +5194,36 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u2753 question"
-    ],
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "Design mobile wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
+    "issue": "Design mobile and tablet wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/123",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-04-22T23:32:38Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "Design mobile wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
+    "issue": "Design mobile and tablet wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/124",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-04-22T23:44:00Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "Design mobile wireframes of the filters to communicate the ways in which content can be curated when searching ",
+    "issue": "Design wireframes of the filters and sort options on mobile, tablet, and desktop to communicate the ways in which content can be curated when searching ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/125",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -5260,10 +5276,28 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/137",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-23T15:13:29Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to see and sort on the footnote count for sources so that I can find out how many times a source has been referenced in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/138",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to add and edit all footnotes associated with a single source to make bulk data entry easy and efficient.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/139",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5275,6 +5309,57 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to use the Text Block area to mark shelfmarks that are potential joins without adding to the string of shelfmarks, so that we can connect related documents without certainty. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/140",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Design desktop wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/141",
+    "estimate": 1,
+    "closed": "2021-04-23T00:37:51Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design desktop wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/142",
+    "estimate": 2,
+    "closed": "2021-04-23T00:35:08Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "check demerge spreadsheet against original metadata and data import",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/144",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "include demerged records in data import",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/145",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -14717,6 +14802,19 @@
     "closed": "2018-05-15T20:18:58Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "update hover and focus styles ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/360",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "accessibility",
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user browsing the list of collections, I want to see brief summary statistics so I can decide which collections of materials I want to browse.",
