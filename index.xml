@@ -1,4 +1,24 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: April 12, 2021</title><link>/blog/2021/04/april-12-2021/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-12-2021/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: April 26, 2021</title><link>/blog/2021/04/april-26-2021/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-26-2021/</guid><description>
+&lt;img src="/blog/2021/04/april-26-2021/featured-pgp-change-history_hu9f9e5ad30b3f4175f68327304d5cb344_33364_640x0_resize_catmullrom_2.png" width="640" height="123"/>
+&lt;p>This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We made more improvements to the data import, fixing Language+Script mapping based on the new display names and resolving all previously unhandled languages, and most notably parsing history input information (names and dates) into structured django log entries to preserve the known edit history of PGP documents. We also completed preliminary work on footnote models for linking scholarship records to documents.&lt;/p>
+&lt;p>For design, wireframes for cluster view browse and search results pages for all screens (desktop, tablet, mobile) were all completed.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We fixed a couple more bugs in the 3.0 version and released a planned 3.0.1 cleanup release to remove exodus code specific to the shift to wagtail. This is a necessary step to removing mezzanine, which will finally let us upgrade to newer versions of Dljango and python.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="featured-pgp-change-history.png"
+alt="Screenshot of change history for a test imported document showing historic changes"/> &lt;figcaption>
+&lt;p>Screenshot of change history for a test imported document showing historic changes&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="pgp-first-last-edits.png"
+alt="Screenshot of earliest and most recent changes for a test import document, shown on the document dit form"/> &lt;figcaption>
+&lt;p>Screenshot of earliest and most recent changes for a test import document, shown on the document dit form&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: April 12, 2021</title><link>/blog/2021/04/april-12-2021/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-12-2021/</guid><description>
 &lt;img src="/blog/2021/04/april-12-2021/featured-sco_map_essay_hu5a7f23e9c9277fbc92bf6da0a0ea5ae8_1305134_640x0_resize_catmullrom_2.png" width="640" height="331"/>
 &lt;p>The development points for this iteration were quite low (only 4 points), but our rolling velocity continues to be unnusually high (26 points) based on the last two iterations, which were included an enormous amount of work.&lt;/p>
 &lt;p>Based on the design velocidy graph, we might be finding a new rhythm with design work on our new adjusted design schedule.&lt;/p>
