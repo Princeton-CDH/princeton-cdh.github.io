@@ -1157,15 +1157,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 5.0
+            "points": 1,
+            "issues": 5,
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
             "velocity": 4.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-ansible": 3,
+            "geniza": 2
+        },
+        "project_points": {
+            "cdh-ansible": 0,
+            "geniza": 1
+        }
     },
     {
         "from": "2021-05-10",
@@ -1189,7 +1196,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.67
+            "velocity": 4.0
         },
         "design": {
             "points": 0,
@@ -1224,7 +1231,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 0.33
         },
         "design": {
             "points": 0,
