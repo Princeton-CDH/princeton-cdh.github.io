@@ -259,6 +259,17 @@
     "milestone": ""
   },
   {
+    "issue": "As a developer, I want to automatically test ansible roles and their dependencies so that I can make changes with confidence.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/37",
+    "estimate": "",
+    "closed": "2021-04-27T14:35:01Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Change github deployment role to pre/post deployment step",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/45",
@@ -287,7 +298,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/48",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-27T18:35:38Z",
     "labels": [
       "enhancement",
       "\ud83d\udea7 maintenance"
@@ -340,11 +351,11 @@
     "milestone": ""
   },
   {
-    "issue": "setup passenger role and configure cdhwb playbooks to use it instead of apache",
+    "issue": "setup passenger role and configure cdhweb & geniza qa playbooks to use it instead of apache",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/67",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-30T13:51:15Z",
     "labels": [
       "chore"
     ],
@@ -5048,7 +5059,7 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a user, I want to be able to see the updates and changes made in the new database while the website is still in development. ",
+    "issue": "As a user, I want to be able to see the updates and changes made in the new database in the current pgp site while the new website is still in development. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
     "estimate": 1,
@@ -5062,10 +5073,11 @@
     "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
-    "estimate": 5,
+    "estimate": 8,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5119,10 +5131,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/112",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-04-29T14:38:39Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5192,7 +5203,7 @@
     "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of documents in the backend, in order to data work or facilitate my own research.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "0.3 Initial database and data import"
@@ -5226,6 +5237,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5266,6 +5278,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5286,16 +5299,18 @@
     "issue": "As a content editor, I want to see and sort on the footnote count for sources so that I can find out how many times a source has been referenced in the database.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/138",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want to add and edit all footnotes associated with a single source to make bulk data entry easy and efficient.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/139",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "0.3 Initial database and data import"
@@ -5315,9 +5330,11 @@
     "issue": "As a content editor, I want to use the Text Block area to mark shelfmarks that are potential joins without adding to the string of shelfmarks, so that we can connect related documents without certainty. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/140",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5347,20 +5364,52 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/144",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-04-29T19:02:13Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "include demerged records in data import",
+    "issue": "As a global admin, I want to be able to import additional spreadsheets as part of the data import so that I can ensure demerged records are imported.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/145",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want a preliminary version of transcription text linked to a scholarly source so that I know which documents have available transcriptions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/146",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want documents that span fragments with consecutive shelfmarks to have their shelfmark displayed using a range, so that it's easier for me to read.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/154",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the document title so that it can appear on search and browse results, + the document detail view, scholarship records, external links as the page title ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/155",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
@@ -5760,10 +5809,11 @@
     "issue": "As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/65",
-    "estimate": 2,
+    "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -12017,6 +12067,17 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Parasolr doesn't find model indexable subclass ",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/59",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
