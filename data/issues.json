@@ -1801,7 +1801,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/259",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-04T15:48:40Z",
     "labels": [
       "chore"
     ],
@@ -2033,7 +2033,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.0.2"
+    "milestone": "v3.1"
   },
   {
     "issue": "Support embedding Media Central content via oEmbed",
@@ -2051,7 +2051,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/306",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-05T17:19:31Z",
     "labels": [
       "chore"
     ],
@@ -2093,7 +2093,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/313",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-04T15:48:52Z",
     "labels": [
       "bug"
     ],
@@ -5070,7 +5070,7 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document.",
+    "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document. (first pass)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
     "estimate": 8,
@@ -5108,10 +5108,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/110",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-05-03T14:30:01Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5235,9 +5234,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/125",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-05-08T00:31:36Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5276,9 +5274,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/136",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-08T01:08:18Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5300,10 +5297,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/138",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-05T20:39:15Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5331,10 +5326,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/140",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-05T20:48:57Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5404,11 +5397,19 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/155",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-05-08T01:05:09Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to filter documents by those with at least one fragment image, so that I can create useful visual datasets for download and producing teaching materials.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/157",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5420,6 +5421,33 @@
     "labels": [
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to easily get from document editing to fragment editing, to easily make changes and contextualize the work.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/160",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, when editor and translator information is imported I want urls associated with the footnote so I can get to the resource if available.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/161",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to be able to view what a single document editor has edited, so that I can learn more about documentary geniza scholarship and help solve metadata problems.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/162",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5810,10 +5838,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/65",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-05-06T16:36:54Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -11555,6 +11582,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/732",
     "estimate": "",
     "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "100years twitter bot code doesn't handle renewal/subscription with no duration",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/734",
+    "estimate": "",
+    "closed": "2021-05-06T20:53:56Z",
     "labels": [
       "bug"
     ],
