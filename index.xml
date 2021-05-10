@@ -1,4 +1,20 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: April 26, 2021</title><link>/blog/2021/04/april-26-2021/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-26-2021/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 10, 2021</title><link>/blog/2021/05/may-10-2021/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/may-10-2021/</guid><description>
+&lt;img src="/blog/2021/05/may-10-2021/featured-geniza-document-detail_hu2f9aee1d5d69e0ebe1a73f8355b78149_2751041_640x0_resize_catmullrom_2.png" width="640" height="441"/>
+&lt;p>This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>Accepted development work consists of a preliminary document detail page for the public site and admin editing enhancements, including a footnote count for the source list in admin, a way to edit and link to documents on the fragment edit view, and a certainty flag for TextBlocks to handle potential joins.&lt;/p>
+&lt;p>Completed design work includes a decision on document titles for detail pages as well as search and browse, revisions to the document detail page based on the initial implementation, and completed wireframes for sort and filter on search for all screens.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We completed planned maintenance and released version 3.0.2 — this update removes all mezzanine dependencies and resets database migrations, making it possible for the site to finally be upgraded to newer versions of django and wagtail. This also resolved a bug in the 3.0 release.&lt;/p>
+&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
+&lt;p>The bugfix release was a small change to address a limitation on the 100 years twitter code — it did not handle subscriptions and renewals with no known duration, as revealed by a tweet on Monday. The bugfix was out in time to handle the next occurrence on Friday.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="featured-geniza-document-detail.png"
+alt="Screenshot of preliminary document detail page for Princeton Geniza Project"/> &lt;figcaption>
+&lt;p>Screenshot of preliminary document detail page for Princeton Geniza Project&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: April 26, 2021</title><link>/blog/2021/04/april-26-2021/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/april-26-2021/</guid><description>
 &lt;img src="/blog/2021/04/april-26-2021/featured-pgp-change-history_hu9f9e5ad30b3f4175f68327304d5cb344_33364_640x0_resize_catmullrom_2.png" width="640" height="123"/>
 &lt;p>This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
