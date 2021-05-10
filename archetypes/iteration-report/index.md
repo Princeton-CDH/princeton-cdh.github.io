@@ -10,7 +10,10 @@ add summary paragraphs(s) about the iteration
 ## Demos
 * add demo links or screenshots
 
-(Add feature image as featured- for list view display)
+{{< figure src="featured-###.png" caption="##">}}
+
+
+{{/* Add feature image as featured- in this directory for list view display */}}
 
 
 
