@@ -249,5 +249,59 @@
         "notes": {
             "cdh-web": ["chartering"]
         }
+    },
+    {
+        "from": "2021-07-05",
+        "to": "2021-07-16",
+        "projects": ["maintenance", "ppa"],
+        "partial": ["ppa"],
+        "notes": {
+            "maintenance": ["archive Derrida's Margins", "PUL migrations"],
+            "ppa": ["possible spillover"]
+        }
+    },
+    {
+        "from": "2021-07-19",
+        "to": "2021-07-30",
+        "projects": ["cdh-web", "maintenance"],
+        "partial": ["maintenance"],
+        "notes": {
+            "cdh-web": ["updates for Fall"]
+        }
+    },
+    {
+        "from": "2021-08-02",
+        "to": "2021-08-13",
+        "projects": ["cdh-web", "geniza"],
+        "partial": ["geniza"],
+        "notes": {
+            "cdh-web": ["", "release v3.1"],
+            "geniza": ["prototyping (transcription, search)", "charter prep"]
+        }
+    },
+    {
+        "from": "2021-08-16",
+        "to": "2021-08-27",
+        "projects": ["geniza"],
+        "partial": ["geniza"],
+        "notes": {
+            "geniza": ["chartering Y2"]
+        }
+    },
+    {
+        "from": "2021-08-30",
+        "to": "2021-09-10",
+        "projects": ["geniza"],
+        "partial": ["geniza"],
+        "notes": {
+        }
+    },
+    {
+        "from": "2021-09-13",
+        "to": "2021-09-24",
+        "projects": [],
+        "partial": [],
+        "notes": {
+        }
     }
 ]
