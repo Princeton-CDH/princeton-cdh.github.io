@@ -300,8 +300,7 @@
     "estimate": "",
     "closed": "2021-04-27T18:35:38Z",
     "labels": [
-      "enhancement",
-      "\ud83d\udea7 maintenance"
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -5074,10 +5073,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
     "estimate": 8,
-    "closed": null,
+    "closed": "2021-05-10T13:25:20Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5307,7 +5305,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/139",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5364,7 +5364,7 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a global admin, I want to be able to import additional spreadsheets as part of the data import so that I can ensure demerged records are imported.",
+    "issue": "As a global admin, I want to import additional spreadsheets as part of the data import so that I can ensure demerged records are imported.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/145",
     "estimate": 2,
@@ -5407,9 +5407,11 @@
     "issue": "As a content editor, I want to filter documents by those with at least one fragment image, so that I can create useful visual datasets for download and producing teaching materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/157",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -5428,9 +5430,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/160",
     "estimate": "",
-    "closed": null,
-    "labels": [],
-    "milestone": ""
+    "closed": "2021-05-13T16:55:33Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, when editor and translator information is imported I want urls associated with the footnote so I can get to the resource if available.",
@@ -5449,6 +5453,92 @@
     "closed": null,
     "labels": [],
     "milestone": ""
+  },
+  {
+    "issue": "Design all the design components for all the generic pages that go under the \"About\" section to meet the needs of users",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/163",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement Black python linter",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/164",
+    "estimate": "",
+    "closed": "2021-05-13T13:07:14Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate report of duplicate joins",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/165",
+    "estimate": "",
+    "closed": "2021-05-12T17:09:39Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate a csv of unique sources from the RIS file of the Cambridge Bibliography",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/167",
+    "estimate": "",
+    "closed": "2021-05-11T20:07:46Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Append missing PGPID rows to demerge spreadsheet",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/168",
+    "estimate": "",
+    "closed": "2021-05-12T15:43:29Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want duplicate joined documents to be automatically merged without losing their unique metadata, so that I don't have to merge them manually.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want scholarship records from known journals imported as articles even if no title is present, so I can identify the resources and augment them later.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/172",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "editor import cleanup / refinement",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/173",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want a report on automatically identified named entities in item descriptions so I can compare it to entities I've already manually identified.",
@@ -6059,7 +6149,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/93",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -12127,6 +12219,17 @@
     "closed": "2019-03-05T21:44:41Z",
     "labels": [],
     "milestone": "0.1 initial release"
+  },
+  {
+    "issue": "parasolr default indexing shouldn't require schema customization",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/63",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Provides a manage command to manually update solr schema",
