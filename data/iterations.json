@@ -234,11 +234,12 @@
     {
         "from": "2021-06-07",
         "to": "2021-06-18",
-        "projects": ["cdh-web", "ppa"],
-        "partial": ["cdh-web"],
+        "projects": ["cdh-web", "ppa", "geniza"],
+        "partial": ["cdh-web", "geniza"],
         "notes": {
-            "cdh-web": ["chartering"],
-            "ppa": ["Implement Gale/ECCO import"]
+            "cdh-web": ["chartering + design problem identification"],
+            "ppa": ["Implement Gale/ECCO import"],
+            "geniza": ["visual design"]
         }
     },
     {
@@ -253,11 +254,12 @@
     {
         "from": "2021-07-05",
         "to": "2021-07-16",
-        "projects": ["maintenance", "ppa"],
-        "partial": ["ppa"],
+        "projects": ["maintenance", "ppa", "cdh-web"],
+        "partial": ["ppa", "cdh-web"],
         "notes": {
             "maintenance": ["archive Derrida's Margins", "PUL migrations"],
-            "ppa": ["possible spillover"]
+            "ppa": ["possible spillover"],
+            "cdh-web": ["design"]
         }
     },
     {
@@ -266,7 +268,8 @@
         "projects": ["cdh-web", "maintenance"],
         "partial": ["maintenance"],
         "notes": {
-            "cdh-web": ["updates for Fall"]
+            "cdh-web": ["updates for Fall"],
+            "maintenance": ["design systematization"]
         }
     },
     {
@@ -276,7 +279,7 @@
         "partial": ["geniza"],
         "notes": {
             "cdh-web": ["", "release v3.1"],
-            "geniza": ["prototyping (transcription, search)", "charter prep"]
+            "geniza": ["styling + prototyping (transcription, search)", "charter prep"]
         }
     },
     {
