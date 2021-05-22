@@ -328,7 +328,7 @@
     "milestone": ""
   },
   {
-    "issue": "Django ansible role",
+    "issue": "As a developer, I want to manage Django tasks through a single role so that I can simplify existing deploy playbooks.",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/63",
     "estimate": "",
@@ -355,6 +355,28 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/67",
     "estimate": "",
     "closed": "2021-04-30T13:51:15Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want to manage nodejs-related dependencies and tasks through a single role so that I can simplify existing deploy playbooks.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/74",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "python role should install from requirements.lock automatically if present",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/75",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "chore"
     ],
@@ -425,7 +447,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/104",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-19T18:29:34Z",
     "labels": [],
     "milestone": ""
   },
@@ -749,7 +771,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/144",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-19T18:28:53Z",
     "labels": [],
     "milestone": ""
   },
@@ -2139,6 +2161,28 @@
     "estimate": "",
     "closed": "2017-08-30T19:42:27Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "short description for blog posts are not editable in wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/327",
+    "estimate": "",
+    "closed": "2021-05-18T21:49:17Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "search description is not used as fallback for description",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/328",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
@@ -5058,14 +5102,12 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a user, I want to be able to see the updates and changes made in the new database in the current pgp site while the new website is still in development. ",
+    "issue": "As a user, I want to see updates and changes made in the new database in the current pgp site while the new website is still in development so that I can reference current information. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
     "estimate": 1,
     "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5074,9 +5116,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
     "estimate": 8,
     "closed": "2021-05-10T13:25:20Z",
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5202,7 +5242,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5304,10 +5346,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/139",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-20T15:47:02Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5315,7 +5355,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/14",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T16:40:32Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5368,7 +5408,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/145",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-05-21T19:04:34Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5377,7 +5417,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/146",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-05-18T18:46:55Z",
     "labels": [],
     "milestone": ""
   },
@@ -5408,10 +5448,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/157",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-18T18:52:54Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5440,9 +5478,11 @@
     "issue": "As a content editor, when editor and translator information is imported I want urls associated with the footnote so I can get to the resource if available.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/161",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5461,6 +5501,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5513,30 +5554,44 @@
     "issue": "As a content editor, I want duplicate joined documents to be automatically merged without losing their unique metadata, so that I don't have to merge them manually.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content editor, I want scholarship records from known journals imported as articles even if no title is present, so I can identify the resources and augment them later.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/172",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "editor import cleanup / refinement",
+    "issue": "As a content admin, I want book sections, unknown sources, translation language, and other information included in editor import so that more of the scholarship records are handled automatically.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/173",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content admin, I want notes and technical notes parsed and optionally imported into the database so I can preserve and act on important information included in those fields.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/179",
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\u2753 question",
+      "\ud83e\udd14 needs estimation"
     ],
     "milestone": "0.3 Initial database and data import"
   },
@@ -5547,6 +5602,39 @@
     "estimate": 3,
     "closed": "2020-11-17T19:18:26Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Include English and Hebrew typefaces on the Document Detail View and the Search Results ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/181",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to search documents by keyword or phrase so that I can find materials related to my interests.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/182",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add number for each scholarship record in the results on the browse and search results pages so the user can see how many scholarship records exist per result",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/186",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -6148,10 +6236,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/93",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-05-21T19:59:10Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -12142,8 +12228,10 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/49",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-05-21T17:39:55Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -12160,7 +12248,7 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/55",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T17:36:05Z",
     "labels": [
       "\ud83d\udea7 maintenance",
       "\ud83d\udee0\ufe0f chore"
@@ -12205,7 +12293,7 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/59",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T17:38:32Z",
     "labels": [
       "bug"
     ],
@@ -12225,7 +12313,7 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/63",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T17:37:12Z",
     "labels": [
       "bug"
     ],
@@ -14665,7 +14753,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/311",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-18T18:52:15Z",
     "labels": [
       "bug"
     ],
@@ -14858,13 +14946,14 @@
     "milestone": "3.5"
   },
   {
-    "issue": "split out CI builds",
+    "issue": "move ci to github actions",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/338",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-19T15:09:31Z",
     "labels": [
-      "chore"
+      "chore",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -14917,7 +15006,7 @@
     "estimate": 2,
     "closed": "2020-09-10T14:48:44Z",
     "labels": [
-      "design"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -14990,8 +15079,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/357",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T15:24:33Z",
     "labels": [
+      "awaiting testing",
       "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
@@ -15010,9 +15100,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/360",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-21T16:05:23Z",
     "labels": [
       "accessibility",
+      "awaiting design testing",
       "enhancement",
       "\ud83d\udea7 maintenance"
     ],
