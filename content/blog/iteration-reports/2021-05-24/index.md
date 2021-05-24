@@ -9,7 +9,7 @@ This iteration we completed 18 development points on Geniza as we work towards a
 
 ## Princeton Geniza Project
 
-Notable work completed this iteration are related to scholarship record data import and editing functionality, as well as handling demerge on import and improving the admin document search. 
+Notable development work completed this iteration are related to scholarship record data import and editing functionality, as well as handling demerge on import and improving the admin document search. For design, we made progress on content pages, updates to the auto-layout in Figma, and progress on typefaces, even though no design issues were closed this iteration.
 
 ## Princeton Prosody Archive
 
