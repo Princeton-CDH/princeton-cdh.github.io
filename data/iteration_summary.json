@@ -1200,19 +1200,25 @@
             ]
         },
         "dev": {
-            "points": 8,
-            "issues": 6,
-            "velocity": 9.67
+            "points": 18,
+            "issues": 22,
+            "velocity": 13.0
         },
         "design": {
             "points": 0,
             "velocity": 4.0
         },
         "project_issues": {
-            "geniza": 6
+            "geniza": 12,
+            "cdh-web": 3,
+            "ppa-django": 4,
+            "parasolr": 3
         },
         "project_points": {
-            "geniza": 8
+            "geniza": 18,
+            "cdh-web": 0,
+            "ppa-django": 0,
+            "parasolr": 0
         }
     },
     {
@@ -1241,7 +1247,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 6.0
+            "velocity": 9.33
         },
         "design": {
             "points": 0,
@@ -1255,22 +1261,27 @@
         "to": "2021-06-18",
         "projects": [
             "cdh-web",
-            "ppa"
+            "ppa",
+            "geniza"
         ],
         "partial": [
-            "cdh-web"
+            "cdh-web",
+            "geniza"
         ],
         "notes": {
             "cdh-web": [
-                "chartering"
+                "chartering + design problem identification"
             ],
             "ppa": [
                 "Implement Gale/ECCO import"
+            ],
+            "geniza": [
+                "visual design"
             ]
         },
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 6.0
         },
         "design": {
             "points": 0,
@@ -1310,10 +1321,12 @@
         "to": "2021-07-16",
         "projects": [
             "maintenance",
-            "ppa"
+            "ppa",
+            "cdh-web"
         ],
         "partial": [
-            "ppa"
+            "ppa",
+            "cdh-web"
         ],
         "notes": {
             "maintenance": [
@@ -1322,6 +1335,9 @@
             ],
             "ppa": [
                 "possible spillover"
+            ],
+            "cdh-web": [
+                "design"
             ]
         },
         "dev": {
@@ -1348,6 +1364,9 @@
         "notes": {
             "cdh-web": [
                 "updates for Fall"
+            ],
+            "maintenance": [
+                "design systematization"
             ]
         },
         "dev": {
@@ -1377,7 +1396,7 @@
                 "release v3.1"
             ],
             "geniza": [
-                "prototyping (transcription, search)",
+                "styling + prototyping (transcription, search)",
                 "charter prep"
             ]
         },
