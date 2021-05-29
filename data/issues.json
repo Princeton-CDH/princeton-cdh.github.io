@@ -383,6 +383,17 @@
     "milestone": ""
   },
   {
+    "issue": "revisit pre-commit hook",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/80",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Admin: CAS User login",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/1",
@@ -448,7 +459,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/104",
     "estimate": "",
     "closed": "2021-05-19T18:29:34Z",
-    "labels": [],
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -772,7 +785,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/144",
     "estimate": "",
     "closed": "2021-05-19T18:28:53Z",
-    "labels": [],
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -5086,8 +5101,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:30:19Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -5105,10 +5121,10 @@
     "issue": "As a user, I want to see updates and changes made in the new database in the current pgp site while the new website is still in development so that I can reference current information. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": "0.3 Initial database and data import"
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document. (first pass)",
@@ -5214,7 +5230,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "0.3 Initial database and data import"
+    "milestone": ""
   },
   {
     "issue": "draft data diagram for relational database",
@@ -5241,10 +5257,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-25T21:02:20Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5419,7 +5433,7 @@
     "estimate": 3,
     "closed": "2021-05-18T18:46:55Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a user, I want documents that span fragments with consecutive shelfmarks to have their shelfmark displayed using a range, so that it's easier for me to read.",
@@ -5450,7 +5464,7 @@
     "estimate": 1,
     "closed": "2021-05-18T18:52:54Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
@@ -5479,10 +5493,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/161",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-25T19:48:05Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5495,7 +5507,7 @@
     "milestone": ""
   },
   {
-    "issue": "Design all the design components for all the generic pages that go under the \"About\" section to meet the needs of users",
+    "issue": "Design all the design components for all the content pages that go under the \"About\" section to meet the needs of users",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/163",
     "estimate": 2,
@@ -5556,20 +5568,16 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
     "estimate": 3,
     "closed": null,
-    "labels": [
-      "\ud83c\udd95 enhancement"
-    ],
-    "milestone": "0.3 Initial database and data import"
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want scholarship records from known journals imported as articles even if no title is present, so I can identify the resources and augment them later.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/172",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-24T18:27:16Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5577,22 +5585,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/173",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-05-24T18:28:43Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a content admin, I want notes and technical notes parsed and optionally imported into the database so I can preserve and act on important information included in those fields.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/179",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u2753 question",
-      "\ud83e\udd14 needs estimation"
-    ],
+    "estimate": 3,
+    "closed": "2021-05-26T20:03:50Z",
+    "labels": [],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5601,7 +5604,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/18",
     "estimate": 3,
     "closed": "2020-11-17T19:18:26Z",
-    "labels": [],
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
     "milestone": ""
   },
   {
@@ -5629,13 +5634,43 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/186",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-25T17:49:58Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to import fragment view and IIIF urls from a csv file into the database so that I can provide access to images for fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/187",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Stub all templates that use localizable site text",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/188",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of footnotes in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/189",
+    "estimate": 1,
+    "closed": "2021-05-26T13:55:28Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a user, I want to search with multiple tags and choose how they should be combined (ANY/ALL) so that I can drill down or combine search results.",
@@ -5649,6 +5684,81 @@
     "milestone": ""
   },
   {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of sources in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/190",
+    "estimate": 1,
+    "closed": "2021-05-25T21:13:25Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Set up autogenerated code documentation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/201",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want FGP stub documents with no descriptions suppressed and flagged and the notes updated so that I can reviewed and described them if appropriate.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/202",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "use full names for authors when displaying sources and footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/203",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "remove import code",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/205",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Sorting by collection raises a 500 error",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/207",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a  content editor, I want to search documents by combined shelfmark without removing the + so I can quickly find documents that are part of joins.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/209",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Prototype the holistic search so that users who are exploring documents through tags, or are looking for documents by inputting search terms/keywords can navigate through the site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/21",
@@ -5657,6 +5767,15 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to input dates in a separate field, so that both content editors and site users can sort and filter documents by date.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/215",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5709,9 +5828,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/28",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\ud83e\uddea experiment"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5785,9 +5902,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/38",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:29:31Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -5796,9 +5913,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/39",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:29:04Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -5829,8 +5946,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/46",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-05-25T19:13:03Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "0.3 Initial database and data import"
   },
   {
@@ -5851,7 +5970,6 @@
     "estimate": 5,
     "closed": "2021-01-21T21:13:25Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5863,7 +5981,6 @@
     "estimate": 3,
     "closed": "2021-01-21T21:14:25Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -6036,10 +6153,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/67",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:33:34Z",
     "labels": [
-      "\u2753 question",
-      "\ud83c\udd95 enhancement"
+      "\ud83d\udd87\ufe0f duplicate"
     ],
     "milestone": ""
   },
@@ -6157,8 +6273,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/83",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:30:44Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -8910,9 +9027,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/403",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "needs estimation"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8997,9 +9112,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/413",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "needs estimation"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -15103,9 +15216,54 @@
     "closed": "2021-05-21T16:05:23Z",
     "labels": [
       "accessibility",
-      "awaiting design testing",
       "enhancement",
       "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement visual review workflow",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/365",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Server error when accessing pages that reference built styles via webpack-loader",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/366",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design an additional field for \"Edition\" on the work's detail view to communicate a work's edition information",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/367",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "Awaiting Design Review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a variant for the label on the source field on the work's detail view so the language would include ECCO sources",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/368",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "Awaiting Design Review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -16223,6 +16381,17 @@
     "labels": [
       "bug",
       "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "single author / DOI running together on home page and issue list",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/176",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
