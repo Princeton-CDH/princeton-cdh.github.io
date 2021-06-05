@@ -2198,7 +2198,18 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.1"
+  },
+  {
+    "issue": "events list test fails CI on start of month",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/329",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.1"
   },
   {
     "issue": "As an admin, I want to create and edit grant types and associate grants with projects, so that I can document when and which kinds of grants a project received from CDH.",
@@ -2208,6 +2219,17 @@
     "closed": "2017-08-31T19:08:29Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a User, I want to see CDH Data Fellows listed on the Affiliates and Students pages so I know who received a fellowship.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/330",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.1"
   },
   {
     "issue": "As an admin, I want to create and edit project roles and associate people as members of projects so that I can document project contributors.",
@@ -5122,7 +5144,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-06-03T15:22:05Z",
     "labels": [],
     "milestone": ""
   },
@@ -5244,12 +5266,14 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want a one-time import of JTS IIIF images from Figgy into the database so that everyone has easy access to these images.",
+    "issue": "generate a CSV of JTS IIIF manifests and DPUL view URLs from Figgy for import with new fragment url import script",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/120",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -5316,7 +5340,7 @@
     "issue": "As a user, I want to view detailed information about all the sources that cite this document so that I can learn the volume and kind of academic engagement with the document",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/135",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
@@ -5566,7 +5590,7 @@
     "issue": "As a content editor, I want duplicate joined documents to be automatically merged without losing their unique metadata, so that I don't have to merge them manually.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -5624,8 +5648,8 @@
     "issue": "As a user, I want to search documents by keyword or phrase so that I can find materials related to my interests.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/182",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-06-03T20:29:50Z",
     "labels": [],
     "milestone": ""
   },
@@ -5647,7 +5671,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/187",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -5721,7 +5747,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/203",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-02T17:06:04Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5732,18 +5758,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/205",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-01T16:36:30Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
   {
-    "issue": "Sorting by collection raises a 500 error",
+    "issue": "Sorting fragments by collection raises a 500 error",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/207",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-02T15:12:50Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -5754,7 +5780,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/209",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-06-02T15:15:16Z",
     "labels": [],
     "milestone": ""
   },
@@ -5773,9 +5799,44 @@
     "issue": "As a content editor, I would like to input dates in a separate field, so that both content editors and site users can sort and filter documents by date.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/215",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add \"this is a test site\" warning banner",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/216",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make \"source\" field on Footnote an autocomplete",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/217",
+    "estimate": "",
+    "closed": "2021-06-02T14:05:56Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust column widths in django admin for document and footnote lists",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/218",
+    "estimate": "",
+    "closed": "2021-06-02T14:06:43Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -5790,6 +5851,59 @@
     "milestone": ""
   },
   {
+    "issue": "Add PGP RAs as Content Editors to site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/221",
+    "estimate": "",
+    "closed": "2021-06-02T19:22:21Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to see line numbers in transcriptions, so I can correlate them line-by-line with images and published transcriptions. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/224",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to merge document records without losing data so that I can combine records when I've identified duplicates or joins.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/225",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design edit links so that logged in content editors can easily get from the public site to the admin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/228",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include old pgp ids in csv metadata feed for current site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/229",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, when I select a topic cluster I want to browse the documents in that cluster and see their metadata and other tags so that I can explore everything in that cluster.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/23",
@@ -5797,6 +5911,62 @@
     "closed": "2020-11-13T14:49:19Z",
     "labels": [
       "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include language in source/footnote display if not english",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/230",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add admin edit link to document detail page if user has permission to edit documents",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/231",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error when trying to create a new document in the admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/232",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include old pgpids in data feed for current pgp site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/233",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "admin document csv export has wrong date for first input",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/234",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -15237,7 +15407,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/366",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-04T21:07:10Z",
     "labels": [
       "bug"
     ],
@@ -15262,10 +15432,18 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "Awaiting Design Review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want a bulk import of content from Gale/ECCO so that I can add content to the site that is not available from HathiTrust.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/369",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
   },
   {
     "issue": "As a user browsing the list of collections, I want to see brief summary statistics so I can decide which collections of materials I want to browse.",
@@ -15275,6 +15453,96 @@
     "closed": "2018-05-14T11:27:07Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "As an admin, I want to add one or several new items from Gale/ECCO via the admin interface so that I can add content to the site after initial bulk import without developer assistance.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/370",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As an admin, I want a way to suppress items in bulk from the admin digitized works list so that I can manage the content if an agreement for content expires.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/371",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user, I want to search and browse digitized volumes across all sources so that I can find any materials in the archive, whether from HathiTrust or Gale/ECCO.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/372",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user viewing keyword search results, I want to see a few text snippets from the full text of a works from Gale/ECCO so that I can see how my search terms are used in context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/373",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user, I want to view a page for content from ECCO in Gale Primary Sources by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/374",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user viewing an item from ECCO in keyword search results, I want to see page image thumbnails and text snippets that match my search terms so I can see how many and what kind of pages match my search terms.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/375",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user, when I'm viewing an item from Gale/ECCO, I want to see the Gale identifier and link to view the item on Gale Primary Sources so that I can get to the Gale version of the document ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/376",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user, I want to search within a single Gale/ECCO item so that I can find more page results and keywords in context than are available on the main archive search.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/377",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As an admin, I want the CSV export to include source so that I can distinguish content from HathiTrust, Gale/ECCO, etc.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/378",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
+  },
+  {
+    "issue": "As a user, I want to add a Gale/ECCO work to my Zotero library from the item page or the search results page, so that I can save references for later research or citation.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/379",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.6"
   },
   {
     "issue": "Mockup: archive search page",
