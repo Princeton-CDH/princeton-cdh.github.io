@@ -41,6 +41,34 @@ alt="When we estimate in person, we use planning poker cards. Photo by Nick Buda
 &lt;h3 id="backend--frontend">Backend / Frontend&lt;/h3>
 &lt;p>These two terms are used frequently in the software development industry to refer to different parts of an application or program, but are hard to define precisely. Most often, a project’s “frontend” means the part that “end users” will interact with; for a website, this is the general public. The “backend” can refer to parts of the product that only certain users will see (like an interface for editing the project database) but it can also refer to parts of the product that users won’t see at all (like code that runs on a server to generate a webpage).&lt;/p>
 &lt;p>At the CDH, we usually use “frontend” to refer to the public-facing parts of a project, like pages on a website focused at other researchers or the general public. We usually use “backend” to refer to parts of a project that store and operate on the project data, like a non-public administrative interface used by project team members.&lt;/p>
+&lt;h3 id="bug">Bug&lt;/h3>
+&lt;p>A bug is a problem that is discovered on the production site. Bugs should be labeled as such on Github, and there&amp;rsquo;s often a issue template on GitHub used for this purpose.&lt;/p>
+&lt;h3 id="cache">Cache&lt;/h3>
+&lt;p>Locally stored data to speed up image loading on web pages. Cached content can be annoying during development because it gets in the way of seeing recent changes developers have made to the page.&lt;/p>
+&lt;h3 id="hard-refresh">Hard Refresh&lt;/h3>
+&lt;p>Refreshes the web page without loading the cache. Used in order to force a page to load the most updated version of the page during development. On a Mac, use ⌘Cmd+Shift+R.&lt;/p>
+&lt;h3 id="cms">CMS&lt;/h3>
+&lt;p>Acronym for Content Management System. Allows users with little knowledge of web programming languages to create and manage website content (think Wordpress!).&lt;/p>
+&lt;h3 id="css">CSS&lt;/h3>
+&lt;p>Acronym for Cascading Style Sheets. A style sheet language that describes how HTML elements should be displayed (fonts, colors).&lt;/p>
+&lt;h3 id="js">JS&lt;/h3>
+&lt;p>Acronym for JavaScript, a front-end programming language that describes dynamic web page behavior. Can be turned off using DevTools in order to test web page functionality without JavaScript: View → Developer → Developer Tools → → Settings → Debugger → Disable JavaScript → Keep DevTools open and refresh.&lt;/p>
+&lt;h3 id="devtools">DevTools&lt;/h3>
+&lt;p>Way of viewing the front-end code of a web page. Open DevTools in Chrome by navigating View → Developer → Developer Tools OR right-clicking on a page and clicking Inspect.&lt;/p>
+&lt;h3 id="django">Django&lt;/h3>
+&lt;p>Python-based software used to create database-driven websites, frequently used by the CDH on sponsored projects.&lt;/p>
+&lt;h3 id="mezzaninewagtail">Mezzanine/Wagtail&lt;/h3>
+&lt;p>Two different CMS options used by the CDH, built on top of Django.&lt;/p>
+&lt;h3 id="ff">FF&lt;/h3>
+&lt;p>Acronym for the Firefox browser.&lt;/p>
+&lt;h3 id="github">GitHub&lt;/h3>
+&lt;p>A software development platform that allows developers to store, track, and share computer code, as well as converse with one another during the development process. All of the files for a particular project are stored in a Github Repository or “Repo.”&lt;/p>
+&lt;h3 id="zenhub">ZenHub&lt;/h3>
+&lt;p>A project management tool that can be added on to GitHub. It allows you to view issues according to their stage in the development process. It also tracks the Story Points for each issue.&lt;/p>
+&lt;h3 id="issues">Issues&lt;/h3>
+&lt;p>Github’s term for “tickets” that any member of the project team can create to track tasks, features, enhancements, and bugs for the project. Issues are often organized using labels. Issues often belong to milestones that track version releases.&lt;/p>
+&lt;h3 id="milestone">Milestone&lt;/h3>
+&lt;p>A way of tracking in Github what issues will be released in the next version.&lt;/p>
 &lt;h2 id="testing--review">Testing &amp;amp; Review&lt;/h2>
 &lt;h3 id="design-review">Design Review&lt;/h3>
 &lt;p>Design review is a workflow where the Project Director and the Developers discuss the UX Designer’s designs, with the goal of reaching agreement and signing off on a single version that the Developers will implement.&lt;/p>
@@ -102,7 +130,9 @@ Many of the decisions in IA, UI, IxD, and Visual Design require UX research and/
 Many of the decisions in the categories above depend on the data available, how it is structured, and Project Director research goals for the data.
 Knowledge about the structure of data, the goals of the project and its data, as well as UX Research all help determine site flows/user flows.
 Many of the terms above are interdependent.
-“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p></description></item><item><title>Docs: User Stories</title><link>/docs/user-stories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-stories/</guid><description>
+“Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.&lt;/p>
+&lt;h3 id="zeplin">Zeplin&lt;/h3>
+&lt;p>A tool that allows UI Designers and Front-end Developers to collaborate. The designs in Zeplin include specs and guidelines that help the Front-end Developer code the site more easily.&lt;/p></description></item><item><title>Docs: User Stories</title><link>/docs/user-stories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-stories/</guid><description>
 &lt;h2 id="user-stories-should">User stories should:&lt;/h2>
 &lt;ul>
 &lt;li>describe something a particular kind of user (as recognizable to the software) can do in the application and why&lt;/li>
