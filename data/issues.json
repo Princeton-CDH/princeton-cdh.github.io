@@ -649,7 +649,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As an admin, I want to export event information so I can report on CDH events over time.",
@@ -660,7 +660,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As a user, I want to traverse the main navigation using a keyboard so that I can access site content more easily.",
@@ -1216,8 +1216,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/19",
     "estimate": "",
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.2"
   },
   {
     "issue": "As a content editor, I want to include staff affiliates on the affiliates page so I can highlight library staff directing data curation projects.",
@@ -1386,7 +1388,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As a user, I want to see featured CDH projects displayed prominently on the homepage so that I know the major research collaborations that the CDH is engaged in.",
@@ -1397,7 +1399,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As an admin, I want profiles of people who worked with CDH in the past to have a simplified display, so that I don't have to manually keep them up-to-date.",
@@ -1408,7 +1410,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "Some past student profiles are displaying twice",
@@ -1441,7 +1443,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As a students, I want to see student profiles broken up according to their Princeton status, so that it's easier to find students like me.",
@@ -1452,7 +1454,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As a user I want to view a list of staff members so I can get an idea of the people who work at the CDH.",
@@ -1472,7 +1474,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As an admin, I want to create staff projects that aren't R&D and have them show up on the Staff Projects page so I can highlight new work like Startwords.",
@@ -1494,7 +1496,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "shift CI to github actions",
@@ -1569,7 +1571,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.2"
   },
   {
     "issue": "As an admin, I want to associate project contributors with projects based on the dates they were involved instead of by grant, so that I can accurately reflect project team membership over time.",
@@ -2110,7 +2112,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/31",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -2205,7 +2209,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/329",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-08T18:34:50Z",
     "labels": [
       "chore"
     ],
@@ -2224,9 +2228,10 @@
     "issue": "As a User, I want to see CDH Data Fellows listed on the Affiliates and Students pages so I know who received a fellowship.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/330",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2021-06-11T02:56:08Z",
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.1"
@@ -2372,8 +2377,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/49",
     "estimate": 1,
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.2"
   },
   {
     "issue": "As an admin, I want to manage links in the header so that I can update navigation when the site changes.",
@@ -5537,7 +5544,6 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -5802,7 +5808,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -5941,10 +5947,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/232",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-09T20:35:27Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -5964,9 +5969,29 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/234",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-09T20:33:26Z",
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "document title for public site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/235",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "source string method should include language if it is specified and not English",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/236",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -15158,7 +15183,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/327",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-07T19:14:13Z",
     "labels": [
       "bug"
     ],
@@ -15432,6 +15457,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
+      "Awaiting Design Review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -15440,10 +15466,10 @@
     "issue": "As an admin, I want a bulk import of content from Gale/ECCO so that I can add content to the site that is not available from HathiTrust.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/369",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user browsing the list of collections, I want to see brief summary statistics so I can decide which collections of materials I want to browse.",
@@ -15479,7 +15505,7 @@
     "estimate": 0,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user viewing keyword search results, I want to see a few text snippets from the full text of a works from Gale/ECCO so that I can see how my search terms are used in context.",
@@ -15488,7 +15514,7 @@
     "estimate": 0,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user, I want to view a page for content from ECCO in Gale Primary Sources by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
@@ -15503,19 +15529,19 @@
     "issue": "As a user viewing an item from ECCO in keyword search results, I want to see page image thumbnails and text snippets that match my search terms so I can see how many and what kind of pages match my search terms.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/375",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user, when I'm viewing an item from Gale/ECCO, I want to see the Gale identifier and link to view the item on Gale Primary Sources so that I can get to the Gale version of the document ",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/376",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user, I want to search within a single Gale/ECCO item so that I can find more page results and keywords in context than are available on the main archive search.",
@@ -15524,16 +15550,16 @@
     "estimate": 0,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As an admin, I want the CSV export to include source so that I can distinguish content from HathiTrust, Gale/ECCO, etc.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/378",
-    "estimate": "",
+    "estimate": 0,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user, I want to add a Gale/ECCO work to my Zotero library from the item page or the search results page, so that I can save references for later research or citation.",
@@ -15543,6 +15569,18 @@
     "closed": null,
     "labels": [],
     "milestone": "v3.6"
+  },
+  {
+    "issue": "Design icons that represent \u201cexcerpt\u201d for items contained within a book, and \u201carticle\u201d for items contained within a periodical, so that users can easily distinguish the types of items they are viewing.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/380",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "Awaiting Design Review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Mockup: archive search page",
