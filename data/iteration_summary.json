@@ -1288,15 +1288,24 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 12.0
+            "points": 1,
+            "issues": 5,
+            "velocity": 12.33
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "ppa-django": 1,
+            "cdh-web": 2,
+            "geniza": 2
+        },
+        "project_points": {
+            "ppa-django": 0,
+            "cdh-web": 1,
+            "geniza": 0
+        }
     },
     {
         "from": "2021-06-21",
@@ -1315,7 +1324,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 6.0
+            "velocity": 6.33
         },
         "design": {
             "points": 0,
@@ -1350,7 +1359,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 0.33
         },
         "design": {
             "points": 0,
