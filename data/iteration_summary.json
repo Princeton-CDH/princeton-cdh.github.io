@@ -1288,23 +1288,24 @@
             ]
         },
         "dev": {
-            "points": 1,
-            "issues": 5,
-            "velocity": 12.33
+            "points": 12,
+            "issues": 24,
+            "velocity": 16.0
         },
         "design": {
-            "points": 0,
-            "velocity": 0.0
+            "points": 6,
+            "issues": 4,
+            "velocity": 2.0
         },
         "project_issues": {
-            "ppa-django": 1,
-            "cdh-web": 2,
-            "geniza": 2
+            "ppa-django": 13,
+            "cdh-web": 4,
+            "geniza": 11
         },
         "project_points": {
-            "ppa-django": 0,
+            "ppa-django": 12,
             "cdh-web": 1,
-            "geniza": 0
+            "geniza": 5
         }
     },
     {
@@ -1324,11 +1325,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 6.33
+            "velocity": 10.0
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
@@ -1359,11 +1360,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.33
+            "velocity": 4.0
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
