@@ -1275,7 +1275,7 @@
       "accessibility",
       "chore"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want an import of content from the previous version of the site so that all the information available on the old site is migrated to the new version.",
@@ -1657,7 +1657,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "Include DB diagrams in documentation",
@@ -1874,7 +1874,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "As a moderator, I want People automatically organized into person list pages so I don't have to manually manage these pages.",
@@ -1927,7 +1927,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "Event times are incorrect for past events",
@@ -2071,7 +2071,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "Support embedding Media Central content via oEmbed",
@@ -2082,7 +2082,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.1"
+    "milestone": ""
   },
   {
     "issue": "upgrade django and wagtail",
@@ -2198,7 +2198,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/328",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-14T16:44:25Z",
     "labels": [
       "bug"
     ],
@@ -2237,6 +2237,29 @@
     "milestone": "v3.1"
   },
   {
+    "issue": "Grant with no end date throws error on affiliates list page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/337",
+    "estimate": "",
+    "closed": "2021-06-16T02:05:40Z",
+    "labels": [
+      "awaiting testing",
+      "bug"
+    ],
+    "milestone": "v3.2"
+  },
+  {
+    "issue": "Set up analytics segments for internal traffic",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/339",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As an admin, I want to create and edit project roles and associate people as members of projects so that I can document project contributors.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/34",
@@ -2244,6 +2267,28 @@
     "closed": "2017-08-31T19:53:36Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Student alumni profiles are listed twice",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/340",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want to reorder ranked lists like project roles and titles via drag-and-drop so it's easier to update these lists. ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/341",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to associate urls for other resources with projects so that I can provide links to materials related to projects.",
@@ -5350,6 +5395,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\u26a0\ufe0f tested needs attention",
       "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
@@ -5542,7 +5588,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/163",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-06-14T22:29:02Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -5676,10 +5722,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/187",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-06-14T15:35:30Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5687,7 +5731,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/188",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-17T19:14:35Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5806,10 +5850,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/215",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-06-15T19:17:25Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5817,7 +5859,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/216",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-17T16:36:34Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5903,9 +5945,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/229",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-14T15:27:02Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udd87\ufe0f duplicate"
     ],
     "milestone": ""
   },
@@ -5925,9 +5967,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/230",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-15T19:36:50Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udd87\ufe0f duplicate"
     ],
     "milestone": ""
   },
@@ -5958,7 +6000,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/233",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-17T16:41:23Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -5996,6 +6038,17 @@
     "milestone": ""
   },
   {
+    "issue": "Fragment reassociation doesn't update the search index",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/239",
+    "estimate": "",
+    "closed": "2021-06-17T17:12:32Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, when I search by keyword I want to see a list of matching clusters with the most relevant documents so that I can get to results but also see the context of related materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/24",
@@ -6004,6 +6057,85 @@
     "labels": [
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Split Goitein's Typed Texts into \"Volumes\" by shelfmark to make the sources easier to manage.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/240",
+    "estimate": "",
+    "closed": "2021-06-17T17:19:28Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to edit the Historic Shelfmark so that I can correct errors in the metadata.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/241",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "External links page design revisions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/246",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to filter documents by library, so that I can narrow down clusters of documents and perform other research and data tasks.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/248",
+    "estimate": 0,
+    "closed": "2021-06-17T18:47:17Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I would like to be able to batch upload new documents from a .csv (structured like the old metadata spreadsheet) so that I can avoid entering hundreds of documents one by one. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to click on the image thumbnails so that I can examine a fragment more closely.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/250",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to be able to distinguish between the primary and secondary languages on a document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/251",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Possible parsing error in Goitein \"typed texts\" footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/252",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -12085,6 +12217,39 @@
     "milestone": ""
   },
   {
+    "issue": "Multiple Reimbursements, Same Day",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/737",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Books That Did Not Circulate",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/738",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Footnote Book Sources in Data Export",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/739",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, when I merge two individuals, I want the notes field to include the date when the merge was completed, so that I can keep track of biographical work in the archive.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/74",
@@ -14932,7 +15097,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/298",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-15T15:46:52Z",
     "labels": [
       "chore"
     ],
@@ -15072,7 +15237,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/313",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-14T21:29:10Z",
     "labels": [],
     "milestone": ""
   },
@@ -15443,9 +15608,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/367",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-06-14T13:25:49Z",
     "labels": [
-      "Awaiting Design Review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -15455,9 +15619,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/368",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-06-14T12:33:59Z",
     "labels": [
-      "Awaiting Design Review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -15467,7 +15630,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/369",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-06-16T17:08:30Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15493,10 +15656,10 @@
     "issue": "As an admin, I want a way to suppress items in bulk from the admin digitized works list so that I can manage the content if an agreement for content expires.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/371",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2021-06-16T15:56:45Z",
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user, I want to search and browse digitized volumes across all sources so that I can find any materials in the archive, whether from HathiTrust or Gale/ECCO.",
@@ -15504,7 +15667,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/372",
     "estimate": 0,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.7"
   },
   {
@@ -15512,7 +15677,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/373",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-06-16T14:26:03Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15520,17 +15685,19 @@
     "issue": "As a user, I want to view a page for content from ECCO in Gale Primary Sources by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/374",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
-    "milestone": "v3.6"
+    "labels": [
+      "question"
+    ],
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user viewing an item from ECCO in keyword search results, I want to see page image thumbnails and text snippets that match my search terms so I can see how many and what kind of pages match my search terms.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/375",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-06-15T18:48:24Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15539,7 +15706,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/376",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-06-15T17:18:42Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15548,8 +15715,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/377",
     "estimate": 0,
-    "closed": null,
-    "labels": [],
+    "closed": "2021-06-16T13:56:50Z",
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.7"
   },
   {
@@ -15557,7 +15726,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/378",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-06-15T15:52:51Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15565,20 +15734,43 @@
     "issue": "As a user, I want to add a Gale/ECCO work to my Zotero library from the item page or the search results page, so that I can save references for later research or citation.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/379",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
-    "milestone": "v3.6"
+    "labels": [
+      "awaiting testing"
+    ],
+    "milestone": "v3.7"
   },
   {
     "issue": "Design icons that represent \u201cexcerpt\u201d for items contained within a book, and \u201carticle\u201d for items contained within a periodical, so that users can easily distinguish the types of items they are viewing.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/380",
     "estimate": 2,
+    "closed": "2021-06-14T13:22:01Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Browser in mobile view hides second hit for keyword search results with 2 hits",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/388",
+    "estimate": "",
     "closed": null,
     "labels": [
-      "Awaiting Design Review",
-      "\ud83d\uddfa\ufe0f design"
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want a bulk import of MARC metadata from Gale/ECCO so that I can view and search each record by its metadata",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/389",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "tested needs attention"
     ],
     "milestone": ""
   },
@@ -16166,6 +16358,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/26",
     "estimate": "",
     "closed": "2021-03-12T21:09:56Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add workflow documention explaining how to report a bug",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/29",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "enhancement"
     ],
