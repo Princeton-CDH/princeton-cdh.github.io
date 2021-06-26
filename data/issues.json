@@ -6083,11 +6083,11 @@
     "issue": "External links page design revisions",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/246",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6136,6 +6136,18 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the scholarship records page layout so the list of cited work looks more like a bibliography than a list",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/253",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {
@@ -15647,10 +15659,10 @@
     "issue": "As an admin, I want to add one or several new items from Gale/ECCO via the admin interface so that I can add content to the site after initial bulk import without developer assistance.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/370",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
-    "milestone": "v3.6"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want a way to suppress items in bulk from the admin digitized works list so that I can manage the content if an agreement for content expires.",
@@ -15666,10 +15678,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/372",
     "estimate": 0,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2021-06-25T11:06:37Z",
+    "labels": [],
     "milestone": "v3.7"
   },
   {
@@ -15685,11 +15695,9 @@
     "issue": "As a user, I want to view a page for content from ECCO in Gale Primary Sources by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/374",
-    "estimate": 2,
+    "estimate": 1,
     "closed": null,
-    "labels": [
-      "question"
-    ],
+    "labels": [],
     "milestone": "v3.7"
   },
   {
@@ -15716,9 +15724,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/377",
     "estimate": 0,
     "closed": "2021-06-16T13:56:50Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "labels": [],
     "milestone": "v3.7"
   },
   {
@@ -15735,10 +15741,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/379",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2021-06-22T18:53:59Z",
+    "labels": [],
     "milestone": "v3.7"
   },
   {
@@ -15768,10 +15772,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/389",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "tested needs attention"
-    ],
+    "closed": "2021-06-25T18:15:13Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -15782,6 +15784,93 @@
     "closed": "2018-05-22T20:05:58Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "Gale/ECCO import & functionality (full works / no excerpts)",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/391",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "excerpt support",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/392",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to include book excerpts and articles as well as full volumes, so that I can include material that is specifically about prosody from longer works about other subjects.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/393",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want item type and book excerpt/article metadata included in admin CSV exports so I can review all information in the system",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/394",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to import specific sections of HathiTrust items so that I can include just the part of a document that is about prosody.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/395",
+    "estimate": 5,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want the option of importing two different sections from the same HathiTrust work so I can include multiple articles or chapters from a single journal issue or book.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/396",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I'm looking at search results I want to see an indicator when something is an excerpt or an article, so that I can tell what kind of content I'm looking at.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/397",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I'm looking at the details for an item I want to see an indicator if it's an excerpt or article so I understand the content better.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/398",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to harvest metadata for book excerpts and articles so that I can save them for citation.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/399",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "question"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want a bulk import of HathiTrust materials so that previously identified and downloaded data can be added to the system.",
@@ -15800,6 +15889,44 @@
     "closed": "2018-05-22T19:31:15Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "As a user, I want to search and browse content across all types so that I can find any results in full volumes as well as excerpts.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/400",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to search within a book excerpt or article so that I can see more than two results for my search terms in context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/401",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "set up black and isort pre-commit hooks",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/402",
+    "estimate": "",
+    "closed": "2021-06-22T21:44:54Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want my Zotero metadata to include the PPA item URL so that I can easily link back to and cite an item I found on the PPA.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/404",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Mockup: collections list page",
