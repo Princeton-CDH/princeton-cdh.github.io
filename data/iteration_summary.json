@@ -1325,7 +1325,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 4,
+            "issues": 5,
             "velocity": 11.0
         },
         "design": {
@@ -1333,10 +1333,12 @@
             "velocity": 2.0
         },
         "project_issues": {
-            "ppa-django": 4
+            "ppa-django": 4,
+            "cdh-web": 1
         },
         "project_points": {
-            "ppa-django": 3
+            "ppa-django": 3,
+            "cdh-web": 0
         }
     },
     {
