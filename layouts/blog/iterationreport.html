@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <hr/>
 {{/* Get issues that need estimation based on label  */}}
 {{ $estimate_issues := where $.Site.Data.issues "labels" "intersect" (slice "needs estimation") }}
+{{ if $estimate_issues }}
 <section class="needs-estimation">
 <h3>Issues that need estimation</h3>
 <ul>
@@ -123,6 +124,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ end }}
 </ul>
 </section>
+{{ end }}
 
 </div>
 
