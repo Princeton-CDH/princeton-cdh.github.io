@@ -7,4 +7,4 @@ date_range:
     end: "2021-09-26"
 ---
 
-Draft dev schedule for summer 2021.
+Development schedule for summer 2021.

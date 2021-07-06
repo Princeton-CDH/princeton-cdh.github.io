@@ -39,12 +39,34 @@ date_range:
         {{ end }}
     </tr>
 
-{{ range $iteration := $iterations }}
+{{ range $iteration_index, $iteration := $iterations }}
     <tr class="iteration-start"> {{/* first week of iteration */}}
-        <td>
+        {{/* determine number of weeks in iteration to set row span correctly */}}
+        {{ $next_iteration := index $iterations (add $iteration_index 1) }}
+        {{ with time $iteration.from }}
+            {{ $scratch.Set "second_week" (dateFormat "Jan 2" (.AddDate 0 0 7)) }}
+            {{ $scratch.Set "third_week" (dateFormat "Jan 2" (.AddDate 0 0 14)) }}
+        {{ end }}
+
+        {{/* calculate number of weeks in the iteration */}}
+        {{ if $next_iteration }}
+            {{/* convert start dates to time, substract and convert to days, then weeks */}}
+            {{ $next_start := time $next_iteration.from }}
+            {{ $current_start := time $iteration.from }}
+            {{ $iteration_days := div (sub $next_start.Unix $current_start.Unix)  86400 }}
+            {{ $scratch.Set  "iteration_weeks" (div $iteration_days 7) }}
+        {{ else }}
+            {{/* if next iteration is not defined, default to 2 weeks */}}
+            {{ $scratch.Set  "iteration_weeks" 2 }}
+        {{ end }}
+
+        <td> {{/* first week of iteration */}}
             {{ dateFormat "Jan 2" $iteration.from }}
         </td>
-        <td rowspan="2"></td>
+
+        {{/* rowspan to indicate iteration length */}}
+        <td rowspan="{{ $scratch.Get "iteration_weeks" }}"></td>
+
         {{ range $projects }}
         {{/* for each projects, output a table cell; set class if active; add notes if present; if project is in partial list, add partial class */}}
         <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
@@ -58,7 +80,9 @@ date_range:
         </td>
         {{ end }}
     </tr>
-    <tr> {{/* second week of iteration */}}
+    {{/* second week of iteration */}}
+    {{ if (ge ($scratch.Get "iteration_weeks") 2) }}
+    <tr>
         <td>{{ with time  $iteration.from  }} {{/* parse date string as time so we can add 1 week */}}
             {{ dateFormat "Jan 2" (.AddDate 0 0 7) }} {{ end }}
         </td> {{/* date */}}
@@ -74,8 +98,29 @@ date_range:
         </td>
         {{ end }}
     </tr>
-{{ end }}
+    {{ end }}
 
+    {{/* optional third week of iteration (occasional occurrence) */}}
+    {{ if (ge ($scratch.Get "iteration_weeks") 3) }}
+    <tr>
+        <td>{{ with time  $iteration.from  }}
+            {{ dateFormat "Jan 2" (.AddDate 0 0 14) }} {{ end }}
+        </td>
+    {{ range $projects }}
+        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
+            {{/* display third note for this project if any */}}
+            {{ if $iteration.notes }}
+                {{ $project_notes := index $iteration.notes .}}
+                {{ if $project_notes }}
+                    {{ index $project_notes 2 }}
+                {{ end }}
+            {{ end }}
+        </td>
+    {{ end }} {{/* end projects loop */}}
+    </tr>
+    {{ end }} {{/* end third week iteration */}}
+
+{{ end }}
 </table>
 
 {{ end }}

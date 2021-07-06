@@ -233,7 +233,7 @@
     },
     {
         "from": "2021-06-07",
-        "to": "2021-06-18",
+        "to": "2021-06-25",
         "projects": ["cdh-web", "ppa", "geniza"],
         "partial": ["cdh-web", "geniza"],
         "notes": {
@@ -243,13 +243,9 @@
         }
     },
     {
-        "from": "2021-06-21",
+        "from": "2021-06-28",
         "to": "2021-07-02",
-        "projects": ["cdh-web", "ppa"],
-        "partial": ["cdh-web"],
-        "notes": {
-            "cdh-web": ["chartering"]
-        }
+        "comment": "R&D week"
     },
     {
         "from": "2021-07-05",
@@ -258,7 +254,7 @@
         "partial": ["ppa", "cdh-web"],
         "notes": {
             "maintenance": ["archive Derrida's Margins", "PUL migrations"],
-            "ppa": ["possible spillover"],
+            "ppa": ["excerpt support"],
             "cdh-web": ["design"]
         }
     },
