@@ -32,7 +32,7 @@ alt="Screenshot of PPA archive search showing new focus styles for improved acce
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p></description></item><item><title>Blog: Summer development schedule, June — August 2021</title><link>/blog/2021/05/summer-development-schedule-june-august-2021/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/summer-development-schedule-june-august-2021/</guid><description>
-&lt;p>Draft dev schedule for summer 2021.&lt;/p></description></item><item><title>Blog: May 10, 2021</title><link>/blog/2021/05/may-10-2021/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/may-10-2021/</guid><description>
+&lt;p>Development schedule for summer 2021.&lt;/p></description></item><item><title>Blog: May 10, 2021</title><link>/blog/2021/05/may-10-2021/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/may-10-2021/</guid><description>
 &lt;img src="/blog/2021/05/may-10-2021/featured-geniza-document-detail_hu2f9aee1d5d69e0ebe1a73f8355b78149_2751041_640x0_resize_catmullrom_2.png" width="640" height="441"/>
 &lt;p>This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
