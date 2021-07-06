@@ -1266,7 +1266,7 @@
     },
     {
         "from": "2021-06-07",
-        "to": "2021-06-18",
+        "to": "2021-06-25",
         "projects": [
             "cdh-web",
             "ppa",
@@ -1288,9 +1288,9 @@
             ]
         },
         "dev": {
-            "points": 12,
-            "issues": 24,
-            "velocity": 16.0
+            "points": 15,
+            "issues": 28,
+            "velocity": 17.0
         },
         "design": {
             "points": 6,
@@ -1298,34 +1298,23 @@
             "velocity": 2.0
         },
         "project_issues": {
-            "ppa-django": 13,
+            "ppa-django": 17,
             "cdh-web": 4,
             "geniza": 11
         },
         "project_points": {
-            "ppa-django": 12,
+            "ppa-django": 15,
             "cdh-web": 1,
             "geniza": 5
         }
     },
     {
-        "from": "2021-06-21",
+        "from": "2021-06-28",
         "to": "2021-07-02",
-        "projects": [
-            "cdh-web",
-            "ppa"
-        ],
-        "partial": [
-            "cdh-web"
-        ],
-        "notes": {
-            "cdh-web": [
-                "chartering"
-            ]
-        },
+        "comment": "R&D week",
         "dev": {
-            "points": 3,
-            "issues": 5,
+            "points": 0,
+            "issues": 1,
             "velocity": 11.0
         },
         "design": {
@@ -1333,11 +1322,9 @@
             "velocity": 2.0
         },
         "project_issues": {
-            "ppa-django": 4,
             "cdh-web": 1
         },
         "project_points": {
-            "ppa-django": 3,
             "cdh-web": 0
         }
     },
@@ -1359,7 +1346,7 @@
                 "PUL migrations"
             ],
             "ppa": [
-                "possible spillover"
+                "excerpt support"
             ],
             "cdh-web": [
                 "design"
@@ -1396,7 +1383,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 0.0
         },
         "design": {
             "points": 0,
