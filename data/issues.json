@@ -2231,7 +2231,6 @@
     "estimate": 1,
     "closed": "2021-06-11T02:56:08Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": "v3.1"
@@ -2297,6 +2296,17 @@
     "closed": "2021-07-01T02:07:11Z",
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed external content in editorial and other pages, so that I can include dynamic content.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/345",
+    "estimate": "",
+    "closed": "2021-07-06T14:12:20Z",
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -4384,6 +4394,28 @@
     "milestone": ""
   },
   {
+    "issue": "Create a new export script for book data that doesn't use zotero",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/262",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Include images and zones into intervention dataset",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/263",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "interventions: associate with IIIF canvases",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/27",
@@ -5405,8 +5437,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention",
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -12294,6 +12326,17 @@
     "milestone": ""
   },
   {
+    "issue": "Expand Footer",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/740",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin, I want a one-time import of data from lending card XML files so that I can manage borrowing events and borrowed items in the database.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/75",
@@ -15273,7 +15316,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/313",
     "estimate": "",
     "closed": "2021-06-14T21:29:10Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -15719,7 +15764,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/374",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-07-07T14:09:41Z",
     "labels": [],
     "milestone": "v3.7"
   },
@@ -15813,7 +15858,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/391",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-08T18:34:33Z",
     "labels": [
       "Epic"
     ],
@@ -15835,7 +15880,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/393",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-07-07T14:15:25Z",
     "labels": [],
     "milestone": ""
   },
@@ -15956,7 +16001,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/408",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-06T19:05:08Z",
     "labels": [
       "chore"
     ],
