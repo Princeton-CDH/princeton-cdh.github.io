@@ -1653,7 +1653,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/240",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-13T16:51:33Z",
     "labels": [
       "chore"
     ],
@@ -2307,6 +2307,28 @@
     "closed": "2021-07-06T14:12:20Z",
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up black and isort pre-commit hooks",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/346",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor I want to see accessibility checks when I'm logged in or previewing a page so that I will be alerted if something is causing accessibility problems and have guidance about how to fix it.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/347",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -4264,7 +4286,7 @@
     "milestone": ""
   },
   {
-    "issue": "Reference data export should include chapter/section information",
+    "issue": "As a researcher, I want chapter and section information included in the reference data export so I can do work that takes into account the structure of the source.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/238",
     "estimate": "",
@@ -4327,7 +4349,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/246",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
@@ -4394,7 +4418,7 @@
     "milestone": ""
   },
   {
-    "issue": "Create a new export script for book data that doesn't use zotero",
+    "issue": "As a researcher, I want a book dataset that is based on the content and doesn't include irrelevant fields from zotero so that I can focus on the data specific to this project.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/262",
     "estimate": "",
@@ -4405,14 +4429,21 @@
     "milestone": ""
   },
   {
-    "issue": "Include images and zones into intervention dataset",
+    "issue": "As a researcher, I want access to images and annotation zones in the intervention dataset so that I can see the context and do more interesting work.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/263",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "chore"
-    ],
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a researcher, I want to see data about known interventions so I can inspect and analyze Derrida's non-textual annotation practices.",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5435,10 +5466,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/135",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-07-12T14:39:09Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -6167,8 +6197,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/251",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-07-12T14:49:06Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -6202,6 +6234,28 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to see Help text for Document Type so that I can make an informed decision while editing documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/255",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename language fields",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/256",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -15889,17 +15943,19 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/394",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-07-15T15:30:55Z",
     "labels": [],
     "milestone": ""
   },
   {
-    "issue": "As an admin, I want to import specific sections of HathiTrust items so that I can include just the part of a document that is about prosody.",
+    "issue": "As an admin, I want to convert existing full HathiTrust items into excerpts so that I can include just the parts of those document that are about prosody.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/395",
-    "estimate": 5,
+    "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -15907,7 +15963,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/396",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-07-12T21:24:59Z",
     "labels": [],
     "milestone": ""
   },
@@ -15917,7 +15973,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/397",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting design testing",
+      "awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -15926,7 +15985,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/398",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting design testing",
+      "awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -15964,16 +16026,20 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/400",
     "estimate": 0,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": ""
   },
   {
     "issue": "As a user, I want to search within a book excerpt or article so that I can see more than two results for my search terms in context.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/401",
-    "estimate": 1,
+    "estimate": 0,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -17104,7 +17170,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/176",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-14T20:57:52Z",
     "labels": [
       "bug"
     ],
