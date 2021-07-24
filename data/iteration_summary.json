@@ -1353,9 +1353,9 @@
             ]
         },
         "dev": {
-            "points": 8,
-            "issues": 11,
-            "velocity": 7.67
+            "points": 10,
+            "issues": 12,
+            "velocity": 8.33
         },
         "design": {
             "points": 0,
@@ -1363,13 +1363,13 @@
         },
         "project_issues": {
             "cdh-web": 2,
-            "ppa-django": 6,
+            "ppa-django": 7,
             "geniza": 2,
             "startwords": 1
         },
         "project_points": {
             "cdh-web": 0,
-            "ppa-django": 6,
+            "ppa-django": 8,
             "geniza": 2,
             "startwords": 0
         }
@@ -1394,7 +1394,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
@@ -1425,7 +1425,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
