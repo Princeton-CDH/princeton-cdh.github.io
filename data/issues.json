@@ -649,7 +649,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": "v3.3"
   },
   {
     "issue": "As an admin, I want to export event information so I can report on CDH events over time.",
@@ -660,7 +660,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": "v3.3"
   },
   {
     "issue": "As a user, I want to traverse the main navigation using a keyboard so that I can access site content more easily.",
@@ -15974,8 +15974,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "awaiting design testing",
-      "awaiting testing"
+      "tested needs attention"
     ],
     "milestone": ""
   },
@@ -15984,11 +15983,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/398",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "awaiting design testing",
-      "awaiting testing"
-    ],
+    "closed": "2021-07-20T15:40:29Z",
+    "labels": [],
     "milestone": ""
   },
   {
