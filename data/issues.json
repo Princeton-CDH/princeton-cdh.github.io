@@ -242,7 +242,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-29T16:20:30Z",
     "labels": [
       "bug",
       "\ud83d\udea7 maintenance"
@@ -390,6 +390,28 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Use shallow clone to check out project repo",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/86",
+    "estimate": "",
+    "closed": "2021-07-29T21:08:53Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "npm module doesn't register error on webpack build",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/9",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
@@ -1214,12 +1236,12 @@
     "issue": "As a user I want to search across all pages by keyword so I can find specific content that interests me.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/19",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": "v3.3"
   },
   {
     "issue": "As a content editor, I want to include staff affiliates on the affiliates page so I can highlight library staff directing data curation projects.",
@@ -1923,8 +1945,9 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/273",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-07-29T02:36:00Z",
     "labels": [
+      "awaiting testing",
       "bug"
     ],
     "milestone": ""
@@ -2077,12 +2100,13 @@
     "issue": "Support embedding Media Central content via oEmbed",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/305",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "v3.3"
   },
   {
     "issue": "upgrade django and wagtail",
@@ -2325,9 +2349,10 @@
     "issue": "As an editor I want to see accessibility checks when I'm logged in or previewing a page so that I will be alerted if something is causing accessibility problems and have guidance about how to fix it.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/347",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "awaiting testing",
       "enhancement"
     ],
     "milestone": ""
@@ -2340,6 +2365,62 @@
     "closed": "2017-09-12T23:56:54Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Design a way to navigate to the consultation page / request consultations from the home page so the user can immediately learn about this service",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/350",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.3"
+  },
+  {
+    "issue": "CDH Web Search ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/351",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Explore site search scenarios for pages, projects, and people and write logic on concept, functionality, and user steps so the dev team can be aware of the high-level possibilities with design",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/352",
+    "estimate": 5,
+    "closed": null,
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.3"
+  },
+  {
+    "issue": "Design a way to navigate to the About page from the home page so the user can immediately learn about the CDH",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/353",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.3"
+  },
+  {
+    "issue": "As a Content Editor, I want existing page links to resolve after I rename or move a page so that I don't have to manually create a redirect.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/354",
+    "estimate": 2,
+    "closed": "2021-07-29T02:18:13Z",
+    "labels": [
+      "awaiting testing",
+      "enhancement"
+    ],
+    "milestone": "v3.3"
   },
   {
     "issue": "As an admin I want to edit and create resource types so I can determine what kind of links and resources can be associated with people and projects.",
@@ -15952,10 +16033,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/395",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "tested needs attention"
-    ],
+    "closed": "2021-07-29T19:08:36Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -15972,9 +16051,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/397",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-07-30T20:23:49Z",
     "labels": [
-      "tested needs attention"
+      "awaiting testing"
     ],
     "milestone": ""
   },
@@ -16021,10 +16100,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/400",
     "estimate": 0,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2021-07-29T19:02:46Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -16032,10 +16109,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/401",
     "estimate": 0,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2021-07-29T19:01:51Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -16086,6 +16161,70 @@
     "closed": "2018-05-18T15:46:14Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "test indexing on PUL infrastructure",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/420",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create zenodo metadata file",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/422",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "update CITATION.cff file with current information",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/423",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add ISSN and CC-BY license to footer",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/424",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want the Source id link in list view to go to the first page of the excerpt for articles and excerpts",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/427",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "regularly synchronize HathiTrust pairtree data",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/428",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Styles: editorial list",
