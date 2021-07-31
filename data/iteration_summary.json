@@ -1393,15 +1393,24 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 3.33
+            "points": 7,
+            "issues": 8,
+            "velocity": 5.67
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-ansible": 2,
+            "cdh-web": 2,
+            "ppa-django": 4
+        },
+        "project_points": {
+            "cdh-ansible": 0,
+            "cdh-web": 2,
+            "ppa-django": 5
+        }
     },
     {
         "from": "2021-08-09",
@@ -1425,7 +1434,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.33
+            "velocity": 5.67
         },
         "design": {
             "points": 0,
@@ -1450,7 +1459,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.33
         },
         "design": {
             "points": 0,
