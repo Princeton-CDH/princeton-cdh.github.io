@@ -254,7 +254,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/36",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-05T17:31:22Z",
     "labels": [],
     "milestone": ""
   },
@@ -402,6 +402,15 @@
     "labels": [
       "enhancement"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "write molecule tests for solr role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/89",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -1947,7 +1956,6 @@
     "estimate": "",
     "closed": "2021-07-29T02:36:00Z",
     "labels": [
-      "awaiting testing",
       "bug"
     ],
     "milestone": ""
@@ -2101,12 +2109,11 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/305",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-08-03T21:06:37Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
   },
   {
     "issue": "upgrade django and wagtail",
@@ -2339,7 +2346,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/346",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T20:18:57Z",
     "labels": [
       "chore"
     ],
@@ -2350,9 +2357,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/347",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-08-04T21:20:18Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
     "milestone": ""
@@ -2417,10 +2423,20 @@
     "estimate": 2,
     "closed": "2021-07-29T02:18:13Z",
     "labels": [
-      "awaiting testing",
       "enhancement"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a user, I want to access the site search via the main navigation so I can start a search from anywhere.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/359",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
   },
   {
     "issue": "As an admin I want to edit and create resource types so I can determine what kind of links and resources can be associated with people and projects.",
@@ -2430,6 +2446,39 @@
     "closed": "2017-08-31T18:56:34Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a user, I want to limit my site search to particular kinds of content so that I can more quickly find the page I'm looking for.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/360",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "semantic heading hierarchy problem on project pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/362",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design generic search results so that when the user searches generic pages/content they would see a simple list of results ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/364",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "Design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to create and edit event types so I can categorize kinds of events.",
@@ -4043,10 +4092,11 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/203",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T19:10:27Z",
     "labels": [
-      "accessibility",
-      "tested needs attention"
+      "wontfix",
+      "tested needs attention",
+      "accessibility"
     ],
     "milestone": ""
   },
@@ -4089,8 +4139,9 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/207",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T19:10:01Z",
     "labels": [
+      "wontfix",
       "accessibility"
     ],
     "milestone": ""
@@ -4370,7 +4421,7 @@
     "issue": "As a researcher, I want chapter and section information included in the reference data export so I can do work that takes into account the structure of the source.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/238",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -4449,7 +4500,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/250",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T17:22:56Z",
     "labels": [
       "chore"
     ],
@@ -4471,7 +4522,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/253",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-04T18:03:09Z",
     "labels": [
       "bug",
       "\ud83d\udea7 maintenance"
@@ -4502,10 +4553,10 @@
     "issue": "As a researcher, I want a book dataset that is based on the content and doesn't include irrelevant fields from zotero so that I can focus on the data specific to this project.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/262",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -4513,7 +4564,7 @@
     "issue": "As a researcher, I want access to images and annotation zones in the intervention dataset so that I can see the context and do more interesting work.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/263",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -4522,9 +4573,42 @@
     "issue": "As a researcher, I want to see data about known interventions so I can inspect and analyze Derrida's non-textual annotation practices.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/264",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement read only site banner",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/267",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Disable search filters",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/268",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "remove old zotero code (manage command `export_zotero.py` and associated test code in the `books` app)",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/269",
+    "estimate": "",
+    "closed": "2021-08-04T18:03:45Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -4537,6 +4621,17 @@
       "duplicate"
     ],
     "milestone": "Intervention database (phase I)"
+  },
+  {
+    "issue": "Implement testing in GitHub Actions",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/272",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "interventions: add tags for marking ink",
@@ -12401,9 +12496,10 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/732",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-06T18:13:40Z",
     "labels": [
-      "bug"
+      "awaiting testing",
+      "chore"
     ],
     "milestone": ""
   },
@@ -12423,9 +12519,11 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/737",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-06T18:12:21Z",
     "labels": [
-      "bug"
+      "enhancement",
+      "awaiting testing",
+      "chore"
     ],
     "milestone": ""
   },
@@ -12468,6 +12566,39 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate CSV of a filtered list of members",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/741",
+    "estimate": "",
+    "closed": "2021-08-05T15:22:04Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Event sorting order on website",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/743",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add zenodo metadata file and create CITATION.cff",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/744",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -16004,7 +16135,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/392",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-02T20:14:31Z",
     "labels": [
       "Epic"
     ],
@@ -16052,9 +16183,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/397",
     "estimate": 2,
     "closed": "2021-07-30T20:23:49Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -16178,7 +16307,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/422",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T21:17:33Z",
     "labels": [
       "chore"
     ],
@@ -16189,7 +16318,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/423",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-05T15:47:52Z",
     "labels": [
       "chore"
     ],
@@ -16200,7 +16329,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/424",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-02T20:56:01Z",
     "labels": [
       "chore"
     ],
@@ -16223,6 +16352,28 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "suppress unapi item id for excerpts",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/430",
+    "estimate": "",
+    "closed": "2021-08-04T19:54:45Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "syntax error loading google fonts from semantic",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/431",
+    "estimate": "",
+    "closed": "2021-08-04T22:43:36Z",
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
