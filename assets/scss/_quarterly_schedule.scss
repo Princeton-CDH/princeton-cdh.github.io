@@ -8,15 +8,15 @@
 	}
 	th.iteration {
 		writing-mode: vertical-rl;
-		-webkit-writing-mode: vertical-rl;		
-        -ms-writing-mode: vertical-rl;
+		-webkit-writing-mode: vertical-rl;
+		-ms-writing-mode: vertical-rl;
 	}
 
 	tr {
 		background-color: transparent !important;
 
 		&.iteration-start {
-			border-top: 2px solid darkgray !important;			
+			border-top: 2px solid darkgray !important;
 		}
 
 		&:nth-child(even) {
@@ -24,7 +24,7 @@
 				border-top: 2px solid gray(169, 1) !important;
 			}
 		}
-	}	
+	}
 
 	td {
 		height: 50px;
@@ -58,11 +58,11 @@
 
 	.ppa {
 		background-color: #f05b69;
-		color: white;	
+		color: white;
 		&.partial {
 			background-color: rgba(240,91,105,0.5);
 			color:black;
-		}	
+		}
 	}
 
 	.mep {
@@ -78,9 +78,10 @@
 			background-color: rgba(206, 41, 73, 0.5);
 		}
 	}
-	
-    .out { 
-    	background-color: #b7b7b7; 
-    }
+
+	.out {
+		background-color: #cdcdcd;
+		text-align: center;
+	}
 
 }

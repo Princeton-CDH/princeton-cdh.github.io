@@ -67,17 +67,23 @@ date_range:
         {{/* rowspan to indicate iteration length */}}
         <td rowspan="{{ $scratch.Get "iteration_weeks" }}"></td>
 
-        {{ range $projects }}
-        {{/* for each projects, output a table cell; set class if active; add notes if present; if project is in partial list, add partial class */}}
-        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
-            {{/* display first note for this project if any */}}
-            {{ if $iteration.notes }}
-                {{ $project_notes := index $iteration.notes .}}
-                {{ if $project_notes }}
-                    {{ index $project_notes 0 }}
+        {{ if $iteration.skip }} {{/* display scheduled non-iteration weeks */}}
+        <td colspan="{{ len $projects }}" class="out">{{ $iteration.comment }}</td>
+        {{ else }}
+
+            {{ range $projects }}
+            {{/* for each projects, output a table cell; set class if active; add notes if present; if project is in partial list, add partial class */}}
+            <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
+                {{/* display first note for this project if any */}}
+                {{ if $iteration.notes }}
+                    {{ $project_notes := index $iteration.notes .}}
+                    {{ if $project_notes }}
+                        {{ index $project_notes 0 }}
+                    {{ end }}
                 {{ end }}
+            </td>
             {{ end }}
-        </td>
+
         {{ end }}
     </tr>
     {{/* second week of iteration */}}
