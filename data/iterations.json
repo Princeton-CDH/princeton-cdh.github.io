@@ -245,7 +245,8 @@
     {
         "from": "2021-06-28",
         "to": "2021-07-02",
-        "comment": "R&D week"
+        "comment": "R&D week",
+        "skip": "yes"
     },
     {
         "from": "2021-07-05",

@@ -29,7 +29,7 @@ npm install
 
 ## Creating iteration reports
 
-Update iteration definitions as needed in `iterations.json` if you need to add the dates for the next iteration (although these will likely be populated ahead of time now that we are using that data file for quarterly development shcedule). 
+Update iteration definitions as needed in `iterations.json` if you need to add the dates for the next iteration (although these will likely be populated ahead of time now that we are using that data file for quarterly development shcedule).
 
 Pull the latest changes from GitHub to get data added by the issue collection and iteration summary GitHub Action scripts, which run on Saturdays.
 
@@ -54,7 +54,17 @@ Edit `iterations.json` data file to add the dates for all iterations during the 
 For each iteration, add:
 - projects: the list of projects projected to be active that iteration
 - partial: optional, list of projects that are in planning or wrap up phases
-- notes: optional; dictionary with list of notes per project for display in the schedule; when two notes are displayed, the second will be displayed 
-the second week of the iteration
+- notes: optional; dictionary with list of notes per project for display in the schedule; when two notes are displayed, the second will be displayed the second week of the iteration.
 
 Be sure to add project colors and partial colors to `_quarterly_schedule.scss` when you add new projects to the schedule.
+
+Iterations may be a variable number of weeks; they are typically two, but one and two week iterations are supported by the layout. To include a non-iteration week or time period on the calendar, add the property "skip" to the iteration definition. To display a label on the schedule, add text in a "comment" field. For example:
+
+```
+    {
+        "from": "2021-06-28",
+        "to": "2021-07-02",
+        "comment": "R&D week",
+        "skip": "yes"
+    }
+```
