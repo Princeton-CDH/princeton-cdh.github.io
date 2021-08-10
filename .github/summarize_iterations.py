@@ -57,18 +57,14 @@ def summarize_iterations():
 
     with open('data/iterations.json') as f:
         iteration_data = json.load(f)
+        # filter iteration data to those that should be included in summary:
+        # - skip any with end date unset (allow future iterations with end date unspecified)
+        # - skip any flagged as "skip" for display in dev schedule
+        iteration_data = [it for it in iteration_data if not it.get('skip') or 'to' not in it]
 
         issue_index = 0
 
         for i, iteration in enumerate(iteration_data):
-            # TOOD: if/when we consolidate iterations.json
-            # and iteration-summary.json:
-            # don't recalculate values that are already present
-
-            # allow defining start of new iteration without specifying end
-            if 'to' not in iteration:
-                continue
-
             # use current iteration start as beginning of date range
             # and next iteration start as end
             # (make sure we account for all events without having to set
@@ -106,10 +102,6 @@ def summarize_iterations():
         # not enough data; skip
         if i < 2:
             continue
-        # alow next iteration defined start but not end
-        if 'to' not in iteration:
-            continue
-
         iteration['dev']['velocity'] = average(
             [it['dev']['points'] for it in iteration_data[i - 2:i + 1]])
         iteration['design']['velocity'] = average(
