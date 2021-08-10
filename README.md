@@ -29,7 +29,7 @@ npm install
 
 ## Creating iteration reports
 
-Update iteration definitions as needed in `iterations.json` if you need to add the dates for the next iteration (although these will likely be populated ahead of time now that we are using that data file for quarterly development shcedule).
+Update iteration definitions as needed in `iterations.json` if you need to add the dates for the next iteration (although these will likely be populated ahead of time now that we are using that data file for quarterly development schedule).
 
 Pull the latest changes from GitHub to get data added by the issue collection and iteration summary GitHub Action scripts, which run on Saturdays.
 
