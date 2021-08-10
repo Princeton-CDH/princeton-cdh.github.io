@@ -5,7 +5,7 @@ iteration_start: 2021-07-26
 layout: iterationreport
 ---
 
-We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida's Margins.  We closed **24** issues and a total of **9** points for a rolling velocity of **11.3** (the chart below is still inaccurate due to the skipped iteration being included). The lower velocity reflects the kind of work we're doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.
+We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida's Margins.  We closed **24** issues and a total of **9** points for a rolling velocity of **11.3**. The lower velocity reflects the kind of work we're doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.
 
 ## Project-specific updates
 
