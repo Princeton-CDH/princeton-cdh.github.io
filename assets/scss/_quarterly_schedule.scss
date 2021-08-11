@@ -6,7 +6,7 @@
 	th.project {
 		width: 10em;
 	}
-	th .iteration {
+	th.iteration {
 		writing-mode: vertical-rl;
 	}
 
@@ -77,9 +77,18 @@
 		}
 	}
 
-	.out {
-		background-color: #cdcdcd;
+    .out {
+    	background-color: #cdcdcd;
 		text-align: center;
+    }
+
+	.derrida {
+		background-color: #175498;
+		color: white;
+		&.partial {
+			background-color: rgba(23, 84, 152,0.4);
+			color:black;
+		}
 	}
 
 }
