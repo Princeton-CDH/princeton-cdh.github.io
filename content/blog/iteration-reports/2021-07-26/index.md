@@ -1,8 +1,11 @@
 ---
-title: "July 26, 2021"
+title: "Jul 5 — 23, 2021"
 date: 2021-07-26
 iteration_start: 2021-07-05
 layout: iterationreport
+slug: 26
+aliases:
+  - /blog/2021/07/july-26-2021/
 ---
 
 This iteration we made significant progress on PPA. All remaining planned work to support Gale/ECCO import and HathiTrust excerpts were moved to "development complete" status, but unfortunately testing issues related to indexing and keyword search were problematic and held up testing on a cluster of issues.

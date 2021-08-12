@@ -1,8 +1,11 @@
 ---
-title: "January 11, 2021"
+title: "Dec 14, 2020 - Jan 8, 2021"
 date: 2021-01-11
 iteration_start: 2020-12-14
 layout: iterationreport
+slug: "11"
+aliases:
+  - /blog/2021/01/january-11-2021/
 ---
 
 Due to the holidays and planned vacations, we decided to take a long iteration spanning from December 14th to the end of the first week in January.

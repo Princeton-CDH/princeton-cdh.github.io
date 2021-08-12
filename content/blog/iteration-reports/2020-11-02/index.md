@@ -1,8 +1,11 @@
 ---
-title: "November 2, 2020"
+title: "Oct 19 - 31, 2020"
 date: 2020-11-02
 iteration_start: 2020-10-19
 layout: iterationreport
+slug: "02"
+aliases:
+  - /blog/2020/11/november-2-2020/
 ---
 
 Very pleased to report that this past iteration we finally published [Issue One of _Startwords_](https://startwords.cdh.princeton.edu/issues/1/). The velocity charts below reflect the effort to get this out the door, including completion of design and implementation on an experimental piece and a large amount of work to finish converting the long "Data Beyond Vision" essay and related snippets to markdown, and to finish custom styles for the essay, including PDF styles.

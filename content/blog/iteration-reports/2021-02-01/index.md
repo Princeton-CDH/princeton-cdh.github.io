@@ -1,11 +1,14 @@
 ---
-title: "February 1, 2021"
+title: "Jan 11 - 22, 2021"
 date: 2021-02-01
 iteration_start: 2021-01-11
 layout: iterationreport
+slug: "01"
+aliases:
+  - /blog/2021/02/february-1-2021/
 ---
 
-Last iteration we made substantial progress on the cdhweb "exodus" from mezzanine to wagtail: features related to editing and "exodizing" content pages and uploaded images have been tested and accepted, and more work is underway. 
+Last iteration we made substantial progress on the cdhweb "exodus" from mezzanine to wagtail: features related to editing and "exodizing" content pages and uploaded images have been tested and accepted, and more work is underway.
 
 Active development was paused on Geniza, but design work continued on a revised sitemap / site flow diagram for the new PGP site and reports to share information from usability testing.
 

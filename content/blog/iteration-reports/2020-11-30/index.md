@@ -1,8 +1,11 @@
 ---
-title: "November 30, 2020"
+title: "Nov 16 - 27, 2020"
 date: 2020-11-30
 iteration_start: 2020-11-16
 layout: iterationreport
+slug: "30"
+aliases:
+  - /blog/2020/11/november-30-2020/
 ---
 
 This was our last scheduled iteration for working on Geniza prototyping,

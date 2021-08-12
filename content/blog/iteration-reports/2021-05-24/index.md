@@ -1,11 +1,14 @@
 ---
-title: "May 24, 2021"
+title: "May 10 — 21, 2021"
 date: 2021-05-24
 iteration_start: 2021-05-10
 layout: iterationreport
+slug: "24"
+aliases:
+  - /blog/2021/05/may-24-2021/
 ---
 
-This iteration we completed 18 development points on Geniza as we work towards a first release and migrating the metadata from the spreadsheet to the new relational database. We also completed a smattering of bugfixes and chores as part of planned maintenance work, and one unplanned bugfix. The 18 point total brings our rolling velocity up to 13. 
+This iteration we completed 18 development points on Geniza as we work towards a first release and migrating the metadata from the spreadsheet to the new relational database. We also completed a smattering of bugfixes and chores as part of planned maintenance work, and one unplanned bugfix. The 18 point total brings our rolling velocity up to 13.
 
 ## Princeton Geniza Project
 

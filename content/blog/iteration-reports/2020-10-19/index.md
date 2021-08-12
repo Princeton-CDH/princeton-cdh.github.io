@@ -1,8 +1,11 @@
 ---
-title: October 19th, 2020
+title: Oct 5 - 15, 2020
 date: 2020-10-19
 iteration_start: 2020-10-05
 layout: iterationreport
+slug: "19"
+aliases:
+  - /blog/2020/10/october-19th-2020/
 ---
 
 Last iteration we put a lot of time and effort into Startwords as we get close to our issue 1 deadline and launch date, although that's not reflected in the number of tickets closed on GitHub.

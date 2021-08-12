@@ -1,8 +1,11 @@
 ---
-title: "July 6, 2021"
+title: "Jun 7 — 25, 2021"
 date: 2021-07-06
 iteration_start: 2021-06-07
 layout: iterationreport
+slug: "06"
+aliases:
+  - /blog/2021/07/july-6-2021/
 ---
 
 This past iteration, we split our focus between PPA and CDH web. On PPA, we worked on adding support for importing Gale/ECCO content. For CDH web, we worked on the first charter for CDH web, to articulate the roles and responsibilities and prioritize for the next  phases of work (chartering is not reflected in the GitHub issues reported here).  We extended the iteration to three weeks, to work around an off week for June 28 — July 2 (CDH staff R&D week).

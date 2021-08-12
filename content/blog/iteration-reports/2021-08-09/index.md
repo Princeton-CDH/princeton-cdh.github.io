@@ -1,8 +1,11 @@
 ---
-title: "August 9, 2021"
+title: "Jul 26 — Aug 6, 2021"
 date: 2021-08-09
 iteration_start: 2021-07-26
 layout: iterationreport
+slug: 09
+aliases:
+  - /blog/2021/08/august-9-2021/
 ---
 
 We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida's Margins.  We closed **24** issues and a total of **9** points for a rolling velocity of **11.3**. The lower velocity reflects the kind of work we're doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.
