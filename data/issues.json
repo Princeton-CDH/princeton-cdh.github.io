@@ -680,7 +680,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.3"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to export event information so I can report on CDH events over time.",
@@ -691,7 +691,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.3"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to traverse the main navigation using a keyboard so that I can access site content more easily.",
@@ -1245,12 +1245,12 @@
     "issue": "As a user I want to search across all pages by keyword so I can find specific content that interests me.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/19",
-    "estimate": 5,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
   },
   {
     "issue": "As a content editor, I want to include staff affiliates on the affiliates page so I can highlight library staff directing data curation projects.",
@@ -1430,7 +1430,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want profiles of people who worked with CDH in the past to have a simplified display, so that I don't have to manually keep them up-to-date.",
@@ -1441,7 +1441,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "Some past student profiles are displaying twice",
@@ -1474,7 +1474,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As a students, I want to see student profiles broken up according to their Princeton status, so that it's easier to find students like me.",
@@ -1485,7 +1485,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As a user I want to view a list of staff members so I can get an idea of the people who work at the CDH.",
@@ -1505,7 +1505,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to create staff projects that aren't R&D and have them show up on the Staff Projects page so I can highlight new work like Startwords.",
@@ -1527,7 +1527,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "shift CI to github actions",
@@ -1602,7 +1602,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to associate project contributors with projects based on the dates they were involved instead of by grant, so that I can accurately reflect project team membership over time.",
@@ -2456,7 +2456,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.4"
+    "milestone": ""
   },
   {
     "issue": "semantic heading hierarchy problem on project pages",
@@ -2478,6 +2478,39 @@
     "labels": [
       "Design"
     ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a user, I want basic information about the CDH displayed on the homepage so that I can learn about the CDH and read more about its values.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/366",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "Design the search input box for desktop and mobile (default and focus styles) so there is a way for the user to learn about the search function and interact with it ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/367",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "Design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to add an individual both to the staff page and to the executive board page.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/368",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -2488,6 +2521,17 @@
     "closed": "2017-08-31T18:09:45Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "implement configurable purple mode ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/370",
+    "estimate": "",
+    "closed": "2021-08-11T14:31:10Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to create and edit event locations so that I can enter them once and have them displayed consistently across the site.",
@@ -2597,7 +2641,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to manage links in the header so that I can update navigation when the site changes.",
@@ -4095,7 +4139,6 @@
     "closed": "2021-08-03T19:10:27Z",
     "labels": [
       "wontfix",
-      "tested needs attention",
       "accessibility"
     ],
     "milestone": ""
@@ -6431,8 +6474,29 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Multi-word tags get broken up into single-word tags",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/257",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a one time consolidation of India Book sources so that the source list correctly represents the book volumes.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/259",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -12498,7 +12562,6 @@
     "estimate": "",
     "closed": "2021-08-06T18:13:40Z",
     "labels": [
-      "awaiting testing",
       "chore"
     ],
     "milestone": ""
@@ -12522,7 +12585,6 @@
     "closed": "2021-08-06T18:12:21Z",
     "labels": [
       "enhancement",
-      "awaiting testing",
       "chore"
     ],
     "milestone": ""
