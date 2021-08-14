@@ -1418,14 +1418,19 @@
         },
         "dev": {
             "points": 0,
+            "issues": 1,
             "velocity": 6.33
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-web": 1
+        },
+        "project_points": {
+            "cdh-web": 0
+        }
     },
     {
         "from": "2021-08-23",
