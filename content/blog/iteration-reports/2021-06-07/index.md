@@ -1,8 +1,11 @@
 ---
-title: "June 7, 2021"
+title: "May 24 — Jun 4, 2021"
 date: 2021-06-07
 iteration_start: 2021-05-24
 layout: iterationreport
+slug: "07"
+aliases:
+  - /blog/2021/06/june-7-2021/
 ---
 
 Our focus this iteration was on Geniza work as we finished out the second phase of work and created our first production release: we successfully migrated the Princeton Geniza Project metadata from a Google Sheets spreadsheet into the new relational database!

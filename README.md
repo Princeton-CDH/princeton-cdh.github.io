@@ -39,10 +39,9 @@ Create a new iteration report using the iteration report page bundle archetype w
 hugo new --kind iteration-report blog/iteration-reports/`date +'%Y-%m-%d'`
 ```
 
-The iteration report archetype assumes it is run on the first day of the new iteration; previous iteration start is calculated accordingly, and should be edited when necessary. Make sure the `iteration_start` date matches the iteration start value in the iterations summary data file.
+The iteration report archetype assumes it is run on the first day of the new iteration; previous iteration start is calculated accordingly, and should be edited when necessary. Make sure the `iteration_start` date matches the iteration start value in the iterations summary data file, and update the post title to reflect the iteration dates.
 
 Edit the new post to add content and any demo or featured content, then commit and push to GitHub to publish.
-
 
 ## Creating quarterly dev schedule
 

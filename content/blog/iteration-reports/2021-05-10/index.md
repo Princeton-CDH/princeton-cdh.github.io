@@ -1,8 +1,11 @@
 ---
-title: "May 10, 2021"
+title: "Apr 26 — May 7, 2021"
 date: 2021-05-10
 iteration_start: 2021-04-26
 layout: iterationreport
+slug: "10"
+aliases:
+  - /blog/2021/05/may-10-2021/
 ---
 
 This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.

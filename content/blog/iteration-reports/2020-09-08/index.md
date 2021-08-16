@@ -1,8 +1,11 @@
 ---
-title: September 8th, 2020
+title: Aug 24 - Sep 4, 2020
 date: 2020-09-08
 iteration_start: 2020-08-24
 layout: iterationreport
+slug: "08"
+aliases:
+  - /blog/2020/09/september-8th-2020/
 ---
 
 The last iteration we continued to spend time on project maintenance and updates. Closed issues on *Startwords* and the pucas release are continuing and closing out work from the previous iterations.  Active work this iteration that is incomplete and not reflected in the closed tickets include django/mezzanine upgrades for cdhweb, and refactoring PPA to remove an outdated SolrClient dependency and use parasolr instead. We also have now migrated our first repositories to use **main** as the production branch name.

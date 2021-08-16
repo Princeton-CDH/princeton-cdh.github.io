@@ -1,8 +1,11 @@
 ---
-title: "April 26, 2021"
+title: "Apr 12 — 23, 2021"
 date: 2021-04-26
 iteration_start: 2021-04-12
 layout: iterationreport
+slug: "26"
+aliases:
+  - /blog/2021/04/april-26-2021/
 ---
 
 This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.
@@ -13,7 +16,7 @@ We made more improvements to the data import, fixing Language+Script mapping bas
 For design, wireframes for cluster view browse and search results pages for all screens (desktop, tablet, mobile) were all completed.
 
 ## CDH Website
-We fixed a couple more bugs in the 3.0 version and released a planned 3.0.1 cleanup release to remove exodus code specific to the shift to wagtail. This is a necessary step to removing mezzanine, which will finally let us upgrade to newer versions of Dljango and python. 
+We fixed a couple more bugs in the 3.0 version and released a planned 3.0.1 cleanup release to remove exodus code specific to the shift to wagtail. This is a necessary step to removing mezzanine, which will finally let us upgrade to newer versions of Dljango and python.
 
 
 ## Demos
