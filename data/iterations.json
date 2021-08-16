@@ -238,7 +238,7 @@
         "partial": ["cdh-web", "geniza"],
         "notes": {
             "cdh-web": ["chartering + design problem identification"],
-            "ppa": ["Implement Gale/ECCO import"],
+            "ppa": ["Gale/ECCO import"],
             "geniza": ["visual design"]
         }
     },
@@ -251,22 +251,24 @@
     {
         "from": "2021-07-05",
         "to": "2021-07-23",
-        "projects": ["maintenance", "ppa", "cdh-web"],
-        "partial": ["ppa", "cdh-web"],
+        "projects": ["maintenance", "ppa", "cdh-web", "derrida"],
+        "partial": ["ppa", "cdh-web", "derrida", "maintenance"],
         "notes": {
-            "maintenance": ["archive Derrida's Margins", "PUL migrations"],
             "ppa": ["excerpt support"],
-            "cdh-web": ["design"]
+            "cdh-web": ["design"],
+            "derrida": ["planning"],
+            "maintenance": ["ansible updates"]
         }
     },
     {
         "from": "2021-07-26",
         "to": "2021-08-06",
-        "projects": ["cdh-web", "maintenance"],
-        "partial": ["maintenance"],
+        "projects": ["cdh-web", "ppa", "derrida"],
+        "partial": ["maintenance", "ppa", "derrida"],
         "notes": {
             "cdh-web": ["site search"],
-            "maintenance": ["design systematization"]
+            "ppa": ["", "3.7 release"],
+            "derrida": ["v1.2.5 bugfix release"]
         }
     },
     {
@@ -282,26 +284,81 @@
     {
         "from": "2021-08-23",
         "to": "2021-09-03",
-        "projects": ["geniza"],
-        "partial": ["geniza"],
+        "projects": ["geniza", "maintenance", "derrida", "mep"],
+        "partial": ["geniza", "maintenance", "derrida", "mep"],
         "notes": {
-            "geniza": ["chartering Y2"]
+            "geniza": ["chartering Y2"],
+            "maintenance": ["design systematization"],
+            "derrida": ["", "data exports"],
+            "mep": ["PUL migration"]
         }
     },
     {
         "from": "2021-09-06",
         "to": "2021-09-17",
-        "projects": ["geniza"],
-        "partial": ["geniza"],
+        "projects": ["geniza", "derrida"],
+        "partial": ["geniza", "derrida"],
         "notes": {
+            "derrida": ["", "archive site"]
         }
     },
     {
         "from": "2021-09-20",
         "to": "2021-10-01",
-        "projects": [],
+        "projects": ["geniza"],
         "partial": [],
         "notes": {
+        }
+    },
+    {
+        "from": "2021-10-04",
+        "to": "2021-10-15",
+        "projects": ["geniza"],
+        "partial": [],
+        "notes": {
+        }
+    },
+    {
+        "from": "2021-10-18",
+        "to": "2021-10-29",
+        "projects": ["geniza", "cdh-web"],
+        "partial": ["cdh-web"],
+        "notes": {
+            "cdh-web": ["planning & design"]
+        }
+    },
+    {
+        "from": "2021-11-01",
+        "to": "2021-11-12",
+        "projects": ["cdh-web", "geniza"],
+        "partial": ["geniza"],
+        "notes": {
+            "cdh-web": ["phase II development"]
+        }
+    },
+    {
+        "from": "2021-11-15",
+        "to": "2021-11-26",
+        "projects": ["geniza"],
+        "partial": [],
+        "notes": {
+        }
+    },
+    {
+        "from": "2021-11-29",
+        "to": "2021-12-10",
+        "projects": ["geniza"],
+        "partial": [],
+        "notes": {
+        }
+    },
+    {
+        "from": "2021-12-13",
+        "to": "2021-12-24",
+        "projects": ["ppa"],
+        "partial": [],
+        "notes": {
+            "ppa": ["ECCO excerpts", "grouping works"]
         }
     }
 ]
