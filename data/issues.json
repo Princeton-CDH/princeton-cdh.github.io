@@ -1246,9 +1246,10 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/19",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-08-19T22:01:09Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "awaiting testing"
     ],
     "milestone": "v3.4"
   },
@@ -1414,12 +1415,12 @@
     "issue": "As a user, I want a prominent button to request a consultation on the home page so I immediately know that this service is available.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/213",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.2"
+    "milestone": "v3.4"
   },
   {
     "issue": "As a user, I want to see featured CDH projects displayed prominently on the homepage so that I know the major research collaborations that the CDH is engaged in.",
@@ -2376,12 +2377,12 @@
     "issue": "Design a way to navigate to the consultation page / request consultations from the home page so the user can immediately learn about this service",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/350",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-08-16T17:35:02Z",
     "labels": [
       "Design"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
   },
   {
     "issue": "CDH Web Search ",
@@ -2399,22 +2400,22 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/352",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-08-16T18:38:52Z",
     "labels": [
       "Design"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
   },
   {
     "issue": "Design a way to navigate to the About page from the home page so the user can immediately learn about the CDH",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/353",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-08-16T17:43:44Z",
     "labels": [
       "Design"
     ],
-    "milestone": "v3.3"
+    "milestone": "v3.4"
   },
   {
     "issue": "As a Content Editor, I want existing page links to resolve after I rename or move a page so that I don't have to manually create a redirect.",
@@ -2432,9 +2433,10 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/359",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-08-19T21:49:20Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "awaiting testing"
     ],
     "milestone": "v3.4"
   },
@@ -2474,7 +2476,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/364",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-08-16T18:26:07Z",
     "labels": [
       "Design"
     ],
@@ -2484,7 +2486,7 @@
     "issue": "As a user, I want basic information about the CDH displayed on the homepage so that I can learn about the CDH and read more about its values.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/366",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -2496,7 +2498,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/367",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-08-16T17:52:11Z",
     "labels": [
       "Design"
     ],
@@ -2530,6 +2532,28 @@
     "closed": "2021-08-11T14:31:10Z",
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Can't add someone to current staff if they have any exec committee position, whether current or not",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/374",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed images in pages that don't span the full width of the page so I can create more varied or readable page layouts.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/376",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -5935,7 +5959,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
     "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -6365,8 +6391,8 @@
     "issue": "As a content editor, I want to be able to edit the Historic Shelfmark so that I can correct errors in the metadata.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/241",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2021-08-18T20:59:01Z",
     "labels": [],
     "milestone": ""
   },
@@ -6405,9 +6431,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/250",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-18T14:17:16Z",
     "labels": [
-      "\u2753 question"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -6460,10 +6486,11 @@
     "issue": "As a Content Editor, I want to see Help text for Document Type so that I can make an informed decision while editing documents.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/255",
-    "estimate": "",
+    "estimate": 0,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -6472,7 +6499,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/256",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-18T21:06:55Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\udee0\ufe0f chore"
@@ -6494,8 +6521,84 @@
     "issue": "As a content editor, I want a one time consolidation of India Book sources so that the source list correctly represents the book volumes.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/259",
+    "estimate": 1,
+    "closed": "2021-08-18T21:10:40Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Front-end setup",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/260",
     "estimate": "",
     "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js & css builds",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/261",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js & css delivery",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/262",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up lighthouse ci",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/263",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js & css formatting",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js testing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/265",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to see admin actions beyond my most recent ten or a specific document's history, so that I can review past work.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/267",
+    "estimate": 0,
+    "closed": "2021-08-18T19:28:23Z",
     "labels": [],
     "milestone": ""
   },
@@ -6504,10 +6607,20 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/27",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-18T19:10:02Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to see Historic Shelfmark on Document Detail View, to ensure that my work is correct when working with old scholarship.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/271",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6929,9 +7042,11 @@
     "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/78",
-    "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "estimate": "",
+    "closed": "2021-08-18T19:11:09Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
