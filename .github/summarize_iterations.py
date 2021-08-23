@@ -5,6 +5,8 @@ from collections import defaultdict, namedtuple
 # define a named tuple for issue fields needed for reporting
 Issue = namedtuple('Issue', ['estimate', 'project', 'date', 'design'])
 
+# any of these tags indicates an issue is design and not dev
+DESIGN_TAGS = {'design', '🗺️ design', 'Design'}
 
 def load_issues():
     '''Read issues CSV and return as a list of :class:`Issue` sorted
@@ -31,7 +33,7 @@ def load_issues():
                 int(issue['estimate'] or 0),
                 issue['project'],
                 closed_date,
-                'design' in issue['labels'] or '🗺️ design' in issue['labels']
+                DESIGN_TAGS.intersection(set(issue['labels']))
             ))
     # sort issues by date
     return sorted(issues, key=lambda issue: issue.date)
