@@ -72,8 +72,10 @@
 
 	.startwords {
 		background-color: #CE2949;
+		color: white;
 		&.partial {
 			background-color: rgba(206, 41, 73, 0.5);
+			color: black;
 		}
 	}
 
