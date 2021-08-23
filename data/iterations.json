@@ -336,19 +336,19 @@
     {
         "from": "2021-11-15",
         "to": "2021-11-26",
-        "projects": ["geniza"],
-        "partial": [],
+        "projects": ["geniza", "cdh-web"],
+        "partial": ["geniza", "cdh-web"],
         "notes": {
+            "cdh-web": ["planning & design"]
         }
     },
     {
         "from": "2021-11-29",
         "to": "2021-12-10",
-        "projects": ["geniza", "startwords", "cdh-web"],
-        "partial": ["geniza", "startwords", "cdh-web"],
+        "projects": ["geniza", "startwords"],
+        "partial": ["geniza", "startwords"],
         "notes": {
-            "startwords": ["Issue 2"],
-            "cdh-web": ["planning & design"]
+            "startwords": ["Issue 2"]
         }
     },
     {
