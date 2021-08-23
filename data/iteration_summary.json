@@ -1429,13 +1429,14 @@
             ]
         },
         "dev": {
-            "points": 21,
-            "issues": 15,
-            "velocity": 13.33
+            "points": 7,
+            "issues": 10,
+            "velocity": 8.67
         },
         "design": {
-            "points": 0,
-            "velocity": 0.0
+            "points": 14,
+            "issues": 5,
+            "velocity": 4.67
         },
         "project_issues": {
             "cdh-web": 8,
@@ -1478,11 +1479,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 10.0
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 4.67
         },
         "project_issues": {},
         "project_points": {}
@@ -1506,11 +1507,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 7.0
+            "velocity": 2.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 4.67
         },
         "project_issues": {},
         "project_points": {}
@@ -1557,17 +1558,9 @@
         "from": "2021-10-18",
         "to": "2021-10-29",
         "projects": [
-            "geniza",
-            "cdh-web"
+            "geniza"
         ],
-        "partial": [
-            "cdh-web"
-        ],
-        "notes": {
-            "cdh-web": [
-                "planning & design"
-            ]
-        },
+        "notes": {},
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -1583,15 +1576,16 @@
         "from": "2021-11-01",
         "to": "2021-11-12",
         "projects": [
-            "cdh-web",
+            "ppa",
             "geniza"
         ],
         "partial": [
             "geniza"
         ],
         "notes": {
-            "cdh-web": [
-                "phase II development"
+            "ppa": [
+                "ECCO excerpts",
+                "grouping works"
             ]
         },
         "dev": {
@@ -1628,10 +1622,23 @@
         "from": "2021-11-29",
         "to": "2021-12-10",
         "projects": [
-            "geniza"
+            "geniza",
+            "startwords",
+            "cdh-web"
         ],
-        "partial": [],
-        "notes": {},
+        "partial": [
+            "geniza",
+            "startwords",
+            "cdh-web"
+        ],
+        "notes": {
+            "startwords": [
+                "Issue 2"
+            ],
+            "cdh-web": [
+                "planning & design"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -1647,13 +1654,12 @@
         "from": "2021-12-13",
         "to": "2021-12-24",
         "projects": [
-            "ppa"
+            "cdh-web"
         ],
         "partial": [],
         "notes": {
-            "ppa": [
-                "ECCO excerpts",
-                "grouping works"
+            "cdh-web": [
+                "phase II development"
             ]
         },
         "dev": {
