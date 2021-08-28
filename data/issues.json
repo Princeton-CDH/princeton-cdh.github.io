@@ -425,6 +425,33 @@
     "milestone": ""
   },
   {
+    "issue": "write new playbook for S&co qa deploy to PUL vm with postgres & solr",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/91",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "write new playbook for S&co PUL production deploy",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/92",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "remove old S&co playbooks",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/93",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Admin: CAS User login",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/1",
@@ -1248,8 +1275,7 @@
     "estimate": 3,
     "closed": "2021-08-19T22:01:09Z",
     "labels": [
-      "enhancement",
-      "awaiting testing"
+      "enhancement"
     ],
     "milestone": "v3.4"
   },
@@ -1420,7 +1446,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.4"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see featured CDH projects displayed prominently on the homepage so that I know the major research collaborations that the CDH is engaged in.",
@@ -1595,7 +1621,7 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "As an admin, I want to control the student/staff status of profiles based on the positions held by people so I can make sure they show up on the right listing page.",
+    "issue": "As an admin, I want to control the placement of profiles based on the positions held by people so I can make sure they show up on the right listing page.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/232",
     "estimate": "",
@@ -2114,7 +2140,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "v3.4"
+    "milestone": ""
   },
   {
     "issue": "upgrade django and wagtail",
@@ -2276,7 +2302,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "v3.2"
+    "milestone": ""
   },
   {
     "issue": "Set up analytics segments for internal traffic",
@@ -2435,8 +2461,7 @@
     "estimate": 3,
     "closed": "2021-08-19T21:49:20Z",
     "labels": [
-      "enhancement",
-      "awaiting testing"
+      "enhancement"
     ],
     "milestone": "v3.4"
   },
@@ -2487,7 +2512,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/366",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-08-25T16:17:46Z",
     "labels": [
       "enhancement"
     ],
@@ -2502,7 +2527,7 @@
     "labels": [
       "Design"
     ],
-    "milestone": ""
+    "milestone": "v3.4"
   },
   {
     "issue": "As a content editor, I would like to add an individual both to the staff page and to the executive board page.",
@@ -2540,7 +2565,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/374",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-25T16:51:15Z",
     "labels": [
       "bug"
     ],
@@ -2558,6 +2583,26 @@
     "milestone": ""
   },
   {
+    "issue": "invalid heading levels on event page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/378",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Panelists' names do not fit on event card on Events page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/379",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create and edit event locations so that I can enter them once and have them displayed consistently across the site.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/38",
@@ -2565,6 +2610,28 @@
     "closed": "2017-09-13T13:51:27Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Homepage does not display correctly on Safari.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/380",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Homepage does not display correctly on Safari (mobile).",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/381",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to create and manage landing pages and other content pages so that I can publish top-level and other content pages.",
@@ -6487,10 +6554,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/255",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-08-24T17:06:12Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -6618,6 +6684,15 @@
     "issue": "As a content editor, I would like to see Historic Shelfmark on Document Detail View, to ensure that my work is correct when working with old scholarship.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/271",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to view source URLs when I download the sources CSV in order to more easily find/update external sources.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/278",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -12780,6 +12855,39 @@
     "milestone": ""
   },
   {
+    "issue": "migrate to PUL infrastructure, postgres, and solr 8",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/745",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add test matrix to CI; test with postgres, solr 8, python 3.6",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/747",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "consolidate all solr schema changes into configset, no schema api fields",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/749",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin, I want a one-time import of data from lending card XML files so that I can manage borrowing events and borrowed items in the database.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/75",
@@ -12787,6 +12895,17 @@
     "closed": "2018-05-14T17:40:57Z",
     "labels": [],
     "milestone": "Card import & bibliographic admin"
+  },
+  {
+    "issue": "years for members with multi-year range membership and no other activity are reported incorrectly",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/750",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to see a listing of reimbursements that an individual's account received, so that I can examine patterns in reimbursements as part of the lending library.",
