@@ -1479,7 +1479,7 @@
         },
         "dev": {
             "points": 2,
-            "issues": 3,
+            "issues": 7,
             "velocity": 6.0
         },
         "design": {
@@ -1487,12 +1487,16 @@
             "velocity": 4.67
         },
         "project_issues": {
-            "geniza": 1,
-            "cdh-web": 2
+            "geniza": 2,
+            "cdh-web": 2,
+            "mep-django": 2,
+            "derrida-django": 1
         },
         "project_points": {
             "geniza": 0,
-            "cdh-web": 2
+            "cdh-web": 2,
+            "mep-django": 0,
+            "derrida-django": 0
         }
     },
     {
