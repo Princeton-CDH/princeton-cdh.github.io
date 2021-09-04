@@ -4306,8 +4306,9 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/210",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-31T19:15:58Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": ""
@@ -4761,7 +4762,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/272",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-02T15:11:05Z",
     "labels": [
       "chore"
     ],
@@ -6609,7 +6610,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/261",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-02T17:35:41Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6705,6 +6706,29 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "set up visual testing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/280",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Conduct research, explore and design a logo so that there is a visual representation of the project",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/283",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
     "milestone": ""
   },
   {
@@ -12870,7 +12894,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/747",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-30T17:02:26Z",
     "labels": [
       "chore"
     ],
@@ -12881,7 +12905,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/749",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-30T17:03:05Z",
     "labels": [
       "chore"
     ],
