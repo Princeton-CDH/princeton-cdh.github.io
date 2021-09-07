@@ -296,18 +296,20 @@
     {
         "from": "2021-09-06",
         "to": "2021-09-17",
-        "projects": ["geniza", "derrida"],
-        "partial": ["geniza", "derrida"],
+        "projects": ["geniza", "derrida", "mep"],
+        "partial": ["geniza", "derrida", "mep"],
         "notes": {
-            "derrida": ["", "archive site"]
+            "derrida": ["", "data exports"],
+            "mep": ["PUL migration"]
         }
     },
     {
         "from": "2021-09-20",
         "to": "2021-10-01",
-        "projects": ["geniza"],
-        "partial": [],
+        "projects": ["geniza", "derrida"],
+        "partial": ["derrida"],
         "notes": {
+            "derrida": ["", "archive site"]
         }
     },
     {
