@@ -329,38 +329,34 @@
     {
         "from": "2021-11-01",
         "to": "2021-11-12",
-        "projects": ["ppa", "geniza"],
-        "partial": ["geniza"],
+        "projects": ["geniza"],
         "notes": {
-            "ppa": ["ECCO excerpts", "grouping works"]
         }
     },
     {
         "from": "2021-11-15",
         "to": "2021-11-26",
-        "projects": ["geniza", "cdh-web"],
-        "partial": ["geniza", "cdh-web"],
+        "projects": ["geniza"],
         "notes": {
-            "cdh-web": ["planning & design"]
+
         }
     },
     {
         "from": "2021-11-29",
         "to": "2021-12-10",
-        "projects": ["geniza", "startwords"],
-        "partial": ["geniza", "startwords"],
+        "projects": ["ppa", "startwords"],
         "notes": {
-            "startwords": ["Issue 2"]
+            "startwords": ["Issue 2"],
+            "ppa": ["ECCO excerpts"]
         }
     },
     {
         "from": "2021-12-13",
         "to": "2021-12-24",
-        "projects": ["cdh-web"],
+        "projects": ["ppa"],
         "partial": [],
         "notes": {
-
-            "cdh-web": ["phase II development"]
+            "ppa": ["grouping works"]
         }
     }
 ]
