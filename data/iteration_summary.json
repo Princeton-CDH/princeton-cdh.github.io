@@ -1504,10 +1504,49 @@
         "to": "2021-09-17",
         "projects": [
             "geniza",
-            "derrida"
+            "derrida",
+            "mep"
         ],
         "partial": [
             "geniza",
+            "derrida",
+            "mep"
+        ],
+        "notes": {
+            "derrida": [
+                "",
+                "data exports"
+            ],
+            "mep": [
+                "PUL migration"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "issues": 4,
+            "velocity": 3.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 4.67
+        },
+        "project_issues": {
+            "cdh-ansible": 3,
+            "geniza": 1
+        },
+        "project_points": {
+            "cdh-ansible": 0,
+            "geniza": 0
+        }
+    },
+    {
+        "from": "2021-09-20",
+        "to": "2021-10-01",
+        "projects": [
+            "geniza",
+            "derrida"
+        ],
+        "partial": [
             "derrida"
         ],
         "notes": {
@@ -1516,25 +1555,6 @@
                 "archive site"
             ]
         },
-        "dev": {
-            "points": 0,
-            "velocity": 3.0
-        },
-        "design": {
-            "points": 0,
-            "velocity": 4.67
-        },
-        "project_issues": {},
-        "project_points": {}
-    },
-    {
-        "from": "2021-09-20",
-        "to": "2021-10-01",
-        "projects": [
-            "geniza"
-        ],
-        "partial": [],
-        "notes": {},
         "dev": {
             "points": 0,
             "velocity": 0.67
@@ -1587,18 +1607,9 @@
         "from": "2021-11-01",
         "to": "2021-11-12",
         "projects": [
-            "ppa",
             "geniza"
         ],
-        "partial": [
-            "geniza"
-        ],
-        "notes": {
-            "ppa": [
-                "ECCO excerpts",
-                "grouping works"
-            ]
-        },
+        "notes": {},
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -1614,18 +1625,9 @@
         "from": "2021-11-15",
         "to": "2021-11-26",
         "projects": [
-            "geniza",
-            "cdh-web"
+            "geniza"
         ],
-        "partial": [
-            "geniza",
-            "cdh-web"
-        ],
-        "notes": {
-            "cdh-web": [
-                "planning & design"
-            ]
-        },
+        "notes": {},
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -1641,16 +1643,15 @@
         "from": "2021-11-29",
         "to": "2021-12-10",
         "projects": [
-            "geniza",
-            "startwords"
-        ],
-        "partial": [
-            "geniza",
+            "ppa",
             "startwords"
         ],
         "notes": {
             "startwords": [
                 "Issue 2"
+            ],
+            "ppa": [
+                "ECCO excerpts"
             ]
         },
         "dev": {
@@ -1668,12 +1669,12 @@
         "from": "2021-12-13",
         "to": "2021-12-24",
         "projects": [
-            "cdh-web"
+            "ppa"
         ],
         "partial": [],
         "notes": {
-            "cdh-web": [
-                "phase II development"
+            "ppa": [
+                "grouping works"
             ]
         },
         "dev": {
