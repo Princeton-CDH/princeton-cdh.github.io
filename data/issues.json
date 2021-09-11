@@ -387,7 +387,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/80",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-09T19:02:19Z",
     "labels": [
       "enhancement"
     ],
@@ -429,7 +429,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/91",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-09T19:03:56Z",
     "labels": [],
     "milestone": ""
   },
@@ -438,7 +438,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/92",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-09T19:04:39Z",
     "labels": [],
     "milestone": ""
   },
@@ -446,6 +446,15 @@
     "issue": "remove old S&co playbooks",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/93",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "allow running django-compressor as part of django role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/99",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -2630,6 +2639,17 @@
     "closed": null,
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want a reminder to go to wagtail backend if I want to edit content if I forget and log into the django admin, so that I can easily get to the right place to edit content.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/383",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
@@ -6654,8 +6674,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/265",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-10T14:31:40Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
@@ -12879,7 +12900,7 @@
     "milestone": ""
   },
   {
-    "issue": "migrate to PUL infrastructure, postgres, and solr 8",
+    "issue": "migrate to PUL infrastructure, postgres, and solr 8 (v 1.5.3)",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/745",
     "estimate": "",
@@ -12929,6 +12950,15 @@
     "labels": [
       "bug"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "post migration cleanup (v 1.5.4)",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/752",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
