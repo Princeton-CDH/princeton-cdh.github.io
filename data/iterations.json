@@ -323,8 +323,11 @@
     {
         "from": "2021-10-18",
         "to": "2021-10-29",
-        "projects": ["geniza"],
-        "notes": {}
+        "projects": ["geniza", "ppa"],
+        "partial": ["ppa"],
+        "notes": {
+            "ppa": ["plan for migration"]
+        }
     },
     {
         "from": "2021-11-01",
@@ -347,7 +350,7 @@
         "projects": ["ppa", "startwords"],
         "notes": {
             "startwords": ["Issue 2"],
-            "ppa": ["ECCO excerpts"]
+            "ppa": ["PUL migration"]
         }
     },
     {
@@ -356,7 +359,6 @@
         "projects": ["ppa"],
         "partial": [],
         "notes": {
-            "ppa": ["grouping works"]
         }
     }
 ]
