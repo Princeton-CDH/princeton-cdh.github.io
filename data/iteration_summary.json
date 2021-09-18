@@ -1522,21 +1522,25 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "issues": 4,
-            "velocity": 3.0
+            "points": 6,
+            "issues": 12,
+            "velocity": 5.0
         },
         "design": {
             "points": 0,
             "velocity": 4.67
         },
         "project_issues": {
-            "cdh-ansible": 3,
-            "geniza": 1
+            "cdh-ansible": 5,
+            "geniza": 1,
+            "mep-django": 1,
+            "derrida-django": 5
         },
         "project_points": {
             "cdh-ansible": 0,
-            "geniza": 0
+            "geniza": 0,
+            "mep-django": 0,
+            "derrida-django": 6
         }
     },
     {
@@ -1557,7 +1561,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.67
+            "velocity": 2.67
         },
         "design": {
             "points": 0,
@@ -1576,7 +1580,7 @@
         "notes": {},
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
@@ -1589,9 +1593,17 @@
         "from": "2021-10-18",
         "to": "2021-10-29",
         "projects": [
-            "geniza"
+            "geniza",
+            "ppa"
         ],
-        "notes": {},
+        "partial": [
+            "ppa"
+        ],
+        "notes": {
+            "ppa": [
+                "plan for migration"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -1651,7 +1663,7 @@
                 "Issue 2"
             ],
             "ppa": [
-                "ECCO excerpts"
+                "PUL migration"
             ]
         },
         "dev": {
@@ -1672,11 +1684,7 @@
             "ppa"
         ],
         "partial": [],
-        "notes": {
-            "ppa": [
-                "grouping works"
-            ]
-        },
+        "notes": {},
         "dev": {
             "points": 0,
             "velocity": 0.0
