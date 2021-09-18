@@ -332,7 +332,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/63",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-16T14:50:52Z",
     "labels": [
       "enhancement"
     ],
@@ -447,8 +447,10 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/93",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-09-16T14:49:13Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -4577,7 +4579,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/238",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-09-17T15:56:18Z",
     "labels": [],
     "milestone": ""
   },
@@ -4635,7 +4637,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/246",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-17T16:13:13Z",
     "labels": [
       "bug"
     ],
@@ -4709,7 +4711,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/262",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-09-17T16:05:39Z",
     "labels": [
       "enhancement"
     ],
@@ -4720,7 +4722,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/263",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-09-17T19:49:53Z",
     "labels": [],
     "milestone": ""
   },
@@ -4730,7 +4732,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/264",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -4785,6 +4789,28 @@
     "closed": "2021-09-02T15:11:05Z",
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate data set readme and datapackage ",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/277",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "IIIF info json ID exposes PUL's IIIF endpoint",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/278",
+    "estimate": "",
+    "closed": "2021-09-17T20:04:26Z",
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
@@ -6749,6 +6775,28 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Server Error 500 - seemingly related to saving documents with footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/285",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Hebrew Chrome Browser Issues",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/286",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -12904,7 +12952,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/745",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-16T14:10:30Z",
     "labels": [
       "chore"
     ],
