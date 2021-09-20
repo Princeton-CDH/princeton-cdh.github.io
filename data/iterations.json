@@ -295,7 +295,7 @@
     },
     {
         "from": "2021-09-06",
-        "to": "2021-09-17",
+        "to": "2021-09-24",
         "projects": ["geniza", "derrida", "mep"],
         "partial": ["geniza", "derrida", "mep"],
         "notes": {
@@ -304,25 +304,25 @@
         }
     },
     {
-        "from": "2021-09-20",
-        "to": "2021-10-01",
+        "from": "2021-09-27",
+        "to": "2021-10-08",
         "projects": ["geniza", "derrida"],
         "partial": ["derrida"],
         "notes": {
-            "derrida": ["", "archive site"]
+            "derrida": ["archive site"]
         }
     },
     {
-        "from": "2021-10-04",
-        "to": "2021-10-15",
+        "from": "2021-10-11",
+        "to": "2021-10-22",
         "projects": ["geniza"],
         "partial": [],
         "notes": {
         }
     },
     {
-        "from": "2021-10-18",
-        "to": "2021-10-29",
+        "from": "2021-10-25",
+        "to": "2021-11-05",
         "projects": ["geniza", "ppa"],
         "partial": ["ppa"],
         "notes": {
@@ -330,23 +330,23 @@
         }
     },
     {
-        "from": "2021-11-01",
-        "to": "2021-11-12",
+        "from": "2021-11-08",
+        "to": "2021-11-19",
         "projects": ["geniza"],
         "notes": {
         }
     },
     {
-        "from": "2021-11-15",
-        "to": "2021-11-26",
+        "from": "2021-11-22",
+        "to": "2021-12-03",
         "projects": ["geniza"],
         "notes": {
 
         }
     },
     {
-        "from": "2021-11-29",
-        "to": "2021-12-10",
+        "from": "2021-12-06",
+        "to": "2021-12-17",
         "projects": ["ppa", "startwords"],
         "notes": {
             "startwords": ["Issue 2"],
@@ -354,8 +354,8 @@
         }
     },
     {
-        "from": "2021-12-13",
-        "to": "2021-12-24",
+        "from": "2021-12-20",
+        "to": "2021-12-31",
         "projects": ["ppa"],
         "partial": [],
         "notes": {
