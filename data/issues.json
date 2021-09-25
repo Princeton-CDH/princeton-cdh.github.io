@@ -226,6 +226,17 @@
     "milestone": ""
   },
   {
+    "issue": "update geniza playbooks to add npm/webpack and use new django role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/101",
+    "estimate": "",
+    "closed": "2021-09-21T17:32:29Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Finish configuring projects for new rotating logs",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
@@ -2652,6 +2663,17 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Event cards showing up out of order",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/384",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
@@ -6071,11 +6093,9 @@
     "issue": "As a content editor, I want duplicate joined documents to be automatically merged without losing their unique metadata, so that I don't have to merge them manually.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
-    "estimate": 5,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "estimate": 8,
+    "closed": "2021-09-20T20:25:46Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6771,10 +6791,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/283",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-09-20T13:05:11Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6783,7 +6802,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/285",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-09-20T17:08:54Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -6797,6 +6816,17 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Conduct research, explore and propose color schemes so that they can be incorporated in the layout and the components of the project",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/287",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
