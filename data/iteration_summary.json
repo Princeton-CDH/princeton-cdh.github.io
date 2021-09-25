@@ -1501,7 +1501,7 @@
     },
     {
         "from": "2021-09-06",
-        "to": "2021-09-17",
+        "to": "2021-09-24",
         "projects": [
             "geniza",
             "derrida",
@@ -1522,30 +1522,31 @@
             ]
         },
         "dev": {
-            "points": 6,
-            "issues": 12,
-            "velocity": 5.0
+            "points": 14,
+            "issues": 15,
+            "velocity": 7.67
         },
         "design": {
-            "points": 0,
-            "velocity": 4.67
+            "points": 3,
+            "issues": 1,
+            "velocity": 5.67
         },
         "project_issues": {
-            "cdh-ansible": 5,
-            "geniza": 1,
+            "cdh-ansible": 6,
+            "geniza": 4,
             "mep-django": 1,
             "derrida-django": 5
         },
         "project_points": {
             "cdh-ansible": 0,
-            "geniza": 0,
+            "geniza": 11,
             "mep-django": 0,
             "derrida-django": 6
         }
     },
     {
-        "from": "2021-09-20",
-        "to": "2021-10-01",
+        "from": "2021-09-27",
+        "to": "2021-10-08",
         "projects": [
             "geniza",
             "derrida"
@@ -1555,24 +1556,23 @@
         ],
         "notes": {
             "derrida": [
-                "",
                 "archive site"
             ]
         },
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "project_issues": {},
         "project_points": {}
     },
     {
-        "from": "2021-10-04",
-        "to": "2021-10-15",
+        "from": "2021-10-11",
+        "to": "2021-10-22",
         "projects": [
             "geniza"
         ],
@@ -1580,18 +1580,18 @@
         "notes": {},
         "dev": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 4.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "project_issues": {},
         "project_points": {}
     },
     {
-        "from": "2021-10-18",
-        "to": "2021-10-29",
+        "from": "2021-10-25",
+        "to": "2021-11-05",
         "projects": [
             "geniza",
             "ppa"
@@ -1616,8 +1616,8 @@
         "project_points": {}
     },
     {
-        "from": "2021-11-01",
-        "to": "2021-11-12",
+        "from": "2021-11-08",
+        "to": "2021-11-19",
         "projects": [
             "geniza"
         ],
@@ -1634,8 +1634,8 @@
         "project_points": {}
     },
     {
-        "from": "2021-11-15",
-        "to": "2021-11-26",
+        "from": "2021-11-22",
+        "to": "2021-12-03",
         "projects": [
             "geniza"
         ],
@@ -1652,8 +1652,8 @@
         "project_points": {}
     },
     {
-        "from": "2021-11-29",
-        "to": "2021-12-10",
+        "from": "2021-12-06",
+        "to": "2021-12-17",
         "projects": [
             "ppa",
             "startwords"
@@ -1678,8 +1678,8 @@
         "project_points": {}
     },
     {
-        "from": "2021-12-13",
-        "to": "2021-12-24",
+        "from": "2021-12-20",
+        "to": "2021-12-31",
         "projects": [
             "ppa"
         ],
