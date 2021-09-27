@@ -307,7 +307,7 @@
         "from": "2021-09-27",
         "to": "2021-10-08",
         "projects": ["geniza", "derrida"],
-        "partial": ["derrida"],
+        "partial": ["derrida", "geniza"],
         "notes": {
             "derrida": ["archive site"]
         }
