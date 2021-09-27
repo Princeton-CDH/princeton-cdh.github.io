@@ -339,9 +339,9 @@
     {
         "from": "2021-11-22",
         "to": "2021-12-03",
-        "projects": ["geniza"],
+        "projects": ["geniza", "startwords"],
+        "partial": ["geniza"],
         "notes": {
-
         }
     },
     {
