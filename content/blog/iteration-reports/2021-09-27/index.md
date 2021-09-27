@@ -6,7 +6,7 @@ layout: iterationreport
 slug: "27"
 ---
 
-This iteration, we continued working on planned maintenance work and finishing the charter for the next year of work on the Geniza research partnership.
+This iteration, we continued working on planned maintenance work and finishing the charter for the next year of work on the Geniza research partnership. Our rolling velocity is up to **7.7**; points for this iteration were high because work included a large feature on the Geniza project that was finally completed and several features for Derrida data exports that had been in-progress for multiple iterations.
 
 ## Derrida's Margins
 
