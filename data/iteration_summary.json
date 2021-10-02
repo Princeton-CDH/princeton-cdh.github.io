@@ -1527,19 +1527,19 @@
             "velocity": 7.67
         },
         "design": {
-            "points": 3,
-            "issues": 1,
-            "velocity": 5.67
+            "points": 5,
+            "issues": 2,
+            "velocity": 6.33
         },
         "project_issues": {
             "cdh-ansible": 6,
-            "geniza": 4,
+            "geniza": 5,
             "mep-django": 1,
             "derrida-django": 5
         },
         "project_points": {
             "cdh-ansible": 0,
-            "geniza": 11,
+            "geniza": 13,
             "mep-django": 0,
             "derrida-django": 6
         }
@@ -1552,7 +1552,8 @@
             "derrida"
         ],
         "partial": [
-            "derrida"
+            "derrida",
+            "geniza"
         ],
         "notes": {
             "derrida": [
@@ -1560,15 +1561,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 5.33
+            "points": 3,
+            "issues": 3,
+            "velocity": 6.33
         },
         "design": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 1.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "derrida-django": 2,
+            "cdh-web": 1
+        },
+        "project_points": {
+            "derrida-django": 3,
+            "cdh-web": 0
+        }
     },
     {
         "from": "2021-10-11",
@@ -1580,11 +1588,11 @@
         "notes": {},
         "dev": {
             "points": 0,
-            "velocity": 4.67
+            "velocity": 5.67
         },
         "design": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 1.67
         },
         "project_issues": {},
         "project_points": {}
@@ -1606,7 +1614,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
@@ -1637,6 +1645,10 @@
         "from": "2021-11-22",
         "to": "2021-12-03",
         "projects": [
+            "geniza",
+            "startwords"
+        ],
+        "partial": [
             "geniza"
         ],
         "notes": {},
