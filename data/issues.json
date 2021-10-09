@@ -2671,7 +2671,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/384",
     "estimate": "",
-    "closed": "2021-10-01T15:37:49Z",
+    "closed": null,
     "labels": [
       "bug"
     ],
@@ -2707,6 +2707,17 @@
     "closed": null,
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Cannot add standard page under \"Events\"",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/391",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
@@ -5805,7 +5816,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/117",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-07T14:34:17Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6740,7 +6751,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/262",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-07T14:33:10Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6751,14 +6762,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/263",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-04T21:09:57Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
   {
-    "issue": "set up js & css formatting",
+    "issue": "configure pre-commit hook for js & css formatting",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/264",
     "estimate": "",
@@ -6881,6 +6892,62 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "configure solr replication for better resiliency",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/290",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user viewing search results, when my search terms occur in the description I want to see keywords in context so that I can see why the document was included in the search results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/291",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I search on shelfmark I want to see documents associated directly with that fragment before documents that include the shelfmark in a description or notes, so I can easily find documents by shelfmark.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/292",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want keyword search results sorted by relevance by default, so that I see the best matches first.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/293",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to sort search results by the number of scholarship records so I can easily find documents with scholarly work available or that have not been written about.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/294",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Numbers of transcriptions aren't populating correctly into the admin site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/295",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13090,6 +13157,17 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "configure solr replication for better resiliency",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/754",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
