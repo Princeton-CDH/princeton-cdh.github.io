@@ -18,6 +18,13 @@
         {{ $scratch.Set "iteration_index" $index }}
     {{ end }}
 {{ end }}
+{{/* Determine end date for displaying issues from this iteration; to match iteration summary script, we use the start of the next iteration when available */}}
+{{ $next_iteration := index $.Site.Data.iteration_summary (add ($scratch.Get "iteration_index") 1) }}
+{{/* use day after current iteration end as fallback date if no next iteration is set */}}
+{{ with time $iteration.to  }} {{/* parse date string as time so we can add 1 day */}}
+    {{ $scratch.Set "iteration_end" (.AddDate 0 0 1) }}
+{{ end }}
+{{ $next_start := default ($scratch.Get "iteration_end") $next_iteration.from }}
 
 <p>Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}</p>
 {{/* display any content from the file (overview of the iteration etc.) */}}
@@ -36,11 +43,11 @@
 
 <h2>Releases</h2>
 <ul>
-{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<=" $iteration.to }}
+{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $next_start) "closed" "<=" $iteration.to }}
 
 {{ range $repo := $.Site.Data.releases }}
     {{ range $tagname, $tagdate :=  $repo.tags }}
-        {{ if and (ge $tagdate $iteration.from ) (le $tagdate $iteration.to ) }}
+        {{ if and (ge $tagdate $iteration.from ) (le $tagdate $next_start ) }}
         <li><a href="{{ $.Site.Params.github_org_url }}{{ $repo.repo }}/releases/tag/{{ $tagname }}">{{ $repo.repo }} {{ $tagname }}</a> — {{ dateFormat "Monday Jan 2, 2006" $tagdate }}
         </li>
         {{ end }}
@@ -88,7 +95,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <hr/>
 
 {{/* Get issues for this iteration  */}}
-{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<=" $iteration.to }}
+{{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<" $next_start }}
 <section class="issue-details">
 <h3>Closed issues by project</h3>
 <ul>
@@ -103,6 +110,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ end }}
 </ul>
 </section>
+
+
+<hr/>
+{{/* Get issues that need estimation based on label  */}}
+{{ $estimate_issues := where $.Site.Data.issues "labels" "intersect" (slice "needs estimation") }}
+{{ if $estimate_issues }}
+<section class="needs-estimation">
+<h3>Issues that need estimation</h3>
+<ul>
+    {{ range $estimate_issues }}
+        {{ partial "issue_single.html" . }}
+    {{ end }}
+</ul>
+</section>
+{{ end }}
 
 </div>
 

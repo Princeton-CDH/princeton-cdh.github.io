@@ -51,6 +51,51 @@ These two terms are used frequently in the software development industry to refe
 
 At the CDH, we usually use “frontend” to refer to the public-facing parts of a project, like pages on a website focused at other researchers or the general public. We usually use “backend” to refer to parts of a project that store and operate on the project data, like a non-public administrative interface used by project team members.
 
+### Bug
+A bug is a problem that is discovered on the production site. Bugs should be labeled as such on Github, and there's often a issue template on GitHub used for this purpose.
+
+### Cache
+Locally stored data to speed up image loading on web pages. Cached content can be annoying during development because it gets in the way of seeing recent changes developers have made to the page.
+
+### Hard Refresh
+Refreshes the web page without loading the cache. Used in order to force a page to load the most updated version of the page during development. On a Mac, use ⌘Cmd+Shift+R.
+
+### CMS
+Acronym for Content Management System. Allows users with little knowledge of web programming languages to create and manage website content (think Wordpress!).
+
+### CSS
+Acronym for Cascading Style Sheets. A style sheet language that describes how HTML elements should be displayed (fonts, colors).
+
+### JS
+Acronym for JavaScript, a front-end programming language that describes dynamic web page behavior. Can be turned off using DevTools in order to test web page functionality without JavaScript: View → Developer → Developer Tools →  → Settings → Debugger → Disable JavaScript → Keep DevTools open and refresh.
+
+### DevTools
+Way of viewing the front-end code of a web page. Open DevTools in Chrome by navigating View → Developer → Developer Tools OR right-clicking on a page and clicking Inspect.
+
+### Django
+Python-based software used to create database-driven websites, frequently used by the CDH on sponsored projects.
+
+### Mezzanine/Wagtail
+Two different CMS options used by the CDH, built on top of Django.
+
+### Percy
+[Percy](https://percy.io/) is an automated platform for visual review. This software creates images of a website to compare how it appears across various browsers and devices, and detects when developers introduce code that changes the look of the site. When visual changes are detected, the UX designer can use Percy to pinpoint what will be changed, and work with the developer to ensure the changes match the design specifications.
+
+### FF
+Acronym for the Firefox browser.
+
+### GitHub
+A software development platform that allows developers to store, track, and share computer code, as well as converse with one another during the development process. All of the files for a particular project are stored in a Github Repository or “Repo.”
+
+### ZenHub
+A project management tool that can be added on to GitHub. It allows you to view issues according to their stage in the development process. It also tracks the Story Points for each issue.
+
+### Issues
+Github’s term for “tickets” that any member of the project team can create to track tasks, features, enhancements, and bugs for the project. Issues are often organized using labels. Issues often belong to milestones that track version releases.
+
+### Milestone
+A way of tracking in Github what issues will be released in the next version.
+
 ## Testing & Review
 
 ### Design Review
@@ -60,12 +105,12 @@ A Github issue is first created to track the progress of a particular design, of
 
 Primary review is conducted by the Project Director, with the Developers and the PM also contributing to the discussion. Developers may comment on the feasibility of the design or possible implementations. All team members respond with their feedback and questions or concerns via GitHub comments on the issue so that the discussion is stored at a particular URL. Once agreement is reached, the issue is closed and moved to the “completed” ZenHub pipeline - it is ready to implement. If agreement is not reached the UX Designer works to determine what revisions are needed to be made and will address the issues. At this stage the UX Designer moves the issue back into the “in progress” ZenHub pipeline before re-delivering for design review.
 
-### Design Testing
-Design testing is a workflow where the UX Designer compares parts of the project to the design specifications to identify any inconsistencies or errors in the implementation. The goal is to have a usable and functioning version of the design that preserves the intentions of the designer.
+### Visual Review
+Visual review is a workflow where the UX Designer compares parts of the project to the design specifications to identify any inconsistencies or errors in the implementation. The goal is to have a usable and functioning version of the design that preserves the intentions of the designer.
 
-Developers implement the design specified in a design tool or handoff tool (Figma, Zeplin). When the design is ready to be tested, it’s moved to the “review/QA” ZenHub pipeline. The tester visits the QA environment (usually a special non-public version of a project), compares the implementation with the designs specified in the tool, and leaves comments or questions based on their experience.
+Developers implement the design specified in a design tool or handoff tool (Figma, Zeplin). When the design is ready to be tested, a pull request is opened that implements the design. If the pull request creates visual changes, automated software (Percy) will note that the visual changes require review by annotating the pull request and sending a slack notification. Since this software can't accurately capture changes to behavior (UX), the developer may also upload videos or screen recordings to the pull request to illustrate the changes being proposed.
 
-If the design implementation is deemed acceptable by the tester, the issue is closed and moved to the “completed” pipeline in ZenHub. If the tester has questions or something doesn’t look right, they respond to the issue with comments and a Developer will address the issue. Developers may move the issue back into the “in progress” ZenHub pipeline to make further changes before re-delivering for testing.
+The designer reviews the visual changes using the visual review platform (Percy), commenting on anything that doesn't match the specification or requires further work. For each of the "snapshots" (often pages or screens) that are part of the review, the designer can either accept the changes or request more work from developers. When all visual changes have been approved, the code implementing the visual changes can be merged.
 
 ### Acceptance Testing
 Acceptance testing is a workflow where the Project Manager (and potentially also the Project Director) review new functionality that has been deployed to a testing environment and determine if it is acceptable. The goal is to ensure that the version of the project that is deployed matches the vision of the project team.
@@ -130,6 +175,5 @@ Knowledge about the structure of data, the goals of the project and its data, as
 Many of the terms above are interdependent.
 “Experience Design” and “Interaction Design” are often applied beyond software-focused projects or human-machine interactions, and are often applied to human-human and machine-machine interactions.
 
-
-
-
+### Zeplin
+A tool that allows UI Designers and Front-end Developers to collaborate. The designs in Zeplin include specs and guidelines that help the Front-end Developer code the site more easily.

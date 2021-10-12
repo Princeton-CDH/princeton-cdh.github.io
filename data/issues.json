@@ -44,9 +44,10 @@
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/18",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-14T21:45:27Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -115,11 +116,11 @@
     "milestone": ""
   },
   {
-    "issue": "As a developer, I would like to automate the creation of the deploy user `conan` ",
+    "issue": "As a deployer, I would like to have the deploy user automatically created when running playbooks, so that required users are managed by the playbook.",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/38",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-15T17:18:03Z",
     "labels": [
       "enhancement"
     ],
@@ -170,6 +171,50 @@
     "milestone": ""
   },
   {
+    "issue": "allow specifying and installing arbitrary python versions",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/48",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want a record of significant changes to our deploy process so that I can refer to it when creating and updating playbooks.",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/50",
+    "estimate": "",
+    "closed": "2020-12-17T17:09:01Z",
+    "labels": [
+      "\ud83d\udcd6 documentation"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add tests for postgresql role",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/52",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make postgresql role not back up database if it's just been created",
+    "project": "CDH_ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/53",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "npm module doesn't register error on webpack build",
     "project": "CDH_ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/CDH_ansible/issues/9",
@@ -178,6 +223,254 @@
     "labels": [
       "bug"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "update geniza playbooks to add npm/webpack and use new django role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/101",
+    "estimate": "",
+    "closed": "2021-09-21T17:32:29Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Finish configuring projects for new rotating logs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Production deploys fail on context check",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
+    "estimate": "",
+    "closed": "2021-07-29T16:20:30Z",
+    "labels": [
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want Solr configuration updates and schema changes to be made automatically when I deploy new software, so I can trust that expected changes will always be made.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/36",
+    "estimate": "",
+    "closed": "2021-08-05T17:31:22Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want to automatically test ansible roles and their dependencies so that I can make changes with confidence.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/37",
+    "estimate": "",
+    "closed": "2021-04-27T14:35:01Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Change github deployment role to pre/post deployment step",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/45",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "automatically clean up old deploys",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "allow specifying and installing arbitrary python versions",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/48",
+    "estimate": "",
+    "closed": "2021-04-27T18:35:38Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Permissions are repeatedly reset during project repo clone",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/59",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Configure custom nginx error page for QA/test/vpn-only sites",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/60",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want to manage Django tasks through a single role so that I can simplify existing deploy playbooks.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/63",
+    "estimate": "",
+    "closed": "2021-09-16T14:50:52Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "playbook / role to synchronize database and media data from production to qa or dev environment",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/65",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup passenger role and configure cdhweb & geniza qa playbooks to use it instead of apache",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/67",
+    "estimate": "",
+    "closed": "2021-04-30T13:51:15Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a developer, I want to manage nodejs-related dependencies and tasks through a single role so that I can simplify existing deploy playbooks.",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/74",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "python role should install from requirements.lock automatically if present",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/75",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "revisit pre-commit hook",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/80",
+    "estimate": "",
+    "closed": "2021-09-09T19:02:19Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Use shallow clone to check out project repo",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/86",
+    "estimate": "",
+    "closed": "2021-07-29T21:08:53Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "write molecule tests for solr role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/89",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "npm module doesn't register error on webpack build",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/9",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "write new playbook for S&co qa deploy to PUL vm with postgres & solr",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/91",
+    "estimate": "",
+    "closed": "2021-09-09T19:03:56Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "write new playbook for S&co PUL production deploy",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/92",
+    "estimate": "",
+    "closed": "2021-09-09T19:04:39Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "remove old S&co playbooks",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/93",
+    "estimate": "",
+    "closed": "2021-09-16T14:49:13Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "allow running django-compressor as part of django role",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/99",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -245,8 +538,10 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/104",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-05-19T18:29:34Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -431,7 +726,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/126",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -440,7 +737,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/127",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -565,8 +864,10 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/144",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-05-19T18:28:53Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -653,11 +954,11 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/152",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-22T13:25:27Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "Event card doesn't display names from person, only from profile",
@@ -901,35 +1202,35 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "create Pages app",
+    "issue": "As a moderator, I want to create, edit, and delete content pages in wagtail so that I can manage new and existing site content.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/180",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-01-17T01:48:54Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Resources app",
+    "issue": "As a moderator, I want to create and edit related links in wagtail so that I can associate them with projects and people.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/181",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-03-11T19:21:57Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Projects app",
+    "issue": "As a moderator, I want to create and edit projects in wagtail so that I can manage projects just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/182",
-    "estimate": "",
-    "closed": null,
+    "estimate": 5,
+    "closed": "2021-03-11T19:36:54Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -938,42 +1239,42 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/183",
     "estimate": "",
-    "closed": "2020-01-07T16:17:47Z",
+    "closed": "2020-12-16T20:28:11Z",
     "labels": [
       "chore"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Events app",
+    "issue": "As a moderator, I want to create and edit events in wagtail so that I can manage them just like other pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/184",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-03-16T14:47:53Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update Updates app",
+    "issue": "As an editor, I want to create and edit blog posts in wagtail so that I can take advantage of its editing capabilities.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/185",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-03-24T18:58:17Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
   {
-    "issue": "update People app",
+    "issue": "As a moderator, I want to create and edit people in wagtail so that I can manage them just like pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/186",
-    "estimate": "",
-    "closed": null,
+    "estimate": 8,
+    "closed": "2021-03-04T11:47:27Z",
     "labels": [
-      "chore"
+      "enhancement"
     ],
     "milestone": "v3.0"
   },
@@ -982,20 +1283,23 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/188",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-08T19:22:59Z",
     "labels": [
-      "chore"
+      "chore",
+      "wontfix"
     ],
-    "milestone": "v3.0"
+    "milestone": ""
   },
   {
     "issue": "As a user I want to search across all pages by keyword so I can find specific content that interests me.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/19",
-    "estimate": "",
-    "closed": null,
-    "labels": [],
-    "milestone": ""
+    "estimate": 3,
+    "closed": "2021-08-19T22:01:09Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
   },
   {
     "issue": "As a content editor, I want to include staff affiliates on the affiliates page so I can highlight library staff directing data curation projects.",
@@ -1156,10 +1460,10 @@
     "milestone": "v2.8"
   },
   {
-    "issue": "As a user, I want a prominent button to request a consultation on the home page so I immediately know that this service is available.",
+    "issue": "As a user, I want a prominent button to request a consultation from any page on the site so I immediately know that this service is available.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/213",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
@@ -1193,11 +1497,11 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/216",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-18T21:33:48Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "As a user, I want to see PGRA profiles listed with students and postdoc profiles listed with staff, so I understand how these people relate to the CDH.",
@@ -1290,44 +1594,44 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/225",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-08T20:13:54Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
-    "issue": "test using rsync to copy assets to new QA machine",
+    "issue": "test copying uploaded media to new QA machine",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/226",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-16T20:22:56Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "test migrating data to PUL postgres instances",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/227",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-16T20:27:56Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "migrate all site data to new PUL hosted instances",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/229",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-05T14:40:49Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v2.8.1"
   },
   {
     "issue": "As a user, I want to see details about a staff member so I can learn about their role, research interests, and how to contact them.",
@@ -1339,7 +1643,7 @@
     "milestone": "CDH Web 2.0"
   },
   {
-    "issue": "As an admin, I want to control the student/staff status of profiles based on the positions held by people so I can make sure they show up on the right listing page.",
+    "issue": "As an admin, I want to control the placement of profiles based on the positions held by people so I can make sure they show up on the right listing page.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/232",
     "estimate": "",
@@ -1365,31 +1669,53 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/235",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-18T21:31:41Z",
     "labels": [
       "bug"
     ],
-    "milestone": "v2.8.1"
+    "milestone": "v3.0"
   },
   {
     "issue": "working groups display on main project page",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/236",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-18T21:32:31Z",
     "labels": [
       "bug"
     ],
-    "milestone": "v2.8.1"
+    "milestone": "v3.0"
   },
   {
     "issue": "meta information for project pages is incorrect",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/237",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-30T14:54:16Z",
     "labels": [
       "bug"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "new playbook for qa deploy to PUL VM with postgres",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/238",
+    "estimate": "",
+    "closed": "2020-12-15T22:16:02Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v2.8.1"
+  },
+  {
+    "issue": "new playbook for production deploy to PUL VM",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/239",
+    "estimate": "",
+    "closed": "2021-01-05T14:40:30Z",
+    "labels": [
+      "chore"
     ],
     "milestone": "v2.8.1"
   },
@@ -1403,6 +1729,106 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "set up visual regression testing",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/240",
+    "estimate": "",
+    "closed": "2021-07-13T16:51:33Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Include DB diagrams in documentation",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/241",
+    "estimate": "",
+    "closed": "2020-12-16T18:24:17Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "Create preliminary script with logic to convert mezzanine pages to wagtail pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/243",
+    "estimate": "",
+    "closed": "2020-12-16T20:35:36Z",
+    "labels": [
+      "chore",
+      "duplicate"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing content pages migrated from mezzanine to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/244",
+    "estimate": 5,
+    "closed": "2021-01-11T20:40:53Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As an editor, I want upload and manage page attachments in wagtail so that I can associate them with pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/245",
+    "estimate": 3,
+    "closed": "2021-03-26T15:04:48Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As an editor, I want existing attachments migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/246",
+    "estimate": 2,
+    "closed": "2021-03-26T16:55:36Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As an admin, I want to see the edit history for a page, including edits before the wagtail migration, so that I can see the history of edits to a page.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/247",
+    "estimate": 3,
+    "closed": "2021-03-26T13:32:19Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing uploaded images migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/248",
+    "estimate": 3,
+    "closed": "2021-01-14T21:07:04Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing related links migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/249",
+    "estimate": 2,
+    "closed": "2021-03-08T23:23:36Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
     "issue": "As a user, I want to view event details so I can decide if I'm interested and know when and where to attend.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/25",
@@ -1410,6 +1836,94 @@
     "closed": "2017-09-21T20:58:24Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As an editor, I want existing blog posts migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/250",
+    "estimate": 2,
+    "closed": "2021-03-24T12:32:04Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing projects migrated to wagtail so that I can manage them in the new system. ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/251",
+    "estimate": 2,
+    "closed": "2021-03-11T19:00:55Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing events migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/252",
+    "estimate": 1,
+    "closed": "2021-03-11T15:22:16Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want existing people migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/253",
+    "estimate": 3,
+    "closed": "2021-01-15T21:02:09Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a search engine, I want a sitemap of all pages on the CDH site so that I can index them for users to search.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/254",
+    "estimate": 2,
+    "closed": "2021-03-29T18:29:01Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As an editor, I want to manage the menus displayed across the site in wagtail so that I can easily update them when needed.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/255",
+    "estimate": 5,
+    "closed": "2021-03-25T18:16:30Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a content editor, I would like it if the quotation marks on the blog defaulted to smart quotes.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/256",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Remove mezzanine",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/259",
+    "estimate": "",
+    "closed": "2021-05-04T15:48:40Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0.2"
   },
   {
     "issue": "As a user, I want to download event information as ical so I can add it to my personal calendar.",
@@ -1421,6 +1935,39 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "add apache rewrite rule to ansible for migrated media",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/264",
+    "estimate": "",
+    "closed": "2021-03-25T20:45:50Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "revisit image sizing guidelines",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/266",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a moderator, I want People automatically organized into person list pages so I don't have to manually manage these pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/267",
+    "estimate": 5,
+    "closed": "2021-03-10T21:53:30Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
     "issue": "As a user, I want to view previous events by semester so that I can get a sense of event and workshop offerings.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/27",
@@ -1428,6 +1975,50 @@
     "closed": "2017-09-22T19:06:49Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "remove inactive user accounts",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/270",
+    "estimate": "",
+    "closed": "2021-03-16T18:37:53Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "clean image EXIF metadata",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/271",
+    "estimate": "",
+    "closed": "2021-03-29T15:15:41Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "Embed sizing ignores container margins on mobile",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/273",
+    "estimate": "",
+    "closed": "2021-07-29T02:36:00Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Event times are incorrect for past events",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/274",
+    "estimate": "",
+    "closed": "2021-01-12T21:37:12Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view blog posts so that I can read updates about CDH and its work.",
@@ -1439,6 +2030,61 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "As a moderator, I want Projects automatically organized into list pages so I don't have to manually manage these pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/280",
+    "estimate": 2,
+    "closed": "2021-03-15T18:05:15Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "fix temporary models and model fields",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/285",
+    "estimate": "",
+    "closed": "2021-04-08T15:35:51Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
+    "issue": "As a moderator, I want Events automatically organized by upcoming events and by semester, so that I don't have to manually manage these list pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/286",
+    "estimate": 3,
+    "closed": "2021-03-11T21:48:17Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "As a moderator, I want blog posts automatically listed by latest posts, by month, and by year so that I don't have to manually manage these pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/287",
+    "estimate": 2,
+    "closed": "2021-03-25T14:17:24Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.0"
+  },
+  {
+    "issue": "update blog RSS/Atom feeds to work with Wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/288",
+    "estimate": "",
+    "closed": "2021-03-17T13:29:01Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0"
+  },
+  {
     "issue": "As an admin, I want user information and titles automatically populated so I don't have to manually enter it.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/29",
@@ -1446,6 +2092,37 @@
     "closed": "2017-08-30T20:10:37Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "revisit sitemap priority logic",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/296",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement code block formatting in blog posts",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/297",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want existing django redirects migrated to wagtail so that I can manage them in the new system.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/299",
+    "estimate": "",
+    "closed": "2021-04-05T15:35:23Z",
+    "labels": [
+      "wontfix"
+    ],
+    "milestone": ""
   },
   {
     "issue": "MVP Functonality",
@@ -1466,13 +2143,115 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "Update dbdocs build to match geniza config",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/304",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Support embedding Media Central content via oEmbed",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/305",
+    "estimate": 1,
+    "closed": "2021-08-03T21:06:37Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "upgrade django and wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/306",
+    "estimate": "",
+    "closed": "2021-05-05T17:19:31Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.0.2"
+  },
+  {
+    "issue": "blog post previews don't work",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/309",
+    "estimate": "",
+    "closed": "2021-04-05T18:12:48Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
     "issue": "As a content editor, I want the to mark an event as all-day so I can create events for untimed or multi-day events such as deadlines or conferences.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/31",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
+  },
+  {
+    "issue": "500 error trying to add two speakers to an event",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/312",
+    "estimate": "",
+    "closed": "2021-04-05T18:15:25Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
+  },
+  {
+    "issue": "django admin is inaccessible (500 error)",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/313",
+    "estimate": "",
+    "closed": "2021-05-04T15:48:52Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.2"
+  },
+  {
+    "issue": "As a developer, I want to automatically crawl the site periodically so that I can prevent users from seeing any errors.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/315",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "migrated rich text content loses links and formatting when edited, has spaces added from exodus migration",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/316",
+    "estimate": "",
+    "closed": "2021-04-12T20:30:09Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add explicit ordering for Page-derived models",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/318",
+    "estimate": "",
+    "closed": "2021-04-12T20:27:56Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.0.1"
   },
   {
     "issue": "d",
@@ -1484,6 +2263,39 @@
     "milestone": ""
   },
   {
+    "issue": "short description for blog posts are not editable in wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/327",
+    "estimate": "",
+    "closed": "2021-05-18T21:49:17Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "search description is not used as fallback for description",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/328",
+    "estimate": "",
+    "closed": "2021-06-14T16:44:25Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.1"
+  },
+  {
+    "issue": "events list test fails CI on start of month",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/329",
+    "estimate": "",
+    "closed": "2021-06-08T18:34:50Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.1"
+  },
+  {
     "issue": "As an admin, I want to create and edit grant types and associate grants with projects, so that I can document when and which kinds of grants a project received from CDH.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/33",
@@ -1491,6 +2303,39 @@
     "closed": "2017-08-31T19:08:29Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "As a User, I want to see CDH Data Fellows listed on the Affiliates and Students pages so I know who received a fellowship.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/330",
+    "estimate": 1,
+    "closed": "2021-06-11T02:56:08Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.1"
+  },
+  {
+    "issue": "Grant with no end date throws error on affiliates list page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/337",
+    "estimate": "",
+    "closed": "2021-06-16T02:05:40Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Set up analytics segments for internal traffic",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/339",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to create and edit project roles and associate people as members of projects so that I can document project contributors.",
@@ -1502,6 +2347,72 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "Student alumni profiles are listed twice",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/340",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want to reorder ranked lists like project roles and titles via drag-and-drop so it's easier to update these lists. ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/341",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Empty email field for people reads as \"none\" on the front end.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/343",
+    "estimate": "",
+    "closed": "2021-07-01T02:07:11Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed external content in editorial and other pages, so that I can include dynamic content.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/345",
+    "estimate": "",
+    "closed": "2021-07-06T14:12:20Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up black and isort pre-commit hooks",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/346",
+    "estimate": "",
+    "closed": "2021-08-03T20:18:57Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor I want to see accessibility checks when I'm logged in or previewing a page so that I will be alerted if something is causing accessibility problems and have guidance about how to fix it.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/347",
+    "estimate": 1,
+    "closed": "2021-08-04T21:20:18Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As an admin, I want to associate urls for other resources with projects so that I can provide links to materials related to projects.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/35",
@@ -1509,6 +2420,72 @@
     "closed": "2017-09-12T23:56:54Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Design a way to navigate to the consultation page / request consultations from the home page so the user can immediately learn about this service",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/350",
+    "estimate": 3,
+    "closed": "2021-08-16T17:35:02Z",
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "CDH Web Search ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/351",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Explore site search scenarios for pages, projects, and people and write logic on concept, functionality, and user steps so the dev team can be aware of the high-level possibilities with design",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/352",
+    "estimate": 5,
+    "closed": "2021-08-16T18:38:52Z",
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "Design a way to navigate to the About page from the home page so the user can immediately learn about the CDH",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/353",
+    "estimate": 2,
+    "closed": "2021-08-16T17:43:44Z",
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a Content Editor, I want existing page links to resolve after I rename or move a page so that I don't have to manually create a redirect.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/354",
+    "estimate": 2,
+    "closed": "2021-07-29T02:18:13Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a user, I want to access the site search via the main navigation so I can start a search from anywhere.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/359",
+    "estimate": 3,
+    "closed": "2021-08-19T21:49:20Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
   },
   {
     "issue": "As an admin I want to edit and create resource types so I can determine what kind of links and resources can be associated with people and projects.",
@@ -1520,6 +2497,72 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "As a user, I want to limit my site search to particular kinds of content so that I can more quickly find the page I'm looking for.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/360",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "semantic heading hierarchy problem on project pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/362",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design generic search results so that when the user searches generic pages/content they would see a simple list of results ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/364",
+    "estimate": 2,
+    "closed": "2021-08-16T18:26:07Z",
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a user, I want basic information about the CDH displayed on the homepage so that I can learn about the CDH and read more about its values.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/366",
+    "estimate": 2,
+    "closed": "2021-08-25T16:17:46Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "Design the search input box for desktop and mobile (default and focus styles) so there is a way for the user to learn about the search function and interact with it ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/367",
+    "estimate": 2,
+    "closed": "2021-08-16T17:52:11Z",
+    "labels": [
+      "Design"
+    ],
+    "milestone": "v3.4"
+  },
+  {
+    "issue": "As a content editor, I would like to add an individual both to the staff page and to the executive board page.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/368",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create and edit event types so I can categorize kinds of events.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/37",
@@ -1529,6 +2572,59 @@
     "milestone": "CDH Web 2.0"
   },
   {
+    "issue": "implement configurable purple mode ",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/370",
+    "estimate": "",
+    "closed": "2021-08-11T14:31:10Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Can't add someone to current staff if they have any exec committee position, whether current or not",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/374",
+    "estimate": "",
+    "closed": "2021-08-25T16:51:15Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed images in pages that don't span the full width of the page so I can create more varied or readable page layouts.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/376",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "invalid heading levels on event page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/378",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Panelists' names do not fit on event card on Events page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/379",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create and edit event locations so that I can enter them once and have them displayed consistently across the site.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/38",
@@ -1536,6 +2632,94 @@
     "closed": "2017-09-13T13:51:27Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "Homepage does not display correctly on Safari.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/380",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Homepage does not display correctly on Safari (mobile).",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/381",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want a reminder to go to wagtail backend if I want to edit content if I forget and log into the django admin, so that I can easily get to the right place to edit content.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/383",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Event cards showing up out of order",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/384",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Apply meta migrations and port makemigrations check from geniza",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/386",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Integrate Safari support for Percy",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/388",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make banner on django/admin dashboard that links to wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/390",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Cannot add standard page under \"Events\"",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/391",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to create and manage landing pages and other content pages so that I can publish top-level and other content pages.",
@@ -1633,7 +2817,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/49",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -1981,12 +3167,11 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/82",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-03-11T21:52:21Z",
     "labels": [
-      "bug",
-      "tested needs attention"
+      "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.0"
   },
   {
     "issue": "Project card - text padding",
@@ -3130,10 +4315,10 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/203",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T19:10:27Z",
     "labels": [
-      "accessibility",
-      "tested needs attention"
+      "wontfix",
+      "accessibility"
     ],
     "milestone": ""
   },
@@ -3176,8 +4361,9 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/207",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T19:10:01Z",
     "labels": [
+      "wontfix",
       "accessibility"
     ],
     "milestone": ""
@@ -3208,8 +4394,9 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/210",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-31T19:15:58Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": ""
@@ -3454,11 +4641,11 @@
     "milestone": ""
   },
   {
-    "issue": "Reference data export should include chapter/section information",
+    "issue": "As a researcher, I want chapter and section information included in the reference data export so I can do work that takes into account the structure of the source.",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/238",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2021-09-17T15:56:18Z",
     "labels": [],
     "milestone": ""
   },
@@ -3516,8 +4703,10 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/246",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-09-17T16:13:13Z",
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
@@ -3534,7 +4723,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/250",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-03T17:22:56Z",
     "labels": [
       "chore"
     ],
@@ -3556,7 +4745,19 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/253",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-04T18:03:09Z",
+    "labels": [
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "sphinx docs site returns 404",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/254",
+    "estimate": "",
+    "closed": "2021-03-12T16:49:31Z",
     "labels": [
       "bug"
     ],
@@ -3572,6 +4773,68 @@
     "milestone": ""
   },
   {
+    "issue": "As a researcher, I want a book dataset that is based on the content and doesn't include irrelevant fields from zotero so that I can focus on the data specific to this project.",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/262",
+    "estimate": 3,
+    "closed": "2021-09-17T16:05:39Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a researcher, I want access to images and annotation zones in the intervention dataset so that I can see the context and do more interesting work.",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/263",
+    "estimate": 2,
+    "closed": "2021-09-17T19:49:53Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a researcher, I want to see data about known interventions so I can inspect and analyze Derrida's non-textual annotation practices.",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/264",
+    "estimate": 3,
+    "closed": "2021-09-30T16:00:08Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement read only site banner",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/267",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Disable search filters",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/268",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "remove old zotero code (manage command `export_zotero.py` and associated test code in the `books` app)",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/269",
+    "estimate": "",
+    "closed": "2021-08-04T18:03:45Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "interventions: associate with IIIF canvases",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/27",
@@ -3583,6 +4846,39 @@
     "milestone": "Intervention database (phase I)"
   },
   {
+    "issue": "Implement testing in GitHub Actions",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/272",
+    "estimate": "",
+    "closed": "2021-09-02T15:11:05Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate data set readme and datapackage ",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/277",
+    "estimate": "",
+    "closed": "2021-09-30T15:56:38Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "IIIF info json ID exposes PUL's IIIF endpoint",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/278",
+    "estimate": "",
+    "closed": "2021-09-17T20:04:26Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "interventions: add tags for marking ink",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/28",
@@ -3590,6 +4886,28 @@
     "closed": "2017-07-13T19:45:29Z",
     "labels": [
       "duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create playbook to install dependencies and create a web archive for a site",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/284",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create playbook to deploy webarchive playback site",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/285",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
@@ -4336,6 +5654,17 @@
     "milestone": ""
   },
   {
+    "issue": "Improve github actions slack notifications for matrix builds",
+    "project": "djiffy",
+    "url": "https://api.github.com/repos/Princeton-CDH/djiffy/issues/4",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a data editor, I want metadata from the geniza spreadsheet indexed into Solr so I can run more advanced searches to find geniza materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
@@ -4358,11 +5687,136 @@
     "milestone": ""
   },
   {
+    "issue": "Create clustering algorithm to group PGPIDs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
+    "estimate": "",
+    "closed": "2021-05-27T13:30:19Z",
+    "labels": [
+      "\ud83d\udeab wontfix",
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want documents associated with language+script based on display name when importing documents from metadata spreadsheet.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/106",
+    "estimate": 1,
+    "closed": "2021-04-14T19:31:24Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a user, I want to see updates and changes made in the new database in the current pgp site while the new website is still in development so that I can reference current information. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/107",
+    "estimate": 2,
+    "closed": "2021-06-03T15:22:05Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document. (first pass)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
+    "estimate": 8,
+    "closed": "2021-05-10T13:25:20Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/109",
+    "estimate": 2,
+    "closed": "2021-04-20T17:40:52Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
     "issue": "test eScriptorium on sample content",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/11",
     "estimate": "",
+    "closed": "2021-02-10T16:57:10Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to view detailed information for a single Geniza document so that I can learn about that document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/110",
+    "estimate": 5,
+    "closed": "2021-05-03T14:30:01Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/111",
+    "estimate": 5,
+    "closed": "2021-04-14T19:46:52Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a Content Editor, I want to see who first input a document and who last edited it, and when, so that I can ensure records are kept up-to-date.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/112",
+    "estimate": 1,
+    "closed": "2021-04-29T14:38:39Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "fix document ordering so we don't get duplicate entries in django admin list view when sorting by shelfmark",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/113",
+    "estimate": "",
+    "closed": "2021-04-02T13:49:51Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to be able to filter/search within the \u201cneeds review\u201d field of the list of items \"awaiting review,\" so that I can more efficiently review issues of the same type in batches (docs that need fixes to description, shelfmark, etc).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/114",
+    "estimate": "",
     "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "generate a report of git commits on bitbucket for Alan to track his contributions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/115",
+    "estimate": "",
+    "closed": "2021-04-01T19:55:29Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Generate django translations when deploying",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/117",
+    "estimate": "",
+    "closed": "2021-10-07T14:34:17Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -4380,15 +5834,229 @@
     "milestone": ""
   },
   {
-    "issue": "Get search prototype operating on Solr 8",
+    "issue": "generate a CSV of JTS IIIF manifests and DPUL view URLs from Figgy for import with new fragment url import script",
     "project": "geniza",
-    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/14",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/120",
     "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of documents in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/121",
+    "estimate": 2,
+    "closed": "2021-05-25T21:02:20Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Design mobile and tablet wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/123",
+    "estimate": 2,
+    "closed": "2021-04-22T23:32:38Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile and tablet wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/124",
+    "estimate": 2,
+    "closed": "2021-04-22T23:44:00Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design wireframes of the filters and sort options on mobile, tablet, and desktop to communicate the ways in which content can be curated when searching ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/125",
+    "estimate": 3,
+    "closed": "2021-05-08T00:31:36Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want new documents created in the database after data import to receive PGPIDs higher than the highest imported PGPID, so that identifiers will be unique and semi-sequential.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/127",
+    "estimate": 1,
+    "closed": "2021-04-09T21:23:32Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to view and search on PGPID so I can distinguish documents on the same shelfmark and refer to the same documents in the spreadsheet and database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/131",
+    "estimate": 0,
+    "closed": "2021-04-14T19:48:19Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a user, I want to view detailed information about all the sources that cite this document so that I can learn the volume and kind of academic engagement with the document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/135",
+    "estimate": 2,
+    "closed": "2021-07-12T14:39:09Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise document detail page design based on first-pass implementation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/136",
+    "estimate": "",
+    "closed": "2021-05-08T01:08:18Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "look for edition info in TEI for records with \"Source of original transcription not noted in PGP database\" in metadata spreadsheet",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/137",
+    "estimate": "",
+    "closed": "2021-04-23T15:13:29Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to see and sort on the footnote count for sources so that I can find out how many times a source has been referenced in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/138",
+    "estimate": 1,
+    "closed": "2021-05-05T20:39:15Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to add and edit all footnotes associated with a single source to make bulk data entry easy and efficient.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/139",
+    "estimate": 1,
+    "closed": "2021-05-20T15:47:02Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Update ansible deploy so we can use PUL Solr 8 for search",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/14",
+    "estimate": "",
+    "closed": "2021-05-21T16:40:32Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to use the Text Block area to mark shelfmarks that are potential joins without adding to the string of shelfmarks, so that we can connect related documents without certainty. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/140",
+    "estimate": 2,
+    "closed": "2021-05-05T20:48:57Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Design desktop wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/141",
+    "estimate": 1,
+    "closed": "2021-04-23T00:37:51Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design desktop wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/142",
+    "estimate": 2,
+    "closed": "2021-04-23T00:35:08Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "check demerge spreadsheet against original metadata and data import",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/144",
+    "estimate": "",
+    "closed": "2021-04-29T19:02:13Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want to import additional spreadsheets as part of the data import so that I can ensure demerged records are imported.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/145",
+    "estimate": 2,
+    "closed": "2021-05-21T19:04:34Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want a preliminary version of transcription text linked to a scholarly source so that I know which documents have available transcriptions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/146",
+    "estimate": 3,
+    "closed": "2021-05-18T18:46:55Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a user, I want documents that span fragments with consecutive shelfmarks to have their shelfmark displayed using a range, so that it's easier for me to read.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/154",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the document title so that it can appear on search and browse results, + the document detail view, scholarship records, external links as the page title ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/155",
+    "estimate": 2,
+    "closed": "2021-05-08T01:05:09Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to filter documents by those with at least one fragment image, so that I can create useful visual datasets for download and producing teaching materials.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/157",
+    "estimate": 1,
+    "closed": "2021-05-18T18:52:54Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
@@ -4402,13 +6070,198 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want to easily get from document editing to fragment editing, to easily make changes and contextualize the work.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/160",
+    "estimate": "",
+    "closed": "2021-05-13T16:55:33Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, when editor and translator information is imported I want urls associated with the footnote so I can get to the resource if available.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/161",
+    "estimate": 1,
+    "closed": "2021-05-25T19:48:05Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to be able to view what a single document editor has edited, so that I can learn more about documentary geniza scholarship and help solve metadata problems.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/162",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design all the design components for all the content pages that go under the \"About\" section to meet the needs of users",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/163",
+    "estimate": 2,
+    "closed": "2021-06-14T22:29:02Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement Black python linter",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/164",
+    "estimate": "",
+    "closed": "2021-05-13T13:07:14Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate report of duplicate joins",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/165",
+    "estimate": "",
+    "closed": "2021-05-12T17:09:39Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate a csv of unique sources from the RIS file of the Cambridge Bibliography",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/167",
+    "estimate": "",
+    "closed": "2021-05-11T20:07:46Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Append missing PGPID rows to demerge spreadsheet",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/168",
+    "estimate": "",
+    "closed": "2021-05-12T15:43:29Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want duplicate joined documents to be automatically merged without losing their unique metadata, so that I don't have to merge them manually.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/170",
+    "estimate": 8,
+    "closed": "2021-09-20T20:25:46Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want scholarship records from known journals imported as articles even if no title is present, so I can identify the resources and augment them later.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/172",
+    "estimate": 2,
+    "closed": "2021-05-24T18:27:16Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content admin, I want book sections, unknown sources, translation language, and other information included in editor import so that more of the scholarship records are handled automatically.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/173",
+    "estimate": 3,
+    "closed": "2021-05-24T18:28:43Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content admin, I want notes and technical notes parsed and optionally imported into the database so I can preserve and act on important information included in those fields.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/179",
+    "estimate": 3,
+    "closed": "2021-05-26T20:03:50Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
     "issue": "As a data editor, I want a report on automatically identified named entities in item descriptions so I can compare it to entities I've already manually identified.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/18",
     "estimate": 3,
     "closed": "2020-11-17T19:18:26Z",
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Include English and Hebrew typefaces on the Document Detail View and the Search Results ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/181",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to search documents by keyword or phrase so that I can find materials related to my interests.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/182",
+    "estimate": 3,
+    "closed": "2021-06-03T20:29:50Z",
     "labels": [],
     "milestone": ""
+  },
+  {
+    "issue": "Add number for each scholarship record in the results on the browse and search results pages so the user can see how many scholarship records exist per result",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/186",
+    "estimate": "",
+    "closed": "2021-05-25T17:49:58Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to import fragment view and IIIF urls from a csv file into the database so that I can provide access to images for fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/187",
+    "estimate": 2,
+    "closed": "2021-06-14T15:35:30Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Stub all templates that use localizable site text",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/188",
+    "estimate": "",
+    "closed": "2021-06-17T19:14:35Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of footnotes in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/189",
+    "estimate": 1,
+    "closed": "2021-05-26T13:55:28Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a user, I want to search with multiple tags and choose how they should be combined (ANY/ALL) so that I can drill down or combine search results.",
@@ -4422,6 +6275,81 @@
     "milestone": ""
   },
   {
+    "issue": "As a Content Editor, I want to download a CSV version of all or a filtered list of sources in the backend, in order to data work or facilitate my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/190",
+    "estimate": 1,
+    "closed": "2021-05-25T21:13:25Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Set up autogenerated code documentation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/201",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want FGP stub documents with no descriptions suppressed and flagged and the notes updated so that I can reviewed and described them if appropriate.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/202",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "use full names for authors when displaying sources and footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/203",
+    "estimate": "",
+    "closed": "2021-06-02T17:06:04Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "remove import code",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/205",
+    "estimate": "",
+    "closed": "2021-06-01T16:36:30Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Sorting fragments by collection raises a 500 error",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/207",
+    "estimate": "",
+    "closed": "2021-06-02T15:12:50Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a  content editor, I want to search documents by combined shelfmark without removing the + so I can quickly find documents that are part of joins.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/209",
+    "estimate": 0,
+    "closed": "2021-06-02T15:15:16Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Prototype the holistic search so that users who are exploring documents through tags, or are looking for documents by inputting search terms/keywords can navigate through the site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/21",
@@ -4429,6 +6357,48 @@
     "closed": "2020-11-03T16:30:09Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to input dates in a separate field, so that both content editors and site users can sort and filter documents by date.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/215",
+    "estimate": 1,
+    "closed": "2021-06-15T19:17:25Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add \"this is a test site\" warning banner",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/216",
+    "estimate": "",
+    "closed": "2021-06-17T16:36:34Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make \"source\" field on Footnote an autocomplete",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/217",
+    "estimate": "",
+    "closed": "2021-06-02T14:05:56Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust column widths in django admin for document and footnote lists",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/218",
+    "estimate": "",
+    "closed": "2021-06-02T14:06:43Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -4444,6 +6414,59 @@
     "milestone": ""
   },
   {
+    "issue": "Add PGP RAs as Content Editors to site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/221",
+    "estimate": "",
+    "closed": "2021-06-02T19:22:21Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to see line numbers in transcriptions, so I can correlate them line-by-line with images and published transcriptions. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/224",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to merge document records without losing data so that I can combine records when I've identified duplicates or joins.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/225",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design edit links so that logged in content editors can easily get from the public site to the admin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/228",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include old pgp ids in csv metadata feed for current site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/229",
+    "estimate": "",
+    "closed": "2021-06-14T15:27:02Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, when I select a topic cluster I want to browse the documents in that cluster and see their metadata and other tags so that I can explore everything in that cluster.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/23",
@@ -4451,6 +6474,92 @@
     "closed": "2020-11-13T14:49:19Z",
     "labels": [
       "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include language in source/footnote display if not english",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/230",
+    "estimate": "",
+    "closed": "2021-06-15T19:36:50Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add admin edit link to document detail page if user has permission to edit documents",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/231",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error when trying to create a new document in the admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/232",
+    "estimate": "",
+    "closed": "2021-06-09T20:35:27Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "include old pgpids in data feed for current pgp site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/233",
+    "estimate": "",
+    "closed": "2021-06-17T16:41:23Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "admin document csv export has wrong date for first input",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/234",
+    "estimate": "",
+    "closed": "2021-06-09T20:33:26Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "document title for public site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/235",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "source string method should include language if it is specified and not English",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/236",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Fragment reassociation doesn't update the search index",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/239",
+    "estimate": "",
+    "closed": "2021-06-17T17:12:32Z",
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -4466,14 +6575,259 @@
     "milestone": ""
   },
   {
+    "issue": "Split Goitein's Typed Texts into \"Volumes\" by shelfmark to make the sources easier to manage.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/240",
+    "estimate": "",
+    "closed": "2021-06-17T17:19:28Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to edit the Historic Shelfmark so that I can correct errors in the metadata.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/241",
+    "estimate": 0,
+    "closed": "2021-08-18T20:59:01Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "External links page design revisions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/246",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to filter documents by library, so that I can narrow down clusters of documents and perform other research and data tasks.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/248",
+    "estimate": 0,
+    "closed": "2021-06-17T18:47:17Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I would like to be able to batch upload new documents from a .csv (structured like the old metadata spreadsheet) so that I can avoid entering hundreds of documents one by one. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to click on the image thumbnails so that I can examine a fragment more closely.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/250",
+    "estimate": "",
+    "closed": "2021-08-18T14:17:16Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to be able to distinguish between the primary and secondary languages on a document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/251",
+    "estimate": "",
+    "closed": "2021-07-12T14:49:06Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "problems with footnote/source formatting, including Goitein \"typed texts\" ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/252",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the scholarship records page layout so the list of cited work looks more like a bibliography than a list",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/253",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Join fragments re-ordering themselves",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/254",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a Content Editor, I want to see Help text for Document Type so that I can make an informed decision while editing documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/255",
+    "estimate": 0,
+    "closed": "2021-08-24T17:06:12Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename language fields",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/256",
+    "estimate": "",
+    "closed": "2021-08-18T21:06:55Z",
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Multi-word tags get broken up into single-word tags",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/257",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a one time consolidation of India Book sources so that the source list correctly represents the book volumes.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/259",
+    "estimate": 1,
+    "closed": "2021-08-18T21:10:40Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Front-end setup",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/260",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js & css builds",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/261",
+    "estimate": "",
+    "closed": "2021-09-02T17:35:41Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js & css delivery",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/262",
+    "estimate": "",
+    "closed": "2021-10-07T14:33:10Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up lighthouse ci",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/263",
+    "estimate": "",
+    "closed": "2021-10-04T21:09:57Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "configure pre-commit hook for js & css formatting",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up js testing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/265",
+    "estimate": "",
+    "closed": "2021-09-10T14:31:40Z",
+    "labels": [
+      "\ud83d\udeab wontfix",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to see admin actions beyond my most recent ten or a specific document's history, so that I can review past work.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/267",
+    "estimate": 0,
+    "closed": "2021-08-18T19:28:23Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want transcription language detected and used for search so that I can see what languages are used and take advantage of language-specific search functionality.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/27",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-08-18T19:10:02Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like to see Historic Shelfmark on Document Detail View, to ensure that my work is correct when working with old scholarship.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/271",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to view source URLs when I download the sources CSV in order to more easily find/update external sources.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/278",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -4482,9 +6836,118 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/28",
     "estimate": "",
     "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "set up visual testing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/280",
+    "estimate": "",
+    "closed": null,
     "labels": [
-      "\ud83e\uddea experiment"
+      "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Conduct research, explore and design a logo so that there is a visual representation of the project",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/283",
+    "estimate": 3,
+    "closed": "2021-09-20T13:05:11Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Server Error 500 - seemingly related to saving documents with footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/285",
+    "estimate": "",
+    "closed": "2021-09-20T17:08:54Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Hebrew Chrome Browser Issues",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/286",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Conduct research, explore and propose color schemes so that they can be incorporated in the layout and the components of the project",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/287",
+    "estimate": 2,
+    "closed": "2021-09-26T14:52:35Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "configure solr replication for better resiliency",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/290",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user viewing search results, when my search terms occur in the description I want to see keywords in context so that I can see why the document was included in the search results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/291",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I search on shelfmark I want to see documents associated directly with that fragment before documents that include the shelfmark in a description or notes, so I can easily find documents by shelfmark.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/292",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want keyword search results sorted by relevance by default, so that I see the best matches first.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/293",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to sort search results by the number of scholarship records so I can easily find documents with scholarly work available or that have not been written about.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/294",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Numbers of transcriptions aren't populating correctly into the admin site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/295",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -4513,30 +6976,30 @@
     "issue": "Design document detail pages so that researchers can learn more about a particular document and the fragment where it belongs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/34",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2020-12-10T22:09:03Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "create minimal django site with internationalization enabled",
+    "issue": "As a user, I want to read the geniza project in my native language so it's easier to understand.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/35",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-02-11T19:33:46Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
   },
   {
-    "issue": "add a model with translation to django multilingual experiment site",
+    "issue": "As a content editor, I want to add data to the database in multiple languages so that I can fully represent existing project data.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/36",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-02-11T19:34:09Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -4558,9 +7021,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/38",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:29:31Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -4569,9 +7032,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/39",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-27T13:29:04Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -4579,24 +7042,250 @@
     "issue": "As a user, I want to see existing TEI transcriptions displayed with IIIF images so I can see how using annotations for transcription might work.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/43",
-    "estimate": "",
-    "closed": null,
+    "estimate": 5,
+    "closed": "2021-02-02T17:59:43Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Create a sitemap of the search, holistic search, and doc detail page to communicate the site structure and how the pieces are connected ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/45",
+    "estimate": 1,
+    "closed": "2020-12-10T22:31:21Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create playbook for geniza production deploys",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/46",
+    "estimate": "",
+    "closed": "2021-05-25T19:13:03Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Create deploy playbook for geniza i18n prototype",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/47",
+    "estimate": "",
+    "closed": "2021-02-08T17:28:50Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the sitemap and site flow diagram so that the project team would know about the content that would exist on the site and the possible ways they are connected",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/48",
+    "estimate": 5,
+    "closed": "2021-01-21T21:13:25Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Synthesize and write a report to communicate the results of usability testing so that design decisions can be made and prioritized",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/49",
+    "estimate": 3,
+    "closed": "2021-01-21T21:14:25Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design filters and the search menu so that users know how they can perform search on documents ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/50",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a generous search interface for the holistic search idea so that users can learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/51",
+    "estimate": 2,
+    "closed": "2021-02-12T15:06:53Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of the list of library collections that includes name, abbreviation and location, so that I can manage the library collection info in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/52",
+    "estimate": 2,
+    "closed": "2021-02-23T16:09:33Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want to be able to add a library collection not represented on the list in order to expand our content footprint and edit those already in the list.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/53",
+    "estimate": 3,
+    "closed": "2021-03-15T19:35:31Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want to be able to add and edit a language, script, or correlation between language and script in our ontology, in order to expand our content footprint.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/54",
+    "estimate": 2,
+    "closed": "2021-02-18T17:27:02Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to see the number of documents we have in each language/script combination, so that I can understand the relative proportions and provide information for data visualization and research. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/55",
+    "estimate": 1,
+    "closed": "2021-03-11T14:49:07Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of the list of all languages and scripts, and their correlation, so that I can access, display and manage the information in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/56",
+    "estimate": 1,
+    "closed": "2021-02-18T17:27:37Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Revise the sitemap and site flow diagram so that the project team would know about the content that would exist on the site and the possible ways they are connected in a more comprehensible way to meet their needs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/57",
+    "estimate": 2,
+    "closed": "2021-02-11T21:36:53Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "set up new django project for the new site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/58",
+    "estimate": "",
+    "closed": "2021-02-15T19:54:54Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Draft web annotation data model for transcription data",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/6",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-02-04T18:34:15Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Design a document detail page so that users can view all the contextual information for a single document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/60",
+    "estimate": "",
+    "closed": "2021-02-15T17:35:03Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to flag and annotate a document as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/62",
+    "estimate": 2,
+    "closed": "2021-03-26T15:11:56Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to suppress documents, so that the records are kept updated. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/63",
+    "estimate": 1,
+    "closed": "2021-03-23T18:36:58Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/64",
+    "estimate": 2,
+    "closed": "2021-03-11T14:43:53Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/65",
+    "estimate": 1,
+    "closed": "2021-05-06T16:36:54Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want a one-time import of all documents and fragments currently in the PGP spreadsheet and the fields in the db populated accordingly, in order to work with the data in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/66",
+    "estimate": 5,
+    "closed": "2021-03-15T15:51:00Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to download any data sets created through filters so that I can work on a subset outside of the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/67",
+    "estimate": "",
+    "closed": "2021-05-27T13:33:34Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to create, edit, filter and search documents so that I can add/edit information on documents in the database and find pertinent documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/68",
+    "estimate": 3,
+    "closed": "2021-03-11T15:16:54Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "As a data editor, I want to search across multiple metadata fields so that I can find geniza items by keyword or phrase.",
@@ -4606,6 +7295,75 @@
     "closed": "2020-10-28T21:08:31Z",
     "labels": [
       "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the sitemap diagram based on comments in #51 to make sure the propoposed website content and their hierarchies are comprehensible to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/72",
+    "estimate": 1,
+    "closed": "2021-03-05T21:18:59Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a low fidelity mock up of a document detail page to communicate the content structure on the page to the project team ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/73",
+    "estimate": 3,
+    "closed": "2021-03-05T21:06:09Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, when I change the shelfmark for a fragment I want the previous shelfmark automatically added to the list of historic shelfmarks in order to keep track of old identifiers.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/74",
+    "estimate": 2,
+    "closed": "2021-03-23T18:29:52Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to create and edit fragment records so that I can document changes in the fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/75",
+    "estimate": 2,
+    "closed": "2021-03-26T15:12:37Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to add and edit tags on a document via autocomplete, so that I can reuse existing tags when appropriate.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/76",
+    "estimate": 0,
+    "closed": "2021-03-15T15:37:03Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to be able to flag and annotate a fragment as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/77",
+    "estimate": 2,
+    "closed": "2021-03-26T15:13:53Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/78",
+    "estimate": "",
+    "closed": "2021-08-18T19:11:09Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -4621,6 +7379,63 @@
     "milestone": ""
   },
   {
+    "issue": "Revise designs on desktop for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/82",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "experiment with Solr clustering",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/83",
+    "estimate": "",
+    "closed": "2021-05-27T13:30:44Z",
+    "labels": [
+      "\ud83d\udeab wontfix",
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate network of tags with community detection to see if it's useful for clustering",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/84",
+    "estimate": "",
+    "closed": "2021-03-10T22:26:25Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Design mobile and tablet wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/88",
+    "estimate": 3,
+    "closed": "2021-04-05T14:12:04Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design mobile wireframes for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/89",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want to search on text with or without accents so that I can easily find variants of words with accents and diacritics in the data.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/9",
@@ -4630,6 +7445,69 @@
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Document Detail View ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/90",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design desktop wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/91",
+    "estimate": 2,
+    "closed": "2021-04-05T14:12:09Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a faster document search in the admin site, so that matches on long combinations of joins do not crash the site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/93",
+    "estimate": 3,
+    "closed": "2021-05-21T19:59:10Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/96",
+    "estimate": 3,
+    "closed": "2021-04-14T19:01:07Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a global admin, I want display name included in the one-time import of languages and scripts, so that I can start using display names while the import is still being developed and tested.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/98",
+    "estimate": 0,
+    "closed": "2021-03-23T18:17:26Z",
+    "labels": [],
+    "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Update dbdocs github action to use the new CI integration instructions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/99",
+    "estimate": "",
+    "closed": "2021-03-18T14:42:39Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "0.3 Initial database and data import"
   },
   {
     "issue": "Add chatops QA deploy",
@@ -7270,9 +10148,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/403",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "needs estimation"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -7357,9 +10233,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/413",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "needs estimation"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9327,11 +12201,11 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/634",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-22T15:08:20Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "Add \"not mvp\" sticker to all \"Advanced Search\" designs on Zeplin  ",
@@ -9686,11 +12560,11 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/674",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-01-21T16:37:44Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "subscription amount on the website only includes price paid, not deposit",
@@ -9755,7 +12629,8 @@
     "closed": null,
     "labels": [
       "accessibility",
-      "chore"
+      "chore",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -9896,7 +12771,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/699",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:50:38Z",
     "labels": [
       "bug"
     ],
@@ -9916,55 +12791,129 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/700",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:55:15Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "Language in Menu Revision",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/701",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T14:57:54Z",
     "labels": [
-      "bug"
+      "chore"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
-    "issue": "Add footnotes for subscription events based on tags in notes",
+    "issue": "As a data editor or dataset user, I want all source citations for all events so that I can tell which ones came from logbooks, address books, or cards.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/702",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2020-12-11T19:20:21Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "Updated data exports to include source type or footnote to specific source",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/703",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2020-12-10T21:47:57Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "1.3"
   },
   {
     "issue": "titles without years generate 100 years tweets with duplicate period ",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/704",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-10T15:57:53Z",
     "labels": [
       "bug"
     ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "Admin data download for creators to include VIAFs",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/705",
+    "estimate": "",
+    "closed": "2020-12-10T16:10:43Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "As a data editor, I need to enter subscriptions for the same person that start on the same date if they have different end dates, so I can track different subscriptions purchased at the same time.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/711",
+    "estimate": 0,
+    "closed": "2020-12-10T16:13:35Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "events without titles (such as subscriptions) display strangely on card detail pages",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/712",
+    "estimate": "",
+    "closed": "2020-12-10T16:01:15Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "rename subscription type \"other\" to \"separate deposit\"",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/713",
+    "estimate": "",
+    "closed": "2020-12-10T16:09:12Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "1.3"
+  },
+  {
+    "issue": "admin autocompletes error with django-autocomplete-light version 3.8.1",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/716",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug",
+      "\ud83d\udea7 maintenance"
+    ],
     "milestone": ""
+  },
+  {
+    "issue": "As a data user, I want to see multiple source types and source citations when an event is documented in multiple sources, so that I can understand and access the sources for the data.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/717",
+    "estimate": 2,
+    "closed": "2021-01-22T15:01:31Z",
+    "labels": [],
+    "milestone": "1.4 \u2014 updates for revised data exports"
+  },
+  {
+    "issue": "As an events data user, I want borrowing duration available in days so that I can easily calculate and compare borrowing events with known durations.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/718",
+    "estimate": 0,
+    "closed": "2021-01-22T15:00:23Z",
+    "labels": [],
+    "milestone": "1.4 \u2014 updates for revised data exports"
   },
   {
     "issue": "As a content editor, I want to merge person records so that I can combine account records when I've identified duplicated people.",
@@ -9976,12 +12925,209 @@
     "milestone": "Personography merge function"
   },
   {
+    "issue": "make data exports scripts more efficient",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/723",
+    "estimate": "",
+    "closed": "2021-01-21T20:29:14Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "1.4 \u2014 updates for revised data exports"
+  },
+  {
+    "issue": "Upgrade to newer version of python 3 in production",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/724",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Book Dataset\u2014include public notes field",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/725",
+    "estimate": "",
+    "closed": "2021-02-26T16:19:30Z",
+    "labels": [
+      "wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error when deleting address not associated with an account",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/726",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "event export 1.1 does not include subscription price/deposit for separate deposit events",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/727",
+    "estimate": "",
+    "closed": "2021-03-25T02:31:13Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to embed external content in editorial and other pages, so that I can include dynamic content in essays.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/731",
+    "estimate": 1,
+    "closed": "2021-04-01T13:31:05Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Rename \"separate deposit,\" \"separate payment.\"",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/732",
+    "estimate": "",
+    "closed": "2021-08-06T18:13:40Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "100years twitter bot code doesn't handle renewal/subscription with no duration",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/734",
+    "estimate": "",
+    "closed": "2021-05-06T20:53:56Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Multiple Reimbursements, Same Day",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/737",
+    "estimate": "",
+    "closed": "2021-08-06T18:12:21Z",
+    "labels": [
+      "enhancement",
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Books That Did Not Circulate",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/738",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Footnote Book Sources in Data Export",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/739",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, when I merge two individuals, I want the notes field to include the date when the merge was completed, so that I can keep track of biographical work in the archive.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/74",
     "estimate": 1,
     "closed": "2018-04-12T19:31:43Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Expand Footer",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/740",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate CSV of a filtered list of members",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/741",
+    "estimate": "",
+    "closed": "2021-08-05T15:22:04Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Event sorting order on website",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/743",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add zenodo metadata file and create CITATION.cff",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/744",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "migrate to PUL infrastructure, postgres, and solr 8 (v 1.5.3)",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/745",
+    "estimate": "",
+    "closed": "2021-09-16T14:10:30Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add test matrix to CI; test with postgres, solr 8, python 3.6",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/747",
+    "estimate": "",
+    "closed": "2021-08-30T17:02:26Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "consolidate all solr schema changes into configset, no schema api fields",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/749",
+    "estimate": "",
+    "closed": "2021-08-30T17:03:05Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -9992,6 +13138,37 @@
     "closed": "2018-05-14T17:40:57Z",
     "labels": [],
     "milestone": "Card import & bibliographic admin"
+  },
+  {
+    "issue": "years for members with multi-year range membership and no other activity are reported incorrectly",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/750",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "post migration cleanup (v 1.5.4)",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/752",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "configure solr replication for better resiliency",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/754",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to see a listing of reimbursements that an individual's account received, so that I can examine patterns in reimbursements as part of the lending library.",
@@ -10427,8 +13604,10 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/49",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-05-21T17:39:55Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -10441,6 +13620,62 @@
     "milestone": ""
   },
   {
+    "issue": "switch unit tests build from travis-ci to GitHub Actions",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/55",
+    "estimate": "",
+    "closed": "2021-05-21T17:36:05Z",
+    "labels": [
+      "\ud83d\udea7 maintenance",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Support configset management via HTTP APIs",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/56",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "queryset get_stats method isn't returning any stats",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/57",
+    "estimate": "",
+    "closed": "2021-01-21T20:32:32Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Improve SolrQuerySet caching and query efficiency",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/58",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Parasolr doesn't find model indexable subclass ",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/59",
+    "estimate": "",
+    "closed": "2021-05-21T17:38:32Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Provides a queryset model that makes working with Solr queries as close to a Django queryset as possible",
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/6",
@@ -10448,6 +13683,17 @@
     "closed": "2019-03-05T21:44:41Z",
     "labels": [],
     "milestone": "0.1 initial release"
+  },
+  {
+    "issue": "parasolr default indexing shouldn't require schema customization",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/63",
+    "estimate": "",
+    "closed": "2021-05-21T17:37:12Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Provides a manage command to manually update solr schema",
@@ -12580,7 +15826,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "3.4"
+    "milestone": "3.5"
   },
   {
     "issue": "editorial page should list newest essays first",
@@ -12754,7 +16000,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/298",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-15T15:46:52Z",
     "labels": [
       "chore"
     ],
@@ -12883,7 +16129,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/311",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-18T18:52:15Z",
     "labels": [
       "bug"
     ],
@@ -12894,8 +16140,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/313",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2021-06-14T21:29:10Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -13005,11 +16253,11 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/327",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-06-07T19:14:13Z",
     "labels": [
       "bug"
     ],
-    "milestone": "3.4"
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see numbered results so I can keep track of results as I\u2019m scrolling and paging through.",
@@ -13073,16 +16321,17 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
-    "issue": "split out CI builds",
+    "issue": "move ci to github actions",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/338",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-05-19T15:09:31Z",
     "labels": [
-      "chore"
+      "chore",
+      "\ud83d\udea7 maintenance"
     ],
     "milestone": ""
   },
@@ -13091,11 +16340,11 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/339",
     "estimate": "",
-    "closed": null,
+    "closed": "2020-12-18T15:13:37Z",
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
     "issue": "As a user, I want to see a simple timeline visualization of works by publication year so that I can get a sense of how the materials are distributed by time.",
@@ -13135,7 +16384,7 @@
     "estimate": 2,
     "closed": "2020-09-10T14:48:44Z",
     "labels": [
-      "design"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -13168,7 +16417,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "3.5"
   },
   {
     "issue": "handle hyphenated words caused by page breaks in the text",
@@ -13193,6 +16442,29 @@
     "milestone": ""
   },
   {
+    "issue": "Long project role title creates misalignment on contributor page",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/355",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Switch out semantic-ui for foomantic-ui and address out of date javascript dependencies",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/357",
+    "estimate": "",
+    "closed": "2021-05-21T15:24:33Z",
+    "labels": [
+      "awaiting testing",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want to add a work to my Zotero library from the individual item page so that I can save it for research without having to go back to the list of results.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/36",
@@ -13200,6 +16472,72 @@
     "closed": "2018-05-15T20:18:58Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "update hover and focus styles ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/360",
+    "estimate": "",
+    "closed": "2021-05-21T16:05:23Z",
+    "labels": [
+      "accessibility",
+      "enhancement",
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement visual review workflow",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/365",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Server error when accessing pages that reference built styles via webpack-loader",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/366",
+    "estimate": "",
+    "closed": "2021-06-04T21:07:10Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design an additional field for \"Edition\" on the work's detail view to communicate a work's edition information",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/367",
+    "estimate": 1,
+    "closed": "2021-06-14T13:25:49Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a variant for the label on the source field on the work's detail view so the language would include ECCO sources",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/368",
+    "estimate": 1,
+    "closed": "2021-06-14T12:33:59Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want a bulk import of content from Gale/ECCO so that I can add content to the site that is not available from HathiTrust.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/369",
+    "estimate": 5,
+    "closed": "2021-06-16T17:08:30Z",
+    "labels": [],
+    "milestone": "v3.7"
   },
   {
     "issue": "As a user browsing the list of collections, I want to see brief summary statistics so I can decide which collections of materials I want to browse.",
@@ -13211,6 +16549,127 @@
     "milestone": "Search Filtering and Highlighting"
   },
   {
+    "issue": "As an admin, I want to add one or several new items from Gale/ECCO via the admin interface so that I can add content to the site after initial bulk import without developer assistance.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/370",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want a way to suppress items in bulk from the admin digitized works list so that I can manage the content if an agreement for content expires.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/371",
+    "estimate": 1,
+    "closed": "2021-06-16T15:56:45Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user, I want to search and browse digitized volumes across all sources so that I can find any materials in the archive, whether from HathiTrust or Gale/ECCO.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/372",
+    "estimate": 0,
+    "closed": "2021-06-25T11:06:37Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user viewing keyword search results, I want to see a few text snippets from the full text of a works from Gale/ECCO so that I can see how my search terms are used in context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/373",
+    "estimate": 0,
+    "closed": "2021-06-16T14:26:03Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user, I want to view a page for content from ECCO in Gale Primary Sources by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/374",
+    "estimate": 1,
+    "closed": "2021-07-07T14:09:41Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user viewing an item from ECCO in keyword search results, I want to see page image thumbnails and text snippets that match my search terms so I can see how many and what kind of pages match my search terms.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/375",
+    "estimate": 1,
+    "closed": "2021-06-15T18:48:24Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user, when I'm viewing an item from Gale/ECCO, I want to see the Gale identifier and link to view the item on Gale Primary Sources so that I can get to the Gale version of the document ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/376",
+    "estimate": 1,
+    "closed": "2021-06-15T17:18:42Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user, I want to search within a single Gale/ECCO item so that I can find more page results and keywords in context than are available on the main archive search.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/377",
+    "estimate": 0,
+    "closed": "2021-06-16T13:56:50Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As an admin, I want the CSV export to include source so that I can distinguish content from HathiTrust, Gale/ECCO, etc.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/378",
+    "estimate": 0,
+    "closed": "2021-06-15T15:52:51Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "As a user, I want to add a Gale/ECCO work to my Zotero library from the item page or the search results page, so that I can save references for later research or citation.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/379",
+    "estimate": 1,
+    "closed": "2021-06-22T18:53:59Z",
+    "labels": [],
+    "milestone": "v3.7"
+  },
+  {
+    "issue": "Design icons that represent \u201cexcerpt\u201d for items contained within a book, and \u201carticle\u201d for items contained within a periodical, so that users can easily distinguish the types of items they are viewing.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/380",
+    "estimate": 2,
+    "closed": "2021-06-14T13:22:01Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Browser in mobile view hides second hit for keyword search results with 2 hits",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/388",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want a bulk import of MARC metadata from Gale/ECCO so that I can view and search each record by its metadata",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/389",
+    "estimate": 2,
+    "closed": "2021-06-25T18:15:13Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Mockup: archive search page",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/39",
@@ -13218,6 +16677,93 @@
     "closed": "2018-05-22T20:05:58Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "Gale/ECCO import & functionality (full works / no excerpts)",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/391",
+    "estimate": "",
+    "closed": "2021-07-08T18:34:33Z",
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "excerpt support",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/392",
+    "estimate": "",
+    "closed": "2021-08-02T20:14:31Z",
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to include book excerpts and articles as well as full volumes, so that I can include material that is specifically about prosody from longer works about other subjects.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/393",
+    "estimate": 2,
+    "closed": "2021-07-07T14:15:25Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want item type and book excerpt/article metadata included in admin CSV exports so I can review all information in the system",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/394",
+    "estimate": 1,
+    "closed": "2021-07-15T15:30:55Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to convert existing full HathiTrust items into excerpts so that I can include just the parts of those document that are about prosody.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/395",
+    "estimate": 3,
+    "closed": "2021-07-29T19:08:36Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want the option of importing two different sections from the same HathiTrust work so I can include multiple articles or chapters from a single journal issue or book.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/396",
+    "estimate": 2,
+    "closed": "2021-07-12T21:24:59Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I'm looking at search results I want to see an indicator when something is an excerpt or an article, so that I can tell what kind of content I'm looking at.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/397",
+    "estimate": 2,
+    "closed": "2021-07-30T20:23:49Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I'm looking at the details for an item I want to see an indicator if it's an excerpt or article so I understand the content better.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/398",
+    "estimate": 2,
+    "closed": "2021-07-20T15:40:29Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to harvest metadata for book excerpts and articles so that I can save them for citation.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/399",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "question"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want a bulk import of HathiTrust materials so that previously identified and downloaded data can be added to the system.",
@@ -13238,6 +16784,55 @@
     "milestone": "Search Filtering and Highlighting"
   },
   {
+    "issue": "As a user, I want to search and browse content across all types so that I can find any results in full volumes as well as excerpts.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/400",
+    "estimate": 0,
+    "closed": "2021-07-29T19:02:46Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to search within a book excerpt or article so that I can see more than two results for my search terms in context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/401",
+    "estimate": 0,
+    "closed": "2021-07-29T19:01:51Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "set up black and isort pre-commit hooks",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/402",
+    "estimate": "",
+    "closed": "2021-06-22T21:44:54Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want my Zotero metadata to include the PPA item URL so that I can easily link back to and cite an item I found on the PPA.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/404",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "correct the following ESTC numbers in Gale ID lookup",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/408",
+    "estimate": "",
+    "closed": "2021-07-06T19:05:08Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Mockup: collections list page",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/41",
@@ -13254,6 +16849,92 @@
     "closed": "2018-05-18T15:46:14Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "test indexing on PUL infrastructure",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/420",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create zenodo metadata file",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/422",
+    "estimate": "",
+    "closed": "2021-08-03T21:17:33Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "update CITATION.cff file with current information",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/423",
+    "estimate": "",
+    "closed": "2021-08-05T15:47:52Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add ISSN and CC-BY license to footer",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/424",
+    "estimate": "",
+    "closed": "2021-08-02T20:56:01Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want the Source id link in list view to go to the first page of the excerpt for articles and excerpts",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/427",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "regularly synchronize HathiTrust pairtree data",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/428",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "suppress unapi item id for excerpts",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/430",
+    "estimate": "",
+    "closed": "2021-08-04T19:54:45Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "syntax error loading google fonts from semantic",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/431",
+    "estimate": "",
+    "closed": "2021-08-04T22:43:36Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Styles: editorial list",
@@ -13767,6 +17448,50 @@
     "milestone": ""
   },
   {
+    "issue": "Iteration report links lead to 404",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/23",
+    "estimate": "",
+    "closed": "2020-12-01T16:01:12Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "iteration report with no releases have an empty release heading but no text to indicate no release",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/25",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a new layout for quarterly dev schedule",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/26",
+    "estimate": "",
+    "closed": "2021-03-12T21:09:56Z",
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add workflow documention explaining how to report a bug",
+    "project": "princeton-cdh.github.io",
+    "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/29",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Convert release report to separate action",
     "project": "princeton-cdh.github.io",
     "url": "https://api.github.com/repos/Princeton-CDH/princeton-cdh.github.io/issues/3",
@@ -13980,7 +17705,6 @@
     "estimate": "",
     "closed": "2020-09-17T21:43:27Z",
     "labels": [
-      "awaiting review",
       "design"
     ],
     "milestone": ""
@@ -14283,6 +18007,17 @@
     "labels": [
       "bug",
       "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "single author / DOI running together on home page and issue list",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/176",
+    "estimate": "",
+    "closed": "2021-07-14T20:57:52Z",
+    "labels": [
+      "bug"
     ],
     "milestone": ""
   },
