@@ -30,6 +30,12 @@ Install npm dependencies:
 npm install
 ```
 
+And run locally:
+
+```
+hugo server -D
+```
+
 ## Creating iteration reports
 
 First, edit the iteration definition file `iterations.json` to add the dates for the next iteration. Push the change to github to trigger the iteration summary GitHub Action to run.
