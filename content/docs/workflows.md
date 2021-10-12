@@ -107,17 +107,19 @@ ZenHub organizes dev and design issues using kanban-style boards; as issues are 
 - an issue starts in the “icebox”, a place for work that isn’t ready to start yet
 - issues that are ready to be worked on in the current iteration are in the “backlog”
 - developers claim (assign) issues in the backlog and move them to “in progress”
-- when a feature’s code has been reviewed it goes to “development complete”
+- when a feature’s code and any visual changes have been reviewed it goes to “development complete”
 - when a feature is ready to be tested it is delivered with notes and moved to “QA”
 - if the feature doesn’t pass testing it moves back to “in progress” for further work
 - if it does pass testing, it is closed and automatically moved to “completed”
 
 The Project Manager uses GitHub and ZenHub extensively to participate in testing of issues and to get a sense of what the dev & design team is actively working on and has completed. These tools offer a variety of reporting functions to get a better picture of how the team works together to author source code.
 
+Developers submitting code that introduces visual or behavioral changes also participate in the visual review process. If automated software (Percy) detects that the code introduces desired visual changes, the UX designer reviews these changes. If the changes were unintentional, the developer revises the code to prevent introducing visual or behavioral regressions.
+
 ## UX Design
 
 ### Tools
-CDH projects may use [Figma](https://www.figma.com/) to create and store designs and possibly also [Zeplin](https://zeplin.io/) for "handing off" designs to developers. Design tasks are tracked on GitHub/ZenHub as issues, in a similar manner to features in development.
+CDH projects may use [Figma](https://www.figma.com/) to create and store designs and possibly also [Zeplin](https://zeplin.io/) for "handing off" designs to developers. The visual review process may use [Percy](https://percy.io). Design tasks are tracked on GitHub/ZenHub as issues, in a similar manner to features in development.
 
 ### Workflow
 The UX Designer collaborates with the dev team in two-week “iterations”. At the end of each iteration, design tasks that are completed and have passed the review stage will be ready for implementation in the upcoming iteration. During iterations the UX Designer also focuses on designing/researching/testing for long-term design goals for the project (within the scope of the project grant cycle).
@@ -134,3 +136,5 @@ As design issues are worked on they move through a pipeline of different stages 
 - when a feature is ready to be reviewed it is delivered with notes and moved to “QA”
 - if the design issue doesn’t pass the review the UX Designer works to identify and address what revisions it will need, - where it moves back to “in progress” for further work
 - if it does pass the review, it is closed and automatically moved to “completed”.
+
+The UX designer also participates in review of visual and behavioral changes introduced by developers. When a pull request is opened that introduced visual changes, the UX designer uses Percy to comment on the changes or request further work. This ensures that only code implementing desired visual changes is merged.
