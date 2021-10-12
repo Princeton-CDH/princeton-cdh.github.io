@@ -107,7 +107,7 @@ ZenHub organizes dev and design issues using kanban-style boards; as issues are 
 - an issue starts in the “icebox”, a place for work that isn’t ready to start yet
 - issues that are ready to be worked on in the current iteration are in the “backlog”
 - developers claim (assign) issues in the backlog and move them to “in progress”
-- when a feature’s code and visual changes have been reviewed it goes to “development complete”
+- when a feature’s code and any visual changes have been reviewed it goes to “development complete”
 - when a feature is ready to be tested it is delivered with notes and moved to “QA”
 - if the feature doesn’t pass testing it moves back to “in progress” for further work
 - if it does pass testing, it is closed and automatically moved to “completed”

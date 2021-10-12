@@ -79,7 +79,7 @@ Python-based software used to create database-driven websites, frequently used b
 Two different CMS options used by the CDH, built on top of Django.
 
 ### Percy
-An automated platform for visual review. This software creates images of a website to compare how it appears across various browsers and devices, and detects when developers introduce code that changes the look of the site. When visual changes are detected, the UX designer can use Percy to pinpoint what will be changed, and work with the developer to ensure the changes match the design specifications.
+[Percy](https://percy.io/) is an automated platform for visual review. This software creates images of a website to compare how it appears across various browsers and devices, and detects when developers introduce code that changes the look of the site. When visual changes are detected, the UX designer can use Percy to pinpoint what will be changed, and work with the developer to ensure the changes match the design specifications.
 
 ### FF
 Acronym for the Firefox browser.
