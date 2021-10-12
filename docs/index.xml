@@ -271,6 +271,7 @@ Many of the terms above are interdependent.
 &lt;li>if it does pass testing, it is closed and automatically moved to “completed”&lt;/li>
 &lt;/ul>
 &lt;p>The Project Manager uses GitHub and ZenHub extensively to participate in testing of issues and to get a sense of what the dev &amp;amp; design team is actively working on and has completed. These tools offer a variety of reporting functions to get a better picture of how the team works together to author source code.&lt;/p>
+&lt;p>Conversations about a feature should be kept on GitHub, either on the issue or pull request (PR) (&lt;a href="../terms-definitions/#code-review">learn more about PRs&lt;/a>). PR-specific code discussions should remain on the PR thread, but decisions about implementation or other high-level conversations should be discussed on the issue&amp;rsquo;s thread. To-do lists should be on the issue unless specific to the PR, particularly when pausing or handing off work. And since conversations can get noisy, tag people in a comment if you want to get their input.&lt;/p>
 &lt;p>Developers submitting code that introduces visual or behavioral changes also participate in the visual review process. If automated software (Percy) detects that the code introduces desired visual changes, the UX designer reviews these changes. If the changes were unintentional, the developer revises the code to prevent introducing visual or behavioral regressions.&lt;/p>
 &lt;h2 id="ux-design">UX Design&lt;/h2>
 &lt;h3 id="tools-6">Tools&lt;/h3>
