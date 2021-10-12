@@ -20,13 +20,13 @@ Workflow These types of conversations normally happen on Slack.
  polling the team for advice on how to handle some part of the project data notifying the team that work is starting to implement a feature of the project checking whether an observed phenomenon is a bug reporting on what team members accomplished during the day asking team members to review or test a feature or design thanking and appreciating team members  These types of conversations normally require further documentation, such as email or google doc.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/docs/workflows/"><meta property="article:section" content="docs">
-<meta property="article:modified_time" content="2021-10-11T09:35:20-04:00"><meta property="og:site_name" content="Dev/Design @ CDH">
+<meta property="article:modified_time" content="2021-10-12T09:37:02-04:00"><meta property="og:site_name" content="Dev/Design @ CDH">
 <meta itemprop=name content="Workflows">
 <meta itemprop=description content="Communication Tools Project teams communicate primarily over Slack, using a channel in the CDH @ Princeton workspace. Project team members can be added to the CDH slack as single-channel guests so that they don’t have additional noise from other CDH channels. The Project may also maintain its own Slack workspace separate from CDH.
 Workflow These types of conversations normally happen on Slack.
  polling the team for advice on how to handle some part of the project data notifying the team that work is starting to implement a feature of the project checking whether an observed phenomenon is a bug reporting on what team members accomplished during the day asking team members to review or test a feature or design thanking and appreciating team members  These types of conversations normally require further documentation, such as email or google doc.">
-<meta itemprop=dateModified content="2021-10-11T09:35:20-04:00">
-<meta itemprop=wordCount content="1326">
+<meta itemprop=dateModified content="2021-10-12T09:37:02-04:00">
+<meta itemprop=wordCount content="1438">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Workflows">
 <meta name=twitter:description content="Communication Tools Project teams communicate primarily over Slack, using a channel in the CDH @ Princeton workspace. Project team members can be added to the CDH slack as single-channel guests so that they don’t have additional noise from other CDH channels. The Project may also maintain its own Slack workspace separate from CDH.
@@ -237,15 +237,16 @@ Workflow These types of conversations normally happen on Slack.
 <li>an issue starts in the “icebox”, a place for work that isn’t ready to start yet</li>
 <li>issues that are ready to be worked on in the current iteration are in the “backlog”</li>
 <li>developers claim (assign) issues in the backlog and move them to “in progress”</li>
-<li>when a feature’s code has been reviewed it goes to “development complete”</li>
+<li>when a feature’s code and any visual changes have been reviewed it goes to “development complete”</li>
 <li>when a feature is ready to be tested it is delivered with notes and moved to “QA”</li>
 <li>if the feature doesn’t pass testing it moves back to “in progress” for further work</li>
 <li>if it does pass testing, it is closed and automatically moved to “completed”</li>
 </ul>
 <p>The Project Manager uses GitHub and ZenHub extensively to participate in testing of issues and to get a sense of what the dev & design team is actively working on and has completed. These tools offer a variety of reporting functions to get a better picture of how the team works together to author source code.</p>
+<p>Developers submitting code that introduces visual or behavioral changes also participate in the visual review process. If automated software (Percy) detects that the code introduces desired visual changes, the UX designer reviews these changes. If the changes were unintentional, the developer revises the code to prevent introducing visual or behavioral regressions.</p>
 <h2 id=ux-design>UX Design</h2>
 <h3 id=tools-6>Tools</h3>
-<p>CDH projects may use <a href=https://www.figma.com/>Figma</a> to create and store designs and possibly also <a href=https://zeplin.io/>Zeplin</a> for &ldquo;handing off&rdquo; designs to developers. Design tasks are tracked on GitHub/ZenHub as issues, in a similar manner to features in development.</p>
+<p>CDH projects may use <a href=https://www.figma.com/>Figma</a> to create and store designs and possibly also <a href=https://zeplin.io/>Zeplin</a> for &ldquo;handing off&rdquo; designs to developers. The visual review process may use <a href=https://percy.io>Percy</a>. Design tasks are tracked on GitHub/ZenHub as issues, in a similar manner to features in development.</p>
 <h3 id=workflow-5>Workflow</h3>
 <p>The UX Designer collaborates with the dev team in two-week “iterations”. At the end of each iteration, design tasks that are completed and have passed the review stage will be ready for implementation in the upcoming iteration. During iterations the UX Designer also focuses on designing/researching/testing for long-term design goals for the project (within the scope of the project grant cycle).</p>
 <p>Design tasks are tracked using GitHub issues with the label “Design”. Often, design issues are written in the following form (focused on user goals and actions) - for example, “Design a way for the user to access all the essays that an issue contains so they can read them.” Other design issues include “Design chores”, which often entail updating the designs or some type of cleanup. Design chores are neither estimated nor reviewed.</p>
@@ -259,7 +260,8 @@ Workflow These types of conversations normally happen on Slack.
 <li>if the design issue doesn’t pass the review the UX Designer works to identify and address what revisions it will need, - where it moves back to “in progress” for further work</li>
 <li>if it does pass the review, it is closed and automatically moved to “completed”.</li>
 </ul>
-<div class="text-muted mt-5 pt-3 border-top">Last modified October 11, 2021: <a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/commit/de9e898bc5e414b0f1f42319cbf374c7928dd8e4>Iteration report for Sep 27 – Oct 8 (de9e898)</a>
+<p>The UX designer also participates in review of visual and behavioral changes introduced by developers. When a pull request is opened that introduced visual changes, the UX designer uses Percy to comment on the changes or request further work. This ensures that only code implementing desired visual changes is merged.</p>
+<div class="text-muted mt-5 pt-3 border-top">Last modified October 12, 2021: <a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/commit/cde13a4c63db47e95eab03eb9aa2e42e0dff130a>Merge pull request #32 from Princeton-CDH/visual-testing-info (cde13a4)</a>
 </div>
 </div>
 </main>
