@@ -114,6 +114,8 @@ ZenHub organizes dev and design issues using kanban-style boards; as issues are 
 
 The Project Manager uses GitHub and ZenHub extensively to participate in testing of issues and to get a sense of what the dev & design team is actively working on and has completed. These tools offer a variety of reporting functions to get a better picture of how the team works together to author source code.
 
+Conversations about a feature should be kept on GitHub, either on the issue or pull request (PR) ([learn more about PRs](../terms-definitions/#code-review)). PR-specific code discussions should remain on the PR thread, but decisions about implementation or other high-level conversations should be discussed on the issue's thread. To-do lists should be on the issue unless specific to the PR, particularly when pausing or handing off work. And since conversations can get noisy, tag people in a comment if you want to get their input.
+
 Developers submitting code that introduces visual or behavioral changes also participate in the visual review process. If automated software (Percy) detects that the code introduces desired visual changes, the UX designer reviews these changes. If the changes were unintentional, the developer revises the code to prevent introducing visual or behavioral regressions.
 
 ## UX Design
