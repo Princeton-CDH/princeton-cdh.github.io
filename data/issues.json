@@ -2722,6 +2722,17 @@
     "milestone": ""
   },
   {
+    "issue": "rich text problem for event speakers with urls",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/393",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As an admin, I want to create and manage landing pages and other content pages so that I can publish top-level and other content pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/4",
@@ -4912,6 +4923,50 @@
     "milestone": ""
   },
   {
+    "issue": "Add 500 page to urls.py so that we can manually trigger a 500 error for archive",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/286",
+    "estimate": "",
+    "closed": "2021-10-14T17:44:04Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Overwrite Wayback's 404 and 500 pages with Derrida's",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/287",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate a full seed list for webscrape",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/288",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Configure sitemap for archive",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/289",
+    "estimate": "",
+    "closed": "2021-10-14T20:09:14Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "interventions: pen color if ink used",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/29",
@@ -4919,6 +4974,28 @@
     "closed": "2017-07-18T11:33:30Z",
     "labels": [],
     "milestone": "Intervention database (phase I)"
+  },
+  {
+    "issue": "create mapping list for proxy iiif images in the archive site",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/290",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add lastmodified field to sitemap field after publishing archived site",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/291",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "books: associate people",
@@ -6294,7 +6371,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a content admin, I want FGP stub documents with no descriptions suppressed and flagged and the notes updated so that I can reviewed and described them if appropriate.",
@@ -6533,13 +6610,13 @@
     "milestone": ""
   },
   {
-    "issue": "document title for public site",
+    "issue": "As a user, I want to see document titles that include shelfmark and type so I can distinguish documents at a glance.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/235",
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "source string method should include language if it is specified and not English",
@@ -6550,7 +6627,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Fragment reassociation doesn't update the search index",
@@ -6655,7 +6732,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Revise the scholarship records page layout so the list of cited work looks more like a bibliography than a list",
@@ -6733,7 +6810,7 @@
       "\ud83d\udee0\ufe0f chore",
       "Epic"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "set up js & css builds",
@@ -6777,7 +6854,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "set up js testing",
@@ -6848,7 +6925,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Conduct research, explore and design a logo so that there is a visual representation of the project",
@@ -6903,7 +6980,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a user viewing search results, when my search terms occur in the description I want to see keywords in context so that I can see why the document was included in the search results.",
@@ -6912,7 +6989,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a user, when I search on shelfmark I want to see documents associated directly with that fragment before documents that include the shelfmark in a description or notes, so I can easily find documents by shelfmark.",
@@ -6921,7 +6998,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a user, I want keyword search results sorted by relevance by default, so that I see the best matches first.",
@@ -6930,7 +7007,7 @@
     "estimate": 0,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a user, I want to sort search results by the number of scholarship records so I can easily find documents with scholarly work available or that have not been written about.",
@@ -6939,7 +7016,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Numbers of transcriptions aren't populating correctly into the admin site.",
@@ -6947,8 +7024,144 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/295",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
+  },
+  {
+    "issue": "As a user I would like to filter my search by document type so that I can view specific types of documents",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/296",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to order my search results based on scholarship records so that I can view documents with highest or lowest number of scholarship records first",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/297",
+    "estimate": "",
+    "closed": "2021-10-14T14:39:18Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I would like to see which page I'm on when viewing search results and navigate between pages so I can see more results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/298",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to see transcription excerpts in my search results so I can tell which records have a transcription and can see some of the content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/299",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to know explicitly when a search result does not have any scholarship records so that I don't have to compare with results that do.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/300",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Search and Search Results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/301",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to see information on the editor on a document detail view so I know who created the transcription.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/302",
+    "estimate": "",
+    "closed": "2021-10-14T14:59:23Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I would like to see a permalink for each document so that I can easily to document, remember and share links.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/303",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to view transcriptions of each document on its detail view so that I can conduct in-depth research on them",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/304",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Document Detail View",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/305",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement content alignment and margins for the document detail view on mobile, and spacing on mobile and desktop based on the designs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/306",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement the alignment, spacing and margins for the search page for desktop and mobile based on the designs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/307",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement type sizes for the document detail view on mobile and desktop based on the designs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/308",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement type sizes for the search page on mobile and desktop based on the designs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/309",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Revise the new search prototype so that when a search term is entered document tags are matched while showing contextual information about the clusters in which the documents appear so that the user can learn more about the position of the document with respect to the clusters",
@@ -6959,6 +7172,104 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement styles for the search box on mobile and desktop",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/310",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement styles for a search submit button on mobile and desktop based on the designs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/311",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Implement styles for site navigation on mobile ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/312",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I would like to see scholarship records for each document so that I can learn more about research that has been done about each document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/313",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Design a homepage for the site through which users can be introduced to the project a little more and can use to navigate to other parts of the site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/314",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a Contact Us page for the site through which users can learn about ways they can connect with the team",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/315",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a 404 error page for the site to help inform users in the case of an error",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/316",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a 500 error page for the site to help inform users in the case of an error",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/317",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, if I try to access a document by an old PGPID, I want to be automatically redirected to the correct page so that I can find the record I'm looking for.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/318",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a content editor, I want to to download a list of sources which have footnote \u201ceditions\u201d so that we can determine which books have yet to be mined for transcriptions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/319",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -7451,10 +7762,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/90",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-12T21:59:49Z",
     "labels": [
-      "Epic",
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
     ],
     "milestone": ""
   },
