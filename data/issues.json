@@ -4927,7 +4927,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/285",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-28T14:39:38Z",
     "labels": [
       "chore"
     ],
@@ -4945,7 +4945,7 @@
     "milestone": ""
   },
   {
-    "issue": "Overwrite Wayback's 404 and 500 pages with Derrida's",
+    "issue": "customize nginx site for wayback deploy",
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/287",
     "estimate": "",
@@ -4960,7 +4960,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/288",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-28T13:16:20Z",
     "labels": [
       "chore"
     ],
@@ -4991,7 +4991,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/290",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-28T13:24:36Z",
     "labels": [
       "chore"
     ],
@@ -5013,7 +5013,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/293",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-28T16:28:07Z",
     "labels": [],
     "milestone": ""
   },
@@ -5022,8 +5022,30 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/294",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-28T16:29:29Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Block scrape of googleanalytics",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/295",
+    "estimate": "",
+    "closed": "2021-10-29T13:22:49Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Configure custom driver for browsertrix for visualization and deep zoom",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/296",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -6310,10 +6332,11 @@
     "issue": "Include English and Hebrew typefaces on the Document Detail View and the Search Results ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/181",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2021-10-30T02:03:46Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -6770,7 +6793,6 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -6834,7 +6856,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/260",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-26T15:12:17Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "Epic"
@@ -6950,7 +6972,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/280",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-10-26T15:11:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7015,7 +7037,7 @@
     "issue": "As a user viewing search results, when my search terms occur in the description I want to see keywords in context so that I can see why the document was included in the search results.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/291",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
@@ -7025,10 +7047,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/292",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-10-26T15:41:57Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7103,8 +7123,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/300",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2021-10-29T13:30:08Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7134,10 +7156,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/303",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-10-25T14:51:29Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7294,7 +7314,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/318",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-10-26T15:46:23Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7383,8 +7403,41 @@
     "estimate": 2,
     "closed": "2021-10-22T14:35:52Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "scholarship counts should always be displayed in search results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/337",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the scholarship records and the external links current format in the search results, and the document detail view navigation designs so that it's more readable for the users",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/338",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "localize search form",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/339",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -18445,6 +18498,28 @@
     "closed": "2020-06-25T17:21:23Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "Link navigation doesn't work on dev site",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/184",
+    "estimate": "",
+    "closed": "2021-10-27T17:58:48Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "For Issue 2, make snippets visible on the homepage",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/186",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to preview all content for a single issue.",
