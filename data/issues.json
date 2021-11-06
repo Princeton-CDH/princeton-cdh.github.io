@@ -2744,6 +2744,17 @@
     "milestone": ""
   },
   {
+    "issue": "wagtail admin search on events causes a 500 error",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/396",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As an admin, I want to create and manage landing pages and other content pages so that I can publish top-level and other content pages.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/4",
@@ -6666,7 +6677,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/235",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-11-02T21:02:04Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7038,8 +7049,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/291",
     "estimate": 2,
-    "closed": null,
-    "labels": [],
+    "closed": "2021-11-05T19:32:06Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7064,7 +7077,7 @@
     "issue": "As a user, I want to sort search results by the number of scholarship records so I can easily find documents with scholarly work available or that have not been written about.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/294",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
@@ -7124,9 +7137,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/300",
     "estimate": 1,
     "closed": "2021-10-29T13:30:08Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7196,7 +7207,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/307",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-01T20:28:04Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7435,11 +7446,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/339",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-05T13:33:29Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Design document detail pages so that researchers can learn more about a particular document and the fragment where it belongs",
@@ -7453,6 +7464,17 @@
     "milestone": ""
   },
   {
+    "issue": "tag model names and help text for translation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/342",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a user, I want to read the geniza project in my native language so it's easier to understand.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/35",
@@ -7460,6 +7482,18 @@
     "closed": "2021-02-11T19:33:46Z",
     "labels": [
       "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the latin typeface options so that they could be more narrow and condensed while readable to match the hebrew typeface style",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/350",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -18227,7 +18261,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "Issue 2"
   },
   {
     "issue": "Add the zoom function to essay images when needed ",
@@ -18477,7 +18511,7 @@
       "bug",
       "\u267f accessibility"
     ],
-    "milestone": ""
+    "milestone": "Issue 2"
   },
   {
     "issue": "single author / DOI running together on home page and issue list",
@@ -18519,7 +18553,34 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": ""
+    "milestone": "Issue 2"
+  },
+  {
+    "issue": "Add issue credits section to issue page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/187",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 2"
+  },
+  {
+    "issue": "Add credits to issue 1",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/188",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 2"
+  },
+  {
+    "issue": "Add credits for issue 2",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/189",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 2"
   },
   {
     "issue": "As a reader, I want to preview all content for a single issue.",
@@ -18529,6 +18590,15 @@
     "closed": "2020-06-22T15:11:21Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "revise issue list theme word wrapping",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/190",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 2"
   },
   {
     "issue": "As a reader, I want to see all the authors who have contributed content to Startwords.",
