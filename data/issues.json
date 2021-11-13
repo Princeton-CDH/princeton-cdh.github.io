@@ -5053,7 +5053,29 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/296",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-12T14:55:02Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update CITATION with new versions and contributors",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/297",
+    "estimate": "",
+    "closed": "2021-11-11T21:26:35Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Replace figshare DOI with dataspace DOI in templates",
+    "project": "derrida-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/298",
+    "estimate": "",
+    "closed": "2021-11-11T22:38:51Z",
     "labels": [
       "chore"
     ],
@@ -6346,8 +6368,7 @@
     "estimate": 3,
     "closed": "2021-10-30T02:03:46Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6629,15 +6650,13 @@
     "milestone": ""
   },
   {
-    "issue": "add admin edit link to document detail page if user has permission to edit documents",
+    "issue": "As an admin, I want an easy way to get from the public document view to the edit view on the admin site, so I can make edits and correct errors..",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/231",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [
-      "\ud83d\udee0\ufe0f chore"
-    ],
-    "milestone": ""
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "500 error when trying to create a new document in the admin",
@@ -6802,7 +6821,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/253",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-11-12T18:01:40Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7050,9 +7069,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/291",
     "estimate": 2,
     "closed": "2021-11-05T19:32:06Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7069,7 +7086,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/293",
     "estimate": 0,
-    "closed": null,
+    "closed": "2021-11-10T15:58:53Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7078,7 +7095,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/294",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-11-10T15:57:47Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7097,7 +7114,7 @@
     "issue": "As a user I would like to filter my search by document type so that I can view specific types of documents",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/296",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
@@ -7198,7 +7215,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/306",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-10T20:36:43Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7216,7 +7233,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/308",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-10T20:36:02Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7225,7 +7242,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/309",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-08T17:38:48Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7245,7 +7262,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/310",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-08T17:39:29Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7254,7 +7271,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/311",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-08T17:39:52Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7434,7 +7451,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/338",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-12T18:02:59Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
@@ -7490,10 +7507,43 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/350",
     "estimate": 2,
+    "closed": "2021-11-10T14:36:44Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "change document title to use colon instead of semicolon",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/354",
+    "estimate": "",
+    "closed": "2021-11-10T16:13:59Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Fix document detail view spacing for entries with editors",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/357",
+    "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Apply Roboto Condensed and Taamey Frank CLM typefaces to all MVP designs to decide if current leading and type sizes need any change and for the dev team to refer to updated designs for implementation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/358",
+    "estimate": "",
+    "closed": "2021-11-12T18:03:56Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7507,6 +7557,28 @@
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Update fixtures with real data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/360",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Revised designs for pagination controls",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/361",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Revise the information that appear on the cluster search results to better match researchers' needs",
@@ -18540,7 +18612,7 @@
     "estimate": "",
     "closed": "2021-10-27T17:58:48Z",
     "labels": [
-      "chore"
+      "bug"
     ],
     "milestone": ""
   },
