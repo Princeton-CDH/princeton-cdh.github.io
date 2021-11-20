@@ -6654,8 +6654,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/231",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2021-11-19T19:50:10Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -6806,11 +6808,11 @@
     "milestone": ""
   },
   {
-    "issue": "problems with footnote/source formatting, including Goitein \"typed texts\" ",
+    "issue": "omit volume when outputting footnote/source string for unpublished sources (i.e. Goitein \"typed texts\")",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/252",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-19T19:46:22Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -7057,7 +7059,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/290",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-17T20:36:45Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7115,7 +7117,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/296",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-11-19T19:53:59Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7135,7 +7137,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/298",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-11-19T19:39:10Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7288,7 +7290,7 @@
     "issue": "As a user I would like to see scholarship records for each document so that I can learn more about research that has been done about each document",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/313",
-    "estimate": 1,
+    "estimate": 5,
     "closed": null,
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
@@ -7371,8 +7373,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/321",
     "estimate": 5,
-    "closed": null,
-    "labels": [],
+    "closed": "2021-11-19T19:29:45Z",
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7440,11 +7444,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/337",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-19T19:37:34Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Revise the scholarship records and the external links current format in the search results, and the document detail view navigation designs so that it's more readable for the users",
@@ -7529,9 +7533,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/357",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-19T19:36:04Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7563,7 +7567,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/360",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-15T15:57:27Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7576,9 +7580,34 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Clean up all MVP auto-layouts on Figma so that container structures are implemented consistently ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/367",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add and organize type styles on Figma for a thorough design documentation + inspection capabilities for dev",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/368",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Revise the information that appear on the cluster search results to better match researchers' needs",
@@ -7590,6 +7619,69 @@
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Design an expanded/clicked site navigation on mobile so that users can use the site on mobile",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/370",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "permissions error trying to delete a document because it wants to delete the associated log entry",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/371",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "implement redirects for PGPv3 urls",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/373",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As an admin, I want the site to provide XML sitemaps for document and content pages so that site content will be findable by search engines",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/374",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "add last modified headers and conditional processing ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/375",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "revise sync_transcriptions script to handle multiple editions, no editions, etc.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/377",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "run sample content through google cloud vision api ",
@@ -13746,6 +13838,29 @@
     "milestone": ""
   },
   {
+    "issue": "Update Bibliographies to Reflect Name Change at Special Collections",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/757",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement",
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Addresses without coordinates in members dataset",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/758",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to see a listing of reimbursements that an individual's account received, so that I can examine patterns in reimbursements as part of the lending library.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/76",
@@ -18329,7 +18444,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/133",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-18T19:40:24Z",
     "labels": [
       "chore"
     ],
@@ -18628,7 +18743,7 @@
     "milestone": "Issue 2"
   },
   {
-    "issue": "Add issue credits section to issue page",
+    "issue": "Add issue credits section to issue template",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/187",
     "estimate": "",
@@ -18681,7 +18796,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "Issue 2"
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to view the project's masthead.",
@@ -18981,7 +19096,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "Issue 2"
+    "milestone": ""
   },
   {
     "issue": "Plain text output should include space between paragraphs",
@@ -19219,7 +19334,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "Issue 2"
+    "milestone": ""
   },
   {
     "issue": "Design a footer for desktop",
