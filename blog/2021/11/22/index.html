@@ -4,7 +4,6 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=generator content="Hugo 0.87.0">
 <meta name=ROBOTS content="NOINDEX, NOFOLLOW">
-<link rel=alternate type=application/rss+xml href=/blog/index.xml>
 <link rel="shortcut icon" href=/favicons/favicon.ico>
 <link rel=apple-touch-icon href=/favicons/apple-touch-icon-180x180.png sizes=180x180>
 <link rel=icon type=image/png href=/favicons/favicon-16x16.png sizes=16x16>
@@ -15,19 +14,32 @@
 <link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96>
 <link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144>
 <link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192>
-<title>Dev/Design Posts | Dev/Design @ CDH</title><meta property="og:title" content="Dev/Design Posts">
-<meta property="og:description" content="Technical documentation and reports for CDH Development and Design Team">
-<meta property="og:type" content="website">
-<meta property="og:url" content="/blog/"><meta property="og:site_name" content="Dev/Design @ CDH">
-<meta itemprop=name content="Dev/Design Posts">
-<meta itemprop=description content="Technical documentation and reports for CDH Development and Design Team"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Dev/Design Posts">
-<meta name=twitter:description content="Technical documentation and reports for CDH Development and Design Team">
+<title>Nov 8 - Nov 19, 2021 | Dev/Design @ CDH</title><meta property="og:title" content="Nov 8 - Nov 19, 2021">
+<meta property="og:description" content="Our rolling development velocity after this iteration is picking up (7.8) as geniza work gains momentum. For development work, we completed 21 issues and 13 points. We made what we hope to be the final Derrida release.
+derrida We developed a custom driver in order to best archive the visualization page.
+startwords A small bugfix was implemented so that authors could interact with their essay drafts on the render QA site.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/blog/2021/11/22/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-11-22T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-11-22T14:35:39-05:00"><meta property="og:site_name" content="Dev/Design @ CDH">
+<meta itemprop=name content="Nov 8 - Nov 19, 2021">
+<meta itemprop=description content="Our rolling development velocity after this iteration is picking up (7.8) as geniza work gains momentum. For development work, we completed 21 issues and 13 points. We made what we hope to be the final Derrida release.
+derrida We developed a custom driver in order to best archive the visualization page.
+startwords A small bugfix was implemented so that authors could interact with their essay drafts on the render QA site."><meta itemprop=datePublished content="2021-11-22T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-11-22T14:35:39-05:00">
+<meta itemprop=wordCount content="71">
+<meta itemprop=keywords content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Nov 8 - Nov 19, 2021">
+<meta name=twitter:description content="Our rolling development velocity after this iteration is picking up (7.8) as geniza work gains momentum. For development work, we completed 21 issues and 13 points. We made what we hope to be the final Derrida release.
+derrida We developed a custom driver in order to best archive the visualization page.
+startwords A small bugfix was implemented so that authors could interact with their essay drafts on the render QA site.">
 <link rel=preload href=/scss/main.min.7394f235a2ed4734212458954d1360a10785e3c2824479b6de6ba962dddf9cd2.css as=style>
 <link href=/scss/main.min.7394f235a2ed4734212458954d1360a10785e3c2824479b6de6ba962dddf9cd2.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
+<script type=text/javascript src=/js/velocity.js defer></script>
 </head>
-<body class="td-section td-blog">
+<body class="td-page td-blog">
 <header>
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
 <a class=navbar-brand href=/>
@@ -59,7 +71,7 @@
 <nav class="collapse td-sidebar-nav" id=td-section-nav>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/blog/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Posts</a>
+<a href=/blog/ class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Posts</a>
 </li>
 <ul>
 <li class="collapse show" id=blog>
@@ -70,11 +82,11 @@
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202007warranty-report-shakespeare-and-company-project href=/blog/2020/07/warranty-report-shakespeare-and-company-project/>Warranty Report: Shakespeare and Company Project</a>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/blog/iteration-reports/ class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Iteration Reports</a>
+<a href=/blog/iteration-reports/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Iteration Reports</a>
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20211122 href=/blog/2021/11/22/>Nov 8 - Nov 19, 2021</a>
+<a class="td-sidebar-link td-sidebar-link__page active" id=m-blog20211122 href=/blog/2021/11/22/>Nov 8 - Nov 19, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20211108 href=/blog/2021/11/08/>Oct 25 - Nov 5, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20211025 href=/blog/2021/10/25/>Oct 11 - Oct 22, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20211011 href=/blog/2021/10/11/>Sep 27 - Oct 8, 2021</a>
@@ -118,123 +130,144 @@
 </div>
 <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-<a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/edit/master/content/en/blog/_index.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/Princeton-CDH/princeton-cdh.github.io/issues/new?title=Dev/Design%20Posts" target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/edit/master/content/en/blog/iteration-reports/2021-11-22/index.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/Princeton-CDH/princeton-cdh.github.io/issues/new?title=Nov%208%20-%20Nov%2019,%202021" target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 </div>
 </div>
 <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role=main>
-<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=/blog/index.xml target=_blank>
+<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=/blog/iteration-reports/index.xml target=_blank>
 RSS <i class="fa fa-rss ml-2"></i>
 </a>
-<div class=row>
-<div class=col-12>
-<h2>Posts in 2020</h2>
-<ul class="list-unstyled mt-4">
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/10/05/>Sep 21 - Oct 2, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Monday, October 05, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">This iteration marked our official start of work on the Geniza research partnership, now that the charter has been signed. We made progress on data modeling and a preliminary search prototype, but since none of those tasks have been completed they …</p>
-<p class=pt-0><a href=/blog/2020/10/05/>Read more</a></p>
+<div class=td-content>
+<h1>Nov 8 - Nov 19, 2021</h1>
+<div class="td-byline mb-4">
+<time datetime=2021-11-22 class=text-muted>Monday, November 22, 2021</time>
 </div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/09/21/>Sep 7 - 18, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Monday, September 21, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">This iteration included work to complete cdh-web version 2.7, which consisted of maintenance upgrades and a few helpful features for fall; maintenance and bug fixes on PPA, including a refactor to use in-house Solr library parasolr, removing a …</p>
-<p class=pt-0><a href=/blog/2020/09/21/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/09/08/>Aug 24 - Sep 4, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Tuesday, September 08, 2020 in Iteration Reports</small></p>
-<figure class="float-left mr-3 pt-1 d-none d-md-block" style=width:250px>
-<img src=/blog/2020/09/08/featured_startwords_404design_huff12e89c7eb4ae2479e06a3c7a794ddf_79450_250x125_fill_catmullrom_smart1_3.png alt="Featured Image for Aug 24 - Sep 4, 2020" width=250 height=125>
-</figure>
-<p class="pt-0 mt-0">The last iteration we continued to spend time on project maintenance and updates. Closed issues on Startwords and the pucas release are continuing and closing out work from the previous iterations. Active work this iteration that is incomplete and …</p>
-<p class=pt-0><a href=/blog/2020/09/08/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/08/24/>Aug 10 - 20, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Monday, August 24, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">Not a lot of development work reported on GitHub because the primary team focus continues to be planning the new Research Partnership project. This iteration also included time spent on two internal project retrospectives (Shakespeare and Company …</p>
-<p class=pt-0><a href=/blog/2020/08/24/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/08/10/>Jul 20 - Aug 7, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Monday, August 10, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">Three week iteration due to multiple team member week-long vacations. Less development work than usual because the primary team focus has been on planning the new Research Partnership project.
-</p>
-<p class=pt-0><a href=/blog/2020/08/10/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/07/warranty-report-shakespeare-and-company-project/>Warranty Report: Shakespeare and Company Project</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Thursday, July 30, 2020 in Posts</small></p>
-<p class="pt-0 mt-0">The Shakespeare and Company Project launched in May 2020 with a 1.0 release on May 14th, and had a planned 1.1 release on May 29th.
-The warranty period began on June 2nd, 2020 and ended August 2nd.
-Releases included work needed for updates to the …</p>
-<p class=pt-0><a href=/blog/2020/07/warranty-report-shakespeare-and-company-project/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/07/21/>Jun 29 - Jul 17, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Tuesday, July 21, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">PEMM release with final updates to close out grant year.
-Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code
-</p>
-<p class=pt-0><a href=/blog/2020/07/21/>Read more</a></p>
-</div>
-</li>
-<li class="media mb-4">
-<div class=media-body>
-<h5 class="mt-0 mb-1"><a href=/blog/2020/06/30/>Jun 15 — 26, 2020</a></h5>
-<p class="mb-2 mb-md-3"><small class=text-muted>Tuesday, June 30, 2020 in Iteration Reports</small></p>
-<p class="pt-0 mt-0">Lots of progress on Startwords, but no official release until Issue 1 is ready. PEMM release put off until this iteration since only one feature was completed.
-Demo Startwords Scrollable contextual notes We have an about page! Pull quote! Our first …</p>
-<p class=pt-0><a href=/blog/2020/06/30/>Read more</a></p>
-</div>
+<p>Report on iteration Nov 8, 2021 — Nov 19, 2021</p>
+<p>Our rolling development velocity after this iteration is picking up (7.8) as geniza work gains momentum. For development work, we completed 21 issues and 13 points. We made what we hope to be the final Derrida release.</p>
+<h2 id=derrida>derrida</h2>
+<p>We developed a custom driver in order to best archive the visualization page.</p>
+<h2 id=startwords>startwords</h2>
+<p>A small bugfix was implemented so that authors could interact with their essay drafts on the render QA site.</p>
+<hr>
+<h2>Active projects</h2>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/derrida-django>derrida-django</a> (0 points,
+3 issues)
+<li><a href=https://github.com/Princeton-CDH/geniza>geniza</a> (17 points,
+21 issues)
+<li><a href=https://github.com/Princeton-CDH/startwords>startwords</a> (0 points,
+1 issue)
+</ul>
+<h2>Releases</h2>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/releases/tag/1.3.3>derrida-django 1.3.3</a> — Thursday Nov 11, 2021
 </li>
 </ul>
-</div>
-</div>
-<div class="row pl-2 pt-2">
-<div class=col>
-<ul class="pagination pagination-default">
-<li class=page-item>
-<a href=/blog/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a>
+<h2>Velocity</h2>
+<h3>Development</h3>
+<p>13 points,
+21 issues. Rolling velocity: <b>7.33</b></p>
+<canvas id=dev-velocity></canvas>
+<h3>Design</h3>
+<p>4 points,
+4 issues.
+Rolling velocity: <b>3</b></p>
+<canvas id=design-velocity></canvas>
+<script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-08-23","2021-09-06","2021-09-27","2021-10-11","2021-10-25","2021-11-08"],points:[2,14,3,0,9,13],issues:[7,15,5,9,17,21],velocity:[6,7.67,6.33,5.67,4,7.33]}),drawVelocityChart({id:'design-velocity',labels:["2021-08-23","2021-09-06","2021-09-27","2021-10-11","2021-10-25","2021-11-08"],points:[0,5,0,2,3,4],issues:[null,2,null,2,1,4],velocity:[4.67,6.33,1.67,2.33,1.67,3]})})</script>
+<hr>
+<section class=issue-details>
+<h3>Closed issues by project</h3>
+<ul>
+<li>derrida-django
+<ul>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/296>Configure custom driver for browsertrix for visualization and deep zoom</a>
+<span class=labels>chore</span>
 </li>
-<li class=page-item>
-<a href=/blog/page/3/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/297>Update CITATION with new versions and contributors</a>
+<span class=labels>chore</span>
 </li>
-<li class=page-item>
-<a href=/blog/ aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class=page-item>
-<a href=/blog/page/2/ aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class=page-item>
-<a href=/blog/page/3/ aria-label="Page 3" class=page-link role=button>3</a>
-</li>
-<li class="page-item active">
-<a href=# aria-current=page aria-label="Page 4" class=page-link role=button>4</a>
-</li>
-<li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=Next class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=Last class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;&#187;</span></a>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/298>Replace figshare DOI with dataspace DOI in templates</a>
+<span class=labels>chore</span>
 </li>
 </ul>
-</div>
+</li>
+<li>geniza
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/231>As an admin, I want an easy way to get from the public document view to the edit view on the admin site, so I can make edits and correct errors..</a>
+<span class=points>(1)</span>
+<span class=labels>🗜️ awaiting testing</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/252>omit volume when outputting footnote/source string for unpublished sources (i.e. Goitein "typed texts")</a>
+<span class=labels>🐛 bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/253>Revise the scholarship records page layout so the list of cited work looks more like a bibliography than a list</a>
+<span class=points>(2)</span>
+<span class=labels>🗺️ design</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/290>configure solr replication for better resiliency</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/293>As a user, I want keyword search results sorted by relevance by default, so that I see the best matches first.</a>
+<span class=points>(0)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/294>As a user, I want to sort search results by the number of scholarship records so I can easily find documents with scholarly work available or that have not been written about.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/296>As a user I would like to filter my search by document type so that I can view specific types of documents</a>
+<span class=points>(3)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/298>As a user I would like to see which page I'm on when viewing search results and navigate between pages so I can see more results.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/306>Implement content alignment and margins for the document detail view on mobile, and spacing on mobile and desktop based on the designs</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/308>Implement type sizes for the document detail view on mobile and desktop based on the designs</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/309>Implement type sizes for the search page on mobile and desktop based on the designs</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/310>Implement styles for the search box on mobile and desktop</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/311>Implement styles for a search submit button on mobile and desktop based on the designs</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/321>As an admin, I want TEI transcription content regularly synchronized to the new database so that transcriptions are updated with changes in the current system.</a>
+<span class=points>(5)</span>
+<span class=labels>❓ question</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/337>scholarship counts should always be displayed in search results</a>
+<span class=labels>🐛 bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/338>Revise the scholarship records and the external links current format in the search results, and the document detail view navigation designs so that it's more readable for the users</a>
+<span class=labels>🛠️ chore, 🗺️ design</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/350>Revise the latin typeface options so that they could be more narrow and condensed while readable to match the hebrew typeface style</a>
+<span class=points>(2)</span>
+<span class=labels>🗺️ design</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/354>change document title to use colon instead of semicolon</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/357>Fix document detail view spacing for entries with editors</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/358>Apply Roboto Condensed and Taamey Frank CLM typefaces to all MVP designs to decide if current leading and type sizes need any change and for the dev team to refer to updated designs for implementation</a>
+<span class=labels>🛠️ chore, 🗺️ design</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/360>Update fixtures with real data</a>
+<span class=labels>🛠️ chore</span>
+</li>
+</ul>
+</li>
+<li>startwords
+<ul>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/133>turn on branch protection for main branch</a>
+<span class=labels>chore</span>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<hr>
 </div>
 </main>
 </div>
