@@ -1652,7 +1652,7 @@
         "notes": {},
         "dev": {
             "points": 13,
-            "issues": 21,
+            "issues": 23,
             "velocity": 7.33
         },
         "design": {
@@ -1663,12 +1663,14 @@
         "project_issues": {
             "geniza": 21,
             "derrida-django": 3,
-            "startwords": 1
+            "startwords": 1,
+            "mep-django": 2
         },
         "project_points": {
             "geniza": 17,
             "derrida-django": 0,
-            "startwords": 0
+            "startwords": 0,
+            "mep-django": 0
         }
     },
     {
@@ -1688,10 +1690,15 @@
         },
         "design": {
             "points": 0,
+            "issues": 2,
             "velocity": 2.33
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "geniza": 2
+        },
+        "project_points": {
+            "geniza": 0
+        }
     },
     {
         "from": "2021-12-06",
