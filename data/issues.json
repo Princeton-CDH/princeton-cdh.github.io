@@ -7590,7 +7590,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/367",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-24T21:03:20Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
@@ -7598,11 +7598,11 @@
     "milestone": ""
   },
   {
-    "issue": "Add and organize type styles on Figma for a thorough design documentation + inspection capabilities for dev",
+    "issue": "Add and organize header and body type styles on Figma for a thorough design documentation + inspection capabilities for dev",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/368",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-24T21:02:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
@@ -7684,6 +7684,17 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
+    "issue": "Revise the regular search results page so that tags appear at the bottom of each result + a max number of tags to appear",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/379",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "run sample content through google cloud vision api ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/38",
@@ -7691,6 +7702,17 @@
     "closed": "2021-05-27T13:29:31Z",
     "labels": [
       "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add a second Hebrew typeface for UI controls / labels / non-body text use ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/380",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -13842,9 +13864,10 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/757",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-21T18:24:00Z",
     "labels": [
       "enhancement",
+      "awaiting testing",
       "chore"
     ],
     "milestone": ""
@@ -13854,9 +13877,10 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/758",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-11-21T18:26:57Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "awaiting testing"
     ],
     "milestone": ""
   },
