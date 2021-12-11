@@ -5826,6 +5826,17 @@
     "milestone": ""
   },
   {
+    "issue": "update to support newer versions of python & django",
+    "project": "djiffy",
+    "url": "https://api.github.com/repos/Princeton-CDH/djiffy/issues/6",
+    "estimate": "",
+    "closed": "2021-12-08T21:29:12Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a data editor, I want metadata from the geniza spreadsheet indexed into Solr so I can run more advanced searches to find geniza materials.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1",
@@ -6705,7 +6716,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/236",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-06T19:22:47Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6985,7 +6996,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/278",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -7292,10 +7305,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/313",
     "estimate": 8,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-12-06T15:55:31Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7396,7 +7407,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/323",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-09T22:07:20Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7630,8 +7641,7 @@
     "estimate": 1,
     "closed": "2021-12-03T17:16:28Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7690,8 +7700,8 @@
     "issue": "Revise the regular search results page so that tags appear at the bottom of each result + a max number of tags to appear",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/379",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2021-12-08T17:01:53Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7713,10 +7723,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/380",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-12-10T17:43:48Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7778,10 +7787,10 @@
     "issue": "As a front-end user, I want to be able to quickly see the section a footnote is referencing in a particular source.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/389",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "test aligning TEI transcriptions with output from eScriptorium and Google Cloud Vision API",
@@ -7798,9 +7807,144 @@
     "issue": "As a front-end user, I want to see brief citations in the Document Detail view, more concise than those in Scholarship Records.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/390",
+    "estimate": 3,
+    "closed": "2021-12-08T16:19:05Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Add primary and secondary colors + for light and dark variants and apply to UI components ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/391",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose styles for header, footer, navigation, form, and content components ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/392",
+    "estimate": 3,
+    "closed": "2021-12-10T20:11:02Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add styles for UI components in default, hover, focus, active, and disabled states ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/393",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the logo ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/394",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update sitewide type to use purchased fonts, new styles",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/396",
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a front-end user I want to see the footer to view a list of website's menu items, licensing, accessibility, and links to social media ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/397",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want visual signifiers for tabs on the document detail view and scholarship records pages when I hover, click on, or navigate through them with the keyboard, or when they are disabled ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/398",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Look into type configuration for Percy and deploying to QA and production ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/400",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement type styles for Latin and Hebrew Transcriptions ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/401",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement colors for light and dark mode ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/402",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "increase footnote source field site in document detail view so the names and titles don't get cut off",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/404",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the type styles to ensure they are appropriate for the new typefaces (Greta Sans and Frank Ruehl) + organize them on Figma so that it's easier for the dev team to implement them",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/408",
+    "estimate": 3,
+    "closed": "2021-12-10T17:29:38Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the logo based on the feedback received in issue #283",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/409",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {
@@ -8144,11 +8288,11 @@
     "milestone": ""
   },
   {
-    "issue": "Revise designs on desktop for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
+    "issue": "Design a footer for the site ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/82",
-    "estimate": 3,
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-12-11T00:57:32Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -18796,7 +18940,7 @@
       "bug",
       "\u267f accessibility"
     ],
-    "milestone": "Issue 2"
+    "milestone": ""
   },
   {
     "issue": "single author / DOI running together on home page and issue list",
@@ -18888,7 +19032,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/195",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-09T19:57:33Z",
     "labels": [],
     "milestone": "Issue 2"
   },
@@ -18919,6 +19063,24 @@
     "labels": [
       "enhancement"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "generalize common interlude styles",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/204",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "revise figure shortcode to set image width and height",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/206",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
