@@ -6010,9 +6010,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/120",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-17T18:02:30Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -6771,7 +6771,6 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -6997,7 +6996,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -7157,11 +7156,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/299",
     "estimate": 5,
-    "closed": null,
-    "labels": [
-      "\u2753 question",
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2021-12-16T22:46:34Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7321,10 +7317,10 @@
     "milestone": ""
   },
   {
-    "issue": "Design a Contact Us page for the site through which users can learn about ways they can connect with the team",
+    "issue": "Add styles for a header so that users can access the items in the main menu",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/315",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -7397,8 +7393,8 @@
     "issue": "As a user, I want to see images and transcription, if any, for all fragments associated with a document so I can see the full contents that are available.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/322",
-    "estimate": 5,
-    "closed": null,
+    "estimate": 8,
+    "closed": "2021-12-16T23:06:01Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7430,15 +7426,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/325",
     "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a content editor, I want to create and edit content pages on the site so that I can update text on the site when information changes.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/328",
-    "estimate": 5,
-    "closed": null,
+    "estimate": 8,
+    "closed": "2021-12-14T14:07:49Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7734,9 +7732,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/382",
     "estimate": "",
-    "closed": null,
-    "labels": [],
-    "milestone": ""
+    "closed": "2021-12-13T21:13:24Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a content admin, I want to easily see and sort docs in Needs Review to efficiently get through the queue. ",
@@ -7788,7 +7788,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/389",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-12-14T14:41:31Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7809,9 +7809,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/390",
     "estimate": 3,
     "closed": "2021-12-08T16:19:05Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7838,22 +7836,23 @@
     "milestone": ""
   },
   {
-    "issue": "Add styles for UI components in default, hover, focus, active, and disabled states ",
+    "issue": "Add styles for UI components in default, hover, focus, active, and disabled states for light and dark mode ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/393",
-    "estimate": 3,
+    "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\udcac awaiting review",
+      "Epic"
     ],
     "milestone": ""
   },
   {
-    "issue": "Revise the logo ",
+    "issue": "Add styles for buttons so site users can build an expectation of what its function and behavior would be ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/394",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -7892,11 +7891,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/400",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-16T16:37:55Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Implement type styles for Latin and Hebrew Transcriptions ",
@@ -7948,6 +7947,123 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want to be able to publish new pages that appear in the nav menu or about submenu.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/410",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "off-screen menu shows up when resizing browser window",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/411",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want numeric footnote locations automatically prefixed with 'pp.' so the meaning of the numbers will be clear to public site users.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/412",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Wagtail bootstrap script doesn't work as expected",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/413",
+    "estimate": "",
+    "closed": "2021-12-15T19:19:35Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Add styles to the the search form components so site users can curate their search ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/419",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add styles to the tab component so site users can navigate once viewing a specific document to view its details, scholarship records, and external links related to it ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/420",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add styles for links so site users can identify links and check it out   ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/423",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add styles for pagination so users have a way to navigate between search result pages on the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/424",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add styles for the footer so users have a way to view all the pages of the site in one place, an additional way to navigate the site, and a way to access additional links",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/425",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement UI components in default, hover, focus, active, and disabled states for light and dark mode on mobile and desktop",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/426",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to change site language so that I can switch languages when I don't want to use the browser-detected default.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/429",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
     "issue": "As a user, I want to see existing TEI transcriptions displayed with IIIF images so I can see how using annotations for transcription might work.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/43",
@@ -7959,6 +8075,166 @@
     "milestone": ""
   },
   {
+    "issue": "As a scholar, I want to copy and paste transcription text so that I can easily export it and use it elsewhere.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/434",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Design a component that allows users switch between languages on the site so that they can navigate the site using their preferred language",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/435",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Configuration to get fonts working in Percy",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/436",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design for the Hebrew version of the site so users can navigate the site according to the direction of the language for mobile and desktop",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/437",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the search form for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/438",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the site header and main navigation for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/439",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the site footer for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/440",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the pagination for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/441",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the tabs for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/442",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the search page for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/443",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the document detail view page for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/444",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the scholarship records page for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/445",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the generic content pages for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/446",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the homepage for the Hebrew version of the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/448",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want visual signifiers for the search form on the search page to improve my experience when I hover, click on, navigate through them with the keyboard, or know when an item is disabled",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/449",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Create a sitemap of the search, holistic search, and doc detail page to communicate the site structure and how the pieces are connected ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/45",
@@ -7967,6 +8243,51 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want to see buttons along with visual signifiers for them tabs on the site to improve my experience when I hover, click on, navigate through them with the keyboard, or know when an item is disabled",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/450",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want to see pagination and visual signifiers for when I hover or click on, use the keyboard to navigate the pages, or when the next/previous pages are disabled to help me navigate through search results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/451",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want to see the header and visual signifiers for the site's main menu to improve my experience when I hover, click on, navigate through menu items with the keyboard, or when an item is disabled",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/452",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user I want to recognize links and visual signifiers for links to improve my experience when I hover, click on, or navigate through links with the keyboard",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/453",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement designs for Hebrew UI components",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/455",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8014,12 +8335,13 @@
     "milestone": ""
   },
   {
-    "issue": "Design filters and the search menu so that users know how they can perform search on documents ",
+    "issue": "Revise the fomatting of edition/discussion/transcription and linking to them on scholarship records to make linked content clearer, easier to read, and more meaningful for users ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/50",
-    "estimate": 2,
+    "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
