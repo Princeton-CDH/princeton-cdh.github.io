@@ -467,9 +467,10 @@
         "from": "2021-10-11",
         "to": "2021-10-22",
         "projects": [
-            "geniza"
+            "geniza",
+            "derrida"
         ],
-        "partial": [],
+        "partial": ["derrida"],
         "notes": {}
     },
     {
@@ -477,24 +478,18 @@
         "to": "2021-11-05",
         "projects": [
             "geniza",
-            "ppa"
+            "derrida"
         ],
-        "partial": [
-            "ppa"
-        ],
-        "notes": {
-            "ppa": [
-                "plan for migration"
-            ]
-        }
+        "partial": ["derrida"]
     },
     {
         "from": "2021-11-08",
         "to": "2021-11-19",
         "projects": [
-            "geniza"
+            "geniza",
+            "derrida"
         ],
-        "notes": {}
+        "partial": ["derrida"]
     },
     {
         "from": "2021-11-22",
@@ -510,27 +505,83 @@
     },
     {
         "from": "2021-12-06",
-        "to": "2021-12-17",
+        "to": "2021-12-31",
         "projects": [
-            "ppa",
-            "startwords"
+            "startwords",
+            "geniza"
         ],
         "notes": {
             "startwords": [
                 "Issue 2"
-            ],
-            "ppa": [
-                "PUL migration"
             ]
         }
     },
     {
-        "from": "2021-12-20",
-        "to": "2021-12-31",
+        "from": "2022-01-03",
+        "to": "2022-01-14",
         "projects": [
+            "geniza",
+            "startwords"
+        ],
+        "partial": ["geniza", "startwords"],
+        "notes": {"startwords": ["issue 3 prep"]}
+    },
+    {
+        "from": "2022-01-17",
+        "to": "2022-01-14",
+        "comment": "R&D week",
+        "skip": "yes"
+    },
+    {
+        "from": "2022-01-24",
+        "to": "2022-02-04",
+        "projects": [
+            "geniza"
+        ],
+        "partial": ["geniza"],
+        "notes": {"geniza": ["", "v4.0 (MVP)"]}
+    },
+    {
+        "from": "2022-02-07",
+        "to": "2022-02-18",
+        "projects": [
+            "geniza",
+            "derrida"
+        ],
+        "partial": ["derrida", "geniza"],
+        "notes": {"derrida": ["finish archive site"]}
+    },
+    {
+        "from": "2022-02-21",
+        "to": "2022-03-04",
+        "projects": [
+            "geniza",
             "ppa"
         ],
-        "partial": [],
+        "notes": {"ppa": ["migration planning", ""]},
+        "partial": ["ppa", "geniza"]
+    },
+    {
+        "from": "2022-03-07",
+        "to": "2022-03-18",
+        "projects": [
+            "geniza"
+        ],
         "notes": {}
+    },
+    {
+        "from": "2022-03-21",
+        "to": "2022-04-01",
+        "projects": [
+            "geniza",
+            "startwords"
+        ],
+        "partial": ["geniza"],
+        "notes": {
+            "startwords": [
+                "Issue 3"
+            ]
+        }
     }
+
 ]

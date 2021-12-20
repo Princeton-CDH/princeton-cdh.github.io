@@ -55,6 +55,11 @@ date_range:
             {{ $current_start := time $iteration.from }}
             {{ $iteration_days := div (sub $next_start.Unix $current_start.Unix)  86400 }}
             {{ $scratch.Set  "iteration_weeks" (div $iteration_days 7) }}
+        {{ else if $iteration.to }}
+            {{ $current_start := time $iteration.from }}
+            {{ $current_end := time $iteration.to }}
+            {{ $iteration_days := div (sub $current_end.Unix $current_start.Unix)  86400 }}
+            {{ $scratch.Set  "iteration_weeks" (div $iteration_days 7) }}
         {{ else }}
             {{/* if next iteration is not defined, default to 2 weeks */}}
             {{ $scratch.Set  "iteration_weeks" 2 }}
