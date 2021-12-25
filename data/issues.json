@@ -7309,8 +7309,8 @@
     "issue": "Design a homepage for the site through which users can be introduced to the project a little more and can use to navigate to other parts of the site",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/314",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2021-12-21T17:58:20Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7321,7 +7321,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/315",
     "estimate": 5,
-    "closed": null,
+    "closed": "2021-12-21T17:30:36Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7425,10 +7425,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/325",
     "estimate": 5,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-12-20T19:36:57Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7742,7 +7740,7 @@
     "issue": "As a content admin, I want to easily see and sort docs in Needs Review to efficiently get through the queue. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/383",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -7817,10 +7815,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/391",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-12-21T17:54:04Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7840,10 +7837,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/393",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-21T17:51:30Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review",
       "Epic"
     ],
     "milestone": ""
@@ -7853,7 +7849,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/394",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-12-21T17:37:45Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7864,7 +7860,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/396",
     "estimate": "",
-    "closed": null,
+    "closed": "2021-12-20T19:12:40Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7940,7 +7936,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/409",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-12-21T17:44:29Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -7950,7 +7946,7 @@
     "issue": "As a content editor, I want to be able to publish new pages that appear in the nav menu or about submenu.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/410",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -7971,10 +7967,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/412",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2021-12-20T19:18:16Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7993,7 +7987,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/419",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-12-21T17:47:37Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8004,7 +7998,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/420",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-12-21T17:49:49Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8015,7 +8009,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/423",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-12-21T17:40:42Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8026,7 +8020,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/424",
     "estimate": 2,
-    "closed": null,
+    "closed": "2021-12-21T17:35:52Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8037,7 +8031,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/425",
     "estimate": 3,
-    "closed": null,
+    "closed": "2021-12-21T17:33:07Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8059,7 +8053,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/429",
     "estimate": 1,
-    "closed": null,
+    "closed": "2021-12-20T19:38:58Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8300,6 +8294,51 @@
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a user, I want to see all shelfmarks associated with a document, so that I can identify and find the supporting information from its various sources.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/460",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a front-end user I want to see the PGP logo on the site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/464",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Remove CreditsPage and Contributor models",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/465",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add dark mode snapshots to Percy builds",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/467",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Admin search (for shelfmarks) doesn't yield the expected results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/468",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Create deploy playbook for geniza i18n prototype",
@@ -14434,6 +14473,26 @@
     "milestone": ""
   },
   {
+    "issue": "100 years twitter bot needs to handle more than 15 events in a day",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/762",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "social media preview card image should use top portion of the image",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/763",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to return to the page I was on when I started the process of merging people records so that I can continue working where I left off.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/77",
@@ -19417,6 +19476,28 @@
     "milestone": "Issue 1"
   },
   {
+    "issue": "As a Spanish-speaking startwords reader, I want to be able to navigate the website to the Spanish feature",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/213",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want to be able to publish three features in an issue",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/214",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a reader, I want to download an article as a formatted PDF.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/22",
@@ -19424,6 +19505,17 @@
     "closed": "2020-08-27T20:57:46Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "Add usernames to twitter shortcodes",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/220",
+    "estimate": "",
+    "closed": "2021-12-22T18:15:43Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to download an article as plain text.",
