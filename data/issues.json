@@ -8323,7 +8323,7 @@
     "milestone": ""
   },
   {
-    "issue": "Add dark mode snapshots to Percy builds",
+    "issue": "As a front-end user, I want to be able to switch between dark and light mode manually with a toggle or button.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/467",
     "estimate": "",
@@ -8349,6 +8349,33 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want to be able to enter and edit page ranges in Source records.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/473",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Include footnotes in .csv exports",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/475",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Unable to delete documents due to lack of permissions to delete log entry",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/476",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
