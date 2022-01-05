@@ -1201,7 +1201,7 @@
         },
         "dev": {
             "points": 18,
-            "issues": 20,
+            "issues": 19,
             "velocity": 13.0
         },
         "design": {
@@ -1209,7 +1209,7 @@
             "velocity": 4.0
         },
         "project_issues": {
-            "geniza": 12,
+            "geniza": 11,
             "cdh-web": 1,
             "ppa-django": 4,
             "parasolr": 3
@@ -1247,7 +1247,7 @@
         },
         "dev": {
             "points": 18,
-            "issues": 22,
+            "issues": 18,
             "velocity": 15.33
         },
         "design": {
@@ -1256,7 +1256,7 @@
             "velocity": 1.67
         },
         "project_issues": {
-            "geniza": 22,
+            "geniza": 18,
             "ppa-django": 1
         },
         "project_points": {
@@ -1339,7 +1339,7 @@
         },
         "dev": {
             "points": 10,
-            "issues": 12,
+            "issues": 11,
             "velocity": 14.33
         },
         "design": {
@@ -1349,7 +1349,7 @@
         "project_issues": {
             "cdh-web": 2,
             "ppa-django": 7,
-            "geniza": 2,
+            "geniza": 1,
             "startwords": 1
         },
         "project_points": {
@@ -1430,7 +1430,7 @@
         },
         "dev": {
             "points": 7,
-            "issues": 10,
+            "issues": 7,
             "velocity": 8.67
         },
         "design": {
@@ -1440,7 +1440,7 @@
         },
         "project_issues": {
             "cdh-web": 8,
-            "geniza": 7
+            "geniza": 4
         },
         "project_points": {
             "cdh-web": 20,
@@ -1523,7 +1523,7 @@
         },
         "dev": {
             "points": 14,
-            "issues": 15,
+            "issues": 14,
             "velocity": 7.67
         },
         "design": {
@@ -1533,15 +1533,15 @@
         },
         "project_issues": {
             "cdh-ansible": 6,
-            "geniza": 5,
             "mep-django": 1,
-            "derrida-django": 5
+            "derrida-django": 5,
+            "geniza": 4
         },
         "project_points": {
             "cdh-ansible": 0,
-            "geniza": 13,
             "mep-django": 0,
-            "derrida-django": 6
+            "derrida-django": 6,
+            "geniza": 13
         }
     },
     {
@@ -1722,7 +1722,7 @@
         },
         "dev": {
             "points": 41,
-            "issues": 19,
+            "issues": 18,
             "velocity": 18.0
         },
         "design": {
@@ -1731,7 +1731,7 @@
             "velocity": 14.0
         },
         "project_issues": {
-            "geniza": 32,
+            "geniza": 31,
             "djiffy": 1,
             "startwords": 2
         },
