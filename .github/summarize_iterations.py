@@ -21,7 +21,7 @@ def load_issues():
                 continue
 
             # for reporting purposes, skip: wontfix, duplicate, invalid
-            skip_labels = ['wontfix', 'duplicate', 'invalid', '🖇️ duplicate']
+            skip_labels = ['wontfix','🚫 wontfix', 'duplicate', 'invalid', '🖇️ duplicate']
             if any(skip in issue['labels'] for skip in skip_labels):
                 continue
 
