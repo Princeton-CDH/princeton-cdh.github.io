@@ -6878,7 +6878,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -7331,10 +7332,11 @@
     "issue": "Design a 404 error page for the site to help inform users in the case of an error",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/316",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -7342,10 +7344,11 @@
     "issue": "Design a 500 error page for the site to help inform users in the case of an error",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/317",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -7653,13 +7656,13 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
-    "issue": "implement redirects for PGPv3 urls",
+    "issue": "As a long-time geniza researcher, I want links that I've bookmarked to redirect to the same content on the new version of the PGP site so I can access the documents I'm interested in.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/373",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7773,7 +7776,7 @@
     "milestone": ""
   },
   {
-    "issue": "Random Document View/Sort on Front End",
+    "issue": "As a user, I want an option to sort documents randomly so that I can easily discover documents I haven't looked at before.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/387",
     "estimate": "",
@@ -7861,7 +7864,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/396",
     "estimate": "",
     "closed": "2021-12-20T19:12:40Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -7943,11 +7948,11 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to be able to publish new pages that appear in the nav menu or about submenu.",
+    "issue": "As a content editor, I want to be able to manage pages and page order in the site navigation menu or about submenu, so that I can update the site as content changes.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/410",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-01-05T22:47:50Z",
     "labels": [],
     "milestone": ""
   },
@@ -8300,7 +8305,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/460",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-01-06T20:44:40Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8318,7 +8323,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/465",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-04T22:05:36Z",
     "labels": [],
     "milestone": ""
   },
@@ -8326,10 +8331,10 @@
     "issue": "As a front-end user, I want to be able to switch between dark and light mode manually with a toggle or button.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/467",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Admin search (for shelfmarks) doesn't yield the expected results",
@@ -8352,11 +8357,11 @@
     "milestone": ""
   },
   {
-    "issue": "As a content admin, I want to be able to enter and edit page ranges in Source records.",
+    "issue": "As a content admin, I want to add and edit page ranges in Source records so I can document where in a book or journal the content appears.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/473",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-05T19:58:49Z",
     "labels": [],
     "milestone": ""
   },
@@ -8374,7 +8379,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/476",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-03T22:03:03Z",
     "labels": [],
     "milestone": ""
   },
@@ -8390,6 +8395,55 @@
     "milestone": ""
   },
   {
+    "issue": "As a user I want to know when there is a 404 / not found error on the site so that I know what it is and what my options are",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/482",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a user I want to know when there is a 500 / internal server error on the site so that I know what it is and what my options are",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/483",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Display Typed Text Volume Name in Footnote Detail Source Box",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/486",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Convert percy script into percy snapshot calls",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/487",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Fix lighthouse failures",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/488",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
     "issue": "Synthesize and write a report to communicate the results of usability testing so that design decisions can be made and prioritized",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/49",
@@ -8397,6 +8451,59 @@
     "closed": "2021-01-21T21:14:25Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "suppressed documents shouldn't be included in public document search",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/492",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise document title for joins",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/493",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a front-end user, I want to use fields in my keyword searches so I can make my searches more specific and targeted.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/494",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Revise the homepage banner image on desktop and mobile",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/496",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Turn off tag case sensitivity",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/499",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -8409,6 +8516,82 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want the option to add multiple URLs to the same footnote so that we don't have separate footnotes for each link.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/501",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As an admin, I want the site to provide XML sitemaps for multiple languages",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/502",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want duplicate footnotes with different urls automatically consolidated. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/503",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a frontend user, I want to browse a list of tags used in the documents so I have another way to explore documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/504",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a frontend user, I want all tags to be clickable so I can easily view all documents with those tags. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/505",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "As a content editor, I want to be able to merge tags that are similar to decrease clutter in the database.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/506",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "django admin document filter by \"has transcription\" reports inaccurate numbers",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/507",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Clean up image filenames and organization",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/508",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
