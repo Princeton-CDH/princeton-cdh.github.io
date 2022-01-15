@@ -6876,10 +6876,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/257",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-11T16:23:49Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7344,7 +7343,7 @@
     "issue": "Design a 500 error page for the site to help inform users in the case of an error",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/317",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design",
@@ -7649,7 +7648,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/371",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-13T17:08:31Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -7662,7 +7661,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7740,7 +7740,7 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
-    "issue": "As a content admin, I want to easily see and sort docs in Needs Review to efficiently get through the queue. ",
+    "issue": "As a content admin, I want to easily see and sort documents that need review so that I can manage the queue more efficiently.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/383",
     "estimate": 1,
@@ -8074,10 +8074,10 @@
     "milestone": ""
   },
   {
-    "issue": "As a scholar, I want to copy and paste transcription text so that I can easily export it and use it elsewhere.",
+    "issue": "As a scholar, I want to get a copy of transcription text so that I can easily reference it and use it elsewhere.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/434",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
@@ -8229,7 +8229,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/449",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-13T17:28:30Z",
     "labels": [],
     "milestone": ""
   },
@@ -8245,7 +8245,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a front-end user I want to see buttons along with visual signifiers for them tabs on the site to improve my experience when I hover, click on, navigate through them with the keyboard, or know when an item is disabled",
+    "issue": "As a front-end user I want to see buttons along with visual signifiers for the tabs on the site to improve my experience when I hover, click on, navigate through them with the keyboard, or know when an item is disabled",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/450",
     "estimate": "",
@@ -8267,7 +8267,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/452",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-13T22:01:52Z",
     "labels": [],
     "milestone": ""
   },
@@ -8314,7 +8314,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/464",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-13T15:17:04Z",
     "labels": [],
     "milestone": ""
   },
@@ -8332,7 +8332,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/467",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-01-11T19:15:00Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8459,11 +8459,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/492",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-11T16:46:57Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Revise document title for joins",
@@ -8479,10 +8479,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/494",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-13T17:10:33Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -8492,7 +8490,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8553,7 +8552,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "PGP v4.0 (MVP)"
+    "milestone": ""
   },
   {
     "issue": "As a frontend user, I want all tags to be clickable so I can easily view all documents with those tags. ",
@@ -8561,7 +8560,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/505",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -8578,18 +8579,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/507",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-13T22:32:40Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Clean up image filenames and organization",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/508",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-11T15:38:38Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -8607,6 +8608,28 @@
     "milestone": ""
   },
   {
+    "issue": "As a front end user, I want Mirador's theme (light/dark mode) to match my user preference.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/512",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Require a commit message string to enable Percy in PR commits",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/513",
+    "estimate": "",
+    "closed": "2022-01-13T19:53:25Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
     "issue": "As a global admin, I want a one-time import of the list of library collections that includes name, abbreviation and location, so that I can manage the library collection info in the database.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/52",
@@ -8616,6 +8639,44 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a front end user, when I resize my browser window, I do not want to see the mobile menu appear from offscreen.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/521",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I need to be able to see that more than 5 tags exist on the search page because it's confusing to search for a tag and not see it in the results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/522",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I should not be able to sort by relevance without any search text, since relevance is not meaningful without search terms.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/523",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design an \"active filter\" indicator for the search form",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/524",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a global admin, I want to be able to add a library collection not represented on the list in order to expand our content footprint and edit those already in the list.",
