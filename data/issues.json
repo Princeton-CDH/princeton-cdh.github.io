@@ -7332,10 +7332,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/316",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-01-20T18:54:41Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7344,10 +7343,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/317",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-01-20T22:18:43Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -7590,7 +7588,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/361",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-17T19:44:48Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
@@ -7874,7 +7872,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/397",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-21T15:47:28Z",
     "labels": [],
     "milestone": ""
   },
@@ -7883,7 +7881,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/398",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-21T16:37:50Z",
     "labels": [],
     "milestone": ""
   },
@@ -7913,7 +7911,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/402",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -8078,7 +8078,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/434",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-01-17T18:17:36Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8250,7 +8250,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/450",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -8259,7 +8261,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/451",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -8276,7 +8280,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/453",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-21T16:39:13Z",
     "labels": [],
     "milestone": ""
   },
@@ -8488,10 +8492,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/496",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-01-20T18:54:00Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -8519,7 +8522,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want the option to add multiple URLs to the same footnote so that we don't have separate footnotes for each link.",
+    "issue": "As researcher, I want footnotes from the same source counted and displayed as a single scholarship record so that multiple links to parts of same document don't inflate the scholarship count and display.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/501",
     "estimate": 2,
@@ -8540,10 +8543,12 @@
     "issue": "As a content admin, I want duplicate footnotes with different urls automatically consolidated. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/503",
-    "estimate": 1,
-    "closed": null,
-    "labels": [],
-    "milestone": "PGP v4.0 (MVP)"
+    "estimate": "",
+    "closed": "2022-01-18T22:30:14Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a frontend user, I want to browse a list of tags used in the documents so I have another way to explore documents.",
@@ -8559,10 +8564,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/505",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-17T16:37:13Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -8664,7 +8667,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/523",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -8688,6 +8693,24 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "Improving txt file download on frontend especially in relation to line numbers.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/530",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Reimplement GenericRelation to allow custom on_delete",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/537",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin, I want to be able to add and edit a language, script, or correlation between language and script in our ontology, in order to expand our content footprint.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/54",
@@ -8697,6 +8720,15 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a front end user, I want to see a homepage when I first visit the website so I can learn context for its contents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/542",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to see the number of documents we have in each language/script combination, so that I can understand the relative proportions and provide information for data visualization and research. ",
@@ -14761,6 +14793,17 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "New Membership Acitivities Default",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/764",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
     "milestone": ""
   },
   {
