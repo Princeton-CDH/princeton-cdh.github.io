@@ -5968,8 +5968,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/114",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-01-28T14:48:40Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -7174,7 +7176,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/301",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-28T14:35:48Z",
     "labels": [
       "Epic"
     ],
@@ -7657,10 +7659,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/373",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-01-26T21:42:44Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7669,7 +7670,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/374",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-26T21:51:57Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7742,9 +7743,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/383",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-01-27T19:38:43Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a content editor, I would like to see the Mirador viewer for the document in the Admin Document Detail Page so I can properly consult the image while updating the metadata.",
@@ -7910,10 +7911,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/402",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-27T22:16:22Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8047,7 +8046,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/426",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-28T14:28:37Z",
     "labels": [
       "Epic"
     ],
@@ -8249,10 +8248,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/450",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-27T22:20:37Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8260,10 +8257,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/451",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-27T22:22:22Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8403,7 +8398,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/482",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-27T22:27:58Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8412,7 +8407,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/483",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-01-27T22:32:01Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8476,7 +8471,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "PGP v4.0 (MVP)"
+    "milestone": ""
   },
   {
     "issue": "As a front-end user, I want to use fields in my keyword searches so I can make my searches more specific and targeted.",
@@ -8527,7 +8522,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/501",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -8666,10 +8663,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/523",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-01-28T14:34:49Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -8702,12 +8697,14 @@
     "milestone": ""
   },
   {
-    "issue": "Reimplement GenericRelation to allow custom on_delete",
+    "issue": "As an admin, if I change a document I want the log entries to be correctly associated with the document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/537",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-01-26T21:34:20Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -8728,7 +8725,16 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
+  },
+  {
+    "issue": "Clean up Document Details page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/547",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "As a content editor, I want to see the number of documents we have in each language/script combination, so that I can understand the relative proportions and provide information for data visualization and research. ",
@@ -8738,6 +8744,15 @@
     "closed": "2021-03-11T14:49:07Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a front-end user, I want \"relevance\" sort to be selected automatically when I enter a search query, so that I am not confused by the results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/550",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As a global admin, I want a one-time import of the list of all languages and scripts, and their correlation, so that I can access, display and manage the information in the database.",
