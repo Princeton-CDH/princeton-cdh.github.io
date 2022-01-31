@@ -25,8 +25,8 @@
     {{ $scratch.Set "iteration_end" (.AddDate 0 0 1) }}
 {{ end }}
 {{ $next_start := default ($scratch.Get "iteration_end") $next_iteration.from }}
-
-<p>Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}</p>
+<p>Report on iteration {{ dateFormat "Jan 2, 2006" $iteration.from }} — {{ dateFormat "Jan 2, 2006" $iteration.to }}
+<small>(includes all issues completed between before {{ dateFormat "Jan 2, 2006" $next_start}}).</small></p>
 {{/* display any content from the file (overview of the iteration etc.) */}}
 {{ .Content }}
 
