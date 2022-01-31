@@ -512,7 +512,7 @@
         ],
         "notes": {
             "startwords": [
-                "Issue 2"
+                "Issue 2", "", "Issue 3 prep"
             ]
         }
     },
@@ -520,11 +520,8 @@
         "from": "2022-01-03",
         "to": "2022-01-14",
         "projects": [
-            "geniza",
-            "startwords"
-        ],
-        "partial": ["geniza", "startwords"],
-        "notes": {"startwords": ["issue 3 prep"]}
+            "geniza"
+        ]
     },
     {
         "from": "2022-01-17",
@@ -538,18 +535,14 @@
         "projects": [
             "geniza"
         ],
-        "partial": ["geniza"],
         "notes": {"geniza": ["", "v4.0 (MVP)"]}
     },
     {
         "from": "2022-02-07",
         "to": "2022-02-18",
         "projects": [
-            "geniza",
-            "derrida"
-        ],
-        "partial": ["derrida", "geniza"],
-        "notes": {"derrida": ["finish archive site"]}
+            "geniza"
+        ]
     },
     {
         "from": "2022-02-21",
@@ -565,9 +558,11 @@
         "from": "2022-03-07",
         "to": "2022-03-18",
         "projects": [
-            "geniza"
+            "geniza",
+            "derrida"
         ],
-        "notes": {}
+        "partial": ["derrida", "geniza"],
+        "notes": {"derrida": ["finish archive site"]}
     },
     {
         "from": "2022-03-21",
@@ -582,6 +577,10 @@
                 "Issue 3"
             ]
         }
+    },
+    {
+        "from": "2022-04-04",
+        "to": "2022-04-15"
     }
 
 ]
