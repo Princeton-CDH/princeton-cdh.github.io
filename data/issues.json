@@ -6611,7 +6611,7 @@
     "issue": "As a content editor, I want to merge document records without losing data so that I can combine records when I've identified duplicates or joins.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/225",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
@@ -7898,7 +7898,7 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
-    "issue": "Implement type styles for Latin and Hebrew Transcriptions ",
+    "issue": "As a front end user, I want a transcription and image display that works on mobile devices, and allows me to zoom in and out on images.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/401",
     "estimate": "",
@@ -8323,7 +8323,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/465",
     "estimate": "",
     "closed": "2022-01-04T22:05:36Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -8359,7 +8361,7 @@
     "issue": "As a content admin, I want to add and edit page ranges in Source records so I can document where in a book or journal the content appears.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/473",
-    "estimate": "",
+    "estimate": "1",
     "closed": "2022-01-05T19:58:49Z",
     "labels": [],
     "milestone": ""
@@ -8370,7 +8372,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/475",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -8379,7 +8383,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/476",
     "estimate": "",
     "closed": "2022-01-03T22:03:03Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -8477,7 +8483,7 @@
     "issue": "As a front-end user, I want to use fields in my keyword searches so I can make my searches more specific and targeted.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/494",
-    "estimate": 1,
+    "estimate": 2,
     "closed": "2022-01-13T17:10:33Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
