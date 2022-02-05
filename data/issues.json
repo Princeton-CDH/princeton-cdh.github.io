@@ -7218,7 +7218,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/305",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-03T16:30:16Z",
     "labels": [
       "Epic"
     ],
@@ -7416,7 +7416,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/324",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-03T19:53:25Z",
     "labels": [
       "Epic"
     ],
@@ -7683,14 +7683,14 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "PGP v4.0 (MVP)"
+    "milestone": ""
   },
   {
-    "issue": "revise sync_transcriptions script to handle multiple editions, no editions, etc.",
+    "issue": "As an admin, I want TEI transcription synchronization to handle documents with multiple transcriptions, so that content is not lost or hidden in the new system.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/377",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-02-03T19:43:19Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -7902,7 +7902,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/401",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-02T14:54:14Z",
     "labels": [],
     "milestone": ""
   },
@@ -8338,12 +8338,14 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
-    "issue": "Admin search (for shelfmarks) doesn't yield the expected results",
+    "issue": "search for partial shelfmarks doesn't yield the expected results",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/468",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-02-03T20:50:18Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -8418,13 +8420,13 @@
     "milestone": "PGP v4.0 (MVP)"
   },
   {
-    "issue": "Display Typed Text Volume Name in Footnote Detail Source Box",
+    "issue": "As a content editor, I need to see volume for unpublished sources in the footnote detail so I can select the correct source.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/486",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-02-02T14:58:07Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Convert percy script into percy snapshot calls",
@@ -8442,7 +8444,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/488",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-03T17:15:23Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -8527,10 +8529,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/501",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-02-03T17:56:17Z",
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
   {
@@ -8618,8 +8618,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/512",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-01T20:21:51Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
@@ -8660,7 +8661,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/522",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-02T15:01:28Z",
     "labels": [],
     "milestone": ""
   },
@@ -8729,7 +8730,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/542",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-02T16:20:04Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8738,7 +8739,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/547",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-01T20:20:49Z",
     "labels": [],
     "milestone": "PGP v4.0 (MVP)"
   },
@@ -8761,6 +8762,33 @@
     "milestone": ""
   },
   {
+    "issue": "As a front-end user, I want uncertain joins to be visible and distinct from certain ones.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/556",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Percy refuses to take snapshots of document detail pages",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/558",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want to see the label associated with each image in the OpenSeaDragon IIIF viewer.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/559",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin, I want a one-time import of the list of all languages and scripts, and their correlation, so that I can access, display and manage the information in the database.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/56",
@@ -8768,6 +8796,33 @@
     "closed": "2021-02-18T17:27:37Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a front-end user, I want to know which specific data are associated with each attribution.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/560",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "footer and header display problems on wide screens",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/566",
+    "estimate": "",
+    "closed": "2022-02-04T13:56:27Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Upgrade Node to at least v14",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/568",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Revise the sitemap and site flow diagram so that the project team would know about the content that would exist on the site and the possible ways they are connected in a more comprehensible way to meet their needs",
@@ -8781,6 +8836,37 @@
     "milestone": ""
   },
   {
+    "issue": "Design an annotated image for the FAQ page so we can help inform users how to understand the document detail page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/576",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a page structured for a Glossary so that it's easy for users to learn new vocabulary.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/577",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, when the term \"See PGPID ___\" appears, I would like it to link to the corresponding PGPID page.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/578",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "set up new django project for the new site",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/58",
@@ -8790,6 +8876,35 @@
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content editor, I want to be able to underline text in the Wagtail CMS.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/580",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to separately define alt text and caption for images in Wagtail.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/581",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Language switcher does not correctly pick up the translated slug for the current page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/582",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Draft web annotation data model for transcription data",
@@ -19849,6 +19964,26 @@
     "closed": "2021-12-22T18:15:43Z",
     "labels": [
       "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust fallback font styles to better handle missing characters",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/222",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an editor, I want to be able to add standalone \"style guide\" and \"editorial guidelines\" pages to the site",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/224",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
     ],
     "milestone": ""
   },
