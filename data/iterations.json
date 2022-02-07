@@ -541,18 +541,23 @@
         "from": "2022-02-07",
         "to": "2022-02-18",
         "projects": [
-            "geniza"
-        ]
+            "geniza",
+            "startwords"
+        ],
+        "partial": ["startwords"],
+        "notes": {"startwords": ["", "design for issue 3"]}
     },
     {
         "from": "2022-02-21",
         "to": "2022-03-04",
         "projects": [
             "geniza",
-            "ppa"
+            "ppa",
+            "startwords"
         ],
-        "notes": {"ppa": ["migration planning", ""]},
-        "partial": ["ppa", "geniza"]
+        "notes": {"ppa": ["migration planning", ""],
+            "startwords": ["issue 3 design/dev"]},
+        "partial": ["ppa", "geniza", "startwords"]
     },
     {
         "from": "2022-03-07",
