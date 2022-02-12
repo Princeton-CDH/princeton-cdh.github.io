@@ -6468,7 +6468,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "PGP v4.0 (MVP)"
+    "milestone": ""
   },
   {
     "issue": "As a content admin, I want FGP stub documents with no descriptions suppressed and flagged and the notes updated so that I can reviewed and described them if appropriate.",
@@ -6612,11 +6612,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/225",
     "estimate": 5,
-    "closed": null,
+    "closed": "2022-02-09T21:55:05Z",
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "Design edit links so that logged in content editors can easily get from the public site to the admin site",
@@ -7009,7 +7009,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "set up visual testing",
@@ -8120,7 +8120,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8131,7 +8132,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8771,7 +8773,7 @@
     "milestone": ""
   },
   {
-    "issue": "Percy refuses to take snapshots of document detail pages",
+    "issue": "Percy will not load IIIF images in snapshots",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/558",
     "estimate": "",
@@ -8882,18 +8884,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/580",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-08T21:04:35Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "As a content editor, I want to be able to separately define alt text and caption for images in Wagtail.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/581",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-09T19:44:56Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "Language switcher does not correctly pick up the translated slug for the current page",
@@ -8905,6 +8907,112 @@
       "\ud83d\udc1b bug"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Revise the PGP logo so that spacing between the letters and lines are fixed ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/584",
+    "estimate": 3,
+    "closed": "2022-02-09T22:29:49Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add placeholder for site version number in the footer ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/587",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want keyword searches to automatically match on similar words so that I don't have to enter wildcards or multiple terms.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/588",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a researcher, I want to see Goitein's unpublished editions labeled more clearly, so I'm not confused by the ambiguous title \"typed texts\".",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/589",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "v4.1"
+  },
+  {
+    "issue": "As a content editor, I want to add SVG images to content pages so that I can include data visualizations and other scalable images.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/590",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to a way to add hebrew descriptions of documents to the document record, so that available information can be managed in the same place.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/591",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to add translations for document types to the database, in order to make the content more accessible to Hebrew and Arabic users of the public site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/592",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "setup google analytics",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/593",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to configure which languages are available on the site without disabling them in the admin site, to avoid people accidentally receiving a partially-translated version of the site that isn't ready.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/594",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want to be able to see which transcriptions belong with which footnote.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/596",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v4.1"
+  },
+  {
+    "issue": "As a front end user, I want to see all transcriptions expanded by default when viewing a document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/597",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v4.1"
   },
   {
     "issue": "Draft web annotation data model for transcription data",
@@ -8926,6 +9034,39 @@
     "labels": [
       "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the logo so that the container fades more smoothly into the header container and the \"PGP\" is more visible. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/601",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Adjust the PGP logo for mobile ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/602",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Indexing breaks with a bad IIIF URL or when the request otherwise fails",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/605",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -19984,6 +20125,51 @@
     "closed": null,
     "labels": [
       "enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Adjust vertical spacing between the three featured essays on the homepage and the single issue page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/225",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design for displaying content in alternate languages ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/226",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design for displaying links to essays available in more than one language",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/227",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a way to switch the language displayed in the main nav sections of the website",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/228",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
