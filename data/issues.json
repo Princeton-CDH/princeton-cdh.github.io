@@ -7006,8 +7006,8 @@
     "issue": "As a user, I want to see image thumbnails with search results when available, so that I can quickly see which records have images and what they look like.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/28",
-    "estimate": "",
-    "closed": null,
+    "estimate": 5,
+    "closed": "2022-02-14T19:10:28Z",
     "labels": [],
     "milestone": "v4.1"
   },
@@ -7919,10 +7919,10 @@
     "issue": "increase footnote source field site in document detail view so the names and titles don't get cut off",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/404",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2022-02-16T21:34:23Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "Revise the type styles to ensure they are appropriate for the new typefaces (Greta Sans and Frank Ruehl) + organize them on Figma so that it's easier for the dev team to implement them",
@@ -8118,10 +8118,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/438",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-02-16T23:18:46Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -8130,10 +8129,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/439",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-02-16T23:33:28Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -8348,7 +8346,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "PGP v4.0 (MVP)"
   },
   {
     "issue": "Create deploy playbook for geniza i18n prototype",
@@ -8650,7 +8648,7 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a front end user, when I resize my browser window, I do not want to see the mobile menu appear from offscreen.",
+    "issue": "As a front end user, when I resize my browser window, I do not want to see the mobile menu appear from offscreen, so that my browsing experience is not confusingly interrupted.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/521",
     "estimate": "",
@@ -8758,13 +8756,13 @@
     "issue": "As a front-end user, I want \"relevance\" sort to be selected automatically when I enter a search query, so that I am not confused by the results.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/550",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
   },
   {
-    "issue": "As a front-end user, I want uncertain joins to be visible and distinct from certain ones.",
+    "issue": "As a front-end user, I want uncertain joins to be visible and distinct from certain ones, so that I can easily tell the difference between them.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/556",
     "estimate": "",
@@ -8776,7 +8774,7 @@
     "issue": "Percy will not load IIIF images in snapshots",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/558",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -8800,13 +8798,13 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a front-end user, I want to know which specific data are associated with each attribution.",
+    "issue": "As a front-end user, I want to know which specific data are associated with each attribution, so that I am not confused by a list of attributions at the end of a transcription.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/560",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-02-17T19:34:10Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "footer and header display problems on wide screens",
@@ -8945,7 +8943,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/589",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-02-16T21:36:53Z",
     "labels": [],
     "milestone": "v4.1"
   },
@@ -8962,10 +8960,10 @@
     "issue": "As a content editor, I want to a way to add hebrew descriptions of documents to the document record, so that available information can be managed in the same place.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/591",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-02-17T19:30:15Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "As a content editor, I want to add translations for document types to the database, in order to make the content more accessible to Hebrew and Arabic users of the public site.",
@@ -8981,27 +8979,27 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/593",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-16T15:23:02Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "As an admin, I want to configure which languages are available on the site without disabling them in the admin site, to avoid people accidentally receiving a partially-translated version of the site that isn't ready.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/594",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-02-17T19:20:58Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.1"
   },
   {
     "issue": "As a content admin, I want to be able to see which transcriptions belong with which footnote.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/596",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2022-02-14T19:31:20Z",
     "labels": [],
     "milestone": "v4.1"
   },
@@ -9009,8 +9007,8 @@
     "issue": "As a front end user, I want to see all transcriptions expanded by default when viewing a document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/597",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2022-02-16T21:35:47Z",
     "labels": [],
     "milestone": "v4.1"
   },
@@ -9041,8 +9039,8 @@
     "issue": "Revise the logo so that the container fades more smoothly into the header container and the \"PGP\" is more visible. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/601",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-02-18T22:43:30Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9052,8 +9050,8 @@
     "issue": "Adjust the PGP logo for mobile ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/602",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-02-18T22:43:59Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9063,12 +9061,48 @@
     "issue": "Indexing breaks with a bad IIIF URL or when the request otherwise fails",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/605",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-02-17T15:42:01Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
+    "milestone": "v4.1"
+  },
+  {
+    "issue": "Use cached IIIF manifests wherever possible",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/607",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want to see multiple transcriptions arranged horizontally, rather than vertically.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/608",
+    "estimate": 0,
+    "closed": "2022-02-16T21:43:25Z",
+    "labels": [],
+    "milestone": "v4.1"
+  },
+  {
+    "issue": "As a content editor, I want to be able to create a glossary with definitions that can be seen in context around the whole site, so that I can get context for unfamiliar terms.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/611",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want to search for documents by transcription content so I can work with and export content based on transcription text.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/612",
+    "estimate": 0,
+    "closed": "2022-02-16T21:48:18Z",
+    "labels": [],
+    "milestone": "v4.1"
   },
   {
     "issue": "As a content editor, I want to be able to flag and annotate a document as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH.",
@@ -9080,6 +9114,15 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "As a frontend user, I want my search terms to match variant forms of the words I enter so that I can find all related content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/620",
+    "estimate": 0,
+    "closed": "2022-02-16T21:44:51Z",
+    "labels": [],
+    "milestone": "v4.1"
+  },
+  {
     "issue": "As a content editor, I want to suppress documents, so that the records are kept updated. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/63",
@@ -9087,6 +9130,37 @@
     "closed": "2021-03-23T18:36:58Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a front end user, I want to be able to filter search results by \"has transcription/translation/discussion\", so that I can find what I am looking for more quickly by narrowing the possibilities.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/630",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Adjust the site header for the Hebrew site in a way that wouldn't affect the logo's shape ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/631",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Copy-pasting transcriptions from the public site results in extraneous whitespace",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/632",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
@@ -18841,6 +18915,17 @@
     "milestone": ""
   },
   {
+    "issue": "Bulk add to collections landing page not displaying correctly",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/437",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Styles: editorial list",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/44",
@@ -20135,7 +20220,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": ""
   },
