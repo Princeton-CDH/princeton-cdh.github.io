@@ -5,8 +5,9 @@
 &lt;ul>
 &lt;li>completion of design work on the new logo and logotype (shown below), which will be integrated into the site this week.&lt;/li>
 &lt;li>search results now include image thumbnails when available&lt;/li>
-&lt;li>an admin document merge function, so that duplicate documents and joins can be merged manually in the admin site instead of relying on spreadsheets and script to handle merging (we discovered the script method was error-prone since merging needs to be done carefully)&lt;/li>
+&lt;li>an admin document merge function, so that duplicate documents and joins can be merged manually in the admin site instead of relying on spreadsheets and script to handle merging (we discovered the script method was error-prone since merging needs to be done carefully).&lt;/li>
 &lt;/ul>
+&lt;p>Our rolling velocity for development is &lt;strong>13&lt;/strong> points; this iteration we completed 19 points (16 issues).&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;p>&lt;figure>&lt;img src="featured-pgp-logotype.png"
 alt="Completed designs for new PGP logo and logotype"/>&lt;figcaption>
