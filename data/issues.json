@@ -7778,9 +7778,11 @@
     "issue": "As a user, I want an option to sort documents randomly so that I can easily discover documents I haven't looked at before.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/387",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -8151,7 +8153,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/441",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-02-23T21:53:32Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8162,7 +8164,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/442",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-02-23T21:50:49Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8753,13 +8755,13 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a front-end user, I want \"relevance\" sort to be selected automatically when I enter a search query, so that I am not confused by the results.",
+    "issue": "As a front-end user, I want keyword searches automatically sorted by relevance, so that I see the most useful results first.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/550",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 2,
+    "closed": "2022-02-22T17:01:23Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a front-end user, I want uncertain joins to be visible and distinct from certain ones, so that I can easily tell the difference between them.",
@@ -8820,8 +8822,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/568",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-02-25T15:27:44Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -8858,10 +8862,10 @@
     "milestone": ""
   },
   {
-    "issue": "As a frontend user, when the term \"See PGPID ___\" appears, I would like it to link to the corresponding PGPID page.",
+    "issue": "As a frontend user, when the term \"See PGPID ___\" appears, I would like it to link to the corresponding PGP document so that I can easily access referenced documents.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/578",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -8969,7 +8973,7 @@
     "issue": "As a content editor, I want to add translations for document types to the database, in order to make the content more accessible to Hebrew and Arabic users of the public site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/592",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -9132,20 +9136,20 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
-    "issue": "As a front end user, I want to be able to filter search results by \"has transcription/translation/discussion\", so that I can find what I am looking for more quickly by narrowing the possibilities.",
+    "issue": "As a front end user, I want to filter search results to records with transcription available, so that I can easily find documents that have already been transcribed and will be easier for me to use.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/630",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-02-25T17:10:52Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "Adjust the site header for the Hebrew site in a way that wouldn't affect the logo's shape ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/631",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-02-23T21:50:02Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9163,6 +9167,79 @@
     "milestone": ""
   },
   {
+    "issue": "As a front-end user, I want visual indicators for filtering search results, in a separate panel from the main search functions, so that I know where they are and can easily ignore them if I do not want to filter.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/633",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "v4.2"
+  },
+  {
+    "issue": "Refactor all JS to Stimulus",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/634",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement Turbo to improve internal link speed",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/635",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want to filter search results to records with translations available, so that I can find documents that are easier for me to work on.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/636",
+    "estimate": 1,
+    "closed": "2022-02-25T16:43:03Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "v4.2"
+  },
+  {
+    "issue": "As a front end user, I want to filter search results to records with discussion available, so that I can find documents with existing scholarship notes.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/637",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "v4.2"
+  },
+  {
+    "issue": "As a front-end user, I want the document search to automatically reload when I change my search terms, filters, or other options so tha I can see the changed results more quickly. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/638",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v4.2"
+  },
+  {
+    "issue": "IIIF viewer breaks on mobile for documents with images but no transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/639",
+    "estimate": "",
+    "closed": "2022-02-24T22:29:59Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/64",
@@ -9170,6 +9247,57 @@
     "closed": "2021-03-11T14:43:53Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Scholarship search filters implementation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/640",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the logotype in the header on desktop and mobile for light and darkmode so users can easily identify which project the website belongs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/642",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want an \"apply\" button in the filters panel, so that I can filter results without closing the filters panel and clicking the submit button.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/646",
+    "estimate": 0,
+    "closed": null,
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want margins to be wider when there are fewer digits in the search result numbering, so that I can read descriptions more easily.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/648",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add a version of the \"Princeton Geniza Project\" on the homepage banner so that there would serve as a page title as well as being playful while remaining relevant to the logotype",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/649",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.",
@@ -9183,6 +9311,58 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "revise the \"selected\" state for the scholarship records filters so that it's easier to identify what's been selected.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/650",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a favicon for the site using the logo so that it would be easier for users to identify which tab is the PGP site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/651",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to see other documents on the same fragment as part of a document detail view in order to ensure I'm not creating a duplicate description. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/653",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Search sort options dropdown moves the rest of the page content down",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/654",
+    "estimate": "",
+    "closed": "2022-02-24T22:30:50Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want to click on the document title in search results so I can get to the details more easily.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/659",
+    "estimate": 0,
+    "closed": "2022-02-25T16:38:44Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a global admin, I want a one-time import of all documents and fragments currently in the PGP spreadsheet and the fields in the db populated accordingly, in order to work with the data in the database.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/66",
@@ -9190,6 +9370,39 @@
     "closed": "2021-03-15T15:51:00Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "investigate non-transcription content in footnotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/661",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design checkmarks so that they aren't as easily confused with down arrows.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/662",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design filtered search so that users can see and change filters while on the search page.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/663",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to download any data sets created through filters so that I can work on a subset outside of the database.",
@@ -20129,7 +20342,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "revise figure shortcode to set image width and height",
@@ -20160,18 +20373,18 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "As an editor, I want to be able to publish three features in an issue",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/214",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-02-23T21:32:26Z",
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "As a reader, I want to download an article as a formatted PDF.",
@@ -20200,7 +20413,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "As an editor, I want to be able to add standalone \"style guide\" and \"editorial guidelines\" pages to the site",
@@ -20211,19 +20424,19 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "Adjust vertical spacing between the three featured essays on the homepage and the single issue page",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/225",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-02-23T21:31:11Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "awaiting review"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "Design for displaying content in alternate languages ",
@@ -20233,9 +20446,10 @@
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design",
+      "awaiting review",
       "Epic"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "Design for displaying links to essays available in more than one language",
@@ -20246,7 +20460,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "Design a way to switch the language displayed in the main nav sections of the website",
@@ -20257,7 +20471,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "As a reader, I want to download an article as plain text.",
@@ -20267,6 +20481,15 @@
     "closed": "2020-03-17T20:32:38Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "adjust spacing for article layout on homepage and issue detail page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/230",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
   },
   {
     "issue": "As a reader, I want to get the DOI of an article so I understand it's a scholarly publication and can cite it.",
