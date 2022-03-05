@@ -7679,11 +7679,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/375",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-03T22:12:43Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As an admin, I want TEI transcription synchronization to handle documents with multiple transcriptions, so that content is not lost or hidden in the new system.",
@@ -7769,21 +7769,19 @@
     "issue": "As a user, when I share PGP urls I want to see previews on social media, slack or other supported platforms so that the content is more engaging.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/386",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-03-02T20:57:16Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a user, I want an option to sort documents randomly so that I can easily discover documents I haven't looked at before.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/387",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
-    "milestone": ""
+    "closed": "2022-03-01T14:55:36Z",
+    "labels": [],
+    "milestone": "v4.2"
   },
   {
     "issue": "As a front-end user, I want to be able to quickly see the section a footnote is referencing in a particular source.",
@@ -8680,8 +8678,8 @@
     "issue": "Design an \"active filter\" indicator for the search form",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/524",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-03-02T21:08:58Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -8773,7 +8771,7 @@
     "milestone": ""
   },
   {
-    "issue": "Percy will not load IIIF images in snapshots",
+    "issue": "Percy loads IIIF images incorrectly in snapshots using OpenSeadragon",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/558",
     "estimate": 2,
@@ -8782,7 +8780,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a front-end user, I want to see the label associated with each image in the OpenSeaDragon IIIF viewer.",
+    "issue": "As a front-end user, I want to see the label associated with each image in the OpenSeaDragon IIIF viewer, so that I know what image I am looking at.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/559",
     "estimate": "",
@@ -8866,9 +8864,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/578",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-03-01T18:08:13Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "set up new django project for the new site",
@@ -8974,9 +8972,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/592",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-03-01T22:19:50Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "setup google analytics",
@@ -9171,10 +9169,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/633",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-03-03T15:07:57Z",
+    "labels": [],
     "milestone": "v4.2"
   },
   {
@@ -9205,9 +9201,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/636",
     "estimate": 1,
     "closed": "2022-02-25T16:43:03Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "v4.2"
   },
   {
@@ -9215,7 +9209,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/637",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-03-02T21:07:43Z",
     "labels": [],
     "milestone": "v4.2"
   },
@@ -9226,7 +9220,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "v4.2"
+    "milestone": ""
   },
   {
     "issue": "IIIF viewer breaks on mobile for documents with images but no transcriptions",
@@ -9237,7 +9231,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a global admin and content editor, I want to clone a document and have a record of the process, to keep track of the origins of the document record and changes in the data. ",
@@ -9264,20 +9258,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/642",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-03T14:47:24Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
-    "issue": "As a front end user, I want an \"apply\" button in the filters panel, so that I can filter results without closing the filters panel and clicking the submit button.",
+    "issue": "As a front end user, I want an easy way to apply selected filters, so that I can filter results without closing the filters panel.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/646",
     "estimate": 0,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
-    "milestone": ""
+    "closed": "2022-03-03T15:15:47Z",
+    "labels": [],
+    "milestone": "v4.2"
   },
   {
     "issue": "As a front end user, I want margins to be wider when there are fewer digits in the search result numbering, so that I can read descriptions more easily.",
@@ -9314,24 +9306,23 @@
     "issue": "revise the \"selected\" state for the scholarship records filters so that it's easier to identify what's been selected.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/650",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-03-02T17:48:04Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "Design a favicon for the site using the logo so that it would be easier for users to identify which tab is the PGP site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/651",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-03-01T22:32:39Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a content editor, I want to see other documents on the same fragment as part of a document detail view in order to ensure I'm not creating a duplicate description. ",
@@ -9351,7 +9342,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a front end user, I want to click on the document title in search results so I can get to the details more easily.",
@@ -9360,7 +9351,7 @@
     "estimate": 0,
     "closed": "2022-02-25T16:38:44Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.2"
   },
   {
     "issue": "As a global admin, I want a one-time import of all documents and fragments currently in the PGP spreadsheet and the fields in the db populated accordingly, in order to work with the data in the database.",
@@ -9394,15 +9385,22 @@
     "milestone": ""
   },
   {
-    "issue": "Design filtered search so that users can see and change filters while on the search page.",
+    "issue": "Revise filtered search so that users can see and change filters while on the search page.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/663",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\uddfa\ufe0f design"
-    ],
-    "milestone": ""
+    "closed": "2022-03-03T20:17:16Z",
+    "labels": [],
+    "milestone": "v4.2"
+  },
+  {
+    "issue": "As an admin, I want documents automatically reindexed when I add or update scholarship records, so that database edits are immediately available in the public site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/668",
+    "estimate": 1,
+    "closed": "2022-03-03T22:17:07Z",
+    "labels": [],
+    "milestone": "v4.2"
   },
   {
     "issue": "As a content editor, I want to download any data sets created through filters so that I can work on a subset outside of the database.",
@@ -9416,6 +9414,35 @@
     "milestone": ""
   },
   {
+    "issue": "\"Combining dot above\" rendered incorrectly in transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/670",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Generate static manifests and level-zero iiif images from Bodleian",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/671",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Percy sometimes fails to load some fonts",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/675",
+    "estimate": "",
+    "closed": "2022-03-04T17:48:25Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create, edit, filter and search documents so that I can add/edit information on documents in the database and find pertinent documents.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/68",
@@ -9423,6 +9450,39 @@
     "closed": "2021-03-11T15:16:54Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "create a CITATION.cff file to make it easy to cite the codebase",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/681",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "last modified header should probably not be set for document search if sort is random",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/682",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Some descriptions cause malformed HTML in the search results page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/683",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a data editor, I want to search across multiple metadata fields so that I can find geniza items by keyword or phrase.",
@@ -19139,6 +19199,15 @@
     "milestone": ""
   },
   {
+    "issue": "Clarify help text on search page",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/439",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Styles: editorial list",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/44",
@@ -20433,8 +20502,7 @@
     "estimate": 1,
     "closed": "2022-02-23T21:31:11Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "issue 3"
   },
@@ -20490,6 +20558,17 @@
     "closed": null,
     "labels": [],
     "milestone": "issue 3"
+  },
+  {
+    "issue": "Snippets header should not appear on homepage or issue page for issues without snippets",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/231",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to get the DOI of an article so I understand it's a scholarly publication and can cite it.",
