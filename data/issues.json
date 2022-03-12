@@ -6205,7 +6205,7 @@
     "issue": "As a user, I want documents that span fragments with consecutive shelfmarks to have their shelfmark displayed using a range, so that it's easier for me to read.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/154",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
@@ -7752,8 +7752,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/384",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-03-11T16:19:09Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -7960,7 +7962,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/411",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-07T22:06:23Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -8652,7 +8654,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/521",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-11T14:46:35Z",
     "labels": [],
     "milestone": ""
   },
@@ -8954,9 +8956,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/590",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-09T20:03:56Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.3"
   },
   {
     "issue": "As a content editor, I want to a way to add hebrew descriptions of documents to the document record, so that available information can be managed in the same place.",
@@ -9178,22 +9180,22 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/634",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-11T18:31:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "v4.3"
   },
   {
     "issue": "Implement Turbo to improve internal link speed",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/635",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-09T18:52:04Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "v4.3"
   },
   {
     "issue": "As a front end user, I want to filter search results to records with translations available, so that I can find documents that are easier for me to work on.",
@@ -9217,10 +9219,10 @@
     "issue": "As a front-end user, I want the document search to automatically reload when I change my search terms, filters, or other options so tha I can see the changed results more quickly. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/638",
-    "estimate": "",
-    "closed": null,
+    "estimate": 5,
+    "closed": "2022-03-11T17:46:37Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.3"
   },
   {
     "issue": "IIIF viewer breaks on mobile for documents with images but no transcriptions",
@@ -9247,7 +9249,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/640",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-07T17:39:01Z",
     "labels": [
       "Epic"
     ],
@@ -9276,16 +9278,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/648",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-10T17:48:36Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v4.3"
   },
   {
     "issue": "Add a version of the \"Princeton Geniza Project\" on the homepage banner so that there would serve as a page title as well as being playful while remaining relevant to the logotype",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/649",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 5,
+    "closed": "2022-03-11T21:27:27Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9438,7 +9440,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/675",
     "estimate": "",
-    "closed": "2022-03-04T17:48:25Z",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
@@ -9463,11 +9465,11 @@
     "milestone": ""
   },
   {
-    "issue": "last modified header should probably not be set for document search if sort is random",
+    "issue": "last modified header should not be set for document search if sort is random",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/682",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-07T21:36:45Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -9478,10 +9480,88 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/683",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-07T21:35:54Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Transcription lines appear left-aligned in admin interface",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/688",
+    "estimate": "",
+    "closed": "2022-03-07T22:24:58Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want a filter for documents that have images, so that I can limit results to documents where I'll have ready access to visuals of the fragments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/691",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement pagination for the hebrew site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/693",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement tabs for the Hebrew site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/694",
+    "estimate": "",
+    "closed": "2022-03-10T18:44:22Z",
+    "labels": [],
+    "milestone": "v4.3"
+  },
+  {
+    "issue": "Implement tabs for the Hebrew site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/695",
+    "estimate": "",
+    "closed": "2022-03-07T17:54:43Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the site header for the Hebrew site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/696",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement logotype files in the header for the Hebrew site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/697",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement logotype files in the header for the Hebrew site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/698",
+    "estimate": "",
+    "closed": "2022-03-07T18:54:19Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9496,6 +9576,123 @@
     "milestone": ""
   },
   {
+    "issue": "Social media preview fails for homepage",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/700",
+    "estimate": "",
+    "closed": "2022-03-07T22:25:47Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Subsetting a CUDL IIIF manifest?",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/701",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the header styles so that H2 and H3, and H3 and body text would become easier to distinguish from each other ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/704",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want to be able to easily select shelfmarks for copy and paste on the document detail page, so that I can enter that information elsewhere.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/705",
+    "estimate": 0,
+    "closed": "2022-03-09T19:56:48Z",
+    "labels": [],
+    "milestone": "v4.3"
+  },
+  {
+    "issue": "As a frontend user, I want to search in Arabic script and get search results from both Arabic and Judaeo-Arabic transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/706",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Long lines in transcriptions break layout in admin interface",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/708",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "check for mismatched shelfmarks on fragments we expect to have images for",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/709",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want to see Phosphor icons in the OpenSeaDragon IIIF viewer, so that it is visually consistent with the rest of the site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/710",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want some kind of progress/loading indicator during search, so that I know my input was accepted.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/711",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "check python convertdate library against existing structured document dates",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/714",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want to see primary and secondary languages when they've been assigned so that I have access to the known information about the document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/715",
+    "estimate": 1,
+    "closed": "2022-03-11T16:07:18Z",
+    "labels": [],
+    "milestone": "v4.3"
+  },
+  {
+    "issue": "As a frontend user, I want to easily find other documents on the same fragment in order to better interpret the images and gain context.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/716",
+    "estimate": 1,
+    "closed": "2022-03-11T16:06:17Z",
+    "labels": [],
+    "milestone": "v4.3"
+  },
+  {
     "issue": "Revise the sitemap diagram based on comments in #51 to make sure the propoposed website content and their hierarchies are comprehensible to the project team",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/72",
@@ -9507,11 +9704,58 @@
     "milestone": ""
   },
   {
+    "issue": "In the admin interface, when I drop a IIIF link into the appropriate space, I get an error message. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/723",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin user in document view, I'd like to be able to zoom on the fragment's IIIF image thumbnail so I can determine the language and check other metadata details as I'm writing or editing a description. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/724",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "In the admin interface, typing Hebrew into the language field makes Aramaic pop up instead of Hebrew. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/725",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Percy build fails on dark mode filter interaction",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/727",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Create a low fidelity mock up of a document detail page to communicate the content structure on the page to the project team ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/73",
     "estimate": 3,
     "closed": "2021-03-05T21:06:09Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design headers within the Document Detail View so that it is more clear what is a header vs content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/730",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
