@@ -8141,8 +8141,8 @@
     "issue": "Design the site footer for the Hebrew version of the site ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/440",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-03-17T23:16:35Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9756,6 +9756,38 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/730",
     "estimate": "",
     "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Bad Request 400 when trying to move attachments",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/733",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Create designs for stickers ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/734",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create designs for PGP notebook swag ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/735",
+    "estimate": 2,
+    "closed": "2022-03-17T23:17:09Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
