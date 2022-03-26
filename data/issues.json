@@ -9532,7 +9532,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/695",
     "estimate": "",
     "closed": "2022-03-07T17:54:43Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -9600,10 +9602,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/704",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-25T16:44:09Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -9767,7 +9770,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/733",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -9790,6 +9795,29 @@
     "closed": "2022-03-17T23:17:09Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "transcription prototyping",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/736",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "create type styles for the Hebrew version of the site (for components)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/737",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -20136,11 +20164,12 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/106",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-23T15:57:56Z",
     "labels": [
+      "duplicate",
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "create README",
@@ -20710,13 +20739,14 @@
     "milestone": "Issue 1"
   },
   {
-    "issue": "As a Spanish-speaking startwords reader, I want to be able to navigate the website to the Spanish feature",
+    "issue": "investigate and prototype hugo multilingual functionality",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/213",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-23T20:43:42Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "chore"
     ],
     "milestone": "issue 3"
   },
@@ -20761,11 +20791,11 @@
     "milestone": "issue 3"
   },
   {
-    "issue": "As an editor, I want to be able to add standalone \"style guide\" and \"editorial guidelines\" pages to the site",
+    "issue": "As an editor, I want to add content pages to the site so I can publish editorial and contributor guides and other documentation on the site.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/224",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-03-24T16:14:55Z",
     "labels": [
       "enhancement"
     ],
@@ -20800,7 +20830,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/227",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-03-24T18:43:03Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -20840,11 +20870,56 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/231",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-23T16:51:51Z",
     "labels": [
       "bug"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "As a reader, when reading the list of issues I want to know which language is included in each issue, so that I can identify issues with content in my language.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/234",
+    "estimate": 1,
+    "closed": "2022-03-24T18:43:22Z",
+    "labels": [],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "As a reader, when reading an article that is available in translation, I want to know which language I'm reading and access other translations so I can read it in my preferred language.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/236",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "As a reader, when reading an issue that includes translated content, I want to know which language I'm reading and access other translations so I can read it in my preferred language.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/237",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "As a reader, when reading the issue details page I want to know which language(s) each article is available in, so that I can identify translated content and default language is explicit.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/238",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "As a Spanish reader, I want navigation and paratext in my language so that I know how to use the site.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/239",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
   },
   {
     "issue": "As a reader, I want to get the DOI of an article so I understand it's a scholarly publication and can cite it.",
@@ -20854,6 +20929,26 @@
     "closed": "2020-06-11T20:04:11Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "main navigation needs to accommodate variable length text content for \"issues\" in translation",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/246",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "feature article opening line preview needs to accommodate a wider range of text lengths",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/247",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
   },
   {
     "issue": "As a reader, I want to retrieve an article via a persistent URL.",
@@ -20985,7 +21080,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/37",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-03-22T21:13:15Z",
     "labels": [
       "enhancement"
     ],
