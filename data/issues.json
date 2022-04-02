@@ -8175,7 +8175,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/443",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-03-31T20:52:45Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9780,10 +9780,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/734",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-03-28T21:11:13Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -9822,6 +9821,28 @@
     "milestone": ""
   },
   {
+    "issue": "edit link on public document detail site doesn't work properly because of Turbo",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/738",
+    "estimate": "",
+    "closed": "2022-03-29T17:40:26Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "explore & prototype approaches for document clustering",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/739",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, when I change the shelfmark for a fragment I want the previous shelfmark automatically added to the list of historic shelfmarks in order to keep track of old identifiers.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/74",
@@ -9829,6 +9850,26 @@
     "closed": "2021-03-23T18:29:52Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "add placeholders for missing translations needed for UI design",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/742",
+    "estimate": "",
+    "closed": "2022-03-28T22:28:49Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want access to manuals and other documentation when I'm editing records, so that I can easily find relevant guidelines for my task.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/745",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to create and edit fragment records so that I can document changes in the fragments.",
@@ -20699,7 +20740,7 @@
     "milestone": "Issue 2"
   },
   {
-    "issue": "As a reader, I want to see all the authors who have contributed content to Startwords.",
+    "issue": "As a reader, I want to see all the authors who have contributed content to Startwords so I can see the range of contributors and find articles by authors.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/20",
     "estimate": "",
@@ -20958,6 +20999,49 @@
     "closed": "2020-03-24T15:26:59Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "As an editor, I want to document issue contributors once for translated issues so that I don't have to duplicate information or risk it getting out of sync.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/250",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "issue 3"
+  },
+  {
+    "issue": "Create a mock up of the proposed author list page structure ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/251",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design for the Author list page label/link in the site navigation ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/252",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Adjust/propose solutiosn for purple part of the site nav to accomodate space for the translations of \"issues\"",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/253",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "add Startwords link to CDH website",
