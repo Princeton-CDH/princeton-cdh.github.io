@@ -9605,8 +9605,7 @@
     "closed": "2022-03-25T16:44:09Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -21160,10 +21159,10 @@
     "milestone": "Issue 2"
   },
   {
-    "issue": "As a content editor, I want to quickly create issues and articles using templates.",
+    "issue": "As a content editor, I want to create new issues and articles using templates so that I can create them quickly with the correct structure and options.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/37",
-    "estimate": "",
+    "estimate": 1,
     "closed": "2022-03-22T21:13:15Z",
     "labels": [
       "enhancement"

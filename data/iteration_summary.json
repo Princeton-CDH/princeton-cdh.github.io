@@ -1905,9 +1905,9 @@
             ]
         },
         "dev": {
-            "points": 2,
+            "points": 3,
             "issues": 7,
-            "velocity": 7.33
+            "velocity": 7.67
         },
         "design": {
             "points": 8,
@@ -1919,7 +1919,7 @@
             "geniza": 5
         },
         "project_points": {
-            "startwords": 4,
+            "startwords": 5,
             "geniza": 6
         }
     },
@@ -1940,7 +1940,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.0
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
