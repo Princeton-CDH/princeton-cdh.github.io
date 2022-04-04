@@ -584,9 +584,10 @@
         "to": "2022-04-15",
         "projects": [
             "geniza",
-            "ppa"
+            "ppa",
+            "startwords"
         ],
-        "partial": ["ppa"],
+        "partial": ["ppa", "geniza"],
         "notes": {
             "ppa": [
                 "migration planning"
