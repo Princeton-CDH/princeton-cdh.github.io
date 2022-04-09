@@ -6771,7 +6771,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/246",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-04-04T14:44:59Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9718,7 +9718,7 @@
     "issue": "As an admin user in document view, I'd like to be able to zoom on the fragment's IIIF image thumbnail so I can determine the language and check other metadata details as I'm writing or editing a description. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/724",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -9814,8 +9814,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -9871,6 +9870,50 @@
     "milestone": ""
   },
   {
+    "issue": "Design the \"related documents\" page (instead of the external links page)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/746",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the new order of content on the doc detail page and ensure the backend aligns with the interface",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/747",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the styling of fields and labels and notes on the doc detail page ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/748",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the placement of the burger menu on mobile so that it's on the opposite side from the logotype ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/749",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create and edit fragment records so that I can document changes in the fragments.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/75",
@@ -9880,6 +9923,100 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "Implement designs for the homepage banner for light and dark mode for desktop and mobile",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/750",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the revised header styles",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/751",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement RTL footer designs for light and dark mode for desktop and mobile ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/752",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement designs for the RTL search form for light and dark mode for desktop and mobile ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/753",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the flipped order of tabs for RTL ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/754",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I\u2019m reading transcription text, numbered lines should only wrap when necessary (based on display width), so that I can see more clearly how the lines match up with the original.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/755",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "transcription mvp",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/756",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to add block-level transcription to documents with images so that I can make existing transcription content available in the site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/757",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement an Annotorious storage plugin to use simple annotation server for storage",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/758",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement Annotorious plugin for side-by-side transcription editing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/759",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to add and edit tags on a document via autocomplete, so that I can reuse existing tags when appropriate.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/76",
@@ -9887,6 +10024,17 @@
     "closed": "2021-03-15T15:37:03Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Draw sketches of the doc transcription/translation panel for the public site based on the sample layouts and the requirements captured in the spreadsheet",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/760",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to be able to flag and annotate a fragment as needing examination by a global admin, so that the global admin can either resolve the issue or submit a request for changes to the CDH. ",
@@ -20881,7 +21029,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/228",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-04-04T17:09:25Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -21032,7 +21180,7 @@
     "milestone": ""
   },
   {
-    "issue": "Adjust/propose solutiosn for purple part of the site nav to accomodate space for the translations of \"issues\"",
+    "issue": "Adjust/propose solutions for purple part of the site nav to accommodate space for the translations of \"issues\"",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/253",
     "estimate": 1,
@@ -21040,6 +21188,26 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the alignment and placement of the opening line shadow text",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/254",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update the shape of the opening line shadow text ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/255",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
