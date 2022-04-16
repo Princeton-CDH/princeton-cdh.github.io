@@ -9501,9 +9501,11 @@
     "issue": "As a front end user, I want a filter for documents that have images, so that I can limit results to documents where I'll have ready access to visuals of the fragments.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/691",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -9511,10 +9513,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/693",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-04-14T19:00:24Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9542,10 +9542,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/696",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-04-15T15:48:00Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9619,12 +9617,14 @@
     "milestone": "v4.3"
   },
   {
-    "issue": "As a frontend user, I want to search in Arabic script and get search results from both Arabic and Judaeo-Arabic transcriptions",
+    "issue": "As a frontend user, I want to search in Arabic script and get search results from both Arabic and Judaeo-Arabic transcriptions so that I can find more content that matches my search.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/706",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -9634,7 +9634,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -9720,7 +9721,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/724",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -9770,7 +9773,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -9801,7 +9805,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/736",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-15T13:27:39Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -9885,7 +9889,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/747",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-04-14T21:16:45Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9896,7 +9900,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/748",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-04-14T21:19:56Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -9928,7 +9932,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/750",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -9938,6 +9944,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u26a0\ufe0f tested needs attention",
       "chore"
     ],
     "milestone": ""
@@ -9973,9 +9980,11 @@
     "issue": "As a user, when I\u2019m reading transcription text, numbered lines should only wrap when necessary (based on display width), so that I can see more clearly how the lines match up with the original.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/755",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -10034,6 +10043,26 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate a report on google docs transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/766",
+    "estimate": "",
+    "closed": "2022-04-13T20:06:37Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the search results page in RTL orientation so that the page can be read properly in Hebrew and Arabic ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/769",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -20890,12 +20919,12 @@
     "issue": "As a reader, I want to see all the authors who have contributed content to Startwords so I can see the range of contributors and find articles by authors.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/20",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": ""
+    "milestone": "issue 3"
   },
   {
     "issue": "generalize common interlude styles",
@@ -21049,7 +21078,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/230",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-13T15:56:45Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21096,7 +21125,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/238",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-04-15T20:48:14Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21105,7 +21134,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/239",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-04-13T16:00:51Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21119,14 +21148,12 @@
     "milestone": "Issue 1"
   },
   {
-    "issue": "main navigation needs to accommodate variable length text content for \"issues\" in translation",
+    "issue": "As a spanish reader, I want the main navigation to acommodate \"issues\" in translation so that the translated word fits and displays properly.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/246",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "chore"
-    ],
+    "estimate": 1,
+    "closed": "2022-04-13T16:41:50Z",
+    "labels": [],
     "milestone": "issue 3"
   },
   {
@@ -21134,7 +21161,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/247",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-13T15:56:22Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21152,7 +21179,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/250",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-04-13T16:43:15Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21183,10 +21210,10 @@
     "issue": "Adjust/propose solutions for purple part of the site nav to accommodate space for the translations of \"issues\"",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/253",
-    "estimate": 1,
-    "closed": null,
+    "estimate": "",
+    "closed": "2022-04-15T20:49:11Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "wontfix"
     ],
     "milestone": ""
   },
