@@ -1941,21 +1941,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 3.33
+            "points": 4,
+            "issues": 10,
+            "velocity": 4.67
         },
         "design": {
-            "points": 6,
-            "issues": 2,
-            "velocity": 8.0
+            "points": 10,
+            "issues": 4,
+            "velocity": 9.33
         },
         "project_issues": {
-            "geniza": 1,
-            "startwords": 1
+            "geniza": 7,
+            "startwords": 7
         },
         "project_points": {
-            "geniza": 3,
-            "startwords": 3
+            "geniza": 7,
+            "startwords": 7
         }
     }
 ]
