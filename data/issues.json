@@ -6770,9 +6770,10 @@
     "issue": "External links page design revisions",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/246",
-    "estimate": 3,
+    "estimate": "",
     "closed": "2022-04-04T14:44:59Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -9502,10 +9503,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/691",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-04-18T17:33:23Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9623,7 +9622,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -9634,8 +9633,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -9720,7 +9718,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/724",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-04-18T17:57:12Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
@@ -9932,9 +9930,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/750",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9944,7 +9940,6 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention",
       "chore"
     ],
     "milestone": ""
@@ -10073,6 +10068,35 @@
     "closed": "2021-03-26T15:13:53Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Implement the revised document detail view fields on top of the page on desktop and mobile ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/774",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the revised image permissions statement ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/775",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Create mock-ups of the transcription panel ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/777",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
@@ -21107,7 +21131,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/236",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-04-18T19:49:59Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21116,7 +21140,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/237",
     "estimate": 0,
-    "closed": null,
+    "closed": "2022-04-18T19:52:01Z",
     "labels": [],
     "milestone": "issue 3"
   },
@@ -21213,7 +21237,8 @@
     "estimate": "",
     "closed": "2022-04-15T20:49:11Z",
     "labels": [
-      "wontfix"
+      "wontfix",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
