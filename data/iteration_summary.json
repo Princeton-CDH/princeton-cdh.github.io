@@ -1977,15 +1977,16 @@
         },
         "dev": {
             "points": 3,
-            "issues": 4,
+            "issues": 9,
             "velocity": 3.33
         },
         "design": {
             "points": 0,
+            "issues": 1,
             "velocity": 5.0
         },
         "project_issues": {
-            "geniza": 2,
+            "geniza": 8,
             "startwords": 2
         },
         "project_points": {
