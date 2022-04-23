@@ -6205,10 +6205,11 @@
     "issue": "As a user, I want documents that span fragments with consecutive shelfmarks to have their shelfmark displayed using a range, so that it's easier for me to read.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/154",
-    "estimate": 3,
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -9619,10 +9620,10 @@
     "issue": "As a frontend user, I want to search in Arabic script and get search results from both Arabic and Judaeo-Arabic transcriptions so that I can find more content that matches my search.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/706",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -9631,7 +9632,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/708",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-21T20:11:16Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -9909,7 +9910,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/749",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-22T23:01:29Z",
     "labels": [
       "chore"
     ],
@@ -9929,7 +9930,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/750",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-20T20:47:54Z",
     "labels": [],
     "milestone": ""
   },
@@ -9938,7 +9939,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/751",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-20T20:51:57Z",
     "labels": [
       "chore"
     ],
@@ -9949,7 +9950,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/752",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-20T20:59:36Z",
     "labels": [],
     "milestone": ""
   },
@@ -9978,7 +9979,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -10008,7 +10009,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/758",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -10017,7 +10020,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/759",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -10034,7 +10039,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/760",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-04-20T21:19:03Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -10099,6 +10104,17 @@
     "milestone": ""
   },
   {
+    "issue": "As a user, I would like to see historic and converted dates on the document details page so that I can easily find date information when it is known.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/779",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to suppress fragments, so that the records are kept updated.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/78",
@@ -10107,6 +10123,117 @@
     "labels": [
       "\ud83d\udeab wontfix"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I would like to see historic and converted dates in document search results so that I can easily scan date information when it is known.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/780",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Transcription Panel  ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/781",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a way to toggle between viewing image, transcription, and translation (viewing two record types at once)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/782",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design to view all images, or transcriptions, or translations together",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/783",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a sub menu to contain more capabilities for transcriptions and translations",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/784",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a full screen view that allows the user to see all three record types at once",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/785",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design to view two images at once on desktop, and one on mobile",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/786",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design for when an image is not available",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/787",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a way to paginate between images ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/788",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want smart quotes to be converted to normal quotation marks in order to get proper results in the search field. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/789",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin user, I want the Document \"original date\" and \"calendar\" fields to be validated against each other, so that I cannot produce incomplete records.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/794",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "design an edit button so scholars can be navigated to make changes to the records",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/795",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -20956,7 +21083,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/204",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "issue 3"
   },
   {
@@ -21028,7 +21157,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/222",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "issue 3"
   },
   {
@@ -21226,7 +21357,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": ""
   },
@@ -21254,12 +21386,14 @@
     "milestone": ""
   },
   {
-    "issue": "Update the shape of the opening line shadow text ",
+    "issue": "Update the shape & position of the opening line shadow text ",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/255",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
