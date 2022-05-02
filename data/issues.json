@@ -9720,9 +9720,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/724",
     "estimate": 1,
     "closed": "2022-04-18T17:57:12Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -9972,9 +9970,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/754",
     "estimate": "",
     "closed": "2022-04-28T18:47:01Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -21488,8 +21484,7 @@
     "estimate": 2,
     "closed": "2022-04-26T14:36:35Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -21500,8 +21495,7 @@
     "estimate": 2,
     "closed": "2022-04-26T14:35:37Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
