@@ -1,4 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2022 Q2 Schedule</title><link>/blog/2022/04/2022-q2-schedule/</link><pubDate>Tue, 19 Apr 2022 11:54:48 -0400</pubDate><guid>/blog/2022/04/2022-q2-schedule/</guid><description/></item><item><title>Blog: Apr 5 - Apr 16, 2022</title><link>/blog/2022/04/18/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/18/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 18 - Apr 29, 2022</title><link>/blog/2022/05/02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/</guid><description>
+&lt;img src="/blog/2022/05/02/featured-geniza-doc-details_hu6e508823ce402b666b0a6fbd9a76aa08_128232_640x0_resize_catmullrom_3.png" width="640" height="528"/>
+&lt;p>This iteration we made progress on Geniza and closed out several issues for Startwords. We weren&amp;rsquo;t able to get a release out with the Geniza updates due to team commitments and availability at the end of the iteration, but we hope to get a release out early this iteration with the completed work. Our development velocity is fairly steady at &lt;strong>5&lt;/strong> points, but we closed &lt;strong>8&lt;/strong> development points and &lt;strong>17&lt;/strong> issues. We&amp;rsquo;re also continuing to make good progress with design work on both projects.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Notable work includes improvements to the public search — a filter for documents with images, options to sort by input date and shelfmark, and our first foray into Judaeo-Arabic conversion, making it possible to search on Judaeo-Arabic transcription content when inputting Arabic search terms. We updated the admin document view so that it uses the same image and transcription viewer as the public site, and improved the display and functionality in the IIIF image rights in that section. We also made progress on RTL design implementations, resolved a long-standing font loading issue in Percy, and finally set up Sphinx code documentation. We&amp;rsquo;re continuing to make progress on design and development for the new transcription functionality, although we have not yet been able to deliver it for testing.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We finalized designs for the new author list and linking to the author page in the footer, and completed testing on issues for reading articles and issues in translation and toggling between languages. We delivered a draft version of Issue 3 to the contributors with their revisions, so we are getting closer to publishing this issue.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>&lt;figure>&lt;img src="featured-geniza-doc-details.png"
+alt="Screenshot of revised document details page"/>&lt;figcaption>
+&lt;p>Screenshot of revised document details page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="geniza-sort-options.png"
+alt="Screenshot of document search with new sorts and filters"/>&lt;figcaption>
+&lt;p>Screenshot of document search with new sorts and filters&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="geniza-image-rights.png"
+alt="Screenshot of revised image rights and permalink on document details page"/>&lt;figcaption>
+&lt;p>Screenshot of revised image rights and permalink on document details page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: 2022 Q2 Schedule</title><link>/blog/2022/04/2022-q2-schedule/</link><pubDate>Tue, 19 Apr 2022 11:54:48 -0400</pubDate><guid>/blog/2022/04/2022-q2-schedule/</guid><description/></item><item><title>Blog: Apr 5 - Apr 16, 2022</title><link>/blog/2022/04/18/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/18/</guid><description>
 &lt;img src="/blog/2022/04/18/featured-startwords-multilingual_hu323df8a84995277b79811538ff69610f_256815_640x0_resize_catmullrom_3.png" width="640" height="382"/>
 &lt;p>This iteration we made progress on the remaining multilingual functionality and other features needed to publish &lt;em>Startwords&lt;/em> issue 3. We didn&amp;rsquo;t close a lot of points on the Geniza project because the major work going on at this point is prototyping and beginning to implement the new transcription functionality, and sketching out design ideas for the public display and interaction of images with transcription and translation content. Our rolling development velocity is &lt;strong>4.67&lt;/strong>, due to the low number of points completed in the last two iterations (3, 4). We expect this to pick up once we move out of the transcription prototyping phase and finish work on the Startwords issue.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
