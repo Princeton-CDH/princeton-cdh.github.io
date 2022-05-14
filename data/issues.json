@@ -9094,7 +9094,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/607",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -9683,7 +9685,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/714",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-12T22:09:33Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -9723,7 +9725,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/723",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-11T20:02:45Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -9745,7 +9747,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\u2753 question"
     ],
     "milestone": ""
   },
@@ -9890,7 +9893,7 @@
     "issue": "Design the \"related documents\" page (instead of the external links page)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/746",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -10010,9 +10013,11 @@
     "issue": "As a content editor, I want to add block-level transcription to documents with images so that I can make existing transcription content available in the site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/757",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -10073,10 +10078,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/769",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-05-09T17:30:53Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10141,7 +10144,7 @@
     "issue": "As a user, I would like to see historic and converted dates in document search results so that I can easily scan date information when it is known.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/780",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10163,10 +10166,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/782",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-05-11T16:24:13Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10177,8 +10179,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10187,10 +10188,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/784",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-05-11T16:24:32Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10232,10 +10232,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/788",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-05-11T00:08:38Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10249,11 +10248,11 @@
     "milestone": ""
   },
   {
-    "issue": "As an admin user, I want the Document \"original date\" and \"calendar\" fields to be validated against each other, so that I cannot produce incomplete records.",
+    "issue": "As an admin user, I want the Document original date and calendar to be required together, so that I cannot produce incomplete records.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/794",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-05-11T20:07:51Z",
     "labels": [],
     "milestone": ""
   },
@@ -10443,7 +10442,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\u2753 question"
     ],
     "milestone": ""
   },
@@ -10533,10 +10533,77 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to fragment url importing to ignore upper/lower case differences when matching shelfmarks, so that I can import urls when the shelfmarks don't match exactly.",
+    "issue": "As a content editor, I want fragment url importing to ignore upper/lower case differences when matching shelfmarks, so that I can import urls when the shelfmarks don't match exactly.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/845",
     "estimate": 0,
+    "closed": "2022-05-11T19:40:35Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I would like to see converted dates displayed in a standard, readable format so that I can easily understand the calendar information.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/847",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want the fragment IIIF url to be populated based on view url when it can be automatically inferred.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/848",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "automatically clean redundant manifest uris generated by some iiif viewers",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/850",
+    "estimate": "",
+    "closed": "2022-05-11T19:31:44Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "upgrade to django 4.0",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/853",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want Anno Mundi dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/854",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want Hijr\u012b dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/855",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want standard document dates validated so that I am prevented from entering dates the system can't use for searching and display.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/857",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -21448,13 +21515,12 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/226",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-10T19:48:16Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
-      "awaiting review",
       "Epic"
     ],
-    "milestone": "issue 3"
+    "milestone": "Issue 3"
   },
   {
     "issue": "Design for displaying links to essays available in more than one language",
@@ -21635,10 +21701,11 @@
     "issue": "Revise the alignment and placement of the opening line shadow text",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/254",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": "Issue 3"
   },
@@ -21684,6 +21751,17 @@
       "chore"
     ],
     "milestone": "Issue 3"
+  },
+  {
+    "issue": "Revise the language toggles so they're visually correct ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/262",
+    "estimate": 2,
+    "closed": "2022-05-10T15:41:24Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to use breadcrumb navigation to move around the site.",
