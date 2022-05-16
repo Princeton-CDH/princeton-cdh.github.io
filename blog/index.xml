@@ -1,4 +1,9 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 18 - Apr 29, 2022</title><link>/blog/2022/05/02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 2 - May 13, 2022</title><link>/blog/2022/05/16/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/16/</guid><description>
+&lt;p>We released Geniza v4.4 early in this iteration to deliver work completed in the previous iteration, and then quickly discovered and fixed a bug with the menu button that made the site unnavigable on mobile. We did not get another release out during the iteration.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We made progress on a number of design and development issues and both rolling velocity and iteration development work are at &lt;strong>6 points&lt;/strong>. This doesn&amp;rsquo;t reflect the large amount of in-progress work on transcription functionality (delivered for first-round testing but still very much in progress) and several related features around date/calendar conversion.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>No development work this iteration, but design work for issue 3 is nearly complete and editorial and design work will be ready soon for final handoff for development on the remaining items needed for completing this issue.&lt;/p></description></item><item><title>Blog: Apr 18 - Apr 29, 2022</title><link>/blog/2022/05/02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/</guid><description>
 &lt;img src="/blog/2022/05/02/featured-geniza-doc-details_hu6e508823ce402b666b0a6fbd9a76aa08_128232_640x0_resize_catmullrom_3.png" width="640" height="528"/>
 &lt;p>This iteration we made progress on Geniza and closed out several issues for Startwords. We weren&amp;rsquo;t able to get a release out with the Geniza updates due to team commitments and availability at the end of the iteration, but we hope to get a release out early this iteration with the completed work. Our development velocity is fairly steady at &lt;strong>5&lt;/strong> points, but we closed &lt;strong>8&lt;/strong> development points and &lt;strong>17&lt;/strong> issues. We&amp;rsquo;re also continuing to make good progress with design work on both projects.&lt;/p>
 &lt;h2 id="geniza">Geniza&lt;/h2>
@@ -545,16 +550,4 @@ alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
 &lt;p>Releases included work needed for updates to the data export logic for the 1.0 data release,
 and code added by Rebecca Koeser (taken on as R&amp;amp;D work) to automate the 100 years ago today twitter account.&lt;/p></description></item><item><title>Blog: Jun 29 - Jul 17, 2020</title><link>/blog/2020/07/21/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>/blog/2020/07/21/</guid><description>
 &lt;p>PEMM release with final updates to close out grant year.&lt;/p>
-&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item><item><title>Blog: Jun 15 — 26, 2020</title><link>/blog/2020/06/30/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/blog/2020/06/30/</guid><description>
-&lt;p>Lots of progress on &lt;em>Startwords&lt;/em>, but no official release until Issue 1 is ready.
-PEMM release put off until this iteration since only one feature was completed.&lt;/p>
-&lt;h2 id="demo">Demo&lt;/h2>
-&lt;h3 id="_startwords_">&lt;em>Startwords&lt;/em>&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Scrollable contextual notes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/about/">We have an about page!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/">Pull quote!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/">Our first short piece!!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/#-">Amazing pit bar&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/Princeton-CDH/startwords/issues/22#issuecomment-651201652">PDF&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item></channel></rss>
