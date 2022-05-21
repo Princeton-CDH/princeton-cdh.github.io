@@ -241,7 +241,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/118",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-18T14:12:51Z",
     "labels": [
       "chore"
     ],
@@ -8300,8 +8300,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/455",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-05-16T15:54:31Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -9659,7 +9661,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/709",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -9745,10 +9749,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/725",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-20T13:10:29Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -9896,7 +9900,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10145,7 +10150,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/780",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-05-19T16:07:57Z",
     "labels": [],
     "milestone": ""
   },
@@ -10399,7 +10404,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/827",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-18T15:25:59Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -10436,14 +10441,13 @@
     "milestone": ""
   },
   {
-    "issue": "Search for sources isn't working as expected in admin interface.  ",
+    "issue": "Search for sources in admin interface doesn't include volume",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/831",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-16T19:27:59Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\u2753 question"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -10546,7 +10550,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/847",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-05-17T19:26:35Z",
     "labels": [],
     "milestone": ""
   },
@@ -10586,7 +10590,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/854",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-05-16T18:42:04Z",
     "labels": [],
     "milestone": ""
   },
@@ -10595,7 +10599,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/855",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-05-17T13:24:51Z",
     "labels": [],
     "milestone": ""
   },
@@ -10604,8 +10608,166 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/857",
     "estimate": 1,
+    "closed": "2022-05-16T18:47:32Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update percy sdk",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/859",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Multilingual Implementation ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/860",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want document descriptions displayed with line breaks from the content editors so that I can more easily read longer or more structured descriptions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/861",
+    "estimate": 0,
+    "closed": "2022-05-16T19:15:19Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want to search by partial shelfmarks so I can more easily find documents by exact shelfmark or groups of shelfmarks.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/863",
+    "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want to sort documents by document date so I can find the oldest or newest records within my search results when document date is known",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/864",
+    "estimate": 2,
+    "closed": "2022-05-18T15:36:48Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user, I want to filter documents by date so that I can find documents known to be from a particular time period.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/865",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the interactive experiences that can exist between the image and transcription/translation based on their relation so users can correspond to either side when using the transcription panel",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/866",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the design of the image attribution so that image and text(provenance) are displayed",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/867",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a way to track inferred dates for documents in a structured way so that it can be used for filtering, sorting, and display.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/870",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the revised site header on mobile for the Latin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/871",
+    "estimate": "",
+    "closed": "2022-05-17T22:14:12Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the revised logo for site header on mobile for the Latin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/872",
+    "estimate": "",
+    "closed": "2022-05-17T22:13:55Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want standardized dates entered before validation was applied automatically cleaned up so they can be used for filtering and sorting in the public site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/873",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want structured date information extracted from descriptions so it can be used for display, filtering, and sorting.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/874",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want to see dating information displayed on document details when available, so that I can find out the time frame of a document when it is known.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/875",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Language Tagging autocomplete is very slow.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/876",
+    "estimate": "",
+    "closed": "2022-05-18T15:38:20Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Align Document Detail View and Document List View ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/877",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {
@@ -10617,6 +10779,26 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "generate a report of records Alan has changed and added",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/881",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user I want to search on document date information so I can find records by calendar or historic date.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/882",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -21762,6 +21944,17 @@
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "body text is indented on Firefox between ~1074 and 1448 width",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "Issue 3"
   },
   {
     "issue": "As a reader, I want to use breadcrumb navigation to move around the site.",
