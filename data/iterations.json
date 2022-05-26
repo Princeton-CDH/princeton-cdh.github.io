@@ -612,33 +612,89 @@
         "from": "2022-05-02",
         "to": "2022-05-13",
         "projects": [
-            "geniza"
+            "geniza", "startwords"
         ]
     },
     {
         "from": "2022-05-16",
-        "to": "2022-05-27",
+        "to": "2022-06-03",
+        "projects": [
+            "geniza", "startwords"
+        ]
+    },
+    {
+        "from": "2022-06-06",
+        "to": "2022-06-17",
+        "projects": [
+            "geniza", "other"
+        ],
+        "notes": {
+            "other": [
+                "RP planning"
+            ]
+        }
+    },
+    {
+        "from": "2022-06-20",
+        "to": "2022-07-01",
+        "projects": [
+            "geniza", "other"
+        ],
+        "notes": {
+            "other": [
+                "RP planning"
+            ]
+        }
+    },
+    {
+        "from": "2022-07-04",
+        "to": "2022-07-15",
+        "projects": [
+            "geniza", "other"
+        ],
+        "notes": {
+            "other": [
+                "RP planning"
+            ]
+        }
+    },
+    {
+        "from": "2022-07-18",
+        "to": "2022-07-22",
+        "comment": "R&D week",
+        "skip": "yes"
+    },
+    {
+        "from": "2022-07-25",
+        "to": "2022-08-05",
         "projects": [
             "geniza"
         ]
     },
     {
-        "from": "2022-05-30",
-        "to": "2022-06-10",
+        "from": "2022-08-08",
+        "to": "2022-08-19",
         "projects": [
             "geniza"
         ]
     },
     {
-        "from": "2022-06-13",
-        "to": "2022-06-24",
+        "from": "2022-08-22",
+        "to": "2022-09-02",
         "projects": [
             "geniza"
         ]
     },
     {
-        "from": "2022-06-27",
-        "to": "2022-07-08",
+        "from": "2022-09-05",
+        "to": "2022-09-16",
+        "projects": [
+            "geniza"
+        ]
+    },
+    {
+        "from": "2022-09-19",
+        "to": "2022-09-30",
         "projects": [
             "geniza"
         ]
