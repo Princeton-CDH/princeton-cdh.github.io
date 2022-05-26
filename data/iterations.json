@@ -587,7 +587,7 @@
             "ppa",
             "startwords"
         ],
-        "partial": ["ppa", "geniza"],
+        "partial": ["ppa", "geniza", "startwords"],
         "notes": {
             "ppa": [
                 "Gale/ECCO API planning"
@@ -613,7 +613,8 @@
         "to": "2022-05-13",
         "projects": [
             "geniza", "startwords"
-        ]
+        ],
+        "partial": ["startwords"]
     },
     {
         "from": "2022-05-16",
