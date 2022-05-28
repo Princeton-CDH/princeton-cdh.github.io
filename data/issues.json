@@ -9751,8 +9751,7 @@
     "estimate": "",
     "closed": "2022-05-20T13:10:29Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -10184,7 +10183,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10228,7 +10228,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10370,10 +10371,11 @@
     "issue": "Add a faded colored background/highlight to the tags to compensate for the padding around each tag",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/818",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-05-27T22:26:37Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10668,7 +10670,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -10687,10 +10689,11 @@
     "issue": "Revise the design of the image attribution so that image and text(provenance) are displayed",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/867",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10725,7 +10728,7 @@
     "issue": "As a content editor, I want standardized dates entered before validation was applied automatically cleaned up so they can be used for filtering and sorting in the public site.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/873",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10786,7 +10789,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/881",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-24T19:28:26Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -10802,6 +10805,69 @@
     "milestone": ""
   },
   {
+    "issue": "In .csv downloads from the admin interface, for joins, the IIIF_url field needs a space after the semicolon.  ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/883",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "differentiate between images that belong to a document and ones that don't so that reading the transcription panel of a document would be easier for users",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/884",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "import iiif and view urls for JRL fragments",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/885",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want Seleucid dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/886",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Input date not always populating",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/887",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to see all images and first available transcription for a document, so that I can see and read the content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/889",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Design mobile wireframes for the new search idea so that users can navigate through Geniza topics and documents and learn about the relationship between clusters of data",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/89",
@@ -10810,6 +10876,42 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to see page side and shelfmark information above each image so that I know what part of the document I\u2019m viewing.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/890",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to click or tap on image controls to turn on deep zoom so I can inspect the image in more detail.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/891",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want content panel toggles to be disabled when a record type for a document is not available, so that I know what content is available. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/892",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to toggle content panels so that I can view image or transcription separately or both at the same time, so I can read the content I am interested in.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/893",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -21583,18 +21685,16 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "issue 3"
+    "milestone": "Issue 3"
   },
   {
-    "issue": "generalize common interlude styles",
+    "issue": "As an editor, I want to use interlude styles on any article so that I can highlight content using startwords-specific visuals.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/204",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "chore"
-    ],
-    "milestone": "issue 3"
+    "estimate": 1,
+    "closed": "2022-05-26T15:51:49Z",
+    "labels": [],
+    "milestone": "Issue 3"
   },
   {
     "issue": "revise figure shortcode to set image width and height",
@@ -21668,7 +21768,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "issue 3"
+    "milestone": "Issue 3"
   },
   {
     "issue": "As an editor, I want to add content pages to the site so I can publish editorial and contributor guides and other documentation on the site.",
@@ -21884,10 +21984,9 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/254",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-05-24T20:48:11Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "Issue 3"
   },
@@ -21896,7 +21995,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/255",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-05-26T16:03:17Z",
     "labels": [
       "chore"
     ],
@@ -21919,7 +22018,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/260",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-05-26T12:44:48Z",
     "labels": [],
     "milestone": "Issue 3"
   },
@@ -21957,6 +22056,15 @@
     "milestone": "Issue 3"
   },
   {
+    "issue": "As a reader, I want an easy way to discover the author list page, so that I can see it exists and access it from any page on the site.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/268",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": "Issue 3"
+  },
+  {
     "issue": "As a reader, I want to use breadcrumb navigation to move around the site.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/27",
@@ -21966,6 +22074,48 @@
       "enhancement"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "Horizontal scroll & multiple languages seen in contextual notes",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/270",
+    "estimate": "",
+    "closed": "2022-05-25T21:24:26Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Fix misplaced > icon at base of homepage",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/272",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "contextual notes pollute browser history",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/273",
+    "estimate": "",
+    "closed": "2022-05-26T18:37:33Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "Issue 3"
+  },
+  {
+    "issue": "As a reader, I want to see DOIs for all versions of translated articles so that I know what languages the article is available in and can find and read them.",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/274",
+    "estimate": 1,
+    "closed": "2022-05-26T16:42:01Z",
+    "labels": [],
+    "milestone": "Issue 3"
   },
   {
     "issue": "As a reader, I want to navigate around the site using the footer. ",
