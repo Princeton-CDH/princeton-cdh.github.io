@@ -9897,10 +9897,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/746",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-01T21:06:34Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10181,10 +10180,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/783",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-03T15:18:43Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10226,10 +10224,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/787",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-06-01T21:02:15Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10374,8 +10371,7 @@
     "estimate": 1,
     "closed": "2022-05-27T22:26:37Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10670,7 +10666,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -10690,10 +10686,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/867",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-06-02T20:25:20Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10820,10 +10815,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/884",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-03T15:11:51Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10862,7 +10856,7 @@
     "issue": "As a user I want to see all images and first available transcription for a document, so that I can see and read the content.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/889",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10891,7 +10885,7 @@
     "issue": "As a user I want to click or tap on image controls to turn on deep zoom so I can inspect the image in more detail.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/891",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10900,7 +10894,7 @@
     "issue": "As a user I want content panel toggles to be disabled when a record type for a document is not available, so that I know what content is available. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/892",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10909,7 +10903,36 @@
     "issue": "As a user I want to toggle content panels so that I can view image or transcription separately or both at the same time, so I can read the content I am interested in.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/893",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "search fields jump when an error message displays",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/894",
     "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "wagtail userbar doesn't work with turbo/stimulus",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/896",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to switch between different transcriptions when there are multiple, so that I can read all available versions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/899",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10933,6 +10956,26 @@
     "closed": "2021-10-12T21:59:49Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to be able to see image source and permissions within the image+transcription panel so that I know where fragment images come from and how I can use them.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/900",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "transcription panel implementation MVP",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/901",
+    "estimate": "",
+    "closed": null,
+    "labels": [
       "Epic"
     ],
     "milestone": ""
@@ -19493,10 +19536,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/292",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "bug"
-    ],
+    "closed": "2022-05-30T17:04:53Z",
+    "labels": [],
     "milestone": ""
   },
   {
