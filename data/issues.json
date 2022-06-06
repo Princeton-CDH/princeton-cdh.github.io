@@ -10260,10 +10260,10 @@
     "milestone": ""
   },
   {
-    "issue": "design an edit button so scholars can be navigated to make changes to the records",
+    "issue": "design a log in button so scholars can be navigated to make changes to the records",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/795",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -10664,10 +10664,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/865",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-06T14:29:21Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10977,6 +10975,26 @@
     "closed": null,
     "labels": [
       "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user when viewing a document I want to see any documents that are related to it on a \"Related documents\" page so that I can gain more context ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/903",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add a faded colored background/highlight to the tags to compensate for the padding around each tag (for dark mode)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/904",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -19537,7 +19555,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/292",
     "estimate": "",
     "closed": "2022-05-30T17:04:53Z",
-    "labels": [],
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -22166,6 +22186,17 @@
     "closed": "2020-04-16T13:58:52Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "revise author list styles",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/280",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 3"
   },
   {
     "issue": "As a reader, I want to save an article using the Zotero citation manager.",
