@@ -669,8 +669,13 @@
         "from": "2022-07-25",
         "to": "2022-08-05",
         "projects": [
-            "geniza"
-        ]
+            "geniza", "other"
+        ],
+        "notes": {
+            "other": [
+                "DH2022"
+            ]
+        }
     },
     {
         "from": "2022-08-08",
