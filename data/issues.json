@@ -9351,7 +9351,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/653",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-06-09T18:20:04Z",
     "labels": [],
     "milestone": ""
   },
@@ -10722,7 +10722,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/873",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-07T17:41:02Z",
     "labels": [],
     "milestone": ""
   },
@@ -10856,7 +10856,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/889",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -10874,16 +10876,18 @@
     "issue": "As a user I want to see page side and shelfmark information above each image so that I know what part of the document I\u2019m viewing.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/890",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
     "issue": "As a user I want to click or tap on image controls to turn on deep zoom so I can inspect the image in more detail.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/891",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10894,7 +10898,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/892",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -10903,7 +10909,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/893",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -10959,12 +10967,14 @@
     "milestone": ""
   },
   {
-    "issue": "As a user I want to be able to see image source and permissions within the image+transcription panel so that I know where fragment images come from and how I can use them.",
+    "issue": "As a user I want to find image source and permissions within the image+transcription panel so that I can find out where fragment images come from and how I can use them.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/900",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -10979,11 +10989,11 @@
     "milestone": ""
   },
   {
-    "issue": "As a user when viewing a document I want to see any documents that are related to it on a \"Related documents\" page so that I can gain more context ",
+    "issue": "As a user when viewing a document I want to see if there are any related documents so that I can easily discover other documents on the same shelfmarks. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/903",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2022-06-09T18:26:18Z",
     "labels": [],
     "milestone": ""
   },
@@ -10999,12 +11009,125 @@
     "milestone": ""
   },
   {
+    "issue": "Still not able to update large sources without error message (though it worked in the end)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/905",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "server error for documents associated with Heidelberg IIIF (PGPIDs 34016, 34017, 34018 so far)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/906",
+    "estimate": "",
+    "closed": "2022-06-10T12:29:15Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to edit record descriptions in bulk in order to update spellings or other errors.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/908",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "On the admin site, I want the tag list view to include counts for how many times its used, in order to understand the scope of tags and to help clean them later.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/909",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Design desktop wireframes of document detail page to communicate the content structure, page layout, and content variations to the project team",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/91",
     "estimate": 2,
     "closed": "2021-04-05T14:12:09Z",
     "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to add and edit transcriptions on a separate page from the document detail or admin edit form, so that permissions and saving just the transcription can be managed more easily.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/911",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want transcription content synchronized from annotation storage to a GitHub repository so that the content is backed up, versioned, and available for use in generating a text corpus.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/912",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to link transcription content to a scholarship record so that I can document who authored the transcription and where it came from.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/913",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin I want TEI transcription content migrated to IIIF annotation so that I can manage and edit it in the new transcription editor.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/914",
+    "estimate": 5,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor I want to add or edit labels for blocks of transcription text so that I can indicate new sections or different kinds of texts.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/915",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor I want to use basic formatting in transcription content so that I can enter lines as numbered lists or tag when the language changes within a document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/916",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin I would like to see counts and/or be able to export user log entries so that I can quantify how much work a content editor has contributed to the database. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/918",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise transcription panel designs so that there are consistent spacing and autolayout structure between the pieces ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/919",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
