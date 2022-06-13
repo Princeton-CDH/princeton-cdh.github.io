@@ -669,7 +669,10 @@
         "from": "2022-07-25",
         "to": "2022-08-05",
         "projects": [
-            "geniza", "other"
+            "geniza", "other", "ppa"
+        ],
+        "partial": [
+            "geniza", "ppa"
         ],
         "notes": {
             "other": [
@@ -681,7 +684,10 @@
         "from": "2022-08-08",
         "to": "2022-08-19",
         "projects": [
-            "geniza"
+            "geniza", "ppa"
+        ],
+        "partial": [
+            "geniza", "ppa"
         ]
     },
     {
