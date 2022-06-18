@@ -6634,8 +6634,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/228",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T21:29:46Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -9401,8 +9402,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/662",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T21:26:39Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -9780,8 +9782,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/730",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T21:28:05Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -10002,7 +10005,7 @@
     "milestone": ""
   },
   {
-    "issue": "transcription mvp",
+    "issue": "transcription editor mvp",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/756",
     "estimate": "",
@@ -10251,7 +10254,7 @@
     "milestone": ""
   },
   {
-    "issue": "As an admin user, I want the Document original date and calendar to be required together, so that I cannot produce incomplete records.",
+    "issue": "As a content editor, I want the Document original date and calendar to be required together, so that I cannot produce incomplete records.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/794",
     "estimate": 1,
@@ -10266,7 +10269,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10286,7 +10290,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/801",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-14T20:07:52Z",
     "labels": [],
     "milestone": ""
   },
@@ -10672,10 +10676,11 @@
     "issue": "Design the interactive experiences that can exist between the image and transcription/translation based on their relation so users can correspond to either side when using the transcription panel",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/866",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -10760,8 +10765,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/877",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T21:28:55Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -10855,10 +10861,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/889",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-14T15:02:14Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10877,10 +10881,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/890",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-14T15:08:05Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10897,10 +10899,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/892",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-14T15:10:14Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10908,10 +10908,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/893",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-14T15:15:55Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10971,10 +10969,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/900",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-06-14T15:11:30Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11004,7 +11000,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -11061,7 +11058,7 @@
     "issue": "As a content editor, I want to add and edit transcriptions on a separate page from the document detail or admin edit form, so that permissions and saving just the transcription can be managed more easily.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/911",
-    "estimate": 1,
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -11106,7 +11103,7 @@
     "issue": "As a content editor I want to use basic formatting in transcription content so that I can enter lines as numbered lists or tag when the language changes within a document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/916",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -11125,9 +11122,69 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/919",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T20:35:37Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a toggle that activates and deactivates image zoom on mobile so that images are not zoomable and scroll traps by default ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/920",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design text hints to help users learn the gestures to rotate and zoom in and out of images on mobile",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/921",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a control for image rotation so that users can rotate images on desktop ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/922",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a control for image zoom so that users can zoom in of images on desktop ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/923",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design transcription panel \"not available\" button so that it is more distinguishable from \"not open\".",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/925",
+    "estimate": "",
+    "closed": "2022-06-16T21:25:36Z",
+    "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -11140,6 +11197,17 @@
     "closed": "2021-05-21T19:59:10Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "update transcription editor to use new image+transcription panel viewer",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/930",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.",
@@ -21865,7 +21933,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/20",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-06-15T21:27:36Z",
     "labels": [
       "enhancement"
     ],
@@ -22211,7 +22279,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/261",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T21:00:40Z",
     "labels": [
       "chore"
     ],
@@ -22244,7 +22312,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/268",
     "estimate": 0,
-    "closed": null,
+    "closed": "2022-06-15T21:26:11Z",
     "labels": [],
     "milestone": "Issue 3"
   },
@@ -22275,7 +22343,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/272",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-16T15:39:59Z",
     "labels": [
       "chore"
     ],
@@ -22315,7 +22383,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/280",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-15T21:27:59Z",
     "labels": [
       "chore"
     ],
