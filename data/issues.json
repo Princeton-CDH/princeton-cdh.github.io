@@ -10267,10 +10267,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/795",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-21T20:11:22Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10458,7 +10457,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/832",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-06-21T21:09:42Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -10677,10 +10676,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/866",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-06-21T21:14:55Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10798,7 +10796,7 @@
     "issue": "As a frontend user I want to search on document date information so I can find records by calendar or historic date.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/882",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -10998,10 +10996,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/904",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-06-21T17:08:02Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -11040,7 +11037,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/909",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "help-wanted"
+    ],
     "milestone": ""
   },
   {
@@ -11134,10 +11133,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/920",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-06-21T20:45:06Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -11146,10 +11144,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/921",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-21T20:46:43Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -11158,22 +11155,20 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/922",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-21T21:17:08Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "Design a control for image zoom so that users can zoom in of images on desktop ",
+    "issue": "Design a control for image zoom so that users can zoom in on images on desktop ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/923",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-06-21T15:08:25Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -11206,6 +11201,28 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Change all #FFFFFF text in dark mode to #F7F7F7 for accessibility reasons ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/931",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "- Propose an information architecture for the contextual search so that it\u2019s clear how it can be integrated with existing functionality",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/932",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
