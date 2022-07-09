@@ -8803,8 +8803,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/559",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-07-07T15:19:26Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -9662,7 +9664,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/709",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-07-07T15:18:49Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -9674,7 +9676,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/710",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -10889,7 +10893,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/891",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -10936,7 +10942,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/899",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11209,7 +11217,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/931",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-07-08T16:39:33Z",
     "labels": [
       "\u267f accessibility"
     ],
@@ -11224,6 +11232,26 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor working in the admin interface, I want a warning/error if I try to save a new document without a shelfmark.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/935",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a desktop user, I want to click to rotate the deep zoom image of a fragment so that I can view it in alternate orientations.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/937",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
