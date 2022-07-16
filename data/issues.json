@@ -10892,10 +10892,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/891",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-07-13T15:10:25Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10941,10 +10939,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/899",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-07-11T15:47:29Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11230,7 +11226,8 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -11250,6 +11247,91 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/937",
     "estimate": 1,
+    "closed": "2022-07-11T21:59:40Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user and/or content editor, I want to be able to search by old PGPID in order to update xml files or personal spreadsheets more easily.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/940",
+    "estimate": "",
+    "closed": "2022-07-11T19:16:34Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want TEI transcription synchronization to ignore documents that only contain labels, so that transcription content is prioritized over \"see other\" labels.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/942",
+    "estimate": 1,
+    "closed": "2022-07-11T22:01:45Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to search for tags with or without diacritics and get the same results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/943",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "admin footnote download results in an empty csv file (headers only)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/946",
+    "estimate": "",
+    "closed": "2022-07-14T19:18:31Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "The public search bar has a bias towards LTR text that makes it challenging/unintuitive to search in RTL and especially to use wildcards with RTL.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/948",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to view and edit transcription edit synced from TEI so that I can correct or remove incorrectly synced content when necessary.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/950",
+    "estimate": 0,
+    "closed": "2022-07-15T15:28:09Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user of the public site, I would like to download a csv of the PGP data in order to do research",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/951",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to filter the document list view to include translation (Y/N) in order to find translations",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/952",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want the admin csv download to include transcription (Y/N) and translation (Y/N)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/953",
+    "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": ""
