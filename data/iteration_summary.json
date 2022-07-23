@@ -2126,7 +2126,7 @@
         },
         "dev": {
             "points": 7,
-            "issues": 8,
+            "issues": 10,
             "velocity": 9.33
         },
         "design": {
@@ -2134,7 +2134,7 @@
             "velocity": 5.0
         },
         "project_issues": {
-            "geniza": 8
+            "geniza": 10
         },
         "project_points": {
             "geniza": 7
