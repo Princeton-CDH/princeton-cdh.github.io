@@ -10026,7 +10026,7 @@
     "estimate": 5,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -10035,7 +10035,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/758",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-07-20T21:51:09Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -11063,7 +11063,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/911",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11099,16 +11101,20 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/915",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
     "issue": "As a content editor I want to use basic formatting in transcription content so that I can enter lines as numbered lists or tag when the language changes within a document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/916",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11337,6 +11343,60 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want a field in the fragment/document sections that indicates material support (paper vs parchment) in order to aid later join finders.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/954",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, when I select a fragment \u201cside\u201d in the document edit form I want an indicator of which fragment images will be displayed so that I can confirm I\u2019m selecting the correct side or sides.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/955",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I search for a document that is only on one side of a fragment, I want to see the relevant image first so that I can preview the document more accurately.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/956",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user viewing document details I want to see which images are not part of the document so that I understand which parts of the fragment are used for the current document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/957",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user looking at images for a single document, I want easy access to documents on images from the same fragment that are not part of the current document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/958",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want the full citation for a transcription in context so I know who authored it and where it came from.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/959",
+    "estimate": 0,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/96",
@@ -11346,6 +11406,46 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Add colored background to the tags to compensate for the padding around them on light and dark mode ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/960",
+    "estimate": "",
+    "closed": "2022-07-21T13:46:02Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement a w3c annotation server to store transcription data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/962",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a transcription editor, I should see an error if I try to update an annotation with out of date content so that I don't overwrite someone else's changes.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/965",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Dark mode does not support wide displays",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/967",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a global admin, I want display name included in the one-time import of languages and scripts, so that I can start using display names while the import is still being developed and tested.",
@@ -22147,7 +22247,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "Issue 3"
+    "milestone": ""
   },
   {
     "issue": "As an editor, I want to add content pages to the site so I can publish editorial and contributor guides and other documentation on the site.",
