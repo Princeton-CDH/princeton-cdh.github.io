@@ -649,21 +649,15 @@
     },
     {
         "from": "2022-07-04",
-        "to": "2022-07-15",
+        "to": "2022-07-22",
         "projects": [
             "geniza", "other"
         ],
         "notes": {
             "other": [
-                "RP planning"
+                "RP planning", "", "R&D week"
             ]
         }
-    },
-    {
-        "from": "2022-07-18",
-        "to": "2022-07-22",
-        "comment": "R&D week",
-        "skip": "yes"
     },
     {
         "from": "2022-07-25",

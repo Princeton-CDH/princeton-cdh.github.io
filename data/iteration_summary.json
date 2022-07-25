@@ -2114,14 +2114,16 @@
     },
     {
         "from": "2022-07-04",
-        "to": "2022-07-15",
+        "to": "2022-07-22",
         "projects": [
             "geniza",
             "other"
         ],
         "notes": {
             "other": [
-                "RP planning"
+                "RP planning",
+                "",
+                "R&D week"
             ]
         },
         "dev": {
