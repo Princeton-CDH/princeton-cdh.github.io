@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jun 7 - Jun 18, 2022</title><link>/blog/2022/06/21/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/21/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 4 - Jul 22, 2022</title><link>/blog/2022/07/25/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/25/</guid><description>
+&lt;img src="/blog/2022/07/25/featured_geniza_itt_huc4dd34ec8528b5941c858b1d744782a9_3118254_640x0_resize_catmullrom_3.png" width="640" height="313"/>
+&lt;p>This iteration we completed implementation of the MVP for the new image + transcription viewing panel on the document details page on the Princeton Geniza Project site. Specific features completed include image zoom controls (zoom is no longer enabled by default, which resolves some accessibility problems and avoids making the zoom a scroll trap) and switching between editions when a document has more than one transcription. We also completed work on a revised tag style, a change which was needed to properly handle accessibility checks and making sure that tags are always big enough tap targets. Although we completed the MVP functionality for the new viewer, we were delayed with releasing it to the production site due to a change in the interim transcription format and problems synchronizing transcriptions for documents with more than one edition, which requires data work to resolve.&lt;/p>
+&lt;p>We completed 7 points of development work (10 issues) for a rolling velocity of 9.3; design work was impacted by staff unavailability.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured_geniza_itt.png"
+alt="Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls."/>&lt;figcaption>
+&lt;p>Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="geniza_new_tag.png"
+alt="Screenshot of Princeton Geniza Project search results with revised tag styles."/>&lt;figcaption>
+&lt;p>Screenshot of Princeton Geniza Project search results with revised tag styles.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jun 7 - Jun 18, 2022</title><link>/blog/2022/06/21/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/21/</guid><description>
 &lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter_hu37daa875e16c4aed843a1ec6b98ccb96_93893_640x0_resize_catmullrom_3.png" width="640" height="751"/>
 &lt;p>This iteration our primary focus was on Princeton Geniza Project, but we did close a few more issues related to the upcoming Startwords issue 3. Our development velocity is on an upward trend — we closed &lt;strong>21&lt;/strong> development points (16 issues), which gives us a rolling velocity of &lt;strong>13.7&lt;/strong>.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
@@ -571,7 +585,4 @@ alt="Geniza search prototype"/>&lt;figcaption>
 alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
 &lt;p>Screenshot of new 404 page design for &lt;em>Startwords&lt;/em>&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Aug 10 - 20, 2020</title><link>/blog/2020/08/24/</link><pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/2020/08/24/</guid><description>
-&lt;p>Not a lot of development work reported on GitHub because the primary team focus continues to be planning the new Research Partnership project. This iteration also included time spent on two internal project retrospectives (Shakespeare and Company Project, PEMM) and a CDH Retreat.&lt;/p>
-&lt;p>Active development work included progress on PPA bugfixes (delivered for testing but not complete) and minor maintenance updates to django-pucas (removing support for python 2.7 to fix the a failing master build, in preparation for migrating from master to main).&lt;/p>
-&lt;p>The long list of &amp;ldquo;wontfix&amp;rdquo; issues in the mep-django is a result of cleaning up GitHub for Shakespeare and Company Project to close issues that were postponed or wishlisted on the way to a 1.0 release and we no longer plan to work on.&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
