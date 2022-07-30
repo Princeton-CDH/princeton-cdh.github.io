@@ -5783,6 +5783,15 @@
     "milestone": ""
   },
   {
+    "issue": "update pucas for django 4.0",
+    "project": "django-pucas",
+    "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Add django-cas-ng 3.6+ compatibility",
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/4",
@@ -5822,6 +5831,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/9",
     "estimate": "",
     "closed": "2020-08-25T15:22:49Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update djiffy for django 4.0",
+    "project": "djiffy",
+    "url": "https://api.github.com/repos/Princeton-CDH/djiffy/issues/14",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
@@ -9767,7 +9785,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/727",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -10025,9 +10045,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/757",
     "estimate": 5,
     "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10482,8 +10500,8 @@
     "issue": "Design styles and placement of the light/dark mode toggles so that the toggles can be displayed and used on all site pages",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/834",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-07-27T18:17:53Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -11036,14 +11054,12 @@
     "milestone": ""
   },
   {
-    "issue": "On the admin site, I want the tag list view to include counts for how many times its used, in order to understand the scope of tags and to help clean them later.",
+    "issue": "On the admin site, I want the tag list view to include counts for how many times its used, in order to understand the scope of tags and clean them.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/909",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "help-wanted"
-    ],
+    "closed": "2022-07-26T16:02:56Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11064,7 +11080,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -11100,10 +11116,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/915",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-07-25T14:32:40Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11113,7 +11127,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -11230,10 +11244,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/932",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-07-27T20:48:15Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -11356,7 +11369,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/955",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-07-26T15:37:31Z",
     "labels": [],
     "milestone": ""
   },
@@ -11365,7 +11378,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/956",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-07-26T15:38:51Z",
     "labels": [],
     "milestone": ""
   },
@@ -11391,8 +11404,8 @@
     "issue": "As a user, I want the full citation for a transcription in context so I know who authored it and where it came from.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/959",
-    "estimate": 0,
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-07-27T20:43:41Z",
     "labels": [],
     "milestone": ""
   },
@@ -11441,10 +11454,85 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/967",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-07-25T21:51:17Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a list of clusters for users to browse through so that they can also learn about the clusters without interacting with the visualization ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/971",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the cluster button so that it\u2019s more like a switch along with an icon to represent its function so that it's easier for users to recognize its purpose",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/972",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a cluster section above the list of documents so that users can learn about the specific clustered documents they are viewing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/973",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add cluster details to each document on the list view so that users can gain more context on the clusters for each document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/974",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a call to action to expand/collapse the cluster visualization so that users can choose to focus on the list view and/or the visualization ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/975",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the layout and grouping of cluster-related content on the document detail view so that users can learn about cluster details when viewing a document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/977",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a desktop user, I want an angle control to rotate the deep zoom image of a fragment, so that I can control the rotation more finely than 90\u00ba increments.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/978",
+    "estimate": "",
+    "closed": "2022-07-28T14:04:52Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11457,6 +11545,36 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "As a content editor I want to select images in the related fragment view in order to determine which images belong with the document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/982",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Cluster Search ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/988",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the light/dark mode toggle so that users can use the site in the UI mode they prefer. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/989",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Update dbdocs github action to use the new CI integration instructions",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/99",
@@ -11466,6 +11584,28 @@
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "I tried making changes in the admin interface > sources on my phone and they weren't saving:",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/994",
+    "estimate": "",
+    "closed": "2022-07-28T22:20:50Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "refine logic for identifying transcription chunks that indicate new image",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/995",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Add chatops QA deploy",
@@ -17717,6 +17857,15 @@
     "milestone": "0.1 initial release"
   },
   {
+    "issue": "update parasolr for django 4.0",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/73",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Provides Django management command to index models that subclass Indexable and other non-model content.  ",
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/8",
@@ -19871,10 +20020,10 @@
     "issue": "As an admin, I should only be able to delete items that have been suppressed so that I can't leave the pairtree data in an inconsistent state.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/279",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "Integrate reactive search with google analytics",
@@ -19991,10 +20140,10 @@
     "issue": "As a user, I want volume information to appear on both list view and item detail view so that my experience is consistent across the search pages.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/296",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "disallow requesting nonexistent result pages",
@@ -20173,7 +20322,7 @@
     "issue": "disable parallax effect for motion-sensitive users",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/316",
-    "estimate": "",
+    "estimate": 0,
     "closed": null,
     "labels": [
       "accessibility"
@@ -20567,7 +20716,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "As an admin, I want a way to suppress items in bulk from the admin digitized works list so that I can manage the content if an agreement for content expires.",
@@ -20828,10 +20977,10 @@
     "issue": "As a user, I want my Zotero metadata to include the PPA item URL so that I can easily link back to and cite an item I found on the PPA.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/404",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "correct the following ESTC numbers in Gale ID lookup",
@@ -20913,7 +21062,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "regularly synchronize HathiTrust pairtree data",
@@ -20957,7 +21106,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": ""
+    "milestone": "v3.8"
   },
   {
     "issue": "Clarify help text on search page",
@@ -20965,8 +21114,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/439",
     "estimate": "",
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.8"
   },
   {
     "issue": "Styles: editorial list",
@@ -20976,6 +21127,64 @@
     "closed": "2018-12-12T21:59:10Z",
     "labels": [],
     "milestone": "v3.0 - Initial public version (soft launch)"
+  },
+  {
+    "issue": "As an admin, I want to include book excerpts and articles as well as full volumes from Gale/ECCO, so that I can include material that is specifically about prosody from longer works about other subjects.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/443",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "As an admin, I want to export a custom CSV after searching in the backend so that I can use the backend\u2019s search functionality to create targeted data sets. ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/444",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "As a user, I want items with the same title and author to be collapsed automatically so that my search isn\u2019t clouded by repetitive results.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/445",
+    "estimate": 5,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "As a user, I want to see the actual rather than digital page number on keyword search results of Gale/ECCO items so that I can more accurately cite items.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/446",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "Adding new items from HathiTrust broken for some items",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/447",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "upgrade to django 3.2",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/449",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Styles: editorial post",
@@ -22528,7 +22737,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/264",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-07-25T18:04:13Z",
     "labels": [
       "bug"
     ],
@@ -22617,6 +22826,50 @@
     "milestone": "Issue 3"
   },
   {
+    "issue": "links in issue introduction should be styled and visible as links",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/286",
+    "estimate": "",
+    "closed": "2022-07-27T15:13:56Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 3"
+  },
+  {
+    "issue": "update article citation metadata to work with new author data file",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/287",
+    "estimate": "",
+    "closed": "2022-07-27T16:00:33Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 3"
+  },
+  {
+    "issue": "missing space between introduction author names",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/288",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "translator should only be named beneath Spanish introduction",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/289",
+    "estimate": "",
+    "closed": "2022-07-27T20:33:31Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 3"
+  },
+  {
     "issue": "As a reader, I want to save an article using the Zotero citation manager.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/29",
@@ -22624,6 +22877,29 @@
     "closed": "2020-06-11T20:07:45Z",
     "labels": [],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "Revise the order and position of logos and rights in the footer so that there is more space around the links to resolve accessibility issues  ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/293",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup a pre-production build environment for generating pdfs",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/295",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a reader, I want to see an error page if content isn't found.",
