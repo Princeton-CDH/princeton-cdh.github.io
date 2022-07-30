@@ -2160,15 +2160,23 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 2.33
+            "points": 6,
+            "issues": 11,
+            "velocity": 4.33
         },
         "design": {
-            "points": 0,
-            "velocity": 5.0
+            "points": 6,
+            "issues": 2,
+            "velocity": 7.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "geniza": 9,
+            "startwords": 4
+        },
+        "project_points": {
+            "geniza": 12,
+            "startwords": 0
+        }
     },
     {
         "from": "2022-08-08",
@@ -2183,11 +2191,11 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 2.33
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
@@ -2200,11 +2208,11 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
