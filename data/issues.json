@@ -5888,6 +5888,33 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want new and revised transcriptions available for search immediately so that changes and new content are all available to all site users.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1000",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want footnotes to indicate when a digital edition is available so that I can see and filter on records with and without transcription in the admin intefrace.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1001",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to be able to create a new transcription linked to new or existing scholarship records so I can document its source and authorship.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1002",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Create clustering algorithm to group PGPIDs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
@@ -10044,7 +10071,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/757",
     "estimate": 5,
-    "closed": null,
+    "closed": "2022-08-03T17:42:37Z",
     "labels": [],
     "milestone": ""
   },
@@ -10064,7 +10091,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/759",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-02T13:32:20Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -10998,7 +11025,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/901",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-02T13:30:06Z",
     "labels": [
       "Epic"
     ],
@@ -11078,10 +11105,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/911",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-08-03T17:43:22Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11097,7 +11122,7 @@
     "issue": "As a content editor, I want to link transcription content to a scholarship record so that I can document who authored the transcription and where it came from.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/913",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -11125,9 +11150,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/916",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-08-03T17:47:28Z",
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -11222,7 +11247,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/930",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-02T13:31:29Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -11549,7 +11574,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/982",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-03T17:52:33Z",
     "labels": [],
     "milestone": ""
   },
@@ -11571,7 +11596,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/989",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11605,6 +11633,26 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the designs so that links to images that do not belong to a document are displayed on single doc views ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/997",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want transcription edits displayed immediately on the document details so that changes and new content are all available to all site users.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/999",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -21102,7 +21150,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/437",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-04T14:00:44Z",
     "labels": [
       "bug"
     ],
@@ -21113,7 +21161,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/439",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-04T13:54:57Z",
     "labels": [
       "chore"
     ],
@@ -21180,7 +21228,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/449",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-04T13:59:18Z",
     "labels": [
       "chore"
     ],
@@ -21194,6 +21242,35 @@
     "closed": "2018-12-12T22:00:07Z",
     "labels": [],
     "milestone": "v3.0 - Initial public version (soft launch)"
+  },
+  {
+    "issue": "As a user, when I see a group of editions in my search results, I want an option to search within all editions.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/451",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "As a user viewing a digitized work that's available in other editions, I want to know that other editions are available and have easy access to search across them.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/452",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "check whether hathitrust rsync update improves ocr",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/453",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.8"
   },
   {
     "issue": "Snippet: search result pagination controls",
@@ -22895,11 +22972,11 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/295",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-01T15:29:14Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "Issue 3"
   },
   {
     "issue": "As a reader, I want to see an error page if content isn't found.",
@@ -22911,6 +22988,39 @@
       "enhancement"
     ],
     "milestone": "Issue 1"
+  },
+  {
+    "issue": "display issue for two-digit footnotes",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/301",
+    "estimate": "",
+    "closed": "2022-08-03T19:28:27Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "some characters still appearing as ASCII codes in TXT",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/303",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "line break appearing before \"translated by\" in author list page on mobile",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/304",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to publish articles and supplementary content.",
@@ -23194,8 +23304,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "chore",
-      "enhancement"
+      "enhancement",
+      "chore"
     ],
     "milestone": ""
   },
