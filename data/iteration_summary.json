@@ -2193,14 +2193,21 @@
         ],
         "dev": {
             "points": 0,
+            "issues": 4,
             "velocity": 7.67
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "startwords": 2,
+            "geniza": 2
+        },
+        "project_points": {
+            "startwords": 0,
+            "geniza": 0
+        }
     },
     {
         "from": "2022-08-22",
