@@ -5915,6 +5915,35 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want an easy way to select the scholarship record for my unpublished transcriptions so I can add transcriptions to new documents more quickly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1010",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to override the order images are displayed for a document so that I can set the images to display in logical order for joins.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1011",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Create an icon to represent the function of the cluster toggle and the cluster related content on the document detail view so that it's easier for users to recognize its purpose",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1012",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Create clustering algorithm to group PGPIDs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
@@ -8566,13 +8595,14 @@
     "milestone": ""
   },
   {
-    "issue": "Turn off tag case sensitivity",
+    "issue": "As a content editor, when I search for tags to add to a document I want the search to ignore case so that I don't create variations of the same tag.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/499",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -11151,9 +11181,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/916",
     "estimate": 2,
     "closed": "2022-08-03T17:47:28Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11319,9 +11347,11 @@
     "issue": "As a content editor, I want to be able to search for tags with or without diacritics and get the same results.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/943",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -11459,7 +11489,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/962",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-11T21:25:35Z",
     "labels": [
       "chore"
     ],
@@ -11497,7 +11527,7 @@
     "milestone": ""
   },
   {
-    "issue": "Revise the cluster button so that it\u2019s more like a switch along with an icon to represent its function so that it's easier for users to recognize its purpose",
+    "issue": "Revise the cluster button so that it\u2019s more like a switch so that it's easier for users to recognize its purpose",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/972",
     "estimate": 1,
@@ -11595,11 +11625,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/989",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u2753 question",
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-08-12T14:06:15Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11642,7 +11669,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -20763,7 +20791,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/370",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "tested needs attention"
+    ],
     "milestone": "v3.8"
   },
   {
@@ -21209,7 +21239,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/446",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.8"
   },
   {
@@ -21271,6 +21303,24 @@
       "chore"
     ],
     "milestone": "v3.8"
+  },
+  {
+    "issue": "As an admin, I want to see the groupID field on list view so that I can search for and see collapsed versions at a glance.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/455",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As an admin, I want to see the editable groupID field on record detail view so that I can collapse and uncollapse texts after developer-assisted import.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/456",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Snippet: search result pagination controls",
@@ -22929,7 +22979,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/288",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-09T16:14:28Z",
     "labels": [
       "bug"
     ],
@@ -23016,7 +23066,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/304",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-10T15:47:48Z",
     "labels": [
       "bug"
     ],
