@@ -22,9 +22,8 @@ We started ramping back up on PPA development work this iteration, beginning wit
 
 
 ## Demos
-* add demo links or screenshots
 
-{{< figure src="featured-###.png" caption="##">}}
+{{< figure src="featured-sw3-home-es.png" caption="Screenshot of Startwords home page in Spanish with Issue 3 published">}}
 
 
 
