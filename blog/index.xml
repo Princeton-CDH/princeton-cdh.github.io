@@ -1,4 +1,20 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 4 - Jul 22, 2022</title><link>/blog/2022/07/25/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/25/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
+&lt;p>Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We finally published &lt;a href="https://startwords.cdh.princeton.edu/issues/3/">Startwords issue 3&lt;/a>! GitHub issues completed in this iteration were chores related to getting the release out and quick bug fixes to address problems we discovered after the issue was published.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Version 4.6 went into production, with the new image + transcription viewer. We also tested closed a number of features related to the transcription editor.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We started ramping back up on PPA development work this iteration, beginning with some python package updates and a few small chores.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="featured-###.png"
+alt="##"/>&lt;figcaption>
+&lt;p>##&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 4 - Jul 22, 2022</title><link>/blog/2022/07/25/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/25/</guid><description>
 &lt;img src="/blog/2022/07/25/featured_geniza_itt_huc4dd34ec8528b5941c858b1d744782a9_3118254_640x0_resize_catmullrom_3.png" width="640" height="313"/>
 &lt;p>This iteration we completed implementation of the MVP for the new image + transcription viewing panel on the document details page on the Princeton Geniza Project site. Specific features completed include image zoom controls (zoom is no longer enabled by default, which resolves some accessibility problems and avoids making the zoom a scroll trap) and switching between editions when a document has more than one transcription. We also completed work on a revised tag style, a change which was needed to properly handle accessibility checks and making sure that tags are always big enough tap targets. Although we completed the MVP functionality for the new viewer, we were delayed with releasing it to the production site due to a change in the interim transcription format and problems synchronizing transcriptions for documents with more than one edition, which requires data work to resolve.&lt;/p>
 &lt;p>We completed 7 points of development work (10 issues) for a rolling velocity of 9.3; design work was impacted by staff unavailability.&lt;/p>
@@ -567,22 +583,4 @@ alt="Geniza search prototype"/>&lt;figcaption>
 &lt;ul>
 &lt;li>CDH web &lt;a href="https://cdh.princeton.edu/people/affiliates/">affiliates page now includes staff, such as PUL librarians directing data curation projects&lt;/a>&lt;/li>
 &lt;li>CDH web events can now be designated as virtual, and take an optional URL for joining the virtual event&lt;/li>
-&lt;/ul></description></item><item><title>Blog: Aug 24 - Sep 4, 2020</title><link>/blog/2020/09/08/</link><pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate><guid>/blog/2020/09/08/</guid><description>
-&lt;img src="/blog/2020/09/08/featured_startwords_404design_huff12e89c7eb4ae2479e06a3c7a794ddf_79450_640x0_resize_catmullrom_3.png" width="640" height="379"/>
-&lt;p>The last iteration we continued to spend time on project maintenance and updates. Closed issues on &lt;em>Startwords&lt;/em> and the pucas release are continuing and closing out work from the previous iterations. Active work this iteration that is incomplete and not reflected in the closed tickets include django/mezzanine upgrades for cdhweb, and refactoring PPA to remove an outdated SolrClient dependency and use parasolr instead. We also have now migrated our first repositories to use &lt;strong>main&lt;/strong> as the production branch name.&lt;/p>
-&lt;p>Over the last iteration we also wrote a new &lt;em>limited support agreement&lt;/em>, which was adapted and simplified from the &lt;a href="https://doi.org/10.5281/zenodo.3359203">&amp;ldquo;Built by CDH&amp;rdquo; Long Term Service Agreement&lt;/a> in order to offer minimal support for the &lt;a href="https://pemm.cdh.princeton.edu/">PEMM Incipit Search Tool&lt;/a> for a limited term (1 year, renewable for a second year). The limited support agreement for PEMM goes into effect today.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://princeton-cdh.github.io/">New dev/design site&lt;/a> (still in progress)&lt;/li>
-&lt;li>&lt;em>Startwords&lt;/em>:
-&lt;ul>
-&lt;li>&lt;a href="https://www.figma.com/file/MEt3gfKX4N3WTLPbLGBbGC/Startwords?node-id=1104%3A3516">404 error design&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Articles now have image styles with automatic derivatives for different size screens&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="featured_startwords_404design.png"
-alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
-&lt;p>Screenshot of new 404 page design for &lt;em>Startwords&lt;/em>&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
