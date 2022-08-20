@@ -5944,6 +5944,17 @@
     "milestone": ""
   },
   {
+    "issue": "v4.7 Software release checklist",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1015",
+    "estimate": "",
+    "closed": "2022-08-18T22:21:45Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Create clustering algorithm to group PGPIDs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
@@ -6874,7 +6885,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a content admin, I would like to be able to batch upload new documents from a .csv (structured like the old metadata spreadsheet) so that I can avoid entering hundreds of documents one by one. ",
+    "issue": "As a content admin, I would like to be able to batch upload new documents from a .csv so that I can avoid entering hundreds of documents one by one. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
     "estimate": "",
@@ -8599,10 +8610,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/499",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-08-16T13:47:43Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -10327,9 +10337,11 @@
     "issue": "As a frontend user, I want smart quotes to be converted to normal quotation marks in order to get proper results in the search field. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/789",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11348,10 +11360,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/943",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-08-16T13:57:48Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11371,7 +11381,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/948",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -11441,8 +11453,8 @@
     "issue": "As a user viewing document details I want to see which images are not part of the document so that I understand which parts of the fragment are used for the current document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/957",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-08-18T12:41:43Z",
     "labels": [],
     "milestone": ""
   },
@@ -11451,7 +11463,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/958",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-08-17T21:08:52Z",
     "labels": [],
     "milestone": ""
   },
@@ -11656,7 +11668,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/995",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-18T15:53:25Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -20114,10 +20126,12 @@
     "issue": "Transform typographic quotes in searches",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/282",
-    "estimate": 2,
+    "estimate": 1,
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "tested needs attention"
+    ],
+    "milestone": "v3.8"
   },
   {
     "issue": "Refactor main archive search to typescript",
@@ -20217,7 +20231,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/296",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-08-19T18:17:10Z",
     "labels": [],
     "milestone": "v3.8"
   },
@@ -20395,11 +20409,11 @@
     "milestone": ""
   },
   {
-    "issue": "disable parallax effect for motion-sensitive users",
+    "issue": "As a motion-sensitive user, I want my browser reduced motion preference honored and the parallax effect on the site homepage not enabled, so that the parallax doesn't make me feel unwell.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/316",
     "estimate": 0,
-    "closed": null,
+    "closed": "2022-08-18T16:07:37Z",
     "labels": [
       "accessibility"
     ],
@@ -20790,10 +20804,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/370",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "tested needs attention"
-    ],
+    "closed": "2022-08-17T15:10:38Z",
+    "labels": [],
     "milestone": "v3.8"
   },
   {
@@ -21211,7 +21223,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/443",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-08-18T16:11:28Z",
     "labels": [],
     "milestone": "v3.8"
   },
@@ -21219,9 +21231,11 @@
     "issue": "As an admin, I want to export a custom CSV after searching in the backend so that I can use the backend\u2019s search functionality to create targeted data sets. ",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/444",
-    "estimate": 2,
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "tested needs attention"
+    ],
     "milestone": "v3.8"
   },
   {
@@ -21230,7 +21244,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/445",
     "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.8"
   },
   {
@@ -21238,10 +21254,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/446",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2022-08-17T15:17:50Z",
+    "labels": [],
     "milestone": "v3.8"
   },
   {
@@ -21251,7 +21265,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "tested needs attention"
     ],
     "milestone": "v3.8"
   },
@@ -21288,7 +21303,7 @@
     "issue": "As a user viewing a digitized work that's available in other editions, I want to know that other editions are available and have easy access to search across them.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/452",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "v3.8"
@@ -21305,21 +21320,34 @@
     "milestone": "v3.8"
   },
   {
-    "issue": "As an admin, I want to see the groupID field on list view so that I can search for and see collapsed versions at a glance.",
+    "issue": "As an admin, I want to see work clusters on digitized work list view so that I can search for and see collapsed versions at a glance.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/455",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2022-08-19T18:57:58Z",
+    "labels": [
+      "awaiting testing"
+    ],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "As an admin, I want to see and edit work clusters so that I can collapse and uncollapse texts after developer-assisted import.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/456",
+    "estimate": 0,
+    "closed": "2022-08-19T17:59:56Z",
     "labels": [],
     "milestone": ""
   },
   {
-    "issue": "As an admin, I want to see the editable groupID field on record detail view so that I can collapse and uncollapse texts after developer-assisted import.",
+    "issue": "upgrade to newer version of nodejs and npm packages",
     "project": "ppa-django",
-    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/456",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/458",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-08-17T18:40:36Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -21330,6 +21358,28 @@
     "closed": "2018-05-22T19:32:56Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "update code documentation",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/461",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.8"
+  },
+  {
+    "issue": "Keyword search is failing to show more than one term in context",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/463",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.8"
   },
   {
     "issue": "Setup scss pipeline with compressor",
