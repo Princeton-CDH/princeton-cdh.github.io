@@ -2192,9 +2192,9 @@
             "ppa"
         ],
         "dev": {
-            "points": 0,
-            "issues": 4,
-            "velocity": 7.67
+            "points": 13,
+            "issues": 18,
+            "velocity": 12.0
         },
         "design": {
             "points": 0,
@@ -2202,11 +2202,13 @@
         },
         "project_issues": {
             "startwords": 2,
-            "geniza": 2
+            "geniza": 8,
+            "ppa-django": 8
         },
         "project_points": {
             "startwords": 0,
-            "geniza": 0
+            "geniza": 6,
+            "ppa-django": 7
         }
     },
     {
@@ -2217,7 +2219,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 5.33
+            "velocity": 9.67
         },
         "design": {
             "points": 0,
@@ -2234,7 +2236,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
