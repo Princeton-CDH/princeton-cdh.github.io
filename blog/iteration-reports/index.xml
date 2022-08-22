@@ -1,4 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aug 8 - Aug 19, 2022</title><link>/blog/2022/08/22/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/22/</guid><description>
+&lt;img src="/blog/2022/08/22/featured-geniza-nondocument-image_hu0bea99bbc63d5b21f7df3f8c8e1be338_356321_640x0_resize_catmullrom_3.png" width="640" height="560"/>
+&lt;p>We had a productive iteration, making good progress on both Princeton Geniza Project and Princeton Prosody Archive (PPA). We closed &lt;em>13&lt;/em> development points (18 issues); with three strong iterations in a row, we&amp;rsquo;re up to a rolling development velocity of &lt;em>12&lt;/em> points. We didn&amp;rsquo;t close design issues, but that&amp;rsquo;s because we have larger design tasks in progress.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released version 4.7, which includes some content editor improvements for tagging; improved display for non-document images in the image+transcription panel viewer for documents; the newly designed light/dark mode toggle was also implemented.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We completed the remaining work on Gale/ECCO import and support that was leftover from last year&amp;rsquo;s enhancements, in particular: admin import for small batches,
+excerpt support for Gale/ECCO works, and data improvements that were delayed pending API changes on Gale&amp;rsquo;s end. We started on functionality to group works into clusters to gather reprints and editions. We also did some other minor updates to improve performance, accessibility, and make the site more consistent.&lt;/p>
+&lt;h2 id="other">Other&lt;/h2>
+&lt;ul>
+&lt;li>updated the Startwords site with fixes for a couple of small display issues&lt;/li>
+&lt;li>created a new organization-wide GitHub template for our team software release checklist (previously tracked as a template task in Asana)&lt;/li>
+&lt;/ul>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-geniza-nondocument-image.png"
+alt="Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document"/>&lt;figcaption>
+&lt;p>Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="geniza-lightdark-toggle.gif"
+alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle in action"/>&lt;figcaption>
+&lt;p>Screen capture of Princeton Geniza Project showing light/dark mode toggle in action&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
 &lt;img src="/blog/2022/08/15/featured-sw3-home-es_hu69c047a2f4fcedf58044d2b58d1f46ce_322226_640x0_resize_catmullrom_3.png" width="640" height="424"/>
 &lt;p>Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.&lt;/p>
 &lt;h2 id="startwords">Startwords&lt;/h2>
