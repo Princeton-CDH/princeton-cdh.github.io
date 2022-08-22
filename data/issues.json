@@ -11356,7 +11356,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to be able to search for tags with or without diacritics and get the same results.",
+    "issue": "As a content editor, I want to search for tags with or without diacritics and get the same results so that I can more easily find the correct tag.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/943",
     "estimate": 1,
@@ -21325,9 +21325,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/455",
     "estimate": 0,
     "closed": "2022-08-19T18:57:58Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "labels": [],
     "milestone": "v3.8"
   },
   {
