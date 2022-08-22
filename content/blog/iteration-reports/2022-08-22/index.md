@@ -6,7 +6,7 @@ layout: iterationreport
 slug: "22"
 ---
 
-We had a productive iteration, making good progress on both Princeton Geniza Project and Princeton Prosody Archive (PPA). We closed *13* development points (18 issues); with three strong iterations in a row, we're up to a rolling development velocity of *12* points. We didn't close design issues, but that's because we have larger design tasks in progress.
+We had a productive iteration, making good progress on both Princeton Geniza Project and Princeton Prosody Archive (PPA). We closed **13** development points (18 issues); with three strong iterations in a row, we're up to a rolling development velocity of **12** points. We didn't close design issues, but that's because we have larger design tasks in progress.
 
 ## Geniza
 
