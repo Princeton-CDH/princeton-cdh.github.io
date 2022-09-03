@@ -2523,7 +2523,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/362",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:08:51Z",
     "labels": [
       "accessibility"
     ],
@@ -2620,7 +2620,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/378",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:08:03Z",
     "labels": [],
     "milestone": ""
   },
@@ -2682,7 +2682,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/384",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:10:34Z",
     "labels": [
       "bug"
     ],
@@ -2728,7 +2728,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "tested needs attention"
     ],
     "milestone": ""
   },
@@ -2737,7 +2738,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/393",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:13:36Z",
     "labels": [
       "bug"
     ],
@@ -2759,7 +2760,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/396",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:09:28Z",
     "labels": [
       "bug"
     ],
@@ -2770,9 +2771,9 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/399",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-01T18:21:19Z",
     "labels": [
-      "bug"
+      "chore"
     ],
     "milestone": ""
   },
@@ -5902,8 +5903,8 @@
     "issue": "As a content editor, I want new and revised transcriptions available for search immediately so that changes and new content are all available to all site users.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1000",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-09-01T21:06:27Z",
     "labels": [],
     "milestone": ""
   },
@@ -5912,7 +5913,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1001",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-08-29T19:41:50Z",
     "labels": [],
     "milestone": ""
   },
@@ -5940,7 +5941,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1011",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -5980,7 +5983,7 @@
     "issue": "As a transcription editor, I want to reorder transcription blocks within a page so that I can make sure text content matches logical document order.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1021",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -6011,7 +6014,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1034",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -6048,8 +6053,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1038",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2022-09-01T20:29:28Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -6062,6 +6069,37 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want to add and edit transcriptions for records without IIIF images available so that transcriptions aren't limited to records with images.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1044",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "regression on server error for documents associated with Heidelberg IIIF (PGPIDs 34016, 34017, 34018)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1046",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want transcription formatting preserved in search result display but ignored for search text so that I can see where in the transcription matching terms are.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1049",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Create clustering algorithm to group PGPIDs",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/105",
@@ -6071,6 +6109,57 @@
       "\ud83d\udeab wontfix",
       "\ud83e\uddea experiment"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "revise ansible vault to separate out secrets needed for geniza qa/production deploys",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1051",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "get ansible replication playbook cleaned up enough for use by others",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1052",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to cut and paste transcription content from a Google Doc or similar and have it display properly with site styles so that I can easily add existing transcription content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1055",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "clean up footnote superscripts in TEI",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1056",
+    "estimate": "",
+    "closed": "2022-09-01T19:36:54Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Image viewer in transcription editor acting improperly",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1057",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10198,8 +10287,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/755",
     "estimate": 3,
-    "closed": null,
-    "labels": [],
+    "closed": "2022-08-30T18:02:13Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -10356,7 +10447,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/781",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-08-30T20:18:45Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "Epic"
@@ -11268,11 +11359,11 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to link transcription content to a scholarship record so that I can document who authored the transcription and where it came from.",
+    "issue": "As a content editor, I want transcription content linked to a scholarship record so that it is clearly documented who authored the transcription and where it came from.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/913",
     "estimate": 5,
-    "closed": null,
+    "closed": "2022-08-29T19:34:58Z",
     "labels": [],
     "milestone": ""
   },
@@ -11281,8 +11372,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/914",
     "estimate": 5,
-    "closed": null,
-    "labels": [],
+    "closed": "2022-09-02T13:06:07Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -11797,7 +11890,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/999",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-08-29T19:49:00Z",
     "labels": [],
     "milestone": ""
   },
@@ -17352,7 +17445,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "enhancement"
+      "enhancement",
+      "awaiting testing"
     ],
     "milestone": ""
   },
@@ -17499,7 +17593,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/762",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-02T17:05:40Z",
     "labels": [
       "bug"
     ],
@@ -21475,9 +21569,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/463",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-02T15:22:22Z",
     "labels": [
-      "awaiting testing",
       "chore"
     ],
     "milestone": "v3.8"
