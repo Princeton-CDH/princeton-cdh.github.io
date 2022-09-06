@@ -1,4 +1,20 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aug 8 - Aug 19, 2022</title><link>/blog/2022/08/22/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/22/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
+&lt;img src="/blog/2022/09/06/featured-cdh-affiliates_hu8eabf4e248fc08229aaaa06d513fc504_1088016_640x0_resize_catmullrom_3.png" width="640" height="651"/>
+&lt;p>We had another very productive iteration; we had &lt;strong>18&lt;/strong> points total accepted on the Princeton Geniza Project, and we completed &lt;strong>18&lt;/strong> development points. This results in a rolling development velocity of &lt;strong>15.7&lt;/strong> points, continuing our upward trend. We closed a total of 23 development issues, which includes a high number of chores and bugs; some of these were on other projects.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>The high number of points this iteration is largely due to significant progress on the transcription migration and new transcription editor functionality. We did also address some small bugs and other minor fixes; we did not release these changes to production during the iteration because we decided to prioritize other things, including making progress on the transcription editor.&lt;/p>
+&lt;h2 id="cdh-website">CDH website&lt;/h2>
+&lt;p>We needed to update the CDH website so that Humanities + Data Science Institute instructors and participants could be included on our affiliates pages. We also corrected a few small bugs and accessibility problems in the process.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>No development activity, but the remaining issues completed in the previous iteration were accepted. The completed work should be released and deployed early this iteration.&lt;/p>
+&lt;h2 id="sco">S&amp;amp;co&lt;/h2>
+&lt;p>We squeezed in two very minor updates to the Shakespeare and Company site; we hope these also will be released and deployed early this iteration.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-cdh-affiliates.png"
+alt="Affiliates page on the CDH website, which now includes Humanities &amp;#43; Data Science Institute instructors and participants"/>&lt;figcaption>
+&lt;p>&lt;a href="https://cdh.princeton.edu/people/affiliates/">Affiliates page on the CDH website&lt;/a>, which now includes Humanities + Data Science Institute instructors and participants&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Aug 8 - Aug 19, 2022</title><link>/blog/2022/08/22/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/22/</guid><description>
 &lt;img src="/blog/2022/08/22/featured-geniza-nondocument-image_hu0bea99bbc63d5b21f7df3f8c8e1be338_356321_640x0_resize_catmullrom_3.png" width="640" height="560"/>
 &lt;p>We had a productive iteration, making good progress on both Princeton Geniza Project and Princeton Prosody Archive (PPA). We closed &lt;strong>13&lt;/strong> development points (18 issues); with three strong iterations in a row, we&amp;rsquo;re up to a rolling development velocity of &lt;strong>12&lt;/strong> points. We didn&amp;rsquo;t close design issues, but that&amp;rsquo;s because we have larger design tasks in progress.&lt;/p>
 &lt;h2 id="geniza">Geniza&lt;/h2>
