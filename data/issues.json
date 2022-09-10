@@ -2621,7 +2621,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/378",
     "estimate": "",
     "closed": "2022-09-01T18:08:03Z",
-    "labels": [],
+    "labels": [
+      "accessibility"
+    ],
     "milestone": ""
   },
   {
@@ -2794,6 +2796,18 @@
     "closed": "2017-09-19T19:07:32Z",
     "labels": [],
     "milestone": "CDH Web 2.0"
+  },
+  {
+    "issue": "website link isn't used on person list pages if person has an unpublished profile page",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/405",
+    "estimate": "",
+    "closed": "2022-09-08T02:37:45Z",
+    "labels": [
+      "bug",
+      "awaiting testing"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Manual cleanup needed after import",
@@ -5940,10 +5954,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1011",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0f tested needs attention"
-    ],
+    "closed": "2022-09-08T15:11:32Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -5983,9 +5995,11 @@
     "issue": "As a transcription editor, I want to reorder transcription blocks within a page so that I can make sure text content matches logical document order.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1021",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -5994,7 +6008,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1022",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -6067,7 +6083,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to add and edit transcriptions for records without IIIF images available so that transcriptions aren't limited to records with images.",
+    "issue": "As a content editor, I want to add and edit transcriptions for records without all IIIF images available so that transcriptions aren't limited to records with all images.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1044",
     "estimate": 2,
@@ -6157,7 +6173,21 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1057",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "twitter links in footer are not in compliance (same text, different links)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1059",
+    "estimate": "",
+    "closed": "2022-09-09T19:16:10Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u267f accessibility"
+    ],
     "milestone": ""
   },
   {
@@ -6168,6 +6198,64 @@
     "closed": "2021-04-14T19:31:24Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "As a content admin, I want images from the Bodleian Genizah collection made available as IIIF so they can be displayed on the site and be linked to transcription text.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1061",
+    "estimate": 5,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Pass tiny API key to, and use it in, tahqiq",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1065",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the search result page type styles for the Hebrew version of the site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1067",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the error page type styles for the Hebrew version of the site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1068",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design the search form type styles for the Hebrew version of the site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1069",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to see updates and changes made in the new database in the current pgp site while the new website is still in development so that I can reference current information. ",
@@ -8482,7 +8570,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8493,7 +8582,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8515,7 +8605,8 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -8815,7 +8906,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/50",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-06T20:02:58Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\uddfa\ufe0f design"
@@ -9731,12 +9822,14 @@
     "milestone": ""
   },
   {
-    "issue": "Generate static manifests and level-zero iiif images from Bodleian",
+    "issue": "investigate generating static manifests and level-zero iiif images from Bodleian",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/671",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-09-08T15:50:30Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -10125,7 +10218,8 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udcac awaiting review"
     ],
     "milestone": ""
   },
@@ -17439,7 +17533,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/740",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-06T21:14:47Z",
     "labels": [
       "enhancement",
       "awaiting testing"
