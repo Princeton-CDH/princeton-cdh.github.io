@@ -5936,7 +5936,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1002",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-15T13:59:24Z",
     "labels": [],
     "milestone": ""
   },
@@ -5996,10 +5996,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1021",
     "estimate": 5,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-12T19:28:59Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6007,10 +6005,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1022",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-11T23:29:32Z",
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6060,7 +6056,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -6079,7 +6076,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1039",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -6088,7 +6087,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1044",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -6109,7 +6110,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -6153,7 +6154,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1055",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -6174,7 +6177,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -6205,9 +6209,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1061",
     "estimate": 5,
     "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6217,7 +6219,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -6226,10 +6229,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1067",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-14T02:06:47Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6238,10 +6240,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1068",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-09-14T02:06:33Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6250,10 +6251,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1069",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-09-14T02:07:02Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -6267,6 +6267,59 @@
     "milestone": ""
   },
   {
+    "issue": "As a content editor, I want to override the orientation of images displayed for a document so I can rotate images to display in logical orientation for readability/useability.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1070",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "v4.8 Software release checklist",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1073",
+    "estimate": "",
+    "closed": "2022-09-12T21:09:22Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "documents without images can't be edited in django admin (v4.8)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1075",
+    "estimate": "",
+    "closed": "2022-09-12T22:34:47Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Image order override does not work consistently on the admin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1077",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update urls for goitein attachments in footnotes (aws, commons -> princetongenizalab.github.io)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1079",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document. (first pass)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/108",
@@ -6274,6 +6327,97 @@
     "closed": "2021-05-10T13:25:20Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "setup static iiif for Bodleian MS Heb b",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1080",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup static iiif for Bodleian MS Heb c",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1081",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup static iiif for Bodleian MS Heb d",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1082",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup static iiif for Bodleian MS Heb e",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1083",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Determine (and possibly mitigate) impact of indexing on annotation editing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1084",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "accessibility issues flagged by DubBot",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1087",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "about menu id is duplicated \u2014 same id used in both header and footer nav (ids must be unique)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1088",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "remediate sort selection drop-down: interactive controls must not be nested",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1089",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u267f accessibility"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
@@ -6285,6 +6429,18 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "light/dark mode toggle is not inside a landmark (all page content should be contained by landmarks)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1090",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u267f accessibility"
+    ],
+    "milestone": ""
   },
   {
     "issue": "test eScriptorium on sample content",
@@ -8568,10 +8724,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/444",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-14T02:07:50Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -8580,10 +8735,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/445",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-14T02:07:38Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -8603,10 +8757,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/448",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-09-14T02:07:20Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10216,10 +10369,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/737",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-14T02:08:16Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udcac awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -10239,8 +10391,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/739",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-16T16:52:00Z",
     "labels": [
+      "\ud83d\udee0\ufe0f chore",
       "\ud83e\uddea experiment"
     ],
     "milestone": ""
@@ -11205,14 +11358,12 @@
     "milestone": ""
   },
   {
-    "issue": "import iiif and view urls for JRL fragments",
+    "issue": "As a content admin, I want IIIF from the Manchester JRL Genizah collection remixed to match our data model so that images can be displayed on the site and be linked to transcription text.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/885",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
-    "labels": [
-      "\ud83d\udee0\ufe0f chore"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -11981,6 +12132,53 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/999",
     "estimate": 1,
     "closed": "2022-08-29T19:49:00Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Set up initial Hugo site with proposed site and data structure",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/1",
+    "estimate": "",
+    "closed": "2022-09-13T20:09:16Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a site editor, I want to run a script to import project data into the new Hugo page/data structure, so that existing content can be loaded in bulk.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/2",
+    "estimate": "",
+    "closed": "2022-09-13T20:09:46Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a site editor, I want to import project data from multiple files without overwriting hugo content, so that I can import or update multiple groups of data at the same time.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/3",
+    "estimate": "",
+    "closed": "2022-09-13T20:34:53Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to see tags, sort date, and branch on leaf summary cards, so that I can review the imported data more easily.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/4",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a leaf in the timetree, I want to see details for that event so that I can read about it in detail.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/5",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
