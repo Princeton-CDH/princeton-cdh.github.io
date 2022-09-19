@@ -695,14 +695,76 @@
         "from": "2022-09-05",
         "to": "2022-09-16",
         "projects": [
-            "geniza"
-        ]
+            "geniza", "lenape"
+        ],
+        "partial": ["lenape"]
     },
     {
         "from": "2022-09-19",
         "to": "2022-09-30",
         "projects": [
-            "geniza"
-        ]
+            "geniza", "lenape"
+        ],
+        "partial": ["lenape"]
+    },
+    {
+        "from": "2022-10-03",
+        "to": "2022-10-14",
+        "projects": [
+            "geniza", "lenape", "ppa"
+        ],
+        "notes": {
+            "geniza": [
+                "end of grant Y2"
+            ],
+            "ppa": [
+                "", "ramp up"
+            ]
+        },
+        "partial": ["lenape", "geniza", "ppa"]
+    },
+    {
+        "from": "2022-10-17",
+        "to": "2022-10-28",
+        "projects": ["lenape", "ppa"],
+        "partial": ["lenape", "ppa"],
+        "notes": {
+            "ppa": ["migration to PUL infra"]
+        }
+    },
+    {
+        "from": "2022-10-31",
+        "to": "2022-11-11",
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"]
+    },
+    {
+        "from": "2022-11-14",
+        "to": "2022-11-25",
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"]
+
+    },
+    {
+        "from": "2022-11-28",
+        "to": "2022-12-09",
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"],
+        "notes": {
+            "ppa": ["spillover enhancements"]
+        }
+    },
+    {
+        "from": "2022-12-12",
+        "to": "2022-12-23",
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"]
+    },
+    {
+        "from": "2022-12-26",
+        "to": "2022-12-30",
+        "comment": "holidays",
+        "skip": "yes"
     }
+
 ]

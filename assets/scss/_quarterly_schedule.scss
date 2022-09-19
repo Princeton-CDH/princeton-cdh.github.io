@@ -93,4 +93,13 @@
 		}
 	}
 
+	.lenape {
+		background-color: #088124;
+		color: white;
+		&.partial {
+			background-color: rgba(8, 129, 36, 0.4);
+
+		}
+	}
+
 }
