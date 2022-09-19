@@ -726,10 +726,11 @@
     {
         "from": "2022-10-17",
         "to": "2022-10-28",
-        "projects": ["lenape", "ppa"],
-        "partial": ["lenape", "ppa"],
+        "projects": ["lenape", "ppa", "derrida"],
+        "partial": ["lenape", "ppa", "derrida"],
         "notes": {
-            "ppa": ["migration to PUL infra"]
+            "ppa": ["migration to PUL infra"],
+            "derrida": ["", "finish archiving"]
         }
     },
     {
