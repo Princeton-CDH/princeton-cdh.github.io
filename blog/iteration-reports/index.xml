@@ -1,4 +1,26 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev/Design @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Dev/Design @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 5 - Sep 16, 2022</title><link>/blog/2022/09/19/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/19/</guid><description>
+&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images_hubdae640f3fa12ed42074144434d29035_449003_640x0_resize_catmullrom_3.png" width="640" height="352"/>
+&lt;p>Our primary focus continues to be Princeton Geniza Project, but we&amp;rsquo;re also
+starting to track work on the Lenape Timetree project, and had a few releases
+for other projects for maintenance and other updates. We closed &lt;strong>14&lt;/strong> development points and development velocity held nearly steady at &lt;strong>15&lt;/strong> points. We also closed a whopping &lt;strong>11&lt;/strong> design points across 8 issues.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We completed work on a feature to allow admins to reorder images for a document, which was released in version 4.8; this caused a bug in editing documents without images, which necessitated a quick bugfix and releasing 4.8.1. We continued to make progress on the transcription migration &amp;amp; editor functionality. On the design side, we closed a number of issues related to the Hebrew version of the site.&lt;/p>
+&lt;h2 id="lenape-princeton-timetree">Lenape Princeton Timetree&lt;/h2>
+&lt;p>We just started tracking work on this project in GitHub, which at this point consists of preliminary versions of a static site to work and a script to parse existing data,
+as a way of prototyping and proposing a data model and site structure.&lt;/p>
+&lt;h2 id="other-releases">Other releases&lt;/h2>
+&lt;p>We released a bugfix for the CDH website that was needed to help with freshening the site for thef all semester. We also released PPA version 3.8, with extended Gale/ECCO functionality.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-geniza-reorder-images.png"
+alt="Screenshot showing the Geniza project image re-ordering feature in action"/>&lt;figcaption>
+&lt;p>Screenshot showing the Geniza project image re-ordering feature in action&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="shxco_footer.png"
+alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/>&lt;figcaption>
+&lt;p>Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;rsquo;s ISSN&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
 &lt;img src="/blog/2022/09/06/featured-cdh-affiliates_hu8eabf4e248fc08229aaaa06d513fc504_1088016_640x0_resize_catmullrom_3.png" width="640" height="651"/>
 &lt;p>We had another very productive iteration; we had &lt;strong>18&lt;/strong> points total accepted on the Princeton Geniza Project, and we completed &lt;strong>18&lt;/strong> development points. This results in a rolling development velocity of &lt;strong>15.7&lt;/strong> points, continuing our upward trend. We closed a total of 23 development issues, which includes a high number of chores and bugs; some of these were on other projects.&lt;/p>
 &lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
@@ -640,16 +662,4 @@ alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
 &lt;p>The long list of &amp;ldquo;wontfix&amp;rdquo; issues in the mep-django is a result of cleaning up GitHub for Shakespeare and Company Project to close issues that were postponed or wishlisted on the way to a 1.0 release and we no longer plan to work on.&lt;/p></description></item><item><title>Blog: Jul 20 - Aug 7, 2020</title><link>/blog/2020/08/10/</link><pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/2020/08/10/</guid><description>
 &lt;p>Three week iteration due to multiple team member week-long vacations. Less development work than usual because the primary team focus has been on planning the new Research Partnership project.&lt;/p></description></item><item><title>Blog: Jun 29 - Jul 17, 2020</title><link>/blog/2020/07/21/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>/blog/2020/07/21/</guid><description>
 &lt;p>PEMM release with final updates to close out grant year.&lt;/p>
-&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item><item><title>Blog: Jun 15 — 26, 2020</title><link>/blog/2020/06/30/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/blog/2020/06/30/</guid><description>
-&lt;p>Lots of progress on &lt;em>Startwords&lt;/em>, but no official release until Issue 1 is ready.
-PEMM release put off until this iteration since only one feature was completed.&lt;/p>
-&lt;h2 id="demo">Demo&lt;/h2>
-&lt;h3 id="_startwords_">&lt;em>Startwords&lt;/em>&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Scrollable contextual notes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/about/">We have an about page!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/">Pull quote!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/">Our first short piece!!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/#-">Amazing pit bar&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/Princeton-CDH/startwords/issues/22#issuecomment-651201652">PDF&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item></channel></rss>
