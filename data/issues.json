@@ -2804,8 +2804,7 @@
     "estimate": "",
     "closed": "2022-09-08T02:37:45Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": ""
   },
@@ -6086,7 +6085,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1044",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-19T00:42:44Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
@@ -6217,7 +6216,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1065",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-19T00:49:41Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\udddc\ufe0f awaiting testing"
@@ -6440,6 +6439,15 @@
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Date not converting automatically?",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1092",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -12150,7 +12158,7 @@
     "issue": "As a site editor, I want to run a script to import project data into the new Hugo page/data structure, so that existing content can be loaded in bulk.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/2",
-    "estimate": "",
+    "estimate": "2",
     "closed": "2022-09-13T20:09:46Z",
     "labels": [],
     "milestone": ""
@@ -12159,7 +12167,7 @@
     "issue": "As a site editor, I want to import project data from multiple files without overwriting hugo content, so that I can import or update multiple groups of data at the same time.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/3",
-    "estimate": "",
+    "estimate": "1",
     "closed": "2022-09-13T20:34:53Z",
     "labels": [],
     "milestone": ""
@@ -12168,7 +12176,7 @@
     "issue": "As a content editor, I want to see tags, sort date, and branch on leaf summary cards, so that I can review the imported data more easily.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/4",
-    "estimate": "",
+    "estimate": "1",
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -12177,7 +12185,7 @@
     "issue": "As a user, when I select a leaf in the timetree, I want to see details for that event so that I can read about it in detail.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/5",
-    "estimate": "",
+    "estimate": "3",
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -17733,8 +17741,7 @@
     "estimate": "",
     "closed": "2022-09-06T21:14:47Z",
     "labels": [
-      "enhancement",
-      "awaiting testing"
+      "enhancement"
     ],
     "milestone": ""
   },
