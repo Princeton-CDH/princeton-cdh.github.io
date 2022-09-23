@@ -711,14 +711,11 @@
         "from": "2022-10-03",
         "to": "2022-10-14",
         "projects": [
-            "geniza", "lenape", "ppa"
+            "geniza", "lenape"
         ],
         "notes": {
             "geniza": [
                 "end of grant Y2"
-            ],
-            "ppa": [
-                "", "ramp up"
             ]
         },
         "partial": ["lenape", "geniza", "ppa"]
@@ -726,11 +723,10 @@
     {
         "from": "2022-10-17",
         "to": "2022-10-28",
-        "projects": ["lenape", "ppa", "derrida"],
-        "partial": ["lenape", "ppa", "derrida"],
+        "projects": ["lenape", "ppa"],
+        "partial": ["lenape", "ppa"],
         "notes": {
-            "ppa": ["migration to PUL infra"],
-            "derrida": ["", "finish archiving"]
+            "ppa": ["migration to PUL infra"]
         }
     },
     {
