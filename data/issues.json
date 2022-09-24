@@ -6028,7 +6028,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Search results not highlighting all matches",
@@ -6046,7 +6046,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "update annotation controller so deep zoom doesn't autoscroll the page when in edit mode",
@@ -6058,7 +6058,7 @@
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a transcription editor I want to edit and rearrange transcription content as numbered lists so that I can correct line wrapping introduced to match printed editions.",
@@ -6074,11 +6074,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1039",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
-    "milestone": ""
+    "closed": "2022-09-22T16:41:57Z",
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want to add and edit transcriptions for records without all IIIF images available so that transcriptions aren't limited to records with all images.",
@@ -6086,9 +6084,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1044",
     "estimate": 2,
     "closed": "2022-09-19T00:42:44Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -6100,18 +6096,16 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want transcription formatting preserved in search result display but ignored for search text so that I can see where in the transcription matching terms are.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1049",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
-    "milestone": ""
+    "closed": "2022-09-23T01:30:08Z",
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Create clustering algorithm to group PGPIDs",
@@ -6134,7 +6128,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "get ansible replication playbook cleaned up enough for use by others",
@@ -6145,18 +6139,16 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want to cut and paste transcription content from a Google Doc or similar and have it display properly with site styles so that I can easily add existing transcription content.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1055",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
-    "milestone": ""
+    "closed": "2022-09-22T20:00:51Z",
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "clean up footnote superscripts in TEI",
@@ -6179,7 +6171,7 @@
       "\ud83d\udee0\ufe0f chore",
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "twitter links in footer are not in compliance (same text, different links)",
@@ -6209,7 +6201,7 @@
     "estimate": 5,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Pass tiny API key to, and use it in, tahqiq",
@@ -6218,8 +6210,7 @@
     "estimate": "",
     "closed": "2022-09-19T00:49:41Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -6316,7 +6307,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want a one time import of the translator and editor information so I know which scholars have transcribed or translated a document. (first pass)",
@@ -6380,7 +6371,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "accessibility issues flagged by DubBot",
@@ -6392,31 +6383,31 @@
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "about menu id is duplicated \u2014 same id used in both header and footer nav (ids must be unique)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1088",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-22T16:22:25Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "remediate sort selection drop-down: interactive controls must not be nested",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1089",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-22T16:23:58Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.",
@@ -6434,21 +6425,94 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1090",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-22T16:22:53Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Date not converting automatically?",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1092",
     "estimate": "",
+    "closed": "2022-09-20T18:52:31Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want TEI contributors documented in the new GitHub annotation and transcription backups so that there is a record of everyone who has contributed to the transcription structure and content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1093",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want to add content editor user's github coauthor emails and link their account to scholarship records so that their contributions will be properly documented.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1094",
+    "estimate": 2,
+    "closed": "2022-09-23T16:04:04Z",
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want transcription backups to include information about who made edits when possible, so that I can track changes in versioned transcription content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1095",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want transcription content backups to be regularly updated as edits are made, so that the backup is up to date, version history is more granular, and I can compare changes.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1096",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want document data exports synchronized to github so that there is a publicly accessible, versioned copy of project data available for researchers.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1097",
+    "estimate": 3,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "data exports",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1098",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want fragment data exports synchronized to github so that there is a publicly accessible, versioned copy of project data available for researchers",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1099",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "test eScriptorium on sample content",
@@ -6473,6 +6537,64 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "As a content admin, I want scholarship records exported to github so that there is a publicly accessible, versioned copy of project data available for researchers.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1100",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want data exports described in a data package so that the data can be described and documented in a standard format.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1101",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content admin, I want data exports to include information about who made edits when possible, so that I see who contributed to changes in project data.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1102",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Implement the Hebrew type styles so that users can easily read the website content ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1106",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "review problem transcriptions in the tei migration & transcription editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1107",
+    "estimate": "",
+    "closed": "2022-09-20T15:43:26Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As an admin/content editor, I want to see all the images associated with a document so that I can determine whether I need to associate more images, clone the record, etc.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1109",
+    "estimate": "",
+    "closed": "2022-09-23T01:22:02Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/111",
@@ -6484,6 +6606,26 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "Implement a language switch so that users can choose to view the site in English, Hebrew, or Arabic ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1113",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update geniza deploy scripts to include git credentials for access to github backup repositories",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1117",
+    "estimate": "",
+    "closed": "2022-09-23T18:49:26Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
     "issue": "As a Content Editor, I want to see who first input a document and who last edited it, and when, so that I can ensure records are kept up-to-date.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/112",
@@ -6493,6 +6635,39 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "display issue / artifact showing up in image + transcription in some cases",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1120",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "make annotation motivation consistent & configurable",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1123",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "revise transcription export directory structure",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1124",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "fix document ordering so we don't get duplicate entries in django admin list view when sorting by shelfmark",
@@ -8631,8 +8806,8 @@
     "issue": "Design a component that allows users switch between languages on the site so that they can navigate the site using their preferred language",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/435",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2022-09-21T18:20:12Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -10208,7 +10383,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/710",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-19T19:23:57Z",
     "labels": [
       "\ud83d\udeab wontfix"
     ],
@@ -10433,7 +10608,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Design the \"related documents\" page (instead of the external links page)",
@@ -10555,7 +10730,7 @@
     "labels": [
       "Epic"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want to add block-level transcription to documents with images so that I can make existing transcription content available in the site.",
@@ -10905,7 +11080,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Add a faded colored background/highlight to the tags to compensate for the padding around each tag",
@@ -11034,7 +11209,7 @@
     "labels": [
       "Epic"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "On mobile, hamburger menu seems to overlap with the light/dark mode toggle.",
@@ -11066,7 +11241,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a front end user who speaks Hebrew or Arabic, I want document descriptions in search results in my native language, so that I can read and understand them. ",
@@ -11075,7 +11250,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want fragment url importing to ignore upper/lower case differences when matching shelfmarks, so that I can import urls when the shelfmarks don't match exactly.",
@@ -11124,7 +11299,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want Anno Mundi dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting.",
@@ -11193,7 +11368,7 @@
     "labels": [
       "\u26a0\ufe0f tested needs attention"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a front-end user, I want to sort documents by document date so I can find the oldest or newest records within my search results when document date is known",
@@ -11287,7 +11462,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Language Tagging autocomplete is very slow.",
@@ -11341,7 +11516,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "In .csv downloads from the admin interface, for joins, the IIIF_url field needs a space after the semicolon.  ",
@@ -11352,7 +11527,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "differentiate between images that belong to a document and ones that don't so that reading the transcription panel of a document would be easier for users",
@@ -11372,7 +11547,7 @@
     "estimate": 3,
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want Seleucid dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting",
@@ -11381,7 +11556,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Input date not always populating",
@@ -11604,10 +11779,12 @@
     "issue": "As an admin, I want transcription content synchronized from annotation storage to a GitHub repository so that the content is backed up, versioned, and available for use in generating a text corpus.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/912",
-    "estimate": 5,
+    "estimate": 8,
     "closed": null,
-    "labels": [],
-    "milestone": ""
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "As a content editor, I want transcription content linked to a scholarship record so that it is clearly documented who authored the transcription and where it came from.",
@@ -11981,7 +12158,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/971",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-19T15:53:34Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -11992,7 +12169,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/972",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-09-19T15:53:19Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -12003,7 +12180,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/973",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-19T15:53:45Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -12014,7 +12191,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/974",
     "estimate": 1,
-    "closed": null,
+    "closed": "2022-09-19T15:53:24Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -12025,7 +12202,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/975",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-19T15:53:31Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -12036,7 +12213,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/977",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-19T15:53:27Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -12176,8 +12353,8 @@
     "issue": "As a content editor, I want to see tags, sort date, and branch on leaf summary cards, so that I can review the imported data more easily.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/4",
-    "estimate": "1",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-09-20T17:59:34Z",
     "labels": [],
     "milestone": ""
   },
