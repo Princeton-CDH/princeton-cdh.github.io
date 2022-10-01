@@ -6026,7 +6026,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6053,10 +6054,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1037",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-26T18:51:32Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6166,10 +6166,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1057",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-27T19:17:19Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6303,7 +6302,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1079",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-30T16:19:21Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6448,10 +6447,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1093",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-26T14:18:26Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -6468,10 +6465,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1095",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-28T18:42:37Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -6479,10 +6474,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1096",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-26T13:59:51Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -6568,7 +6561,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1106",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-27T17:41:23Z",
     "labels": [],
     "milestone": ""
   },
@@ -6611,7 +6604,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1113",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0f tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -6643,7 +6638,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6652,22 +6648,45 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1123",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-30T14:13:47Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
-    "issue": "revise transcription export directory structure",
+    "issue": "As a content editor, I want to navigate the transcription export data on GitHub so that I can find exported content by PGPID.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1124",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Right-to-left site design implementation revisions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1127",
     "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
+  },
+  {
+    "issue": "Investigate and fix issue with transcription texts not loading in transcription editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1129",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "fix document ordering so we don't get duplicate entries in django admin list view when sorting by shelfmark",
@@ -6681,6 +6700,70 @@
     "milestone": "0.3 Initial database and data import"
   },
   {
+    "issue": "Add additional help text to transcription editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1131",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\u26a0\ufe0f tested needs attention"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to see an image thumbnail when I'm zooming and panning on images, so that I can see what I'm looking at in the context of the whole image.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1132",
+    "estimate": 0,
+    "closed": "2022-09-29T14:34:22Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add Arabic type styles for the site so that users can read and navigate the content in Arabic ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1135",
+    "estimate": 5,
+    "closed": "2022-09-30T16:36:34Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add Arabic type styles for the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1136",
+    "estimate": "",
+    "closed": "2022-09-30T16:36:55Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Conduct research to propose Arabic fonts for site content",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1137",
+    "estimate": 5,
+    "closed": "2022-09-29T16:01:08Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add Arabic type styles to the site ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1138",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to be able to filter/search within the \u201cneeds review\u201d field of the list of items \"awaiting review,\" so that I can more efficiently review issues of the same type in batches (docs that need fixes to description, shelfmark, etc).",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/114",
@@ -6690,6 +6773,17 @@
       "\ud83d\udd87\ufe0f duplicate"
     ],
     "milestone": ""
+  },
+  {
+    "issue": "transcription export signal handler needs to be git lockfile aware",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1140",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "generate a report of git commits on bitbucket for Alan to track his contributions",
@@ -8829,7 +8923,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/437",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-09-29T15:29:55Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "Epic"
@@ -8929,7 +9023,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/446",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-09-29T15:29:46Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -11546,7 +11640,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/885",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udcac awaiting review"
+    ],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -11780,10 +11876,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/912",
     "estimate": 8,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-09-26T14:00:56Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
