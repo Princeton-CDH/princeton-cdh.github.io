@@ -1,4 +1,20 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 5 - Sep 16, 2022</title><link>/blog/2022/09/19/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/19/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 19 - Sep 30, 2022</title><link>/blog/2022/10/03/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/03/</guid><description>
+&lt;p>We had a massive iteration, as we make a push to complete the major remaining
+deliverables on the Princeton Geniza Project before the partnership grant ends.
+We also made some small progress on the Lenape timetree project. We completed
+&lt;strong>48&lt;/strong> total points and closed &lt;strong>35&lt;/strong> issues for the Geniza project.
+Looking just at development work, we &lt;strong>24&lt;/strong> development points across
+the same number of issues, and our rolling development velocity is
+at &lt;strong>18.7&lt;/strong>. For design, we closed an astounding &lt;strong>25&lt;/strong> points, all on Geniza.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>On the development side, we&amp;rsquo;re making the last push to complete the steps needed to migrate the transcription content and launch the new transcription editor. This included a number of improvements to the editor, as well as the majority of the implementation of the functionality for backing up and versioning transcription content on GitHub. We fixed a bug in the Arabic to Judaeo-Arabic search syntax that was breaking exact phrase searching in Arabic. We also addressed several small accessibility problems that were flagged by the University&amp;rsquo;s new scanning tool, DubBot. For design, work completed
+includes Arabic fonts and typography. Design work closed this iteration also includes a number of issues
+related to site flow and preliminary designs for the cluster search,
+which were designed in a previous iteration (before we decided to postpone that work),
+and were reviewed and closed at the beginning of this iteration.&lt;/p>
+&lt;p>We did not release a new version of the PGP site this iteration, but expect to release an update in the first half of this iteration and go live with the transcription migration and editor.&lt;/p>
+&lt;h2 id="lenape-timetree">Lenape timetree&lt;/h2>
+&lt;p>We completed a task to improve the summary display of imported &amp;ldquo;leaf&amp;rdquo; data; the design work for sitemap and site flow was not yet being tracked in GitHub. Other improvements to the prototype site and design are ongoing.&lt;/p></description></item><item><title>Blog: Sep 5 - Sep 16, 2022</title><link>/blog/2022/09/19/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/19/</guid><description>
 &lt;img src="/blog/2022/09/19/featured-geniza-reorder-images_hubdae640f3fa12ed42074144434d29035_449003_640x0_resize_catmullrom_3.png" width="640" height="352"/>
 &lt;p>Our primary focus continues to be Princeton Geniza Project, but we&amp;rsquo;re also
 starting to track work on the Lenape Timetree project, and had a few releases
@@ -660,6 +676,4 @@ alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
 &lt;p>Not a lot of development work reported on GitHub because the primary team focus continues to be planning the new Research Partnership project. This iteration also included time spent on two internal project retrospectives (Shakespeare and Company Project, PEMM) and a CDH Retreat.&lt;/p>
 &lt;p>Active development work included progress on PPA bugfixes (delivered for testing but not complete) and minor maintenance updates to django-pucas (removing support for python 2.7 to fix the a failing master build, in preparation for migrating from master to main).&lt;/p>
 &lt;p>The long list of &amp;ldquo;wontfix&amp;rdquo; issues in the mep-django is a result of cleaning up GitHub for Shakespeare and Company Project to close issues that were postponed or wishlisted on the way to a 1.0 release and we no longer plan to work on.&lt;/p></description></item><item><title>Blog: Jul 20 - Aug 7, 2020</title><link>/blog/2020/08/10/</link><pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/2020/08/10/</guid><description>
-&lt;p>Three week iteration due to multiple team member week-long vacations. Less development work than usual because the primary team focus has been on planning the new Research Partnership project.&lt;/p></description></item><item><title>Blog: Jun 29 - Jul 17, 2020</title><link>/blog/2020/07/21/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>/blog/2020/07/21/</guid><description>
-&lt;p>PEMM release with final updates to close out grant year.&lt;/p>
-&lt;p>Shakespeare and Company Project updates related to publishing 1.0 data exports; includes 100 years twitter bot code&lt;/p></description></item></channel></rss>
+&lt;p>Three week iteration due to multiple team member week-long vacations. Less development work than usual because the primary team focus has been on planning the new Research Partnership project.&lt;/p></description></item></channel></rss>
