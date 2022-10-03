@@ -6024,10 +6024,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1034",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-02T23:44:08Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6562,7 +6561,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1106",
     "estimate": "",
     "closed": "2022-09-27T17:41:23Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -6580,11 +6581,9 @@
     "issue": "As an admin/content editor, I want to see all the images associated with a document so that I can determine whether I need to associate more images, clone the record, etc.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1109",
-    "estimate": "",
+    "estimate": 1,
     "closed": "2022-09-23T01:22:02Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
