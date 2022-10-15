@@ -6040,11 +6040,11 @@
     "milestone": ""
   },
   {
-    "issue": "Admin input not automatically adjusting to RTL text",
+    "issue": "As a content editor, I want database translation fields for Hebrew and Arabic content in the admin site to render text RTL, so that I can read and edit the content properly.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1036",
-    "estimate": "",
-    "closed": null,
+    "estimate": 0,
+    "closed": "2022-10-12T14:27:08Z",
     "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6826,9 +6826,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1151",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-13T14:51:47Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Revise RTL mobile headers so that they match the LTR desigsn and logo ",
@@ -6846,7 +6846,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1155",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-12T15:57:24Z",
     "labels": [],
     "milestone": ""
   },
@@ -6872,11 +6872,11 @@
     "milestone": ""
   },
   {
-    "issue": "shelfmark sort in document search should use natural sorting",
+    "issue": "As a front-end user, when I sort documents by shelfmark I want it sorted in logical, human-readable order instead of by string so that I can more easily find the records I'm interested in.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1162",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-10-13T15:26:11Z",
     "labels": [],
     "milestone": ""
   },
@@ -6939,6 +6939,193 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1174",
     "estimate": "",
     "closed": null,
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Write changelog for Tahqiq",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1175",
+    "estimate": "",
+    "closed": "2022-10-10T19:08:17Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Transcriptions are failing to save in the editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1176",
+    "estimate": "",
+    "closed": "2022-10-14T01:43:04Z",
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Clicking outside the current annotation zone and/or into another zone in the transcription editor cancels unsaved changes without warning",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1177",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Cleanup date-conversion-report.csv after test run",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1178",
+    "estimate": "",
+    "closed": "2022-10-10T20:57:32Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "clean up after v4.9 release & tei migration",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1179",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "enable zenodo sync for geniza codebase",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1180",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Bump python to 3.9.13",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1185",
+    "estimate": "",
+    "closed": "2022-10-11T16:25:51Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "transcription content should have a lang attribute in html",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1186",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\u267f accessibility"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "As a content editor, I want commit messages for transcription export data on GitHub to include PGPID so that I can more easily find the changes I'm interested in.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1187",
+    "estimate": 0,
+    "closed": "2022-10-12T01:45:49Z",
+    "labels": [],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "generate a list of existing transcription labels",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1188",
+    "estimate": "",
+    "closed": "2022-10-12T21:24:01Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "On saving DocumentType, only reindex related documents if certain fields are changed",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1189",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "OpenSeadragon navigator should not be visible on placeholder images",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1191",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Apply transcription type styles in admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1193",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Apply Arabic and inline type styles in transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1194",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add newly assigned ISSN to footer",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1195",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "Some Bodleian iiif manifests were generated with incorrect shelfmarks ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1198",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "https://geniza.princeton.edu/en/documents/7938/",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1199",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
@@ -6961,6 +7148,49 @@
     "closed": "2021-12-17T18:02:30Z",
     "labels": [
       "\ud83d\udeab wontfix"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "https://geniza.princeton.edu/en/documents/7938/",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1200",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "In transcription editor, there is no clear feedback about success/failure status",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1201",
+    "estimate": "",
+    "closed": "2022-10-13T18:36:29Z",
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Digital edition switcher not present in admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1202",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Partial loss of transcriptions when merging records",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1207",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -9328,9 +9558,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/475",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\ud83d\udc1b bug"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10384,7 +10612,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "investigate generating static manifests and level-zero iiif images from Bodleian",
@@ -11468,7 +11696,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/842",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-12T14:47:21Z",
     "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -11750,11 +11978,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/883",
     "estimate": "",
-    "closed": "2022-10-06T16:16:16Z",
+    "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "Transcription migration + transcription editor"
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "differentiate between images that belong to a document and ones that don't so that reading the transcription panel of a document would be easier for users",
@@ -19395,8 +19623,9 @@
     "project": "pemm-scripts",
     "url": "https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/60",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-10T20:22:32Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": ""
@@ -19524,8 +19753,10 @@
     "project": "pemm-scripts",
     "url": "https://api.github.com/repos/Princeton-CDH/pemm-scripts/issues/74",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-10-10T20:22:18Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": ""
   },
   {
