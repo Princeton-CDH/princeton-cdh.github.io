@@ -1,4 +1,38 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 19 - Sep 30, 2022</title><link>/blog/2022/10/03/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/03/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 4 - Oct 15, 2022</title><link>/blog/2022/10/18/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/18/</guid><description>
+&lt;img src="/blog/2022/10/18/featured_pgp_transcription_editor_hu7d3222f71ef9700af0749bd8c35fcd23_1056625_640x0_resize_catmullrom_3.png" width="640" height="346"/>
+&lt;p>Another high point iteration, as we made the final push to finish work
+for the CDH/Geniza Research Partnership. For development, we closed &lt;strong>18 points&lt;/strong> across 31 issues, resulting in a rolling velocity of &lt;strong>18.67&lt;/strong> (&lt;em>exactly&lt;/em> the same as last iteration).
+Design also had a big push, closing &lt;strong>14 points&lt;/strong> across 9 issues.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released v4.9 of Princeton Geniza Project mid-iteration. This was a major update
+which included the long-awaited transcription migration from TEI to the new W3C
+annotation format, and rolled out the new transcription editor tool, annotorious-tahqiq. This includes full functionality needed to add, edit, and delete transcriptions
+with support for right-to-left text, as well as a new automated backup that
+synchronizes transcription content to a GitHub repository, with co-author commits
+to track contributions. As part of this release, we also loaded a number
+of new images from Bodleian and JRL collections. After the release went out,
+we started tackling bugs with the editor not found in testing and finishing
+the remaining committed functionality for the CDH/PGP charter, prioritizing
+search improvements for sunsetting PGPv3 and CSV exports for data publication,
+with a smaller amount of effort going to localization functionality.&lt;/p>
+&lt;h2 id="lenape-timetree">Lenape Timetree&lt;/h2>
+&lt;p>We made significant progress on sitemap and wireframe designs for this project,
+making a big push to get things ready for development while design is paused
+for a month.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/princetongenizalab/pgp-text">PGP transcription export&lt;/a> — browse the transcription content synchronized from the application, in annotation format and compiled into html and text&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="featured_pgp_transcription_editor.png"
+alt="Screenshot of transcription editor on the Princeton Geniza Project site"/>&lt;figcaption>
+&lt;p>Screenshot of transcription editor on the Princeton Geniza Project site&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://user-images.githubusercontent.com/7234006/194160646-e55abbcb-ef27-4482-b204-c19536d28091.gif"
+alt="Screen capture showing transcription with tahqiq"/>&lt;figcaption>
+&lt;p>Screen capture showing transcription with tahqiq&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Sep 19 - Sep 30, 2022</title><link>/blog/2022/10/03/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/03/</guid><description>
 &lt;p>We had a massive iteration, as we make a push to complete the major remaining
 deliverables on the Princeton Geniza Project before the partnership grant ends.
 We also made some small progress on the Lenape timetree project. We completed
@@ -597,13 +631,4 @@ alt="Screenshot of keyword search results the Geniza cluster search prototype"/>
 &lt;p>Screenshot of keyword search results the Geniza cluster search prototype&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p></description></item><item><title>Blog: Nov 2 - 14, 2020</title><link>/blog/2020/11/16/</link><pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/16/</guid><description>
-&lt;img src="/blog/2020/11/16/featured-cluster-prototype_huc4dfd2b8c37a1e52c03ddc05f78843df_330385_640x0_resize_catmullrom_3.png" width="640" height="479"/>
-&lt;p>This iteration we made substantial progress on our Geniza search prototyping, most notably implementing the first two steps towards a prototype of the holistic search interface that Gissoo has been designing.&lt;/p>
-&lt;p>We also made some updates and fixed some bugs for CDH web, towards a maintenance release that will go out early this iteration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-cluster-prototype.png"
-alt="Screenshot of the experimental Geniza cluster search prototype"/>&lt;figcaption>
-&lt;p>Screenshot of the experimental Geniza cluster search prototype&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>
