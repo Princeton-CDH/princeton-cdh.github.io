@@ -6831,7 +6831,7 @@
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
-    "issue": "Revise RTL mobile headers so that they match the LTR desigsn and logo ",
+    "issue": "Revise RTL mobile headers so that they match the LTR designs and logo ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1154",
     "estimate": 2,
@@ -6962,8 +6962,7 @@
     "estimate": "",
     "closed": "2022-10-14T01:43:04Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7103,7 +7102,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1195",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-18T14:09:04Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7167,8 +7166,7 @@
     "estimate": "",
     "closed": "2022-10-13T18:36:29Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7202,6 +7200,17 @@
     "closed": "2021-05-25T21:02:20Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "When adding a new fragment into admin, inputting a non-IIIF URL into the IIIF URL field messes with admin site function.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1210",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Design mobile and tablet wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
