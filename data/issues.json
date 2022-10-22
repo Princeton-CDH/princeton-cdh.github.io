@@ -6937,11 +6937,9 @@
     "issue": "As a frontend user, I want search results to include partial matches of words in transcriptions, so that I can search by substrings of words.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1174",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "estimate": 2,
+    "closed": "2022-10-18T18:02:17Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -7026,7 +7024,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1186",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-18T17:57:08Z",
     "labels": [
       "\ud83d\udc1b bug",
       "\u267f accessibility"
@@ -7069,7 +7067,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1191",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-18T18:55:04Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7080,7 +7078,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1193",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-18T18:40:10Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7093,7 +7091,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -7175,7 +7174,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1202",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-18T18:53:41Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -7209,6 +7208,26 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a frontend user, I want search results to include partial matches of phrases in descriptions sorted by relevance, so that I can search by incomplete phrases and view the closest matches first.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1211",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Find & replace for some annotation box headers to make them more standardized.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1212",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -10619,7 +10638,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -11989,7 +12009,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -12502,12 +12523,14 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want the admin csv download to include transcription (Y/N) and translation (Y/N)",
+    "issue": "As a content editor, I want the admin csv download to include transcription (Y/N) and translation (Y/N) so that I can filter documents to this with or without transcription or translation.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/953",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
