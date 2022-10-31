@@ -1,4 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 4 - Oct 15, 2022</title><link>/blog/2022/10/18/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/18/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
+&lt;img src="/blog/2022/10/31/featured-pgp-partialsearch_hu84a8998a02e048c7e2b3a06f1f41117d_271955_640x0_resize_catmullrom_3.png" width="640" height="508"/>
+&lt;p>This iteration marked the end of the charter for year 2 of the
+CDH Research Partnership on Princeton Geniza Project (PGP). We released version
+4.10 of PGP, with some bugfixes and small search and data improvements.&lt;/p>
+&lt;p>We&amp;rsquo;re ramping up on other projects (PPA migration and the Lenape timetree),
+but didn&amp;rsquo;t close any issues on those projects in the past iteration.&lt;/p>
+&lt;p>Our rolling development velocity is &lt;strong>15&lt;/strong> but only &lt;strong>3&lt;/strong> development points
+for this iteration; we expect velocity to go down now that we&amp;rsquo;re not working on
+the Geniza project.&lt;/p>
+&lt;figure>&lt;img src="featured-pgp-partialsearch.png"
+alt="Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##"/>&lt;figcaption>
+&lt;p>Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 4 - Oct 15, 2022</title><link>/blog/2022/10/18/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/18/</guid><description>
 &lt;img src="/blog/2022/10/18/featured_pgp_transcription_editor_hu7d3222f71ef9700af0749bd8c35fcd23_1056625_640x0_resize_catmullrom_3.png" width="640" height="346"/>
 &lt;p>Another high point iteration, as we made the final push to finish work
 for the CDH/Geniza Research Partnership. For development, we closed &lt;strong>18 points&lt;/strong> across 31 issues, resulting in a rolling velocity of &lt;strong>18.67&lt;/strong> (&lt;em>exactly&lt;/em> the same as last iteration).
@@ -706,7 +720,4 @@ alt="Geniza search prototype"/>&lt;figcaption>
 alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
 &lt;p>Screenshot of new 404 page design for &lt;em>Startwords&lt;/em>&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Aug 10 - 20, 2020</title><link>/blog/2020/08/24/</link><pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate><guid>/blog/2020/08/24/</guid><description>
-&lt;p>Not a lot of development work reported on GitHub because the primary team focus continues to be planning the new Research Partnership project. This iteration also included time spent on two internal project retrospectives (Shakespeare and Company Project, PEMM) and a CDH Retreat.&lt;/p>
-&lt;p>Active development work included progress on PPA bugfixes (delivered for testing but not complete) and minor maintenance updates to django-pucas (removing support for python 2.7 to fix the a failing master build, in preparation for migrating from master to main).&lt;/p>
-&lt;p>The long list of &amp;ldquo;wontfix&amp;rdquo; issues in the mep-django is a result of cleaning up GitHub for Shakespeare and Company Project to close issues that were postponed or wishlisted on the way to a 1.0 release and we no longer plan to work on.&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
