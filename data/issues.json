@@ -6095,7 +6095,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want transcription formatting preserved in search result display but ignored for search text so that I can see where in the transcription matching terms are.",
@@ -6369,7 +6369,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "accessibility issues flagged by DubBot",
@@ -6922,7 +6922,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "As a front end user who speaks Hebrew or Arabic, I want document descriptions in search results in my native language, so that I can search by keywords/phrases, as well as read and understand results.",
@@ -7092,7 +7092,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": ""
   },
@@ -7228,6 +7228,28 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "v4.10 Software release checklist",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1214",
+    "estimate": "",
+    "closed": "2022-10-26T16:24:03Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
+    "issue": "transcription labels in search results are RTL",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1216",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -10639,7 +10661,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\u26a0\ufe0f tested needs attention"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -11094,7 +11116,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "Design the \"related documents\" page (instead of the external links page)",
@@ -11736,7 +11758,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want fragment url importing to ignore upper/lower case differences when matching shelfmarks, so that I can import urls when the shelfmarks don't match exactly.",
@@ -12007,10 +12029,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/883",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-10-25T20:03:11Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -12041,7 +12062,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "Input date not always populating",
@@ -12523,14 +12544,12 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want the admin csv download to include transcription (Y/N) and translation (Y/N) so that I can filter documents to this with or without transcription or translation.",
+    "issue": "As a content editor, I want the admin csv download to include transcription (Y/N) and translation (Y/N) so that I can filter documents to those with or without transcription or translation.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/953",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-10-24T19:03:24Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -22598,6 +22617,60 @@
     "closed": "2018-05-10T15:16:50Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "Migrate to PUL infrastructure, postgres, and solr 8",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/473",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "add test matrix to CI; test against: postgres + solr 8; mysql + solr 6",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/474",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "convert solr schema configuration from schema api fields to configset",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/475",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "write new playbook for PPA deploy to PUL VM with postgres and solr",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/476",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "test content & urls with caliper scrapy script",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/477",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "write new production playbook for PPA deploy to PUL vm",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/478",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Snippets: base template, header and footer",
