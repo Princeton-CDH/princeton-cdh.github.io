@@ -20,12 +20,16 @@ jobs:
       - name: Select random message from file
         id: select_message
         run: echo "random_message=$(shuf -n 1 $MSG_FILENAME)" >>  $GITHUB_OUTPUT
+      - name: Generate random color
+        id: generate_color
+        run: echo "random_color=$(xxd -u -l 3 -p /dev/urandom)" >>  $GITHUB_OUTPUT
       - name: Send message to Slack
         uses: rtCamp/action-slack-notify@v2
         env:
-  #          SLACK_COLOR: ${{ env.SLACK_COLOR }}
+          SLACK_COLOR: "#${{ steps.generate_color.outputs.random_color }}"
           SLACK_WEBHOOK: ${{ secrets.ACTIONS_SLACK_WEBHOOK }}
           SLACK_TITLE: "Check-in time..."
           SLACK_MESSAGE: "${{ steps.select_message.outputs.random_message }}"
+          SLACK_ICON_EMOJI: ":robot_face:"
           SLACK_FOOTER: "<https://github.com/Princeton-CDH/princeton-cdh.github.io/blob/main/.github/slackbot_text/rd_checkin.txt|Add/edit check-in messages>"
           MSG_MINIMAL: true # use compact slack message format
