@@ -1,0 +1,29 @@
+name: slackbot r+d checkin
+
+on:
+  schedule:
+    # run on Fridays at 9:15am (earlier due to possible delay in running)
+    - cron: "15 13 * * FRI"
+    
+env:
+  MSG_FILENAME: ".github/slackbot_text/rd_checkout.txt"
+
+jobs:
+  slackbot:
+    name: slackbot message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Select random message from file
+        id: select_message
+        run: echo "random_message=$(shuf -n 1 $MSG_FILENAME)" >>  $GITHUB_OUTPUT
+      - name: Send message to Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          channel-id: 'staff-r-and-d'
+          # post as a simple plain text message
+          slack-message: "${{ steps.select_message.outputs.random_message }}"
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.GHBOT_SLACK_BOT_TOKEN }}
