@@ -3,9 +3,9 @@ name: slackbot
 on:
   schedule:
     # run on Fridays at 9:30am
-    # - cron: "30 9 * * FRI"
+    - cron: "0 20 * * FRI" # test 8pm utc friday (4pm est)
     # for testing: run every 15 minutes
-    - cron: '*/15 * * * *'
+    # - cron: '*/15 * * * *'
     
 env:
   MSG_FILENAME: ".github/slackbot_text/rd_checkin.txt"
