@@ -2,8 +2,8 @@ name: slackbot r+d checkout
 
 on:
   schedule:
-    # run on Fridays at 4:30pm (8:30 UTC)
-    - cron: "30 20 * * FRI"
+    # run on Fridays at 4:25pm (8:25 UTC) [early in case of lag]
+    - cron: "25 20 * * FRI"
     
 env:
   MSG_FILENAME: ".github/slackbot_text/rd_checkout.txt"

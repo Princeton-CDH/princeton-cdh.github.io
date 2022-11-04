@@ -2,8 +2,8 @@ name: slackbot r+d checkin
 
 on:
   schedule:
-    # run on Fridays at 9:30am
-    - cron: "30 13 * * FRI"
+    # run on Fridays at 9:15am (earlier due to possible delay in running)
+    - cron: "15 13 * * FRI"
     
 env:
   MSG_FILENAME: ".github/slackbot_text/rd_checkout.txt"
