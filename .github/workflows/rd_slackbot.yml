@@ -1,0 +1,23 @@
+name: slackbot
+
+on:
+  schedule: # run automatically on Fridays at 9:30am
+    - cron: "30 9 * * FRI"
+    
+env:
+  MSG_FILENAME: .github/slackbot_text/rd_checkin.txt
+
+ steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Select random message from file
+      echo "RANDOM_MSG=`shuf -n 1 $MSG_FILENAME`" >> $GITHUB_ENV
+    - name: Send message to Slack
+      uses: rtCamp/action-slack-notify@v2
+        env:
+#          SLACK_COLOR: ${{ env.SLACK_COLOR }}
+          SLACK_WEBHOOK: ${{ secrets.ACTIONS_SLACK_WEBHOOK }}
+          SLACK_TITLE: "Check-in time..."
+          SLACK_MESSAGE: "${{ env.random_msg }}"
+          SLACK_FOOTER: "<https://github.com/Princeton-CDH/princeton-cdh.github.io/blob/main/.github/slackbot_text/rd_checkin.txt|Add/edit check-in messages>"
+          MSG_MINIMAL: true # use compact slack message format
