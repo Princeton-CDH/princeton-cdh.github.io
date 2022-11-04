@@ -5,17 +5,21 @@ on:
     - cron: "30 9 * * FRI"
     
 env:
-  MSG_FILENAME: .github/slackbot_text/rd_checkin.txt
+  MSG_FILENAME: ".github/slackbot_text/rd_checkin.txt"
 
- steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    - name: Select random message from file
-      echo "RANDOM_MSG=`shuf -n 1 $MSG_FILENAME`" >> $GITHUB_ENV
-    - name: Send message to Slack
-      uses: rtCamp/action-slack-notify@v2
+jobs:
+  slackbot:
+    name: slackbot message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Select random message from file
+        run: echo "RANDOM_MSG=`shuf -n 1 $MSG_FILENAME`" >> $GITHUB_ENV
+      - name: Send message to Slack
+        uses: rtCamp/action-slack-notify@v2
         env:
-#          SLACK_COLOR: ${{ env.SLACK_COLOR }}
+  #          SLACK_COLOR: ${{ env.SLACK_COLOR }}
           SLACK_WEBHOOK: ${{ secrets.ACTIONS_SLACK_WEBHOOK }}
           SLACK_TITLE: "Check-in time..."
           SLACK_MESSAGE: "${{ env.random_msg }}"
