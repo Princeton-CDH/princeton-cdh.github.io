@@ -12847,6 +12847,15 @@
     "milestone": ""
   },
   {
+    "issue": "As a content admin, I want leaves automatically positioned in the tree based on their branch and century, so that the display follows the agreed upon logic.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/12",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a site editor, I want to run a script to import project data into the new Hugo page/data structure, so that existing content can be loaded in bulk.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/2",
@@ -22680,6 +22689,15 @@
     "closed": "2018-05-22T19:28:57Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "trying to add new work from Hathi yields rysnc error",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/481",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "As an admin, I want to see a list of all digitized materials in the archive so that I can view and manage the contents.",
