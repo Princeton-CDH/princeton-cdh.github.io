@@ -6534,7 +6534,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1100",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -7181,7 +7183,7 @@
     "milestone": ""
   },
   {
-    "issue": "Partial loss of transcriptions when merging records",
+    "issue": "transcriptions can be orphaned or lost when merging records",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1207",
     "estimate": "",
@@ -7215,8 +7217,8 @@
     "issue": "As a frontend user, I want search results to include partial matches of phrases in descriptions sorted by relevance, so that I can search by incomplete phrases and view the closest matches first.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1211",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-11-11T19:22:47Z",
     "labels": [],
     "milestone": ""
   },
@@ -7254,6 +7256,59 @@
     "milestone": ""
   },
   {
+    "issue": "write a manage command that can generate the public export and sync to a configured github repo",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1218",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "documents in admin should be sorted by shelfmark by default",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1219",
+    "estimate": "",
+    "closed": "2022-11-09T19:23:42Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Editing/deleting parts of annotation box titles results in unexpected behavior (no change or deleting entire annotation box)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1221",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "annotation export script errors if manifest uri doesn't resolve to a valid document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1223",
+    "estimate": "",
+    "closed": "2022-11-09T17:48:35Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Include two placeholder images for each fragment associated with a document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1229",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Design mobile and tablet wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/123",
@@ -7261,6 +7316,28 @@
     "closed": "2021-04-22T23:32:38Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Allow placeholder images to have unique labels corresponding to the shelfmark",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1230",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup all-contributors and document contributions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1231",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -8226,7 +8303,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -22505,7 +22582,7 @@
       "bug",
       "tested needs attention"
     ],
-    "milestone": "v3.8"
+    "milestone": "v3.9"
   },
   {
     "issue": "upgrade to django 3.2",
@@ -22556,7 +22633,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.8"
+    "milestone": "v3.9"
   },
   {
     "issue": "As an admin, I want to see work clusters on digitized work list view so that I can search for and see collapsed versions at a glance.",
@@ -22633,7 +22710,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/473",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "tested needs attention"
+    ],
     "milestone": ""
   },
   {
@@ -22641,8 +22720,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/474",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-08T19:56:23Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -22650,17 +22731,21 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/475",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-08T19:58:21Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
-    "issue": "write new playbook for PPA deploy to PUL VM with postgres and solr",
+    "issue": "write new QA playbook for PPA deploy to PUL VM with postgres and solr",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/476",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-09T15:50:19Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -22668,7 +22753,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/477",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-10T17:13:39Z",
     "labels": [],
     "milestone": ""
   },
@@ -22697,6 +22782,17 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Progress bar breaking on solr indexing when count of pages is off",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/482",
+    "estimate": "",
+    "closed": "2022-11-10T15:16:30Z",
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
