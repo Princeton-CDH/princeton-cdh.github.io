@@ -1,4 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
+&lt;p>The points completed in the last iteration are low due to staffing
+and the fact that our work has been focused on migrations and bug fixes.
+Our rolling velocity is &lt;strong>7.3&lt;/strong>, but that may be artificially inflated
+by the high point total three iterations ago when we were closing out
+the official charter period for the Geniza project.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We&amp;rsquo;ve made substantial progress on the PPA migration, as evidenced by the
+number of closed issues. We&amp;rsquo;ve figured out and resolved several problems,
+so now it&amp;rsquo;s just a matter of getting everything setup on the new production
+server. We&amp;rsquo;re hopeful that we&amp;rsquo;ll be able to complete the migration this iteration.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released a hotfix (version 4.10.1) because we discovered a high priority
+bug that needed to be corrected quickly. The script that runs as a cron job to
+export annotations and transcription content to GitHub for a versioned backup
+was broken by a scenario we didn&amp;rsquo;t consider or encounter in testing: deleting
+an annotation and then deleting (in this case via merge) the document it belonged to.
+We were able to resolve this, along with a fix for a sorting regression in v4.10.
+We&amp;rsquo;re continuing to make progress on the data export work for dataset publication,
+and supporting the project under the CDH warranty.&lt;/p></description></item><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
 &lt;img src="/blog/2022/10/31/featured-pgp-partialsearch_hu84a8998a02e048c7e2b3a06f1f41117d_271955_640x0_resize_catmullrom_3.png" width="640" height="508"/>
 &lt;p>This iteration marked the end of the charter for year 2 of the
 CDH Research Partnership on Princeton Geniza Project (PGP). We released version
@@ -624,9 +643,4 @@ alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Fi
 &lt;li>One visible change: emoji are now supported! See &lt;a href="https://cdh.princeton.edu/updates/2020/11/18/dating-problems-ask-princeton-geniza-project-team/">Marina&amp;rsquo;s post on dates and dating&lt;/a> to see the emojis she originally included, which were not supported on the previous version of the site.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Blog: Nov 30 - Dec 12, 2020</title><link>/blog/2020/12/nov-30-dec-12-2020/</link><pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate><guid>/blog/2020/12/nov-30-dec-12-2020/</guid><description>
-&lt;p>This iteration we paused active software development on the Geniza project, although design research and work on sitemap and continued, along with planning for the next phase.&lt;/p>
-&lt;p>We shifted development efforts to an infrastructure migration for the CDH website and planning for CDH web 3.0, which consists of a major migration to move content management functionality from Mezzanine to Wagtail.&lt;/p>
-&lt;p>There was also development effort on Shakespeare and Company Project with the main goal of generating updated dataset exports in January, although we did address a handful of small bugs.&lt;/p>
-&lt;p>This iteration we also had PPA work become unblocked: the revised solution for adding new content from HathiTrust was blocked by errors with rsync, which were finally resolved this iteration, so the feature was finally delivered for testing.&lt;/p>
-&lt;p>Because the work this iteration was largely focused on infrastructure and data, there is nothing visual to demo. The high number of development issues closed relative to points reflects the number of bugs and chores closed, and also reflects the fact that much of the work for CDH web remains in-progress.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>

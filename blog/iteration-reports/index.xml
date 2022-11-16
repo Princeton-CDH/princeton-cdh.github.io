@@ -1,4 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
+&lt;p>The points completed in the last iteration are low due to staffing
+and the fact that our work has been focused on migrations and bug fixes.
+Our rolling velocity is &lt;strong>7.3&lt;/strong>, but that may be artificially inflated
+by the high point total three iterations ago when we were closing out
+the official charter period for the Geniza project.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We&amp;rsquo;ve made substantial progress on the PPA migration, as evidenced by the
+number of closed issues. We&amp;rsquo;ve figured out and resolved several problems,
+so now it&amp;rsquo;s just a matter of getting everything setup on the new production
+server. We&amp;rsquo;re hopeful that we&amp;rsquo;ll be able to complete the migration this iteration.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released a hotfix (version 4.10.1) because we discovered a high priority
+bug that needed to be corrected quickly. The script that runs as a cron job to
+export annotations and transcription content to GitHub for a versioned backup
+was broken by a scenario we didn&amp;rsquo;t consider or encounter in testing: deleting
+an annotation and then deleting (in this case via merge) the document it belonged to.
+We were able to resolve this, along with a fix for a sorting regression in v4.10.
+We&amp;rsquo;re continuing to make progress on the data export work for dataset publication,
+and supporting the project under the CDH warranty.&lt;/p></description></item><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
 &lt;img src="/blog/2022/10/31/featured-pgp-partialsearch_hu84a8998a02e048c7e2b3a06f1f41117d_271955_640x0_resize_catmullrom_3.png" width="640" height="508"/>
 &lt;p>This iteration marked the end of the charter for year 2 of the
 CDH Research Partnership on Princeton Geniza Project (PGP). We released version
@@ -702,22 +721,4 @@ alt="Geniza search prototype"/>&lt;figcaption>
 &lt;ul>
 &lt;li>CDH web &lt;a href="https://cdh.princeton.edu/people/affiliates/">affiliates page now includes staff, such as PUL librarians directing data curation projects&lt;/a>&lt;/li>
 &lt;li>CDH web events can now be designated as virtual, and take an optional URL for joining the virtual event&lt;/li>
-&lt;/ul></description></item><item><title>Blog: Aug 24 - Sep 4, 2020</title><link>/blog/2020/09/08/</link><pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate><guid>/blog/2020/09/08/</guid><description>
-&lt;img src="/blog/2020/09/08/featured_startwords_404design_huff12e89c7eb4ae2479e06a3c7a794ddf_79450_640x0_resize_catmullrom_3.png" width="640" height="379"/>
-&lt;p>The last iteration we continued to spend time on project maintenance and updates. Closed issues on &lt;em>Startwords&lt;/em> and the pucas release are continuing and closing out work from the previous iterations. Active work this iteration that is incomplete and not reflected in the closed tickets include django/mezzanine upgrades for cdhweb, and refactoring PPA to remove an outdated SolrClient dependency and use parasolr instead. We also have now migrated our first repositories to use &lt;strong>main&lt;/strong> as the production branch name.&lt;/p>
-&lt;p>Over the last iteration we also wrote a new &lt;em>limited support agreement&lt;/em>, which was adapted and simplified from the &lt;a href="https://doi.org/10.5281/zenodo.3359203">&amp;ldquo;Built by CDH&amp;rdquo; Long Term Service Agreement&lt;/a> in order to offer minimal support for the &lt;a href="https://pemm.cdh.princeton.edu/">PEMM Incipit Search Tool&lt;/a> for a limited term (1 year, renewable for a second year). The limited support agreement for PEMM goes into effect today.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://princeton-cdh.github.io/">New dev/design site&lt;/a> (still in progress)&lt;/li>
-&lt;li>&lt;em>Startwords&lt;/em>:
-&lt;ul>
-&lt;li>&lt;a href="https://www.figma.com/file/MEt3gfKX4N3WTLPbLGBbGC/Startwords?node-id=1104%3A3516">404 error design&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Articles now have image styles with automatic derivatives for different size screens&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="featured_startwords_404design.png"
-alt="Screenshot of new 404 page design for Startwords"/>&lt;figcaption>
-&lt;p>Screenshot of new 404 page design for &lt;em>Startwords&lt;/em>&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
