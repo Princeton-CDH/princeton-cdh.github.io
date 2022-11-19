@@ -6481,8 +6481,8 @@
     "issue": "As a content admin, I want document data exports synchronized to github so that there is a publicly accessible, versioned copy of project data available for researchers.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1097",
-    "estimate": 3,
-    "closed": null,
+    "estimate": 5,
+    "closed": "2022-11-18T15:14:26Z",
     "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6502,7 +6502,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1099",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-11-17T20:53:55Z",
     "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
@@ -6533,7 +6533,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1100",
     "estimate": 2,
-    "closed": null,
+    "closed": "2022-11-17T20:56:28Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing"
     ],
@@ -6554,7 +6554,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1102",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -7261,7 +7263,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1218",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -7338,6 +7342,28 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise annotation model to link footnotes using foreign keys instead of URIs",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1238",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "transcription html/text cleanup issues",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1239",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7778,9 +7804,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/202",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-17T19:09:09Z",
     "labels": [
-      "\u2753 question"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -7906,8 +7932,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/224",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-16T21:52:18Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -8149,9 +8177,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/254",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-17T19:10:22Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -8301,10 +8330,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/278",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-11-14T15:21:06Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -9680,12 +9707,14 @@
     "milestone": ""
   },
   {
-    "issue": "Include footnotes in .csv exports",
+    "issue": "As a content editor, I want scholarship record summary information included in documents metadata so I can quickly see who has published on the document without switching context.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/475",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-19T01:53:06Z",
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": ""
   },
   {
@@ -9786,8 +9815,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/493",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-17T19:18:33Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -10008,8 +10039,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/530",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-17T19:21:11Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -10075,17 +10108,21 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/556",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-17T19:25:26Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
     "issue": "Percy loads IIIF images incorrectly in snapshots using OpenSeadragon",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/558",
-    "estimate": 2,
-    "closed": null,
-    "labels": [],
+    "estimate": "",
+    "closed": "2022-11-17T19:28:30Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -10473,7 +10510,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/632",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-17T19:28:25Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -10979,8 +11016,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/711",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-17T19:32:47Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -11683,9 +11722,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/819",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-17T19:40:35Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -11716,7 +11756,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/828",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-17T19:48:29Z",
     "labels": [],
     "milestone": ""
   },
@@ -11999,7 +12039,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/870",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12035,7 +12077,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/874",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12044,7 +12088,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/875",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12136,9 +12182,11 @@
     "issue": "As a content editor, I want Seleucid dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/886",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12148,7 +12196,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -12407,10 +12456,10 @@
     "issue": "As a content admin I would like to see counts and/or be able to export user log entries so that I can quantify how much work a content editor has contributed to the database. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/918",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2022-11-17T20:49:13Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "Revise transcription panel designs so that there are consistent spacing and autolayout structure between the pieces ",
@@ -22710,9 +22759,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/473",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "tested needs attention"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -22754,7 +22801,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/477",
     "estimate": "",
     "closed": "2022-11-10T17:13:39Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -22792,6 +22841,39 @@
     "closed": "2022-11-10T15:16:30Z",
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "figure out and test pgloader timezone syntax",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/486",
+    "estimate": "",
+    "closed": "2022-11-16T19:17:48Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Software release checklist for ppa v 3.8.1",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/487",
+    "estimate": "",
+    "closed": "2022-11-16T20:37:25Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "post-migration cleanup",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/489",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
