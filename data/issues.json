@@ -248,6 +248,15 @@
     "milestone": ""
   },
   {
+    "issue": "PPA updating ansible to this python version and running the QA deploy to confirm that everything works there",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/128",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Finish configuring projects for new rotating logs",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
@@ -6031,12 +6040,14 @@
     "milestone": "Transcription migration + transcription editor"
   },
   {
-    "issue": "Search results not highlighting all matches",
+    "issue": "Search results not highlighting all matches in description",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1035",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2022-11-22T14:26:02Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -6127,7 +6138,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "get ansible replication playbook cleaned up enough for use by others",
@@ -6138,7 +6149,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to cut and paste transcription content from a Google Doc or similar and have it display properly with site styles so that I can easily add existing transcription content.",
@@ -6260,7 +6271,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1070",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -6381,7 +6394,7 @@
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "about menu id is duplicated \u2014 same id used in both header and footer nav (ids must be unique)",
@@ -6534,13 +6547,11 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1100",
     "estimate": 2,
     "closed": "2022-11-17T20:56:28Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
-    "issue": "As a content admin, I want data exports described in a data package so that the data can be described and documented in a standard format.",
+    "issue": "As a content admin, I want data exports described in a data package so that the data can be validated and documented in a standard format.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1101",
     "estimate": 1,
@@ -6553,10 +6564,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1102",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2022-11-19T18:05:23Z",
+    "labels": [],
     "milestone": "CDH/PGP end of grant year 2"
   },
   {
@@ -6872,7 +6881,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1159",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {
@@ -6924,7 +6935,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -6934,7 +6946,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1172",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -6975,7 +6989,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -6999,14 +7014,14 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "enable zenodo sync for geniza codebase",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1180",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-22T18:37:39Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7093,10 +7108,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1194",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-21T19:11:02Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore",
-      "\u26a0\ufe0f tested needs attention"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
@@ -7120,14 +7134,14 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "https://geniza.princeton.edu/en/documents/7938/",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1199",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-23T18:38:11Z",
     "labels": [],
     "milestone": ""
   },
@@ -7158,7 +7172,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1200",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-23T18:43:14Z",
     "labels": [],
     "milestone": ""
   },
@@ -7191,7 +7205,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7211,7 +7226,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7231,7 +7247,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7253,7 +7270,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7262,7 +7280,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1218",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-21T14:15:12Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7286,7 +7304,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7379,6 +7398,17 @@
     "milestone": ""
   },
   {
+    "issue": "Software release checklist for v4.11",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1246",
+    "estimate": "",
+    "closed": "2022-11-22T17:07:39Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "CDH/PGP end of grant year 2"
+  },
+  {
     "issue": "Design wireframes of the filters and sort options on mobile, tablet, and desktop to communicate the ways in which content can be curated when searching ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/125",
@@ -7386,6 +7416,28 @@
     "closed": "2021-05-08T00:31:36Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "some public metadata exports include empty columns for admin-only fields",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1250",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a warning or validation to prevent adding more than one digital edition footnote for the same document source to avoid creating duplicates.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1252",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "performant"
     ],
     "milestone": ""
   },
@@ -9712,9 +9764,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/475",
     "estimate": "",
     "closed": "2022-11-19T01:53:06Z",
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -10777,7 +10827,7 @@
       "\ud83d\udc1b bug",
       "\u26a0\ufe0f tested needs attention"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "investigate generating static manifests and level-zero iiif images from Bodleian",
@@ -10813,11 +10863,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/681",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-22T18:37:58Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": ""
+    "milestone": "CDH/PGP end of grant year 2"
   },
   {
     "issue": "last modified header should not be set for document search if sort is random",
@@ -11757,7 +11807,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/828",
     "estimate": "",
     "closed": "2022-11-17T19:48:29Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -11834,7 +11886,7 @@
     "labels": [
       "Epic"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "On mobile, hamburger menu seems to overlap with the light/dark mode toggle.",
@@ -11924,7 +11976,7 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "CDH/PGP end of grant year 2"
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want Anno Mundi dates automatically converted to standard dates when possible, so that dates can be compared and used for filtering and sorting.",
@@ -12262,7 +12314,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/894",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-23T18:10:35Z",
     "labels": [],
     "milestone": ""
   },
@@ -12354,7 +12406,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/905",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-23T18:19:24Z",
     "labels": [],
     "milestone": ""
   },
@@ -12375,7 +12427,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/908",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12578,7 +12632,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -12657,7 +12712,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/951",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12666,7 +12723,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/952",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12684,7 +12743,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/954",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -22758,7 +22819,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/473",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-21T16:22:38Z",
     "labels": [],
     "milestone": ""
   },
@@ -22811,7 +22872,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/478",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-21T16:20:47Z",
     "labels": [],
     "milestone": ""
   },
@@ -22871,10 +22932,57 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/489",
     "estimate": "",
+    "closed": "2022-11-21T21:50:28Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": "Upgrade python from 3.6",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/490",
+    "estimate": "",
+    "closed": "2022-11-22T20:03:37Z",
+    "labels": [],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": "Removing old PPA playbooks",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/492",
+    "estimate": "",
     "closed": null,
     "labels": [
       "chore"
     ],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": "Github actions workflow v2 -> v3",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/493",
+    "estimate": "",
+    "closed": "2022-11-22T20:03:28Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Upgrading wagtail/django",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/496",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "django-webpack-loader and webpack-bundle-tracker version issues",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/497",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
