@@ -7142,7 +7142,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1199",
     "estimate": "",
     "closed": "2022-11-23T18:38:11Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -7173,7 +7175,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1200",
     "estimate": "",
     "closed": "2022-11-23T18:43:14Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
@@ -12407,7 +12411,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/905",
     "estimate": "",
     "closed": "2022-11-23T18:19:24Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": ""
   },
   {
@@ -22820,7 +22827,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/473",
     "estimate": "",
     "closed": "2022-11-21T16:22:38Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -22873,7 +22882,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/478",
     "estimate": "",
     "closed": "2022-11-21T16:20:47Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -22944,7 +22955,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/490",
     "estimate": "",
     "closed": "2022-11-22T20:03:37Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "v3.9"
   },
   {
@@ -22964,7 +22977,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/493",
     "estimate": "",
     "closed": "2022-11-22T20:03:28Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
