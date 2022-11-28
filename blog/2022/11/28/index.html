@@ -14,22 +14,25 @@
 <link rel=icon type=image/png href=/favicons/android-96x96.png sizes=96x96>
 <link rel=icon type=image/png href=/favicons/android-144x144.png sizes=144x144>
 <link rel=icon type=image/png href=/favicons/android-192x192.png sizes=192x192>
-<title>Fall development schedule, September — December 2021 | Research Software @ CDH</title><meta property="og:title" content="Fall development schedule, September — December 2021">
-<meta property="og:description" content="Development schedule for Fall 2021.">
+<title>Nov 14 - Nov 25, 2022 | Research Software @ CDH</title><meta property="og:title" content="Nov 14 - Nov 25, 2022">
+<meta property="og:description" content="We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We completed 12 development points for a rolling velocity of 5.33 - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="/blog/2021/08/fall-development-schedule-september-december-2021/"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2021-08-11T00:00:00+00:00">
+<meta property="og:url" content="/blog/2022/11/28/"><meta property="og:image" content="/blog/2022/11/28/featured_pgp-metadata-flatviewer.png"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2022-11-28T00:00:00+00:00">
 <meta property="article:modified_time" content="2022-11-28T10:11:13-05:00"><meta property="og:site_name" content="Research Software @ CDH">
-<meta itemprop=name content="Fall development schedule, September — December 2021">
-<meta itemprop=description content="Development schedule for Fall 2021."><meta itemprop=datePublished content="2021-08-11T00:00:00+00:00">
+<meta itemprop=name content="Nov 14 - Nov 25, 2022">
+<meta itemprop=description content="We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We completed 12 development points for a rolling velocity of 5.33 - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon."><meta itemprop=datePublished content="2022-11-28T00:00:00+00:00">
 <meta itemprop=dateModified content="2022-11-28T10:11:13-05:00">
-<meta itemprop=wordCount content="5">
-<meta itemprop=keywords content><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Fall development schedule, September — December 2021">
-<meta name=twitter:description content="Development schedule for Fall 2021.">
+<meta itemprop=wordCount content="266"><meta itemprop=image content="/blog/2022/11/28/featured_pgp-metadata-flatviewer.png">
+<meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="/blog/2022/11/28/featured_pgp-metadata-flatviewer.png">
+<meta name=twitter:title content="Nov 14 - Nov 25, 2022">
+<meta name=twitter:description content="We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We completed 12 development points for a rolling velocity of 5.33 - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon.">
 <link rel=preload href=/scss/main.min.8a3796a8126f3a44ec5f4a79f442cb3c3310d866b684062eb5996b4c19023639.css as=style>
 <link href=/scss/main.min.8a3796a8126f3a44ec5f4a79f442cb3c3310d866b684062eb5996b4c19023639.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
+<script type=text/javascript src=/js/velocity.js defer></script>
 </head>
 <body class="td-page td-blog">
 <header>
@@ -63,7 +66,7 @@
 <nav class="collapse td-sidebar-nav" id=td-section-nav>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/blog/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Posts</a>
+<a href=/blog/ class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Posts</a>
 </li>
 <ul>
 <li class="collapse show" id=blog>
@@ -71,18 +74,18 @@
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog2022052022-q3-schedule href=/blog/2022/05/2022-q3-schedule/>2022 Q3 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog2022042022-q2-schedule href=/blog/2022/04/2022-q2-schedule/>2022 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog2021122022-q1-schedule href=/blog/2021/12/2022-q1-schedule/>2022 Q1 schedule</a>
-<a class="td-sidebar-link td-sidebar-link__page active" id=m-blog202108fall-development-schedule-september-december-2021 href=/blog/2021/08/fall-development-schedule-september-december-2021/>Fall development schedule, September — December 2021</a>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog202108fall-development-schedule-september-december-2021 href=/blog/2021/08/fall-development-schedule-september-december-2021/>Fall development schedule, September — December 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202105summer-development-schedule-june-august-2021 href=/blog/2021/05/summer-development-schedule-june-august-2021/>Summer development schedule, June — August 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202103quarterly-development-schedule-february-june-2021 href=/blog/2021/03/quarterly-development-schedule-february-june-2021/>Quarterly development schedule, February — June 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog2020112020-so-far href=/blog/2020/11/2020-so-far/>2020 so far</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202007warranty-report-shakespeare-and-company-project href=/blog/2020/07/warranty-report-shakespeare-and-company-project/>Warranty Report: Shakespeare and Company Project</a>
 <ul class="td-sidebar-nav__section pr-md-3">
 <li class=td-sidebar-nav__section-title>
-<a href=/blog/iteration-reports/ class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Iteration Reports</a>
+<a href=/blog/iteration-reports/ class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Iteration Reports</a>
 </li>
 <ul>
-<li class=collapse id=blogiteration-reports>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20221128 href=/blog/2022/11/28/>Nov 14 - Nov 25, 2022</a>
+<li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page active" id=m-blog20221128 href=/blog/2022/11/28/>Nov 14 - Nov 25, 2022</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20221114 href=/blog/2022/11/14/>Oct 31 - Nov 11, 2022</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20221031 href=/blog/2022/10/31/>Oct 17 - Oct 28, 2022</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20221018 href=/blog/2022/10/18/>Oct 4 - Oct 15, 2022</a>
@@ -143,250 +146,192 @@
 </div>
 <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-<a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/edit/master/content/en/blog/2021-08-11-fall-schedule.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/Princeton-CDH/princeton-cdh.github.io/issues/new?title=Fall%20development%20schedule,%20September%20%e2%80%94%c2%a0December%202021" target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href=https://github.com/Princeton-CDH/princeton-cdh.github.io/edit/master/content/en/blog/iteration-reports/2022-11-28/index.md target=_blank><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/Princeton-CDH/princeton-cdh.github.io/issues/new?title=Nov%2014%20-%20Nov%2025,%202022" target=_blank><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 </div>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#princeton-prosody-archive>Princeton Prosody Archive</a></li>
+<li><a href=#princeton-geniza-project>Princeton Geniza Project</a></li>
+<li><a href=#demos>Demos</a></li>
+</ul>
+</nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role=main>
-<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=/blog/index.xml target=_blank>
+<a class="btn btn-lg -bg-orange td-rss-button d-none d-lg-block" href=/blog/iteration-reports/index.xml target=_blank>
 RSS <i class="fa fa-rss ml-2"></i>
 </a>
 <div class=td-content>
-<h1>Fall development schedule, September — December 2021</h1>
+<h1>Nov 14 - Nov 25, 2022</h1>
 <div class="td-byline mb-4">
-<time datetime=2021-08-11 class=text-muted>Wednesday, August 11, 2021</time>
+<time datetime=2022-11-28 class=text-muted>Monday, November 28, 2022</time>
 </div>
-<p>Development schedule for Fall 2021.</p>
-<table class=quarterly-schedule>
-<tr>
-<th>week</th>
-<th><div class=iteration>iteration</div></th>
-<th class=project>geniza</th>
-<th class=project>derrida</th>
-<th class=project>mep</th>
-<th class=project>startwords</th>
-</tr>
-<tr class=iteration-start>
-<td>
-Sep 6
-</td>
-<td rowspan=3></td>
-<td class="geniza partial">
-</td>
-<td class="derrida partial">
-</td>
-<td class="mep partial">
-PUL migration
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Sep 13
-</td>
-<td class="geniza partial">
-</td>
-<td class="derrida partial">
-data exports
-</td>
-<td class="mep partial">
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Sep 20
-</td>
-<td class="geniza partial">
-</td>
-<td class="derrida partial">
-</td>
-<td class="mep partial">
-</td>
-<td>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Sep 27
-</td>
-<td rowspan=2></td>
-<td class="geniza partial">
-</td>
-<td class="derrida partial">
-archive site
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Oct 4
-</td>
-<td class="geniza partial">
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Oct 11
-</td>
-<td rowspan=2></td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Oct 18
-</td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Oct 25
-</td>
-<td rowspan=2></td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Nov 1
-</td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Nov 8
-</td>
-<td rowspan=2></td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-Nov 15
-</td>
-<td class=geniza>
-</td>
-<td class="derrida partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Nov 22
-</td>
-<td rowspan=2></td>
-<td class="geniza partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-<td class=startwords>
-</td>
-</tr>
-<tr>
-<td>
-Nov 29
-</td>
-<td class="geniza partial">
-</td>
-<td>
-</td>
-<td>
-</td>
-<td class=startwords>
-</td>
-</tr>
-<tr class=iteration-start>
-<td>
-Dec 6
-</td>
-<td rowspan=3></td>
-<td class=geniza>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td class=startwords>
-Issue 2
-</td>
-</tr>
-<tr>
-<td>
-Dec 13
-</td>
-<td class=geniza>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td class=startwords>
-</td>
-</tr>
-<tr>
-<td>
-Dec 20
-</td>
-<td class=geniza>
-</td>
-<td>
-</td>
-<td>
-</td>
-<td class=startwords>
-Issue 3 prep
-</td>
-</tr>
-</table>
+<p>Report on iteration Nov 14, 2022 — Nov 25, 2022
+<small>(includes all issues completed before Nov 28, 2022).</small></p>
+<p>We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We
+completed <strong>12</strong> development points for a rolling velocity of <strong>5.33</strong> - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon.</p>
+<h2 id=princeton-prosody-archive>Princeton Prosody Archive</h2>
+<p>We completed the last few steps for the migration, released version <strong>3.8.1</strong> and switched the production site over so it is running on PUL infrastructure. We&rsquo;ve already completed some initial upgrades (python version) that are easier to manage now, and are circling back to in-progress that wasn&rsquo;t completed when PPA was in active development in August.</p>
+<h2 id=princeton-geniza-project>Princeton Geniza Project</h2>
+<p>We released version <strong>4.11</strong> with a few search improvements needed to decommission PGPv3 and completed work on dataset exports which will be the basis for published datasets from the project data. We also setup Zenodo sync for the codebase, registering a DOI and adding a citation file to make the code more citable.</p>
+<p>We also have a large number of old issues that were closed thanks to some work from PGP project managers going through and reviewing — some of them have already been addressed, others are duplicates, and others are no longer priorities.</p>
+<h2 id=demos>Demos</h2>
+<figure><img src=featured_pgp-metadata-flatviewer.png alt="Princeton Geniza Project documents data export displayed in Flat GitHub&amp;rsquo;s Flat viewer."><figcaption>
+<p>Princeton Geniza Project <a href="https://flatgithub.com/princetongenizalab/pgp-metadata?filename=data%2Fdocuments.csv&sha=549836002cd41abf84e61829439b7b4bf3505af0">documents data export displayed in Flat GitHub&rsquo;s Flat viewer</a>.</p>
+</figcaption>
+</figure>
+<figure><img src=pgp-metadata-commits.png alt="Princeton Geniza Project metadata repository showing commit history with co-author information."><figcaption>
+<p>Princeton Geniza Project metadata repository showing <a href=https://github.com/princetongenizalab/pgp-metadata/commits/main>commit history with co-author information</a>.</p>
+</figcaption>
+</figure>
+<figure><img src=pgp-description-bigram-search.png alt="Princeton Geniza Project search showing partial word searching on document descriptions."><figcaption>
+<p>Princeton Geniza Project search showing <a href="https://geniza.princeton.edu/en/documents/?q=al-fad">partial word searching on document descriptions</a>.</p>
+</figcaption>
+</figure>
+<hr>
+<h2>Active projects</h2>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza>geniza</a> (12 points,
+19 issues)
+<li><a href=https://github.com/Princeton-CDH/ppa-django>ppa-django</a> (0 points,
+7 issues)
+</ul>
+<h2>Releases</h2>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/releases/tag/3.8.1>ppa-django 3.8.1</a> — Wednesday Nov 16, 2022
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/releases/tag/4.11>geniza 4.11</a> — Tuesday Nov 22, 2022
+</li>
+</ul>
+<h2>Velocity</h2>
+<h3>Development</h3>
+<p>12 points,
+26 issues. Rolling velocity: <b>5.33</b></p>
+<canvas id=dev-velocity></canvas>
+<h3>Design</h3>
+<p>0 points,
+0 issues.
+Rolling velocity: <b>0</b></p>
+<canvas id=design-velocity></canvas>
+<script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2022-09-05","2022-09-19","2022-10-03","2022-10-17","2022-10-31","2022-11-14"],points:[14,24,18,3,1,12],issues:[14,24,31,9,8,26],velocity:[15,18.67,18.67,15,7.33,5.33]}),drawVelocityChart({id:'design-velocity',labels:["2022-09-05","2022-09-19","2022-10-03","2022-10-17","2022-10-31","2022-11-14"],points:[11,25,14,0,0,0],issues:[8,12,9,null,null,null],velocity:[4.33,12.67,16.67,13,4.67,0]})})</script>
+<hr>
+<section class=issue-details>
+<h3>Closed issues by project</h3>
+<ul>
+<li>geniza
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1035>Search results not highlighting all matches in description</a>
+<span class=labels>🐛 bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1097>As a content admin, I want document data exports synchronized to github so that there is a publicly accessible, versioned copy of project data available for researchers.</a>
+<span class=points>(5)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1099>As a content admin, I want fragment data exports synchronized to github so that there is a publicly accessible, versioned copy of project data available for researchers</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1100>As a content admin, I want scholarship records exported to github so that there is a publicly accessible, versioned copy of project data available for researchers.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1102>As a content admin, I want data exports to include information about who made edits when possible, so that I see who contributed to changes in project data.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1180>enable zenodo sync for geniza codebase</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1194>Apply Arabic and inline type styles in transcriptions</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1199>https://geniza.princeton.edu/en/documents/7938/</a>
+<span class=labels>🖇️ duplicate</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1200>https://geniza.princeton.edu/en/documents/7938/</a>
+<span class=labels>🖇️ duplicate</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1218>write a manage command that can generate the public export and sync to a configured github repo</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/1246>Software release checklist for v4.11</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/202>As a content admin, I want FGP stub documents with no descriptions suppressed and flagged and the notes updated so that I can reviewed and described them if appropriate.</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/224>As a content editor, I would like to see line numbers in transcriptions, so I can correlate them line-by-line with images and published transcriptions. </a>
+<span class=labels>🖇️ duplicate</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/254>Join fragments re-ordering themselves</a>
+<span class=labels>🐛 bug, 🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/278>As a content editor, I want to view source URLs when I download the sources CSV in order to more easily find/update external sources.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/475>As a content editor, I want scholarship record summary information included in documents metadata so I can quickly see who has published on the document without switching context.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/493>Revise document title for joins</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/530>Improving txt file download on frontend especially in relation to line numbers.</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/556>As a front-end user, I want uncertain joins to be visible and distinct from certain ones, so that I can easily tell the difference between them.</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/558>Percy loads IIIF images incorrectly in snapshots using OpenSeadragon</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/632>Copy-pasting transcriptions from the public site results in extraneous whitespace</a>
+<span class=labels>🐛 bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/681>create a CITATION.cff file to make it easy to cite the codebase</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/711>As a front end user, I want some kind of progress/loading indicator during search, so that I know my input was accepted.</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/819>Document from a fragment in a newly added collection isn't behaving properly</a>
+<span class=labels>🐛 bug, 🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/828>As a front end user, I want to see detailed information about the different historical calendars, so I can understand the meaning of "original dates" for documents.</a>
+<span class=labels>🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/894>search fields jump when an error message displays</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/905>Still not able to update large sources without error message (though it worked in the end)</a>
+<span class=labels>🐛 bug, 🚫 wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/918>As a content admin I would like to see counts and/or be able to export user log entries so that I can quantify how much work a content editor has contributed to the database. </a>
+<span class=points>(1)</span>
+</li>
+</ul>
+</li>
+<li>ppa-django
+<ul>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/473>Migrate to PUL infrastructure, postgres, and solr 8</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/478>write new production playbook for PPA deploy to PUL vm</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/486>figure out and test pgloader timezone syntax</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/487>Software release checklist for ppa v 3.8.1</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/489>post-migration cleanup</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/490>Upgrade python from 3.6</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/493>Github actions workflow v2 -> v3</a>
+<span class=labels>chore</span>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<hr>
+</div>
 </main>
 </div>
 </div>

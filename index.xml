@@ -1,4 +1,28 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Nov 14 - Nov 25, 2022</title><link>/blog/2022/11/28/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/28/</guid><description>
+&lt;img src="/blog/2022/11/28/featured_pgp-metadata-flatviewer_hu8e1fe046dc5df851ef3634891c442444_190567_640x0_resize_catmullrom_3.png" width="640" height="370"/>
+&lt;p>We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We
+completed &lt;strong>12&lt;/strong> development points for a rolling velocity of &lt;strong>5.33&lt;/strong> - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon.&lt;/p>
+&lt;h2 id="princeton-prosody-archive">Princeton Prosody Archive&lt;/h2>
+&lt;p>We completed the last few steps for the migration, released version &lt;strong>3.8.1&lt;/strong> and switched the production site over so it is running on PUL infrastructure. We&amp;rsquo;ve already completed some initial upgrades (python version) that are easier to manage now, and are circling back to in-progress that wasn&amp;rsquo;t completed when PPA was in active development in August.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We released version &lt;strong>4.11&lt;/strong> with a few search improvements needed to decommission PGPv3 and completed work on dataset exports which will be the basis for published datasets from the project data. We also setup Zenodo sync for the codebase, registering a DOI and adding a citation file to make the code more citable.&lt;/p>
+&lt;p>We also have a large number of old issues that were closed thanks to some work from PGP project managers going through and reviewing — some of them have already been addressed, others are duplicates, and others are no longer priorities.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured_pgp-metadata-flatviewer.png"
+alt="Princeton Geniza Project documents data export displayed in Flat GitHub&amp;amp;rsquo;s Flat viewer."/>&lt;figcaption>
+&lt;p>Princeton Geniza Project &lt;a href="https://flatgithub.com/princetongenizalab/pgp-metadata?filename=data%2Fdocuments.csv&amp;amp;sha=549836002cd41abf84e61829439b7b4bf3505af0">documents data export displayed in Flat GitHub&amp;rsquo;s Flat viewer&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="pgp-metadata-commits.png"
+alt="Princeton Geniza Project metadata repository showing commit history with co-author information."/>&lt;figcaption>
+&lt;p>Princeton Geniza Project metadata repository showing &lt;a href="https://github.com/princetongenizalab/pgp-metadata/commits/main">commit history with co-author information&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="pgp-description-bigram-search.png"
+alt="Princeton Geniza Project search showing partial word searching on document descriptions."/>&lt;figcaption>
+&lt;p>Princeton Geniza Project search showing &lt;a href="https://geniza.princeton.edu/en/documents/?q=al-fad">partial word searching on document descriptions&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
 &lt;p>The points completed in the last iteration are low due to staffing
 and the fact that our work has been focused on migrations and bug fixes.
 Our rolling velocity is &lt;strong>7.3&lt;/strong>, but that may be artificially inflated
@@ -632,15 +656,4 @@ alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Fi
 &lt;p>Sitemap/site flow diagram for new Princeton Geniza Project site (&lt;a href="https://www.figma.com/file/HpGBOZi9lO8B3nCAx3d4Fj/Princeton-Geniza?node-id=415%3A2">view on Figma&lt;/a>)&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>Version 1.1 of &lt;a href="https://dataspace.princeton.edu/handle/88435/dsp01fx719q532">Shakespeare and Company Project Datasets&lt;/a>, including updated readmes and change logs.&lt;/p></description></item><item><title>Blog: Dec 14, 2020 - Jan 8, 2021</title><link>/blog/2021/01/11/</link><pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/11/</guid><description>
-&lt;p>Due to the holidays and planned vacations, we decided to take a long iteration spanning from December 14th to the end of the first week in January.&lt;/p>
-&lt;p>We spent the majority of the time on maintenance and addressing some technical debt. The CDH website was successfully moved from Research Computing and a MySQL database to its new home on a PUL VM and running on the PUL Postgresql database server. We&amp;rsquo;re also making progress on CDH web 3.0, which involves the transition (which we&amp;rsquo;ve decided to call &amp;ldquo;exodus&amp;rdquo; to avoid confusion with &amp;ldquo;migration&amp;rdquo;) from Mezzanine to Wagtail.&lt;/p>
-&lt;p>This iteration we also finally successfully addressed the problem in PPA for adding new HathiTrust content. The release was tagged December 22nd, along with a supporting release of parasolr, but rather than deploy an update right before the holidays, it was held. That release will go into production early this iteration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>The &lt;a href="https://cdh.princeton.edu">CDH website&lt;/a> v2.8.1 update was largely an infrastructural one, so there is little that is visible to display and we expect and want it to look it exactly as before.
-&lt;ul>
-&lt;li>One visible change: emoji are now supported! See &lt;a href="https://cdh.princeton.edu/updates/2020/11/18/dating-problems-ask-princeton-geniza-project-team/">Marina&amp;rsquo;s post on dates and dating&lt;/a> to see the emojis she originally included, which were not supported on the previous version of the site.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>Version 1.1 of &lt;a href="https://dataspace.princeton.edu/handle/88435/dsp01fx719q532">Shakespeare and Company Project Datasets&lt;/a>, including updated readmes and change logs.&lt;/p></description></item></channel></rss>
