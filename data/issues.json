@@ -257,6 +257,18 @@
     "milestone": ""
   },
   {
+    "issue": "Python version not correctly updating to 3.9",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/130",
+    "estimate": "",
+    "closed": "2022-11-29T21:28:06Z",
+    "labels": [
+      "duplicate",
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Finish configuring projects for new rotating logs",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
@@ -7132,7 +7144,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7442,6 +7455,51 @@
     "closed": null,
     "labels": [
       "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to add transcriptions to documents without images in the PGP, so that users can still see transcriptions (and get images from elsewhere).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1253",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Public site search of Latin script descriptions does not ignore diacritics and behaves unpredictably",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1254",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Searching descriptions for words/phrases in quotations works unpredictably",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1255",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Partial search in descriptions sorted by relevance not working well",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1256",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -13045,8 +13103,86 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/12",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-11-28T21:53:53Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Site Typography ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/13",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Search for and propose two typefaces that are appropriate for the site's topic and concept",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/14",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Group the two typefaces and sizes for each content type on desktop",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/15",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Group the two typefaces and sizes for each content type on mobile",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/16",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose color palettes for the visualization that can work together while following accessibility requirements  ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/17",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup percy visual review workflow",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/18",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "setup lighthouse workflow to check the site for performance and accessibility",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/19",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -13056,6 +13192,17 @@
     "estimate": "2",
     "closed": "2022-09-13T20:09:46Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "create new blank template with header/footer placeholders to match design",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/20",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -21917,8 +22064,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/325",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-29T19:56:42Z",
     "labels": [
+      "duplicate",
       "chore"
     ],
     "milestone": ""
@@ -22541,7 +22689,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/420",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-29T19:53:09Z",
     "labels": [
       "chore"
     ],
@@ -22694,10 +22842,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/447",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-01T20:08:02Z",
     "labels": [
-      "bug",
-      "tested needs attention"
+      "bug"
     ],
     "milestone": "v3.9"
   },
@@ -22901,7 +23048,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/481",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-01T19:50:05Z",
     "labels": [],
     "milestone": ""
   },
@@ -22961,11 +23108,11 @@
     "milestone": "v3.9"
   },
   {
-    "issue": "Removing old PPA playbooks",
+    "issue": "Remove old PPA playbooks",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/492",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-11-29T21:21:55Z",
     "labels": [
       "chore"
     ],
@@ -23001,6 +23148,28 @@
     "milestone": ""
   },
   {
+    "issue": "adapt or create replication playbook to copy PPA production data to QA",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/498",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": "Multiprocessing indexing not working on M1 mac",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/499",
+    "estimate": "",
+    "closed": "2022-11-29T16:56:46Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.9"
+  },
+  {
     "issue": "As an admin, I want to see a list of all digitized materials in the archive so that I can view and manage the contents.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/5",
@@ -23017,6 +23186,17 @@
     "closed": "2018-05-22T19:57:33Z",
     "labels": [],
     "milestone": "Search Filtering and Highlighting"
+  },
+  {
+    "issue": "Move server from apache2 to nginx",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/501",
+    "estimate": "",
+    "closed": "2022-11-29T21:24:54Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.9"
   },
   {
     "issue": "Setup js pipeline with compressor",
