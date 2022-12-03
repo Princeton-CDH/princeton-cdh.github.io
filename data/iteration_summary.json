@@ -2410,7 +2410,7 @@
         ],
         "dev": {
             "points": 12,
-            "issues": 26,
+            "issues": 23,
             "velocity": 5.33
         },
         "design": {
@@ -2418,7 +2418,7 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "geniza": 19,
+            "geniza": 16,
             "ppa-django": 7
         },
         "project_points": {
@@ -2442,15 +2442,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 4.33
+            "points": 3,
+            "issues": 7,
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 1,
+            "ppa-django": 6
+        },
+        "project_points": {
+            "lenape-timetree": 3,
+            "ppa-django": 0
+        }
     },
     {
         "from": "2022-12-12",
@@ -2464,7 +2471,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 4.0
+            "velocity": 5.0
         },
         "design": {
             "points": 0,
