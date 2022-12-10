@@ -7285,10 +7285,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1216",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-08T00:56:27Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "performant"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7399,7 +7398,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -7441,7 +7441,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1250",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-06T19:14:02Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -7475,7 +7475,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1254",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-08T00:46:23Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -7499,7 +7499,77 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "500 error on some wagtail pages",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1259",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want the log entry to record and differentiate between users who input someone else's transcription versus users who created a new transcription so I can give the appropriate credit where it's due.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1260",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As content editor using the transcription editor, I want the image to be sticky so that I can always have the image beside the text as I scroll down.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1261",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Spreadsheet of all the existing fuzzy or uncertain dates in the PGP (marked by the word \"dating\") ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1262",
+    "estimate": "",
+    "closed": "2022-12-07T17:41:30Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Autosave existing work in the transcription editor when clicking outside the annotation box.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1263",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Transcription search results not always formatted correctly ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1269",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -13126,6 +13196,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13159,6 +13230,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13168,7 +13240,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/18",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-06T20:07:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13179,7 +13251,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/19",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-08T18:53:24Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13199,9 +13271,65 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/20",
     "estimate": "",
+    "closed": "2022-12-06T20:57:18Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "configure sizing for the timetree viz so it fills the screen appropriately on desktop and mobile",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/24",
+    "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Site's Visual Design ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/26",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design up to five leaves so that they can be used on the time tree",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/27",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design visual elements that help bring in the Lenape identity on the site",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/28",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose a grid / logic for how much space elements take on a page on desktop, tablet, and mobile ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/29",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -13227,7 +13355,7 @@
     "issue": "As a user, when I select a leaf in the timetree, I want to see details for that event so that I can read about it in detail.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/5",
-    "estimate": "3",
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -23049,7 +23177,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/481",
     "estimate": "",
     "closed": "2022-12-01T19:50:05Z",
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
