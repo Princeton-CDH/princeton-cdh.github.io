@@ -2443,7 +2443,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 7,
+            "issues": 14,
             "velocity": 5.33
         },
         "design": {
@@ -2451,12 +2451,14 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "lenape-timetree": 1,
-            "ppa-django": 6
+            "lenape-timetree": 4,
+            "ppa-django": 6,
+            "geniza": 4
         },
         "project_points": {
             "lenape-timetree": 3,
-            "ppa-django": 0
+            "ppa-django": 0,
+            "geniza": 0
         }
     },
     {
