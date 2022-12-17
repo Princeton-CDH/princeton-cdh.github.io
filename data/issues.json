@@ -7220,9 +7220,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1207",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-16T21:23:24Z",
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7385,8 +7386,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1238",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-16T21:08:25Z",
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "Epic"
     ],
     "milestone": ""
@@ -7396,10 +7398,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1239",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-12T20:50:20Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7459,7 +7460,7 @@
     "milestone": ""
   },
   {
-    "issue": "As a content editor, I want to add transcriptions to documents without images in the PGP, so that users can still see transcriptions (and get images from elsewhere).",
+    "issue": "As a content editor, I want to add transcriptions to documents without images in the PGP in the admin interface, so that I do not need to keep switching over to the public site to add transcriptions.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1253",
     "estimate": "",
@@ -7497,10 +7498,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1256",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-12T15:21:10Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -7509,7 +7509,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1259",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-13T17:02:51Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -7553,12 +7553,14 @@
     "milestone": ""
   },
   {
-    "issue": "Autosave existing work in the transcription editor when clicking outside the annotation box.",
+    "issue": "As a content editor working on transcriptions, I want the page to autosave existing work in the transcription editor when clicking outside the annotation box.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1263",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
     "milestone": ""
   },
   {
@@ -7581,6 +7583,49 @@
     "closed": "2021-04-09T21:23:32Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Admin shelfmark search giving irrelevant results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1270",
+    "estimate": "",
+    "closed": "2022-12-15T17:21:20Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Autofill for source search (when inputting a transcription source) not functioning properly",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1275",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add Annotation Footnote prefetching to indexing query and data export query",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1279",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor working on transcriptions, I want to be able to move transcriptions from one document to another, so that I can fix a mistake if a transcription was associated incorrectly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1280",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a content editor, I want to view and search on PGPID so I can distinguish documents on the same shelfmark and refer to the same documents in the spreadsheet and database.",
@@ -13340,6 +13385,17 @@
     "estimate": "1",
     "closed": "2022-09-13T20:34:53Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update leaves with latest version of content from google docs",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/30",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -23327,6 +23383,17 @@
       "chore"
     ],
     "milestone": "v3.9"
+  },
+  {
+    "issue": "Parasolr needs to handle grouped results in order for page highlighting on clustered works to function properly",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/504",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Setup js pipeline with compressor",
