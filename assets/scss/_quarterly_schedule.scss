@@ -102,4 +102,11 @@
 		}
 	}
 
+	.risk {
+		background-color: #fcd030;
+		&.partial {
+			background-color: rgba(252, 208, 48, 0.5);					
+		}	
+	}
+
 }

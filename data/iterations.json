@@ -802,30 +802,38 @@
     {
         "from": "2023-02-27",
         "to": "2023-03-10",
-        "projects": ["lenape"],
+        "projects": ["lenape", "risk"],
         "partial": ["lenape"]
     },
     {
         "from": "2023-03-13",
         "to": "2023-03-24",
-        "projects": ["lenape"],
-        "partial": ["lenape"]
+        "projects": ["lenape", "risk", "other"],
+        "partial": ["lenape"],
+         "notes": {
+            "other": ["spring break"]
+        }
     },
     {
         "from": "2023-03-27",
         "to": "2023-04-07",
-        "projects": ["lenape"],
+        "projects": ["lenape", "risk"],
         "partial": ["lenape"]
     },
     {
         "from": "2023-04-10",
         "to": "2023-04-21",
-        "projects": ["startwords"]
+        "projects": ["startwords", "risk"],
+        "partial": ["risk"]
     },
     {
         "from": "2023-04-24",
-        "to": "2023-05-05"
-
+        "to": "2023-05-05",
+        "projects": ["startwords", "risk"],
+        "partial": ["risk"]
+    },
+    {
+        "from": "2023-05-08",
+        "to": "2023-05-19"
     }
-
 ]
