@@ -7223,7 +7223,6 @@
     "closed": "2022-12-16T21:23:24Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7388,7 +7387,6 @@
     "estimate": "",
     "closed": "2022-12-16T21:08:25Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "Epic"
     ],
     "milestone": ""
@@ -7620,10 +7618,21 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1280",
     "estimate": "",
+    "closed": "2022-12-18T18:58:55Z",
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a public user, I want to be able to filter the public site search by documents that do NOT have transcriptions so I can see the ones that need transcribing (with big thumbnails).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1281",
+    "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\uddfa\ufe0f design",
+      "performant"
     ],
     "milestone": ""
   },
@@ -13327,7 +13336,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/24",
     "estimate": "",
-    "closed": null,
+    "closed": "2022-12-20T18:57:19Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13399,6 +13408,15 @@
     "milestone": ""
   },
   {
+    "issue": "As a user, I want to see labels for leaves in the tree so I'll have a sense of the content and reasons to select specific leaves.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/32",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to see tags, sort date, and branch on leaf summary cards, so that I can review the imported data more easily.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/4",
@@ -13412,7 +13430,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/5",
     "estimate": 3,
-    "closed": null,
+    "closed": "2022-12-19T21:38:27Z",
     "labels": [],
     "milestone": ""
   },
