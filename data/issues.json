@@ -7244,6 +7244,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
     "milestone": ""
@@ -7633,6 +7634,29 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Prevent content editors from clicking more than one option for a digital edition, and explain to them the difference between edition and digital edition.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1285",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Bracket and other character search is functioning unpredictably ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1286",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -13248,15 +13272,14 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/14",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-01-04T22:29:55Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "Group the two typefaces and sizes for each content type on desktop",
+    "issue": "Propose type sizes for each content type on desktop",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/15",
     "estimate": 2,
@@ -13267,7 +13290,7 @@
     "milestone": ""
   },
   {
-    "issue": "Group the two typefaces and sizes for each content type on mobile",
+    "issue": "Propose type sizes for each content type on mobile",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/16",
     "estimate": 2,
@@ -13282,9 +13305,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/17",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-01-04T22:27:09Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13414,6 +13436,29 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Data viz Design ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/34",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose logic for zoom levels based on the labels on the leaves on desktop and mobile ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/35",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {
