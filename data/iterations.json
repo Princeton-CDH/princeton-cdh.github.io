@@ -786,7 +786,7 @@
         "partial": ["ppa"],
         "notes": {
             "ppa": ["", "release enhancements"],
-            "other": ["clustering sprint", "wintersession"]
+            "other": ["wintersession", "wintersession"]
         }
     },
     {
@@ -809,7 +809,7 @@
         "from": "2023-03-13",
         "to": "2023-03-24",
         "projects": ["lenape", "risk", "other"],
-        "partial": ["lenape"],
+        "partial": ["lenape", "risk"],
          "notes": {
             "other": ["spring break"]
         }
