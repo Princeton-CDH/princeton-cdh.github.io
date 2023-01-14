@@ -252,7 +252,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/128",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-13T14:48:54Z",
     "labels": [],
     "milestone": ""
   },
@@ -264,6 +264,17 @@
     "closed": "2022-11-29T21:28:06Z",
     "labels": [
       "duplicate",
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "change ansible vault password ",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/134",
+    "estimate": "",
+    "closed": "2023-01-11T16:06:19Z",
+    "labels": [
       "chore"
     ],
     "milestone": ""
@@ -386,9 +397,10 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/65",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-11T19:00:38Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "chore"
     ],
     "milestone": ""
   },
@@ -461,9 +473,10 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/9",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-09T18:24:09Z",
     "labels": [
-      "bug"
+      "bug",
+      "wontfix"
     ],
     "milestone": ""
   },
@@ -7002,6 +7015,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7241,11 +7255,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1210",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-12T15:27:37Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -7454,6 +7467,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": ""
@@ -7463,7 +7478,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1253",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-13T19:25:10Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -7488,7 +7503,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7523,6 +7539,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7642,9 +7659,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1285",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-13T20:11:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": ""
@@ -7656,7 +7674,66 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Some JRL images not displaying correctly",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1288",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Software release checklist for v4.12",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1289",
+    "estimate": "",
+    "closed": "2023-01-10T21:39:19Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Replace p. 1 and p. 2 in UPenn image labels with \"recto\" and \"verso\" respectively",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1292",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Import UPenn IIIF fragments",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1293",
+    "estimate": "",
+    "closed": "2023-01-12T20:08:54Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "De-selected images still display yellow border in viewer and editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1295",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -10177,7 +10254,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/506",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -11205,7 +11284,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/701",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -12843,9 +12924,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/935",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-13T20:06:14Z",
     "labels": [
-      "\ud83d\udc1b bug",
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -13285,6 +13367,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13380,9 +13463,10 @@
     "issue": "Design up to five leaves so that they can be used on the time tree",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/27",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13423,7 +13507,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/30",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-09T20:31:22Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13433,8 +13517,8 @@
     "issue": "As a user, I want to see labels for leaves in the tree so I'll have a sense of the content and reasons to select specific leaves.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/32",
-    "estimate": "",
-    "closed": null,
+    "estimate": 3,
+    "closed": "2023-01-09T20:32:13Z",
     "labels": [],
     "milestone": ""
   },
@@ -13462,11 +13546,69 @@
     "milestone": ""
   },
   {
+    "issue": "As a user, I want to browse a list of tags so that I can see how the data in the timetree is categorized.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/36",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "setup pre-commit hooks for automated & consistent formatting",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/37",
+    "estimate": "",
+    "closed": "2023-01-11T21:10:14Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content editor, I want to see tags, sort date, and branch on leaf summary cards, so that I can review the imported data more easily.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/4",
     "estimate": 1,
     "closed": "2022-09-20T17:59:34Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want to optionally include images in leaf content so that I can provide illustrations and visual engagement for the timetree information.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/40",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a tag in the leaf detail view, I want other leaves with that tag to be highlighted so that I can explore related content.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/41",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement colors for the site ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/42",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a leaf to read more details, I want the leaf and label highlighted in the tree view so that I can see and remember what I selected.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/44",
+    "estimate": 1,
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
@@ -23072,7 +23214,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/445",
     "estimate": 5,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.9"
   },
   {
@@ -23119,9 +23263,11 @@
     "issue": "As a user, when I see a group of editions in my search results, I want an option to search within all editions.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/451",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "v3.9"
   },
   {
@@ -23131,7 +23277,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
-      "tested needs attention"
+      "awaiting testing"
     ],
     "milestone": "v3.9"
   },
@@ -23452,7 +23598,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/504",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-13T14:58:09Z",
     "labels": [
       "chore"
     ],
