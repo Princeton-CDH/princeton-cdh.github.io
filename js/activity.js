@@ -67,6 +67,16 @@ function activityGraph(options) {
         .y1(function(d) { return y(d[1]); })
 
 
+      function projectColor(projectName) {
+        if (projectName in options.projects) {
+          return options.projects[projectName].color;
+        }
+        // warn about missing color so it can be remedied
+        console.log(`No color defined for ${projectName} in projects data file`);
+        return 'gray';
+      }
+
+
       // Show the areas
       areaChart
         .selectAll("mylayers")
@@ -74,7 +84,7 @@ function activityGraph(options) {
         .enter()
         .append("path")
           .attr("class", function(d) { return "myArea " + d.key })
-          .style("fill", function(d) { return options.projects[d.key].color; })
+          .style("fill", function(d) { return projectColor(d.key); })
           .attr("d", area)
 
 
@@ -161,7 +171,7 @@ function activityGraph(options) {
             .attr("y", function(d,i){ return 10 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
             .attr("width", size)
             .attr("height", size)
-            .style("fill", function(d){ return options.projects[d].color})
+            .style("fill", function(d){ return projectColor(d); })
             .on("mouseover", highlight)
             .on("mouseleave", noHighlight);
 
@@ -172,7 +182,7 @@ function activityGraph(options) {
           .append("text")
             .attr("x", 600 + size*1.2)
             .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
-            .style("fill", function(d){ return options.projects[d].color})
+            .style("fill", function(d){ return projectColor(d); })
             .text(function(d){ return d})
             .attr("text-anchor", "left")
             .style("alignment-baseline", "middle")
