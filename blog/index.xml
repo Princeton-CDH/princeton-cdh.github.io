@@ -1,4 +1,22 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Looking back at 2022 — all Geniza, all the time</title><link>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 9 — Jan 13, 2023</title><link>/blog/2023/01/17-january/</link><pubDate>Tue, 17 Jan 2023 11:01:02 +0500</pubDate><guid>/blog/2023/01/17-january/</guid><description>
+&lt;img src="/blog/2023/01/17-january/featured-lenape-tree-labels_hu47de2d5b648f831843d3269aaebd6eb3_376536_640x0_resize_catmullrom_3.png" width="640" height="416"/>
+&lt;p>Tracking early January as a short iteration for reporting purposes.&lt;/p>
+&lt;p>We made some progress on PPA and Lenape Timetree; we also completed some chores related to Ansible, including the replication playbook that has been in use in draft status for months and a task to update vault passwords due to the recent LastPass breach.&lt;/p>
+&lt;p>We also have work nearly complete enabling contractor deploy for Princeton Geniza Project. The issue is not tracked here because the pull request is still under review, but the new setup was used successfully for version 4.12 of Geniza listed below.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-tree-labels.png"
+alt="Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Dec 12 — 23, 2022</title><link>/blog/2023/01/17-december/</link><pubDate>Tue, 17 Jan 2023 11:01:00 +0500</pubDate><guid>/blog/2023/01/17-december/</guid><description>
+&lt;img src="/blog/2023/01/17-december/featured-lenape-select-leaf_hu5c167c8ca3f1eb09a0f1148309fd88b3_239070_640x0_resize_catmullrom_3.png" width="640" height="417"/>
+&lt;p>We fixed a couple of bugs on Princeton Geniza Project and tagged deployed a micro release to get the fixes into production. We also made some progress on the Lenape Timetree project. It isn&amp;rsquo;t reflected in the closed issues listed below, but we did make significant progress on PPA development work; we simply were not able to deliver for testing or close the issues.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-select-leaf.png"
+alt="Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf."/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Looking back at 2022 — all Geniza, all the time</title><link>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</guid><description>
 &lt;p>The charts below show the substantial amount of effort dedicated to the Princeton Geniza Project in 2022, with a noticeable spike as we worked to complete our commitments on the project before the charter period ended in October.&lt;/p>
 &lt;p>There&amp;rsquo;s also noticeable activity on Startwords to finish publication on issue 3; work on PPA enhancements in August and November/December; and beginning to ramp up work on the Lenape Timetree project in the fall.&lt;/p>
 &lt;p>The small amount of work spent on CDH web and mep-django (codebase for Shakepeare and Company Project) reflect a deliberate effort to minimize the work on those projects.&lt;/p></description></item><item><title>Blog: What did we work on in 2021?</title><link>/blog/2023/01/what-did-we-work-on-in-2021/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/what-did-we-work-on-in-2021/</guid><description>
@@ -601,54 +619,4 @@ alt="Screenshot of earliest and most recent changes for a test import document, 
 alt="Screenshot of the dynamic map embedded in the newly published essay on the Literary Right Bank on Shakespeare and Company Project"/>&lt;figcaption>
 &lt;p>Screenshot of the dynamic map embedded in the newly published essay on the &lt;a href="https://shakespeareandco.princeton.edu/analysis/2021/04/literary-right-bank/">Literary Right Bank&lt;/a> on Shakespeare and Company Project&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Mar 15 — 29, 2021</title><link>/blog/2021/03/29/</link><pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/29/</guid><description>
-&lt;img src="/blog/2021/03/29/featured-cdhweb-page-history_hu3ccb080dc3feaf0cdac3a01620139301_83318_640x0_resize_catmullrom_3.png" width="640" height="359"/>
-&lt;p>The points and total number of issues closed for the last iteration is quite high — 42 points total, 25 for cdhweb and 17 for geniza, which results in a rolling velocity of 27. I&amp;rsquo;d like to think this is a sign that we&amp;rsquo;re gaining momentum on geniza work, but suspect that the high numbers are due to work that rolled over from the last iteration and a significant push to finish cdhweb 3.0.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>We&amp;rsquo;re continuing to make progress on building out the database and importing existing data. New features include a document suppression feature, automatic tracking of historic shelfmarks, and a &amp;ldquo;needs review&amp;rdquo; field where content editors can add notes about problems or questions in the data that are used to create a queue of records with problems to be addressed. We also finished testing on data import issues from previous iterations, most notably preliminary document &amp;amp; fragment import.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>We completed features related to blog migration and managing site menus and navigation via wagtail, and resolved a number of longstanding bugs that are no longer an issue now that the site is on wagtail instead of mezzanine. There are only a few small issues rolling over for final testing and review before the 3.0 release can be created and deployed production.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="geniza-awaiting-review.png"
-alt="Screenshot of Geniza admin interface with new awaiting review feature"/>&lt;figcaption>
-&lt;p>Screenshot of Geniza admin interface with new awaiting review feature&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="cdhweb-wagtail-recents.png"
-alt="Screenshot of cdhweb wagtail interface showing recent edits, based on page history events"/>&lt;figcaption>
-&lt;p>Screenshot of cdhweb wagtail interface showing recent edits, based on page history events&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="featured-cdhweb-page-history.png"
-alt="Screenshot of cdhweb wagtail interface showing page history with migration event"/>&lt;figcaption>
-&lt;p>Screenshot of cdhweb wagtail interface showing page history with migration event&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>Blog: Mar 1 — 12, 2021</title><link>/blog/2021/03/15/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/15/</guid><description>
-&lt;img src="/blog/2021/03/15/featured-geniza-tagnetwork-detail_hu92be73fe69a8d7f2888c82f5551e2265_5116992_640x0_resize_catmullrom_3.png" width="640" height="400"/>
-&lt;p>Rolling velocity for this iteration increased from about 10 points to about 15 points, largely due to a substantial chunk of CDH website user stories that completed the testing process together after multiple iterations.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>This iteration we completed testing on a large set of issues that have been rolling over through multiple iterations, including major changes to:&lt;/p>
-&lt;ul>
-&lt;li>Events&lt;/li>
-&lt;li>People &amp;amp; Profiles&lt;/li>
-&lt;li>Project, Grants, and Grant Memberships&lt;/li>
-&lt;/ul>
-&lt;p>Work is still in progress on content management updates for Blog Posts, the last major module to migrate as part of the v3.0 update.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>This iteration we completed the admin management interface for Documents, the primary model in the Geniza database. In addition, we added new functionality to track where and how often languages &amp;amp; scripts are used by Documents, including provision for probable or uncertain language identification.&lt;/p>
-&lt;p>To support upcoming functionality for de-merging composite documents, we added an option to &amp;ldquo;clone&amp;rdquo; Documents with a record of the process stored in the database. We also experimented with clustering tags assigned to documents in order to start finding patterns in the data.&lt;/p>
-&lt;p>On the design side, we completed revisions to the sitemap diagram and created a low-fidelity mockup of the public view for Documents to spark discussion on content structure and hierarchy.&lt;/p>
-&lt;p>Four user stories related to the interface and data import process for Fragments are still in-progress.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-geniza-tagnetwork-detail.png"
-alt="Visualization of tag network generated from Geniza document tags"/>&lt;figcaption>
-&lt;p>Visualization of tag network generated from Geniza document tags&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="geniza-document-admin.png"
-alt="Screenshot of administrative interface for Geniza document database"/>&lt;figcaption>
-&lt;p>Screenshot of administrative interface for Geniza document database&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>

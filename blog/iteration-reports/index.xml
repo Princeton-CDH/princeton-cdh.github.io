@@ -1,4 +1,22 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Nov 28 - Dec 9, 2022</title><link>/blog/2022/12/12/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>/blog/2022/12/12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 9 — Jan 13, 2023</title><link>/blog/2023/01/17-january/</link><pubDate>Tue, 17 Jan 2023 11:01:02 +0500</pubDate><guid>/blog/2023/01/17-january/</guid><description>
+&lt;img src="/blog/2023/01/17-january/featured-lenape-tree-labels_hu47de2d5b648f831843d3269aaebd6eb3_376536_640x0_resize_catmullrom_3.png" width="640" height="416"/>
+&lt;p>Tracking early January as a short iteration for reporting purposes.&lt;/p>
+&lt;p>We made some progress on PPA and Lenape Timetree; we also completed some chores related to Ansible, including the replication playbook that has been in use in draft status for months and a task to update vault passwords due to the recent LastPass breach.&lt;/p>
+&lt;p>We also have work nearly complete enabling contractor deploy for Princeton Geniza Project. The issue is not tracked here because the pull request is still under review, but the new setup was used successfully for version 4.12 of Geniza listed below.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-tree-labels.png"
+alt="Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Dec 12 — 23, 2022</title><link>/blog/2023/01/17-december/</link><pubDate>Tue, 17 Jan 2023 11:01:00 +0500</pubDate><guid>/blog/2023/01/17-december/</guid><description>
+&lt;img src="/blog/2023/01/17-december/featured-lenape-select-leaf_hu5c167c8ca3f1eb09a0f1148309fd88b3_239070_640x0_resize_catmullrom_3.png" width="640" height="417"/>
+&lt;p>We fixed a couple of bugs on Princeton Geniza Project and tagged deployed a micro release to get the fixes into production. We also made some progress on the Lenape Timetree project. It isn&amp;rsquo;t reflected in the closed issues listed below, but we did make significant progress on PPA development work; we simply were not able to deliver for testing or close the issues.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-select-leaf.png"
+alt="Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf."/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Nov 28 - Dec 9, 2022</title><link>/blog/2022/12/12/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>/blog/2022/12/12/</guid><description>
 &lt;img src="/blog/2022/12/12/featured_lenape-timetree-leaves-graph_hu051c0535ab9f2a0b46e61fd7cb1923c1_203745_640x0_resize_catmullrom_3.png" width="640" height="333"/>
 &lt;p>It&amp;rsquo;s a busy time of year and we had a lot of other work going on in the past two that impacted what we were able to complete in terms of development and design work. For development, we closed 3 points and 13 issues for a rolling velocity of &lt;strong>5.3&lt;/strong> points. Design work is in progress, but none of it was completed since we&amp;rsquo;re still ramping back up on work that was paused.&lt;/p>
 &lt;h2 id="lenape-timetree">Lenape timetree&lt;/h2>
@@ -709,41 +727,4 @@ alt="Screenshot of keyword search results the Geniza cluster search prototype"/>
 alt="Screenshot of the experimental Geniza cluster search prototype"/>&lt;figcaption>
 &lt;p>Screenshot of the experimental Geniza cluster search prototype&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Oct 19 - 31, 2020</title><link>/blog/2020/11/02/</link><pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/02/</guid><description>
-&lt;img src="/blog/2020/11/02/featured-startwords-weaving-interface_hu6f24b4b9c5af428670450e95cc68919c_571393_640x0_resize_catmullrom_3.png" width="640" height="335"/>
-&lt;p>Very pleased to report that this past iteration we finally published &lt;a href="https://startwords.cdh.princeton.edu/issues/1/">Issue One of &lt;em>Startwords&lt;/em>&lt;/a>. The velocity charts below reflect the effort to get this out the door, including completion of design and implementation on an experimental piece and a large amount of work to finish converting the long &amp;ldquo;Data Beyond Vision&amp;rdquo; essay and related snippets to markdown, and to finish custom styles for the essay, including PDF styles.&lt;/p>
-&lt;p>We also continuing our work on prototyping and data exploration for the Geniza project; this iteration saw our first two search prototype stories accepted. We also published the charter for the Geniza research partnership; it&amp;rsquo;s available at &lt;a href="https://doi.org/10.5281/zenodo.4081714">https://doi.org/10.5281/zenodo.4081714&lt;/a>&lt;/p>
-&lt;p>We&amp;rsquo;re also continuing to make progress switching our GitHub repositories to a default branch of &lt;strong>main&lt;/strong>. In the last iteration, we updated the Ansible deploys to use &lt;strong>main&lt;/strong> by default for production deploys, and updated all projects with a production deploy.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-startwords-weaving-interface.png"
-alt="Screenshot of the Startwords experimental Weaving as Interface piece"/>&lt;figcaption>
-&lt;p>Screenshot of the &lt;em>Startwords&lt;/em> experimental &lt;a href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/">Weaving as Interface&lt;/a> piece&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="startwords-dbv-pdf.png"
-alt="Screenshot from the Startwords PDF for Data Beyond Vision"/>&lt;figcaption>
-&lt;p>Screenshot from the &lt;em>Startwords&lt;/em> PDF for &lt;a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">Data Beyond Vision&lt;/a>&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>Blog: Oct 5 - 15, 2020</title><link>/blog/2020/10/19/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>/blog/2020/10/19/</guid><description>
-&lt;img src="/blog/2020/10/19/featured-dbv-visuals_hu5a4dd102ce4f0bcbe542030242904bd8_198769_640x0_resize_catmullrom_3.png" width="640" height="207"/>
-&lt;p>Last iteration we put a lot of time and effort into Startwords as we get close to our issue 1 deadline and launch date, although that&amp;rsquo;s not reflected in the number of tickets closed on GitHub.&lt;/p>
-&lt;p>We&amp;rsquo;re continuing to make progress on Geniza planning and prototyping. That isn&amp;rsquo;t particularly evident from the issues closed, but that&amp;rsquo;s in part because we were hung up on getting the hostname for the new test server and acceptance testing only started at the end of the iteration. Design work at this point is primarily research, which we have not been tracking on GitHub.&lt;/p>
-&lt;p>We also made some minor improvements to our ansible deploys and dev/design site.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-dbv-visuals.png"
-alt="Custom styles for Data Beyond Vision essay in Startwords"/>&lt;figcaption>
-&lt;p>Custom styles for Data Beyond Vision essay in &lt;em>Startwords&lt;/em>&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="dbv-icons.png"
-alt="Revised icons for Data Beyond Vision essay for Startwords"/>&lt;figcaption>
-&lt;p>Revised icons for Data Beyond Vision essay for &lt;em>Startwords&lt;/em>&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="geniza-search-prototype.png"
-alt="Geniza search prototype"/>&lt;figcaption>
-&lt;p>Geniza search prototype&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
