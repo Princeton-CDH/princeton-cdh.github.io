@@ -26,13 +26,14 @@ date_range:
 {{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
 
 {{/* containers where the charts will be added */}}
+<p><i>Hover over project name in the legend at right to highlight activity for a single project in both charts. Click and drag on a chart to zoom in on activity for a shorter time period; double click to undo the zoom.</i></p>
+
 <div id="project-points"></div>
 <div id="project-issues"></div>
 
 {{/* data for generating the charts */}}
 <script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
 <script id="project-info" type="application/json">{{ $.Site.Data.projects|jsonify (dict "indent" "  ") | safeJS }}</script>
-
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     const iterationData = JSON.parse(document.getElementById('iteration-data').textContent);
