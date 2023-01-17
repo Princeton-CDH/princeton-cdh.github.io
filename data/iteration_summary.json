@@ -2473,7 +2473,7 @@
         ],
         "dev": {
             "points": 3,
-            "issues": 7,
+            "issues": 5,
             "velocity": 6.0
         },
         "design": {
@@ -2482,7 +2482,7 @@
             "velocity": 1.33
         },
         "project_issues": {
-            "geniza": 5,
+            "geniza": 3,
             "lenape-timetree": 4
         },
         "project_points": {
@@ -2509,7 +2509,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 9,
+            "issues": 7,
             "velocity": 3.0
         },
         "design": {
@@ -2518,13 +2518,11 @@
         },
         "project_issues": {
             "lenape-timetree": 3,
-            "geniza": 2,
             "cdh-ansible": 3,
             "ppa-django": 1
         },
         "project_points": {
             "lenape-timetree": 3,
-            "geniza": 0,
             "cdh-ansible": 0,
             "ppa-django": 0
         }

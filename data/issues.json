@@ -248,12 +248,14 @@
     "milestone": ""
   },
   {
-    "issue": "PPA updating ansible to this python version and running the QA deploy to confirm that everything works there",
+    "issue": "update python version for PPA deploys",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/128",
     "estimate": "",
     "closed": "2023-01-13T14:48:54Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -5979,7 +5981,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1010",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -6328,9 +6332,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1077",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-16T17:52:56Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -7012,10 +7017,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1177",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-16T17:52:59Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7401,7 +7405,8 @@
     "estimate": "",
     "closed": "2022-12-16T21:08:25Z",
     "labels": [
-      "Epic"
+      "Epic",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7575,7 +7580,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\u2753 question"
     ],
     "milestone": ""
   },
@@ -7616,7 +7622,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7638,7 +7645,8 @@
     "estimate": "",
     "closed": "2022-12-18T18:58:55Z",
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7662,7 +7670,6 @@
     "closed": "2023-01-13T20:11:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": ""
@@ -7698,7 +7705,8 @@
     "estimate": "",
     "closed": "2023-01-10T21:39:19Z",
     "labels": [
-      "chore"
+      "chore",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7721,7 +7729,8 @@
     "estimate": "",
     "closed": "2023-01-12T20:08:54Z",
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
     ],
     "milestone": ""
   },
@@ -12927,7 +12936,6 @@
     "closed": "2023-01-13T20:06:14Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
