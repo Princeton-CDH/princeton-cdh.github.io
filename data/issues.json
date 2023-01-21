@@ -6163,7 +6163,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1051",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-17T20:54:00Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -6174,7 +6174,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1052",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-17T20:56:38Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7735,13 +7735,25 @@
     "milestone": ""
   },
   {
-    "issue": "De-selected images still display yellow border in viewer and editor",
+    "issue": "De-selected images display yellow border in viewer and editor when no image on TextBlock is selected",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1295",
     "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want to be able to enter uncertain dates with descriptors (exact year unknown but year range is known)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1297",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": ""
@@ -12184,7 +12196,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "Epic"
+      "Epic",
+      "performant"
     ],
     "milestone": ""
   },
@@ -13558,7 +13571,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/36",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-01-17T20:37:24Z",
     "labels": [],
     "milestone": ""
   },
@@ -13586,7 +13599,7 @@
     "issue": "As a content editor, I want to optionally include images in leaf content so that I can provide illustrations and visual engagement for the timetree information.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/40",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -13596,7 +13609,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/41",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-01-17T20:33:23Z",
     "labels": [],
     "milestone": ""
   },
@@ -13616,6 +13629,15 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/44",
     "estimate": 1,
+    "closed": "2023-01-17T20:33:07Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want timetree data points represented by leaf shapes so that the interface is more organic and I can more easily understand the visual as a tree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/46",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -23555,7 +23577,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/498",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-18T19:35:16Z",
     "labels": [
       "chore"
     ],
@@ -23607,6 +23629,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/504",
     "estimate": "",
     "closed": "2023-01-13T14:58:09Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "update replication playbook to include Solr data",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/509",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "chore"
     ],
