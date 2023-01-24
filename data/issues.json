@@ -7612,7 +7612,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1270",
     "estimate": "",
     "closed": "2022-12-15T17:21:20Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": ""
   },
   {
@@ -13382,13 +13384,12 @@
     "milestone": ""
   },
   {
-    "issue": "Propose type sizes for each content type on desktop",
+    "issue": "Propose type sizes for each content type on desktop and mobile",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/15",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-01-23T15:20:50Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13398,7 +13399,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/16",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-01-23T14:47:46Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -13640,6 +13641,26 @@
     "estimate": 2,
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement desktop and mobile type styles based on the design specifications ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/47",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "set minimum height for percy mobile",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/49",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {

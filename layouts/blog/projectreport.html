@@ -36,24 +36,69 @@ date_range:
 
 <section class="issue-details">
 <h2>Issues closed</h2>
-{{ $warranty_issues := where (where (where $.Site.Data.issues "closed" ">=" $date_range.start) "closed" "<=" $date_range.end) "project" "mep-django" }}
-{{ $bugs := where $warranty_issues "labels" "intersect" (slice "bug") }}
+
+{{/* identify all issues for this project in the specified date range */}}
+{{ $issues_in_range := where (where (where $.Site.Data.issues "closed" ">=" $date_range.start) "closed" "<=" $date_range.end) "project" .Params.project }}
+
+{{/* identify any issues to ignore based on tags set in page params */}}
+{{ $ignore_issues := where $issues_in_range "labels" "intersect" .Params.ignore_tags }}
+
+{{/* identify all warranty issues, excluding any to be ignored based on tags */}}
+{{/* NOTE: because Hugo does not have a "not intersect" filter, we have to loop */}}
+{{ $warranty_issues := slice }}
+{{ range $i := $issues_in_range }}
+    {{ if not (len (intersect $i.labels $.Params.ignore_tags)) }}
+        {{ $warranty_issues = $warranty_issues | append (slice $i) }}
+    {{ end }}
+{{ end }}
+
+{{ $bug_tags := slice "bug" "🐛 bug" }}
+{{ $wontfix_tags := slice "wontfix" "🚫 wontfix" }}
+
+{{/* identify issue tagged with bug label, excluding wontfix issues */}}
+{{/* $bugs := where $warranty_issues "labels" "intersect" $bug_tags  */}}
+{{/* identify bugs; exclude "won't fix"  */}}
+{{ $bugs := slice }}
+{{ range $i := $warranty_issues }}
+    {{ if and (len (intersect $i.labels $bug_tags)) (not (len (intersect $i.labels $wontfix_tags)))  }}
+        {{ $bugs = $bugs | append $i }}
+    {{ end }}
+{{ end }}
+
+
 <h3>Bugs</h3>
+<p>{{ len $bugs }} issues</p>
 <ul>
     {{ range $bugs }}
         {{ partial "issue_single.html" . }}
     {{ end }}
 </ul>
 
+{{/* non bugs that are not excluded/ignored */}}
+{{ $other := slice }}
+{{ range $i := $warranty_issues }}
+    {{ if not (len (intersect $i.labels $bug_tags)) }}
+        {{ $other = $other | append $i }}
+    {{ end }}
+{{ end }}
+
 <h3>Other</h3>
+<p>{{ len $other }} issues</p>
 <ul>
-    {{ range $warranty_issues }}
-        {{ if not (in .labels "bug") }}
-            {{ partial "issue_single.html" . }}
-        {{ end }}
+    {{ range $other }}
+        {{ partial "issue_single.html" . }}
     {{ end }}
 </ul>
 
+{{ if .Params.ignore_tags }}
+<h3>Excluded</h3>
+Issues with the following tags are excluded from this report: {{ delimit .Params.ignore_tags ", "}}
+<ul>
+    {{ range $ignore_issues }}
+        {{ partial "issue_single.html" . }}
+    {{ end }}
+</ul>
+{{ end }}
 </section>
 
 </div>
