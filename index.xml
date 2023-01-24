@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 9 — Jan 13, 2023</title><link>/blog/2023/01/17-january/</link><pubDate>Tue, 17 Jan 2023 11:01:02 +0500</pubDate><guid>/blog/2023/01/17-january/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Warranty Report: Princeton Geniza Project</title><link>/blog/2023/01/warranty-report-princeton-geniza-project/</link><pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/warranty-report-princeton-geniza-project/</guid><description/></item><item><title>Blog: Jan 9 — Jan 13, 2023</title><link>/blog/2023/01/17-january/</link><pubDate>Tue, 17 Jan 2023 11:01:02 +0500</pubDate><guid>/blog/2023/01/17-january/</guid><description>
 &lt;img src="/blog/2023/01/17-january/featured-lenape-tree-labels_hu47de2d5b648f831843d3269aaebd6eb3_376536_640x0_resize_catmullrom_3.png" width="640" height="416"/>
 &lt;p>Tracking early January as a short iteration for reporting purposes.&lt;/p>
 &lt;p>We made some progress on PPA and Lenape Timetree; we also completed some chores related to Ansible, including the replication playbook that has been in use in draft status for months and a task to update vault passwords due to the recent LastPass breach.&lt;/p>
@@ -602,21 +602,5 @@ alt="Screenshot of change history for a test imported document showing historic 
 &lt;figure>&lt;img src="pgp-first-last-edits.png"
 alt="Screenshot of earliest and most recent changes for a test import document, shown on the document dit form"/>&lt;figcaption>
 &lt;p>Screenshot of earliest and most recent changes for a test import document, shown on the document dit form&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Mar 29 — Apr 9, 2021</title><link>/blog/2021/04/12/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/12/</guid><description>
-&lt;img src="/blog/2021/04/12/featured-sco_map_essay_hu5a7f23e9c9277fbc92bf6da0a0ea5ae8_1305134_640x0_resize_catmullrom_3.png" width="640" height="331"/>
-&lt;p>The development points for this iteration were quite low (only 4 points), but our rolling velocity continues to be unnusually high (26 points) based on the last two iterations, which were included an enormous amount of work.&lt;/p>
-&lt;p>Based on the design velocidy graph, we might be finding a new rhythm with design work on our new adjusted design schedule.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>We finally finished and deployed the 3.0 release, migrating content from the outdated and unsupported Mezzanine to Wagtail. This iteration included a few issues to close out the release, deploying the update and running the exodus script to convert content, and then some bugfixes and clean up work for a planned 3.0.1 release.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>This iteration we finished some smaller work related to the database and admin sorting, and made progress on document detail designs. Multiple larger features were delivered late in the iteration, which didn&amp;rsquo;t give enough time for testing to be completed.&lt;/p>
-&lt;p>Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work at the start of the iteration, as we&amp;rsquo;ve had in the past. Rolling velocity will smooth out the volatility here, as intended.&lt;/p>
-&lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
-&lt;p>We had a small release for S&amp;amp;co with one bug fix (tested last iteration) and an enhancement adapted from PPA, to support embedding dynamic content (such as the map below) in Analysis essays and other site content pages.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-sco_map_essay.png"
-alt="Screenshot of the dynamic map embedded in the newly published essay on the Literary Right Bank on Shakespeare and Company Project"/>&lt;figcaption>
-&lt;p>Screenshot of the dynamic map embedded in the newly published essay on the &lt;a href="https://shakespeareandco.princeton.edu/analysis/2021/04/literary-right-bank/">Literary Right Bank&lt;/a> on Shakespeare and Company Project&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
