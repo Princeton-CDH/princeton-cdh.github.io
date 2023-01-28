@@ -7470,10 +7470,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1252",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-26T17:54:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7541,7 +7541,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1260",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-25T01:49:37Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -7578,10 +7578,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1263",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-25T14:43:02Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": ""
   },
@@ -7693,7 +7693,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1288",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-26T17:52:16Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -7756,6 +7756,30 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Please merge the JTS and JTS, ENA collections in admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1299",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Transcription editor annotation boxes malfunctioning on Mac",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1301",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
       "performant"
     ],
     "milestone": ""
@@ -13619,7 +13643,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/42",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-24T18:41:46Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13648,8 +13672,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/47",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-01-26T16:21:46Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -13657,7 +13683,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/49",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-25T15:07:46Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13669,6 +13695,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/5",
     "estimate": 3,
     "closed": "2022-12-19T21:38:27Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Fix the placement and size of the open panel on mobile with relative to the selected leaf label",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/52",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
@@ -23672,6 +23707,24 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/51",
     "estimate": "",
     "closed": "2018-05-17T16:09:16Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Keep word from search query when clicking \"search within that cluster\"",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/510",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "The clusters aren't collapsing on browse anymore; they previously were (see exchange above). By browse I mean when you arrive at the archive page but haven't input any search terms yet.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/512",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": ""
   },
