@@ -42,8 +42,15 @@ class GitHubAPI(object):
     def get_org_repos(self, org):
         url = "%s/orgs/%s/repos" % (self.endpoint, org)
         response = self._call(url)
+        response_data = response.json()
         repos = {}
-        for repo in response.json():
+
+        # when api credential is expired, response has message
+        if "message" in response_data and response_data["message"] == "Bad credentials":
+            print("Error: check GitHub API credentials")
+            return repos  # return empty repo list to bail out
+
+        for repo in response_data:
             repos[repo["name"]] = repo["id"]
 
         while "next" in response.links:
