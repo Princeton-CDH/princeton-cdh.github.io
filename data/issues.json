@@ -6975,8 +6975,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1172",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-31T14:58:34Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "performant"
     ],
     "milestone": ""
@@ -7361,7 +7362,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7473,7 +7475,6 @@
     "closed": "2023-01-26T17:54:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7544,7 +7545,6 @@
     "closed": "2023-01-25T01:49:37Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7776,6 +7776,18 @@
     "issue": "Transcription editor annotation boxes malfunctioning on Mac",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1301",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Language toggle not visible on public site if user is logged out of admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1307",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -12265,7 +12277,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/843",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": ""
   },
   {
@@ -13389,7 +13403,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/13",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-01-30T15:25:23Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "Epic"
@@ -13705,6 +13719,18 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Draw branches so the leaves are more naturally conntected to the tree ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/53",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
     "milestone": ""
   },
   {

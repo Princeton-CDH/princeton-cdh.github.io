@@ -6,4 +6,10 @@ layout: iterationreport
 slug: "30"
 ---
 
-A lot of active work on Lenape and some (still unfinished) development on PPA and Geniza. Ryan was busy with teaching work for most of this iteration.
+This iteration, we completed a lot of design and development work on Lenape. We also made progress on PPA, but there is a complicated group of related features that needs a few small changes after the most recent round of testing; we hope to complete those and deliver them to production in the coming iteration. The low development velocity (**3 points**) is consistent over the last few weeks, but significantly impacted by the amount of team member time spent on teaching for Wintersession and H+DSI. 
+
+
+
+## Demos
+{{< figure src="featured-lenape-colors-typography.png" caption="Screenshot of the Lenape Timetree development site, with colors and typography implemented">}}
+
