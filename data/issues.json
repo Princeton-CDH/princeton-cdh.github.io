@@ -7741,9 +7741,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1295",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-02T19:35:13Z",
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": ""
@@ -7788,6 +7789,18 @@
     "issue": "Language toggle not visible on public site if user is logged out of admin",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1307",
+    "estimate": "",
+    "closed": "2023-02-01T14:43:58Z",
+    "labels": [
+      "\u274c invalid",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Updated transcriptions possibly failing to populate in search index",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1308",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -13725,10 +13738,76 @@
     "issue": "Draw branches so the leaves are more naturally conntected to the tree ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/53",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
       "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to understand the project better before engaging with the tree and the content so that I can navigate it with more understanding and intention.  ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/54",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves. ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/55",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to close an open panel when I do not need the content so that it doesn\u2019t clutter the screen and/or obscure my view of the tree on mobile. ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/56",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to know which leaf is selected/active so that I know what I\u2019m looking at",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/57",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As the project team we want a way for people to access the Lenape site on the NAISIP site so that they can learn about the Lenape project.  ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/58",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As the project team we want the site title/project title to be displayed with a distinct font to display so that it stands out to the users and becomes memorable",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/59",
+    "estimate": "",
+    "closed": null,
+    "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13741,6 +13820,17 @@
     "closed": "2022-10-07T19:08:36Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "make it easier to configure forces used to layout leaves in the timetree",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/61",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
