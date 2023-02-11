@@ -7360,7 +7360,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1229",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-07T19:51:48Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -7383,9 +7383,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1230",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-07T20:03:30Z",
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7554,9 +7555,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1261",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-08T18:42:24Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7766,7 +7768,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1299",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-07T20:32:08Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "performant"
@@ -7778,9 +7780,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1301",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-08T16:38:00Z",
     "labels": [
-      "\ud83d\udc1b bug",
+      "\u274c invalid",
       "performant"
     ],
     "milestone": ""
@@ -7802,7 +7804,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1308",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-07T20:37:11Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -7817,6 +7819,43 @@
     "closed": "2021-04-14T19:48:19Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import"
+  },
+  {
+    "issue": "Add polygon annotation boxes to the transcription editor ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1311",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make the rotation degree (top of image in the transcription editor) clickable and editable so you can enter the degree of rotation you want in addition to manually moving the circle",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1312",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Move the \"pop out\" button in the transcription editor up higher so it's immediately accessible",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1313",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "\ud83d\uddfa\ufe0f design",
+      "performant"
+    ],
+    "milestone": ""
   },
   {
     "issue": "As a user, I want to view detailed information about all the sources that cite this document so that I can learn the volume and kind of academic engagement with the document",
@@ -10325,7 +10364,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/506",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-07T19:48:37Z",
     "labels": [
       "performant"
     ],
@@ -13533,13 +13572,12 @@
     "milestone": ""
   },
   {
-    "issue": "Design up to five leaves so that they can be used on the time tree",
+    "issue": "Design a variety of leaves so that they can be used on the time tree",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/27",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2023-02-08T18:32:31Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13559,8 +13597,8 @@
     "issue": "Propose a grid / logic for how much space elements take on a page on desktop, tablet, and mobile ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/29",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-02-08T15:30:41Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -13600,7 +13638,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/34",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-06T15:05:22Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "Epic"
@@ -13652,7 +13690,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/40",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-02-09T18:43:25Z",
     "labels": [],
     "milestone": ""
   },
@@ -13689,8 +13727,8 @@
     "issue": "As a user, I want timetree data points represented by leaf shapes so that the interface is more organic and I can more easily understand the visual as a tree.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/46",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2023-02-09T22:12:45Z",
     "labels": [],
     "milestone": ""
   },
@@ -13726,7 +13764,7 @@
     "milestone": ""
   },
   {
-    "issue": "Fix the placement and size of the open panel on mobile with relative to the selected leaf label",
+    "issue": "Fix the placement and size of the open panel on mobile relative to the selected leaf label",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/52",
     "estimate": "",
@@ -13739,6 +13777,17 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/53",
     "estimate": 3,
+    "closed": "2023-02-06T17:15:23Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to read an introduction to the project before engaging with the tree so that I can navigate it with more understanding and intention.  ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/54",
+    "estimate": 1,
     "closed": null,
     "labels": [
       "\ud83d\udcac awaiting review",
@@ -13747,34 +13796,25 @@
     "milestone": ""
   },
   {
-    "issue": "As a user I want to understand the project better before engaging with the tree and the content so that I can navigate it with more understanding and intention.  ",
-    "project": "lenape-timetree",
-    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/54",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\uddfa\ufe0f design"
-    ],
-    "milestone": ""
-  },
-  {
     "issue": "As a user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves. ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/55",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
   {
-    "issue": "As a user I want to close an open panel when I do not need the content so that it doesn\u2019t clutter the screen and/or obscure my view of the tree on mobile. ",
+    "issue": "As a user I want to close an open panel when I do not need the content so that it doesn\u2019t clutter the screen and/or obscure my view of the tree on mobile and if I want to view the intro again on desktop. ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/56",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13783,9 +13823,10 @@
     "issue": "As a user I want to know which leaf is selected/active so that I know what I\u2019m looking at",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/57",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13828,10 +13869,82 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/61",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-09T18:45:13Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want the url to change when I select a leaf so that I can bookmark or share the timetree with a specific leaf selected.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/63",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to read the other pages on the site so that I can learn more about project ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/64",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a keyboard or screen user, I want to navigate the timetree without a mouse or touch device so that I can explore the content in multiple paths and access all the information in a manner that is equivalent to the experience of a sighted  user.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/65",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\u267f accessibility"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want to view a list of all the tagged terms so that I can learn about the topics on the tree and navigate to the tree through the tags",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/66",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "timetree + panel layout revisions",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/67",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "design spacing for century containers",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/68",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user on a smaller screen, I want to zoom in on the timetree so that I can view and interact with the content more easily.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/69",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13842,6 +13955,99 @@
     "closed": "2022-10-07T19:16:51Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "label layout \u2014 breaking leaf labels into multiline",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/70",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "draw tree trunk and branches",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/71",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "revise spacing and labels for century containers",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/72",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement containers and styles for content pages",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/73",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement containers and styles for tag index page",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/74",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Calculate trunk width ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/75",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose specs for images  ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/76",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose a color for the panel on desktop and mobile that would be easier on the eyes and be visually pleasing with respect to the rest of the page",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/77",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "import most recent version of leaf data from google docs",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/79",
+    "estimate": "",
+    "closed": "2023-02-10T18:40:40Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": ""
   },
