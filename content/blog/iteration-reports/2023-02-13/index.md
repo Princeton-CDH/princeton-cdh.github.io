@@ -7,7 +7,7 @@ slug: "13"
 ---
 
 The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on 
-PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting.
+PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting. Our rolling development velocity is **3.67** and holding pretty steady for now around three points.
 
 ## Demos
 

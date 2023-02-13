@@ -785,31 +785,35 @@
         "projects": ["lenape", "ppa", "other"],
         "partial": ["ppa"],
         "notes": {
-            "ppa": ["", "release enhancements"],
             "other": ["wintersession", "wintersession"]
         }
     },
     {
         "from": "2023-01-30",
         "to": "2023-02-10",
-        "projects": ["lenape"]
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"]
     },
     {
         "from": "2023-02-13",
         "to": "2023-02-24",
-        "projects": ["lenape"]
+        "projects": ["lenape", "ppa"],
+        "partial": ["ppa"],
+        "notes": {
+            "ppa": ["", "release enhancements"]
+        }
     },
     {
         "from": "2023-02-27",
         "to": "2023-03-10",
-        "projects": ["lenape", "risk"],
+        "projects": ["lenape"],
         "partial": ["lenape"]
     },
     {
         "from": "2023-03-13",
         "to": "2023-03-24",
-        "projects": ["lenape", "risk", "other"],
-        "partial": ["lenape", "risk"],
+        "projects": ["lenape", "other"],
+        "partial": ["lenape"],
          "notes": {
             "other": ["spring break"]
         }
@@ -818,7 +822,7 @@
         "from": "2023-03-27",
         "to": "2023-04-07",
         "projects": ["lenape", "risk"],
-        "partial": ["lenape"]
+        "partial": ["lenape", "risk"]
     },
     {
         "from": "2023-04-10",
