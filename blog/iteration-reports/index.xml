@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
 &lt;img src="/blog/2023/02/13/featured-lenape-leaves_hub5256ca78b523dea52a63b5d1b97f5f3_449673_640x0_resize_catmullrom_3.png" width="640" height="504"/>
 &lt;p>The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on
-PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting.&lt;/p>
+PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting. Our rolling development velocity is &lt;strong>3.67&lt;/strong> and holding pretty steady for now around three points.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;figure>&lt;img src="featured-lenape-leaves.png"
 alt="Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data"/>&lt;figcaption>
