@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 16 - Jan 27, 2023</title><link>/blog/2023/01/30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/30/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
+&lt;img src="/blog/2023/02/13/featured-lenape-leaves_hub5256ca78b523dea52a63b5d1b97f5f3_449673_640x0_resize_catmullrom_3.png" width="640" height="504"/>
+&lt;p>The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on
+PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-leaves.png"
+alt="Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data"/>&lt;figcaption>
+&lt;p>Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jan 16 - Jan 27, 2023</title><link>/blog/2023/01/30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/30/</guid><description>
 &lt;img src="/blog/2023/01/30/featured-lenape-colors-typography_hu265ad66af4bec21e1d4dad9d3a715521_381768_640x0_resize_catmullrom_3.png" width="640" height="398"/>
 &lt;p>This iteration, we completed a lot of design and development work on Lenape. We also made progress on PPA, but there is a complicated group of related features that needs a few small changes after the most recent round of testing; we hope to complete those and deliver them to production in the coming iteration. The low development velocity (&lt;strong>3 points&lt;/strong>) is consistent over the last few weeks, but significantly impacted by the amount of team member time spent on teaching for Wintersession and H+DSI.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -710,20 +719,4 @@ alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Fi
 &lt;p>We shifted development efforts to an infrastructure migration for the CDH website and planning for CDH web 3.0, which consists of a major migration to move content management functionality from Mezzanine to Wagtail.&lt;/p>
 &lt;p>There was also development effort on Shakespeare and Company Project with the main goal of generating updated dataset exports in January, although we did address a handful of small bugs.&lt;/p>
 &lt;p>This iteration we also had PPA work become unblocked: the revised solution for adding new content from HathiTrust was blocked by errors with rsync, which were finally resolved this iteration, so the feature was finally delivered for testing.&lt;/p>
-&lt;p>Because the work this iteration was largely focused on infrastructure and data, there is nothing visual to demo. The high number of development issues closed relative to points reflects the number of bugs and chores closed, and also reflects the fact that much of the work for CDH web remains in-progress.&lt;/p></description></item><item><title>Blog: Nov 16 - 27, 2020</title><link>/blog/2020/11/30/</link><pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate><guid>/blog/2020/11/30/</guid><description>
-&lt;img src="/blog/2020/11/30/featured-geniza-tags_hue9cb7085157941caad4966623a815cc8_192671_640x0_resize_catmullrom_3.png" width="640" height="120"/>
-&lt;p>This was our last scheduled iteration for working on Geniza prototyping,
-so we made a push to finish as much of that work as possible before we switch to other things. Work completed includes a report of name extracted from metadata descriptions, to help with data work and future data migrations; an experimental tag filter that allows the user to select how tags are combined; and a keyword search on the experimental holistic search (the latter two will be used for usability testing). We also delivered for testing a simplistic implementation of TEI transcriptions converted to IIIF annotations and displayed in the Mirador 3 viewer, and finished work on a django prototype with internationalization. Unfortunately, complications with the deploy of the second prorotype meant we were unable to deliver that work for testing last week before the Thanksgiving holiday. No design tasks were marked as completed on GitHub, and the design work at this phase is still largely UX research; but there are in-progress design tasks for document detail page, holistic search results, and preliminary sitemap that we expect to close in this iteration.&lt;/p>
-&lt;p>This iteration also includes 5 points from a CDH web feature that was completed in the previous iteration, and a CDH web release with updates completed in the last iteration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-geniza-tags.png"
-alt="Screenshot of the new tags filter in the Geniza search prototype; searchers can choose how tags should be combined"/>&lt;figcaption>
-&lt;p>Screenshot of the new tags filter in the Geniza search prototype; searchers can choose how tags should be combined&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="geniza-cluster-search.png"
-alt="Screenshot of keyword search results the Geniza cluster search prototype"/>&lt;figcaption>
-&lt;p>Screenshot of keyword search results the Geniza cluster search prototype&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;p>Because the work this iteration was largely focused on infrastructure and data, there is nothing visual to demo. The high number of development issues closed relative to points reflects the number of bugs and chores closed, and also reflects the fact that much of the work for CDH web remains in-progress.&lt;/p></description></item></channel></rss>

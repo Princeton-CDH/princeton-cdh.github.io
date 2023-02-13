@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 16 - Jan 27, 2023</title><link>/blog/2023/01/30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/30/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
+&lt;img src="/blog/2023/02/13/featured-lenape-leaves_hub5256ca78b523dea52a63b5d1b97f5f3_449673_640x0_resize_catmullrom_3.png" width="640" height="504"/>
+&lt;p>The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on
+PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-leaves.png"
+alt="Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data"/>&lt;figcaption>
+&lt;p>Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jan 16 - Jan 27, 2023</title><link>/blog/2023/01/30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/30/</guid><description>
 &lt;img src="/blog/2023/01/30/featured-lenape-colors-typography_hu265ad66af4bec21e1d4dad9d3a715521_381768_640x0_resize_catmullrom_3.png" width="640" height="398"/>
 &lt;p>This iteration, we completed a lot of design and development work on Lenape. We also made progress on PPA, but there is a complicated group of related features that needs a few small changes after the most recent round of testing; we hope to complete those and deliver them to production in the coming iteration. The low development velocity (&lt;strong>3 points&lt;/strong>) is consistent over the last few weeks, but significantly impacted by the amount of team member time spent on teaching for Wintersession and H+DSI.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -578,19 +587,4 @@ alt="Screenshot of PPA archive search showing new focus styles for improved acce
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p></description></item><item><title>Blog: Summer development schedule, June — August 2021</title><link>/blog/2021/05/summer-development-schedule-june-august-2021/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/summer-development-schedule-june-august-2021/</guid><description>
-&lt;p>Development schedule for summer 2021.&lt;/p></description></item><item><title>Blog: Apr 26 — May 7, 2021</title><link>/blog/2021/05/10/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/10/</guid><description>
-&lt;img src="/blog/2021/05/10/featured-geniza-document-detail_hu2f9aee1d5d69e0ebe1a73f8355b78149_2751041_640x0_resize_catmullrom_3.png" width="640" height="441"/>
-&lt;p>This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>Accepted development work consists of a preliminary document detail page for the public site and admin editing enhancements, including a footnote count for the source list in admin, a way to edit and link to documents on the fragment edit view, and a certainty flag for TextBlocks to handle potential joins.&lt;/p>
-&lt;p>Completed design work includes a decision on document titles for detail pages as well as search and browse, revisions to the document detail page based on the initial implementation, and completed wireframes for sort and filter on search for all screens.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>We completed planned maintenance and released version 3.0.2 — this update removes all mezzanine dependencies and resets database migrations, making it possible for the site to finally be upgraded to newer versions of django and wagtail. This also resolved a bug in the 3.0 release.&lt;/p>
-&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
-&lt;p>The bugfix release was a small change to address a limitation on the 100 years twitter code — it did not handle subscriptions and renewals with no known duration, as revealed by a tweet on Monday. The bugfix was out in time to handle the next occurrence on Friday.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-document-detail.png"
-alt="Screenshot of preliminary document detail page for Princeton Geniza Project"/>&lt;figcaption>
-&lt;p>Screenshot of preliminary document detail page for Princeton Geniza Project&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;p>Development schedule for summer 2021.&lt;/p></description></item></channel></rss>
