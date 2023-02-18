@@ -7164,6 +7164,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7558,7 +7559,6 @@
     "closed": "2023-02-08T18:42:24Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7853,6 +7853,40 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\uddfa\ufe0f design",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Wagtail underline style conflicts with \"mark\" element CSS",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1314",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front end user who speaks Hebrew or Arabic, I want search form options and filters in my native language, so that I understand the options.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1316",
+    "estimate": "",
+    "closed": "2023-02-15T14:39:46Z",
+    "labels": [
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Please fix digital edition sources in the PGP (spreadsheet re-ingest)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1318",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": ""
@@ -13788,9 +13822,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/54",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-02-15T15:24:04Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13802,7 +13835,6 @@
     "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13812,9 +13844,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/56",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-02-15T15:19:38Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13823,7 +13854,7 @@
     "issue": "As a user I want to know which leaf is selected/active so that I know what I\u2019m looking at",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/57",
-    "estimate": 2,
+    "estimate": 5,
     "closed": null,
     "labels": [
       "\ud83d\udcac awaiting review",
@@ -13930,10 +13961,9 @@
     "issue": "design spacing for century containers",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/68",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-02-14T18:27:27Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14008,9 +14038,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/75",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-14T17:56:39Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -14033,9 +14062,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/77",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-02-14T21:10:44Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14060,6 +14088,44 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": " As a user when interacting with the site by keyboard I want to know which leaf is selected/active so that I know what I\u2019m looking at ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/83",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the close button for the leaf panels ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/84",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement the information icon on mobile to display the introduction panel ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/85",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Update the color of the panel to match the designs ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/86",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -23621,10 +23687,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/445",
     "estimate": 5,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2023-02-16T16:51:21Z",
+    "labels": [],
     "milestone": "v3.9"
   },
   {
@@ -23672,10 +23736,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/451",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2023-02-13T18:36:36Z",
+    "labels": [],
     "milestone": "v3.9"
   },
   {
@@ -23683,10 +23745,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/452",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2023-02-13T18:39:47Z",
+    "labels": [],
     "milestone": "v3.9"
   },
   {
@@ -24037,7 +24097,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/510",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-13T18:25:13Z",
     "labels": [],
     "milestone": ""
   },
@@ -24046,6 +24106,46 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/512",
     "estimate": "",
+    "closed": "2023-02-13T18:24:56Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/517",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Changing solr 8.6 to 8.4 in github tests as well as local environments and documentation",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/518",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Why are Gale preview images not loading on QA?",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/519",
+    "estimate": "",
+    "closed": "2023-02-16T16:49:35Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": "As a developer, I want a way to easily index all pages for one or more specific digitized works, so I can update page index data without reindexing all pages.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/523",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -25741,6 +25841,17 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/304",
     "estimate": "",
     "closed": "2022-08-10T15:47:48Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "single issue page doesn't include publication date",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/309",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "bug"
     ],
