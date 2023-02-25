@@ -7512,6 +7512,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7888,6 +7889,54 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Styles missing for JTS logo",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1320",
+    "estimate": "",
+    "closed": "2023-02-22T21:08:56Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Software release checklist for v4.13",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1323",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add help text to note section of footnote",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1327",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Regex for Judaeo-Arabic matching whitespace between quotes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1328",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": ""
   },
@@ -13832,9 +13881,10 @@
     "issue": "As a user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves. ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/55",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13855,9 +13905,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/57",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-02-22T15:41:32Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13993,7 +14042,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/70",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-24T22:12:29Z",
     "labels": [],
     "milestone": ""
   },
@@ -14011,7 +14060,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/72",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-24T22:12:16Z",
     "labels": [],
     "milestone": ""
   },
@@ -14052,7 +14101,6 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14094,8 +14142,8 @@
     "issue": " As a user when interacting with the site by keyboard I want to know which leaf is selected/active so that I know what I\u2019m looking at ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/83",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-02-22T17:07:08Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -14129,11 +14177,52 @@
     "milestone": ""
   },
   {
+    "issue": "adjust network so leaves on same branch in the same century can spread further apart",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/87",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a team member, I want a way to turn on a visual debug mode so that I can understand how the layout is being generated.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/88",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Document all leaf states for dev ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/89",
+    "estimate": "",
+    "closed": "2023-02-24T22:11:55Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Search for and propose tyepfaces, and visual styles for the site ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/9",
     "estimate": 3,
     "closed": "2022-10-07T19:33:29Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Propose and document all tag states ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/90",
+    "estimate": "",
+    "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -24146,9 +24235,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/523",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-02-21T15:54:27Z",
     "labels": [],
-    "milestone": ""
+    "milestone": "v3.9"
   },
   {
     "issue": "Updating solr schema to index pub_date as numeric does not update the field",
