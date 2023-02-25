@@ -2539,10 +2539,6 @@
             "ppa"
         ],
         "notes": {
-            "ppa": [
-                "",
-                "release enhancements"
-            ],
             "other": [
                 "wintersession",
                 "wintersession"
@@ -2573,7 +2569,11 @@
         "from": "2023-01-30",
         "to": "2023-02-10",
         "projects": [
-            "lenape"
+            "lenape",
+            "ppa"
+        ],
+        "partial": [
+            "ppa"
         ],
         "dev": {
             "points": 5,
@@ -2596,36 +2596,55 @@
         "from": "2023-02-13",
         "to": "2023-02-24",
         "projects": [
-            "lenape"
+            "lenape",
+            "ppa"
         ],
+        "partial": [
+            "ppa"
+        ],
+        "notes": {
+            "ppa": [
+                "",
+                "release enhancements"
+            ]
+        },
         "dev": {
-            "points": 0,
-            "velocity": 2.67
+            "points": 8,
+            "issues": 10,
+            "velocity": 5.33
         },
         "design": {
-            "points": 0,
-            "velocity": 3.67
+            "points": 13,
+            "issues": 8,
+            "velocity": 8.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "ppa-django": 7,
+            "lenape-timetree": 10,
+            "geniza": 1
+        },
+        "project_points": {
+            "ppa-django": 8,
+            "lenape-timetree": 13,
+            "geniza": 0
+        }
     },
     {
         "from": "2023-02-27",
         "to": "2023-03-10",
         "projects": [
-            "lenape",
-            "risk"
+            "lenape"
         ],
         "partial": [
             "lenape"
         ],
         "dev": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
-            "velocity": 2.33
+            "velocity": 6.67
         },
         "project_issues": {},
         "project_points": {}
@@ -2635,12 +2654,10 @@
         "to": "2023-03-24",
         "projects": [
             "lenape",
-            "risk",
             "other"
         ],
         "partial": [
-            "lenape",
-            "risk"
+            "lenape"
         ],
         "notes": {
             "other": [
@@ -2649,11 +2666,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 4.33
         },
         "project_issues": {},
         "project_points": {}
@@ -2666,7 +2683,8 @@
             "risk"
         ],
         "partial": [
-            "lenape"
+            "lenape",
+            "risk"
         ],
         "dev": {
             "points": 0,
