@@ -16,6 +16,7 @@ SKIP_LABELS = [
     "invalid",
     "🖇️ duplicate",
     "performant",  # contractor work not done by CDH team
+    "🕒🗺️ design",  # design work that is not done on cdh time
 ]
 
 
