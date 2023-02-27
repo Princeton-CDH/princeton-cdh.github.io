@@ -1,4 +1,21 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
+&lt;img src="/blog/2023/02/27/featured-ppa-cluster-on-browse_hu2b2e8c7ec08532430d7ad39a42c4c6fa_252621_640x0_resize_catmullrom_3.png" width="640" height="361"/>
+&lt;p>At long last, we finally completed the PPA issues for clustering search results by default, after multiple rounds of testing, and addressing a few regressions introduced by the changes.
+A new version of parasolr (0.9) has been released with the needed grouping functionality,
+and we expect to release a new version of PPA with the functionality early this iteration.&lt;/p>
+&lt;p>On the Lenape Timetree project, we&amp;rsquo;ve made tremendous progress on design work for leaves in various states and other interactions, and saw some progress on improving the layout of the tree (multiline labels, adjusted leaf sizes, adjusted sizing for century bands.)&lt;/p>
+&lt;p>Because of the large PPA work that was finally completed, we closed &lt;strong>12&lt;/strong> development points for a rolling velocity of &lt;strong>6.67&lt;/strong> — up significantly from preceding iterations, but probably higher than we expect going forward.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-ppa-cluster-on-browse.png"
+alt="Screenshot of PPA archive search/browse showing clustered results."/>&lt;figcaption>
+&lt;p>Screenshot of PPA archive search/browse showing clustered results.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="lenape-timetree-multiline-labels.png"
+alt="Screenshot of Lenape Timetree project, which now has multiline labels and adjusted leaf sizes."/>&lt;figcaption>
+&lt;p>Screenshot of Lenape Timetree project, which now has multiline labels and adjusted leaf sizes.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
 &lt;img src="/blog/2023/02/13/featured-lenape-leaves_hub5256ca78b523dea52a63b5d1b97f5f3_449673_640x0_resize_catmullrom_3.png" width="640" height="504"/>
 &lt;p>The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on
 PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting. Our rolling development velocity is &lt;strong>3.67&lt;/strong> and holding pretty steady for now around three points.&lt;/p>
@@ -714,9 +731,4 @@ alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Fi
 &lt;li>One visible change: emoji are now supported! See &lt;a href="https://cdh.princeton.edu/updates/2020/11/18/dating-problems-ask-princeton-geniza-project-team/">Marina&amp;rsquo;s post on dates and dating&lt;/a> to see the emojis she originally included, which were not supported on the previous version of the site.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Blog: Nov 30 - Dec 12, 2020</title><link>/blog/2020/12/nov-30-dec-12-2020/</link><pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate><guid>/blog/2020/12/nov-30-dec-12-2020/</guid><description>
-&lt;p>This iteration we paused active software development on the Geniza project, although design research and work on sitemap and continued, along with planning for the next phase.&lt;/p>
-&lt;p>We shifted development efforts to an infrastructure migration for the CDH website and planning for CDH web 3.0, which consists of a major migration to move content management functionality from Mezzanine to Wagtail.&lt;/p>
-&lt;p>There was also development effort on Shakespeare and Company Project with the main goal of generating updated dataset exports in January, although we did address a handful of small bugs.&lt;/p>
-&lt;p>This iteration we also had PPA work become unblocked: the revised solution for adding new content from HathiTrust was blocked by errors with rsync, which were finally resolved this iteration, so the feature was finally delivered for testing.&lt;/p>
-&lt;p>Because the work this iteration was largely focused on infrastructure and data, there is nothing visual to demo. The high number of development issues closed relative to points reflects the number of bugs and chores closed, and also reflects the fact that much of the work for CDH web remains in-progress.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
