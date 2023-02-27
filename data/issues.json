@@ -7899,7 +7899,8 @@
     "estimate": "",
     "closed": "2023-02-22T21:08:56Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -14038,12 +14039,14 @@
     "milestone": ""
   },
   {
-    "issue": "label layout \u2014 breaking leaf labels into multiline",
+    "issue": "label layout \u2014 break leaf labels into multiline",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/70",
     "estimate": "",
     "closed": "2023-02-24T22:12:29Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14061,7 +14064,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/72",
     "estimate": "",
     "closed": "2023-02-24T22:12:16Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14222,6 +14227,17 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/90",
     "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design a visual style for the single data point on the trunk of the tree so that users can learn about its distinction from the rest of the leaves",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/91",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83d\uddfa\ufe0f design"
@@ -23775,7 +23791,7 @@
     "issue": "As a user, I want items with the same title and author to be collapsed automatically so that my search isn\u2019t clouded by repetitive results.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/445",
-    "estimate": 5,
+    "estimate": 8,
     "closed": "2023-02-16T16:51:21Z",
     "labels": [],
     "milestone": "v3.9"
@@ -23824,7 +23840,7 @@
     "issue": "As a user, when I see a group of editions in my search results, I want an option to search within all editions.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/451",
-    "estimate": 1,
+    "estimate": 2,
     "closed": "2023-02-13T18:36:36Z",
     "labels": [],
     "milestone": "v3.9"
@@ -24182,21 +24198,25 @@
     "milestone": ""
   },
   {
-    "issue": "Keep word from search query when clicking \"search within that cluster\"",
+    "issue": "Keep search options active when moving from main search to searching within a cluster",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/510",
     "estimate": "",
     "closed": "2023-02-13T18:25:13Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
-    "issue": "The clusters aren't collapsing on browse anymore; they previously were (see exchange above). By browse I mean when you arrive at the archive page but haven't input any search terms yet.",
+    "issue": "clusters should be collapsed by default on archive browse",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/512",
     "estimate": "",
     "closed": "2023-02-13T18:24:56Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": ""
   },
   {
@@ -24220,7 +24240,7 @@
     "milestone": ""
   },
   {
-    "issue": "Why are Gale preview images not loading on QA?",
+    "issue": "Gale preview images not loading in QA",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/519",
     "estimate": "",
