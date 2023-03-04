@@ -7161,10 +7161,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1198",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-27T17:57:51Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7505,14 +7504,12 @@
     "milestone": ""
   },
   {
-    "issue": "Searching descriptions for words/phrases in quotations works unpredictably",
+    "issue": "As a public site user, I want to be able to search descriptions for words/phrases in quotations, so that I can find exact matches for my search terms.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1255",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-01T17:52:19Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7801,7 +7798,7 @@
     "milestone": ""
   },
   {
-    "issue": "Updated transcriptions possibly failing to populate in search index",
+    "issue": "Updated transcriptions failing to populate in search index",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1308",
     "estimate": "",
@@ -7865,7 +7862,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": ""
   },
@@ -7909,7 +7907,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1323",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-01T21:25:53Z",
     "labels": [
       "chore",
       "performant"
@@ -7921,10 +7919,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1327",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-02-27T20:34:50Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -7934,10 +7931,81 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1328",
     "estimate": "",
+    "closed": "2023-02-27T16:16:24Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "On tag change, document indexing is one revision behind",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1331",
+    "estimate": "",
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Tags may be saved with identical names, case-insensitive",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1333",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Some partial search results in description not boosted by relevancy",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1335",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create and propose sitemap for data on the PGP people",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1336",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want a translation module added to the transcription editor so I can see image, transcription and translation all at once.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1337",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Shift the date help text in the admin interface closer to the actual fields",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1338",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
     ],
     "milestone": ""
   },
@@ -12581,6 +12649,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": ""
@@ -13960,7 +14029,7 @@
     "issue": "As a user, I want the url to change when I select a leaf so that I can bookmark or share the timetree with a specific leaf selected.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/63",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -13991,9 +14060,10 @@
     "issue": "As a user I want to view a list of all the tagged terms so that I can learn about the topics on the tree and navigate to the tree through the tags",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/66",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14106,6 +14176,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14226,9 +14297,10 @@
     "issue": "Propose and document all tag states ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/90",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14242,6 +14314,55 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement leaf states and additional colors for them ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/92",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "import latest version of leaf data and share updated tag list",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/93",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I want the option of a display title for use in the timetree so that I can use different titles in the leaf detail view and in the tree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/94",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "look into solution for displaying unfamiliar lenape terms with pronunciation and/or tooltip definition",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/95",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I want both leaf and label highlighted when I hover over either, so I can see the connected content as I browse the tree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/97",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -24217,7 +24338,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v3.9"
   },
   {
     "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
@@ -24258,6 +24379,35 @@
     "closed": "2023-02-21T15:54:27Z",
     "labels": [],
     "milestone": "v3.9"
+  },
+  {
+    "issue": "Software release checklist for ppa v3.9",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/524",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adapt documentation coverage check from geniza",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/526",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "v3.9"
+  },
+  {
+    "issue": " As a public site user, I want to be able to search works for words or phrases in quotations, so that I can find exact matches for my search terms.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/528",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
   },
   {
     "issue": "Updating solr schema to index pub_date as numeric does not update the field",
