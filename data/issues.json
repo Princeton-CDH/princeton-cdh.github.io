@@ -6408,7 +6408,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1084",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-08T15:37:20Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7634,7 +7634,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1279",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-08T15:39:53Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -7754,8 +7754,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1297",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-09T20:30:00Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83c\udd95 enhancement",
       "performant"
     ],
@@ -7954,7 +7955,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1333",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-08T19:54:47Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -8005,7 +8006,63 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content editor, I would like a tool somewhere to convert alternate calendar dates automatically, so that I can make these conversions without using the document date field.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1342",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create wireframes of sitemap-v2 so we can review order and placement of content and capabilities on each page and identify any gaps in our mental models",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1343",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design an affordance to lock a fragment image in place while scrolling through its transcription for a smoother reading experience",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1344",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a public site user, I want to see inferred dates reflected on the public document detail page, so that I can access that information for any document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1346",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a public site user, I want to be able to filter/sort documents by inferred dates, so that I can locate documents by those dates in addition to explicit ones.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1347",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": ""
   },
@@ -12650,6 +12707,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -13595,6 +13653,70 @@
     "milestone": ""
   },
   {
+    "issue": " As a mobile user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves. ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/100",
+    "estimate": 1,
+    "closed": "2023-03-08T15:53:11Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add colored leaf as icon to the leaf detail panel ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/101",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "clean up and document revised auto-layout structure on Figma ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/102",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "reorder branches to match original planned sequence",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/103",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update leaf color orders so similar colors are more separated",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/104",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust leaf glow colors and sizing",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/105",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content admin, I want leaves automatically positioned in the tree based on their branch and century, so that the display follows the agreed upon logic.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/12",
@@ -13948,13 +14070,12 @@
     "milestone": ""
   },
   {
-    "issue": "As a user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves. ",
+    "issue": "As a user when I select a tag I want to see which leaves on the tree belong to that tag so that I can learn more about and explore the related content of other leaves on desktop. ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/55",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-03-06T16:17:59Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14030,7 +14151,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/63",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-07T15:44:06Z",
     "labels": [],
     "milestone": ""
   },
@@ -14061,9 +14182,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/66",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-08T15:56:02Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14174,9 +14294,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/76",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-06T16:21:00Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14298,9 +14417,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/90",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-06T19:53:22Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14312,6 +14430,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14321,8 +14440,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/92",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-03-08T22:39:44Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14330,7 +14451,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/93",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-08T15:15:41Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -14341,7 +14462,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/94",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-03-08T15:16:21Z",
     "labels": [],
     "milestone": ""
   },
@@ -14361,7 +14482,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/97",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-03-08T22:39:32Z",
     "labels": [],
     "milestone": ""
   },
@@ -22784,7 +22905,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": "v3.9"
+    "milestone": "v3.10"
   },
   {
     "issue": "Integrate reactive search with google analytics",
@@ -23742,7 +23863,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [],
-    "milestone": "v3.9"
+    "milestone": "v3.10"
   },
   {
     "issue": "correct the following ESTC numbers in Gale ID lookup",
@@ -23821,10 +23942,10 @@
     "issue": "As an admin, I want the Source id link in list view to go to the first page of the excerpt for articles and excerpts",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/427",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": "v3.9"
+    "milestone": "v3.10"
   },
   {
     "issue": "regularly synchronize HathiTrust pairtree data",
@@ -23984,7 +24105,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.9"
+    "milestone": "v3.10"
   },
   {
     "issue": "As an admin, I want to see work clusters on digitized work list view so that I can search for and see collapsed versions at a glance.",
@@ -24033,7 +24154,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "v3.9"
+    "milestone": "v3.10"
   },
   {
     "issue": "Keyword search is failing to show more than one term in context",
@@ -24385,18 +24506,18 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/524",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-07T22:07:22Z",
     "labels": [
       "chore"
     ],
-    "milestone": ""
+    "milestone": "v3.9"
   },
   {
     "issue": "adapt documentation coverage check from geniza",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/526",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-07T18:26:47Z",
     "labels": [],
     "milestone": "v3.9"
   },
@@ -24416,6 +24537,17 @@
     "estimate": "",
     "closed": "2018-11-07T16:54:46Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Title search without quotes is not actually sorting by relevance",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/531",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
     "milestone": ""
   },
   {
