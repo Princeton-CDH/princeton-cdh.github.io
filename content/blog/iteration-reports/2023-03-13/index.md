@@ -6,10 +6,9 @@ layout: iterationreport
 slug: "13"
 ---
 
-add summary paragraphs(s) about the iteration
+In this iteration, PPA 3.9 was released, which contains a major improvement to search functionality regarding clusters of works. In Lenape, major design issues were accomplished for tag and leaf interactions. RSK implemented a first pass of active leaf styles and panels. Ryan also caught up with GeoTaste work.
 
 ## Demos
-* add demo links or screenshots
 
 {{< figure src="lenape-active-leaf-style.png" caption="Showing active leaf style for Lenape">}}
 
