@@ -11,9 +11,7 @@ add summary paragraphs(s) about the iteration
 ## Demos
 * add demo links or screenshots
 
-{{< figure src="featured-###.png" caption="##">}}
-
-
+{{< figure src="lenape-active-leaf-style.png" caption="Showing active leaf style for Lenape">}}
 
 
 
