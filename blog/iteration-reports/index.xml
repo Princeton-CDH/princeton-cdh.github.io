@@ -1,4 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 27 - Mar 10, 2023</title><link>/blog/2023/03/13/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/13/</guid><description>
+&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="featured-###.png"
+alt="##"/>&lt;figcaption>
+&lt;p>##&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
 &lt;img src="/blog/2023/02/27/featured-ppa-cluster-on-browse_hu2b2e8c7ec08532430d7ad39a42c4c6fa_252621_640x0_resize_catmullrom_3.png" width="640" height="361"/>
 &lt;p>At long last, we finally completed the PPA issues for clustering search results by default, after multiple rounds of testing, and addressing a few regressions introduced by the changes.
 A new version of parasolr (0.9) has been released with the needed grouping functionality,
@@ -720,15 +730,4 @@ alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Fi
 &lt;p>Sitemap/site flow diagram for new Princeton Geniza Project site (&lt;a href="https://www.figma.com/file/HpGBOZi9lO8B3nCAx3d4Fj/Princeton-Geniza?node-id=415%3A2">view on Figma&lt;/a>)&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>Version 1.1 of &lt;a href="https://dataspace.princeton.edu/handle/88435/dsp01fx719q532">Shakespeare and Company Project Datasets&lt;/a>, including updated readmes and change logs.&lt;/p></description></item><item><title>Blog: Dec 14, 2020 - Jan 8, 2021</title><link>/blog/2021/01/11/</link><pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/11/</guid><description>
-&lt;p>Due to the holidays and planned vacations, we decided to take a long iteration spanning from December 14th to the end of the first week in January.&lt;/p>
-&lt;p>We spent the majority of the time on maintenance and addressing some technical debt. The CDH website was successfully moved from Research Computing and a MySQL database to its new home on a PUL VM and running on the PUL Postgresql database server. We&amp;rsquo;re also making progress on CDH web 3.0, which involves the transition (which we&amp;rsquo;ve decided to call &amp;ldquo;exodus&amp;rdquo; to avoid confusion with &amp;ldquo;migration&amp;rdquo;) from Mezzanine to Wagtail.&lt;/p>
-&lt;p>This iteration we also finally successfully addressed the problem in PPA for adding new HathiTrust content. The release was tagged December 22nd, along with a supporting release of parasolr, but rather than deploy an update right before the holidays, it was held. That release will go into production early this iteration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>The &lt;a href="https://cdh.princeton.edu">CDH website&lt;/a> v2.8.1 update was largely an infrastructural one, so there is little that is visible to display and we expect and want it to look it exactly as before.
-&lt;ul>
-&lt;li>One visible change: emoji are now supported! See &lt;a href="https://cdh.princeton.edu/updates/2020/11/18/dating-problems-ask-princeton-geniza-project-team/">Marina&amp;rsquo;s post on dates and dating&lt;/a> to see the emojis she originally included, which were not supported on the previous version of the site.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>Version 1.1 of &lt;a href="https://dataspace.princeton.edu/handle/88435/dsp01fx719q532">Shakespeare and Company Project Datasets&lt;/a>, including updated readmes and change logs.&lt;/p></description></item></channel></rss>

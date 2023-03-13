@@ -1,4 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 27 - Mar 10, 2023</title><link>/blog/2023/03/13/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/13/</guid><description>
+&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="featured-###.png"
+alt="##"/>&lt;figcaption>
+&lt;p>##&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
 &lt;img src="/blog/2023/02/27/featured-ppa-cluster-on-browse_hu2b2e8c7ec08532430d7ad39a42c4c6fa_252621_640x0_resize_catmullrom_3.png" width="640" height="361"/>
 &lt;p>At long last, we finally completed the PPA issues for clustering search results by default, after multiple rounds of testing, and addressing a few regressions introduced by the changes.
 A new version of parasolr (0.9) has been released with the needed grouping functionality,
@@ -583,24 +593,4 @@ alt="Screenshot of dynamic content embedded in a CDH web post; see the essay for
 alt="Screenshot of the preliminary version of the Geniza public search"/>&lt;figcaption>
 &lt;p>Screenshot of the preliminary version of the Geniza public search&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: May 10 — 21, 2021</title><link>/blog/2021/05/24/</link><pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/24/</guid><description>
-&lt;img src="/blog/2021/05/24/featured-ppa-focus-styles_hu6c4290d7aabc7625ef86de2acc93b221_73095_640x0_resize_catmullrom_3.png" width="640" height="291"/>
-&lt;p>This iteration we completed 18 development points on Geniza as we work towards a first release and migrating the metadata from the spreadsheet to the new relational database. We also completed a smattering of bugfixes and chores as part of planned maintenance work, and one unplanned bugfix. The 18 point total brings our rolling velocity up to 13.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>Notable development work completed this iteration are related to scholarship record data import and editing functionality, as well as handling demerge on import and improving the admin document search. For design, we made progress on content pages, updates to the auto-layout in Figma, and progress on typefaces, even though no design issues were closed this iteration.&lt;/p>
-&lt;h2 id="princeton-prosody-archive">Princeton Prosody Archive&lt;/h2>
-&lt;p>Planned maintenance work on PPA included an update to switch out the frontend library Semantic UI, which is no longer being maintained, for the community fork, Fomantic UI. The other notable change is an improvement to hover and focus styles, for better accessibility and consistency.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>We released minor update with a trivial bugfix to address something we missed in the 3.0 release, so that content editors can customize the preview text displayed for blog posts. We also closed a few more bug issues that are no longer relevant now that we&amp;rsquo;ve switched from Mezzanine to Wagtail.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="geniza-footnote-transcription.png"
-alt="Screenshot of Geniza admin interface for a scholarship record footnote with transcription"/>&lt;figcaption>
-&lt;p>Screenshot of Geniza admin interface for a scholarship record footnote with transcription&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="featured-ppa-focus-styles.png"
-alt="Screenshot of PPA archive search showing new focus styles for improved accessibility"/>&lt;figcaption>
-&lt;p>Screenshot of PPA archive search showing new focus styles for improved accessibility&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
