@@ -2678,10 +2678,15 @@
         },
         "design": {
             "points": 0,
+            "issues": 1,
             "velocity": 8.33
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 1
+        },
+        "project_points": {
+            "lenape-timetree": 0
+        }
     },
     {
         "from": "2023-03-27",
