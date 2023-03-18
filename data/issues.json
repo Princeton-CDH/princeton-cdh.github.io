@@ -7979,9 +7979,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1336",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-15T18:50:41Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -8006,7 +8005,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": ""
@@ -8026,9 +8025,10 @@
     "issue": "Create wireframes of sitemap-v2 so we can review order and placement of content and capabilities on each page and identify any gaps in our mental models",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1343",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -8040,6 +8040,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -12707,7 +12708,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": ""
@@ -13667,11 +13668,11 @@
     "issue": "Add colored leaf as icon to the leaf detail panel ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/101",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -13680,7 +13681,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/102",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-14T22:31:40Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
@@ -13713,6 +13714,30 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user I'd like to select the plaque on the trunk of the tree to learn about the data on \"dedication\"",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/106",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Revise the color of the page background on content pages to pass accessibility contrast test ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/107",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -14159,9 +14184,10 @@
     "issue": "As a user I want to read the other pages on the site so that I can learn more about project ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/64",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
