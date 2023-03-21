@@ -13742,6 +13742,18 @@
     "milestone": ""
   },
   {
+    "issue": "document image sizes for 2x retina display",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/108",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "As a content admin, I want leaves automatically positioned in the tree based on their branch and century, so that the display follows the agreed upon logic.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/12",
@@ -24544,7 +24556,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/526",
     "estimate": "",
     "closed": "2023-03-07T18:26:47Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "v3.9"
   },
   {
