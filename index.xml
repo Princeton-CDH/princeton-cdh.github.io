@@ -1,12 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 27 - Mar 10, 2023</title><link>/blog/2023/03/13/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/13/</guid><description>
-&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;img src="/blog/2023/03/13/featured-lenape-active-leaf-style_hucd1111bb7773a1584664ae9e1e561176_810615_640x0_resize_catmullrom_3.png" width="640" height="416"/>
+&lt;p>In this iteration, PPA 3.9 was released, which includes a major improvement to search functionality so that similar works or reprints are clustered by default (the relevant functionality was tested and accepted the previous iteration). On the Lenape Timetree project, major design issues were accomplished for tag and leaf interactions. We also completed the first-pass implementation on the active leaf styles, hover interactions for corresponding leaf and labels, and url behavior that makes it possible to bookmark the tree with a specific leaf showing. We also contributed to some small bugfixes and a major indexing speed improvement for the Geniza project — work that was previously left in-progress, and benefited from a recent discovery made while working on PPA that made it possible to optimize the database queries used for bulk indexing (indexing all Geniza documents went from somewhere around 20-30 minutes to ~2 minutes.)&lt;/p>
+&lt;p>Our rolling development velocity is stable, at &lt;strong>7 points&lt;/strong>, but this is due to the large number of points closed in the previous iteration when we completed the PPA search clustering functionality. We only completed &lt;strong>4 points&lt;/strong> of development work in the current iteration. The design velocity is on an upward trend, with two very productive iterations in a row, reflecting the substantial amount of design progress on the Lenape Timetree project in recent weeks.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>add demo links or screenshots&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="featured-###.png"
-alt="##"/>&lt;figcaption>
-&lt;p>##&lt;/p>
+&lt;figure>&lt;img src="featured-lenape-active-leaf-style.png"
+alt="Screenshot of the Lenape Timetree showing active leaf style"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree showing active leaf style&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
 &lt;img src="/blog/2023/02/27/featured-ppa-cluster-on-browse_hu2b2e8c7ec08532430d7ad39a42c4c6fa_252621_640x0_resize_catmullrom_3.png" width="640" height="361"/>
