@@ -8002,10 +8002,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1338",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-23T17:34:04Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -12705,10 +12705,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/870",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-23T17:27:25Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -13669,9 +13669,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/101",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-22T14:04:11Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13689,10 +13688,10 @@
     "milestone": ""
   },
   {
-    "issue": "reorder branches to match original planned sequence",
+    "issue": "As a content editor, I want the leaves and branches in the tree to be displayed in the planned order so that the content is displayed more logically and consistently.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/103",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -13703,7 +13702,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/104",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -13722,9 +13723,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/106",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-03-22T17:55:50Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13734,9 +13734,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/107",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-22T18:08:52Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13746,11 +13745,96 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/108",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-22T18:09:11Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "cleanup an assortment small visual issues ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/109",
+    "estimate": "",
+    "closed": "2023-03-23T18:19:51Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "implement tag functionality",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/110",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a tag I want leaves with that tag to be highlighted and other leaves to not be interactive, so I can browse only leaves with that tag.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/111",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a tag I want to clearly see which tag is active so I can tell that I'm looking at a filtered view of the tree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/112",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a tag I want it to stay active until I close either the tag or the leaf details, so that I can more easily browse the leaves with that tag.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/113",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user,  I want the url to change when I select a tag so that I can bookmark or share the timetree with a specific tag selected.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/114",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, when I select a tag from the tag index page, I should be taken to the timetree with that tag active so that I can browse all leaves with that tag.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/115",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement styles for tag states ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/118",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add a leaf that matches the branch color to the leaf panel so that branch categories become clearer for the user ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/119",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13760,6 +13844,18 @@
     "estimate": 3,
     "closed": "2022-11-28T21:53:53Z",
     "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update page backgrounds",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/122",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14197,9 +14293,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/64",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-03-22T17:40:06Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14414,16 +14509,18 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/87",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-03-23T19:01:03Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
     "issue": "As a team member, I want a way to turn on a visual debug mode so that I can understand how the layout is being generated.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/88",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-03-23T19:01:19Z",
     "labels": [],
     "milestone": ""
   },
@@ -14466,9 +14563,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/91",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-22T18:08:24Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -24587,6 +24683,17 @@
     "closed": null,
     "labels": [
       "bug"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Scanning hathi pairtree data is fragile: breaks on .DS_Store, additional or missing files",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/534",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
     ],
     "milestone": ""
   },
