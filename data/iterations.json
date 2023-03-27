@@ -821,20 +821,19 @@
     {
         "from": "2023-03-27",
         "to": "2023-04-07",
-        "projects": ["lenape", "risk"],
-        "partial": ["lenape", "risk"]
+        "projects": ["lenape"]
     },
     {
         "from": "2023-04-10",
         "to": "2023-04-21",
-        "projects": ["startwords", "risk"],
-        "partial": ["risk"]
+        "projects": ["lenape", "risk"],
+        "partial": ["risk", "lenape"]
     },
     {
         "from": "2023-04-24",
         "to": "2023-05-05",
         "projects": ["startwords", "risk"],
-        "partial": ["risk"]
+        "partial": ["risk", "startwords"]
     },
     {
         "from": "2023-05-08",
