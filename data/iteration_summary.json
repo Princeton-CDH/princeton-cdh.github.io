@@ -2693,41 +2693,43 @@
         "from": "2023-03-27",
         "to": "2023-04-07",
         "projects": [
-            "lenape",
-            "risk"
-        ],
-        "partial": [
-            "lenape",
-            "risk"
+            "lenape"
         ],
         "dev": {
-            "points": 0,
-            "velocity": 1.67
+            "points": 1,
+            "issues": 3,
+            "velocity": 2.0
         },
         "design": {
-            "points": 0,
-            "velocity": 7.33
+            "points": 1,
+            "issues": 2,
+            "velocity": 7.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 5
+        },
+        "project_points": {
+            "lenape-timetree": 2
+        }
     },
     {
         "from": "2023-04-10",
         "to": "2023-04-21",
         "projects": [
-            "startwords",
+            "lenape",
             "risk"
         ],
         "partial": [
-            "risk"
+            "risk",
+            "lenape"
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.33
+            "velocity": 0.67
         },
         "design": {
             "points": 0,
-            "velocity": 3.33
+            "velocity": 3.67
         },
         "project_issues": {},
         "project_points": {}
@@ -2740,15 +2742,16 @@
             "risk"
         ],
         "partial": [
-            "risk"
+            "risk",
+            "startwords"
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 0.33
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 0.33
         },
         "project_issues": {},
         "project_points": {}
