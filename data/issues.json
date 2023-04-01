@@ -2854,6 +2854,17 @@
     "milestone": ""
   },
   {
+    "issue": "editoria11y plugin is no longer working; update to v2",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/410",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Project S - column issue",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/42",
@@ -8038,9 +8049,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1344",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-03-29T14:42:06Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13692,7 +13702,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/103",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-03-28T14:48:49Z",
     "labels": [],
     "milestone": ""
   },
@@ -13701,7 +13711,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/104",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-28T14:49:09Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13769,9 +13779,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/110",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\ud83d\udee0\ufe0f chore"
-    ],
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13851,11 +13859,49 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/122",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-03-27T18:22:56Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update color of the pages and the header/footer/panels ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/125",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "update project title everywhere to use this spelling: Lunaapahkiing ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/127",
+    "estimate": "",
+    "closed": "2023-03-30T21:46:38Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Update the position of leaves in the svg so that they appear within the container and do not get cut off",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/128",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user, I want to access site navigation in the footer so I can find and access content related to the timetree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/129",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13868,6 +13914,15 @@
       "\ud83d\uddfa\ufe0f design",
       "Epic"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "add error handling for leaf details failing to load",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/132",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -13994,9 +14049,10 @@
     "issue": "Design visual elements that help bring in the Lenape identity on the site",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/28",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14057,8 +14113,8 @@
     "issue": "Propose logic for zoom levels based on the labels on the leaves on desktop and mobile ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/35",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-03-29T18:03:57Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -14250,9 +14306,10 @@
     "issue": "As the project team we want the site title/project title to be displayed with a distinct font to display so that it stands out to the users and becomes memorable",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/59",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14487,10 +14544,10 @@
     "milestone": ""
   },
   {
-    "issue": "implement the information icon on mobile to display the introduction panel ",
+    "issue": "As a mobile user, I want a way to get back to the project introduction after I've closed it, so I can refer back to it after exploring the timetree.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/85",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -14500,8 +14557,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/86",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-03-28T18:36:13Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": ""
   },
   {
