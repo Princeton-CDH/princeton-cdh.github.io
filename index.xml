@@ -1,4 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 13 - Mar 24, 2023</title><link>/blog/2023/03/27/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/27/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Development &amp; Design Team</title><link>/</link><description>Recent content in CDH Development &amp; Design Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
+&lt;img src="/blog/2023/04/10/featured-lenape-timetree-branch-order_hu1309d25c97d49ebdf860bf16651cefd6_539235_640x0_resize_catmullrom_3.png" width="640" height="442"/>
+&lt;p>All our effort went towards the Lenape Timetree project as we work to get it over the finish line. There isn&amp;rsquo;t as much visible progress in terms of closed issues as we might hope. Development velocity is &lt;strong>2.3&lt;/strong> with 2 points and 7 issues closed, and design velocity is &lt;strong>7.7&lt;/strong> with 2 issues closed. The development points are low in part to the number of design implementation, which we typically track as chores when they are not easily articulable as user-facing features. We have a large number of issues in progress, which hopefully we&amp;rsquo;ll be able to complete early this iteration and get a better estimate of how much work is left.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-timetree-branch-order.png"
+alt="Screenshot of the latest developmentversion of the Lenape Timetree, showing the leaves organized and more clearly separated by branch"/>&lt;figcaption>
+&lt;p>Screenshot of the &lt;a href="https://lenape-timetree-dev.onrender.com/">latest developmentversion of the Lenape Timetree&lt;/a>, showing the leaves organized and more clearly separated by branch&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 13 - Mar 24, 2023</title><link>/blog/2023/03/27/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/27/</guid><description>
 &lt;img src="/blog/2023/03/27/featured-lenape-timetree-visual-debug_hue534a4a08b2103be603548c3311a58ab_433041_640x0_resize_catmullrom_3.png" width="640" height="487"/>
 &lt;p>This iteration we were able to focus entirely on the Lenape Timetree project. We continued with significant progress on the design work. On the implementation side, we made progress on network layout adjustments, a new visual debug mode to help understand and improve the layout, and some visual cleanup. Design rolling velocity is &lt;strong>11.7&lt;/strong>; development rolling velocity is &lt;strong>5.7&lt;/strong> but only 1 point and 3 development issues were closed, in part due to partial team stafing during the iteration.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -574,20 +582,5 @@ alt="Screenshot of CDH web admin and public view showing the video embed functio
 &lt;figure>&lt;img src="featured-percy-visualreview.png"
 alt="Screenshot from Percy showing an example of visual review for a page on CDH web"/>&lt;figcaption>
 &lt;p>Screenshot from Percy showing an example of visual review for a page on CDH web&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jun 7 — 25, 2021</title><link>/blog/2021/07/06/</link><pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate><guid>/blog/2021/07/06/</guid><description>
-&lt;img src="/blog/2021/07/06/featured-cdhweb-embed_hu401108991c7d5a326e154ec8d24d8d4e_160474_640x0_resize_catmullrom_3.png" width="640" height="692"/>
-&lt;p>This past iteration, we split our focus between PPA and CDH web. On PPA, we worked on adding support for importing Gale/ECCO content. For CDH web, we worked on the first charter for CDH web, to articulate the roles and responsibilities and prioritize for the next phases of work (chartering is not reflected in the GitHub issues reported here). We extended the iteration to three weeks, to work around an off week for June 28 — July 2 (CDH staff R&amp;amp;D week).&lt;/p>
-&lt;p>Rolling velocity is 17 points, with 15 points accepted in this iteration and 28 issues closed. This is higher than we might expect, but due to the longer 3-week iteration and also a number of chores and duplicate issues that were cleaned up on GitHub.&lt;/p>
-&lt;h2 id="ppa">PPA&lt;/h2>
-&lt;p>We made substantial progress on support for importing and searching across Gale/ECCO content alongside existing HathiTrust content. We also completed design work to update PPA display to handle multiple sources and different item types (excerpts and book sections).&lt;/p>
-&lt;h2 id="cdh-web">CDH web&lt;/h2>
-&lt;p>We fixed a couple of small bugs, and adjusted the affiliates and students page so that the new Data Fellows would be included. We also ported a custom embed finder from the Shakespeare and Company codebase to allow embedding dynamic content in blog posts and other wagtail pages.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We fixed a few small bugs that were found in production after the release and data import, and also completed a few chores and small stories to help with data work in the new interface, including adding very simple date fields and a script to import Fragment image and IIIF urls from a CSV.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-cdhweb-embed.png"
-alt="Screenshot of dynamic content embedded in a CDH web post; see the essay for the interactive version."/>&lt;figcaption>
-&lt;p>Screenshot of dynamic content embedded in a CDH web post; see the &lt;a href="https://cdh.princeton.edu/updates/2021/07/01/old-project-new-database-geniza/">essay&lt;/a> for the interactive version.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
