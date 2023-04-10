@@ -13851,10 +13851,10 @@
     "milestone": ""
   },
   {
-    "issue": "Add a leaf that matches the branch color to the leaf panel so that branch categories become clearer for the user ",
+    "issue": "As a user, I want an indicator in the leaf details panel of what branch the leaf belongs to, so that the themes and organization will be more clear as I navigate the timetree.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/119",
-    "estimate": "",
+    "estimate": 1,
     "closed": "2023-04-04T15:09:29Z",
     "labels": [],
     "milestone": ""
@@ -13886,7 +13886,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/125",
     "estimate": "",
     "closed": "2023-04-04T15:10:10Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14338,7 +14340,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/52",
     "estimate": "",
     "closed": "2023-04-04T15:09:59Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14645,7 +14649,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/84",
     "estimate": "",
     "closed": "2023-04-04T15:09:43Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {

@@ -2696,9 +2696,9 @@
             "lenape"
         ],
         "dev": {
-            "points": 1,
+            "points": 2,
             "issues": 7,
-            "velocity": 2.0
+            "velocity": 2.33
         },
         "design": {
             "points": 1,
@@ -2709,7 +2709,7 @@
             "lenape-timetree": 9
         },
         "project_points": {
-            "lenape-timetree": 2
+            "lenape-timetree": 3
         }
     },
     {
@@ -2725,7 +2725,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.67
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
@@ -2747,7 +2747,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.33
+            "velocity": 0.67
         },
         "design": {
             "points": 0,
