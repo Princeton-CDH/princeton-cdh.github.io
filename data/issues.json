@@ -8101,6 +8101,41 @@
     "milestone": ""
   },
   {
+    "issue": "Create a sitemap to incorporate the data on places ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1352",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Automate importing Google Doc translations to translation module",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1353",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Design public search results to display inferred dates when searching by date",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1354",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Revise document detail page design based on first-pass implementation",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/136",
@@ -13790,7 +13825,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/110",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-11T18:06:59Z",
     "labels": [
       "Epic"
     ],
@@ -13801,7 +13836,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/111",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-11T17:27:00Z",
     "labels": [],
     "milestone": ""
   },
@@ -13810,7 +13845,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/112",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-11T17:26:03Z",
     "labels": [],
     "milestone": ""
   },
@@ -13819,7 +13854,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/113",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-11T17:27:13Z",
     "labels": [],
     "milestone": ""
   },
@@ -13827,8 +13862,8 @@
     "issue": "As a user,  I want the url to change when I select a tag so that I can bookmark or share the timetree with a specific tag selected.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/114",
-    "estimate": 1,
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-04-11T17:25:47Z",
     "labels": [],
     "milestone": ""
   },
@@ -13837,7 +13872,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/115",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-11T17:25:35Z",
     "labels": [],
     "milestone": ""
   },
@@ -13846,8 +13881,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/118",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-04-11T17:27:30Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -13946,9 +13983,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/133",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-12T17:21:03Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13958,7 +13994,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/134",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-12T14:02:28Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -13978,9 +14014,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/136",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-10T15:02:19Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -13990,9 +14025,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/137",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-10T20:59:56Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14001,9 +14035,10 @@
     "issue": "determine other content and their placement on the footer ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/138",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14013,9 +14048,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/139",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-10T19:01:36Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -14037,9 +14071,44 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/140",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-11T17:54:38Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Implement the site title in the header ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/145",
+    "estimate": "",
+    "closed": "2023-04-11T19:08:12Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "add tagline to the header under the site title ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/146",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Make a favicon",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/148",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
   },
@@ -14157,9 +14226,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/28",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-10T20:04:04Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14416,9 +14484,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/59",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-10T20:19:43Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14539,10 +14606,10 @@
     "milestone": ""
   },
   {
-    "issue": "As a user, I want to see tree branches as part of the timetree so I can more easily understand and read the visualization as a tree and see how the leaves connect..",
+    "issue": "As a user, I want to see tree branches as part of the timetree so I can more easily understand and read the visualization as a tree and see how the leaves connect.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/71",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -14573,7 +14640,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/74",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": ""
   },
   {
@@ -14658,7 +14727,7 @@
     "issue": "As a mobile user, I want a way to get back to the project introduction after I've closed it, so I can refer back to it after exploring the timetree.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/85",
-    "estimate": 1,
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": ""
