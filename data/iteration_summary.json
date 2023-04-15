@@ -2724,15 +2724,21 @@
             "lenape"
         ],
         "dev": {
-            "points": 0,
-            "velocity": 1.0
+            "points": 6,
+            "issues": 10,
+            "velocity": 3.0
         },
         "design": {
-            "points": 0,
-            "velocity": 3.67
+            "points": 9,
+            "issues": 6,
+            "velocity": 6.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 16
+        },
+        "project_points": {
+            "lenape-timetree": 15
+        }
     },
     {
         "from": "2023-04-24",
@@ -2747,11 +2753,11 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.67
+            "velocity": 2.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.33
+            "velocity": 3.33
         },
         "project_issues": {},
         "project_points": {}
@@ -2761,11 +2767,11 @@
         "to": "2023-05-19",
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 3.0
         },
         "project_issues": {},
         "project_points": {}
