@@ -282,6 +282,15 @@
     "milestone": ""
   },
   {
+    "issue": "work with PUL to upgrade VMs from Bionic to Jammy Jellyfish",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/138",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
     "issue": "Finish configuring projects for new rotating logs",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
@@ -8093,7 +8102,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1350",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-18T01:18:46Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -8113,13 +8122,14 @@
     "milestone": ""
   },
   {
-    "issue": "Automate importing Google Doc translations to translation module",
+    "issue": "As a content editor, I want a way to automatically import Google Doc translations into the translation module, so that I can easily prepare existing translations from multiple sources for ingest.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1353",
     "estimate": "",
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -8136,6 +8146,64 @@
     "milestone": ""
   },
   {
+    "issue": "Translation module MVP",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1355",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want to be able to search on the content of translations, so that I can find documents relating to terms that only appear within translations.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1356",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a content admin, I want translation backups to populate automatically in GitHub, alongside but differentiated from transcriptions, so that I can track changes in versioned translation content.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1357",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a front-end user, I want transcription lines always aligned with translation lines when I view both, so that I can compare the two texts line-by-line.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1358",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "upgrade to Solr 9.2",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1359",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Revise document detail page design based on first-pass implementation",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/136",
@@ -8144,6 +8212,17 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Dropdown header menu partially hidden behind search filters (z-index)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1360",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": ""
   },
@@ -13401,6 +13480,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": ""
@@ -14036,9 +14116,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/138",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-18T14:06:33Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14093,9 +14172,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/146",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-17T20:25:45Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14105,9 +14183,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/148",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-04-17T20:20:43Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": ""
@@ -14124,6 +14201,48 @@
     "milestone": ""
   },
   {
+    "issue": "Implement the favicon ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/152",
+    "estimate": "",
+    "closed": "2023-04-18T14:11:39Z",
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "implement the branch legend in the intro panel ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/155",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust the green leaves so it would be easier to distinguish them from each other ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/156",
+    "estimate": "",
+    "closed": "2023-04-18T23:22:18Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Add VizE lab white logo to the footer on figma ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/159",
+    "estimate": "",
+    "closed": "2023-04-18T23:23:48Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
     "issue": "Propose type sizes for each content type on mobile",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/16",
@@ -14132,6 +14251,81 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": ""
+  },
+  {
+    "issue": "Styling the vertical scroll bar in panel",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/160",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "As a user on mobile when I select a tag on the tag index page I want to see my selected tag directly below the tree, without any other details on the page",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/161",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": ""
+  },
+  {
+    "issue": "Add the revised VizE lab logo to Figma and Github",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/162",
+    "estimate": "",
+    "closed": "2023-04-19T16:10:35Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a preview image for social media ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/163",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "Create a preview image for social media ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/164",
+    "estimate": "",
+    "closed": "2023-04-19T18:49:59Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "implement image sizes and margins as designed",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/165",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
+  },
+  {
+    "issue": "adjust layout to be more usable on small laptop screens",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/166",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": ""
   },
   {
@@ -14203,7 +14397,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/26",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-04-18T14:38:25Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design",
       "Epic"
@@ -14578,7 +14772,7 @@
     "issue": "As a user on a smaller screen, I want to zoom in on the timetree so that I can view and interact with the content more easily.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/69",
-    "estimate": 3,
+    "estimate": 5,
     "closed": null,
     "labels": [],
     "milestone": ""
@@ -14639,7 +14833,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/74",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-19T14:20:03Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -14727,8 +14921,8 @@
     "issue": "As a mobile user, I want a way to get back to the project introduction after I've closed it, so I can refer back to it after exploring the timetree.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/85",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2023-04-18T15:47:56Z",
     "labels": [],
     "milestone": ""
   },
@@ -21125,6 +21319,17 @@
     "closed": "2019-03-05T21:44:16Z",
     "labels": [],
     "milestone": "0.1 initial release"
+  },
+  {
+    "issue": "test parasolr against solr 9.2",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/80",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": ""
   },
   {
     "issue": "Investigate SolrClient travis build/unit tests",
