@@ -19,17 +19,17 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2021/08/23/"><meta property="og:image" content="/blog/2021/08/23/featured-cdhweb-search.png"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2021-08-23T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Aug 9 - Aug 20, 2021">
 <meta itemprop=description content="This iteration we lost Rebecca Munson, who was a long-time collaborator of the CDH Development & Design Team, project manager & project coordinator for many of our projects. In spite of that terrible loss, it&rsquo;s good to do work, and we did make some progress on our planned work. Among other things, we implemented a special purple mode for the CDH website and released v3.3.1 so we could turn it on to honor her."><meta itemprop=datePublished content="2021-08-23T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="229"><meta itemprop=image content="/blog/2021/08/23/featured-cdhweb-search.png">
 <meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="/blog/2021/08/23/featured-cdhweb-search.png">
 <meta name=twitter:title content="Aug 9 - Aug 20, 2021">
 <meta name=twitter:description content="This iteration we lost Rebecca Munson, who was a long-time collaborator of the CDH Development & Design Team, project manager & project coordinator for many of our projects. In spite of that terrible loss, it&rsquo;s good to do work, and we did make some progress on our planned work. Among other things, we implemented a special purple mode for the CDH website and released v3.3.1 so we could turn it on to honor her.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -70,6 +70,7 @@
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -89,6 +90,7 @@
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -138,7 +140,6 @@
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -203,15 +204,14 @@ Rolling velocity: <b>4.67</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-05-10","2021-05-24","2021-06-07","2021-07-05","2021-07-26","2021-08-09"],points:[18,18,15,10,9,7],issues:[19,18,29,11,24,7],velocity:[13,15.33,17,14.33,11.33,8.67]}),drawVelocityChart({id:'design-velocity',labels:["2021-05-10","2021-05-24","2021-06-07","2021-07-05","2021-07-26","2021-08-09"],points:[0,0,6,0,0,14],issues:[null,1,4,null,null,5],velocity:[4,1.67,2,2,2,4.67]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>cdh-web
+<li>cdh-web (20 points, 8 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/19>As a user I want to search across all pages by keyword so I can find specific content that interests me.</a>
-<span class=points>(3)</span>
-<span class=labels>enhancement</span>
-</li>
+<li>design <span class=points>(14 points, 5 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/cdh-web/issues/350>Design a way to navigate to the consultation page / request consultations from the home page so the user can immediately learn about this service</a>
 <span class=points>(3)</span>
 <span class=labels>Design</span>
@@ -224,10 +224,6 @@ Rolling velocity: <b>4.67</b></p>
 <span class=points>(2)</span>
 <span class=labels>Design</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/359>As a user, I want to access the site search via the main navigation so I can start a search from anywhere.</a>
-<span class=points>(3)</span>
-<span class=labels>enhancement</span>
-</li>
 <li><a href=https://github.com/Princeton-CDH/cdh-web/issues/364>Design generic search results so that when the user searches generic pages/content they would see a simple list of results </a>
 <span class=points>(2)</span>
 <span class=labels>Design</span>
@@ -236,39 +232,83 @@ Rolling velocity: <b>4.67</b></p>
 <span class=points>(2)</span>
 <span class=labels>Design</span>
 </li>
+</ul>
+</li>
+<li>development <span class=points>(6 points, 3 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/cdh-web/issues/370>implement configurable purple mode </a>
 <span class=labels>chore</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/359>As a user, I want to access the site search via the main navigation so I can start a search from anywhere.</a>
+<span class=points>(3)</span>
+<span class=labels>enhancement</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/19>As a user I want to search across all pages by keyword so I can find specific content that interests me.</a>
+<span class=points>(3)</span>
+<span class=labels>enhancement</span>
+</li>
 </ul>
 </li>
-<li>geniza
+</ul>
+<li>geniza (1 points, 7 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/241>As a content editor, I want to be able to edit the Historic Shelfmark so that I can correct errors in the metadata.</a>
-<span class=points>(0)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/250>As a content editor, I want to be able to click on the image thumbnails so that I can examine a fragment more closely.</a>
+<li>development <span class=points>(1 points, 7 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/78>As a content editor, I want to suppress fragments, so that the records are kept updated.</a>
 <span class=labels>🚫 wontfix</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/256>Rename language fields</a>
-<span class=labels>🆕 enhancement, 🛠️ chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/259>As a content editor, I want a one time consolidation of India Book sources so that the source list correctly represents the book volumes.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/267>As a content editor, I want to see admin actions beyond my most recent ten or a specific document's history, so that I can review past work.</a>
-<span class=points>(0)</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/27>As a user, I want transcription language detected and used for search so that I can see what languages are used and take advantage of language-specific search functionality.</a>
 <span class=labels>🚫 wontfix, 🧪 experiment</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/78>As a content editor, I want to suppress fragments, so that the records are kept updated.</a>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/267>As a content editor, I want to see admin actions beyond my most recent ten or a specific document's history, so that I can review past work.</a>
+<span class=points>(0)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/259>As a content editor, I want a one time consolidation of India Book sources so that the source list correctly represents the book volumes.</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/256>Rename language fields</a>
+<span class=labels>🆕 enhancement, 🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/250>As a content editor, I want to be able to click on the image thumbnails so that I can examine a fragment more closely.</a>
 <span class=labels>🚫 wontfix</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/241>As a content editor, I want to be able to edit the Historic Shelfmark so that I can correct errors in the metadata.</a>
+<span class=points>(0)</span>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</section>
+<hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Aug 23, 2021 - Sep 3, 2021.
+Scheduled projects: geniza, maintenance, derrida, mep.
+</p>
+<ul>
+<li>geniza
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>maintenance
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>derrida
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>mep
+<ul>
+<li>No issues found</li>
 </ul>
 </li>
 </ul>
 </section>
-<hr>
 </div>
 </main>
 </div>

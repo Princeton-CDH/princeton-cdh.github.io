@@ -19,17 +19,17 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2021/08/9/"><meta property="og:image" content="/blog/2021/08/9/featured-ppa-excerpts.png"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2021-08-09T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Jul 26 — Aug 6, 2021">
 <meta itemprop=description content="We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida&rsquo;s Margins. We closed 24 issues and a total of 9 points for a rolling velocity of 11.3. The lower velocity reflects the kind of work we&rsquo;re doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again."><meta itemprop=datePublished content="2021-08-09T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="327"><meta itemprop=image content="/blog/2021/08/9/featured-ppa-excerpts.png">
 <meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="/blog/2021/08/9/featured-ppa-excerpts.png">
 <meta name=twitter:title content="Jul 26 — Aug 6, 2021">
 <meta name=twitter:description content="We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida&rsquo;s Margins. We closed 24 issues and a total of 9 points for a rolling velocity of 11.3. The lower velocity reflects the kind of work we&rsquo;re doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -70,6 +70,7 @@
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -89,6 +90,7 @@
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -138,7 +140,6 @@
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -245,112 +246,146 @@ Rolling velocity: <b>2</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-04-26","2021-05-10","2021-05-24","2021-06-07","2021-07-05","2021-07-26"],points:[10,18,18,15,10,9],issues:[13,19,18,29,11,24],velocity:[8.33,13,15.33,17,14.33,11.33]}),drawVelocityChart({id:'design-velocity',labels:["2021-04-26","2021-05-10","2021-05-24","2021-06-07","2021-07-05","2021-07-26"],points:[5,0,0,6,0,0],issues:[3,null,1,4,null,null],velocity:[5.67,4,1.67,2,2,2]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>cdh-ansible
+<li>cdh-ansible (0 points, 3 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/25>Production deploys fail on context check</a>
-<span class=labels>bug, 🚧 maintenance</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/36>As a developer, I want Solr configuration updates and schema changes to be made automatically when I deploy new software, so I can trust that expected changes will always be made.</a>
-</li>
+<li>development <span class=points>(0 points, 3 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/86>Use shallow clone to check out project repo</a>
 <span class=labels>enhancement</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/36>As a developer, I want Solr configuration updates and schema changes to be made automatically when I deploy new software, so I can trust that expected changes will always be made.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/25>Production deploys fail on context check</a>
+<span class=labels>bug, 🚧 maintenance</span>
+</li>
 </ul>
 </li>
-<li>cdh-web
+</ul>
+<li>cdh-web (4 points, 5 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/273>Embed sizing ignores container margins on mobile</a>
-<span class=labels>bug</span>
+<li>development <span class=points>(4 points, 5 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/354>As a Content Editor, I want existing page links to resolve after I rename or move a page so that I don't have to manually create a redirect.</a>
+<span class=points>(2)</span>
+<span class=labels>enhancement</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/305>Support embedding Media Central content via oEmbed</a>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/347>As an editor I want to see accessibility checks when I'm logged in or previewing a page so that I will be alerted if something is causing accessibility problems and have guidance about how to fix it.</a>
 <span class=points>(1)</span>
 <span class=labels>enhancement</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/cdh-web/issues/346>set up black and isort pre-commit hooks</a>
 <span class=labels>chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/347>As an editor I want to see accessibility checks when I'm logged in or previewing a page so that I will be alerted if something is causing accessibility problems and have guidance about how to fix it.</a>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/305>Support embedding Media Central content via oEmbed</a>
 <span class=points>(1)</span>
 <span class=labels>enhancement</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/354>As a Content Editor, I want existing page links to resolve after I rename or move a page so that I don't have to manually create a redirect.</a>
-<span class=points>(2)</span>
-<span class=labels>enhancement</span>
-</li>
-</ul>
-</li>
-<li>derrida-django
-<ul>
-<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/203>Search filter issues</a>
-<span class=labels>wontfix, accessibility</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/207>Search bar issues</a>
-<span class=labels>wontfix, accessibility</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/250>switch to node-sass and use local autoprefixer/postcss</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/253>If cached iiif image urls change, images on the site will be broken</a>
-<span class=labels>bug, 🚧 maintenance</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/269>remove old zotero code (manage command `export_zotero.py` and associated test code in the `books` app)</a>
-<span class=labels>chore</span>
-</li>
-</ul>
-</li>
-<li>mep-django
-<ul>
-<li><a href=https://github.com/Princeton-CDH/mep-django/issues/732>Rename "separate deposit," "separate payment."</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/mep-django/issues/737>Multiple Reimbursements, Same Day</a>
-<span class=labels>enhancement, chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/mep-django/issues/741>Generate CSV of a filtered list of members</a>
-<span class=labels>chore</span>
-</li>
-</ul>
-</li>
-<li>ppa-django
-<ul>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/392>excerpt support</a>
-<span class=labels>Epic</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/395>As an admin, I want to convert existing full HathiTrust items into excerpts so that I can include just the parts of those document that are about prosody.</a>
-<span class=points>(3)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/397>As a user, when I'm looking at search results I want to see an indicator when something is an excerpt or an article, so that I can tell what kind of content I'm looking at.</a>
-<span class=points>(2)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/400>As a user, I want to search and browse content across all types so that I can find any results in full volumes as well as excerpts.</a>
-<span class=points>(0)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/401>As a user, I want to search within a book excerpt or article so that I can see more than two results for my search terms in context.</a>
-<span class=points>(0)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/422>create zenodo metadata file</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/423>update CITATION.cff file with current information</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/424>add ISSN and CC-BY license to footer</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/430>suppress unapi item id for excerpts</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/431>syntax error loading google fonts from semantic</a>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/273>Embed sizing ignores container margins on mobile</a>
 <span class=labels>bug</span>
 </li>
 </ul>
 </li>
 </ul>
+<li>derrida-django (0 points, 5 issues)
+<ul>
+<li>development <span class=points>(0 points, 5 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/269>remove old zotero code (manage command `export_zotero.py` and associated test code in the `books` app)</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/253>If cached iiif image urls change, images on the site will be broken</a>
+<span class=labels>bug, 🚧 maintenance</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/250>switch to node-sass and use local autoprefixer/postcss</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/207>Search bar issues</a>
+<span class=labels>wontfix, accessibility</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/derrida-django/issues/203>Search filter issues</a>
+<span class=labels>wontfix, accessibility</span>
+</li>
+</ul>
+</li>
+</ul>
+<li>mep-django (0 points, 3 issues)
+<ul>
+<li>development <span class=points>(0 points, 3 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/mep-django/issues/741>Generate CSV of a filtered list of members</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/mep-django/issues/737>Multiple Reimbursements, Same Day</a>
+<span class=labels>enhancement, chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/mep-django/issues/732>Rename "separate deposit," "separate payment."</a>
+<span class=labels>chore</span>
+</li>
+</ul>
+</li>
+</ul>
+<li>ppa-django (5 points, 10 issues)
+<ul>
+<li>development <span class=points>(5 points, 10 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/431>syntax error loading google fonts from semantic</a>
+<span class=labels>bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/430>suppress unapi item id for excerpts</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/424>add ISSN and CC-BY license to footer</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/423>update CITATION.cff file with current information</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/422>create zenodo metadata file</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/401>As a user, I want to search within a book excerpt or article so that I can see more than two results for my search terms in context.</a>
+<span class=points>(0)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/400>As a user, I want to search and browse content across all types so that I can find any results in full volumes as well as excerpts.</a>
+<span class=points>(0)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/397>As a user, when I'm looking at search results I want to see an indicator when something is an excerpt or an article, so that I can tell what kind of content I'm looking at.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/395>As an admin, I want to convert existing full HathiTrust items into excerpts so that I can include just the parts of those document that are about prosody.</a>
+<span class=points>(3)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/392>excerpt support</a>
+<span class=labels>Epic</span>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
 </section>
 <hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Aug 9, 2021 - Aug 20, 2021.
+Scheduled projects: cdh-web, geniza.
+</p>
+<ul>
+<li>cdh-web
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>geniza
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+</ul>
+</section>
 </div>
 </main>
 </div>

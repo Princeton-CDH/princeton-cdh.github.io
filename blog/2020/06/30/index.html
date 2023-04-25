@@ -20,18 +20,18 @@ Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! 
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2020/06/30/"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2020-06-30T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Jun 15 — 26, 2020">
 <meta itemprop=description content="Lots of progress on Startwords, but no official release until Issue 1 is ready. PEMM release put off until this iteration since only one feature was completed.
 Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! Our first short piece!! Amazing pit bar PDF  "><meta itemprop=datePublished content="2020-06-30T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="47">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Jun 15 — 26, 2020">
 <meta name=twitter:description content="Lots of progress on Startwords, but no official release until Issue 1 is ready. PEMM release put off until this iteration since only one feature was completed.
 Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! Our first short piece!! Amazing pit bar PDF  ">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -72,6 +72,7 @@ Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! 
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -91,6 +92,7 @@ Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! 
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -140,7 +142,6 @@ Demo Startwords  Scrollable contextual notes We have an about page! Pull quote! 
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -204,82 +205,100 @@ Rolling velocity: <b>7.67</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2020-04-11","2020-04-20","2020-05-04","2020-05-16","2020-05-30","2020-06-15"],points:[1,13,17,5,3,19],issues:[1,16,26,33,16,15],velocity:[13.33,9,10.33,11.67,8.33,9]}),drawVelocityChart({id:'design-velocity',labels:["2020-04-11","2020-04-20","2020-05-04","2020-05-16","2020-05-30","2020-06-15"],points:[8,14,6,11,8,4],issues:[2,8,10,6,5,2],velocity:[9,8.67,9.33,10.33,8.33,7.67]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>pemm-scripts
+<li>pemm-scripts (1 points, 6 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/16>As a researcher, I want to easily compare story incipits in Google Sheets against known high-confidence incipits so that I can select the story represented in the data.</a>
-<span class=labels>wontfix</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/55>Set up preliminary data validation </a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/58>As a cataloger, I want to see which matches for my search are canonical incipits so I can use that to help decide which identifier to choose.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/61>As a researcher, I want to have a map with Ethiopian locations to analyze how the stories disseminated over time and space</a>
-<span class=labels>wontfix</span>
+<li>development <span class=points>(1 points, 6 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/68>As a cataloger, I need to understand which stories have recensions and thus require an ID extension to be recorded</a>
+<span class=labels>enhancement</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/67>As a researcher and database manager, I need to protect the records from accidental edits when multiple people are working in the Google sheet file</a>
 <span class=labels>enhancement, wontfix</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/68>As a cataloger, I need to understand which stories have recensions and thus require an ID extension to be recorded</a>
-<span class=labels>enhancement</span>
+<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/61>As a researcher, I want to have a map with Ethiopian locations to analyze how the stories disseminated over time and space</a>
+<span class=labels>wontfix</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/58>As a cataloger, I want to see which matches for my search are canonical incipits so I can use that to help decide which identifier to choose.</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/55>Set up preliminary data validation </a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/pemm-scripts/issues/16>As a researcher, I want to easily compare story incipits in Google Sheets against known high-confidence incipits so that I can select the story represented in the data.</a>
+<span class=labels>wontfix</span>
 </li>
 </ul>
 </li>
-<li>startwords
+</ul>
+<li>startwords (22 points, 14 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/12>As a reader, I want to read a long piece.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/13>As a reader, I want to read a short piece.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/14>As a reader, I want to read notes in context as I'm reading an article so that I can refer to additional information without losing my place.</a>
-<span class=points>(8)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/18>As a reader, I want to read a statement from the editor describing the project.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/19>As a reader, I want to preview all content for a single issue.</a>
-<span class=points>(2)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/4>As an editor, I want to use a shortcode to format pull quotes in articles so that I can call attention to major insights.</a>
-<span class=points>(2)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/48>create theme README</a>
-<span class=labels>documentation</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/59>As a reader, I want to see featured content on the site's homepage.</a>
-<span class=points>(2)</span>
-</li>
+<li>design <span class=points>(4 points, 2 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/startwords/issues/76>Design the homepage for desktop </a>
 <span class=points>(2)</span>
-<span class=labels>design</span>
+<span class=labels>🗺️ design</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/startwords/issues/78>Design the single issue page for desktop</a>
 <span class=points>(2)</span>
-<span class=labels>design</span>
+<span class=labels>🗺️ design</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/83>Implement footer design for desktop</a>
-<span class=points>(1)</span>
+</ul>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/84>delayed scroll for some contextual notes</a>
+<li>development <span class=points>(18 points, 12 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/93>On FF iOS the tip of the contextual note is still appearing on the article page by default</a>
 <span class=labels>bug</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/startwords/issues/92>On mobile, large contextual note containers are not fully within view (exceed the height of the page)</a>
 <span class=labels>bug</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/93>On FF iOS the tip of the contextual note is still appearing on the article page by default</a>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/84>delayed scroll for some contextual notes</a>
 <span class=labels>bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/83>Implement footer design for desktop</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/59>As a reader, I want to see featured content on the site's homepage.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/48>create theme README</a>
+<span class=labels>documentation</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/4>As an editor, I want to use a shortcode to format pull quotes in articles so that I can call attention to major insights.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/19>As a reader, I want to preview all content for a single issue.</a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/18>As a reader, I want to read a statement from the editor describing the project.</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/14>As a reader, I want to read notes in context as I'm reading an article so that I can refer to additional information without losing my place.</a>
+<span class=points>(8)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/13>As a reader, I want to read a short piece.</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/12>As a reader, I want to read a long piece.</a>
+<span class=points>(1)</span>
 </li>
 </ul>
 </li>
+</ul>
 </ul>
 </section>
 <hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Jun 29, 2020 - Jul 17, 2020.
+</p>
+<ul>
+</ul>
+</section>
 </div>
 </main>
 </div>

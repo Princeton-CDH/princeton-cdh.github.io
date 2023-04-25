@@ -20,19 +20,19 @@ Princeton Geniza Project Accepted development work consists of a preliminary doc
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2021/05/10/"><meta property="og:image" content="/blog/2021/05/10/featured-geniza-document-detail.png"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2021-05-10T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Apr 26 — May 7, 2021">
 <meta itemprop=description content="This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.
 Princeton Geniza Project Accepted development work consists of a preliminary document detail page for the public site and admin editing enhancements, including a footnote count for the source list in admin, a way to edit and link to documents on the fragment edit view, and a certainty flag for TextBlocks to handle potential joins."><meta itemprop=datePublished content="2021-05-10T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="261"><meta itemprop=image content="/blog/2021/05/10/featured-geniza-document-detail.png">
 <meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="/blog/2021/05/10/featured-geniza-document-detail.png">
 <meta name=twitter:title content="Apr 26 — May 7, 2021">
 <meta name=twitter:description content="This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.
 Princeton Geniza Project Accepted development work consists of a preliminary document detail page for the public site and admin editing enhancements, including a footnote count for the source list in admin, a way to edit and link to documents on the fragment edit view, and a certainty flag for TextBlocks to handle potential joins.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -73,6 +73,7 @@ Princeton Geniza Project Accepted development work consists of a preliminary doc
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -92,6 +93,7 @@ Princeton Geniza Project Accepted development work consists of a preliminary doc
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -141,7 +143,6 @@ Princeton Geniza Project Accepted development work consists of a preliminary doc
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -220,72 +221,88 @@ Rolling velocity: <b>5.67</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-02-15","2021-03-01","2021-03-15","2021-03-29","2021-04-12","2021-04-26"],points:[5,34,42,4,11,10],issues:[4,15,27,10,8,13],velocity:[10.33,16.33,27,26.67,19,8.33]}),drawVelocityChart({id:'design-velocity',labels:["2021-02-15","2021-03-01","2021-03-15","2021-03-29","2021-04-12","2021-04-26"],points:[0,4,0,5,7,5],issues:[null,2,null,2,4,3],velocity:[4,2.67,1.33,3,4,5.67]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>cdh-ansible
+<li>cdh-ansible (0 points, 3 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/37>As a developer, I want to automatically test ansible roles and their dependencies so that I can make changes with confidence.</a>
-<span class=labels>enhancement</span>
+<li>development <span class=points>(0 points, 3 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/67>setup passenger role and configure cdhweb & geniza qa playbooks to use it instead of apache</a>
+<span class=labels>chore</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/48>allow specifying and installing arbitrary python versions</a>
 <span class=labels>enhancement</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/67>setup passenger role and configure cdhweb & geniza qa playbooks to use it instead of apache</a>
-<span class=labels>chore</span>
+<li><a href=https://github.com/Princeton-CDH/cdh-ansible/issues/37>As a developer, I want to automatically test ansible roles and their dependencies so that I can make changes with confidence.</a>
+<span class=labels>enhancement</span>
 </li>
 </ul>
 </li>
-<li>cdh-web
+</ul>
+<li>cdh-web (0 points, 3 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/259>Remove mezzanine</a>
-<span class=labels>chore</span>
+<li>development <span class=points>(0 points, 3 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/313>django admin is inaccessible (500 error)</a>
+<span class=labels>bug</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/cdh-web/issues/306>upgrade django and wagtail</a>
 <span class=labels>chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/313>django admin is inaccessible (500 error)</a>
-<span class=labels>bug</span>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/259>Remove mezzanine</a>
+<span class=labels>chore</span>
 </li>
 </ul>
 </li>
-<li>geniza
+</ul>
+<li>geniza (15 points, 9 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/110>As a user, I want to view detailed information for a single Geniza document so that I can learn about that document.</a>
-<span class=points>(5)</span>
-<span class=labels>🆕 enhancement</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/112>As a Content Editor, I want to see who first input a document and who last edited it, and when, so that I can ensure records are kept up-to-date.</a>
-<span class=points>(1)</span>
-<span class=labels>🆕 enhancement</span>
-</li>
+<li>design <span class=points>(5 points, 3 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/125>Design wireframes of the filters and sort options on mobile, tablet, and desktop to communicate the ways in which content can be curated when searching </a>
 <span class=points>(3)</span>
 <span class=labels>🗺️ design</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/136>Revise document detail page design based on first-pass implementation</a>
-<span class=labels>🗺️ design, 🛠️ chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/138>As a content editor, I want to see and sort on the footnote count for sources so that I can find out how many times a source has been referenced in the database.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/140>As a content editor, I want to use the Text Block area to mark shelfmarks that are potential joins without adding to the string of shelfmarks, so that we can connect related documents without certainty. </a>
-<span class=points>(2)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/144>check demerge spreadsheet against original metadata and data import</a>
-<span class=labels>🛠️ chore</span>
+<span class=labels>🛠️ chore, 🗺️ design</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/155>Revise the document title so that it can appear on search and browse results, + the document detail view, scholarship records, external links as the page title </a>
 <span class=points>(2)</span>
 <span class=labels>🗺️ design</span>
 </li>
+</ul>
+</li>
+<li>development <span class=points>(10 points, 6 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/65>As a content editor, I want to edit all of the documents associated with the fragment on the same screen that I use to edit the fragment, so that in the case of demerging I can make sure that the data is split correctly.</a>
 <span class=points>(1)</span>
 <span class=labels>🆕 enhancement</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/144>check demerge spreadsheet against original metadata and data import</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/140>As a content editor, I want to use the Text Block area to mark shelfmarks that are potential joins without adding to the string of shelfmarks, so that we can connect related documents without certainty. </a>
+<span class=points>(2)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/138>As a content editor, I want to see and sort on the footnote count for sources so that I can find out how many times a source has been referenced in the database.</a>
+<span class=points>(1)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/112>As a Content Editor, I want to see who first input a document and who last edited it, and when, so that I can ensure records are kept up-to-date.</a>
+<span class=points>(1)</span>
+<span class=labels>🆕 enhancement</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/110>As a user, I want to view detailed information for a single Geniza document so that I can learn about that document.</a>
+<span class=points>(5)</span>
+<span class=labels>🆕 enhancement</span>
+</li>
 </ul>
 </li>
-<li>mep-django
+</ul>
+<li>mep-django (0 points, 1 issues)
+<ul>
+<li>development <span class=points>(0 points, 1 issues)</span>
 <ul>
 <li><a href=https://github.com/Princeton-CDH/mep-django/issues/734>100years twitter bot code doesn't handle renewal/subscription with no duration</a>
 <span class=labels>bug</span>
@@ -293,8 +310,27 @@ Rolling velocity: <b>5.67</b></p>
 </ul>
 </li>
 </ul>
+</ul>
 </section>
 <hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is May 10, 2021 - May 21, 2021.
+Scheduled projects: geniza, maintenance.
+</p>
+<ul>
+<li>geniza
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>maintenance
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+</ul>
+</section>
 </div>
 </main>
 </div>

@@ -20,19 +20,19 @@ Startwords We finally published Startwords issue 3! GitHub issues completed in t
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2022/08/15/"><meta property="og:image" content="/blog/2022/08/15/featured-sw3-home-es.png"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2022-08-15T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Jul 25 - Aug 5, 2022">
 <meta itemprop=description content="Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.
 Startwords We finally published Startwords issue 3! GitHub issues completed in this iteration were chores related to getting the release out and quick bug fixes to address problems we discovered after the issue was published."><meta itemprop=datePublished content="2022-08-15T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="147"><meta itemprop=image content="/blog/2022/08/15/featured-sw3-home-es.png">
 <meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="/blog/2022/08/15/featured-sw3-home-es.png">
 <meta name=twitter:title content="Jul 25 - Aug 5, 2022">
 <meta name=twitter:description content="Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.
 Startwords We finally published Startwords issue 3! GitHub issues completed in this iteration were chores related to getting the release out and quick bug fixes to address problems we discovered after the issue was published.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -73,6 +73,7 @@ Startwords We finally published Startwords issue 3! GitHub issues completed in t
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -92,6 +93,7 @@ Startwords We finally published Startwords issue 3! GitHub issues completed in t
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -141,7 +143,6 @@ Startwords We finally published Startwords issue 3! GitHub issues completed in t
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -217,101 +218,133 @@ Rolling velocity: <b>7</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2022-05-02","2022-05-16","2022-06-06","2022-06-20","2022-07-04","2022-07-25"],points:[6,14,21,0,7,16],issues:[15,21,16,1,10,23],velocity:[6,9.33,13.67,11.67,9.33,7.67]}),drawVelocityChart({id:'design-velocity',labels:["2022-05-02","2022-05-16","2022-06-06","2022-06-20","2022-07-04","2022-07-25"],points:[9,12,0,15,0,6],issues:[5,7,1,7,null,2],velocity:[7.67,9.33,7,9,5,7]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>geniza
+<li>geniza (22 points, 17 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/757>As a content editor, I want to add block-level transcription to documents with images so that I can make existing transcription content available in the site.</a>
-<span class=points>(5)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/759>implement Annotorious plugin for side-by-side transcription editing</a>
-<span class=labels>🛠️ chore</span>
-</li>
+<li>design <span class=points>(6 points, 2 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/834>Design styles and placement of the light/dark mode toggles so that the toggles can be displayed and used on all site pages</a>
 <span class=points>(3)</span>
 <span class=labels>🗺️ design</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/901>transcription panel implementation MVP</a>
-<span class=labels>Epic</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/909>On the admin site, I want the tag list view to include counts for how many times its used, in order to understand the scope of tags and clean them.</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/911>As a content editor, I want to add and edit transcriptions on a separate page from the document detail or admin edit form, so that permissions and saving just the transcription can be managed more easily.</a>
-<span class=points>(3)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/915>As a content editor I want to add or edit labels for blocks of transcription text so that I can indicate new sections or different kinds of texts.</a>
-<span class=points>(3)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/916>As a content editor I want to use basic formatting in transcription content so that I can enter lines as numbered lists or tag when the language changes within a document.</a>
-<span class=points>(2)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/930>update transcription editor to use new image+transcription panel viewer</a>
-<span class=labels>🛠️ chore</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/932>- Propose an information architecture for the contextual search so that it’s clear how it can be integrated with existing functionality</a>
 <span class=points>(3)</span>
 <span class=labels>🗺️ design</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/955>As a content editor, when I select a fragment “side” in the document edit form I want an indicator of which fragment images will be displayed so that I can confirm I’m selecting the correct side or sides.</a>
+</ul>
+</li>
+<li>development <span class=points>(16 points, 15 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/994>I tried making changes in the admin interface > sources on my phone and they weren't saving:</a>
+<span class=labels>🖇️ duplicate</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/982>As a content editor I want to select images in the related fragment view in order to determine which images belong with the document.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/978>As a desktop user, I want an angle control to rotate the deep zoom image of a fragment, so that I can control the rotation more finely than 90º increments.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/967>Dark mode does not support wide displays</a>
+<span class=labels>🐛 bug</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/959>As a user, I want the full citation for a transcription in context so I know who authored it and where it came from.</a>
 <span class=points>(1)</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/956>As a user, when I search for a document that is only on one side of a fragment, I want to see the relevant image first so that I can preview the document more accurately.</a>
 <span class=points>(1)</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/959>As a user, I want the full citation for a transcription in context so I know who authored it and where it came from.</a>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/955>As a content editor, when I select a fragment “side” in the document edit form I want an indicator of which fragment images will be displayed so that I can confirm I’m selecting the correct side or sides.</a>
 <span class=points>(1)</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/967>Dark mode does not support wide displays</a>
-<span class=labels>🐛 bug</span>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/930>update transcription editor to use new image+transcription panel viewer</a>
+<span class=labels>🛠️ chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/978>As a desktop user, I want an angle control to rotate the deep zoom image of a fragment, so that I can control the rotation more finely than 90º increments.</a>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/916>As a content editor I want to use basic formatting in transcription content so that I can enter lines as numbered lists or tag when the language changes within a document.</a>
+<span class=points>(2)</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/982>As a content editor I want to select images in the related fragment view in order to determine which images belong with the document.</a>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/915>As a content editor I want to add or edit labels for blocks of transcription text so that I can indicate new sections or different kinds of texts.</a>
+<span class=points>(3)</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/994>I tried making changes in the admin interface > sources on my phone and they weren't saving:</a>
-<span class=labels>🖇️ duplicate</span>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/911>As a content editor, I want to add and edit transcriptions on a separate page from the document detail or admin edit form, so that permissions and saving just the transcription can be managed more easily.</a>
+<span class=points>(3)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/909>On the admin site, I want the tag list view to include counts for how many times its used, in order to understand the scope of tags and clean them.</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/901>transcription panel implementation MVP</a>
+<span class=labels>Epic</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/759>implement Annotorious plugin for side-by-side transcription editing</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/757>As a content editor, I want to add block-level transcription to documents with images so that I can make existing transcription content available in the site.</a>
+<span class=points>(5)</span>
 </li>
 </ul>
 </li>
-<li>ppa-django
+</ul>
+<li>ppa-django (0 points, 3 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/437>Bulk add to collections landing page not displaying correctly</a>
-<span class=labels>bug</span>
+<li>development <span class=points>(0 points, 3 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/449>upgrade to django 3.2</a>
+<span class=labels>chore</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/ppa-django/issues/439>Clarify help text on search page</a>
 <span class=labels>chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/449>upgrade to django 3.2</a>
-<span class=labels>chore</span>
+<li><a href=https://github.com/Princeton-CDH/ppa-django/issues/437>Bulk add to collections landing page not displaying correctly</a>
+<span class=labels>bug</span>
 </li>
 </ul>
 </li>
-<li>startwords
+</ul>
+<li>startwords (0 points, 6 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/264>body text is indented on Firefox between ~1074 and 1448 width</a>
+<li>development <span class=points>(0 points, 6 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/301>display issue for two-digit footnotes</a>
 <span class=labels>bug</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/286>links in issue introduction should be styled and visible as links</a>
-<span class=labels>chore</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/287>update article citation metadata to work with new author data file</a>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/295>setup a pre-production build environment for generating pdfs</a>
 <span class=labels>chore</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/startwords/issues/289>translator should only be named beneath Spanish introduction</a>
 <span class=labels>chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/295>setup a pre-production build environment for generating pdfs</a>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/287>update article citation metadata to work with new author data file</a>
 <span class=labels>chore</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/301>display issue for two-digit footnotes</a>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/286>links in issue introduction should be styled and visible as links</a>
+<span class=labels>chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/264>body text is indented on Firefox between ~1074 and 1448 width</a>
 <span class=labels>bug</span>
 </li>
 </ul>
 </li>
 </ul>
+</ul>
 </section>
 <hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Aug 8, 2022 - Aug 19, 2022.
+Scheduled projects: geniza, ppa.
+</p>
+<ul>
+<li>geniza
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>ppa
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+</ul>
+</section>
 </div>
 </main>
 </div>

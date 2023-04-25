@@ -1,4 +1,17 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
+&lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag_huc786050210fdda10bfd2153a5e28147a_503140_640x0_resize_catmullrom_3.png" width="640" height="387"/>
+&lt;p>For the second iteration in a row, we were able to focus all of our efforts on the Lenape Timetree project as we work to get it over the finish line, and we made significant progress, completing 27 points and 26 issues across design and development work. On the design side, we finished 18 points and 13 issues for a rolling velocity of 9.7; major efforts included the footer, work on visual identity, and 404 error page designs. On the development side, we closed 9 points and 13 issues, bringing our rolling velocity up to 4. The main functionality completed is a collection of user stories related to tag interactions within the timetree.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-timetree-active-tag.png"
+alt="Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="lenape-mobile-info.png"
+alt="Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
 &lt;img src="/blog/2023/04/10/featured-lenape-timetree-branch-order_hu1309d25c97d49ebdf860bf16651cefd6_539235_640x0_resize_catmullrom_3.png" width="640" height="442"/>
 &lt;p>All our effort went towards the Lenape Timetree project as we work to get it over the finish line. There isn&amp;rsquo;t as much visible progress in terms of closed issues as we might hope. Development velocity is &lt;strong>2.3&lt;/strong> with 2 points and 7 issues closed, and design velocity is &lt;strong>7.7&lt;/strong> with 2 issues closed. The development points are low in part to the number of design implementation, which we typically track as chores when they are not easily articulable as user-facing features. We have a large number of issues in progress, which hopefully we&amp;rsquo;ll be able to complete early this iteration and get a better estimate of how much work is left.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -721,13 +734,4 @@ alt="Screenshot of administrative interface for Geniza document database"/>&lt;f
 &lt;p>Screenshot of administrative interface for Geniza document database&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p></description></item><item><title>Blog: Feb 15 - 26, 2021</title><link>/blog/2021/03/01/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/01/</guid><description>
-&lt;img src="/blog/2021/03/01/featured-geniza-language-admin_huddcbf6b09e7aaa0ac1befe273c5630ef_107246_640x0_resize_catmullrom_3.png" width="640" height="479"/>
-&lt;p>This iteration we continued to make progress on building out the new relational database for the Geniza project and importing existing data from spreadsheets. Database structure, admin interface, and data import for languages &amp;amp; scripts are complete; data import for library collections are complete but the admin editing story is not yet complete due to changes in the requirements. Database structure, and admin interface for documents and fragments are underway and far enough along to share a list of questions and necessary data work for the import to proceed, but have not yet been delivered for testing. In terms of design work, issues were delivered with proposed sitemap for sign off and mockups for the structure and content of the document detail page, but neither were closed.&lt;/p>
-&lt;p>Progress on the CDH website migration continues, and while some testing took place this iteration no stories were accepted and completed. There are now eight issues (24 story points) awaiting testing, up from the seven issues (18 points) reported at the beginning of the end of the last iteration. This could be due to a new acceptance tester learning the process combined with complicated issues, but it raises concerns, especially since some issues have already been tested more than once and are not yet accepted.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-language-admin.png"
-alt="Screenshot of Django admin interface for Languages and Scripts in the test Geniza database"/>&lt;figcaption>
-&lt;p>Screenshot of Django admin interface for Languages and Scripts in the test Geniza database&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>

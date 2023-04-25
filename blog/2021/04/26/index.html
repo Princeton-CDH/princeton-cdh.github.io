@@ -20,19 +20,19 @@ Princeton Geniza Project We made more improvements to the data import, fixing La
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2021/04/26/"><meta property="og:image" content="/blog/2021/04/26/featured-pgp-change-history.png"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2021-04-26T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Apr 12 — 23, 2021">
 <meta itemprop=description content="This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.
 Princeton Geniza Project We made more improvements to the data import, fixing Language+Script mapping based on the new display names and resolving all previously unhandled languages, and most notably parsing history input information (names and dates) into structured django log entries to preserve the known edit history of PGP documents."><meta itemprop=datePublished content="2021-04-26T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="191"><meta itemprop=image content="/blog/2021/04/26/featured-pgp-change-history.png">
 <meta itemprop=keywords content><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="/blog/2021/04/26/featured-pgp-change-history.png">
 <meta name=twitter:title content="Apr 12 — 23, 2021">
 <meta name=twitter:description content="This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.
 Princeton Geniza Project We made more improvements to the data import, fixing Language+Script mapping based on the new display names and resolving all previously unhandled languages, and most notably parsing history input information (names and dates) into structured django log entries to preserve the known edit history of PGP documents.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -73,6 +73,7 @@ Princeton Geniza Project We made more improvements to the data import, fixing La
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -92,6 +93,7 @@ Princeton Geniza Project We made more improvements to the data import, fixing La
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -141,7 +143,6 @@ Princeton Geniza Project We made more improvements to the data import, fixing La
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -215,32 +216,27 @@ Rolling velocity: <b>4</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-02-01","2021-02-15","2021-03-01","2021-03-15","2021-03-29","2021-04-12"],points:[10,5,34,42,4,11],issues:[6,4,15,27,10,8],velocity:[8.67,10.33,16.33,27,26.67,19]}),drawVelocityChart({id:'design-velocity',labels:["2021-02-01","2021-02-15","2021-03-01","2021-03-15","2021-03-29","2021-04-12"],points:[4,0,4,0,5,7],issues:[2,null,2,null,2,4],velocity:[4,4,2.67,1.33,3,4]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>cdh-web
+<li>cdh-web (0 points, 2 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/316>migrated rich text content loses links and formatting when edited, has spaces added from exodus migration</a>
+<li>development <span class=points>(0 points, 2 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/318>Add explicit ordering for Page-derived models</a>
 <span class=labels>bug</span>
 </li>
-<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/318>Add explicit ordering for Page-derived models</a>
+<li><a href=https://github.com/Princeton-CDH/cdh-web/issues/316>migrated rich text content loses links and formatting when edited, has spaces added from exodus migration</a>
 <span class=labels>bug</span>
 </li>
 </ul>
 </li>
-<li>geniza
+</ul>
+<li>geniza (18 points, 10 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/106>As a global admin, I want documents associated with language+script based on display name when importing documents from metadata spreadsheet.</a>
-<span class=points>(1)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/109>As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.</a>
-<span class=points>(2)</span>
-<span class=labels>🆕 enhancement</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/111>As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.</a>
-<span class=points>(5)</span>
-<span class=labels>🆕 enhancement</span>
-</li>
+<li>design <span class=points>(7 points, 4 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/123>Design mobile and tablet wireframes of the cluster view browse results page to communicate the content structure, page layout, and content variations to the project team</a>
 <span class=points>(2)</span>
 <span class=labels>🗺️ design</span>
@@ -248,12 +244,6 @@ Rolling velocity: <b>4</b></p>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/124>Design mobile and tablet wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team</a>
 <span class=points>(2)</span>
 <span class=labels>🗺️ design</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/131>As a content editor, I want to view and search on PGPID so I can distinguish documents on the same shelfmark and refer to the same documents in the spreadsheet and database.</a>
-<span class=points>(0)</span>
-</li>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/137>look for edition info in TEI for records with "Source of original transcription not noted in PGP database" in metadata spreadsheet</a>
-<span class=labels>🛠️ chore</span>
 </li>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/141>Design desktop wireframes of the search results page to communicate the content structure, page layout, and content variations to the project team</a>
 <span class=points>(1)</span>
@@ -263,15 +253,55 @@ Rolling velocity: <b>4</b></p>
 <span class=points>(2)</span>
 <span class=labels>🗺️ design</span>
 </li>
+</ul>
+</li>
+<li>development <span class=points>(11 points, 6 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/96>As a content editor, I want to create and edit scholarship records so that I can keep track of relevant scholarship on documentary geniza fragments.</a>
 <span class=points>(3)</span>
 <span class=labels>🆕 enhancement</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/137>look for edition info in TEI for records with "Source of original transcription not noted in PGP database" in metadata spreadsheet</a>
+<span class=labels>🛠️ chore</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/131>As a content editor, I want to view and search on PGPID so I can distinguish documents on the same shelfmark and refer to the same documents in the spreadsheet and database.</a>
+<span class=points>(0)</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/111>As a Content Admin, I want a one time import of a document's edit history to start building a history of who has worked on the document and when.</a>
+<span class=points>(5)</span>
+<span class=labels>🆕 enhancement</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/109>As a Content Editor I want to link a source to a document as a footnote, in order to show that the source is helpful for understanding the document.</a>
+<span class=points>(2)</span>
+<span class=labels>🆕 enhancement</span>
+</li>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/106>As a global admin, I want documents associated with language+script based on display name when importing documents from metadata spreadsheet.</a>
+<span class=points>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</section>
+<hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Apr 26, 2021 - May 7, 2021.
+Scheduled projects: cdh-web, geniza.
+</p>
+<ul>
+<li>cdh-web
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>geniza
+<ul>
+<li>No issues found</li>
 </ul>
 </li>
 </ul>
 </section>
-<hr>
 </div>
 </main>
 </div>

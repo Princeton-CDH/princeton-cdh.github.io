@@ -21,20 +21,20 @@ Geniza The issues closed largely related to design and design implementation.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/blog/2021/12/06/"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2021-12-06T00:00:00+00:00">
-<meta property="article:modified_time" content="2023-04-14T09:07:56-04:00"><meta property="og:site_name" content="Research Software @ CDH">
+<meta property="article:modified_time" content="2023-04-25T18:51:22-04:00"><meta property="og:site_name" content="Research Software @ CDH">
 <meta itemprop=name content="Nov 22 - Dec 3, 2021">
 <meta itemprop=description content="We made progress on multiple projects, but didn&rsquo;t close anything with points; this is due to the Thanksgiving holiday and the shift to working on Startwords to prep issue 2 for publication.
 Startwords We completed a number of updates in preparation for publishing Startwords issue 2, which looks to be in good shape to go out on time as planned.
 Geniza The issues closed largely related to design and design implementation."><meta itemprop=datePublished content="2021-12-06T00:00:00+00:00">
-<meta itemprop=dateModified content="2023-04-14T09:07:56-04:00">
+<meta itemprop=dateModified content="2023-04-25T18:51:22-04:00">
 <meta itemprop=wordCount content="220">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Nov 22 - Dec 3, 2021">
 <meta name=twitter:description content="We made progress on multiple projects, but didn&rsquo;t close anything with points; this is due to the Thanksgiving holiday and the shift to working on Startwords to prep issue 2 for publication.
 Startwords We completed a number of updates in preparation for publishing Startwords issue 2, which looks to be in good shape to go out on time as planned.
 Geniza The issues closed largely related to design and design implementation.">
-<link rel=preload href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css as=style>
-<link href=/scss/main.min.9cbfa4e984f4caf378a4600f039fcef213cd42b407e75fad3bfd59a560cd9534.css rel=stylesheet integrity>
+<link rel=preload href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css as=style>
+<link href=/scss/main.min.033af13675278e69f9ddcc721eaba25a5f5b07ec0a56f9c859cdf91fd2b74598.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js></script>
 <script type=text/javascript src=/js/velocity.js defer></script>
@@ -75,6 +75,7 @@ Geniza The issues closed largely related to design and design implementation.">
 </li>
 <ul>
 <li class="collapse show" id=blog>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog2023042023-q2-schedule href=/blog/2023/04/2023-q2-schedule/>2023 Q2 Schedule</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301warranty-report-princeton-geniza-project href=/blog/2023/01/warranty-report-princeton-geniza-project/>Warranty Report: Princeton Geniza Project</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301looking-back-at-2022-all-geniza-all-the-time href=/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/>Looking back at 2022 — all Geniza, all the time</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog202301what-did-we-work-on-in-2021 href=/blog/2023/01/what-did-we-work-on-in-2021/>What did we work on in 2021?</a>
@@ -94,6 +95,7 @@ Geniza The issues closed largely related to design and design implementation.">
 </li>
 <ul>
 <li class="collapse show" id=blogiteration-reports>
+<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230424 href=/blog/2023/04/24/>Apr 10 - Apr 21, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230410 href=/blog/2023/04/10/>Mar 27 - Apr 7, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230327 href=/blog/2023/03/27/>Mar 13 - Mar 24, 2023</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20230313 href=/blog/2023/03/13/>Feb 27 - Mar 10, 2023</a>
@@ -143,7 +145,6 @@ Geniza The issues closed largely related to design and design implementation.">
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210412 href=/blog/2021/04/12/>Mar 29 — Apr 9, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210329 href=/blog/2021/03/29/>Mar 15 — 29, 2021</a>
 <a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210315 href=/blog/2021/03/15/>Mar 1 — 12, 2021</a>
-<a class="td-sidebar-link td-sidebar-link__page" id=m-blog20210301 href=/blog/2021/03/01/>Feb 15 - 26, 2021</a>
 </li>
 </ul>
 </ul>
@@ -214,20 +215,24 @@ Rolling velocity: <b>2.67</b></p>
 <canvas id=design-velocity></canvas>
 <script>document.addEventListener('DOMContentLoaded',a=>{drawVelocityChart({id:'dev-velocity',labels:["2021-09-06","2021-09-27","2021-10-11","2021-10-25","2021-11-08","2021-11-22"],points:[14,3,0,9,13,0],issues:[14,5,9,17,23,11],velocity:[7.67,6.33,5.67,4,7.33,7.33]}),drawVelocityChart({id:'design-velocity',labels:["2021-09-06","2021-09-27","2021-10-11","2021-10-25","2021-11-08","2021-11-22"],points:[5,0,2,3,4,1],issues:[2,null,2,1,4,3],velocity:[6.33,1.67,2.33,1.67,3,2.67]})})</script>
 <hr>
+design tags = [design 🗺️ design Design]<br>
 <section class=issue-details>
 <h3>Closed issues by project</h3>
 <ul>
-<li>derrida-django
+<li>derrida-django (0 points, 1 issues)
+<ul>
+<li>development <span class=points>(0 points, 1 issues)</span>
 <ul>
 <li><a href=https://github.com/Princeton-CDH/derrida-django/issues/268>Disable search filters</a>
 <span class=labels>chore</span>
 </li>
 </ul>
 </li>
-<li>geniza
+</ul>
+<li>geniza (1 points, 4 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/geniza/issues/312>Implement styles for site navigation on mobile </a>
-</li>
+<li>design <span class=points>(1 points, 3 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/geniza/issues/367>Clean up all MVP auto-layouts on Figma so that container structures are implemented consistently </a>
 <span class=labels>🛠️ chore, 🗺️ design</span>
 </li>
@@ -240,37 +245,68 @@ Rolling velocity: <b>2.67</b></p>
 </li>
 </ul>
 </li>
-<li>mep-django
+<li>development <span class=points>(0 points, 1 issues)</span>
+<ul>
+<li><a href=https://github.com/Princeton-CDH/geniza/issues/312>Implement styles for site navigation on mobile </a>
+</li>
+</ul>
+</li>
+</ul>
+<li>mep-django (0 points, 1 issues)
+<ul>
+<li>development <span class=points>(0 points, 1 issues)</span>
 <ul>
 <li><a href=https://github.com/Princeton-CDH/mep-django/issues/744>add zenodo metadata file and create CITATION.cff</a>
 <span class=labels>chore</span>
 </li>
 </ul>
 </li>
-<li>startwords
+</ul>
+<li>startwords (0 points, 8 issues)
 <ul>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/186>For Issue 2, make snippets visible on the homepage</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/187>Add issue credits section to issue template</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/188>Add credits to issue 1</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/189>Add credits for issue 2</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/190>revise issue list theme word wrapping</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/196>edit main SW masthead</a>
-</li>
-<li><a href=https://github.com/Princeton-CDH/startwords/issues/197>reserve DOIs for all four pieces</a>
-</li>
+<li>development <span class=points>(0 points, 8 issues)</span>
+<ul>
 <li><a href=https://github.com/Princeton-CDH/startwords/issues/36>As a content editor, I want to preview the look of an article without publishing it.</a>
 <span class=labels>enhancement</span>
 </li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/197>reserve DOIs for all four pieces</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/196>edit main SW masthead</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/190>revise issue list theme word wrapping</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/189>Add credits for issue 2</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/188>Add credits to issue 1</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/187>Add issue credits section to issue template</a>
+</li>
+<li><a href=https://github.com/Princeton-CDH/startwords/issues/186>For Issue 2, make snippets visible on the homepage</a>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</section>
+<hr>
+<section class=upcoming-issues>
+<h3>Upcoming work</h3>
+<p>Next iteration is Dec 6, 2021 - Dec 31, 2021.
+Scheduled projects: startwords, geniza.
+</p>
+<ul>
+<li>startwords
+<ul>
+<li>No issues found</li>
+</ul>
+</li>
+<li>geniza
+<ul>
+<li>No issues found</li>
 </ul>
 </li>
 </ul>
 </section>
-<hr>
 </div>
 </main>
 </div>

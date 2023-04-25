@@ -1,4 +1,17 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2023 Q2 Schedule</title><link>/blog/2023/04/2023-q2-schedule/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/2023-q2-schedule/</guid><description/></item><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
+&lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag_huc786050210fdda10bfd2153a5e28147a_503140_640x0_resize_catmullrom_3.png" width="640" height="387"/>
+&lt;p>For the second iteration in a row, we were able to focus all of our efforts on the Lenape Timetree project as we work to get it over the finish line, and we made significant progress, completing 27 points and 26 issues across design and development work. On the design side, we finished 18 points and 13 issues for a rolling velocity of 9.7; major efforts included the footer, work on visual identity, and 404 error page designs. On the development side, we closed 9 points and 13 issues, bringing our rolling velocity up to 4. The main functionality completed is a collection of user stories related to tag interactions within the timetree.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-timetree-active-tag.png"
+alt="Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="lenape-mobile-info.png"
+alt="Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed"/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
 &lt;img src="/blog/2023/04/10/featured-lenape-timetree-branch-order_hu1309d25c97d49ebdf860bf16651cefd6_539235_640x0_resize_catmullrom_3.png" width="640" height="442"/>
 &lt;p>All our effort went towards the Lenape Timetree project as we work to get it over the finish line. There isn&amp;rsquo;t as much visible progress in terms of closed issues as we might hope. Development velocity is &lt;strong>2.3&lt;/strong> with 2 points and 7 issues closed, and design velocity is &lt;strong>7.7&lt;/strong> with 2 issues closed. The development points are low in part to the number of design implementation, which we typically track as chores when they are not easily articulable as user-facing features. We have a large number of issues in progress, which hopefully we&amp;rsquo;ll be able to complete early this iteration and get a better estimate of how much work is left.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -544,43 +557,4 @@ alt="Screenshot of the new CDH web search"/>&lt;figcaption>
 &lt;p>Screenshot of the new CDH web search&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Fall development schedule, September — December 2021</title><link>/blog/2021/08/fall-development-schedule-september-december-2021/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/fall-development-schedule-september-december-2021/</guid><description>
-&lt;p>Development schedule for Fall 2021.&lt;/p></description></item><item><title>Blog: Jul 26 — Aug 6, 2021</title><link>/blog/2021/08/9/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/9/</guid><description>
-&lt;img src="/blog/2021/08/9/featured-ppa-excerpts_hu25f15e2e6fb2a63c611d6ccbe3a67ee8_210994_640x0_resize_catmullrom_3.png" width="640" height="344"/>
-&lt;p>We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida&amp;rsquo;s Margins. We closed &lt;strong>24&lt;/strong> issues and a total of &lt;strong>9&lt;/strong> points for a rolling velocity of &lt;strong>11.3&lt;/strong>. The lower velocity reflects the kind of work we&amp;rsquo;re doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.&lt;/p>
-&lt;h2 id="project-specific-updates">Project-specific updates&lt;/h2>
-&lt;h3 id="ppa">PPA&lt;/h3>
-&lt;p>This iteration we completed the work on 3.7 and released the new features to production. This update includes support for Gale/ECCO content as well as excerpt support for HathiTrust materials, which is a fairly major change to the collection. We&amp;rsquo;re looking forward to a write up from the team publicizing the changes and explaining what this means for PPA.&lt;/p>
-&lt;h3 id="cdhweb">CDHweb&lt;/h3>
-&lt;p>We released version 3.3 with support for oEmbed of Media Central videos, a new accessibility checker tool for content editors, and improved handling for moved and renamed pages. Implementation and design for the new site search is in progress, and has been successfully prototyped.&lt;/p>
-&lt;h3 id="derridas-margins">Derrida&amp;rsquo;s Margins&lt;/h3>
-&lt;p>We made progress on maintenance updates to Derrida&amp;rsquo;s Margins, including a bugfix release that corrects an image display problem that has been impacting the sites for several months. Work is underway to generate revised data exports and prep the site for archiving.&lt;/p>
-&lt;h3 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h3>
-&lt;p>We completed work on two trivial changes and one data report to support data work for the next version of the data exports; the changes should go to production soon.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;h3 id="ppa-1">PPA&lt;/h3>
-&lt;figure>&lt;img src="featured-ppa-excerpts.png"
-alt="Screenshot of Princeton Prosody Archive search result for a book excerpt."/>&lt;figcaption>
-&lt;p>Screenshot of &lt;em>Princeton Prosody Archive&lt;/em> search result for a book excerpt.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3 id="cdh-web">CDH Web&lt;/h3>
-&lt;figure>&lt;img src="cdhweb-editoria11y.png"
-alt="Screenshot of CDH website showing the editoria11y accessibility tool which has been integrated and enabled for content editors."/>&lt;figcaption>
-&lt;p>Screenshot of CDH website showing the &lt;a href="https://itmaybejj.github.io/editoria11y/">editoria11y accessibility tool&lt;/a> which has been integrated and enabled for content editors.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="cdhweb-video-embed.png"
-alt="Screenshot of CDH web admin and public view showing the video embed functionality."/>&lt;figcaption>
-&lt;p>Screenshot of CDH web admin and public view showing the video embed functionality.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jul 5 — 23, 2021</title><link>/blog/2021/07/26/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>/blog/2021/07/26/</guid><description>
-&lt;img src="/blog/2021/07/26/featured-percy-visualreview_hufac49881638799c2446d75f54e1a48a2_386534_640x0_resize_catmullrom_3.png" width="640" height="472"/>
-&lt;p>This iteration we made significant progress on PPA. All remaining planned work to support Gale/ECCO import and HathiTrust excerpts were moved to &amp;ldquo;development complete&amp;rdquo; status, but unfortunately testing issues related to indexing and keyword search were problematic and held up testing on a cluster of issues.&lt;/p>
-&lt;p>There was a smattering of progress on other projects as well. For the CDH website, we completed work to setup a new visual testing review workflow with &lt;a href="https://percy.io/">Percy&lt;/a>, which we hope will save time and improve our design implementation testing across projects. We continued to be paused on Geniza, but we had one issue closed that should have been accepted before, but was left open based on design feedback and changes requested rather than functionality. On Startwords, we also had a very minor style bugfix resolved.&lt;/p>
-&lt;p>We extended this iteration for 3 weeks to account for vacation and the ACH2021 conference last week. We completed 10 development points, and have a rolling development velocity of 14.3 points.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-percy-visualreview.png"
-alt="Screenshot from Percy showing an example of visual review for a page on CDH web"/>&lt;figcaption>
-&lt;p>Screenshot from Percy showing an example of visual review for a page on CDH web&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;p>Development schedule for Fall 2021.&lt;/p></description></item></channel></rss>
