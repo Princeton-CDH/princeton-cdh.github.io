@@ -827,16 +827,31 @@
         "from": "2023-04-10",
         "to": "2023-04-21",
         "projects": ["lenape", "risk"],
-        "partial": ["risk", "lenape"]
+        "partial": ["risk"]
     },
     {
         "from": "2023-04-24",
         "to": "2023-05-05",
-        "projects": ["startwords", "risk"],
-        "partial": ["risk", "startwords"]
+        "projects": ["lenape", "risk"],
+        "partial": ["risk"]
     },
     {
         "from": "2023-05-08",
-        "to": "2023-05-19"
+        "to": "2023-05-19",
+        "projects": ["lenape", "risk"],
+        "partial": ["risk"]
+
+    },
+    {
+        "from": "2023-05-22",
+        "to": "2023-06-02",
+        "projects": ["risk", "startwords"],
+        "partial": ["startwords"]
+    },
+    {
+        "from": "2023-06-05",
+        "to": "2023-06-16",
+        "projects": ["risk", "startwords"],
+        "partial": ["startwords"]
     }
 ]
