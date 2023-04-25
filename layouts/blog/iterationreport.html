@@ -94,25 +94,113 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <hr/>
 
+{{ $design_tags := slice "design" "🗺️ design" "Design" }}
+design tags = {{ $design_tags}}<br/>
+
+
 {{/* Get issues for this iteration  */}}
 {{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<" $next_start }}
 <section class="issue-details">
 <h3>Closed issues by project</h3>
+
 <ul>
     {{ range $project, $issues := $iteration.project_issues }}
-    <li>{{ $project }}
-        <ul>
-            {{ range where $iteration_issues "project" $project }}
-                {{ partial "issue_single.html" . }}
+
+    {{ $project_issues := where $iteration_issues "project" $project  }}
+    {{ $design_issues := where $project_issues "labels" "intersect" $design_tags }}
+    {{ $dev_issues := slice }}
+    {{ $dev_total := 0 }}
+    {{ $design_total := 0 }}
+    {{/* loop through project issues to identify non-design issues and tally estimates */}}
+    {{ range $issue := $project_issues }}
+        {{ if not (intersect $issue.labels $design_tags) }}
+            {{ $dev_issues = append $dev_issues (slice $issue) }}
+            {{ if ne $issue.estimate "" }}
+            {{ $dev_total = add  $dev_total $issue.estimate }}
             {{ end }}
+        {{ else }}
+            {{ if ne $issue.estimate "" }}
+            {{ $design_total = add  $design_total $issue.estimate }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{/* NOTE: should be possible to use symdiff or complement to get the opposite of intersection, but hugo complains the types are not comparable  }}
+    {{/* $project_dev_issues := $project_issues | symdiff $project_design_issues  */}}
+    <li>{{ $project }} ({{ add $dev_total $design_total }} points, {{ $project_issues | len }} issues)
+    <ul>
+    {{ with $design_issues }}
+        <li>design <span class="points">({{ $design_total }} points, {{ . | len }} issues)</span>
+        <ul>
+        {{ range . }}
+                {{ partial "issue_single.html" . }}
+        {{ end }}
         </ul>
     </li>
+    {{ end }}
+    {{ with $dev_issues }}
+        <li>development <span class="points">({{ $dev_total }} points, {{ . | len }} issues)</span>
+        <ul>
+        {{ range $dev_issues }}
+                {{ partial "issue_single.html" . }}
+        {{ end }}
+        </ul>
+        </li>
+    {{ end }}
+    </ul>
     {{ end }}
 </ul>
 </section>
 
 
 <hr/>
+
+<section class="upcoming-issues">
+<h3>Upcoming work</h3>
+
+{{/* Get projects & issues for the next iteration, based on iteration schedule data file */}}
+{{ $next_iteration := index (where $.Site.Data.iterations "from" ">=" $next_start ) 0 }}
+{{ if $next_iteration }}
+<p>Next iteration is {{ dateFormat "Jan 2, 2006" $next_iteration.from }} - {{ dateFormat "Jan 2, 2006" $next_iteration.to }}.
+    {{ with $next_iteration.projects }} Scheduled projects: {{ delimit . ", "}}.{{ end }}
+</p>
+
+{{ $upcoming_issues := where $.Site.Data.issues "closed" "eq" nil }}
+<ul>
+    {{ range $project := $next_iteration.projects }}
+    <li>{{ $project }}
+    {{/* display name != github repo; get from project data file */}}
+    {{ $reponame := (index $.Site.Data.projects $project).repo  }}
+    {{ $upcoming_project_issues := where $upcoming_issues "project" $reponame }}
+    {{/* collect pipeline states present for this project */}}
+    {{ $data := newScratch }}
+    {{ $data.Set "status" slice }}
+    {{ $statuses := slice }}
+        {{ range $issue := $upcoming_project_issues }}
+        {{ $data.Set "status" (append ($data.Get "status") $issue.pipeline) }}
+        {{ end }}
+    {{ $data.Set "status" (uniq ($data.Get "status")) }} {{/* make unique */}}
+    <ul>
+        {{ range $data.Get "status" }}
+        {{ $status_issues := where $upcoming_project_issues "pipeline" "intersect" (slice .) }}
+        <li>{{ . }} <span class="points">({{ $status_issues | len }} {{ i18n "issues" ( $status_issues | len) }})</span>
+        <ul>
+        {{ range $status_issues }}
+                {{/* range $upcoming_project_issues */}}
+            {{ partial "issue_single.html" . }}
+        {{ end }}
+        </ul>
+        </li>
+        {{ else }}
+        <li>No issues found</li>
+        {{ end }}
+    </ul>
+    </li>
+    {{ end }}
+</ul>
+</section>
+
+{{ end }}
+
 {{/* Get issues that need estimation based on label  */}}
 {{ $estimate_issues := where $.Site.Data.issues "labels" "intersect" (slice "needs estimation") }}
 {{ if $estimate_issues }}

@@ -40,4 +40,11 @@ princeton-cdh.github.io:
 
 lenape-timetree:
   color: "#088124"
+  shortname: lenape
 
+# map shorthand name for iteration summary/report to github repo
+lenape:
+  repo: lenape-timetree
+
+risk:
+  repo: simulating-risk
