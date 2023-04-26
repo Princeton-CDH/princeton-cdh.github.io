@@ -93,10 +93,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </script>
 
 <hr/>
-
+{{/* TODO: move to a config or data file */}}
 {{ $design_tags := slice "design" "🗺️ design" "Design" }}
-design tags = {{ $design_tags}}<br/>
-
 
 {{/* Get issues for this iteration  */}}
 {{ $iteration_issues := where (where $.Site.Data.issues "closed" ">=" $iteration.from) "closed" "<" $next_start }}
