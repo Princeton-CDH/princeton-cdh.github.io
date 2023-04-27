@@ -851,7 +851,30 @@
     {
         "from": "2023-06-05",
         "to": "2023-06-16",
+        "projects": ["risk", "startwords", "other"],
+        "partial": ["startwords"],
+         "notes": {
+            "other": ["", "HDSI"]
+        }
+    },
+    {
+        "from": "2023-06-19",
+        "to": "2023-06-30",
         "projects": ["risk", "startwords"],
         "partial": ["startwords"]
+    },
+    {
+        "from": "2023-07-03",
+        "to": "2023-07-14",
+        "projects": ["risk", "other"],
+        "partial": ["risk"],
+         "notes": {
+            "other": ["", "DH2023"]
+        }
+    },
+    {
+        "from": "2023-07-17",
+        "to": "2023-07-28",
+        "projects": ["risk"]
     }
 ]
