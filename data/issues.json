@@ -9997,12 +9997,11 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -10060,7 +10059,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10115,6 +10114,50 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Add clickable people names in the document detail page descriptions (they should link to people pages)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1364",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design the document detail page on the public site so that there is field to display people mentioned in the documents",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1365",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want a separate field to record people's role in each document",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1366",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "",
     "pipeline": [
@@ -17645,11 +17688,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/132",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-04-25T15:22:50Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -17848,15 +17891,15 @@
     ]
   },
   {
-    "issue": "implement the branch legend in the intro panel ",
+    "issue": "As a user, I want to see a legend for the branches in the intro panel so that I can understand the content is organized by themes and recognize the meaning of the leaf colors.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/155",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-04-27T12:59:09Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -17908,13 +17951,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/160",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-04-25T17:07:44Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -17955,7 +17998,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Backlog"
     ]
   },
   {
@@ -17984,36 +18027,36 @@
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
-    "issue": "adjust layout to be more usable on small laptop screens",
+    "issue": "adjust layout to be more usable on a better range of screen sizes",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/166",
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
     "issue": "revise the site title in the site header ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/168",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -18025,6 +18068,73 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "setup google analytics",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/171",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Simplify the leaf paths ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/174",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Export svg of tree to be used for JS error design, social media preview image, and website banner/card",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/175",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Design buttons to zoom in and out of the tree on mobile ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/176",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "revise leaf shapes",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/177",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": "",
     "pipeline": [
       "New Issues"
@@ -18583,7 +18693,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/69",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-04-25T17:06:52Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
