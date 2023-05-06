@@ -10161,7 +10161,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -17661,11 +17661,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/129",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-05-02T21:35:13Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -17732,7 +17732,7 @@
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -17964,12 +17964,12 @@
     "issue": "As a user on mobile when I select a tag on the tag index page I want to see my selected tag directly below the tree, without any other details on the page",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/161",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-05-02T17:23:15Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -18021,13 +18021,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/165",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-04T20:53:14Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -18035,7 +18035,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/166",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-02T17:23:39Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -18148,6 +18148,20 @@
     "closed": "2022-12-06T20:07:51Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "tree branches look great on Firefox and Safari but bizarre on Chrome; figure out why and resolve",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/180",
+    "estimate": "",
+    "closed": "2023-05-02T22:48:50Z",
+    "labels": [
+      "\ud83d\udc1b bug"
     ],
     "milestone": "",
     "pipeline": [
@@ -18733,11 +18747,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/71",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-05-02T21:35:07Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -18759,11 +18773,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/73",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-05-04T20:53:30Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -19033,13 +19047,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/95",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-04T20:38:59Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
