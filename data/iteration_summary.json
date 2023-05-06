@@ -2762,19 +2762,19 @@
             "risk"
         ],
         "dev": {
-            "points": 7,
-            "issues": 4,
-            "velocity": 6.0
+            "points": 16,
+            "issues": 12,
+            "velocity": 9.0
         },
         "design": {
             "points": 0,
             "velocity": 6.33
         },
         "project_issues": {
-            "lenape-timetree": 4
+            "lenape-timetree": 12
         },
         "project_points": {
-            "lenape-timetree": 7
+            "lenape-timetree": 16
         }
     },
     {
@@ -2789,7 +2789,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 5.33
+            "velocity": 8.33
         },
         "design": {
             "points": 0,
@@ -2810,7 +2810,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 2.33
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
