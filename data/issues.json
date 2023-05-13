@@ -10165,6 +10165,36 @@
     ]
   },
   {
+    "issue": "When searching for phrases/words on the public site, I want the relevant results highlighted on the individual document detail pages",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1368",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "When browsing search results on the public site, I want to maintain my place in the search results after I click in and out of a specific result record",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1369",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "look for edition info in TEI for records with \"Source of original transcription not noted in PGP database\" in metadata spreadsheet",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/137",
@@ -10176,6 +10206,93 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want a way to filter documents by date (inferred and those present on document) in the admin for enhanced csv exports",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1371",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design the public site date filter so that there is an option to exclude inferred dates from the search results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1372",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want a separate field in the document detail page so that I can record place information mentioned in the document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1373",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design the document detail page in the public site so that there is a separate field for recording places mentioned in the document.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1374",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "When adding a source in the admin site, I want to distinguish between unpublished editions and unpublished translations so that the language of unpublished editions does not display publically, but the language of unpublished translations does.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1375",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design the public transcription search filter so that there is an option to select search results with no transcriptions.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1376",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -16318,7 +16435,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -18115,17 +18232,18 @@
     ]
   },
   {
-    "issue": "Design buttons to zoom in and out of the tree on mobile ",
+    "issue": "Design buttons to zoom in and out of the tree on desktop and mobile ",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/176",
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -18169,6 +18287,46 @@
     ]
   },
   {
+    "issue": "As a user I want to know when a page is not found so that I can understand what went wrong and navigate to other parts of the site.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/186",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a user with javascript turned off, I want to see a message explaining why I can't see the timetree so I can turn it on if I want to view it.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/187",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Replace VizE lab logo in the footer ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/189",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
     "issue": "setup lighthouse workflow to check the site for performance and accessibility",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/19",
@@ -18180,6 +18338,87 @@
     "milestone": "",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Update H1 on desktop and mobile ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/190",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Add external and pdf link icons to the content page style page ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/191",
+    "estimate": "",
+    "closed": "2023-05-09T22:59:30Z",
+    "labels": [
+      "\ud83d\uddfa\ufe0f design",
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Create styles and guidelines for image captions/citation/titles ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/192",
+    "estimate": "",
+    "closed": "2023-05-10T17:06:56Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Create styles and guidelines for image captions/citation/titles ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/193",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Remove hover effect from the century numbers ",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/194",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a mobile user, I want to some leaf labels visible to be visible when the tree is not zoomed, so I more easily understand I can interact with the tree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/195",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -18769,7 +19008,7 @@
     ]
   },
   {
-    "issue": "As a user, I want to read about the project so that I can understand who created and find related resouces.",
+    "issue": "As a user, I want to read about the project so that I can understand who created it and find related resouces.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/73",
     "estimate": 2,
@@ -33373,6 +33612,20 @@
     "milestone": "Issue 1",
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Research fonts for displaying Chinese, Japanese, & Kanbun in SW4",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/310",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
