@@ -152,12 +152,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <hr/>
 
+{{/* Get projects & issues for the next iteration, based on iteration schedule data file; only include for iteration reporting for most recent iteration */}}
+{{ $today := now.Format "2006-01-02" }}
+{{ if and (ge $today $next_iteration.from) (le $today $next_iteration.to) }}
 <section class="upcoming-issues">
 <h3>Upcoming work</h3>
 
-{{/* Get projects & issues for the next iteration, based on iteration schedule data file */}}
-{{ $next_iteration := index (where $.Site.Data.iterations "from" ">=" $next_start ) 0 }}
-{{ if $next_iteration }}
 <p>Next iteration is {{ dateFormat "Jan 2, 2006" $next_iteration.from }} - {{ dateFormat "Jan 2, 2006" $next_iteration.to }}.
     {{ with $next_iteration.projects }} Scheduled projects: {{ delimit . ", "}}.{{ end }}
 </p>
@@ -166,8 +166,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <ul>
     {{ range $project := $next_iteration.projects }}
     <li>{{ $project }}
-    {{/* display name != github repo; get from project data file */}}
-    {{ $reponame := (index $.Site.Data.projects $project).repo  }}
+    {{/* display name != github repo; get from project data file; use project name as fallback */}}
+    {{ $reponame := (index $.Site.Data.projects $project).repo | default $project }}
     {{ $upcoming_project_issues := where $upcoming_issues "project" $reponame }}
     {{/* collect pipeline states present for this project */}}
     {{ $data := newScratch }}
