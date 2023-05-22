@@ -10114,7 +10114,8 @@
     "estimate": "",
     "closed": "2023-05-16T16:27:05Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
     "pipeline": [
@@ -10294,6 +10295,20 @@
     "milestone": "",
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "Content Admins do not have correct permissions to merge tags",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1378",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -16431,7 +16446,6 @@
     "estimate": 3,
     "closed": "2023-05-16T14:54:58Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -18238,7 +18252,6 @@
     "estimate": 2,
     "closed": "2023-05-16T16:01:03Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",

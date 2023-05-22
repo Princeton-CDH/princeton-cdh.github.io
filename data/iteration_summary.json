@@ -2789,7 +2789,7 @@
         ],
         "dev": {
             "points": 3,
-            "issues": 8,
+            "issues": 7,
             "velocity": 9.33
         },
         "design": {
@@ -2798,12 +2798,10 @@
             "velocity": 8.33
         },
         "project_issues": {
-            "lenape-timetree": 14,
-            "geniza": 1
+            "lenape-timetree": 14
         },
         "project_points": {
-            "lenape-timetree": 10,
-            "geniza": 0
+            "lenape-timetree": 10
         }
     },
     {
@@ -2811,10 +2809,12 @@
         "to": "2023-06-02",
         "projects": [
             "risk",
-            "startwords"
+            "startwords",
+            "lenape"
         ],
         "partial": [
-            "startwords"
+            "startwords",
+            "lenape"
         ],
         "dev": {
             "points": 0,

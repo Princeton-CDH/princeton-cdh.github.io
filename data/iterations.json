@@ -845,8 +845,8 @@
     {
         "from": "2023-05-22",
         "to": "2023-06-02",
-        "projects": ["risk", "startwords"],
-        "partial": ["startwords"]
+        "projects": ["risk", "startwords", "lenape"],
+        "partial": ["startwords", "lenape"]
     },
     {
         "from": "2023-06-05",
