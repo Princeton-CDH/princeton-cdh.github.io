@@ -1,4 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 8 - May 19, 2023</title><link>/blog/2023/05/22/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/22/</guid><description>
+&lt;img src="/blog/2023/05/22/featured-lenape-dedication_huf7eb539c7032352e9298967ccbee171f_1733668_640x0_resize_catmullrom_3.png" width="640" height="350"/>
+&lt;p>We continue to focus on the Lenape project as we push it towards completion and soft-launch. We implemented the dedication on the tree, and also completed several UI cleanup items and other chores.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenape-dedication.png"
+alt="Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration."/>&lt;figcaption>
+&lt;p>Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
 &lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag_huc786050210fdda10bfd2153a5e28147a_503140_640x0_resize_catmullrom_3.png" width="640" height="387"/>
 &lt;p>For the second iteration in a row, we were able to focus all of our efforts on the Lenape Timetree project as we work to get it over the finish line, and we made significant progress, completing 27 points and 26 issues across design and development work. On the design side, we finished 18 points and 13 issues for a rolling velocity of 9.7; major efforts included the footer, work on visual identity, and 404 error page designs. On the development side, we closed 9 points and 13 issues, bringing our rolling velocity up to 4. The main functionality completed is a collection of user stories related to tag interactions within the timetree.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -705,33 +713,6 @@ alt="Screenshot of cdhweb wagtail interface showing recent edits, based on page 
 &lt;figure>&lt;img src="featured-cdhweb-page-history.png"
 alt="Screenshot of cdhweb wagtail interface showing page history with migration event"/>&lt;figcaption>
 &lt;p>Screenshot of cdhweb wagtail interface showing page history with migration event&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>Blog: Mar 1 — 12, 2021</title><link>/blog/2021/03/15/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/15/</guid><description>
-&lt;img src="/blog/2021/03/15/featured-geniza-tagnetwork-detail_hu92be73fe69a8d7f2888c82f5551e2265_5116992_640x0_resize_catmullrom_3.png" width="640" height="400"/>
-&lt;p>Rolling velocity for this iteration increased from about 10 points to about 15 points, largely due to a substantial chunk of CDH website user stories that completed the testing process together after multiple iterations.&lt;/p>
-&lt;h2 id="cdh-website">CDH Website&lt;/h2>
-&lt;p>This iteration we completed testing on a large set of issues that have been rolling over through multiple iterations, including major changes to:&lt;/p>
-&lt;ul>
-&lt;li>Events&lt;/li>
-&lt;li>People &amp;amp; Profiles&lt;/li>
-&lt;li>Project, Grants, and Grant Memberships&lt;/li>
-&lt;/ul>
-&lt;p>Work is still in progress on content management updates for Blog Posts, the last major module to migrate as part of the v3.0 update.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>This iteration we completed the admin management interface for Documents, the primary model in the Geniza database. In addition, we added new functionality to track where and how often languages &amp;amp; scripts are used by Documents, including provision for probable or uncertain language identification.&lt;/p>
-&lt;p>To support upcoming functionality for de-merging composite documents, we added an option to &amp;ldquo;clone&amp;rdquo; Documents with a record of the process stored in the database. We also experimented with clustering tags assigned to documents in order to start finding patterns in the data.&lt;/p>
-&lt;p>On the design side, we completed revisions to the sitemap diagram and created a low-fidelity mockup of the public view for Documents to spark discussion on content structure and hierarchy.&lt;/p>
-&lt;p>Four user stories related to the interface and data import process for Fragments are still in-progress.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-geniza-tagnetwork-detail.png"
-alt="Visualization of tag network generated from Geniza document tags"/>&lt;figcaption>
-&lt;p>Visualization of tag network generated from Geniza document tags&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="geniza-document-admin.png"
-alt="Screenshot of administrative interface for Geniza document database"/>&lt;figcaption>
-&lt;p>Screenshot of administrative interface for Geniza document database&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p></description></item></channel></rss>
