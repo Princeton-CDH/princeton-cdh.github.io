@@ -2817,15 +2817,20 @@
             "lenape"
         ],
         "dev": {
-            "points": 0,
-            "velocity": 6.33
+            "points": 3,
+            "issues": 6,
+            "velocity": 7.33
         },
         "design": {
             "points": 0,
             "velocity": 2.33
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 6
+        },
+        "project_points": {
+            "lenape-timetree": 3
+        }
     },
     {
         "from": "2023-06-05",
@@ -2846,7 +2851,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
@@ -2867,7 +2872,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
