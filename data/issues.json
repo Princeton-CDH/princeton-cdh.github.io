@@ -325,6 +325,21 @@
     ]
   },
   {
+    "issue": "passenger is serving out git config file",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/139",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Finish configuring projects for new rotating logs",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
@@ -10075,7 +10090,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -10287,14 +10302,14 @@
     "issue": "Design the public transcription search filter so that there is an option to select search results with no transcriptions.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1376",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-05-26T15:50:10Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -10308,7 +10323,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10319,6 +10334,47 @@
     "closed": "2021-05-05T20:39:15Z",
     "labels": [],
     "milestone": "0.3 Initial database and data import",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Long shelfmarks appear misaligned on document detail page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1380",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Within the admin site, I want a person with 10+ associated documents to automatically generate a front-end People Page, so that content editors do not have to manually make significant people pages live. ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1381",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design an interface with a map for browsing and searching places mentioned in PGP documents ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1382",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
     "pipeline": [
       "Review/QA"
     ]
@@ -18306,10 +18362,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/186",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83e\uddf1 blocked"
-    ],
+    "closed": "2023-05-25T21:44:51Z",
+    "labels": [],
     "milestone": "",
     "pipeline": [
       "In Progress"
@@ -18320,10 +18374,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/187",
     "estimate": 1,
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2023-05-23T14:07:05Z",
+    "labels": [],
     "milestone": "",
     "pipeline": [
       "Review/QA"
@@ -18363,9 +18415,8 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/190",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-23T15:21:19Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
@@ -18477,10 +18528,9 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/199",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-23T16:20:11Z",
     "labels": [
       "\u267f accessibility",
-      "\ud83d\udcac awaiting review",
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
@@ -18519,8 +18569,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
-      "\u267f accessibility",
-      "\u2753 question"
+      "\u267f accessibility"
     ],
     "milestone": "",
     "pipeline": [
@@ -18571,10 +18620,12 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/210",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -18583,10 +18634,12 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/211",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u267f accessibility"
+    ],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -18606,11 +18659,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/213",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-05-23T16:21:54Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -18623,6 +18676,18 @@
     "milestone": "",
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want the option of marking a leaf as a draft so that I can unpublish content that isn't ready for inclusion in the timetree.",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/215",
+    "estimate": 0,
+    "closed": "2023-05-25T16:29:32Z",
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
@@ -19071,10 +19136,11 @@
     "issue": "As a keyboard or screen user, I want to navigate the timetree without a mouse or touch device so that I can explore the content in multiple paths and access all the information in a manner that is equivalent to the experience of a sighted  user.",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/65",
-    "estimate": 5,
+    "estimate": 8,
     "closed": null,
     "labels": [
-      "\u267f accessibility"
+      "\u267f accessibility",
+      "\u26a0\ufe0ftested needs attention"
     ],
     "milestone": "",
     "pipeline": [
@@ -32266,6 +32332,16 @@
     "pipeline": []
   },
   {
+    "issue": "implement risky food simulation",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/3",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": []
+  },
+  {
     "issue": "Update the author's text style on the article pages so that it matches the designs",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/100",
@@ -33800,14 +33876,15 @@
     "issue": "Research fonts for displaying Chinese, Japanese, & Kanbun in SW4",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/310",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -33822,6 +33899,34 @@
     "milestone": "",
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "Create a visualization to communicate the difference between Jingdian Shiwen, dictionaries, and essays. ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/314",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Restructure the visualization on the fanqie pronounciation system to highlight sounds and the cognitive experience ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/315",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
