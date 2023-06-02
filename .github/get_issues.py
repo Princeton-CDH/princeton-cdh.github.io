@@ -90,6 +90,7 @@ def get_issues(all_issues=False):
                 "closed": issue["closed_at"],
                 "labels": [l["name"] for l in issue["labels"]],
                 "milestone": milestone["title"] if milestone else "",
+                "assignees": [a["login"] for a in issue["assignees"]],
                 # zenhub pipelines indicate status; get unique list of pipeline names
                 "pipeline": list(
                     set(p["name"] for p in zhub_info.get("pipelines", []))
