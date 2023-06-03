@@ -10051,10 +10051,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1356",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-01T15:54:55Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10090,7 +10089,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -17836,11 +17835,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/128",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-05-31T20:07:58Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -18487,11 +18486,11 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/195",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-06-01T19:29:38Z",
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "Icebox"
+      "Review/QA"
     ]
   },
   {
@@ -18567,13 +18566,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/200",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-05-31T20:06:21Z",
     "labels": [
       "\u267f accessibility"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -18619,13 +18618,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/210",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-05-31T20:56:52Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -18639,7 +18638,7 @@
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -18651,7 +18650,7 @@
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Icebox"
     ]
   },
   {
@@ -19137,14 +19136,13 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/65",
     "estimate": 8,
-    "closed": null,
+    "closed": "2023-05-30T21:19:47Z",
     "labels": [
-      "\u267f accessibility",
-      "\u26a0\ufe0ftested needs attention"
+      "\u267f accessibility"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -33927,6 +33925,18 @@
     "milestone": "",
     "pipeline": [
       "Backlog"
+    ]
+  },
+  {
+    "issue": "revisit article text template approach",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/316",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "Icebox"
     ]
   },
   {
