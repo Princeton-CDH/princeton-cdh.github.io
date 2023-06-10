@@ -10085,11 +10085,12 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -10318,11 +10319,12 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "",
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -10376,6 +10378,35 @@
     "milestone": "",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content admin, I would like filters in the document admin to search by English and Hebrew language of translation, so that I can collect those documents for CSV export for use in teaching.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1384",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design fpublic site search filter so that users can filter by language of translation (Hebrew and English)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1385",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -18180,11 +18211,12 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -18610,7 +18642,7 @@
     "labels": [],
     "milestone": "",
     "pipeline": [
-      "New Issues"
+      "Icebox"
     ]
   },
   {
@@ -18687,6 +18719,44 @@
     "milestone": "",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "non scrolling",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/231",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Trunk lines disconnected",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/232",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "VizE Lab logo not appearing",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/233",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -31745,6 +31815,21 @@
     "closed": null,
     "labels": [
       "chore"
+    ],
+    "milestone": "",
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Import records from source buttons are missing in Django admin",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/535",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
     ],
     "milestone": "",
     "pipeline": [
