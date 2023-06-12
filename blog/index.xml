@@ -1,10 +1,44 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 8 - May 19, 2023</title><link>/blog/2023/05/22/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/22/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 29 - Jun 9, 2023</title><link>/blog/2023/06/12/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023/06/12/</guid><description>
+&lt;img src="/blog/2023/06/12/featured-lenapetimetree-desktop-zoom_hu68ec7c5dc3e95b8ddece9ebb814d5866_707649_640x0_resize_catmullrom_3.png" width="640" height="352"/>
+&lt;p>We made significant progress on the Lenape Timetree project as we worked
+to close out the remaining in-scope features, addressed small bugs that cropped
+up as the team worked on final edits, and prepped for a 1.0 release and
+a soft launch.&lt;/p>
+&lt;p>We&amp;rsquo;re starting to ramp up on the Simulating Risk project, and have started implementing
+a first simulation, but haven&amp;rsquo;t yet closed any issues.&lt;/p>
+&lt;p>Rolling development velocity is &lt;strong>11.33&lt;/strong>, based largely on the substantial amount of
+work completed on the Lenape Timetree project.&lt;/p>
+&lt;p>Work is on-going on the GeoTaste project, but we&amp;rsquo;re still considering how and if to include it in regular iteration reporting.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenapetimetree-desktop-zoom.png"
+alt="A screenshot of the Lenape Timetree project showing new desktop zoom feature, for improved accessibility."/>&lt;figcaption>
+&lt;p>A screenshot of the Lenape Timetree project showing new desktop zoom feature, for improved accessibility.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 8 - May 19, 2023</title><link>/blog/2023/05/22/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/22/</guid><description>
 &lt;img src="/blog/2023/05/22/featured-lenape-dedication_huf7eb539c7032352e9298967ccbee171f_1733668_640x0_resize_catmullrom_3.png" width="640" height="350"/>
 &lt;p>We continue to focus on the Lenape project as we push it towards completion and soft-launch. We implemented the dedication on the tree, and also completed several UI cleanup items and other chores.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;figure>&lt;img src="featured-lenape-dedication.png"
 alt="Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration."/>&lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 24 - May 5, 2023</title><link>/blog/2023/05/08/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/08/</guid><description>
+&lt;img src="/blog/2023/05/08/featured-lenapetimetree-zoom_hu3d530068d76b4ed70eefd48719096ea6_895554_640x0_resize_catmullrom_3.png" width="640" height="690"/>
+&lt;p>As in recent iterations, we again focused almost exclusively on the Lenape Timetree project, and made significant progress, including: finishing zoom functionality for mobile, drawing lines for the tree branches, adding a branch legend to the intro panel, and implementing content page and footer designs.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured-lenapetimetree-zoom.png"
+alt="Screenshot of Lenape Timetree project showing zoom functionality on mobile."/>&lt;figcaption>
+&lt;p>Screenshot of Lenape Timetree project showing zoom functionality on mobile.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="lenapetimetree-branches-legend.png"
+alt="Screenshot of Lenape Timetree project showing drawn lines for branches and branch legend in the introduction panel."/>&lt;figcaption>
+&lt;p>Screenshot of Lenape Timetree project showing drawn lines for branches and branch legend in the introduction panel.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="lenapetimetree-contentpages.png"
+alt="Screenshot of Lenape Timetree About page showing content page styles and visual identity."/>&lt;figcaption>
+&lt;p>Screenshot of Lenape Timetree About page showing content page styles and visual identity.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: 2023 Q2 Schedule</title><link>/blog/2023/04/2023-q2-schedule/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/2023-q2-schedule/</guid><description/></item><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
 &lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag_huc786050210fdda10bfd2153a5e28147a_503140_640x0_resize_catmullrom_3.png" width="640" height="387"/>
@@ -535,33 +569,4 @@ alt="Screenshot of the latest style updates on the Geniza document search, inclu
 &lt;h2 id="geniza">Geniza&lt;/h2>
 &lt;p>We finally completed the script to merge documents, and fixed a bug that made it into production when part of the incompletely tested merge code was included in the last release. We also made progress on design work towards visual identity and color selection.&lt;/p>
 &lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
-&lt;p>We successsfully completed the migration to PUL infrastructure without hiccups, including switching the 100 years twitter bot cron job over to the new server. This update includes upgrades to python 3.6, Solr 8, and a switch from MySQL to Postgresql. Most crucially, this gets the code off of python 3.5 which has not been supported for nearly a year. Looking foward, we know have a path for testing and updating the application to newer versions of python, since the infrastructure on the PUL VMs is fully managed by our ansible deploy scripts.&lt;/p></description></item><item><title>Blog: Aug 23 - Sep 3, 2021</title><link>/blog/2021/09/07/</link><pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate><guid>/blog/2021/09/07/</guid><description>
-&lt;img src="/blog/2021/09/07/featured-cdhweb-homepage_hu1bdbd80a0b6580c6bb28223084600abd_240245_640x0_resize_catmullrom_3.png" width="640" height="303"/>
-&lt;p>Completed points for this iteration are quite low (only &lt;strong>2 points&lt;/strong>). This brings our rolling velocity down to &lt;strong>6&lt;/strong>, which is the lowest it&amp;rsquo;s been in quite some time. This is likely due to the focus on maintenance work and chartering the next year of the Princeton Geniza Project; we also have some in-progress work on revised data exports for Derrida&amp;rsquo;s Margins that have not been completed.&lt;/p>
-&lt;h2 id="cdh-web">CDH web&lt;/h2>
-&lt;p>We released version 3.4 with the enhancements as planned in the charter, most notably a new site search. One new feature was completed this iteration, revising the home page to call attention to important information (about CDH and consults). We also fixed a small bug impacting the staff and executive committee pages.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We released version 0.5 with high priority fixes and improvements that had been identified by the project team to help with ongoing data work. In progress work on a script to merge documents, which has been through multiple rounds of testing, was temporarily put in the ice box to prioritize work on the Geniza charter for the next year. We did also start work more seriously on frontend development and inftrastructure and visual design.&lt;/p>
-&lt;h2 id="derrida">Derrida&lt;/h2>
-&lt;p>Maintenance work is ongoing; we successfully set up continuous integration on GitHub Actions, to aid us in testing the remaining development (since Travis-CI is no longer reliable). We made progress on the data export scripts, but none of the issues were completed.&lt;/p>
-&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
-&lt;p>We made progress on maintenance work to migrate the application from the current host into PUL infrastructure, which includes a python version upgrade, new version of Solr, and switch from MySQL to Postgresql. The site is successfully running in the new QA environment, so after a bit more testing to confirm functionality and migrated data, we should be able to proceed and schedule a production migration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-cdhweb-homepage.png"
-alt="Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations"/>&lt;figcaption>
-&lt;p>Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Aug 9 - Aug 20, 2021</title><link>/blog/2021/08/23/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/23/</guid><description>
-&lt;img src="/blog/2021/08/23/featured-cdhweb-search_hu5bdc378edbfc8df771ea880f23028bee_103240_640x0_resize_catmullrom_3.png" width="640" height="360"/>
-&lt;p>This iteration &lt;a href="https://cdh.princeton.edu/updates/2021/08/15/rebecca-munson/">we lost Rebecca Munson&lt;/a>, who was a long-time collaborator of the CDH Development &amp;amp; Design Team, project manager &amp;amp; project coordinator for many of our projects. In spite of that terrible loss, it&amp;rsquo;s good to do work, and we did make some progress on our planned work. Among other things, we implemented a special purple mode for the CDH website and released v3.3.1 so we could turn it on to honor her.&lt;/p>
-&lt;p>We completed &lt;strong>7&lt;/strong> development story points for a rolling velocity of &lt;strong>8.67&lt;/strong>; we also completed &lt;strong>14&lt;/strong> design story points, as all the design work for the CDH web v3.4 release was finalized.&lt;/p>
-&lt;h2 id="cdh-web">CDH web&lt;/h2>
-&lt;p>The work for the 3.4 release is nearly done, and it should be completed and go into production soon. Completed work include designs for search, better visuals to highlight the about page and consultations on the home page, and the new site search.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We started up development on Geniza again, picking up some work that was left incomplete and small changes that will be helpful to the data team. Completed work includes capability to edit historic shelfmarks for Fragments, clean up of the India Book sources that were not grouped correctly on import, and a way to view actions on the admin site beyond the most recent ten or a specific document.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-cdhweb-search.png"
-alt="Screenshot of the new CDH web search"/>&lt;figcaption>
-&lt;p>Screenshot of the new CDH web search&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;p>We successsfully completed the migration to PUL infrastructure without hiccups, including switching the 100 years twitter bot cron job over to the new server. This update includes upgrades to python 3.6, Solr 8, and a switch from MySQL to Postgresql. Most crucially, this gets the code off of python 3.5 which has not been supported for nearly a year. Looking foward, we know have a path for testing and updating the application to newer versions of python, since the infrastructure on the PUL VMs is fully managed by our ansible deploy scripts.&lt;/p></description></item></channel></rss>
