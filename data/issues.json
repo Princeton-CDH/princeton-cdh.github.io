@@ -10069,10 +10069,13 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10085,10 +10088,11 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Review/QA"
     ]
@@ -10317,12 +10321,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1378",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-11T18:08:26Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -18729,6 +18736,7 @@
     "closed": null,
     "labels": [],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -18743,6 +18751,7 @@
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -18752,9 +18761,14 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/233",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-06-12T14:06:20Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "In Progress"
     ]

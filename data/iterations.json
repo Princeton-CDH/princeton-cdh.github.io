@@ -844,37 +844,37 @@
     },
     {
         "from": "2023-05-22",
-        "to": "2023-06-02",
-        "projects": ["risk", "startwords", "lenape"],
-        "partial": ["startwords", "lenape"]
-    },
-    {
-        "from": "2023-06-05",
-        "to": "2023-06-16",
-        "projects": ["risk", "startwords", "other"],
-        "partial": ["startwords"],
+        "to": "2023-06-09",
+        "projects": ["risk", "startwords", "lenape", "other"],
+        "partial": ["startwords", "lenape"],
          "notes": {
-            "other": ["", "HDSI"]
+            "other": ["", "", "HDSI"]
         }
     },
     {
-        "from": "2023-06-19",
+        "from": "2023-06-12",
         "to": "2023-06-30",
         "projects": ["risk", "startwords"],
         "partial": ["startwords"]
     },
     {
         "from": "2023-07-03",
-        "to": "2023-07-14",
-        "projects": ["risk", "other"],
-        "partial": ["risk"],
-         "notes": {
+        "to": "2023-07-21",
+        "projects": ["risk", "startwords"],
+        "partial": ["startwords", "risk"],
+        "notes": {
             "other": ["", "DH2023"]
         }
     },
     {
-        "from": "2023-07-17",
-        "to": "2023-07-28",
+        "from": "2023-07-24",
+        "to": "2023-08-04",
+        "projects": ["risk", "other"],
+        "partial": ["risk"]
+    },
+    {
+        "from": "2023-08-07",
+        "to": "2023-08-18",
         "projects": ["risk"]
     }
 ]
