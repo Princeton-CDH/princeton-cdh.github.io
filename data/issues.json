@@ -10066,10 +10066,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1357",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-13T18:53:02Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10085,14 +10084,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1358",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-13T00:17:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10171,7 +10171,7 @@
     ]
   },
   {
-    "issue": "As a content editor, I want a separate field to record people's role in each document",
+    "issue": "As a content editor, I want a separate field to record people's names and roles in each document, so that I can build a structured dataset of all people across the PGP.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1366",
     "estimate": "",
@@ -10181,6 +10181,9 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "In Progress"
     ]
@@ -10426,6 +10429,89 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want Person-Person relationship types visually sorted into their categories in the admin form, so that I can select them at a glance.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1390",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Software release checklist for v4.14",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1391",
+    "estimate": "",
+    "closed": "2023-06-15T20:11:54Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "csv of all undated documents that have Seleucid/Sel. in the description",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1392",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a content editor, I cannot edit the date fields in the admin site",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1393",
+    "estimate": "",
+    "closed": "2023-06-15T14:41:52Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Merging two documents with digital content footnotes for the same source results in unique constraint violation",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1394",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
@@ -17548,6 +17634,265 @@
     ]
   },
   {
+    "issue": "filter by membership date",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/10",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by member gender",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/11",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by member nationality",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/12",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by member arrondissement",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/13",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by book title",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/14",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by author name",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/15",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by book date of publication",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/16",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by borrowing event date",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/17",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Write dash datatable card/component for MemberPanel",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/18",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Re-write comparison/synthetic map",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/19",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Write code to read, wrangle and model the S&Co CSVs",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/20",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Member-based map and filters",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/21",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
+    ]
+  },
+  {
+    "issue": "Borrow/event-based map and filters",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/22",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
+    ]
+  },
+  {
+    "issue": "Dataset export code and data",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/23",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
+    ]
+  },
+  {
+    "issue": "Cross-filter functionality ",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/24",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
+    ]
+  },
+  {
+    "issue": "Write README instructions for running geotaste as dash app",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/6",
+    "estimate": 0,
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "enhance data export scripts",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/7",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter/search by member name",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/8",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "filter by member birth date",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/9",
+    "estimate": 1,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Set up initial Hugo site with proposed site and data structure",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/1",
@@ -18216,12 +18561,17 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/163",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-06-13T22:11:15Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser",
+      "gissoo",
+      "jhimpele"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -18645,9 +18995,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/209",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-06-12T21:23:40Z",
     "labels": [],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Icebox"
     ]
@@ -18747,9 +19098,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/232",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\ud83d\uddfa\ufe0f design"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -32432,11 +32781,70 @@
     "issue": "implement risky food simulation",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/3",
+    "estimate": 2,
+    "closed": "2023-06-14T16:04:56Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Refine risky food sim to implement risk types",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/5",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "implement risky bet simulation",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/6",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "implement batch running and reporting for risky food sim",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/7",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "pipeline": []
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Build a plugin for any mesa model that allows a human to play the game/model as an agent",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/8",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
   },
   {
     "issue": "Update the author's text style on the article pages so that it matches the designs",
@@ -33980,6 +34388,9 @@
       "awaiting review"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -34013,17 +34424,21 @@
     ]
   },
   {
-    "issue": "Restructure the visualization on the fanqie pronounciation system to highlight sounds and the cognitive experience ",
+    "issue": "Restructure the visualization on the fanqie pronunciation system to highlight sounds and the cognitive experience ",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/315",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -34036,6 +34451,19 @@
     "milestone": "",
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Provide translations for #7 ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/317",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
