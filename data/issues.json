@@ -329,11 +329,14 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/139",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-22T22:48:30Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "In Progress",
       "New Issues"
@@ -350,6 +353,20 @@
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "",
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "update solr config for Filter Cache Evictions",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/140",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -7127,11 +7144,14 @@
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/12",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-22T19:54:26Z",
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -7139,11 +7159,16 @@
     "project": "django-pucas",
     "url": "https://api.github.com/repos/Princeton-CDH/django-pucas/issues/14",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-06-22T19:53:58Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10324,7 +10349,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1378",
     "estimate": "",
-    "closed": "2023-06-11T18:08:26Z",
+    "closed": "2023-06-21T19:09:15Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -10334,7 +10359,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -10471,15 +10496,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1392",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-21T20:19:38Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -10509,9 +10536,62 @@
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Transcription editor does not correctly pick up the orientation of the text",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1396",
+    "estimate": "",
+    "closed": "2023-06-21T18:47:33Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want CSV export document dates (on document and inferred) to be in one column so that I can sort by a single date column.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1398",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want inferred date and accompanying notes in the csv exports of documents, so that I can keep track of this information in my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1399",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -10538,6 +10618,58 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a public site viewer, I would like to see translation alongside the document image by default if both are present, so that I can read the document in my native language.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1400",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content admin, I would like to include a rationale for the inferred date field from a list of options, so that I can enter data more efficiently and consistently.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1401",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to be able to filter on inferred date and language of translation, so that I can find all dated documents in a range and translations in my preferred language.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1402",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -27506,9 +27638,12 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/73",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-23T15:18:42Z",
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -27529,11 +27664,14 @@
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/80",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-23T15:18:33Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -32190,14 +32328,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/535",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-06-23T12:38:46Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -32778,6 +32918,19 @@
     "pipeline": []
   },
   {
+    "issue": "implement histogram viz for mesa runserver and use to track agent risk level distribution",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/10",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
     "issue": "implement risky food simulation",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/3",
@@ -32813,13 +32966,15 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
-    "issue": "implement batch running and reporting for risky food sim",
+    "issue": "implement batch running and reporting for risky bet and risky food sims",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/7",
     "estimate": "",
@@ -34413,14 +34568,18 @@
     "issue": "Create a visualization to communicate the difference between Jingdian Shiwen, dictionaries, and essays. ",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/314",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
