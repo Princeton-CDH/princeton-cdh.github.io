@@ -2852,7 +2852,7 @@
         ],
         "dev": {
             "points": 3,
-            "issues": 5,
+            "issues": 12,
             "velocity": 7.0
         },
         "design": {
@@ -2863,12 +2863,20 @@
         "project_issues": {
             "lenape-timetree": 3,
             "simulating-risk": 1,
-            "geniza": 2
+            "geniza": 3,
+            "cdh-ansible": 1,
+            "django-pucas": 2,
+            "parasolr": 2,
+            "ppa-django": 1
         },
         "project_points": {
             "lenape-timetree": 3,
             "simulating-risk": 2,
-            "geniza": 0
+            "geniza": 0,
+            "cdh-ansible": 0,
+            "django-pucas": 0,
+            "parasolr": 0,
+            "ppa-django": 0
         }
     },
     {
