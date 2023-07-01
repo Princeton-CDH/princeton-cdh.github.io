@@ -2851,14 +2851,14 @@
             "startwords"
         ],
         "dev": {
-            "points": 3,
-            "issues": 12,
-            "velocity": 7.0
+            "points": 11,
+            "issues": 22,
+            "velocity": 9.67
         },
         "design": {
-            "points": 2,
-            "issues": 1,
-            "velocity": 3.0
+            "points": 6,
+            "issues": 3,
+            "velocity": 4.33
         },
         "project_issues": {
             "lenape-timetree": 3,
@@ -2867,7 +2867,9 @@
             "cdh-ansible": 1,
             "django-pucas": 2,
             "parasolr": 2,
-            "ppa-django": 1
+            "ppa-django": 1,
+            "geotaste": 9,
+            "startwords": 3
         },
         "project_points": {
             "lenape-timetree": 3,
@@ -2876,7 +2878,9 @@
             "cdh-ansible": 0,
             "django-pucas": 0,
             "parasolr": 0,
-            "ppa-django": 0
+            "ppa-django": 0,
+            "geotaste": 8,
+            "startwords": 4
         }
     },
     {
@@ -2898,11 +2902,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 6.0
+            "velocity": 8.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.67
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
@@ -2919,11 +2923,11 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 3.67
         },
         "design": {
             "points": 0,
-            "velocity": 0.67
+            "velocity": 2.0
         },
         "project_issues": {},
         "project_points": {}
