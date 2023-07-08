@@ -10052,14 +10052,15 @@
     "issue": "Design public search results to display inferred dates when searching by date",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1354",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -10193,14 +10194,15 @@
     "issue": "Design the document detail page on the public site so that there is field to display people mentioned in the documents",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1365",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -10208,7 +10210,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1366",
     "estimate": "",
-    "closed": "2023-06-29T16:07:24Z",
+    "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -10276,6 +10278,9 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -10287,11 +10292,12 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -10316,11 +10322,12 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -10331,11 +10338,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10402,8 +10413,12 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1381",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -10439,17 +10454,18 @@
     ]
   },
   {
-    "issue": "Design fpublic site search filter so that users can filter by language of translation (Hebrew and English)",
+    "issue": "Design public site search filter so that users can filter by language of translation (Hebrew and English)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1385",
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -10541,7 +10557,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -10687,12 +10704,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "Development Complete"
     ]
   },
   {
@@ -10702,7 +10722,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
     "assignees": [],
@@ -10717,12 +10738,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "Development Complete"
     ]
   },
   {
@@ -10737,6 +10761,54 @@
     "milestone": "",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Implement designs for public site inferred date filter ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1410",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Implement designs on public site for language of translation filter so public site users can filter translations by their preferred language (Hebrew/English)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1411",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a front end desktop user, I would like to see a bigger version of the document image in order to read the document (especially when no transcription exists).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1413",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -18053,6 +18125,19 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/32",
     "estimate": "",
     "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Add back the table view to the filtered member data",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/33",
+    "estimate": "",
+    "closed": "2023-07-05T20:16:05Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -32432,6 +32517,38 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Adding works that don't have pairtree prefixes/version files in the directory causes 500 error",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/538",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "partial rsync error when parsing zip file from HT rsync to index page data",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/539",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
