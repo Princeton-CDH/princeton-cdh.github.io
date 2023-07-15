@@ -2901,19 +2901,19 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "issues": 1,
-            "velocity": 8.67
+            "points": 4,
+            "issues": 11,
+            "velocity": 10.0
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
         "project_issues": {
-            "geotaste": 1
+            "geotaste": 11
         },
         "project_points": {
-            "geotaste": 0
+            "geotaste": 4
         }
     },
     {
@@ -2928,7 +2928,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 3.67
+            "velocity": 5.0
         },
         "design": {
             "points": 0,
@@ -2945,7 +2945,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.33
         },
         "design": {
             "points": 0,
