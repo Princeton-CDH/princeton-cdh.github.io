@@ -7752,11 +7752,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -9706,7 +9710,7 @@
     ]
   },
   {
-    "issue": "Move the \"pop out\" button in the transcription editor up higher so it's immediately accessible",
+    "issue": "As a content editor, I want the \"pop out\" button in the transcription editor up higher, so it's immediately accessible.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1313",
     "estimate": "",
@@ -9717,6 +9721,7 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -9962,11 +9967,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1346",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T18:15:19Z",
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83d\udd87\ufe0f duplicate",
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -9978,11 +9986,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10037,7 +10049,6 @@
     "closed": "2023-06-29T15:54:29Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10176,7 +10187,7 @@
     ]
   },
   {
-    "issue": "Add clickable people names in the document detail page descriptions (they should link to people pages)",
+    "issue": "As a public site user, I want people's names in the document detail page descriptions to be hyperlinks, so I can navigate to their person page and get more context/information about them.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1364",
     "estimate": "",
@@ -10186,6 +10197,7 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -10311,8 +10323,11 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10331,14 +10346,13 @@
     ]
   },
   {
-    "issue": "When adding a source in the admin site, I want to distinguish between unpublished editions and unpublished translations so that the language of unpublished editions does not display publically, but the language of unpublished translations does.",
+    "issue": "As a content editor, I want clear help text when adding a source to explain how to select the source language, so that it is done consistently for translations and transcriptions.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1375",
     "estimate": "",
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -10449,8 +10463,11 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10590,15 +10607,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1398",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-14T17:12:49Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -10682,7 +10700,7 @@
     ]
   },
   {
-    "issue": "As a public site user, I want to be able to filter on inferred date and language of translation, so that I can find all dated documents in a range and translations in my preferred language.",
+    "issue": "As a public site user, I want to be able to filter on language of translation, so that I can find all translations in my preferred language.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1402",
     "estimate": "",
@@ -10768,8 +10786,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1410",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T18:10:00Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
@@ -10784,8 +10803,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1411",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T18:11:21Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
@@ -10806,9 +10826,26 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Inferred dates",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1417",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -12393,10 +12430,11 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/321",
     "estimate": 5,
     "closed": "2021-11-19T19:29:45Z",
-    "labels": [
-      "\u2753 question"
-    ],
+    "labels": [],
     "milestone": "PGP v4.0 (MVP)",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -16418,12 +16456,13 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/836",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T18:18:21Z",
     "labels": [
       "Epic",
       "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Backlog"
     ]
@@ -16759,11 +16798,13 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -17947,7 +17988,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/14",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-07-11T11:57:02Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -17960,7 +18001,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/15",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-07-10T20:46:01Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -17973,7 +18014,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/16",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-07-10T20:45:51Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18038,7 +18079,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/21",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-11T11:58:48Z",
     "labels": [
       "Epic"
     ],
@@ -18083,7 +18124,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/24",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-11T11:59:03Z",
     "labels": [
       "Epic"
     ],
@@ -18111,7 +18152,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/31",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T20:44:48Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18124,7 +18165,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/32",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-10T20:44:43Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18138,6 +18179,71 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/33",
     "estimate": "",
     "closed": "2023-07-05T20:16:05Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Sliders need numerical input components",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/41",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "'Clear member filters', 'Clear book filters', and 'Clear all' buttons needed",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/42",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "For event data: filter out non borrow events",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/43",
+    "estimate": "",
+    "closed": "2023-07-12T17:44:19Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "For creator data: filter out non author creators",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/44",
+    "estimate": "",
+    "closed": "2023-07-12T17:44:12Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Switch to historical basemap",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/45",
+    "estimate": "",
+    "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18180,7 +18286,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/8",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-07-11T11:57:25Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
