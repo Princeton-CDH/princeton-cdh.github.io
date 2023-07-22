@@ -9713,17 +9713,19 @@
     "issue": "As a content editor, I want the \"pop out\" button in the transcription editor up higher, so it's immediately accessible.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1313",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\uddfa\ufe0f design",
-      "performant"
+      "performant",
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -9938,12 +9940,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1343",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-07-19T15:52:41Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10037,6 +10041,9 @@
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10066,10 +10073,13 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10209,10 +10219,13 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10334,13 +10347,16 @@
     "issue": "Design the document detail page in the public site so that there is a separate field for recording places mentioned in the document.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1374",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10858,6 +10874,42 @@
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want the location field for digital edition/translations to automatically populate from an existing edition/translation on the same source, so that I can save time manually re-entering it.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1420",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Revise the document detail page so that tags are placed below the mentioned places field below the description ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1424",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "\ud83d\udcac awaiting review",
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -18252,6 +18304,19 @@
     ]
   },
   {
+    "issue": "Write an Ansible playbook to deploy to CDH Labs server",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Write README instructions for running geotaste as dash app",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/6",
@@ -25576,9 +25641,12 @@
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Development complete",
+      "In Progress"
     ]
   },
   {
@@ -27170,9 +27238,12 @@
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "Development complete",
+      "Backlog"
     ]
   },
   {
@@ -27183,6 +27254,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "In Progress"
     ]
@@ -27192,14 +27266,17 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/754",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-07-20T20:25:02Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -33279,28 +33356,30 @@
     "issue": "implement risky bet simulation",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/6",
-    "estimate": 2,
-    "closed": null,
+    "estimate": 3,
+    "closed": "2023-07-20T19:36:26Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
     "issue": "implement batch running and reporting for risky bet and risky food sims",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/7",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-07-20T19:40:08Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
