@@ -2901,19 +2901,23 @@
             ]
         },
         "dev": {
-            "points": 4,
-            "issues": 11,
-            "velocity": 10.0
+            "points": 8,
+            "issues": 14,
+            "velocity": 11.33
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
         "project_issues": {
-            "geotaste": 11
+            "geotaste": 11,
+            "mep-django": 1,
+            "simulating-risk": 2
         },
         "project_points": {
-            "geotaste": 4
+            "geotaste": 4,
+            "mep-django": 0,
+            "simulating-risk": 4
         }
     },
     {
@@ -2928,7 +2932,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 5.0
+            "velocity": 6.33
         },
         "design": {
             "points": 0,
@@ -2945,7 +2949,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 1.33
+            "velocity": 2.67
         },
         "design": {
             "points": 0,
