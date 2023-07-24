@@ -1,4 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: May 29 - Jun 9, 2023</title><link>/blog/2023/06/12/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023/06/12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 10 - Jul 21, 2023</title><link>/blog/2023/07/24/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>/blog/2023/07/24/</guid><description>
+&lt;img src="/blog/2023/07/24/featured_geotaste_screenshot_hue5233fb2def8d1c4e5e7b219252cd47b_804204_640x0_resize_catmullrom_3.png" width="640" height="391"/>
+&lt;p>We extended this iteration to three weeks, to account for team members being away for the DH2023 conference and on vacation. Work in the past iteration included Simulating Risk, GeoTaste, and some maintenance. GeoTaste has been an ongoing project, but we are now starting to track work via GitHub issues and include it iteration reporting.&lt;/p>
+&lt;p>In terms of development, we completed &lt;strong>8&lt;/strong> points and &lt;strong>14&lt;/strong> issues for a rolling velocity of &lt;strong>11.3&lt;/strong>.&lt;/p>
+&lt;p>It&amp;rsquo;s an open question how to track design moving forward, now that we no longer have a designer on staff and are working on projects with less dependency on design.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>&lt;img src="featured_geotaste_screenshot.png"
+alt="Screenshot showing the current state of the geotaste mapping and comparison tool"/>&lt;figcaption>
+&lt;p>Screenshot showing the current state of the geotaste mapping and comparison tool&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 29 - Jun 9, 2023</title><link>/blog/2023/06/12/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023/06/12/</guid><description>
 &lt;img src="/blog/2023/06/12/featured-lenapetimetree-desktop-zoom_hu68ec7c5dc3e95b8ddece9ebb814d5866_707649_640x0_resize_catmullrom_3.png" width="640" height="352"/>
 &lt;p>We made significant progress on the Lenape Timetree project as we worked
 to close out the remaining in-scope features, addressed small bugs that cropped
@@ -562,11 +572,4 @@ alt="Screenshot of preliminary Derrida&amp;amp;rsquo;s Margins archive site with
 alt="Screenshot of the latest style updates on the Geniza document search, including setup for dark mode"/>&lt;figcaption>
 &lt;p>Screenshot of the latest style updates on the Geniza document search, including setup for dark mode&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Sep 13 - Sep 24, 2021</title><link>/blog/2021/09/27/</link><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate><guid>/blog/2021/09/27/</guid><description>
-&lt;p>This iteration, we continued working on planned maintenance work and finishing the charter for the next year of work on the Geniza research partnership. Our rolling velocity is up to &lt;strong>7.7&lt;/strong>; points for this iteration were high because work included a large feature on the Geniza project that was finally completed and several features for Derrida data exports that had been in-progress for multiple iterations.&lt;/p>
-&lt;h2 id="derridas-margins">Derrida&amp;rsquo;s Margins&lt;/h2>
-&lt;p>We completed revisions on three of the four dataset exports, and corrected one bug in the previous version of the data exports and one bug in the IIIF image endpoint handling.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We finally completed the script to merge documents, and fixed a bug that made it into production when part of the incompletely tested merge code was included in the last release. We also made progress on design work towards visual identity and color selection.&lt;/p>
-&lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
-&lt;p>We successsfully completed the migration to PUL infrastructure without hiccups, including switching the 100 years twitter bot cron job over to the new server. This update includes upgrades to python 3.6, Solr 8, and a switch from MySQL to Postgresql. Most crucially, this gets the code off of python 3.5 which has not been supported for nearly a year. Looking foward, we know have a path for testing and updating the application to newer versions of python, since the infrastructure on the PUL VMs is fully managed by our ansible deploy scripts.&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
