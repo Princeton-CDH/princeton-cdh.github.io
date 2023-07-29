@@ -2931,15 +2931,20 @@
             "risk"
         ],
         "dev": {
-            "points": 0,
-            "velocity": 6.33
+            "points": 1,
+            "issues": 1,
+            "velocity": 6.67
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "geotaste": 1
+        },
+        "project_points": {
+            "geotaste": 1
+        }
     },
     {
         "from": "2023-08-07",
@@ -2949,7 +2954,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 2.67
+            "velocity": 3.0
         },
         "design": {
             "points": 0,
