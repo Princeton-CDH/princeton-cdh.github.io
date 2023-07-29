@@ -3734,6 +3734,24 @@
     ]
   },
   {
+    "issue": "upgrade django + wagtail",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/413",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Review/QA"
+    ]
+  },
+  {
     "issue": "Project S - column issue",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/42",
@@ -9717,15 +9735,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "performant",
-      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "Development Complete"
     ]
   },
   {
@@ -9842,8 +9859,11 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10245,7 +10265,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "Development Complete"
     ]
   },
   {
@@ -10376,7 +10396,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10598,7 +10618,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10650,7 +10670,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10712,7 +10732,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10846,7 +10866,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10912,6 +10932,21 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Double quotes search returning unexpected results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1428",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
@@ -18079,7 +18114,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/17",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-07-26T13:46:21Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18307,6 +18342,34 @@
     "issue": "Write an Ansible playbook to deploy to CDH Labs server",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Author gender filter now has too many options",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/48",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Resynchronize 1.3-beta dataset to get new additions to data",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/49",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -33315,13 +33378,15 @@
     "issue": "implement histogram viz for mesa runserver and use to track agent risk level distribution",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/10",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -33347,9 +33412,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
