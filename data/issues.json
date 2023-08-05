@@ -373,6 +373,22 @@
     ]
   },
   {
+    "issue": "node upgrade doesn't work with snap; switch to install from source",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/143",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Fix CAS errors",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/16",
@@ -514,6 +530,9 @@
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -530,6 +549,9 @@
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -808,6 +830,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -3720,16 +3745,20 @@
     "pipeline": []
   },
   {
-    "issue": "editoria11y plugin is no longer working; update to v2",
+    "issue": "editoria11y v1 plugin is no longer working; remove since updated wagtail includes accessibility checking",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/410",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-03T20:03:26Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
+      "In Progress",
       "Icebox"
     ]
   },
@@ -3738,7 +3767,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/413",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-03T20:03:48Z",
     "labels": [
       "chore"
     ],
@@ -9095,6 +9124,9 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "In Progress"
     ]
@@ -9708,8 +9740,11 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -9892,6 +9927,9 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "In Progress"
     ]
@@ -10468,9 +10506,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -10947,6 +10987,24 @@
     "assignees": [],
     "pipeline": [
       "Backlog"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want both dates on document and inferred dates to merge when I merge duplicate PGPIDS so no data is lost when cleaning up duplicates. If there are two different dates on documents for the same PGPID, I want there to be an error message drawing my attention to the issue so I can choose the correct date or otherwise record the discrepancy.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1429",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -18181,7 +18239,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/22",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-04T17:13:03Z",
     "labels": [
       "Epic"
     ],
@@ -18196,7 +18254,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/23",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-04T21:30:31Z",
     "labels": [
       "Epic"
     ],
@@ -18226,7 +18284,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/29",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-04T21:29:52Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18330,7 +18388,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/45",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-04T17:12:43Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18339,7 +18397,7 @@
     ]
   },
   {
-    "issue": "Write an Ansible playbook to deploy to CDH Labs server",
+    "issue": "Write an Ansible playbook to deploy to CDH Sandbox server",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/46",
     "estimate": "",
@@ -18370,6 +18428,86 @@
     "issue": "Resynchronize 1.3-beta dataset to get new additions to data",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/49",
+    "estimate": "",
+    "closed": "2023-08-04T21:29:06Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Scatterplot of points (member-dwellings) should have labels (names of people) by default",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/50",
+    "estimate": "",
+    "closed": "2023-08-04T17:12:34Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Incorporate landmarks and basemap as base layers to other maps",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/51",
+    "estimate": "",
+    "closed": "2023-08-04T17:12:07Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Disable Group 1 and Group 2 by default",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/52",
+    "estimate": "",
+    "closed": "2023-08-04T17:12:16Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Allow Group 1 to be expanded/filtered without Group 2",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/53",
+    "estimate": "",
+    "closed": "2023-08-04T17:11:57Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "URL/hyperlink integration with S&Co website",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/55",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Download CSV button for tables",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/56",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -32798,6 +32936,68 @@
     ]
   },
   {
+    "issue": "years show up in person name metadata for editorials due to limitations of snippet functionality ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/540",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "build capacity to embed interactive versions of Altair viz in editorial",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/541",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "'uncategorized' collections button appears even when there are no uncategorized works",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/542",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "update collection deletion so it does not cascade to related objects",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/543",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "load partial html for page of search results via ajax",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/55",
@@ -33379,7 +33579,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/10",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-08-03T18:59:16Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -33387,6 +33587,32 @@
     ],
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "Add logic to check for converging risk attitudes",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/13",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "setup existing simulations so they can be run in colab",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -33409,7 +33635,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/5",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-03T18:59:25Z",
     "labels": [],
     "milestone": "",
     "assignees": [
