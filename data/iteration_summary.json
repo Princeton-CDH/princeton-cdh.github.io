@@ -2931,19 +2931,23 @@
             "risk"
         ],
         "dev": {
-            "points": 1,
-            "issues": 1,
-            "velocity": 6.67
+            "points": 4,
+            "issues": 14,
+            "velocity": 7.67
         },
         "design": {
             "points": 0,
             "velocity": 2.0
         },
         "project_issues": {
-            "geotaste": 1
+            "geotaste": 10,
+            "cdh-web": 2,
+            "simulating-risk": 2
         },
         "project_points": {
-            "geotaste": 1
+            "geotaste": 1,
+            "cdh-web": 0,
+            "simulating-risk": 3
         }
     },
     {
@@ -2954,7 +2958,7 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 3.0
+            "velocity": 4.0
         },
         "design": {
             "points": 0,
