@@ -2845,7 +2845,8 @@
         "to": "2023-06-30",
         "projects": [
             "risk",
-            "startwords"
+            "startwords",
+            "geotaste"
         ],
         "partial": [
             "startwords"
@@ -2888,11 +2889,13 @@
         "to": "2023-07-21",
         "projects": [
             "risk",
+            "geotaste",
             "startwords"
         ],
         "partial": [
             "startwords",
-            "risk"
+            "risk",
+            "geotaste"
         ],
         "notes": {
             "other": [
@@ -2925,14 +2928,15 @@
         "to": "2023-08-04",
         "projects": [
             "risk",
-            "other"
+            "other",
+            "geotaste"
         ],
         "partial": [
             "risk"
         ],
         "dev": {
             "points": 4,
-            "issues": 14,
+            "issues": 13,
             "velocity": 7.67
         },
         "design": {
@@ -2940,7 +2944,7 @@
             "velocity": 2.0
         },
         "project_issues": {
-            "geotaste": 10,
+            "geotaste": 9,
             "cdh-web": 2,
             "simulating-risk": 2
         },
@@ -2954,11 +2958,121 @@
         "from": "2023-08-07",
         "to": "2023-08-18",
         "projects": [
+            "risk",
+            "cdh-web",
+            "geotaste"
+        ],
+        "partial": [
             "risk"
         ],
         "dev": {
             "points": 0,
             "velocity": 4.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2023-08-21",
+        "to": "2023-08-31",
+        "projects": [
+            "risk",
+            "cdh-web",
+            "startwords",
+            "geotaste"
+        ],
+        "partial": [
+            "risk"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 1.33
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2023-09-04",
+        "to": "2023-09-14",
+        "projects": [
+            "risk",
+            "cdh-web",
+            "startwords",
+            "geotaste"
+        ],
+        "partial": [
+            "risk",
+            "geotaste"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2023-09-18",
+        "to": "2023-09-28",
+        "projects": [
+            "risk",
+            "startwords",
+            "geotaste"
+        ],
+        "partial": [
+            "risk",
+            "geotaste"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2023-10-02",
+        "to": "2023-10-12",
+        "projects": [
+            "risk",
+            "derrida"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2023-10-16",
+        "to": "2023-10-26",
+        "projects": [
+            "risk"
+        ],
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
         },
         "design": {
             "points": 0,
