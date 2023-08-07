@@ -2,8 +2,13 @@ baseURL = "/"
 
 enableRobotsTXT = true
 
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+# use docsy theme as a go module
+[module]
+[[module.imports]]
+  path = 'github.com/google/docsy'
+[[module.imports]]
+	path = "github.com/google/docsy/dependencies"
+
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
