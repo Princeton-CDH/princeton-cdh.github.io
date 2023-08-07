@@ -14,11 +14,9 @@ The dev/design site is generated with [Hugo](https://gohugo.io/) using the [Docs
 
 ## setup
 
-When checking out for local development, make sure you have
-the docsy theme via git submodule:
-
+This site uses the docsy theme, which is installed as a go module. Modules can be installed or updated by runnning:
 ```
-git submodule update --init --recursive
+hugo mod get
 ```
 
 Install npm dependencies:

@@ -12,20 +12,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      with:
-        submodules: recursive  # Fetch Hugo themes (true OR recursive)
-        fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
 
     - name: setup hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.87.0'
+        hugo-version: '0.116.0'
         extended: true
 
     - name: Use Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-          node-version: 16
+          node-version: 18
 
     - name: Install npm dependencies
       run: npm ci

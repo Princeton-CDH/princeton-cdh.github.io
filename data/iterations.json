@@ -854,14 +854,14 @@
     {
         "from": "2023-06-12",
         "to": "2023-06-30",
-        "projects": ["risk", "startwords"],
+        "projects": ["risk", "startwords", "geotaste"],
         "partial": ["startwords"]
     },
     {
         "from": "2023-07-03",
         "to": "2023-07-21",
-        "projects": ["risk", "startwords"],
-        "partial": ["startwords", "risk"],
+        "projects": ["risk", "geotaste", "startwords"],
+        "partial": ["startwords", "risk", "geotaste"],
         "notes": {
             "other": ["", "DH2023"]
         }
@@ -869,12 +869,56 @@
     {
         "from": "2023-07-24",
         "to": "2023-08-04",
-        "projects": ["risk", "other"],
+        "projects": ["risk", "other", "geotaste"],
         "partial": ["risk"]
     },
     {
         "from": "2023-08-07",
         "to": "2023-08-18",
+        "projects": ["risk", "cdh-web", "geotaste", "startwords"],
+        "partial": ["risk", "startwords"]
+    },
+    {
+        "from": "2023-08-21",
+        "to": "2023-08-31",
+        "projects": ["risk", "cdh-web", "startwords", "geotaste"],
+        "partial": ["risk"],
+        "notes": {
+            "startwords": ["essays due"]
+        }
+
+    },
+    {
+        "from": "2023-09-04",
+        "to": "2023-09-14",
+        "projects": ["risk", "cdh-web", "startwords", "geotaste"],
+        "partial": ["risk", "geotaste"],
+        "notes": {
+            "startwords": ["", "Begin production"]
+        }
+    },
+    {
+        "from": "2023-09-18",
+        "to": "2023-09-28",
+        "projects": ["risk", "geotaste"],
+        "partial": ["risk", "geotaste"],
+        "notes": {
+            "startwords": ["Publish Issue 4"]
+        }
+
+    },
+    {
+        "from": "2023-10-02",
+        "to": "2023-10-12",
+        "projects": ["risk", "derrida"],
+        "notes": {
+            "risk": ["", "assess simulations"],
+            "derrida": ["finish archiving"]
+        }
+    },
+    {
+        "from": "2023-10-16",
+        "to": "2023-10-26",
         "projects": ["risk"]
     }
 ]

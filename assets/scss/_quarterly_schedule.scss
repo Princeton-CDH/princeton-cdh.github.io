@@ -33,7 +33,7 @@
 	/* NOTE: some duplication of colors from projects data file */
 	.geniza {
 		background-color: #6B59C1;
-		color: white;
+		color: white !important;
 		&.partial {
 			background-color: rgba(107, 89, 193, 0.5);
 			color: black;
@@ -72,7 +72,7 @@
 
 	.startwords {
 		background-color: #CE2949;
-		color: white;
+		color: white !important; /* override docsy striped-table color */
 		&.partial {
 			background-color: rgba(206, 41, 73, 0.5);
 			color: black;
@@ -86,7 +86,7 @@
 
 	.derrida {
 		background-color: #175498;
-		color: white;
+		color: white !important;
 		&.partial {
 			background-color: rgba(23, 84, 152,0.4);
 			color:black;
@@ -105,8 +105,15 @@
 	.risk {
 		background-color: #fcd030;
 		&.partial {
-			background-color: rgba(252, 208, 48, 0.5);					
-		}	
+			background-color: rgba(252, 208, 48, 0.5);
+		}
+	}
+
+	.geotaste {
+		background-color:rgba(64, 176, 166, 0.7);
+		&.partial {
+			background-color: rgba(64, 176, 166, 0.4);
+		}
 	}
 
 }
