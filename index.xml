@@ -1,11 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jul 10 - Jul 21, 2023</title><link>/blog/2023/07/24/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>/blog/2023/07/24/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2023 Q3 Schedule</title><link>/blog/2023/08/2023-q3-schedule/</link><pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/2023/08/2023-q3-schedule/</guid><description/></item><item><title>Blog: Jul 24 - Aug 4, 2023</title><link>/blog/2023/08/07/</link><pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/2023/08/07/</guid><description>
+&lt;img src="/blog/2023/08/07/featured_geotaste_huc96e13bb0fdf14c94c9baa83686ce337_4097083_640x0_resize_catmullrom_3.png" width="640" height="317"/>
+&lt;p>We&amp;rsquo;re a small team working on multiple projects at once. We made significant progress on the &lt;strong>geotaste&lt;/strong> tool, and work has ramped up in intensity with plans to complete the prototype by the end of August. We also continued making progress on the simulations for the &lt;strong>Simulating Risk&lt;/strong> project, completing a revision to one simulation and a new histogram chart. We also completed some maintenance work on the &lt;strong>CDH website&lt;/strong> to upgrade some dependencies, and released a micro version with those changes.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2023/08/07/featured_geotaste.png"
+alt="Screenshot showing resent progress on the Geotaste mapping tool"/> &lt;figcaption>
+&lt;p>Screenshot showing resent progress on the Geotaste mapping tool&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2023/08/07/simrisk_histogram.png"
+alt="Screenshot showing Simulating Risk interactive Mesa display of the &amp;amp;lsquo;Risky Bet&amp;amp;rsquo; simulation in progress with the new histogram chart."/> &lt;figcaption>
+&lt;p>Screenshot showing Simulating Risk interactive Mesa display of the &amp;lsquo;Risky Bet&amp;rsquo; simulation in progress with the new histogram chart.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 10 - Jul 21, 2023</title><link>/blog/2023/07/24/</link><pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate><guid>/blog/2023/07/24/</guid><description>
 &lt;img src="/blog/2023/07/24/featured_geotaste_screenshot_hue5233fb2def8d1c4e5e7b219252cd47b_804204_640x0_resize_catmullrom_3.png" width="640" height="391"/>
 &lt;p>We extended this iteration to three weeks, to account for team members being away for the DH2023 conference and on vacation. Work in the past iteration included Simulating Risk, GeoTaste, and some maintenance. GeoTaste has been an ongoing project, but we are now starting to track work via GitHub issues and include it iteration reporting.&lt;/p>
 &lt;p>In terms of development, we completed &lt;strong>8&lt;/strong> points and &lt;strong>14&lt;/strong> issues for a rolling velocity of &lt;strong>11.3&lt;/strong>.&lt;/p>
 &lt;p>It&amp;rsquo;s an open question how to track design moving forward, now that we no longer have a designer on staff and are working on projects with less dependency on design.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_geotaste_screenshot.png"
-alt="Screenshot showing the current state of the geotaste mapping and comparison tool"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/07/24/featured_geotaste_screenshot.png"
+alt="Screenshot showing the current state of the geotaste mapping and comparison tool"/> &lt;figcaption>
 &lt;p>Screenshot showing the current state of the geotaste mapping and comparison tool&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: May 29 - Jun 9, 2023</title><link>/blog/2023/06/12/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023/06/12/</guid><description>
@@ -20,63 +36,72 @@ a first simulation, but haven&amp;rsquo;t yet closed any issues.&lt;/p>
 work completed on the Lenape Timetree project.&lt;/p>
 &lt;p>Work is on-going on the GeoTaste project, but we&amp;rsquo;re still considering how and if to include it in regular iteration reporting.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenapetimetree-desktop-zoom.png"
-alt="A screenshot of the Lenape Timetree project showing new desktop zoom feature, for improved accessibility."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/06/12/featured-lenapetimetree-desktop-zoom.png"
+alt="A screenshot of the Lenape Timetree project showing new desktop zoom feature, for improved accessibility."/> &lt;figcaption>
 &lt;p>A screenshot of the Lenape Timetree project showing new desktop zoom feature, for improved accessibility.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: May 8 - May 19, 2023</title><link>/blog/2023/05/22/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/22/</guid><description>
 &lt;img src="/blog/2023/05/22/featured-lenape-dedication_huf7eb539c7032352e9298967ccbee171f_1733668_640x0_resize_catmullrom_3.png" width="640" height="350"/>
 &lt;p>We continue to focus on the Lenape project as we push it towards completion and soft-launch. We implemented the dedication on the tree, and also completed several UI cleanup items and other chores.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-dedication.png"
-alt="Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/05/22/featured-lenape-dedication.png"
+alt="Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration."/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree project showing the dedication, which was implemented last iteration.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Apr 24 - May 5, 2023</title><link>/blog/2023/05/08/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>/blog/2023/05/08/</guid><description>
 &lt;img src="/blog/2023/05/08/featured-lenapetimetree-zoom_hu3d530068d76b4ed70eefd48719096ea6_895554_640x0_resize_catmullrom_3.png" width="640" height="690"/>
 &lt;p>As in recent iterations, we again focused almost exclusively on the Lenape Timetree project, and made significant progress, including: finishing zoom functionality for mobile, drawing lines for the tree branches, adding a branch legend to the intro panel, and implementing content page and footer designs.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenapetimetree-zoom.png"
-alt="Screenshot of Lenape Timetree project showing zoom functionality on mobile."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/05/08/featured-lenapetimetree-zoom.png"
+alt="Screenshot of Lenape Timetree project showing zoom functionality on mobile."/> &lt;figcaption>
 &lt;p>Screenshot of Lenape Timetree project showing zoom functionality on mobile.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="lenapetimetree-branches-legend.png"
-alt="Screenshot of Lenape Timetree project showing drawn lines for branches and branch legend in the introduction panel."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/05/08/lenapetimetree-branches-legend.png"
+alt="Screenshot of Lenape Timetree project showing drawn lines for branches and branch legend in the introduction panel."/> &lt;figcaption>
 &lt;p>Screenshot of Lenape Timetree project showing drawn lines for branches and branch legend in the introduction panel.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="lenapetimetree-contentpages.png"
-alt="Screenshot of Lenape Timetree About page showing content page styles and visual identity."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/05/08/lenapetimetree-contentpages.png"
+alt="Screenshot of Lenape Timetree About page showing content page styles and visual identity."/> &lt;figcaption>
 &lt;p>Screenshot of Lenape Timetree About page showing content page styles and visual identity.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: 2023 Q2 Schedule</title><link>/blog/2023/04/2023-q2-schedule/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/2023-q2-schedule/</guid><description/></item><item><title>Blog: Apr 10 - Apr 21, 2023</title><link>/blog/2023/04/24/</link><pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/24/</guid><description>
 &lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag_huc786050210fdda10bfd2153a5e28147a_503140_640x0_resize_catmullrom_3.png" width="640" height="387"/>
 &lt;p>For the second iteration in a row, we were able to focus all of our efforts on the Lenape Timetree project as we work to get it over the finish line, and we made significant progress, completing 27 points and 26 issues across design and development work. On the design side, we finished 18 points and 13 issues for a rolling velocity of 9.7; major efforts included the footer, work on visual identity, and 404 error page designs. On the development side, we closed 9 points and 13 issues, bringing our rolling velocity up to 4. The main functionality completed is a collection of user stories related to tag interactions within the timetree.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-timetree-active-tag.png"
-alt="Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/04/24/featured-lenape-timetree-active-tag.png"
+alt="Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others"/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape timetree project with a tag active, highlighting leaves with that tag and deactivating others&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="lenape-mobile-info.png"
-alt="Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/04/24/lenape-mobile-info.png"
+alt="Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed"/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape timetree project on mobile showing the info button to redisplay the intro when closed&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Mar 27 - Apr 7, 2023</title><link>/blog/2023/04/10/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023/04/10/</guid><description>
 &lt;img src="/blog/2023/04/10/featured-lenape-timetree-branch-order_hu1309d25c97d49ebdf860bf16651cefd6_539235_640x0_resize_catmullrom_3.png" width="640" height="442"/>
 &lt;p>All our effort went towards the Lenape Timetree project as we work to get it over the finish line. There isn&amp;rsquo;t as much visible progress in terms of closed issues as we might hope. Development velocity is &lt;strong>2.3&lt;/strong> with 2 points and 7 issues closed, and design velocity is &lt;strong>7.7&lt;/strong> with 2 issues closed. The development points are low in part to the number of design implementation, which we typically track as chores when they are not easily articulable as user-facing features. We have a large number of issues in progress, which hopefully we&amp;rsquo;ll be able to complete early this iteration and get a better estimate of how much work is left.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-timetree-branch-order.png"
-alt="Screenshot of the latest developmentversion of the Lenape Timetree, showing the leaves organized and more clearly separated by branch"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/04/10/featured-lenape-timetree-branch-order.png"
+alt="Screenshot of the latest developmentversion of the Lenape Timetree, showing the leaves organized and more clearly separated by branch"/> &lt;figcaption>
 &lt;p>Screenshot of the &lt;a href="https://lenape-timetree-dev.onrender.com/">latest developmentversion of the Lenape Timetree&lt;/a>, showing the leaves organized and more clearly separated by branch&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Mar 13 - Mar 24, 2023</title><link>/blog/2023/03/27/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/27/</guid><description>
 &lt;img src="/blog/2023/03/27/featured-lenape-timetree-visual-debug_hue534a4a08b2103be603548c3311a58ab_433041_640x0_resize_catmullrom_3.png" width="640" height="487"/>
 &lt;p>This iteration we were able to focus entirely on the Lenape Timetree project. We continued with significant progress on the design work. On the implementation side, we made progress on network layout adjustments, a new visual debug mode to help understand and improve the layout, and some visual cleanup. Design rolling velocity is &lt;strong>11.7&lt;/strong>; development rolling velocity is &lt;strong>5.7&lt;/strong> but only 1 point and 3 development issues were closed, in part due to partial team stafing during the iteration.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-timetree-visual-debug.png"
-alt="Screenshot showing Lenape Timetree with visual debug mode turned on"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/03/27/featured-lenape-timetree-visual-debug.png"
+alt="Screenshot showing Lenape Timetree with visual debug mode turned on"/> &lt;figcaption>
 &lt;p>Screenshot showing Lenape Timetree with visual debug mode turned on&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Feb 27 - Mar 10, 2023</title><link>/blog/2023/03/13/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><guid>/blog/2023/03/13/</guid><description>
@@ -84,8 +109,9 @@ alt="Screenshot showing Lenape Timetree with visual debug mode turned on"/>&lt;f
 &lt;p>In this iteration, PPA 3.9 was released, which includes a major improvement to search functionality so that similar works or reprints are clustered by default (the relevant functionality was tested and accepted the previous iteration). On the Lenape Timetree project, major design issues were accomplished for tag and leaf interactions. We also completed the first-pass implementation on the active leaf styles, hover interactions for corresponding leaf and labels, and url behavior that makes it possible to bookmark the tree with a specific leaf showing. We also contributed to some small bugfixes and a major indexing speed improvement for the Geniza project — work that was previously left in-progress, and benefited from a recent discovery made while working on PPA that made it possible to optimize the database queries used for bulk indexing (indexing all Geniza documents went from somewhere around 20-30 minutes to ~2 minutes.)&lt;/p>
 &lt;p>Our rolling development velocity is stable, at &lt;strong>7 points&lt;/strong>, but this is due to the large number of points closed in the previous iteration when we completed the PPA search clustering functionality. We only completed &lt;strong>4 points&lt;/strong> of development work in the current iteration. The design velocity is on an upward trend, with two very productive iterations in a row, reflecting the substantial amount of design progress on the Lenape Timetree project in recent weeks.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-active-leaf-style.png"
-alt="Screenshot of the Lenape Timetree showing active leaf style"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/03/13/featured-lenape-active-leaf-style.png"
+alt="Screenshot of the Lenape Timetree showing active leaf style"/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree showing active leaf style&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Feb 13 - Feb 24, 2023</title><link>/blog/2023/02/27/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/27/</guid><description>
@@ -96,13 +122,15 @@ and we expect to release a new version of PPA with the functionality early this 
 &lt;p>On the Lenape Timetree project, we&amp;rsquo;ve made tremendous progress on design work for leaves in various states and other interactions, and saw some progress on improving the layout of the tree (multiline labels, adjusted leaf sizes, adjusted sizing for century bands.)&lt;/p>
 &lt;p>Because of the large PPA work that was finally completed, we closed &lt;strong>12&lt;/strong> development points for a rolling velocity of &lt;strong>6.67&lt;/strong> — up significantly from preceding iterations, but probably higher than we expect going forward.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-ppa-cluster-on-browse.png"
-alt="Screenshot of PPA archive search/browse showing clustered results."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/02/27/featured-ppa-cluster-on-browse.png"
+alt="Screenshot of PPA archive search/browse showing clustered results."/> &lt;figcaption>
 &lt;p>Screenshot of PPA archive search/browse showing clustered results.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="lenape-timetree-multiline-labels.png"
-alt="Screenshot of Lenape Timetree project, which now has multiline labels and adjusted leaf sizes."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/02/27/lenape-timetree-multiline-labels.png"
+alt="Screenshot of Lenape Timetree project, which now has multiline labels and adjusted leaf sizes."/> &lt;figcaption>
 &lt;p>Screenshot of Lenape Timetree project, which now has multiline labels and adjusted leaf sizes.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Jan 30 - Feb 10, 2023</title><link>/blog/2023/02/13/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>/blog/2023/02/13/</guid><description>
@@ -110,16 +138,18 @@ alt="Screenshot of Lenape Timetree project, which now has multiline labels and a
 &lt;p>The only project with issues closed this iteration is the Lenape Princeton Timetree. We made progress on a number of design issues, and completed features to represent the data points as leaves and embed images in leaf details. There was some progress on
 PPA to address issues found in testing, but the work was stalled with problems updating the staging site to deliver for retesting. Our rolling development velocity is &lt;strong>3.67&lt;/strong> and holding pretty steady for now around three points.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-leaves.png"
-alt="Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/02/13/featured-lenape-leaves.png"
+alt="Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data"/> &lt;figcaption>
 &lt;p>Screenshot of current development version of the Lenape Princeton Timetree, showing leaf shapes and latest leaf data&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Jan 16 - Jan 27, 2023</title><link>/blog/2023/01/30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/30/</guid><description>
 &lt;img src="/blog/2023/01/30/featured-lenape-colors-typography_hu265ad66af4bec21e1d4dad9d3a715521_381768_640x0_resize_catmullrom_3.png" width="640" height="398"/>
 &lt;p>This iteration, we completed a lot of design and development work on Lenape. We also made progress on PPA, but there is a complicated group of related features that needs a few small changes after the most recent round of testing; we hope to complete those and deliver them to production in the coming iteration. The low development velocity (&lt;strong>3 points&lt;/strong>) is consistent over the last few weeks, but significantly impacted by the amount of team member time spent on teaching for Wintersession and H+DSI.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-colors-typography.png"
-alt="Screenshot of the Lenape Timetree development site, with colors and typography implemented"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/01/30/featured-lenape-colors-typography.png"
+alt="Screenshot of the Lenape Timetree development site, with colors and typography implemented"/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree development site, with colors and typography implemented&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Warranty Report: Princeton Geniza Project</title><link>/blog/2023/01/warranty-report-princeton-geniza-project/</link><pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/warranty-report-princeton-geniza-project/</guid><description/></item><item><title>Blog: Jan 9 — Jan 13, 2023</title><link>/blog/2023/01/17-january/</link><pubDate>Tue, 17 Jan 2023 11:01:02 +0500</pubDate><guid>/blog/2023/01/17-january/</guid><description>
@@ -128,16 +158,18 @@ alt="Screenshot of the Lenape Timetree development site, with colors and typogra
 &lt;p>We made some progress on PPA and Lenape Timetree; we also completed some chores related to Ansible, including the replication playbook that has been in use in draft status for months and a task to update vault passwords due to the recent LastPass breach.&lt;/p>
 &lt;p>We also have work nearly complete enabling contractor deploy for Princeton Geniza Project. The issue is not tracked here because the pull request is still under review, but the new setup was used successfully for version 4.12 of Geniza listed below.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-tree-labels.png"
-alt="Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/01/17-january/featured-lenape-tree-labels.png"
+alt="Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves"/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree development site with preliminary labels attached to leaves&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Dec 12 — 23, 2022</title><link>/blog/2023/01/17-december/</link><pubDate>Tue, 17 Jan 2023 11:01:00 +0500</pubDate><guid>/blog/2023/01/17-december/</guid><description>
 &lt;img src="/blog/2023/01/17-december/featured-lenape-select-leaf_hu5c167c8ca3f1eb09a0f1148309fd88b3_239070_640x0_resize_catmullrom_3.png" width="640" height="417"/>
 &lt;p>We fixed a couple of bugs on Princeton Geniza Project and tagged deployed a micro release to get the fixes into production. We also made some progress on the Lenape Timetree project. It isn&amp;rsquo;t reflected in the closed issues listed below, but we did make significant progress on PPA development work; we simply were not able to deliver for testing or close the issues.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-lenape-select-leaf.png"
-alt="Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2023/01/17-december/featured-lenape-select-leaf.png"
+alt="Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf."/> &lt;figcaption>
 &lt;p>Screenshot of the Lenape Timetree preliminary development site (largely unstyled) showing details for a single selected leaf.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Looking back at 2022 — all Geniza, all the time</title><link>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>/blog/2023/01/looking-back-at-2022-all-geniza-all-the-time/</guid><description>
@@ -155,8 +187,9 @@ alt="Screenshot of the Lenape Timetree preliminary development site (largely uns
 &lt;p>We completed a couple of bug fixes, two of which were introduced in the last release. Hopefully we can release a micro update with those bug fixes and get them out to production soon.&lt;/p>
 &lt;p>&lt;em>Note:&lt;/em> starting this iteration, we&amp;rsquo;re adding a new ignored tag, &lt;code>performant&lt;/code>. Issues with this label will be included in the list of closed issues but ignored when summarizing work completed and calculating velocity, since that work is being completed by a contractor and not done by this team.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_lenape-timetree-leaves-graph.png"
-alt="Screenshot of the draft Lenape timetree site showing the leaves algorithmically laid out using a network and d3.js forces"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/12/12/featured_lenape-timetree-leaves-graph.png"
+alt="Screenshot of the draft Lenape timetree site showing the leaves algorithmically laid out using a network and d3.js forces"/> &lt;figcaption>
 &lt;p>Screenshot of the draft Lenape timetree site showing the leaves algorithmically laid out using a network and d3.js forces&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Nov 14 - Nov 25, 2022</title><link>/blog/2022/11/28/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/28/</guid><description>
@@ -169,18 +202,21 @@ completed &lt;strong>12&lt;/strong> development points for a rolling velocity of
 &lt;p>We released version &lt;strong>4.11&lt;/strong> with a few search improvements needed to decommission PGPv3 and completed work on dataset exports which will be the basis for published datasets from the project data. We also setup Zenodo sync for the codebase, registering a DOI and adding a citation file to make the code more citable.&lt;/p>
 &lt;p>We also have a large number of old issues that were closed thanks to some work from PGP project managers going through and reviewing — some of them have already been addressed, others are duplicates, and others are no longer priorities.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_pgp-metadata-flatviewer.png"
-alt="Princeton Geniza Project documents data export displayed in Flat GitHub&amp;amp;rsquo;s Flat viewer."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/featured_pgp-metadata-flatviewer.png"
+alt="Princeton Geniza Project documents data export displayed in Flat GitHub&amp;amp;rsquo;s Flat viewer."/> &lt;figcaption>
 &lt;p>Princeton Geniza Project &lt;a href="https://flatgithub.com/princetongenizalab/pgp-metadata?filename=data%2Fdocuments.csv&amp;amp;sha=549836002cd41abf84e61829439b7b4bf3505af0">documents data export displayed in Flat GitHub&amp;rsquo;s Flat viewer&lt;/a>.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="pgp-metadata-commits.png"
-alt="Princeton Geniza Project metadata repository showing commit history with co-author information."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/pgp-metadata-commits.png"
+alt="Princeton Geniza Project metadata repository showing commit history with co-author information."/> &lt;figcaption>
 &lt;p>Princeton Geniza Project metadata repository showing &lt;a href="https://github.com/princetongenizalab/pgp-metadata/commits/main">commit history with co-author information&lt;/a>.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="pgp-description-bigram-search.png"
-alt="Princeton Geniza Project search showing partial word searching on document descriptions."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/pgp-description-bigram-search.png"
+alt="Princeton Geniza Project search showing partial word searching on document descriptions."/> &lt;figcaption>
 &lt;p>Princeton Geniza Project search showing &lt;a href="https://geniza.princeton.edu/en/documents/?q=al-fad">partial word searching on document descriptions&lt;/a>.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
@@ -212,8 +248,9 @@ but didn&amp;rsquo;t close any issues on those projects in the past iteration.&l
 &lt;p>Our rolling development velocity is &lt;strong>15&lt;/strong> but only &lt;strong>3&lt;/strong> development points
 for this iteration; we expect velocity to go down now that we&amp;rsquo;re not working on
 the Geniza project.&lt;/p>
-&lt;figure>&lt;img src="featured-pgp-partialsearch.png"
-alt="Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/10/31/featured-pgp-partialsearch.png"
+alt="Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##"/> &lt;figcaption>
 &lt;p>Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Oct 4 - Oct 15, 2022</title><link>/blog/2022/10/18/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/18/</guid><description>
@@ -241,13 +278,15 @@ for a month.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/princetongenizalab/pgp-text">PGP transcription export&lt;/a> — browse the transcription content synchronized from the application, in annotation format and compiled into html and text&lt;/li>
 &lt;/ul>
-&lt;figure>&lt;img src="featured_pgp_transcription_editor.png"
-alt="Screenshot of transcription editor on the Princeton Geniza Project site"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/10/18/featured_pgp_transcription_editor.png"
+alt="Screenshot of transcription editor on the Princeton Geniza Project site"/> &lt;figcaption>
 &lt;p>Screenshot of transcription editor on the Princeton Geniza Project site&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="https://user-images.githubusercontent.com/7234006/194160646-e55abbcb-ef27-4482-b204-c19536d28091.gif"
-alt="Screen capture showing transcription with tahqiq"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="https://user-images.githubusercontent.com/7234006/194160646-e55abbcb-ef27-4482-b204-c19536d28091.gif"
+alt="Screen capture showing transcription with tahqiq"/> &lt;figcaption>
 &lt;p>Screen capture showing transcription with tahqiq&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Sep 19 - Sep 30, 2022</title><link>/blog/2022/10/03/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/03/</guid><description>
@@ -279,13 +318,15 @@ as a way of prototyping and proposing a data model and site structure.&lt;/p>
 &lt;h2 id="other-releases">Other releases&lt;/h2>
 &lt;p>We released a bugfix for the CDH website that was needed to help with freshening the site for thef all semester. We also released PPA version 3.8, with extended Gale/ECCO functionality.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-reorder-images.png"
-alt="Screenshot showing the Geniza project image re-ordering feature in action"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images.png"
+alt="Screenshot showing the Geniza project image re-ordering feature in action"/> &lt;figcaption>
 &lt;p>Screenshot showing the Geniza project image re-ordering feature in action&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="shxco_footer.png"
-alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/09/19/shxco_footer.png"
+alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/> &lt;figcaption>
 &lt;p>Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;rsquo;s ISSN&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
@@ -300,8 +341,9 @@ alt="Screenshot of revised Shakespeare and Company Project showing the revised f
 &lt;h2 id="sco">S&amp;amp;co&lt;/h2>
 &lt;p>We squeezed in two very minor updates to the Shakespeare and Company site; we hope these also will be released and deployed early this iteration.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-cdh-affiliates.png"
-alt="Affiliates page on the CDH website, which now includes Humanities &amp;#43; Data Science Institute instructors and participants"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/09/06/featured-cdh-affiliates.png"
+alt="Affiliates page on the CDH website, which now includes Humanities &amp;#43; Data Science Institute instructors and participants"/> &lt;figcaption>
 &lt;p>&lt;a href="https://cdh.princeton.edu/people/affiliates/">Affiliates page on the CDH website&lt;/a>, which now includes Humanities + Data Science Institute instructors and participants&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Aug 8 - Aug 19, 2022</title><link>/blog/2022/08/22/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/22/</guid><description>
@@ -318,13 +360,15 @@ excerpt support for Gale/ECCO works, and data improvements that were delayed pen
 &lt;li>created a new organization-wide GitHub template for our team software release checklist (previously tracked as a template task in Asana)&lt;/li>
 &lt;/ul>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-nondocument-image.png"
-alt="Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/08/22/featured-geniza-nondocument-image.png"
+alt="Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document"/> &lt;figcaption>
 &lt;p>Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza-lightdark-toggle.gif"
-alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle in action"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/08/22/geniza-lightdark-toggle.gif"
+alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle in action"/> &lt;figcaption>
 &lt;p>Screen capture of Princeton Geniza Project showing light/dark mode toggle in action&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
@@ -337,8 +381,9 @@ alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle i
 &lt;h2 id="ppa">PPA&lt;/h2>
 &lt;p>We started ramping back up on PPA development work this iteration, beginning with some python package updates and a few small chores.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-sw3-home-es.png"
-alt="Screenshot of Startwords home page in Spanish with Issue 3 published"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/08/15/featured-sw3-home-es.png"
+alt="Screenshot of Startwords home page in Spanish with Issue 3 published"/> &lt;figcaption>
 &lt;p>Screenshot of Startwords home page in Spanish with Issue 3 published&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Jul 4 - Jul 22, 2022</title><link>/blog/2022/07/25/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/25/</guid><description>
@@ -346,13 +391,15 @@ alt="Screenshot of Startwords home page in Spanish with Issue 3 published"/>&lt;
 &lt;p>This iteration we completed implementation of the MVP for the new image + transcription viewing panel on the document details page on the Princeton Geniza Project site. Specific features completed include image zoom controls (zoom is no longer enabled by default, which resolves some accessibility problems and avoids making the zoom a scroll trap) and switching between editions when a document has more than one transcription. We also completed work on a revised tag style, a change which was needed to properly handle accessibility checks and making sure that tags are always big enough tap targets. Although we completed the MVP functionality for the new viewer, we were delayed with releasing it to the production site due to a change in the interim transcription format and problems synchronizing transcriptions for documents with more than one edition, which requires data work to resolve.&lt;/p>
 &lt;p>We completed 7 points of development work (10 issues) for a rolling velocity of 9.3; design work was impacted by staff unavailability.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_geniza_itt.png"
-alt="Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/07/25/featured_geniza_itt.png"
+alt="Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls."/> &lt;figcaption>
 &lt;p>Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza_new_tag.png"
-alt="Screenshot of Princeton Geniza Project search results with revised tag styles."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/07/25/geniza_new_tag.png"
+alt="Screenshot of Princeton Geniza Project search results with revised tag styles."/> &lt;figcaption>
 &lt;p>Screenshot of Princeton Geniza Project search results with revised tag styles.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Jun 7 - Jun 18, 2022</title><link>/blog/2022/06/21/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/21/</guid><description>
@@ -363,13 +410,15 @@ alt="Screenshot of Princeton Geniza Project search results with revised tag styl
 &lt;h2 id="startwords">Startwords&lt;/h2>
 &lt;p>We finished work on the new authors list page, adjusted the footer to add a link to the authors page, and completed a few other small style-related changes.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_geniza_datesortfilter.png"
-alt="Screenshot of Princeton Geniza Project search page with document date filter and sort options."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter.png"
+alt="Screenshot of Princeton Geniza Project search page with document date filter and sort options."/> &lt;figcaption>
 &lt;p>Screenshot of Princeton Geniza Project search page with document date filter and sort options.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="startwords-authors.png"
-alt="Screenshot of Startwords author list page."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/06/21/startwords-authors.png"
+alt="Screenshot of Startwords author list page."/> &lt;figcaption>
 &lt;p>Screenshot of Startwords author list page.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: May 23 - Jun 3, 2022</title><link>/blog/2022/06/06/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/06/</guid><description>
@@ -382,8 +431,9 @@ alt="Screenshot of Startwords author list page."/>&lt;figcaption>
 &lt;h2 id="cdh-ansible">cdh-ansible&lt;/h2>
 &lt;p>A small improvement in our project deploy scripts, suggested by PUL staff, resulted in a huge improvement in the time it takes to deploy projects, by configuring the deploy scripts to skip one-time setup tasks by default.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured_startwords-textshadows.png"
-alt="Screenshot of the development version of Startwords showing the newly redesigned and reimplemented text shadows and three-feature essay layout."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/06/06/featured_startwords-textshadows.png"
+alt="Screenshot of the development version of Startwords showing the newly redesigned and reimplemented text shadows and three-feature essay layout."/> &lt;figcaption>
 &lt;p>Screenshot of the development version of &lt;em>Startwords&lt;/em> showing the newly redesigned and reimplemented text shadows and three-feature essay layout.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: 2022 Q3 Schedule</title><link>/blog/2022/05/2022-q3-schedule/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/2022-q3-schedule/</guid><description/></item><item><title>Blog: May 2 - May 13, 2022</title><link>/blog/2022/05/16/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/16/</guid><description>
@@ -399,18 +449,22 @@ alt="Screenshot of the development version of Startwords showing the newly redes
 &lt;h2 id="startwords">Startwords&lt;/h2>
 &lt;p>We finalized designs for the new author list and linking to the author page in the footer, and completed testing on issues for reading articles and issues in translation and toggling between languages. We delivered a draft version of Issue 3 to the contributors with their revisions, so we are getting closer to publishing this issue.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-geniza-doc-details.png"
-alt="Screenshot of revised document details page"/>&lt;figcaption>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/featured-geniza-doc-details.png"
+alt="Screenshot of revised document details page"/> &lt;figcaption>
 &lt;p>Screenshot of revised document details page&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza-sort-options.png"
-alt="Screenshot of document search with new sorts and filters"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/geniza-sort-options.png"
+alt="Screenshot of document search with new sorts and filters"/> &lt;figcaption>
 &lt;p>Screenshot of document search with new sorts and filters&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza-image-rights.png"
-alt="Screenshot of revised image rights and permalink on document details page"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/geniza-image-rights.png"
+alt="Screenshot of revised image rights and permalink on document details page"/> &lt;figcaption>
 &lt;p>Screenshot of revised image rights and permalink on document details page&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -418,16 +472,18 @@ alt="Screenshot of revised image rights and permalink on document details page"/
 &lt;img src="/blog/2022/04/18/featured-startwords-multilingual_hu323df8a84995277b79811538ff69610f_256815_640x0_resize_catmullrom_3.png" width="640" height="382"/>
 &lt;p>This iteration we made progress on the remaining multilingual functionality and other features needed to publish &lt;em>Startwords&lt;/em> issue 3. We didn&amp;rsquo;t close a lot of points on the Geniza project because the major work going on at this point is prototyping and beginning to implement the new transcription functionality, and sketching out design ideas for the public display and interaction of images with transcription and translation content. Our rolling development velocity is &lt;strong>4.67&lt;/strong>, due to the low number of points completed in the last two iterations (3, 4). We expect this to pick up once we move out of the transcription prototyping phase and finish work on the Startwords issue.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-startwords-multilingual.png"
-alt="Screenshot of Startwords development site with multilingual functionality: translated navigation and paratext, available language indicators"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/04/18/featured-startwords-multilingual.png"
+alt="Screenshot of Startwords development site with multilingual functionality: translated navigation and paratext, available language indicators"/> &lt;figcaption>
 &lt;p>Screenshot of Startwords development site with multilingual functionality: translated navigation and paratext, available language indicators&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Mar 21 - Apr 1, 2022</title><link>/blog/2022/04/04/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/04/</guid><description>
 &lt;img src="/blog/2022/04/04/featured-startwords-issue-langs_hu4c7ef2aa063be4f046914b1e883493b9_94528_640x0_resize_catmullrom_3.png" width="640" height="347"/>
 &lt;p>This iteration we worked on needed functionality for &lt;em>Startwords&lt;/em> Issue 3, and made more progress prototyping and testing functionality for a transcription solution for the Geniza project. Because much of the development work consisted of chores, exploratory or prototyping, our iteration velocity and rolling velocity are both fairly low. We did make significant progress with Design work, both for Geniza and Startwords.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-startwords-issue-langs.png"
-alt="Screenshot of Startwords issue list, which now includes indicators for available languages."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/04/04/featured-startwords-issue-langs.png"
+alt="Screenshot of Startwords issue list, which now includes indicators for available languages."/> &lt;figcaption>
 &lt;p>Screenshot of &lt;em>Startwords&lt;/em> issue list, which now includes indicators for available languages.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -439,8 +495,9 @@ alt="Screenshot of Startwords issue list, which now includes indicators for avai
 &lt;p>This iteration our focus again was solely on the Geniza project. We put out a bug-fix release early in the iteration to address several highly noticeable problems that were identified by various members of the team, and then a feature release with new functionality, most notably implementing Turbo and Stimulus to make the document search more responsive and load changes more quickly. We also made some small changes to the document details page, including displaying primary and secondary languages, linking to other documents on the same fragments, and moving secondary metadata lower on the page.&lt;/p>
 &lt;p>Our development rolling velocity is steady at &lt;strong>13 points&lt;/strong>, although this iteration we only closed &lt;strong>7&lt;/strong> story points. However, that&amp;rsquo;s in line with what we should expect, since it was effectively a half iteration in terms of developer staffing.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-document-detail.png"
-alt="Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/03/21/featured-document-detail.png"
+alt="Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent."/> &lt;figcaption>
 &lt;p>Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Feb 21 - Mar 4, 2022</title><link>/blog/2022/03/07/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/07/</guid><description>
@@ -451,18 +508,21 @@ alt="Updates to document details page, including language, links to other docume
 &lt;h2 id="startwords">Startwords&lt;/h2>
 &lt;p>This iteration we made some small progress on design and infrastructure updates needed for Issue 3.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-filters.png"
-alt="Geniza search filters expanded on desktop, with one selected."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/featured-geniza-filters.png"
+alt="Geniza search filters expanded on desktop, with one selected."/> &lt;figcaption>
 &lt;p>Geniza search filters expanded on desktop, with one selected.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza-active-filter-icon.png"
-alt="Geniza active filter icon, to indicate when search filters are applied."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/geniza-active-filter-icon.png"
+alt="Geniza active filter icon, to indicate when search filters are applied."/> &lt;figcaption>
 &lt;p>Geniza active filter icon, to indicate when search filters are applied.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="geniza-favicon.png"
-alt="Geniza browser tab &amp;amp;amp; bookmark icon"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/geniza-favicon.png"
+alt="Geniza browser tab &amp;amp;amp; bookmark icon"/> &lt;figcaption>
 &lt;p>Geniza browser tab &amp;amp; bookmark icon&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Feb 7 - Feb 18, 2022</title><link>/blog/2022/02/21/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/21/</guid><description>
@@ -476,13 +536,16 @@ alt="Geniza browser tab &amp;amp;amp; bookmark icon"/>&lt;figcaption>
 &lt;/ul>
 &lt;p>Our rolling velocity for development is &lt;strong>13&lt;/strong> points; this iteration we completed 19 points (16 issues).&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-pgp-logotype.png"
-alt="Completed designs for new PGP logo and logotype"/>&lt;figcaption>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/02/21/featured-pgp-logotype.png"
+alt="Completed designs for new PGP logo and logotype"/> &lt;figcaption>
 &lt;p>Completed designs for new PGP logo and logotype&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="pgp-search-images.png"
-alt="Screenshot showing PGP search results with image thumbnails"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/02/21/pgp-search-images.png"
+alt="Screenshot showing PGP search results with image thumbnails"/> &lt;figcaption>
 &lt;p>Screenshot showing PGP search results with image thumbnails&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -492,18 +555,22 @@ alt="Screenshot showing PGP search results with image thumbnails"/>&lt;figcaptio
 &lt;p>We closed &lt;strong>24&lt;/strong> development issues this iteration, but only completed &lt;strong>8&lt;/strong> story points — likely because much of our focus was on finishing implementing visual designs, fixing bugs, and finishing chores in preparation for this release. Our rolling development velocity is 20 points, due to the huge iteration in December and the fact that we&amp;rsquo;re no longer counting the zero-point iteration around Thanksgiving.&lt;/p>
 &lt;p>The mep-django releases were related to publication of the 1.2 version of the Shakespeare and Company Project datasets, which were published on Princeton&amp;rsquo;s DataSpace on January 31st.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>&lt;figure>&lt;img src="featured-404-error.png"
-alt="Geniza 404 Not Found error page"/>&lt;figcaption>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/featured-404-error.png"
+alt="Geniza 404 Not Found error page"/> &lt;figcaption>
 &lt;p>Geniza 404 Not Found error page&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="500-error.png"
-alt="Geniza 500 Server Error page"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/500-error.png"
+alt="Geniza 500 Server Error page"/> &lt;figcaption>
 &lt;p>Geniza 500 Server Error page&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="credits.png"
-alt="Geniza credits page, showing content page styles"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/credits.png"
+alt="Geniza credits page, showing content page styles"/> &lt;figcaption>
 &lt;p>Geniza credits page, showing content page styles&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -513,8 +580,9 @@ alt="Geniza credits page, showing content page styles"/>&lt;figcaption>
 &lt;p>Our focus continues to be exclusively on Geniza, as we work closer and closer to completing the initial MVP that will be made public. We made tremendous progress on completing design work for site visuals, implementing the designs, finishing some of the final remaining functionality, and resolving a number of small bugs and chores that needed to be addressed.&lt;/p>
 &lt;p>We closed 21 development issues, for a total of 11 story points and a rolling velocity of 17.3.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-search.png"
-alt="Geniza search page, showing the implementation of new site visuals and colors"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2022/01/31/featured-geniza-search.png"
+alt="Geniza search page, showing the implementation of new site visuals and colors"/> &lt;figcaption>
 &lt;p>Geniza search page, showing the implementation of new site visuals and colors&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Dec 6 - Dec 31, 2022</title><link>/blog/2022/01/04/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/04/</guid><description>
@@ -550,26 +618,9 @@ when most of the team was out. During this iteration, we published &lt;a href="h
 &lt;h2 id="startwords">startwords&lt;/h2>
 &lt;p>Startwords is not scheduled for active development until next iteration, but as we identified and addressed one small item that was determined to be helpful for editing and publication prep; in this case, so the editors could give contributors a preview of how their revised essay might be presented on the site.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-kwic.png"
-alt="Screenshot of the Geniza search interface showing matching search terms in context in the document description"/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/blog/2021/11/08/featured-geniza-kwic.png"
+alt="Screenshot of the Geniza search interface showing matching search terms in context in the document description"/> &lt;figcaption>
 &lt;p>Screenshot of the Geniza search interface showing matching search terms in context in the document description&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Oct 11 - Oct 22, 2021</title><link>/blog/2021/10/25/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/blog/2021/10/25/</guid><description>
-&lt;img src="/blog/2021/10/25/featured-derrida-archive-banner_hue2d9c0845a5a26ef49287aa91a87af47_1434552_640x0_resize_catmullrom_3.png" width="640" height="403"/>
-&lt;p>This iteration we closed 9 development issues but had zero points, because those issues were all chores and bugs. Our rolling velocity is &lt;strong>5.67&lt;/strong> but should pick up as we gain momentum on geniza work, especially since we&amp;rsquo;ve added contractor developers to help out.&lt;/p>
-&lt;p>We had a &lt;strong>cdh web&lt;/strong> bugfix release that addressed two bugs, and a &lt;strong>derrida&lt;/strong> release with the code for the final data exports. We&amp;rsquo;re ramping up on &lt;strong>geniza&lt;/strong> work for the fall, which is reflected in the number of issues closed, including some frontend setup work, planning, and progress on design for content pages and document detail page.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-derrida-archive-banner.png"
-alt="Screenshot of preliminary Derrida&amp;amp;rsquo;s Margins archive site with read-only banner"/>&lt;figcaption>
-&lt;p>Screenshot of preliminary Derrida&amp;rsquo;s Margins archive site with read-only banner&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Sep 27 - Oct 8, 2021</title><link>/blog/2021/10/11/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate><guid>/blog/2021/10/11/</guid><description>
-&lt;img src="/blog/2021/10/11/featured-geniza-darkmode_huae789e660e93d1b28032acb9e191836d_156320_640x0_resize_catmullrom_3.png" width="640" height="304"/>
-&lt;p>We closed a rather small number of issues this iteration (5 development issues, 3 points) bringing our rolling velocity down a bit to &lt;strong>6.33&lt;/strong>. This is likely because our efforts were directed elsewhere; notably on completing the Geniza year 2 charter, which has now been finalized and signed.&lt;/p>
-&lt;p>We made some progress closing out in-progress frontend development work on Geniza, finished the last set of updates on the Derrida data exports, and also released a bugfix for CDH web. (The bug is not listed below because it was reopened when we discovered the problem had only been partially solved.)&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>&lt;img src="featured-geniza-darkmode.png"
-alt="Screenshot of the latest style updates on the Geniza document search, including setup for dark mode"/>&lt;figcaption>
-&lt;p>Screenshot of the latest style updates on the Geniza document search, including setup for dark mode&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>

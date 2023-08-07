@@ -1,9 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Story Points</title><link>/docs/story-points/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/story-points/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Story Points</title><link>/docs/story-points/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/story-points/</guid><description>
 &lt;p>Story points are an arbitrary measure of complexity used to calculate and project team velocity. They are not meant to correspond to a measure of time or difficulty. Estimation is typically done as a team, and talking though upcoming features in order to estimate them is a valuable exercise. It gives everyone familiarity with the work that&amp;rsquo;s planned, and gives team members a chance to ask questions and remind each other about the steps involved or potential problems.&lt;/p>
 &lt;p>It’s typical to use the Fibonacci sequence for estimates: the bigger something is, the less we know, and it’s not worth quibbling over whether something is an 8 or a 9: it’s just big. An estimate over 5 is usually a sign that the task is too big and should be broken down into smaller parts.&lt;/p>
 &lt;p>Story points are used to calculate team &lt;strong>velocity&lt;/strong>; the team&amp;rsquo;s velocity is based on an average of the points for tested and accepted stories over the last three iterations. We use the rolling velocity to determine the appropriate amount of work to take on in the next iteration. Story points should &lt;em>never&lt;/em> be used to track individual team member productivity.&lt;/p>
-&lt;figure>&lt;img src="/featured-background.jpg"
-alt="When we estimate in person, we use planning poker cards. Photo by Nick Budak."/>&lt;figcaption>
+&lt;figure>
+&lt;img src="/featured-background.jpg"
+alt="When we estimate in person, we use planning poker cards. Photo by Nick Budak."/> &lt;figcaption>
 &lt;p>When we estimate in person, we use planning poker cards. Photo by Nick Budak.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
