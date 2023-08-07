@@ -105,8 +105,15 @@
 	.risk {
 		background-color: #fcd030;
 		&.partial {
-			background-color: rgba(252, 208, 48, 0.5);					
-		}	
+			background-color: rgba(252, 208, 48, 0.5);
+		}
+	}
+
+	.geotaste {
+		background-color:rgba(64, 176, 166, 0.7);
+		&.partial {
+			background-color: rgba(64, 176, 166, 0.4);
+		}
 	}
 
 }
