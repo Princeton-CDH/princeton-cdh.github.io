@@ -2960,21 +2960,33 @@
         "projects": [
             "risk",
             "cdh-web",
-            "geotaste"
+            "geotaste",
+            "startwords"
         ],
         "partial": [
-            "risk"
+            "risk",
+            "startwords"
         ],
         "dev": {
             "points": 0,
+            "issues": 4,
             "velocity": 4.0
         },
         "design": {
             "points": 0,
+            "issues": 1,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "geniza": 1,
+            "lenape-timetree": 2,
+            "cdh-web": 2
+        },
+        "project_points": {
+            "geniza": 0,
+            "lenape-timetree": 0,
+            "cdh-web": 0
+        }
     },
     {
         "from": "2023-08-21",
@@ -2988,6 +3000,11 @@
         "partial": [
             "risk"
         ],
+        "notes": {
+            "startwords": [
+                "essays due"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 1.33
@@ -3012,6 +3029,12 @@
             "risk",
             "geotaste"
         ],
+        "notes": {
+            "startwords": [
+                "",
+                "Begin production"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -3028,13 +3051,17 @@
         "to": "2023-09-28",
         "projects": [
             "risk",
-            "startwords",
             "geotaste"
         ],
         "partial": [
             "risk",
             "geotaste"
         ],
+        "notes": {
+            "startwords": [
+                "Publish Issue 4"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 0.0
@@ -3053,6 +3080,15 @@
             "risk",
             "derrida"
         ],
+        "notes": {
+            "risk": [
+                "",
+                "assess simulations"
+            ],
+            "derrida": [
+                "finish archiving"
+            ]
+        },
         "dev": {
             "points": 0,
             "velocity": 0.0
