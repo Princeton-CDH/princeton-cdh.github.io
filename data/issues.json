@@ -1371,7 +1371,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/150",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-08-15T00:10:09Z",
     "labels": [
       "awaiting testing"
     ],
@@ -2849,7 +2849,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/297",
     "estimate": 0,
-    "closed": null,
+    "closed": "2023-08-15T00:01:53Z",
     "labels": [
       "awaiting testing"
     ],
@@ -3649,7 +3649,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/391",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T23:37:08Z",
     "labels": [
       "bug",
       "awaiting testing"
@@ -3659,8 +3659,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "Backlog"
+      "Backlog",
+      "Review/QA"
     ]
   },
   {
@@ -3802,6 +3802,21 @@
     "pipeline": [
       "Icebox",
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content editor, I would like to add event cards as child pages under event content pages.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/419",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
     ]
   },
   {
@@ -7436,11 +7451,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1012",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-16T16:49:14Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Icebox"
     ]
@@ -8604,6 +8622,9 @@
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "Icebox"
     ]
@@ -10118,9 +10139,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1352",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-08-16T16:21:49Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -10154,7 +10174,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1354",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-16T14:50:06Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
@@ -10300,7 +10320,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1365",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-16T15:35:55Z",
     "labels": [
       "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
@@ -10329,7 +10349,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10398,8 +10418,8 @@
     "issue": "Design the public site date filter so that there is an option to exclude inferred dates from the search results.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1372",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-08-16T16:16:55Z",
     "labels": [
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
@@ -10432,9 +10452,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1374",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-16T15:36:21Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -10453,7 +10472,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10545,12 +10564,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1382",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-08-16T16:26:27Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Review/QA"
     ]
@@ -10560,10 +10581,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1384",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T00:35:44Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10578,8 +10598,8 @@
     "issue": "Design public site search filter so that users can filter by language of translation (Hebrew and English)",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1385",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-08-16T16:21:12Z",
     "labels": [
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
@@ -10676,10 +10696,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1394",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T01:04:36Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10732,7 +10751,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10740,7 +10759,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "Development Complete"
     ]
   },
   {
@@ -10774,10 +10793,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1400",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T01:18:30Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10793,10 +10811,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1401",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T01:19:00Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10804,7 +10821,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -10865,7 +10882,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10873,7 +10890,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -10929,10 +10946,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1413",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T01:31:06Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10977,10 +10993,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1420",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-14T01:46:58Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10996,9 +11011,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1424",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-08-16T15:36:53Z",
     "labels": [
-      "\ud83d\udcac awaiting review",
       "\ud83d\udd52\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -11052,9 +11066,11 @@
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -11138,6 +11154,39 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "Development Complete"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want a \"no language\" option when entering source languages (with help text) for unpublished transcriptions because the language will automatically be determined by the document languages already present on the doc detail pages.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1442",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Design a detail page for places so users can learn more about the place and people and documents related to it",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1443",
+    "estimate": 1,
+    "closed": "2023-08-16T16:31:56Z",
+    "labels": [
+      "\ud83d\udd52\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
@@ -13001,11 +13050,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/37",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-08-16T16:50:03Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Icebox"
     ]
@@ -17226,11 +17278,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/89",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-16T16:49:51Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
+    "assignees": [
+      "gissoo"
+    ],
     "pipeline": [
       "Icebox"
     ]
@@ -18638,6 +18693,32 @@
     ]
   },
   {
+    "issue": "August MVP",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/58",
+    "estimate": 5,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
+    ]
+  },
+  {
+    "issue": "Better landmark labels/tooltips \u2013 match to website \u2014",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/59",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
     "issue": "Write README instructions for running geotaste as dash app",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/6",
@@ -18655,6 +18736,136 @@
     ]
   },
   {
+    "issue": "labels of people names need to be rethought \u2013 translucent boxes/colours given new backmap?",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/60",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "filter 2 should not automatically expand",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/61",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Type in range for birth year and other \u201crange\u201d filters",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/62",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "Global \u201cclear\u201d/reset button OR Show all / reset button",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/63",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "One Star"
+    ]
+  },
+  {
+    "issue": "Welcome popup message in the style of SC landing page: Shakespeare and Company Project Lab / Experiment 1: Geography of Taste\u201d + brief instructions about filters",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/64",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "[FK] the filter tabs are slightly broken in Firefox, they stack on top of each other when open \u2013 I can show on screenshare during meeting. May not be urgent",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/65",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Enhance raw numbers with statistics or with mean/median/mode calculations within the tab itself to make the two groups comparable",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/66",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Book filter \u2013 only showing the points where the books were borrowed \u2013 [author, title, data, num, borrows overall, member dwelling, book url]",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/67",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Arrondissement \u2013 when selecting, only show the addresses of the members who lived in the sixth and only THAT address",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/68",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Show data only shows filtered data and offers a Download CSV button \u2013 enhancement \u2013 or provide links to raw data on website",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/69",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "enhance data export scripts",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/7",
@@ -18665,6 +18876,99 @@
     "assignees": [],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "Tooltips instructional: get rid of most and then add them back as needed",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/70",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Number in each arrondissement filter instead of tooltip and ditch map for list of arrondissement",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/71",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
+    "issue": "Filter modifications: Activate filter by clicking anywhere in the territory of the space; Filter 2 converted to a \u201cNew Tab\u201d type button; \u201cFilter 1\u201d removed \u2013 everything replaced by pluses",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/72",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Use same font everywhere, normalize the sizes to be the same between labels and names",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/73",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
+    "issue": "synchronize map loading so that you don\u2019t see both layers on refresh",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/74",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "Credits page, bottom right, where (i) is \u2013 JK makes it on main site and we link to it",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/75",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "change \u201canalysis\u201d to \u201ccompare filters\u201d",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/76",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
     ]
   },
   {
