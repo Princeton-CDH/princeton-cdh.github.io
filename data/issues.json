@@ -1371,17 +1371,15 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/150",
     "estimate": 1,
-    "closed": "2023-08-15T00:10:09Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": null,
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -2849,17 +2847,15 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/297",
     "estimate": 0,
-    "closed": "2023-08-15T00:01:53Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": null,
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -3651,8 +3647,7 @@
     "estimate": "",
     "closed": "2023-08-14T23:37:08Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -3828,6 +3823,19 @@
     "labels": [],
     "milestone": "",
     "pipeline": []
+  },
+  {
+    "issue": "As a content editor, I want to include event cards as child pages under the  new content pages for an event series, so related events can be presented together.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/420",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
   },
   {
     "issue": "Typography - both fonts are not loading",
@@ -11187,6 +11195,23 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Digital translation footnote in scholarship records behaving incorrectly, excluding other footnotes on source",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1446",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -20253,7 +20278,7 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/257",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-21T19:32:45Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -35806,6 +35831,21 @@
     ]
   },
   {
+    "issue": "Design a visual language for highlighting text so that visual assets in SW4 feature can be encoded with a consistent and accessible way to identify or mark specific parts of text",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/319",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to organize articles and other content into an issue with a title and theme.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/32",
@@ -35815,6 +35855,21 @@
     "milestone": "Issue 1",
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Design a way to convey five different types of textual annotation so that readers can understand model annotations of Jingdian Shiwen",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/320",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\uddfa\ufe0f design"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
