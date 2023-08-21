@@ -176,7 +176,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         {{ range $issue := $upcoming_project_issues }}
         {{ $data.Set "status" (append ($data.Get "status") $issue.pipeline) }}
         {{ end }}
-    {{ $data.Set "status" (uniq ($data.Get "status")) }} {{/* make unique */}}
+    {{/* get unique list of statuses, but omit Icebox  */}}
+    {{ $data.Set "status" (complement (slice "Icebox") (uniq ($data.Get "status"))) }}
     <ul>
         {{ range $data.Get "status" }}
         {{ $status_issues := where $upcoming_project_issues "pipeline" "intersect" (slice .) }}
