@@ -2973,17 +2973,17 @@
             "velocity": 4.0
         },
         "design": {
-            "points": 5,
-            "issues": 4,
-            "velocity": 1.67
+            "points": 0,
+            "issues": 1,
+            "velocity": 0.0
         },
         "project_issues": {
-            "geniza": 4,
+            "geniza": 1,
             "lenape-timetree": 2,
             "cdh-web": 3
         },
         "project_points": {
-            "geniza": 5,
+            "geniza": 0,
             "lenape-timetree": 0,
             "cdh-web": 0
         }
@@ -3007,18 +3007,23 @@
         },
         "dev": {
             "points": 0,
-            "issues": 1,
+            "issues": 8,
             "velocity": 1.33
         },
         "design": {
-            "points": 0,
-            "velocity": 1.67
+            "points": 2,
+            "issues": 1,
+            "velocity": 0.67
         },
         "project_issues": {
-            "lenape-timetree": 1
+            "lenape-timetree": 1,
+            "geotaste": 7,
+            "startwords": 1
         },
         "project_points": {
-            "lenape-timetree": 0
+            "lenape-timetree": 0,
+            "geotaste": 0,
+            "startwords": 2
         }
     },
     {
@@ -3046,7 +3051,7 @@
         },
         "design": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 0.67
         },
         "project_issues": {},
         "project_points": {}
@@ -3073,7 +3078,7 @@
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 0.67
         },
         "project_issues": {},
         "project_points": {}
