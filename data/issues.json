@@ -3654,8 +3654,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog",
-      "Review/QA"
+      "Review/QA",
+      "Backlog"
     ]
   },
   {
@@ -7461,6 +7461,7 @@
     "estimate": 2,
     "closed": "2023-08-16T16:49:14Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -10890,7 +10891,6 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10898,7 +10898,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -11078,7 +11078,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -11147,7 +11147,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -11175,9 +11175,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -13077,6 +13079,7 @@
     "estimate": 1,
     "closed": "2023-08-16T16:50:03Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -17282,8 +17285,11 @@
       "performant"
     ],
     "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -17305,6 +17311,7 @@
     "estimate": 2,
     "closed": "2023-08-16T16:49:51Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -18765,7 +18772,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/60",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-24T16:16:05Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18791,7 +18798,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/62",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-25T13:31:10Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18908,7 +18915,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/70",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-22T11:43:14Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -18936,7 +18943,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/72",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-24T14:21:12Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18962,12 +18969,12 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/74",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-24T15:14:31Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Three Stars"
+      "In Progress"
     ]
   },
   {
@@ -18988,12 +18995,51 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/76",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-22T09:17:55Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
       "Three Stars"
+    ]
+  },
+  {
+    "issue": "Welcome message",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/77",
+    "estimate": "",
+    "closed": "2023-08-25T12:51:48Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Choropleth not shown on original map but to side of analysis tab",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/78",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
+    "issue": "Make tileserver/tiles local/PUL",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/79",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "One Star"
     ]
   },
   {
@@ -33514,6 +33560,72 @@
     ]
   },
   {
+    "issue": "After clicking \"Search the full archive\" from a cluster page, cluster urls aren't removed when linking to another cluster",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/544",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Preserving all parameters/filters when moving from main search to cluster search is inadvertently hiding cluster items",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/545",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Gale excerpts and articles only (not full works) show the words \"GALE url\" before DocID on item detail pages",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/546",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Help text \"Displaying x digitized works or clusters of works\" reverts to \"Displaying x digitized works\" after search",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/547",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "load partial html for page of search results via ajax",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/55",
@@ -34106,7 +34218,7 @@
     ]
   },
   {
-    "issue": "Add logic to check for converging risk attitudes",
+    "issue": "Add logic to check for converging risk attitudes for risky bet and risky food",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/13",
     "estimate": "",
@@ -34115,20 +34227,102 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
     "issue": "setup existing simulations so they can be run in colab",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/14",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "implement Hawk-Dove game with risk-attitudes",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/15",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Add model parameters and inputs to allow varying initial distribution of risk attitudes",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/18",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "batch analysis on hawk/dove with variety of single risk attitudes",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/19",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "adapt/update risk attitudes on hawk/dove simulation",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/20",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "hawk/dove convergence for single risk attitude (does % playing hawk converge over time)",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/21",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "add initial hawk odds parameter to hawk/dove simulation and make configurable",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/22",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
@@ -35776,7 +35970,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/314",
     "estimate": 2,
-    "closed": null,
+    "closed": "2023-08-22T13:49:13Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
