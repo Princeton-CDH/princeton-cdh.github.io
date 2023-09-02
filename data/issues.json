@@ -639,8 +639,9 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/60",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T21:03:40Z",
     "labels": [
+      "chore",
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "",
@@ -648,8 +649,8 @@
       "acozine"
     ],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -1371,7 +1372,7 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/150",
     "estimate": 1,
-    "closed": null,
+    "closed": "2023-08-29T03:17:15Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -1379,7 +1380,7 @@
     ],
     "pipeline": [
       "Icebox",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -2846,8 +2847,8 @@
     "issue": "As a content editor, I want an option to add formatted code to blog posts or other content pages, so I can share technical content clearly.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/297",
-    "estimate": 0,
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-08-29T03:20:23Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -2855,7 +2856,7 @@
     ],
     "pipeline": [
       "Icebox",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -3493,8 +3494,10 @@
       "enhancement"
     ],
     "milestone": "",
+    "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -3835,6 +3838,38 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want to easily look up titles when editing positions so I can find the appropriate title without scrolling through the whole list.",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/421",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "update 404 and 500 error page images",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/422",
+    "estimate": "",
+    "closed": "2023-09-01T16:44:18Z",
+    "labels": [
+      "awaiting testing",
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Review/QA"
     ]
   },
   {
@@ -10347,10 +10382,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1366",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T17:09:37Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10358,7 +10392,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -10406,7 +10440,7 @@
     ]
   },
   {
-    "issue": "As a content editor, I want a way to filter documents by date (inferred and those present on document) in the admin for enhanced csv exports",
+    "issue": "As a content editor, I want a way to filter documents by date in the admin for enhanced csv exports",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1371",
     "estimate": "",
@@ -10420,7 +10454,7 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "Development Complete"
     ]
   },
   {
@@ -10453,7 +10487,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -10638,6 +10672,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10645,7 +10680,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -10760,7 +10795,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -10891,6 +10925,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10898,7 +10933,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -11069,16 +11104,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1431",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T17:23:13Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -11137,9 +11173,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1438",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T17:27:51Z",
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -11147,7 +11184,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -11204,16 +11241,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1446",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T17:34:46Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -11226,6 +11264,55 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want an option to include inferred dates in the admin date filter, so that they are included in CSV exports from filtered results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1452",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want to record places-to-places relationship on the place page and on the document detail page, so that I can track ambiguity.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1453",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "test geniza site errors with revised PUL load balancer configuration error handling",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1455",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -17279,7 +17366,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/887",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-30T17:03:18Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -17289,7 +17376,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -18742,12 +18829,12 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/59",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-31T14:55:50Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Two stars"
+      "One Star"
     ]
   },
   {
@@ -18930,7 +19017,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/71",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-29T18:11:31Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18956,7 +19043,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/73",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-31T14:58:46Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -19021,7 +19108,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/78",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-08-29T21:17:39Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -19053,6 +19140,99 @@
     "assignees": [],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "Export/download CSV button",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/80",
+    "estimate": "",
+    "closed": "2023-08-31T15:25:14Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
+    "issue": "Bring in cleaned up author nationality",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/81",
+    "estimate": "",
+    "closed": "2023-08-29T21:28:04Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "One Star"
+    ]
+  },
+  {
+    "issue": "Data needed in table",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/82",
+    "estimate": "",
+    "closed": "2023-08-29T21:17:20Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "Borrows without addresses?",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/83",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "Clean author genders, nationalities, multiple addresses",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/84",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Data issues"
+    ]
+  },
+  {
+    "issue": "Remove bottom right legend",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/85",
+    "estimate": "",
+    "closed": "2023-09-01T14:48:05Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
+    ]
+  },
+  {
+    "issue": "Cannot clear input names",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/86",
+    "estimate": "",
+    "closed": "2023-09-01T19:02:28Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Three Stars"
     ]
   },
   {
@@ -31588,13 +31768,15 @@
     "issue": "Editorial content should have an optional field to associate and display one or more editors who contributed to the piece",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/306",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-09-01T18:02:59Z",
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -32056,14 +32238,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/355",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-01T18:10:19Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -33498,19 +33682,18 @@
     ]
   },
   {
-    "issue": "years show up in person name metadata for editorials due to limitations of snippet functionality ",
+    "issue": "As a content editor, I want a separate field to display project years of involvement on project contributor page, so I can make it clear when different people were involved.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/540",
-    "estimate": "",
-    "closed": null,
-    "labels": [
-      "bug"
-    ],
+    "estimate": 1,
+    "closed": "2023-09-01T19:47:37Z",
+    "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -33598,15 +33781,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/546",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-01T17:27:08Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Review/QA"
     ]
   },
   {
@@ -33626,6 +33810,23 @@
     ]
   },
   {
+    "issue": "Can't print more than one page of editorial essay",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/548",
+    "estimate": "",
+    "closed": "2023-09-01T17:30:21Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
     "issue": "load partial html for page of search results via ajax",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/55",
@@ -33634,6 +33835,37 @@
     "labels": [],
     "milestone": "",
     "pipeline": []
+  },
+  {
+    "issue": "As a user, I want to download a PDF and cite a published editorial so that I can deposit it or share it in a more recognized academic format.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/550",
+    "estimate": 3,
+    "closed": null,
+    "labels": [
+      "awaiting testing"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Implement different styles for images for print CSS",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/551",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
   },
   {
     "issue": "As a user, I want item titles to ignore definite articles and punctuation when sorting, so that I can find the most relevant content first.",
@@ -36062,6 +36294,23 @@
     ],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "On mobile, IIIF figures don't allow the user to scroll",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/323",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Backlog"
     ]
