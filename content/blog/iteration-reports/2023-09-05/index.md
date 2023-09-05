@@ -28,6 +28,11 @@ We also completed some ansible maintenance thanks to support from PUL, completed
 
 
 ## Demos
+
+{{< figure src="featured_geotaste_comparison.png" caption="Screenshot of GeoTaste showing a filtered comparison view">}}
+
+{{< figure src="geotaste_arrondissement_report.png" caption="Screenshot of GeoTaste showing a report on statisically different arrondissements">}}
+
 * [Simulating Risk notebooks for running simulations in Colab](https://github.com/Princeton-CDH/simulating-risk/tree/main/notebooks) (To run, click on one of the simulation notebooks, then open in Colab.)
 
 
