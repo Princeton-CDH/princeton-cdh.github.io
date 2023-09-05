@@ -3488,7 +3488,7 @@
     "issue": "As a content editor, I want to embed images in pages that don't span the full width of the page so I can create more varied or readable page layouts.",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/376",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
       "enhancement"
@@ -3496,8 +3496,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -11107,7 +11107,7 @@
     "closed": "2023-08-30T17:23:13Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -11176,7 +11176,6 @@
     "closed": "2023-08-30T17:27:51Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -11244,7 +11243,7 @@
     "closed": "2023-08-30T17:34:46Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -19186,7 +19185,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/83",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-02T12:26:27Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -19233,6 +19232,21 @@
     "assignees": [],
     "pipeline": [
       "Three Stars"
+    ]
+  },
+  {
+    "issue": "Bug: filter tabs sometimes stack instead of horizontal",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/87",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
     ]
   },
   {
@@ -33841,10 +33855,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/550",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2023-09-05T15:15:55Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -34467,7 +34479,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/14",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-09-05T14:15:18Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -36313,6 +36325,36 @@
     ],
     "pipeline": [
       "Backlog"
+    ]
+  },
+  {
+    "issue": "Contextual notes with more than one child element have separate scroll containers ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/324",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Links in interludes have insufficient contrast",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/325",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
     ]
   },
   {

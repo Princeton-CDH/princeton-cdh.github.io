@@ -3007,7 +3007,7 @@
         },
         "dev": {
             "points": 4,
-            "issues": 28,
+            "issues": 27,
             "velocity": 2.67
         },
         "design": {
@@ -3017,11 +3017,10 @@
         },
         "project_issues": {
             "lenape-timetree": 1,
-            "geotaste": 16,
+            "geotaste": 17,
             "startwords": 1,
             "cdh-web": 3,
             "cdh-ansible": 1,
-            "geniza": 2,
             "ppa-django": 5
         },
         "project_points": {
@@ -3030,7 +3029,6 @@
             "startwords": 2,
             "cdh-web": 2,
             "cdh-ansible": 0,
-            "geniza": 0,
             "ppa-django": 2
         }
     },
@@ -3054,15 +3052,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 1.33
+            "points": 6,
+            "issues": 2,
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
             "velocity": 0.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "ppa-django": 1,
+            "simulating-risk": 1
+        },
+        "project_points": {
+            "ppa-django": 3,
+            "simulating-risk": 3
+        }
     },
     {
         "from": "2023-09-18",
@@ -3082,7 +3087,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 1.33
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
@@ -3109,7 +3114,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
