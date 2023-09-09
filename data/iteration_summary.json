@@ -3053,7 +3053,7 @@
         },
         "dev": {
             "points": 6,
-            "issues": 2,
+            "issues": 19,
             "velocity": 3.33
         },
         "design": {
@@ -3062,11 +3062,15 @@
         },
         "project_issues": {
             "ppa-django": 1,
-            "simulating-risk": 1
+            "simulating-risk": 1,
+            "geotaste": 12,
+            "startwords": 5
         },
         "project_points": {
             "ppa-django": 3,
-            "simulating-risk": 3
+            "simulating-risk": 3,
+            "geotaste": 0,
+            "startwords": 0
         }
     },
     {
