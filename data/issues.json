@@ -3496,8 +3496,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -10669,10 +10669,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1390",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-05T15:41:23Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -18629,7 +18628,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/41",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:50Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18642,7 +18641,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/42",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:47Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18694,7 +18693,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/46",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:44Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18707,7 +18706,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/48",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:39Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -18787,7 +18786,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/55",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:33Z",
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
@@ -18802,7 +18801,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/56",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:27Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18871,7 +18870,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/61",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:23Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18897,12 +18896,12 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/63",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:18Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "One Star"
+      "Two stars"
     ]
   },
   {
@@ -18910,7 +18909,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/64",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:15:14Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18949,7 +18948,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/67",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:14:58Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -18975,7 +18974,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/69",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:14:39Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -19239,7 +19238,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/87",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T19:14:21Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -34560,7 +34559,7 @@
     "issue": "add initial hawk odds parameter to hawk/dove simulation and make configurable",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/22",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "",
@@ -36152,13 +36151,16 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/309",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T13:11:14Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -36251,8 +36253,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox"
+      "Review/QA"
     ]
   },
   {
@@ -36315,7 +36320,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/323",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T12:57:50Z",
     "labels": [
       "bug"
     ],
@@ -36324,7 +36329,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -36332,7 +36337,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/324",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T14:49:55Z",
     "labels": [
       "bug"
     ],
@@ -36347,7 +36352,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/325",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-07T14:52:12Z",
     "labels": [
       "bug"
     ],
@@ -36355,6 +36360,23 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "deepzoom shortcode should support specifying a caption (optional)",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/327",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
@@ -36369,6 +36391,74 @@
     "milestone": "Issue 1",
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Add typeface and type styles for CJK characters in SW4",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/331",
+    "estimate": "",
+    "closed": "2023-09-08T16:40:45Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "implement unnatural language figure 6 styles as designed",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/332",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "address babel/polyfill deprecation warning",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/337",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "switch from pagedjs to docraptor for pdf generation",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/338",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
