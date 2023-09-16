@@ -3052,9 +3052,9 @@
             ]
         },
         "dev": {
-            "points": 6,
-            "issues": 19,
-            "velocity": 3.33
+            "points": 10,
+            "issues": 26,
+            "velocity": 4.67
         },
         "design": {
             "points": 0,
@@ -3062,15 +3062,17 @@
         },
         "project_issues": {
             "ppa-django": 1,
-            "simulating-risk": 1,
-            "geotaste": 12,
-            "startwords": 5
+            "simulating-risk": 3,
+            "geotaste": 13,
+            "startwords": 8,
+            "cdh-web": 1
         },
         "project_points": {
             "ppa-django": 3,
-            "simulating-risk": 3,
+            "simulating-risk": 7,
             "geotaste": 0,
-            "startwords": 0
+            "startwords": 0,
+            "cdh-web": 0
         }
     },
     {
@@ -3091,7 +3093,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.33
+            "velocity": 4.67
         },
         "design": {
             "points": 0,
@@ -3118,7 +3120,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
