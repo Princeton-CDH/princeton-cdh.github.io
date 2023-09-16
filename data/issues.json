@@ -3860,8 +3860,25 @@
     "estimate": "",
     "closed": "2023-09-01T16:44:18Z",
     "labels": [
-      "awaiting testing",
       "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "project thumbnails don't display on project card if project doesn't have a larger image associated",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/424",
+    "estimate": "",
+    "closed": "2023-09-12T01:46:44Z",
+    "labels": [
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -9208,9 +9225,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1221",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T14:06:40Z",
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -9218,7 +9236,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -9827,6 +9845,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -9834,7 +9853,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -10447,6 +10466,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10454,7 +10474,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -10477,7 +10497,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1373",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T14:20:34Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -10487,7 +10507,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -10512,10 +10532,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1375",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T18:10:09Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -10791,7 +10811,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1399",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T14:22:10Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -10801,7 +10821,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -10921,10 +10941,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1409",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-13T19:47:38Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -11085,9 +11104,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1429",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T18:08:30Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -11095,7 +11115,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -11204,7 +11224,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1442",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T18:11:41Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -11214,7 +11234,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -11314,6 +11334,58 @@
     ]
   },
   {
+    "issue": "As a content admin, when adding people-to-people relationships in person pages, I want an added \"ambiguity\" category to the drop down so I can clarify when people are similar/not the same.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1457",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content admin, when viewing people-to-people relationships in person pages, I want reverse relationships to be visible, so that I don't inadvertently add a relationship twice.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1458",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to be able to merge two (identical) people pages without losing any data",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1459",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a content editor, I want a preliminary version of transcription text linked to a scholarly source so that I know which documents have available transcriptions.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/146",
@@ -11323,6 +11395,55 @@
     "milestone": "0.3 Initial database and data import",
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content admin, when merging documents (for joins) I want to see image thumbnails of each document so I can be sure the join is correct.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1460",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to add related documents directly from people pages to facilitate data entry.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1461",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Data cleanup for sources of unpublished transcriptions marked with languages (must be unspecified)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1464",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "kseniaryzhova"
+    ],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -19242,6 +19363,19 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Two stars"
+    ]
+  },
+  {
+    "issue": "Slider inputs need buttons instead of responding to every change automatically -- it clogs the app",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/89",
+    "estimate": "",
+    "closed": "2023-09-11T16:06:45Z",
+    "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -28304,10 +28438,12 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -34493,14 +34629,14 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/15",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-09-14T22:31:55Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -34560,10 +34696,27 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/22",
     "estimate": 1,
+    "closed": "2023-09-14T22:32:04Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "create minimal flask app we can use to deploy interactive versions of mesa models to the sandbox server",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/24",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
       "Backlog"
     ]
@@ -36127,7 +36280,10 @@
     "labels": [
       "bug"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Icebox"
     ]
@@ -36155,7 +36311,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36186,7 +36342,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "gissoo"
     ],
@@ -36203,7 +36359,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36220,7 +36376,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "gissoo"
     ],
@@ -36237,7 +36393,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "gissoo"
     ],
@@ -36252,12 +36408,12 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA"
+      "Icebox"
     ]
   },
   {
@@ -36267,7 +36423,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [],
     "pipeline": [
       "Backlog"
@@ -36277,15 +36433,20 @@
     "issue": "Design a visual language for highlighting text so that visual assets in SW4 feature can be encoded with a consistent and accessible way to identify or mark specific parts of text",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/319",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
-    "milestone": "",
-    "assignees": [],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser",
+      "gwijthoff",
+      "gissoo"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -36304,15 +36465,20 @@
     "issue": "Design a way to convey five different types of textual annotation so that readers can understand model annotations of Jingdian Shiwen",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/320",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "awaiting review"
     ],
-    "milestone": "",
-    "assignees": [],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser",
+      "gwijthoff",
+      "gissoo"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -36324,7 +36490,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36341,7 +36507,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -36356,7 +36522,7 @@
     "labels": [
       "bug"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -36367,11 +36533,11 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/327",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-11T16:02:34Z",
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36402,7 +36568,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36415,11 +36581,11 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/332",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T16:14:21Z",
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36432,11 +36598,11 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/337",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-15T16:13:24Z",
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36453,7 +36619,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
@@ -36473,6 +36639,119 @@
     "milestone": "",
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Table shortcode should have a side-scrollable option",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/340",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Enable editor to specify position of word break for issue list page",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/341",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Enable user to specify image size smaller than full-width",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/342",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Missing spacing between intro text and feature text on homepage",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/343",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Implement the visualization for figure 3 to communicate the parallelism instances ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/345",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Implement the visualization for figure 7 that communicates the Jingdian Shiwen annotation ",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/346",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "incorporate audio for SW4 feature 1 figure 6",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/347",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
