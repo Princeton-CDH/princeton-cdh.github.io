@@ -891,19 +891,20 @@
     {
         "from": "2023-09-04",
         "to": "2023-09-14",
-        "projects": ["risk", "cdh-web", "startwords", "geotaste"],
-        "partial": ["risk", "geotaste"],
+        "projects": ["risk", "cdh-web", "startwords", "geotaste", "ppa"],
+        "partial": ["risk", "geotaste", "ppa"],
         "notes": {
-            "startwords": ["", "Begin production"]
+            "startwords": ["", "Begin production"],
+            "ppa": ["editorial improvements"]
         }
     },
     {
         "from": "2023-09-18",
         "to": "2023-09-28",
-        "projects": ["risk", "geotaste"],
+        "projects": ["risk", "geotaste", "startwords"],
         "partial": ["risk", "geotaste"],
         "notes": {
-            "startwords": ["Publish Issue 4"]
+            "startwords": ["", "Publish Issue 4"]
         }
 
     },
