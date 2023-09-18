@@ -3039,16 +3039,21 @@
             "risk",
             "cdh-web",
             "startwords",
-            "geotaste"
+            "geotaste",
+            "ppa"
         ],
         "partial": [
             "risk",
-            "geotaste"
+            "geotaste",
+            "ppa"
         ],
         "notes": {
             "startwords": [
                 "",
                 "Begin production"
+            ],
+            "ppa": [
+                "editorial improvements"
             ]
         },
         "dev": {
@@ -3080,7 +3085,8 @@
         "to": "2023-09-28",
         "projects": [
             "risk",
-            "geotaste"
+            "geotaste",
+            "startwords"
         ],
         "partial": [
             "risk",
@@ -3088,6 +3094,7 @@
         ],
         "notes": {
             "startwords": [
+                "",
                 "Publish Issue 4"
             ]
         },
