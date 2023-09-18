@@ -7,7 +7,7 @@ slug: "18"
 ---
 
 We worked across a number of different projects as we dealt with some maintenance upgrades,
-regularly scheduled work, and some work on PPA that we bumped up in priority due to external deadlines.
+regularly scheduled work, and some work on PPA that we bumped up in priority due to external deadlines.  For development work, we completed **10** points and closed 26 issues bringing up the rolling velocity slightly to **4.7**.
 
 ## GeoTaste
 
