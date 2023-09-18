@@ -1,4 +1,44 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Aug 22 - Sep 2, 2023</title><link>/blog/2023/09/05/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023/09/05/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 4 - Sep 15, 2023</title><link>/blog/2023/09/18/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023/09/18/</guid><description>
+&lt;img src="/blog/2023/09/18/featured_cdhweb_404_hua11e8b3c32a8c7468453b9c6d52902ac_283278_640x0_resize_catmullrom_3.png" width="640" height="494"/>
+&lt;p>We worked across a number of different projects as we dealt with some maintenance upgrades,
+regularly scheduled work, and some work on PPA that we bumped up in priority due to external deadlines.&lt;/p>
+&lt;h2 id="geotaste">GeoTaste&lt;/h2>
+&lt;p>Continued progress towards closing out the prototype.&lt;/p>
+&lt;h2 id="simulating-risk">Simulating Risk&lt;/h2>
+&lt;p>Completed the initial version of the new Hawk/Dove interactive game, with configurable initial hawk odds parameter.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>Prepping for publication of issue 4. We implemented the new CJK typeface needed for this issue, and completed work on some of the figures and several small issues that cropped up as we worked on this issue.&lt;/p>
+&lt;h2 id="cdh-web">CDH web&lt;/h2>
+&lt;p>We completed one more bugfix and released a minor update with some fixes and improvements tested the previous iteration. Visible updates include integration of a wagtail code formatting block and revised 404 and 500 error page images.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>PPA was not originally on the schedule, but we bumped up priority on work that was planned for later this fall in order to generate PDFs of Editorial articles. We incorporated a few other small improvements into this update.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2023/09/18/featured_cdhweb_404.png"
+alt="New 404 image for CDH website (view live version)"/> &lt;figcaption>
+&lt;p>New 404 image for CDH website (view &lt;a href="https://cdh.princeton.edu/_/">live version&lt;/a>)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2023/09/18/cdhweb_500.png"
+alt="New 500 image for CDH website (view live version)"/> &lt;figcaption>
+&lt;p>New 500 image for CDH website (view &lt;a href="https://cdh.princeton.edu/_500/">live version&lt;/a>)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2023/09/18/ppa-editorial.png"
+alt="PPA editorial improvements include editors, DOI, and link to PDF"/> &lt;figcaption>
+&lt;p>PPA editorial improvements include editors, DOI, and link to PDF&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2023/09/18/simrisk-hawkdove.png"
+alt="Screenshot of current implementation of Hawk/Dove game for Simulating Risk"/> &lt;figcaption>
+&lt;p>Screenshot of current implementation of Hawk/Dove game for Simulating Risk&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Aug 22 - Sep 2, 2023</title><link>/blog/2023/09/05/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023/09/05/</guid><description>
 &lt;img src="/blog/2023/09/05/featured_geotaste_comparison_hub548abacf01200811a686d66b576f540_7077391_640x0_resize_catmullrom_3.png" width="640" height="419"/>
 &lt;p>Our work this iteration was spread across multiple project and included some on-going maintenance work, time-sensitive bug fixes, continuing effort on on-going research projects GeoTaste and Simulating Risk, and preliminary work for Startwords issue 4.&lt;/p>
 &lt;h2 id="project-updates">project updates&lt;/h2>
@@ -623,13 +663,4 @@ when most of the team was out. During this iteration, we published &lt;a href="h
 &lt;p>Although we postponed the 4.0 public MVP release until January, we did make a significant amount of progress towards completing the work targeted for that MVP, and we did release a 0.7 version with a significant number of updates since the previous release. Updates include improved citation formatting for footnotes and sources, revised scholarship record view for individual documents, an import of data from the PGP v3 links database (information now included in PGP v4 scholarship records), setting up Wagtail for management of content pages, and progress with interim transcription solution for synchronization from TEI to the database, including in search results, and displaying with or without images on document detail pages.&lt;/p>
 &lt;p>We also made tremendous progress on design: nearly all of the design work needed for the MVP has been completed and approved, and a significant amount of work was done towards implementing site visuals implement them.&lt;/p>
 &lt;p>New versions of djiffy and parasolr were released in support of the Geniza 0.7 release, with support for newer versions of Python &amp;amp; Django and improved functionality needed for the new Geniza search.&lt;/p></description></item><item><title>Blog: 2022 Q1 schedule</title><link>/blog/2021/12/2022-q1-schedule/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>/blog/2021/12/2022-q1-schedule/</guid><description>
-&lt;p>Development schedule for first quarter of 2022.&lt;/p></description></item><item><title>Blog: Nov 22 - Dec 3, 2021</title><link>/blog/2021/12/06/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>/blog/2021/12/06/</guid><description>
-&lt;p>We made progress on multiple projects, but didn&amp;rsquo;t close anything with points; this is due to the Thanksgiving holiday and the shift to working on Startwords to prep issue 2 for publication.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>We completed a number of updates in preparation for publishing Startwords issue 2, which looks to be in good shape to go out on time as planned.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>The issues closed largely related to design and design implementation. We do have a large issue in-progress and nearly complete to update the scholarship details for individual documents; this issue was larger than expected due to the need to format references more like a citation, which involved some data model changes. Due to the holidays and rolling work on the MVP, we have not made any releases in a while to update production with the latest changes; we probably should do this sometime soon.&lt;/p>
-&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
-&lt;p>We released a micro update with maintenance updates, including python package upgrades and two minor adjustments in support of publishing new versions of the datasets. While we made the update, we added Zenode metadata and a citation file to make the GitHub repository more citable.&lt;/p>
-&lt;h2 id="archiving-derridas-margins">Archiving Derrida&amp;rsquo;s Margins&lt;/h2>
-&lt;p>This work is still not complete, but we made a small amount of progress on the final configuration needed for the archive site.&lt;/p></description></item></channel></rss>
+&lt;p>Development schedule for first quarter of 2022.&lt;/p></description></item></channel></rss>
