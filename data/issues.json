@@ -410,6 +410,38 @@
     ]
   },
   {
+    "issue": "configure nfs mount to test-prosody / prosody qa playbook",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/147",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "migrate shxco from apache2 to nginx",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/148",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Fix CAS errors",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/16",
@@ -10923,7 +10955,6 @@
     "closed": "2023-09-15T14:06:40Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -12392,7 +12423,6 @@
     "closed": "2023-09-15T18:10:09Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -12987,7 +13017,6 @@
     "closed": "2023-09-15T18:08:30Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13331,6 +13360,21 @@
     "assignees": [
       "kseniaryzhova"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Arabic document type display labels fail to populate in search filter facets",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1466",
+    "estimate": "",
+    "closed": "2023-09-21T17:29:34Z",
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -22473,7 +22517,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/65",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-19T11:05:09Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -22486,7 +22530,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/66",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-19T11:05:36Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -22512,7 +22556,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/68",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-19T11:09:01Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -22670,7 +22714,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/79",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-19T11:06:05Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -24371,6 +24415,84 @@
     ],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "focus state needs more contrast for low vision users",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/262",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u267f accessibility"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "page title needs to change when the timetree changes",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/263",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u267f accessibility",
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "disabled leaves & labels are not sufficiently visually disabled",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/264",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u267f accessibility"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "disabled leaves are clickable when the tree is zoomed in",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/265",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "split out repository to separate code from content",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/266",
+    "estimate": "",
+    "closed": "2023-09-22T22:46:23Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -42982,9 +43104,11 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/317",
     "estimate": "",
-    "closed": null,
-    "labels": [],
-    "milestone": "Issue 4",
+    "closed": "2023-09-19T14:26:42Z",
+    "labels": [
+      "wontfix"
+    ],
+    "milestone": "",
     "assignees": [],
     "pipeline": [
       "Backlog"
@@ -43028,10 +43152,9 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/320",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-09-18T18:27:10Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "Issue 4",
     "assignees": [
@@ -43174,20 +43297,18 @@
     ]
   },
   {
-    "issue": "switch from pagedjs to docraptor for pdf generation",
+    "issue": "As a content editor, I want to run a script to generate PDFs from html versions of Startwords articles using DocRaptor so that I can reliably generate high-quality PDFs for publication.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/338",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
-    "labels": [
-      "chore"
-    ],
+    "labels": [],
     "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -43210,7 +43331,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/340",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-18T17:17:26Z",
     "labels": [
       "enhancement"
     ],
@@ -43227,7 +43348,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/341",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-18T16:39:05Z",
     "labels": [
       "enhancement"
     ],
@@ -43261,7 +43382,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/343",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-18T15:08:44Z",
     "labels": [
       "bug"
     ],
@@ -43279,13 +43400,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/345",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "Issue 4",
     "assignees": [
-      "rlskoeser"
+      "thatbudakguy"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -43293,14 +43416,14 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/346",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-21T18:03:20Z",
     "labels": [],
     "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -43308,14 +43431,14 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/347",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-20T22:27:12Z",
     "labels": [
       "chore"
     ],
     "milestone": "Issue 4",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -43334,6 +43457,23 @@
     ]
   },
   {
+    "issue": "Author link icon \ud83d\udd17 disappears against background in dark mode",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/358",
+    "estimate": "",
+    "closed": "2023-09-19T16:10:11Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to preview the look of an article without publishing it.",
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/36",
@@ -43348,6 +43488,21 @@
     ],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "add print styles for SW4 figures",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/362",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
