@@ -3100,14 +3100,26 @@
         },
         "dev": {
             "points": 0,
+            "issues": 12,
             "velocity": 4.67
         },
         "design": {
-            "points": 0,
-            "velocity": 0.67
+            "points": 3,
+            "issues": 1,
+            "velocity": 1.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "startwords": 7,
+            "geotaste": 4,
+            "geniza": 1,
+            "lenape-timetree": 1
+        },
+        "project_points": {
+            "startwords": 3,
+            "geotaste": 0,
+            "geniza": 0,
+            "lenape-timetree": 0
+        }
     },
     {
         "from": "2023-10-02",
@@ -3131,7 +3143,7 @@
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "project_issues": {},
         "project_points": {}
@@ -3148,7 +3160,7 @@
         },
         "design": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "project_issues": {},
         "project_points": {}
