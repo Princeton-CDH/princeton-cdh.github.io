@@ -11688,7 +11688,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -13375,6 +13375,23 @@
     ],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I would like to see date ranges separated with an en-dash (\u2013) instead of an em-dash (\u2014).",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1467",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -22409,7 +22426,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/58",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-09-25T17:36:38Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -22662,7 +22679,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/75",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-25T17:35:43Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -22792,7 +22809,7 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/84",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-25T17:36:10Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -40145,7 +40162,7 @@
     ],
     "milestone": "",
     "assignees": [
-      "rlskoeser"
+      "quadrismegistus"
     ],
     "pipeline": [
       "New Issues",
@@ -40248,6 +40265,36 @@
     "issue": "Implement different styles for images for print CSS",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/551",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "changing clusters doesn't reindex pages, which results in blank records in keyword search results",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/554",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Change stable ID to sourceID + original page range rather than digital page range",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/555",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -41010,9 +41057,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41036,9 +41085,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41057,16 +41108,42 @@
     ]
   },
   {
-    "issue": "create minimal flask app we can use to deploy interactive versions of mesa models to the sandbox server",
+    "issue": "create minimal app we can use to deploy interactive versions of mesa models to the sandbox server",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/24",
-    "estimate": 2,
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
     ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "add LB's diagrams for hawk/dove simulation",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/26",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "improve hawk/dove charts when running with solara/jupyterviz",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/27",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Backlog"
     ]
@@ -43119,10 +43196,9 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/319",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-09-28T18:20:32Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "awaiting review"
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "Issue 4",
     "assignees": [
@@ -43301,7 +43377,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/338",
     "estimate": 5,
-    "closed": null,
+    "closed": "2023-09-29T20:50:31Z",
     "labels": [],
     "milestone": "Issue 4",
     "assignees": [
@@ -43365,7 +43441,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/342",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-28T19:42:28Z",
     "labels": [
       "enhancement"
     ],
@@ -43399,7 +43475,7 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/345",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-09-25T15:51:25Z",
     "labels": [
       "chore"
     ],
@@ -43497,12 +43573,61 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Standardize formatting of captions across figures, tables, deepzoom, and other embeds",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/366",
+    "estimate": "",
+    "closed": "2023-09-29T21:10:23Z",
+    "labels": [
+      "enhancement"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Some figures use serif CJK, others use sans",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/367",
+    "estimate": "",
+    "closed": "2023-09-28T21:19:15Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "images smaller than recommended minimum size get stretched",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/368",
+    "estimate": "",
+    "closed": "2023-09-28T19:41:26Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
@@ -43521,6 +43646,53 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Caption for Figure 7 needs better positioning",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/371",
+    "estimate": "",
+    "closed": "2023-09-29T19:14:11Z",
+    "labels": [
+      "wontfix"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "translation toggle on homepage is confusing when current issue is english-only",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/375",
+    "estimate": "",
+    "closed": "2023-09-29T20:49:51Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "Issue 4",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "figure numbers and references for SW4 deepmap",
+    "project": "startwords",
+    "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/376",
+    "estimate": "",
+    "closed": "2023-09-29T20:51:30Z",
+    "labels": [],
+    "milestone": "Issue 4",
+    "assignees": [
+      "gwijthoff"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
