@@ -3099,24 +3099,24 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "issues": 12,
-            "velocity": 4.67
+            "points": 10,
+            "issues": 23,
+            "velocity": 8.0
         },
         "design": {
-            "points": 3,
-            "issues": 1,
-            "velocity": 1.67
+            "points": 8,
+            "issues": 2,
+            "velocity": 3.33
         },
         "project_issues": {
-            "startwords": 7,
-            "geotaste": 4,
+            "startwords": 16,
+            "geotaste": 7,
             "geniza": 1,
             "lenape-timetree": 1
         },
         "project_points": {
-            "startwords": 3,
-            "geotaste": 0,
+            "startwords": 13,
+            "geotaste": 5,
             "geniza": 0,
             "lenape-timetree": 0
         }
@@ -3139,11 +3139,11 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 3.33
+            "velocity": 6.67
         },
         "design": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 2.67
         },
         "project_issues": {},
         "project_points": {}
@@ -3156,11 +3156,11 @@
         ],
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
-            "velocity": 1.0
+            "velocity": 2.67
         },
         "project_issues": {},
         "project_points": {}
