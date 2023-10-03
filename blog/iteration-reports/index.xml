@@ -1,4 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 4 - Sep 15, 2023</title><link>/blog/2023/09/18/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023/09/18/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 19 - Sep 30, 2023</title><link>/blog/2023/10/03/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/03/</guid><description>
+&lt;p>This iteration we closed out development on the GeoTaste MVP and finished preparations for publishing issue 4 of Startwords. The timetree project is no longer in active development, but as part of prepping for launch and handoff we split out the code and content into separate repositories and made the timetree theme installable as a Hugo module.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://startwords.cdh.princeton.edu/issues/4/">Startwords issue 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://shakespeareandco.app/">GeoTaste prototype&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Sep 4 - Sep 15, 2023</title><link>/blog/2023/09/18/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023/09/18/</guid><description>
 &lt;img src="/blog/2023/09/18/featured_cdhweb_404_hua11e8b3c32a8c7468453b9c6d52902ac_283278_640x0_resize_catmullrom_3.png" width="640" height="494"/>
 &lt;p>We worked across a number of different projects as we dealt with some maintenance upgrades,
 regularly scheduled work, and some work on PPA that we bumped up in priority due to external deadlines. For development work, we completed &lt;strong>10&lt;/strong> points and closed 26 issues bringing up the rolling velocity slightly to &lt;strong>4.7&lt;/strong>.&lt;/p>
@@ -776,16 +782,5 @@ alt="Screenshot of CDH website showing the editoria11y accessibility tool which 
 &lt;img src="/blog/2021/08/9/cdhweb-video-embed.png"
 alt="Screenshot of CDH web admin and public view showing the video embed functionality."/> &lt;figcaption>
 &lt;p>Screenshot of CDH web admin and public view showing the video embed functionality.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jul 5 — 23, 2021</title><link>/blog/2021/07/26/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>/blog/2021/07/26/</guid><description>
-&lt;img src="/blog/2021/07/26/featured-percy-visualreview_hufac49881638799c2446d75f54e1a48a2_386534_640x0_resize_catmullrom_3.png" width="640" height="472"/>
-&lt;p>This iteration we made significant progress on PPA. All remaining planned work to support Gale/ECCO import and HathiTrust excerpts were moved to &amp;ldquo;development complete&amp;rdquo; status, but unfortunately testing issues related to indexing and keyword search were problematic and held up testing on a cluster of issues.&lt;/p>
-&lt;p>There was a smattering of progress on other projects as well. For the CDH website, we completed work to setup a new visual testing review workflow with &lt;a href="https://percy.io/">Percy&lt;/a>, which we hope will save time and improve our design implementation testing across projects. We continued to be paused on Geniza, but we had one issue closed that should have been accepted before, but was left open based on design feedback and changes requested rather than functionality. On Startwords, we also had a very minor style bugfix resolved.&lt;/p>
-&lt;p>We extended this iteration for 3 weeks to account for vacation and the ACH2021 conference last week. We completed 10 development points, and have a rolling development velocity of 14.3 points.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2021/07/26/featured-percy-visualreview.png"
-alt="Screenshot from Percy showing an example of visual review for a page on CDH web"/> &lt;figcaption>
-&lt;p>Screenshot from Percy showing an example of visual review for a page on CDH web&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
