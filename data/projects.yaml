@@ -48,3 +48,6 @@ lenape:
 
 risk:
   repo: simulating-risk
+
+mep:
+  repo: mep-django

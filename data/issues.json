@@ -11677,10 +11677,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1311",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-03T01:15:36Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -11688,7 +11688,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -13253,9 +13253,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1457",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-03T01:02:05Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13263,7 +13264,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -13271,9 +13272,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1458",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-03T01:07:48Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13281,7 +13283,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -22548,7 +22550,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/66",
     "estimate": "",
     "closed": "2023-09-19T11:05:36Z",
-    "labels": [],
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -24496,7 +24500,7 @@
     ]
   },
   {
-    "issue": "split out repository to separate code from content",
+    "issue": "split out repository to separate code from content; make theme installable as a hugo module",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/266",
     "estimate": "",
@@ -43493,7 +43497,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/346",
     "estimate": "",
     "closed": "2023-09-21T18:03:20Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
@@ -43571,8 +43577,10 @@
     "project": "startwords",
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/362",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-10-02T17:26:44Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "Issue 4",
     "assignees": [
       "rlskoeser"
@@ -43604,7 +43612,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/367",
     "estimate": "",
     "closed": "2023-09-28T21:19:15Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -43686,7 +43696,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/startwords/issues/376",
     "estimate": "",
     "closed": "2023-09-29T20:51:30Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "Issue 4",
     "assignees": [
       "gwijthoff"

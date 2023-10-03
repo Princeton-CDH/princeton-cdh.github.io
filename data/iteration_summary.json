@@ -3100,7 +3100,7 @@
         },
         "dev": {
             "points": 10,
-            "issues": 23,
+            "issues": 22,
             "velocity": 8.0
         },
         "design": {
@@ -3110,7 +3110,7 @@
         },
         "project_issues": {
             "startwords": 16,
-            "geotaste": 7,
+            "geotaste": 6,
             "geniza": 1,
             "lenape-timetree": 1
         },
@@ -3125,28 +3125,29 @@
         "from": "2023-10-02",
         "to": "2023-10-12",
         "projects": [
-            "risk",
-            "derrida"
+            "risk"
         ],
         "notes": {
             "risk": [
                 "",
                 "assess simulations"
-            ],
-            "derrida": [
-                "finish archiving"
             ]
         },
         "dev": {
             "points": 0,
+            "issues": 1,
             "velocity": 6.67
         },
         "design": {
             "points": 0,
             "velocity": 2.67
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "startwords": 1
+        },
+        "project_points": {
+            "startwords": 0
+        }
     },
     {
         "from": "2023-10-16",
