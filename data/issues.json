@@ -11673,14 +11673,13 @@
     ]
   },
   {
-    "issue": "Add polygon annotation boxes to the transcription editor ",
+    "issue": "As a content editor, I want the ability to add polygon annotation boxes using the transcription editor, so I can draw accurate bounding boxes around text.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1311",
     "estimate": "",
     "closed": "2023-10-03T01:15:36Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -12351,10 +12350,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1371",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-05T01:40:56Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13256,7 +13254,6 @@
     "closed": "2023-10-03T01:02:05Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13275,7 +13272,6 @@
     "closed": "2023-10-03T01:07:48Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13388,7 +13384,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udee0\ufe0f chore"
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -13396,6 +13393,55 @@
     ],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "As a front end user, I want old shelfmarks to show up in search results and on the individual document pages (alongside the new shelfmark names) ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1469",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Automatic ingest of old/historic shelfmarks into the PGP for both backend and front end visibility",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1470",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Software release checklist for v4.15",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1472",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -35533,12 +35579,14 @@
     "project": "piffle",
     "url": "https://api.github.com/repos/Princeton-CDH/piffle/issues/10",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-05T17:28:36Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -35546,12 +35594,14 @@
     "project": "piffle",
     "url": "https://api.github.com/repos/Princeton-CDH/piffle/issues/11",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-05T17:50:40Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -35972,7 +36022,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/132",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "enhancement"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -41057,15 +41109,15 @@
     "issue": "batch analysis on hawk/dove with variety of single risk attitudes",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/19",
-    "estimate": "",
-    "closed": null,
+    "estimate": 2,
+    "closed": "2023-10-06T18:06:21Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41132,11 +41184,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/26",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41165,6 +41221,19 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "batch run + analysis for hawk/dove sim across different starting hawk odds",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/30",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
