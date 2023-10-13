@@ -914,11 +914,90 @@
         "projects": ["risk"],
         "notes": {
             "risk": ["", "assess simulations"]
+        },
+        "work": {
+            "risk": ["code", "writing"],
+            "ppa": ["data", "planning"],
+            "lenape": ["paused"],
+            "derrida": ["paused"],
+            "mep": ["maintenance"],
+            "geotaste": ["paused"],
+            "geniza": ["consulting", "maintenance"],
+            "startwords": ["code", "release"]
         }
     },
     {
         "from": "2023-10-16",
         "to": "2023-10-26",
-        "projects": ["risk"]
+        "projects": ["risk", "ppa"],
+        "work": {
+            "risk": ["code", "writing"],
+            "ppa": ["data", "planning"],
+            "lenape": ["paused"],
+            "derrida": ["paused"],
+            "mep": ["maintenance"],
+            "geotaste": ["paused"],
+            "geniza": ["consulting"],
+            "startwords": ["paused"]
+        }
+    },
+    {
+        "from": "2023-10-30",
+        "to": "2023-11-10",
+        "work": {
+            "risk": ["code", "writing"],
+            "ppa": ["planning"],
+            "lenape": ["paused"],
+            "derrida": ["paused"],
+            "mep": ["maintenance"],
+            "geotaste": ["paused"],
+            "geniza": ["consulting"],
+            "startwords": ["paused"]
+        }
+    },
+    {
+        "from": "2023-11-13",
+        "to": "2023-11-24",
+        "work": {
+            "risk": ["writing"],
+            "derrida": ["paused"],
+            "lenape": ["publicity"],
+            "geotaste": ["data", "code"],
+            "geniza": ["consulting"],
+            "startwords": ["paused"],
+            "ppa": ["data", "planning"]
+        }
+    },
+    {
+        "from": "2023-11-27",
+        "to": "2023-12-08",
+        "work": {
+            "risk": ["writing", "presenting"],
+            "derrida": ["paused"],
+            "lenape": ["publicity"],
+            "geotaste": ["data", "code"],
+            "geniza": ["consulting"],
+            "startwords": ["paused"],
+            "ppa": ["data", "planning"]
+        }
+    },
+    {
+        "from": "2023-12-11",
+        "to": "2023-12-29",
+        "work": {
+            "risk": ["writing"],
+            "geotaste": ["data", "code"],
+            "geniza": ["consulting"],
+            "startwords": ["paused"],
+            "ppa": ["data", "planning"]
+        }
+    },
+    {
+        "from": "2024-01-01",
+        "to": "2024-01-12"
+    },
+    {
+        "from": "2024-01-15",
+        "to": "2024-01-26"
     }
 ]

@@ -28,7 +28,10 @@
 		height: 50px;
 		border-right: 1px solid #dee2e6;
 	}
+}
 
+/* don't apply colors to the v2 format */
+.td-content table.quarterly-schedule:not(.qsched-v2) {
 
 	/* NOTE: some duplication of colors from projects data file */
 	.geniza {
@@ -117,3 +120,30 @@
 	}
 
 }
+
+/* styles for v2 quarterly schedule */
+.td-content table.quarterly-schedule.qsched-v2 {
+
+	/* make project labels vertical also? */
+	th.project {
+		width: auto;
+		// writing-mode: vertical-rl;		
+	}
+
+}
+
+.icon-legend {
+	h2 {
+		font-size: 110%;
+		text-decoration: underline;
+	}
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+  	display: inline-block;
+  	padding-right: 0.5em;
+  }
+}
+

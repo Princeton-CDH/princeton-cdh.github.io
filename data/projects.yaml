@@ -51,3 +51,17 @@ risk:
 
 mep:
   repo: mep-django
+
+# map project statuses to emoji supported by hugo
+# find codes at https://www.webfx.com/tools/emoji-cheat-sheet/
+status_icon:
+  code: ":laptop:"
+  writing: ":writing_hand:"
+  data: ":input_numbers:"
+  planning: ":calendar:"
+  maintenance: ":construction:"
+  paused: ":pause_button:"
+  presenting: ":speaking_head:"
+  publicity: ":loudspeaker:"
+  consulting: ":speech_balloon:"
+  release: ":rocket:"
