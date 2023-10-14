@@ -4463,6 +4463,21 @@
     ]
   },
   {
+    "issue": "display event attendance count in the event list view",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/427",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Typography - both fonts are not loading",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/43",
@@ -12198,12 +12213,13 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1359",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-11T15:46:49Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
+      "rlskoeser",
       "blms"
     ],
     "pipeline": [
@@ -13223,12 +13239,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -13293,9 +13312,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -13340,9 +13361,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "Development Complete"
     ]
   },
   {
@@ -13432,7 +13455,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1472",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-11T15:53:59Z",
     "labels": [
       "chore"
     ],
@@ -31866,11 +31889,12 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/612",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-09T17:52:09Z",
     "labels": [
+      "duplicate",
       "enhancement"
     ],
-    "milestone": "",
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -32842,19 +32866,18 @@
     ]
   },
   {
-    "issue": "Creators Data Export",
+    "issue": "Write a new django manage command to export creator information",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/684",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [
       "enhancement"
     ],
-    "milestone": "",
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -33280,7 +33303,7 @@
       "bug",
       "\ud83d\udea7 maintenance"
     ],
-    "milestone": "",
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
@@ -33358,7 +33381,7 @@
     "labels": [
       "\ud83d\udea7 maintenance"
     ],
-    "milestone": "",
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [],
     "pipeline": [
       "Development complete",
@@ -33690,13 +33713,13 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress",
-      "Review/QA"
+      "Review/QA",
+      "Development complete"
     ]
   },
   {
@@ -33846,14 +33869,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/788",
     "estimate": "",
     "closed": null,
-    "labels": [],
-    "milestone": "",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "quadrismegistus"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -33870,6 +33894,60 @@
       "meg-codes"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "Write a new django manage command to export member addresses",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/790",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "1.6 - Dataset enhancements",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want to batch import new data on books' genre, so that I can update multiple records with annotations made externally",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/791",
+    "estimate": 2,
+    "closed": null,
+    "labels": [],
+    "milestone": "1.6 - Dataset enhancements",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want to batch import authors/creator information, so that I can update multiple records with annotations made externally",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/792",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "1.6 - Dataset enhancements",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Update django address-export manage command to generate a GeoJSON version",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/793",
+    "estimate": 2,
+    "closed": null,
+    "labels": [
+      "question"
+    ],
+    "milestone": "1.6 - Dataset enhancements",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
   },
   {
     "issue": "Build books module and tests",
@@ -41137,15 +41215,15 @@
     "issue": "hawk/dove convergence for single risk attitude (does % playing hawk converge over time)",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/21",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2023-10-10T18:18:17Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41168,10 +41246,11 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/24",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-10-13T20:22:37Z",
     "labels": [],
     "milestone": "",
     "assignees": [
+      "rlskoeser",
       "quadrismegistus"
     ],
     "pipeline": [
@@ -41183,7 +41262,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/26",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-10T18:16:15Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
