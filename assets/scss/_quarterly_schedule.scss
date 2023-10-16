@@ -1,4 +1,5 @@
 .td-content table.quarterly-schedule {
+	max-width: none;  /* don't limit to 80% width */
 
 	th {
 		vertical-align: bottom;
@@ -28,7 +29,9 @@
 		height: 50px;
 		border-right: 1px solid #dee2e6;
 	}
+}
 
+.td-content table.quarterly-schedule {
 
 	/* NOTE: some duplication of colors from projects data file */
 	.geniza {
@@ -94,10 +97,10 @@
 	}
 
 	.lenape {
-		background-color: #088124;
+		background-color: #61514b;
 		color: white;
 		&.partial {
-			background-color: rgba(8, 129, 36, 0.4);
+			background-color: rgba(97,81,75,0.4);
 
 		}
 	}
@@ -117,3 +120,34 @@
 	}
 
 }
+
+/* styles for v2 quarterly schedule */
+.td-content table.quarterly-schedule.qsched-v2 {
+
+	th.project {
+		width: auto;
+
+		span {
+			display: inline-block;
+			transform: rotate(-45deg);
+			transform-origin: center left;
+		}
+	}
+
+}
+
+.icon-legend {
+	h2 {
+		font-size: 110%;
+		text-decoration: underline;
+	}
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+  	display: inline-block;
+  	padding-right: 0.5em;
+  }
+}
+
