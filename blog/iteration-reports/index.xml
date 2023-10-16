@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Sep 19 - Sep 30, 2023</title><link>/blog/2023/10/03/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/03/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 2 - Oct 13, 2023</title><link>/blog/2023/10/16/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/16/</guid><description>
+&lt;img src="/blog/2023/10/16/featured-simrisk-hawkdove-solara-app_huce6f776158f4f7769c3c549871e41a4c_108976_640x0_resize_catmullrom_3.png" width="640" height="526"/>
+&lt;p>This iteration we published Startwords issue 4, made progress on Simulating Risk hawk/dove simulation and a sandbox app. We also supported the work to upgrade the Geniza web application to Solr 9; this included releasing new versions of python libraries (piffle, parasolr) to support this update.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2023/10/16/featured-simrisk-hawkdove-solara-app.png"
+alt="Screenshot of the solara app running on the sandbox server, with access to all three simulations (hawk/dove variable risk shown)"/> &lt;figcaption>
+&lt;p>Screenshot of the solara app running on the sandbox server, with access to all three simulations (hawk/dove variable risk shown)&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Sep 19 - Sep 30, 2023</title><link>/blog/2023/10/03/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/03/</guid><description>
 &lt;p>This iteration we closed out development on the GeoTaste MVP and finished preparations for publishing issue 4 of Startwords. The timetree project is no longer in active development, but as part of prepping for launch and handoff we split out the code and content into separate repositories and made the timetree theme installable as a Hugo module.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
@@ -750,37 +759,5 @@ alt="Screenshot of the CDH home page showing the newly implemented design featur
 &lt;img src="/blog/2021/08/23/featured-cdhweb-search.png"
 alt="Screenshot of the new CDH web search"/> &lt;figcaption>
 &lt;p>Screenshot of the new CDH web search&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jul 26 — Aug 6, 2021</title><link>/blog/2021/08/9/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/9/</guid><description>
-&lt;img src="/blog/2021/08/9/featured-ppa-excerpts_hu25f15e2e6fb2a63c611d6ccbe3a67ee8_210994_640x0_resize_catmullrom_3.png" width="640" height="344"/>
-&lt;p>We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida&amp;rsquo;s Margins. We closed &lt;strong>24&lt;/strong> issues and a total of &lt;strong>9&lt;/strong> points for a rolling velocity of &lt;strong>11.3&lt;/strong>. The lower velocity reflects the kind of work we&amp;rsquo;re doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.&lt;/p>
-&lt;h2 id="project-specific-updates">Project-specific updates&lt;/h2>
-&lt;h3 id="ppa">PPA&lt;/h3>
-&lt;p>This iteration we completed the work on 3.7 and released the new features to production. This update includes support for Gale/ECCO content as well as excerpt support for HathiTrust materials, which is a fairly major change to the collection. We&amp;rsquo;re looking forward to a write up from the team publicizing the changes and explaining what this means for PPA.&lt;/p>
-&lt;h3 id="cdhweb">CDHweb&lt;/h3>
-&lt;p>We released version 3.3 with support for oEmbed of Media Central videos, a new accessibility checker tool for content editors, and improved handling for moved and renamed pages. Implementation and design for the new site search is in progress, and has been successfully prototyped.&lt;/p>
-&lt;h3 id="derridas-margins">Derrida&amp;rsquo;s Margins&lt;/h3>
-&lt;p>We made progress on maintenance updates to Derrida&amp;rsquo;s Margins, including a bugfix release that corrects an image display problem that has been impacting the sites for several months. Work is underway to generate revised data exports and prep the site for archiving.&lt;/p>
-&lt;h3 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h3>
-&lt;p>We completed work on two trivial changes and one data report to support data work for the next version of the data exports; the changes should go to production soon.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;h3 id="ppa-1">PPA&lt;/h3>
-&lt;figure>
-&lt;img src="/blog/2021/08/9/featured-ppa-excerpts.png"
-alt="Screenshot of Princeton Prosody Archive search result for a book excerpt."/> &lt;figcaption>
-&lt;p>Screenshot of &lt;em>Princeton Prosody Archive&lt;/em> search result for a book excerpt.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3 id="cdh-web">CDH Web&lt;/h3>
-&lt;figure>
-&lt;img src="/blog/2021/08/9/cdhweb-editoria11y.png"
-alt="Screenshot of CDH website showing the editoria11y accessibility tool which has been integrated and enabled for content editors."/> &lt;figcaption>
-&lt;p>Screenshot of CDH website showing the &lt;a href="https://itmaybejj.github.io/editoria11y/">editoria11y accessibility tool&lt;/a> which has been integrated and enabled for content editors.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2021/08/9/cdhweb-video-embed.png"
-alt="Screenshot of CDH web admin and public view showing the video embed functionality."/> &lt;figcaption>
-&lt;p>Screenshot of CDH web admin and public view showing the video embed functionality.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
