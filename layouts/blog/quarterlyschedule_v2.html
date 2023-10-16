@@ -44,7 +44,7 @@ date_range:
         <th>week</th>
         <th><div class="iteration">iteration</div></th>
         {{ range $projects }}
-        <th class="project">{{ . }}</th>
+        <th class="project"><span>{{ . }}</span></th>
         {{ end }}
     </tr>
 
@@ -86,21 +86,19 @@ date_range:
         {{ else }}
 
             {{ range $p := $projects }}
-            {{/* for each projects, output a table cell; set classes based on status */}}
-
-            <td class="{{ if index $iteration.work $p }}{{ $p }}{{ end }}">
-            {{ range $status := index $iteration.work $p }}
+            {{ $projectStatus := index $iteration.work $p | default slice  }}
+            {{/* count all active statuses for this iteration */}}
+            {{ $activeStatus := $projectStatus | complement $.Site.Data.projects.inactive_statuses }}
+            {{ $activeCount := $activeStatus | len }}
+            {{/* for each project, output a table cell; set classes based on status */}}
+            {{/* set class to project if any active status; set to partial if only one status */}}
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
+            {{ range $status := $projectStatus }}
+            {{/* convert each status to an emoji to display type of work */}}
             {{ $icon := index $.Site.Data.projects.status_icon $status }}
                 {{ transform.Emojify $icon }}
             {{ end }}
-
-                {{/* display first note for this project if any
-                {{ if $iteration.notes }}
-                    {{ $project_notes := index $iteration.notes .}}
-                    {{ if $project_notes }}
-                        {{ index $project_notes 0 }}
-                    {{ end }}
-                {{ end }}*/}}
+                {{/* v2 layout does not support notes currently */}}
             </td>
             {{ end }}
 
@@ -112,15 +110,14 @@ date_range:
         <td>{{ with time  $iteration.from  }} {{/* parse date string as time so we can add 1 week */}}
             {{ dateFormat "Jan 2" (.AddDate 0 0 7) }} {{ end }}
         </td> {{/* date */}}
-        {{ range $projects }}
-        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
-            {{/* display second note for this project if any
-            {{ if $iteration.notes }}
-                {{ $project_notes := index $iteration.notes .}}
-                {{ if $project_notes }}
-                    {{ index $project_notes 1 }}
-                {{ end }}
-            {{ end }}*/}}
+        {{ range $p := $projects }}
+            {{ $projectStatus := index $iteration.work $p | default slice  }}
+            {{/* count all active statuses for this iteration */}}
+            {{ $activeStatus := $projectStatus | complement $.Site.Data.projects.inactive_statuses }}
+            {{ $activeCount := $activeStatus | len }}
+            {{/* for each project, output a table cell; set classes based on status */}}
+            {{/* set class to project if any active status; set to partial if only one status */}}
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
         </td>
         {{ end }}
     </tr>
@@ -132,15 +129,14 @@ date_range:
         <td>{{ with time  $iteration.from  }}
             {{ dateFormat "Jan 2" (.AddDate 0 0 14) }} {{ end }}
         </td>
-    {{ range $projects }}
-        <td class="{{ if in $iteration.projects . }}{{ . }}{{ end }}{{ if (and (isset $iteration "partial") (in $iteration.partial .)) }} partial{{ end }}">
-            {{/* display third note for this project if any */}}
-            {{ if $iteration.notes }}
-                {{ $project_notes := index $iteration.notes .}}
-                {{ if $project_notes }}
-                    {{ index $project_notes 2 }}
-                {{ end }}
-            {{ end }}
+      {{ range $p := $projects }}
+            {{ $projectStatus := index $iteration.work $p | default slice  }}
+            {{/* count all active statuses for this iteration */}}
+            {{ $activeStatus := $projectStatus | complement $.Site.Data.projects.inactive_statuses }}
+            {{ $activeCount := $activeStatus | len }}
+            {{/* for each project, output a table cell; set classes based on status */}}
+            {{/* set class to project if any active status; set to partial if only one status */}}
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
         </td>
     {{ end }} {{/* end projects loop */}}
     </tr>
