@@ -119,6 +119,13 @@
 		}
 	}
 
+	.kreike {
+		background-color: #4169E1;
+		&.partial {
+			background-color: rgba(65, 105, 225, 0.5);
+		}
+	}
+
 }
 
 /* styles for v2 quarterly schedule */
