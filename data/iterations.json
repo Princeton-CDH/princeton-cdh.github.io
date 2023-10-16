@@ -917,8 +917,8 @@
         },
         "work": {
             "risk": ["code", "writing"],
-            "ppa": ["data", "planning"],
-            "lenape": ["paused"],
+            "ppa": ["data", "planning", "teaching"],
+            "lenape": ["paused", "problem"],
             "derrida": ["paused"],
             "mep": ["maintenance"],
             "geotaste": ["paused"],
@@ -932,13 +932,14 @@
         "projects": ["risk", "ppa"],
         "work": {
             "risk": ["code", "writing"],
-            "ppa": ["data", "planning"],
-            "lenape": ["paused"],
+            "ppa": ["data", "planning", "teaching"],
+            "lenape": ["paused", "problem"],
             "derrida": ["paused"],
             "mep": ["maintenance"],
             "geotaste": ["paused"],
             "geniza": ["consulting"],
-            "startwords": ["paused"]
+            "startwords": ["paused"],
+            "kreike": ["planning"]
         }
     },
     {
@@ -946,13 +947,14 @@
         "to": "2023-11-10",
         "work": {
             "risk": ["code", "writing"],
-            "ppa": ["planning"],
+            "ppa": ["planning", "teaching"],
             "lenape": ["paused"],
             "derrida": ["paused"],
             "mep": ["maintenance"],
-            "geotaste": ["paused"],
+            "geotaste": ["writing"],
             "geniza": ["consulting"],
-            "startwords": ["paused"]
+            "startwords": ["paused", "wrapup"],
+            "kreike": ["planning"]
         }
     },
     {
@@ -962,10 +964,11 @@
             "risk": ["writing"],
             "derrida": ["paused"],
             "lenape": ["publicity"],
-            "geotaste": ["data", "code"],
+            "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
-            "ppa": ["data", "planning"]
+            "ppa": ["data", "planning", "teaching"],
+            "kreike": ["planning"]
         }
     },
     {
@@ -975,10 +978,11 @@
             "risk": ["writing", "presenting"],
             "derrida": ["paused"],
             "lenape": ["publicity"],
-            "geotaste": ["data", "code"],
+            "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
-            "ppa": ["data", "planning"]
+            "ppa": ["data", "planning", "teaching"],
+            "kreike": ["planning"]
         }
     },
     {
@@ -986,7 +990,7 @@
         "to": "2023-12-29",
         "work": {
             "risk": ["writing"],
-            "geotaste": ["data", "code"],
+            "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
             "ppa": ["data", "planning"]
@@ -994,7 +998,11 @@
     },
     {
         "from": "2024-01-01",
-        "to": "2024-01-12"
+        "to": "2024-01-12",
+        "work": {
+            "risk": ["wrapup"],
+            "geotaste": ["writing", "wrapup"]
+        }
     },
     {
         "from": "2024-01-15",

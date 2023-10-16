@@ -1,4 +1,5 @@
 .td-content table.quarterly-schedule {
+	max-width: none;  /* don't limit to 80% width */
 
 	th {
 		vertical-align: bottom;
@@ -30,8 +31,7 @@
 	}
 }
 
-/* don't apply colors to the v2 format */
-.td-content table.quarterly-schedule:not(.qsched-v2) {
+.td-content table.quarterly-schedule {
 
 	/* NOTE: some duplication of colors from projects data file */
 	.geniza {
@@ -97,10 +97,10 @@
 	}
 
 	.lenape {
-		background-color: #088124;
+		background-color: #61514b;
 		color: white;
 		&.partial {
-			background-color: rgba(8, 129, 36, 0.4);
+			background-color: rgba(97,81,75,0.4);
 
 		}
 	}
@@ -124,10 +124,14 @@
 /* styles for v2 quarterly schedule */
 .td-content table.quarterly-schedule.qsched-v2 {
 
-	/* make project labels vertical also? */
 	th.project {
 		width: auto;
-		// writing-mode: vertical-rl;		
+
+		span {
+			display: inline-block;
+			transform: rotate(-45deg);
+			transform-origin: center left;
+		}
 	}
 
 }
