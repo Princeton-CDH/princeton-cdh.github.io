@@ -65,3 +65,10 @@ status_icon:
   publicity: ":loudspeaker:"
   consulting: ":speech_balloon:"
   release: ":rocket:"
+  teaching: ":teacher:"
+  problem: ":fire:"
+  wrapup: ":wrapped_gift:"
+
+# any status that should not be counted for indicating a project is active
+inactive_statuses:
+  - paused
