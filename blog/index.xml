@@ -7,7 +7,7 @@
 alt="Screenshot of the solara app running on the sandbox server, with access to all three simulations (hawk/dove variable risk shown)"/> &lt;figcaption>
 &lt;p>Screenshot of the solara app running on the sandbox server, with access to all three simulations (hawk/dove variable risk shown)&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Sep 19 - Sep 30, 2023</title><link>/blog/2023/10/03/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/03/</guid><description>
+&lt;/figure></description></item><item><title>Blog: 2023 Q4 Schedule</title><link>/blog/2023/10/2023-q4-schedule/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/2023-q4-schedule/</guid><description/></item><item><title>Blog: Sep 19 - Sep 30, 2023</title><link>/blog/2023/10/03/</link><pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/03/</guid><description>
 &lt;p>This iteration we closed out development on the GeoTaste MVP and finished preparations for publishing issue 4 of Startwords. The timetree project is no longer in active development, but as part of prepping for launch and handoff we split out the code and content into separate repositories and made the timetree theme installable as a Hugo module.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
@@ -658,15 +658,4 @@ alt="Geniza credits page, showing content page styles"/> &lt;figcaption>
 &lt;p>Geniza credits page, showing content page styles&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p></description></item><item><title>Blog: Jan 17 - Jan 28, 2022</title><link>/blog/2022/01/31/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/31/</guid><description>
-&lt;img src="/blog/2022/01/31/featured-geniza-search_hu7216f1b6a544a4d2818a5a27908e21fd_224478_640x0_resize_catmullrom_3.png" width="640" height="440"/>
-&lt;p>Belated report on the first iteration of January 2022. This was effectively a long iteration, since it included work completed during the week of January 17th, which was a scheduled R&amp;amp;D week for CDH staff.&lt;/p>
-&lt;p>Our focus continues to be exclusively on Geniza, as we work closer and closer to completing the initial MVP that will be made public. We made tremendous progress on completing design work for site visuals, implementing the designs, finishing some of the final remaining functionality, and resolving a number of small bugs and chores that needed to be addressed.&lt;/p>
-&lt;p>We closed 21 development issues, for a total of 11 story points and a rolling velocity of 17.3.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/01/31/featured-geniza-search.png"
-alt="Geniza search page, showing the implementation of new site visuals and colors"/> &lt;figcaption>
-&lt;p>Geniza search page, showing the implementation of new site visuals and colors&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>
