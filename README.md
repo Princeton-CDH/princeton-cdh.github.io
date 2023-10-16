@@ -49,10 +49,34 @@ Edit the new post to add content and any demo or featured content, then commit a
 
 ## Creating quarterly dev schedule
 
-Create a new post with layout *quarterlyschedule* and configure
-date range start and end in page parameters.
+Create a new post under `content/blog`, set layout to *quarterlyschedule_v2* and configure
+date range start and end in page parameters, e.g.::
+```yaml
+layout: quarterlyschedule_v2
+date_range:
+    start: "2023-10-01"
+    end: "2024-01-15"
+```
 
-Edit `iterations.json` data file to add the dates for all iterations during the time period you want to cover.
+Update the `iterations.json` data file to add the dates for all iterations during the time period you want to cover (best to go slightly beyond the range when possible).
+
+Version 2 of our quarterly schedule aims to track the bigger picture of our full portfolio and the work taking place at all phases of a project, not only active development.  The information in the iteration file should be structured as a dictionary or mapping of projects with a list of status codes relevant for that iteration, e.g.:
+```json
+"work": {
+    "risk": ["writing"],
+    "geotaste": ["data", "code", "writing"],
+    "geniza": ["consulting"],
+    "startwords": ["paused"],
+    "ppa": ["data", "planning"]
+}
+```
+
+Statuses in the iteration data file are converted to emojis using the mapping
+in the `projects` data file; when you add a new status, add a new emoji. 
+
+There is also a list of inactive statuses (currently only `paused`, :paused:) which should not be counted when determining if a project is active or partially active in any given iteration.
+
+### Previous quarterly dev schedule format
 
 For each iteration, add:
 - projects: the list of projects projected to be active that iteration
