@@ -33,9 +33,15 @@
 
 .td-content table.quarterly-schedule {
 
+	/* add a glow to subtly emphasize projects with 3+ statuses */
+	td.extra {
+		box-shadow: 0 0 12px var(--project-color);
+	}
+
 	/* NOTE: some duplication of colors from projects data file */
 	.geniza {
-		background-color: #6B59C1;
+		--project-color: #6B59C1;
+		background-color: var(--project-color);
 		color: white !important;
 		&.partial {
 			background-color: rgba(107, 89, 193, 0.5);
@@ -44,21 +50,24 @@
 	}
 
 	.cdh-web {
-		background-color: #00edff;
+		--project-color: #00edff;
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(0, 237, 255, 0.3);
 		}
 	}
 
 	.maintenance {
-		background-color: #eb9469;
+		--project-color: #eb9469;
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(235, 148, 105, 0.5);
 		}
 	}
 
 	.ppa {
-		background-color: #f05b69;
+		--project-color: #f05b69;
+		background-color: var(--project-color);
 		color: white;
 		&.partial {
 			background-color: rgba(240,91,105,0.5);
@@ -67,14 +76,16 @@
 	}
 
 	.mep {
-		background-color: #07ae79;
+		--project-color: #07ae79;
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(7, 174, 121, 0.5);
 		}
 	}
 
 	.startwords {
-		background-color: #CE2949;
+		--project-color: #CE2949;
+		background-color: var(--project-color);
 		color: white !important; /* override docsy striped-table color */
 		&.partial {
 			background-color: rgba(206, 41, 73, 0.5);
@@ -88,7 +99,8 @@
     }
 
 	.derrida {
-		background-color: #175498;
+		--project-color: #175498;
+		background-color: var(--project-color);
 		color: white !important;
 		&.partial {
 			background-color: rgba(23, 84, 152,0.4);
@@ -97,8 +109,9 @@
 	}
 
 	.lenape {
-		background-color: #61514b;
-		color: white;
+		--project-color: #61514b;
+		background-color: var(--project-color);
+			color: white;
 		&.partial {
 			background-color: rgba(97,81,75,0.4);
 
@@ -106,21 +119,24 @@
 	}
 
 	.risk {
-		background-color: #fcd030;
+		--project-color: #fcd030;
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(252, 208, 48, 0.5);
 		}
 	}
 
 	.geotaste {
-		background-color:rgba(64, 176, 166, 0.7);
+		--project-color: rgba(64, 176, 166, 0.7);
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(64, 176, 166, 0.4);
 		}
 	}
 
 	.kreike {
-		background-color: #4169E1;
+		--project-color: #4169E1;
+		background-color: var(--project-color);
 		&.partial {
 			background-color: rgba(65, 105, 225, 0.5);
 		}
@@ -130,6 +146,9 @@
 
 /* styles for v2 quarterly schedule */
 .td-content table.quarterly-schedule.qsched-v2 {
+
+   border-collapse: separate;
+   border-spacing: 3px 0;
 
 	th.project {
 		width: auto;

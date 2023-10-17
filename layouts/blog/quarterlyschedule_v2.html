@@ -92,7 +92,7 @@ date_range:
             {{ $activeCount := $activeStatus | len }}
             {{/* for each project, output a table cell; set classes based on status */}}
             {{/* set class to project if any active status; set to partial if only one status */}}
-            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}{{ if gt $activeCount 2 }} extra {{ end }}">
             {{ range $status := $projectStatus }}
             {{/* convert each status to an emoji to display type of work */}}
             {{ $icon := index $.Site.Data.projects.status_icon $status }}
@@ -117,7 +117,7 @@ date_range:
             {{ $activeCount := $activeStatus | len }}
             {{/* for each project, output a table cell; set classes based on status */}}
             {{/* set class to project if any active status; set to partial if only one status */}}
-            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}{{ if gt $activeCount 2 }} extra {{ end }}">
         </td>
         {{ end }}
     </tr>
@@ -136,7 +136,7 @@ date_range:
             {{ $activeCount := $activeStatus | len }}
             {{/* for each project, output a table cell; set classes based on status */}}
             {{/* set class to project if any active status; set to partial if only one status */}}
-            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}">
+            <td class="{{ if $activeCount }}{{ $p }}{{ end }}{{ if eq 1 $activeCount }} partial {{ end }}{{ if gt $activeCount 2 }} extra {{ end }}">
         </td>
     {{ end }} {{/* end projects loop */}}
     </tr>
