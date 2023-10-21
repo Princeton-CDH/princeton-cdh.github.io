@@ -431,11 +431,41 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/148",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
     ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "clean up apache2 stop handler and any other apache2 roles in ansible",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/155",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "supervisor doesn't get restarted when simulating risk playbook runs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/156",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -11903,6 +11933,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "",
@@ -11910,7 +11941,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Backlog"
     ]
   },
   {
@@ -13358,6 +13389,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13365,7 +13397,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -13465,6 +13497,135 @@
     ],
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "Some records have non-normalized \\xa0 Unicode space",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1475",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Issues with shelfmark scoped search",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1476",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Last chosen person not populating in person-document relations dropdown",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1477",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Invalid lat/long coordinates are allowed for Places, but don't persist",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1478",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "People names are not diacritic neutral when adding them from Document Detail page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1479",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want clearer help text for the name field of the person page so I know how best to present people's names on their pages",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1480",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to be able to upload related documents in bulk to the relevant field of an individual person page, to speed up data entry when a person has a lot of associated documents ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1481",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "document metadata doesn't update when accessed from search with javascript enabled",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1482",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -33950,6 +34111,22 @@
     ]
   },
   {
+    "issue": "Edit Menus and Homepage tagline on Wagtail",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/795",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Build books module and tests",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/8",
@@ -41202,13 +41379,15 @@
     "issue": "adapt/update risk attitudes on hawk/dove simulation",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/20",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41313,6 +41492,36 @@
     "assignees": [],
     "pipeline": [
       "Backlog"
+    ]
+  },
+  {
+    "issue": "improve simulations running in solara app",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/33",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "split out hawk/dove single and variable risk into separate models and apps",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/34",
+    "estimate": "",
+    "closed": "2023-10-19T14:39:28Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
