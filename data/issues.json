@@ -13573,7 +13573,7 @@
     "closed": "2023-10-25T22:18:04Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
