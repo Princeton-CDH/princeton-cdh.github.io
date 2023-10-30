@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 2 - Oct 13, 2023</title><link>/blog/2023/10/16/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/16/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 16 - Oct 27, 2023</title><link>/blog/2023/10/30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/30/</guid><description>
+&lt;img src="/blog/2023/10/30/featured-simrisk-hawkdovevar_hu4eb5fceb78d111afd8472a22d3b80d9e_408794_640x0_resize_catmullrom_3.png" width="640" height="523"/>
+&lt;p>We made progress on refining simulations for Simulating Risk; work included refactoring the code to split out single and variable risk modes, since the parameters were increasingly diverging, improving how the simulations and charts were running in Solara, and adding new charts the hawk/dove variable risk simulation to improve interpretation of the simulation&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2023/10/30/featured-simrisk-hawkdovevar.png"
+alt="Screenshot of Hawk/Dove variable risk model with updated charts"/> &lt;figcaption>
+&lt;p>Screenshot of Hawk/Dove variable risk model with updated charts&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 2 - Oct 13, 2023</title><link>/blog/2023/10/16/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/16/</guid><description>
 &lt;img src="/blog/2023/10/16/featured-simrisk-hawkdove-solara-app_huce6f776158f4f7769c3c549871e41a4c_108976_640x0_resize_catmullrom_3.png" width="640" height="526"/>
 &lt;p>This iteration we published Startwords issue 4, made progress on Simulating Risk hawk/dove simulation and a sandbox app. We also supported the work to upgrade the Geniza web application to Solr 9; this included releasing new versions of python libraries (piffle, parasolr) to support this update.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -745,19 +754,5 @@ alt="Screenshot of the latest style updates on the Geniza document search, inclu
 &lt;img src="/blog/2021/09/07/featured-cdhweb-homepage.png"
 alt="Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations"/> &lt;figcaption>
 &lt;p>Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Aug 9 - Aug 20, 2021</title><link>/blog/2021/08/23/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/23/</guid><description>
-&lt;img src="/blog/2021/08/23/featured-cdhweb-search_hu5bdc378edbfc8df771ea880f23028bee_103240_640x0_resize_catmullrom_3.png" width="640" height="360"/>
-&lt;p>This iteration &lt;a href="https://cdh.princeton.edu/updates/2021/08/15/rebecca-munson/">we lost Rebecca Munson&lt;/a>, who was a long-time collaborator of the CDH Development &amp;amp; Design Team, project manager &amp;amp; project coordinator for many of our projects. In spite of that terrible loss, it&amp;rsquo;s good to do work, and we did make some progress on our planned work. Among other things, we implemented a special purple mode for the CDH website and released v3.3.1 so we could turn it on to honor her.&lt;/p>
-&lt;p>We completed &lt;strong>7&lt;/strong> development story points for a rolling velocity of &lt;strong>8.67&lt;/strong>; we also completed &lt;strong>14&lt;/strong> design story points, as all the design work for the CDH web v3.4 release was finalized.&lt;/p>
-&lt;h2 id="cdh-web">CDH web&lt;/h2>
-&lt;p>The work for the 3.4 release is nearly done, and it should be completed and go into production soon. Completed work include designs for search, better visuals to highlight the about page and consultations on the home page, and the new site search.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We started up development on Geniza again, picking up some work that was left incomplete and small changes that will be helpful to the data team. Completed work includes capability to edit historic shelfmarks for Fragments, clean up of the India Book sources that were not grouped correctly on import, and a way to view actions on the admin site beyond the most recent ten or a specific document.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2021/08/23/featured-cdhweb-search.png"
-alt="Screenshot of the new CDH web search"/> &lt;figcaption>
-&lt;p>Screenshot of the new CDH web search&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>

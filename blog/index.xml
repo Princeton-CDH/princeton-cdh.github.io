@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 2 - Oct 13, 2023</title><link>/blog/2023/10/16/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/16/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 16 - Oct 27, 2023</title><link>/blog/2023/10/30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/30/</guid><description>
+&lt;img src="/blog/2023/10/30/featured-simrisk-hawkdovevar_hu4eb5fceb78d111afd8472a22d3b80d9e_408794_640x0_resize_catmullrom_3.png" width="640" height="523"/>
+&lt;p>We made progress on refining simulations for Simulating Risk; work included refactoring the code to split out single and variable risk modes, since the parameters were increasingly diverging, improving how the simulations and charts were running in Solara, and adding new charts the hawk/dove variable risk simulation to improve interpretation of the simulation&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2023/10/30/featured-simrisk-hawkdovevar.png"
+alt="Screenshot of Hawk/Dove variable risk model with updated charts"/> &lt;figcaption>
+&lt;p>Screenshot of Hawk/Dove variable risk model with updated charts&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 2 - Oct 13, 2023</title><link>/blog/2023/10/16/</link><pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/16/</guid><description>
 &lt;img src="/blog/2023/10/16/featured-simrisk-hawkdove-solara-app_huce6f776158f4f7769c3c549871e41a4c_108976_640x0_resize_catmullrom_3.png" width="640" height="526"/>
 &lt;p>This iteration we published Startwords issue 4, made progress on Simulating Risk hawk/dove simulation and a sandbox app. We also supported the work to upgrade the Geniza web application to Solr 9; this included releasing new versions of python libraries (piffle, parasolr) to support this update.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -631,31 +640,6 @@ alt="Completed designs for new PGP logo and logotype"/> &lt;figcaption>
 &lt;img src="/blog/2022/02/21/pgp-search-images.png"
 alt="Screenshot showing PGP search results with image thumbnails"/> &lt;figcaption>
 &lt;p>Screenshot showing PGP search results with image thumbnails&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>Blog: Jan 24 - Feb 4, 2022</title><link>/blog/2022/02/07/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/07/</guid><description>
-&lt;img src="/blog/2022/02/07/featured-404-error_hu94ac8d84e3dc675b803d8c1cbeabc3e1_600221_640x0_resize_catmullrom_3.png" width="640" height="493"/>
-&lt;p>At long last, we tagged and released the 4.0 version of Princeton Geniza Project! This is meets our agreement for a &amp;ldquo;Minimum Viable Product&amp;rdquo; to replace the current PGP v3.0. The new site isn&amp;rsquo;t publicly available just yet, but we&amp;rsquo;re planning to turn off IP access restriction by Thursday of this week at the latest and hoping to switch it to the official URL within another week.&lt;/p>
-&lt;p>We closed &lt;strong>24&lt;/strong> development issues this iteration, but only completed &lt;strong>8&lt;/strong> story points — likely because much of our focus was on finishing implementing visual designs, fixing bugs, and finishing chores in preparation for this release. Our rolling development velocity is 20 points, due to the huge iteration in December and the fact that we&amp;rsquo;re no longer counting the zero-point iteration around Thanksgiving.&lt;/p>
-&lt;p>The mep-django releases were related to publication of the 1.2 version of the Shakespeare and Company Project datasets, which were published on Princeton&amp;rsquo;s DataSpace on January 31st.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/featured-404-error.png"
-alt="Geniza 404 Not Found error page"/> &lt;figcaption>
-&lt;p>Geniza 404 Not Found error page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/500-error.png"
-alt="Geniza 500 Server Error page"/> &lt;figcaption>
-&lt;p>Geniza 500 Server Error page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/credits.png"
-alt="Geniza credits page, showing content page styles"/> &lt;figcaption>
-&lt;p>Geniza credits page, showing content page styles&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p></description></item></channel></rss>
