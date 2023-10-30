@@ -164,8 +164,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 {{ $upcoming_issues := where $.Site.Data.issues "closed" "eq" nil }}
 <ul>
-    {{ range $project := $next_iteration.projects }}
+    {{ range $project, $status := $next_iteration.work }}
+    {{/* display project short name + status icons for next iteration */}}
     <li>{{ $project }}
+        {{ range $s := $status  }}
+        {{/* convert each status to an emoji to display type of work */}}
+        {{ $icon := index $.Site.Data.projects.status_icon $s }}
+            {{ transform.Emojify $icon }}
+        {{ end }}
+
+    {{/* show upcoming github issues if appropriate for status */}}
+    {{ if intersect $status (slice "code" "data" "maintenance" "release") }}
     {{/* display name != github repo; get from project data file; use project name as fallback */}}
     {{ $reponame := (index $.Site.Data.projects $project).repo | default $project }}
     {{ $upcoming_project_issues := where $upcoming_issues "project" $reponame }}
@@ -192,9 +201,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         {{ else }}
         <li>No issues found</li>
         {{ end }}
+        {{ end }}
     </ul>
-    </li>
     {{ end }}
+    </li>
 </ul>
 </section>
 
