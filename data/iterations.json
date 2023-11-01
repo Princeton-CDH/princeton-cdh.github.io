@@ -948,7 +948,7 @@
         "work": {
             "risk": ["code", "writing"],
             "ppa": ["planning", "teaching", "data"],
-            "lenape": ["paused"],
+            "lenape": ["code", "problem"],
             "derrida": ["paused"],
             "mep": ["maintenance"],
             "geotaste": ["writing"],
