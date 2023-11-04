@@ -481,7 +481,10 @@
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "kayiwa",
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -511,6 +514,20 @@
     "milestone": "",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "update readme instructions to match current state",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/160",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "pre- and post-deploy tasks fail when staging var is undefined",
@@ -13279,10 +13296,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1452",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-31T00:50:55Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13368,10 +13384,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1459",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-11-01T16:15:31Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13421,7 +13436,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13429,7 +13443,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA"
+      "Development Complete"
     ]
   },
   {
@@ -13505,13 +13519,16 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -13536,10 +13553,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1475",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-31T00:46:24Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13666,10 +13682,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1483",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-31T00:37:49Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -13684,10 +13700,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1486",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-10-31T00:39:53Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "performant"
     ],
     "milestone": "",
     "assignees": [
@@ -13727,6 +13743,38 @@
     "assignees": [
       "blms"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to drop down a pin on the places map and then be able to move the pin around so that I can manually adjust the coordinates of a place before saving the location.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1494",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a front end user, I only want to see one document number for a source displayed in the scholarship records on the public site.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1495",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -24619,8 +24667,10 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/212",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-11-02T14:49:45Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -24791,15 +24841,17 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/263",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-11-02T14:48:44Z",
     "labels": [
       "\u267f accessibility",
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -24807,14 +24859,17 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/264",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-11-02T14:48:25Z",
     "labels": [
-      "\u267f accessibility"
+      "\u267f accessibility",
+      "\ud83d\udc1b bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -24822,14 +24877,16 @@
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/265",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-11-02T14:47:58Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -24864,6 +24921,23 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "add collaborator logos to site footer",
+    "project": "lenape-timetree",
+    "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/271",
+    "estimate": "",
+    "closed": "2023-11-01T14:13:54Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -35963,6 +36037,17 @@
     "pipeline": []
   },
   {
+    "issue": "add an option to initialize an image client from a full iiif image uri",
+    "project": "piffle",
+    "url": "https://api.github.com/repos/Princeton-CDH/piffle/issues/16",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
     "issue": "refactor image client class to store image specifications as numbers/dicts rather than strings",
     "project": "piffle",
     "url": "https://api.github.com/repos/Princeton-CDH/piffle/issues/2",
@@ -40720,6 +40805,36 @@
     ]
   },
   {
+    "issue": "Adapt Vineet's script to export plain text corpus",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/556",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "keyword search without javascript enabled results in a 500 error",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/557",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a user, I want item titles to ignore definite articles and punctuation when sorting, so that I can find the most relevant content first.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/56",
@@ -41646,6 +41761,23 @@
     ],
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "hawk/dove synchronicity error - last choice set during choose step",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/40",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
