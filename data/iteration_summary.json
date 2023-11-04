@@ -3257,7 +3257,8 @@
                 "data"
             ],
             "lenape": [
-                "paused"
+                "code",
+                "problem"
             ],
             "derrida": [
                 "paused"
@@ -3280,14 +3281,19 @@
         },
         "dev": {
             "points": 0,
+            "issues": 5,
             "velocity": 2.67
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "lenape-timetree": 5
+        },
+        "project_points": {
+            "lenape-timetree": 0
+        }
     },
     {
         "from": "2023-11-13",
