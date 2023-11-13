@@ -961,14 +961,15 @@
         "from": "2023-11-13",
         "to": "2023-11-24",
         "work": {
-            "risk": ["writing"],
+            "risk": ["writing", "code"],
             "derrida": ["paused"],
             "lenape": ["paused"],
             "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
             "ppa": ["data", "planning", "teaching"],
-            "kreike": ["planning"]
+            "kreike": ["planning"],
+            "mep": ["maintenance"]
         }
     },
     {

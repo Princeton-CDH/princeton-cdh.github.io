@@ -3302,7 +3302,8 @@
         "to": "2023-11-24",
         "work": {
             "risk": [
-                "writing"
+                "writing",
+                "code"
             ],
             "derrida": [
                 "paused"
@@ -3328,6 +3329,9 @@
             ],
             "kreike": [
                 "planning"
+            ],
+            "mep": [
+                "maintenance"
             ]
         },
         "dev": {
