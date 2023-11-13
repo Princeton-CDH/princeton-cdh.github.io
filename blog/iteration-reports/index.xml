@@ -3,9 +3,6 @@
 &lt;p>As part of a deadline for demoing the Lenape Timetree project for the Munsee language symposium, we worked on some updates and bugfixes and released an update to the theme.&lt;/p>
 &lt;p>On Simulating Risk, we continued to refine the hawk/dove simulation and worked on batch run analysis. We also fixed a synchronicity bug identified by a philosopher that we consulted with and started working on adding more configurability to various neighborhoods, which will add more parameters for batch analysis.&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
-&lt;ul>
-&lt;li>add demo links or screenshots&lt;/li>
-&lt;/ul>
 &lt;figure>
 &lt;img src="/blog/2023/11/13/featured_lenapetimetree_footer.png"
 alt="Screenshot of updated timetree site with new footer design."/> &lt;figcaption>
