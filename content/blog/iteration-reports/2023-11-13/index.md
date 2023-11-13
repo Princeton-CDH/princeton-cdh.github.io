@@ -12,7 +12,6 @@ On Simulating Risk, we continued to refine the hawk/dove simulation and worked o
 
 
 ## Demos
-* add demo links or screenshots
 
 {{< figure src="featured_lenapetimetree_footer.png" caption="Screenshot of updated timetree site with new footer design.">}}
 
