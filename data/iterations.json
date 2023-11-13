@@ -953,7 +953,7 @@
             "mep": ["maintenance"],
             "geotaste": ["writing"],
             "geniza": ["consulting"],
-            "startwords": ["paused"],
+            "startwords": ["wrapup"],
             "kreike": ["planning"]
         }
     },
@@ -964,9 +964,9 @@
             "risk": ["writing", "code"],
             "derrida": ["paused"],
             "lenape": ["paused"],
-            "geotaste": ["data", "code", "writing"],
-            "geniza": ["consulting"],
-            "startwords": ["paused"],
+            "geotaste": ["data", "writing"],
+            "geniza": ["consulting", "writing"],
+            "startwords": ["writing"],
             "ppa": ["data", "planning", "teaching"],
             "kreike": ["planning"],
             "mep": ["maintenance"]
@@ -981,7 +981,7 @@
             "lenape": ["paused"],
             "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
-            "startwords": ["paused", "wrapup"],
+            "startwords": ["paused"],
             "ppa": ["data", "planning", "teaching"],
             "kreike": ["planning"]
         }

@@ -3273,7 +3273,7 @@
                 "consulting"
             ],
             "startwords": [
-                "paused"
+                "wrapup"
             ],
             "kreike": [
                 "planning"
@@ -3313,14 +3313,14 @@
             ],
             "geotaste": [
                 "data",
-                "code",
                 "writing"
             ],
             "geniza": [
-                "consulting"
+                "consulting",
+                "writing"
             ],
             "startwords": [
-                "paused"
+                "writing"
             ],
             "ppa": [
                 "data",
@@ -3368,8 +3368,7 @@
                 "consulting"
             ],
             "startwords": [
-                "paused",
-                "wrapup"
+                "paused"
             ],
             "ppa": [
                 "data",
