@@ -1,4 +1,17 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 16 - Oct 27, 2023</title><link>/blog/2023/10/30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/30/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Oct 30 - Nov 10, 2023</title><link>/blog/2023/11/13/</link><pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate><guid>/blog/2023/11/13/</guid><description>
+&lt;img src="/blog/2023/11/13/featured_lenapetimetree_footer_hu99848f3e5b1e1c2b9eef7d93918d3958_1663863_640x0_resize_catmullrom_3.png" width="640" height="349"/>
+&lt;p>As part of a deadline for demoing the Lenape Timetree project for the Munsee language symposium, we worked on some updates and bugfixes and released an update to the theme.&lt;/p>
+&lt;p>On Simulating Risk, we continued to refine the hawk/dove simulation and worked on batch run analysis. We also fixed a synchronicity bug identified by a philosopher that we consulted with and started working on adding more configurability to various neighborhoods, which will add more parameters for batch analysis.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="/blog/2023/11/13/featured_lenapetimetree_footer.png"
+alt="Screenshot of updated timetree site with new footer design."/> &lt;figcaption>
+&lt;p>Screenshot of updated timetree site with new footer design.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 16 - Oct 27, 2023</title><link>/blog/2023/10/30/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023/10/30/</guid><description>
 &lt;img src="/blog/2023/10/30/featured-simrisk-hawkdovevar_hu4eb5fceb78d111afd8472a22d3b80d9e_408794_640x0_resize_catmullrom_3.png" width="640" height="523"/>
 &lt;p>We made progress on refining simulations for Simulating Risk; work included refactoring the code to split out single and variable risk modes, since the parameters were increasingly diverging, improving how the simulations and charts were running in Solara, and adding new charts the hawk/dove variable risk simulation to improve interpretation of the simulation&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
@@ -618,28 +631,4 @@ alt="Geniza active filter icon, to indicate when search filters are applied."/> 
 alt="Geniza browser tab &amp;amp;amp; bookmark icon"/> &lt;figcaption>
 &lt;p>Geniza browser tab &amp;amp; bookmark icon&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Feb 7 - Feb 18, 2022</title><link>/blog/2022/02/21/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/21/</guid><description>
-&lt;img src="/blog/2022/02/21/featured-pgp-logotype_huee92df934de27e87a094628979144288_497057_640x0_resize_catmullrom_3.png" width="640" height="407"/>
-&lt;p>This iteration our focus was entirely on the Princeton Geniza Project as we worked to address issues identified in the 4.0 release that we wanted to address before switching the site to the official &lt;a href="https://geniza.princeton.edu">https://geniza.princeton.edu&lt;/a> url (which we did on Thursday!).&lt;/p>
-&lt;p>Notable work completed in this iteration includes:&lt;/p>
-&lt;ul>
-&lt;li>completion of design work on the new logo and logotype (shown below), which will be integrated into the site this week.&lt;/li>
-&lt;li>search results now include image thumbnails when available&lt;/li>
-&lt;li>an admin document merge function, so that duplicate documents and joins can be merged manually in the admin site instead of relying on spreadsheets and script to handle merging (we discovered the script method was error-prone since merging needs to be done carefully).&lt;/li>
-&lt;/ul>
-&lt;p>Our rolling velocity for development is &lt;strong>13&lt;/strong> points; this iteration we completed 19 points (16 issues).&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img src="/blog/2022/02/21/featured-pgp-logotype.png"
-alt="Completed designs for new PGP logo and logotype"/> &lt;figcaption>
-&lt;p>Completed designs for new PGP logo and logotype&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/02/21/pgp-search-images.png"
-alt="Screenshot showing PGP search results with image thumbnails"/> &lt;figcaption>
-&lt;p>Screenshot showing PGP search results with image thumbnails&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
