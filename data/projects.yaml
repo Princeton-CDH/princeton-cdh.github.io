@@ -52,6 +52,9 @@ risk:
 mep:
   repo: mep-django
 
+ppa:
+  repo: ppa-django
+
 # map project statuses to emoji supported by hugo
 # find codes at https://www.webfx.com/tools/emoji-cheat-sheet/
 status_icon:
