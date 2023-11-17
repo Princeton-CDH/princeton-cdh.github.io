@@ -3,9 +3,9 @@ name: slackbot r+d checkout
 on:
   schedule:
     # run on Fridays at 4:25pm (8:25 UTC) [early in case of lag]
-    - cron: "25 20 * * FRI" # standard time
-    # - cron: "25 21 * * FRI" # daylight savings (?)
-    
+    # - cron: "25 20 * * FRI" # standard time
+    - cron: "25 21 * * FRI" # daylight savings (?)
+
 env:
   MSG_FILENAME: ".github/slackbot_text/rd_checkout.txt"
 
@@ -23,7 +23,7 @@ jobs:
         id: slack
         uses: slackapi/slack-github-action@v1.23.0
         with:
-          channel-id: 'staff-r-and-d'
+          channel-id: "staff-r-and-d"
           # post as a simple plain text message
           slack-message: "${{ steps.select_message.outputs.random_message }}"
         env:
