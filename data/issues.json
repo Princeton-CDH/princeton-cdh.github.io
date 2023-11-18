@@ -520,8 +520,46 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/160",
     "estimate": "",
+    "closed": "2023-11-14T21:37:21Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "template files should end with .j2",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/164",
+    "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "consolidate some roles and tasks (nodejs, logging config)",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/165",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -4548,6 +4586,19 @@
     "labels": [
       "enhancement"
     ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "consolidate project list pages",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/429",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -13317,7 +13368,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -40874,6 +40924,20 @@
       "rlskoeser"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "Adapt HathiTrust excerpt script to automate fixing updated digital page ranges from a spreadsheet",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/560",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "As a user, I want different styles for the main title and subtitle on search results so that I can visually distinguish titles. ",
