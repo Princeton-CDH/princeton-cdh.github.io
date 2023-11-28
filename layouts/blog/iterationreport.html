@@ -61,11 +61,13 @@
 
 <canvas id="dev-velocity"></canvas>
 
+{{ if not .Params.hideDesignVelocity }}
 <h3>Design</h3>
 <p>{{ partial "issues_points.html" (dict "points" $iteration.design.points "issues" $iteration.design.issues ) }}.
 Rolling velocity: <b>{{ $iteration.design.velocity }}</b></p>
 
 <canvas id="design-velocity"></canvas>
+{{ end }}
 
 {{/* get the range of iterations show relative to the current iteration */}}
 {{ $range_start :=  sub ($scratch.Get "iteration_index") 5 }}
@@ -80,7 +82,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         issues: [{{ range $show_iterations }} {{ .dev.issues }}, {{ end }}],
         velocity: [{{ range $show_iterations }} {{ .dev.velocity }}, {{ end }}]
     });
-
+{{ if not .Params.hideDesignVelocity }}
     drawVelocityChart({
         id: 'design-velocity',
         labels: [{{ range $show_iterations }} "{{ .from }}", {{ end }}],
@@ -88,9 +90,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         issues: [{{ range $show_iterations }} {{ .design.issues }}, {{ end }}],
         velocity: [{{ range $show_iterations }} {{ .design.velocity }}, {{ end }}]
     });
+{{ end }}
 
  });
 </script>
+
+
 
 <hr/>
 {{/* TODO: move to a config or data file */}}
