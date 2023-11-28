@@ -976,14 +976,15 @@
         "from": "2023-11-27",
         "to": "2023-12-08",
         "work": {
-            "risk": ["writing", "presenting"],
+            "risk": ["code", "writing", "presenting"],
             "derrida": ["paused"],
             "lenape": ["paused"],
             "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
-            "ppa": ["data", "planning", "teaching"],
-            "kreike": ["planning"]
+            "ppa": ["code", "planning", "teaching"],
+            "kreike": ["planning"],
+            "mep": ["maintenance"]
         }
     },
     {

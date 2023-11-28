@@ -3355,6 +3355,7 @@
         "to": "2023-12-08",
         "work": {
             "risk": [
+                "code",
                 "writing",
                 "presenting"
             ],
@@ -3376,12 +3377,15 @@
                 "paused"
             ],
             "ppa": [
-                "data",
+                "code",
                 "planning",
                 "teaching"
             ],
             "kreike": [
                 "planning"
+            ],
+            "mep": [
+                "maintenance"
             ]
         },
         "dev": {
