@@ -192,6 +192,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         {{ end }}
     {{/* get unique list of statuses, but omit Icebox  */}}
     {{ $data.Set "status" (complement (slice "Icebox") (uniq ($data.Get "status"))) }}
+    {{ if $data.Get "status" }}
     <ul>
         {{ range $data.Get "status" }}
         {{ $status_issues := where $upcoming_project_issues "pipeline" "intersect" (slice .) }}
@@ -208,7 +209,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         {{ end }}
         {{ end }}
     </ul>
-    {{ end }}
+    {{ end }} {{/* end list of issues by status */}}
+    {{ end }} {{/* end iterating over projects */}}
     </li>
 </ul>
 </section>
