@@ -538,7 +538,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/164",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-01T14:28:34Z",
     "labels": [
       "chore"
     ],
@@ -547,8 +547,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -13837,6 +13837,22 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want help text in the people-to-people relationship field that tells me to prioritize recording family relationships (when more than one relationship exists between the same two people), so that data entry is uniform",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1497",
+    "estimate": "",
+    "closed": null,
+    "labels": [
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
@@ -40867,8 +40883,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -40881,8 +40897,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -40954,6 +40970,22 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Complete first draft of script to pull full-text directly from Solr rather than local copy",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/561",
+    "estimate": "",
+    "closed": "2023-11-30T15:46:41Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -41909,7 +41941,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/43",
     "estimate": 3,
-    "closed": null,
+    "closed": "2023-11-28T18:14:04Z",
     "labels": [],
     "milestone": "",
     "assignees": [
