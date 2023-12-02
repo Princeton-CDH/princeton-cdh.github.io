@@ -3389,15 +3389,24 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 0.67
+            "points": 3,
+            "issues": 3,
+            "velocity": 1.67
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "simulating-risk": 1,
+            "ppa-django": 1,
+            "cdh-ansible": 1
+        },
+        "project_points": {
+            "simulating-risk": 3,
+            "ppa-django": 0,
+            "cdh-ansible": 0
+        }
     },
     {
         "from": "2023-12-11",
@@ -3430,7 +3439,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
@@ -3459,7 +3468,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
