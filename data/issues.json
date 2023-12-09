@@ -338,8 +338,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -9516,7 +9516,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1070",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-07T19:05:39Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -9526,7 +9526,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -13229,6 +13229,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13236,7 +13237,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -13483,7 +13484,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1461",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-07T21:02:04Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -13493,7 +13494,7 @@
       "blms"
     ],
     "pipeline": [
-      "Development Complete"
+      "Review/QA"
     ]
   },
   {
@@ -13858,6 +13859,120 @@
     ],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Full shelfmark search for multiple shelfmarks not working in admin",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1498",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As an admin, I\u2019d like the autocomplete for people to be diacritic-independent, so that I can find people and add relations more quickly",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1499",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a superuser, I want to be able to merge person-to-person relationship types to streamline the data entry process.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1500",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Alignment issues with translations in editor display (related to Safari 17.1)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1501",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a front end user, I want to see unpublished scholarship records displayed in CMS citation format so that users can easily cite unpublished material available on the PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1502",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "eScriptorium initial block-level ingest",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1503",
+    "estimate": "",
+    "closed": "2023-12-07T19:22:13Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "eScriptorium line-level ingest",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1504",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues"
     ]
