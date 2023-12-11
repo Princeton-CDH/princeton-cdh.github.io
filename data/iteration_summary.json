@@ -3390,7 +3390,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 3,
+            "issues": 2,
             "velocity": 1.67
         },
         "design": {
@@ -3399,12 +3399,10 @@
         },
         "project_issues": {
             "simulating-risk": 1,
-            "ppa-django": 1,
             "cdh-ansible": 1
         },
         "project_points": {
             "simulating-risk": 3,
-            "ppa-django": 0,
             "cdh-ansible": 0
         }
     },

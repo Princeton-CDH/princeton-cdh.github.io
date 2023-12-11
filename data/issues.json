@@ -41093,7 +41093,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/561",
     "estimate": "",
     "closed": "2023-11-30T15:46:41Z",
-    "labels": [],
+    "labels": [
+      "duplicate"
+    ],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
