@@ -71,6 +71,7 @@ status_icon:
   teaching: ":teacher:"
   problem: ":fire:"
   wrapup: ":wrapped_gift:"
+  test: ":check_mark_button:"
 
 # any status that should not be counted for indicating a project is active
 inactive_statuses:

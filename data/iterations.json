@@ -991,13 +991,14 @@
         "from": "2023-12-11",
         "to": "2023-12-29",
         "work": {
-            "risk": ["writing"],
+            "risk": ["writing", "code"],
             "geotaste": ["data", "code", "writing"],
             "geniza": ["consulting"],
             "startwords": ["paused"],
-            "ppa": ["data", "planning"],
+            "ppa": ["code", "planning"],
             "lenape": ["paused"],
-            "kreike": ["planning"]
+            "kreike": ["planning"],
+            "mep": ["maintenance", "test"]
         }
     },
     {
@@ -1007,7 +1008,8 @@
             "risk": ["wrapup"],
             "geotaste": ["writing", "wrapup"],
             "lenape": ["paused"],
-            "kreike": ["planning"]
+            "kreike": ["planning"],
+            "ppa": ["planning", "code"]
         }
     },
     {
