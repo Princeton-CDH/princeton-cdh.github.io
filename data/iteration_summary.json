@@ -3411,7 +3411,8 @@
         "to": "2023-12-29",
         "work": {
             "risk": [
-                "writing"
+                "writing",
+                "code"
             ],
             "geotaste": [
                 "data",
@@ -3425,7 +3426,7 @@
                 "paused"
             ],
             "ppa": [
-                "data",
+                "code",
                 "planning"
             ],
             "lenape": [
@@ -3433,6 +3434,10 @@
             ],
             "kreike": [
                 "planning"
+            ],
+            "mep": [
+                "maintenance",
+                "test"
             ]
         },
         "dev": {
@@ -3462,6 +3467,10 @@
             ],
             "kreike": [
                 "planning"
+            ],
+            "ppa": [
+                "planning",
+                "code"
             ]
         },
         "dev": {
