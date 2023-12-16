@@ -392,7 +392,7 @@
     ]
   },
   {
-    "issue": "node upgrade doesn't work with snap; switch to install from source",
+    "issue": "node upgrade doesn't work with snap (should refresh but doesn't)",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/143",
     "estimate": "",
@@ -402,11 +402,11 @@
     ],
     "milestone": "",
     "assignees": [
-      "kayiwa"
+      "rlskoeser",
+      "quadrismegistus"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -565,6 +565,24 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "setup shxco hosts with replicate playbook",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/169",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser",
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "In Progress"
     ]
   },
   {
@@ -13973,6 +13991,183 @@
     "assignees": [
       "blms"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Some newly added transcriptions and translations misaligned in the editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1505",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Cannot merge a document into a primary that does not have a description",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1506",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Development Complete"
+    ]
+  },
+  {
+    "issue": "Indexing issues with adding new DocumentTypes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1507",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Downloading csv of all Documents causes out of memory error, empty file",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1509",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want a separate date range field for each person page that autopopulates from the related documents linked with said person so that I can see date ranges at a glance and the field is always updated.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1510",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want manual override for the auto-populated date range for each person page so that I can update the date range to more accurately reflect our state of knowledge outside the document dates.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1511",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want an event model that can be linked to multiple people, places, and documents, so that I can recreate a person's timeline and link related data in new ways.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1512",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Polygon annotation box requires hard refresh to start working (does not work immediately)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1513",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Zoom thumbnail of document image in transcription editor behaving unpredictably",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1514",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Cursor suddently jumps around in translation editor",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1515",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Translation annotation box gets stuck (even when open) and will not allow edits",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1516",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -32311,15 +32506,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Development complete",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -33837,6 +34032,7 @@
     "closed": null,
     "labels": [
       "bug",
+      "awaiting testing",
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "1.6 - Dataset enhancements",
@@ -33844,8 +34040,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Development complete",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -34231,15 +34426,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Development complete",
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -34248,14 +34443,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/752",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "Development complete"
+      "Review/QA"
     ]
   },
   {
@@ -34406,6 +34602,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "awaiting testing",
       "chore"
     ],
     "milestone": "1.6 - Dataset enhancements",
@@ -34413,7 +34610,7 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -35253,6 +35450,20 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Documentation needed on slicing solr results, aliased querysets, pytest mocking",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/83",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -41010,10 +41221,12 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
       "Icebox",
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -41100,6 +41313,20 @@
     "assignees": [
       "quadrismegistus"
     ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Refine public metadata export",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/564",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -41827,13 +42054,17 @@
     "issue": "Add model parameters and inputs to allow varying initial distribution of risk attitudes",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/18",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "Robustness"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -42073,8 +42304,10 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/44",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-12-14T15:56:59Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -42087,11 +42320,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/45",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "Robustness"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -42099,12 +42334,46 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/47",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-12-14T18:59:40Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "hawk/dove: add and visualize agent payoffs",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/48",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "New Data"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "hawk/dove: include the other risk attitude endpoint (r = -1) ",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/49",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Flaw"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
@@ -42120,6 +42389,69 @@
     ],
     "pipeline": [
       "In Progress"
+    ]
+  },
+  {
+    "issue": "hawk/dove multirisk: change period of payoff comparison to neighbors when adjusting risk",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/50",
+    "estimate": 1,
+    "closed": null,
+    "labels": [
+      "Robustness",
+      "Flaw"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "hawk/dove: vary the payoffs",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/51",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Robustness"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "hawk/dove myopia: look at neighbors behavior over more than one round",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/52",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Robustness"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
+  },
+  {
+    "issue": " INTRODUCE RANDOMNESS  [ROBUSTNESS]",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/53",
+    "estimate": "",
+    "closed": "2023-12-14T15:55:09Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -42157,9 +42489,10 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/8",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-14T19:02:19Z",
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "",
     "assignees": [],
@@ -45496,6 +45829,21 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Python 3.11 Compatibility",
+    "project": "viapy",
+    "url": "https://api.github.com/repos/Princeton-CDH/viapy/issues/3",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
