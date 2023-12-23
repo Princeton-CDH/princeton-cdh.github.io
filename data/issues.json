@@ -336,10 +336,12 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "kayiwa",
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -396,7 +398,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/143",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-20T19:14:28Z",
     "labels": [
       "bug"
     ],
@@ -414,15 +416,17 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/147",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-12-19T20:12:52Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "kayiwa"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -430,7 +434,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/148",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-20T21:19:17Z",
     "labels": [
       "chore"
     ],
@@ -439,8 +443,7 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -448,13 +451,16 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/155",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-12-21T14:40:15Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -462,13 +468,16 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/156",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2023-12-19T20:35:36Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -476,7 +485,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/157",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-19T20:13:22Z",
     "labels": [
       "chore"
     ],
@@ -486,8 +495,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -572,7 +581,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/169",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-20T21:19:46Z",
     "labels": [
       "chore"
     ],
@@ -4635,6 +4644,19 @@
       "meg-codes"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "uploaded media check / cleanup",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/431",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox"
+    ]
   },
   {
     "issue": "Navigation - links disappear after resizing ",
@@ -32504,10 +32526,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/605",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-19T15:58:55Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -34029,10 +34050,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/716",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-18T14:01:36Z",
     "labels": [
       "bug",
-      "awaiting testing",
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "1.6 - Dataset enhancements",
@@ -34108,15 +34128,16 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/724",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-20T21:16:16Z",
     "labels": [
+      "chore",
       "\ud83d\udea7 maintenance"
     ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [],
     "pipeline": [
-      "Development complete",
-      "In Progress"
+      "Review/QA",
+      "Development complete"
     ]
   },
   {
@@ -34424,10 +34445,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/750",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-18T02:33:06Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -34442,7 +34462,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/752",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-20T21:15:55Z",
     "labels": [
       "chore"
     ],
@@ -34600,9 +34620,8 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/788",
     "estimate": "",
-    "closed": null,
+    "closed": "2023-12-19T16:09:57Z",
     "labels": [
-      "awaiting testing",
       "chore"
     ],
     "milestone": "1.6 - Dataset enhancements",
@@ -40978,8 +40997,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -41217,16 +41236,15 @@
     "issue": "Adapt Vineet's script to export plain text corpus",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/556",
-    "estimate": "",
-    "closed": null,
+    "estimate": 5,
+    "closed": "2023-12-20T20:04:39Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
     ],
     "pipeline": [
-      "Icebox",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41327,6 +41345,73 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "add an option to make page indexing more efficient",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/565",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "Small fixes for generate_textcorpus.py",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/566",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Discrepancy between total works / pages as reported by database and solr:",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/567",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Investigate duplicating calls to Solr (as seen in the logs for generate_textcorpus.py)",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/568",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "Icebox",
       "New Issues"
@@ -42057,6 +42142,7 @@
     "estimate": 2,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
     ],
     "milestone": "",
@@ -42318,15 +42404,18 @@
     "issue": "add some chance of randomness to hawk/dove game",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/45",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -42360,12 +42449,13 @@
     ]
   },
   {
-    "issue": "hawk/dove: include the other risk attitude endpoint (r = -1) ",
+    "issue": "hawk/dove: include the other risk attitude endpoint (always hawk)",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/49",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "Flaw"
     ],
     "milestone": "",
@@ -42373,7 +42463,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -42398,6 +42488,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness",
       "Flaw"
     ],
