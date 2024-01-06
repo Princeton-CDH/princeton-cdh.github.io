@@ -11656,7 +11656,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -12074,12 +12074,12 @@
       "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -13714,7 +13714,10 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1479",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -13910,7 +13913,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
     "assignees": [],
@@ -14027,12 +14031,12 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "Development Complete"
     ]
   },
   {
@@ -14042,9 +14046,10 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [
       "blms"
     ],
@@ -14059,9 +14064,10 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [],
     "pipeline": [
       "Backlog"
@@ -14074,12 +14080,13 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -14138,12 +14145,15 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -14156,7 +14166,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14188,10 +14198,28 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant Q1 2024 high priority bugs",
     "assignees": [],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "Dark mode styles are broken for new transcription/translation source input",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1517",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "Performant Q1 2024 high priority bugs",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
