@@ -41261,7 +41261,7 @@
     ]
   },
   {
-    "issue": "Adapt Vineet's script to export plain text corpus",
+    "issue": "As an admin, I want a way to reproducibly generate a full-text corpus of all public PPA content in order to support computational research on PPA materials.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/556",
     "estimate": 5,

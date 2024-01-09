@@ -989,7 +989,7 @@
     },
     {
         "from": "2023-12-11",
-        "to": "2023-12-29",
+        "to": "2024-01-05",
         "work": {
             "risk": ["writing", "code"],
             "geotaste": ["data", "code", "writing"],
@@ -1002,10 +1002,10 @@
         }
     },
     {
-        "from": "2024-01-01",
-        "to": "2024-01-12",
+        "from": "2024-01-08",
+        "to": "2024-01-19",
         "work": {
-            "risk": ["wrapup"],
+            "risk": ["writing", "code", "data"],
             "geotaste": ["writing", "wrapup"],
             "lenape": ["paused"],
             "kreike": ["planning"],
@@ -1013,7 +1013,10 @@
         }
     },
     {
-        "from": "2024-01-15",
-        "to": "2024-01-26"
+        "from": "2024-01-22",
+        "to": "2024-02-02",
+        "work": {
+            "risk": ["wrapup"]
+        }
     }
 ]
