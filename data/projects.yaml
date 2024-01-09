@@ -30,7 +30,7 @@ CDH_ansible:
   color: "#996666"
 
 cdh-ansible:
-  color: "#996666"
+  color: "#eb9469"
 
 django-pucas:
   color: "#CCCCCC"
@@ -39,8 +39,11 @@ princeton-cdh.github.io:
   color: "#AC9C68"
 
 lenape-timetree:
-  color: "#088124"
+  color: "#61514b"
   shortname: lenape
+
+simulating-risk:
+  color: "#fcd030"
 
 # map shorthand name for iteration summary/report to github repo
 lenape:
