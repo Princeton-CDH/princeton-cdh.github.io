@@ -25,11 +25,78 @@ date_range:
 {{/* gather iteration summary data for the specified date range */}}
 {{ $project_iterations := (where (where $.Site.Data.iteration_summary "from" ">=" $date_range.start) "to" "<=" $date_range.end)  }}
 
+{{/* gather issues closed within the specified date range */}}
+{{ $issues := (where (where $.Site.Data.issues "closed" ">=" $date_range.start) "closed" "<=" $date_range.end)  }}
+
+{{/* summarize issue data */}}
+<p><b>{{ $issues | len }}</b> total issues closed</p>
+
+
 {{/* containers where the charts will be added */}}
 <p><i>Hover over project name in the legend at right to highlight activity for a single project in both charts. Click and drag on a chart to zoom in on activity for a shorter time period; double click to undo the zoom.</i></p>
 
 <div id="project-points"></div>
 <div id="project-issues"></div>
+
+{{/* generate a list of highest point-estimate issues */}}
+
+{{ $issuesByPoints := sort (sort (where $issues "estimate" "ge" 5) "closed" "asc") "estimate" "desc" }}
+<h3>highest complexity issues</h3>
+<ul>
+    {{ range $issue := $issuesByPoints  }}
+    <li><a href="{{ replace $issue.url "api.github.com/repos/" "github.com/" }}">{{ $issue.issue }}</a> ({{ $issue.estimate }} points; {{ $issue.project }})</li>
+    {{ end }}
+</ul>
+
+<h3>totals by project/repository</h3>
+{{/* generate a list of projects */}}
+{{ $projects := slice }}
+{{ range $issue := $issues }}
+    {{ $projects = $projects | append $issue.project | uniq }}
+{{ end }}
+{{/* TODO: move to a config or data file; also in interation report template */}}
+{{ $design_tags := slice "design" "🗺️ design" "Design" }}
+
+<ul>
+    {{ range $project := $projects }}
+    <li><b>{{ $project }}</b>:
+        {{ $projectIssues := where $issues "project" "eq" $project }}
+        {{ $projectIssues | len }}  issues,
+        {{ $estimatedIssues := where $projectIssues "estimate" "ge" 0 }}
+        {{ if $estimatedIssues }}
+            {{/* calculate total points (note: does not distinguish dev/design) */}}
+            {{ $projPointsTotal := 0 }}
+            {{ range $projIssue := $estimatedIssues }}
+            {{ $projPointsTotal = add $projPointsTotal $projIssue.estimate }}
+            {{ end }}
+            {{ $projPointsTotal }} points
+            {{ $designIssues := where $estimatedIssues "labels" "intersect" $design_tags }}
+            {{ if $designIssues }}
+                {{ $designPoints := 0 }}
+                {{ range $projIssue := $designIssues }}
+                    {{ $designPoints = add $designPoints $projIssue.estimate }}
+                {{ end }}
+                (design: {{ len $designIssues }} issues, {{ $designPoints }} points)
+            {{ end }}
+        {{ else }}
+        0 points
+        {{ end }}
+    {{ end }}
+</ul>
+
+<h3>totals by tag</h3>
+{{/* generate a list of unique tags */}}
+{{/* note that some of these are effectively duplicates... */}}
+{{ $tags := slice }}
+{{ range $issue := $issues }}
+    {{ $tags = $tags | append $issue.labels | uniq }}
+{{ end }}
+<ul>
+    {{ range $tag := $tags }}
+    <li>{{ $tag }}: {{ where $issues "labels" "intersect" (slice $tag) | len}} </li>
+    {{ end }}
+</ul>
+
 
 {{/* data for generating the charts */}}
 <script id="iteration-data" type="application/json">{{ $project_iterations|jsonify (dict "indent" "  ") | safeJS }}</script>
