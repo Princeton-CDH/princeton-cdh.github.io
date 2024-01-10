@@ -55,6 +55,9 @@ risk:
 mep:
   repo: mep-django
 
+shxco:
+  repo: mep-django
+
 ppa:
   repo: ppa-django
 

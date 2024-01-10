@@ -170,90 +170,53 @@
     {
         "from": "2021-02-01",
         "to": "2021-02-13",
-        "projects": [
-            "geniza",
-            "cdh-web"
-        ]
+        "projects": ["geniza", "cdh-web"]
     },
     {
         "from": "2021-02-15",
         "to": "2021-02-26",
-        "projects": [
-            "geniza",
-            "cdh-web"
-        ]
+        "projects": ["geniza", "cdh-web"]
     },
     {
         "from": "2021-03-01",
         "to": "2021-03-12",
-        "projects": [
-            "geniza",
-            "cdh-web"
-        ]
+        "projects": ["geniza", "cdh-web"]
     },
     {
         "from": "2021-03-15",
         "to": "2021-03-29",
-        "projects": [
-            "geniza",
-            "cdh-web"
-        ]
+        "projects": ["geniza", "cdh-web"]
     },
     {
         "from": "2021-03-29",
         "to": "2021-04-09",
-        "projects": [
-            "geniza",
-            "cdh-web"
-        ],
-        "partial": [
-            "cdh-web"
-        ],
+        "projects": ["geniza", "cdh-web"],
+        "partial": ["cdh-web"],
         "notes": {
-            "cdh-web": [
-                "3.0 release",
-                "v3.0.1 (cleanup)"
-            ]
+            "cdh-web": ["3.0 release", "v3.0.1 (cleanup)"]
         }
     },
     {
         "from": "2021-04-12",
         "to": "2021-04-23",
-        "projects": [
-            "geniza"
-        ]
+        "projects": ["geniza"]
     },
     {
         "from": "2021-04-26",
         "to": "2021-05-07",
-        "projects": [
-            "cdh-web",
-            "geniza"
-        ],
-        "partial": [
-            "cdh-web"
-        ],
+        "projects": ["cdh-web", "geniza"],
+        "partial": ["cdh-web"],
         "notes": {
-            "cdh-web": [
-                "cleanup (v3.0.2)"
-            ]
+            "cdh-web": ["cleanup (v3.0.2)"]
         }
     },
     {
         "from": "2021-05-10",
         "to": "2021-05-21",
-        "projects": [
-            "geniza",
-            "maintenance"
-        ],
-        "partial": [
-            "maintenance"
-        ],
+        "projects": ["geniza", "maintenance"],
+        "partial": ["maintenance"],
         "notes": {
-            "geniza": [
-                "",
-                "data import complete"
-            ],
+            "geniza": ["", "data import complete"],
             "maintenance": [
                 "ppa updates; deploy scripts",
                 "Begin PUL migrations"
@@ -263,50 +226,23 @@
     {
         "from": "2021-05-24",
         "to": "2021-06-04",
-        "projects": [
-            "geniza",
-            "ppa",
-            "maintenance"
-        ],
-        "partial": [
-            "ppa",
-            "maintenance",
-            "geniza"
-        ],
+        "projects": ["geniza", "ppa", "maintenance"],
+        "partial": ["ppa", "maintenance", "geniza"],
         "notes": {
-            "geniza": [
-                "wrap up phase 2"
-            ],
-            "ppa": [
-                "Planning+Design"
-            ],
-            "maintenance": [
-                "deploy/migrations as time allows"
-            ]
+            "geniza": ["wrap up phase 2"],
+            "ppa": ["Planning+Design"],
+            "maintenance": ["deploy/migrations as time allows"]
         }
     },
     {
         "from": "2021-06-07",
         "to": "2021-06-25",
-        "projects": [
-            "cdh-web",
-            "ppa",
-            "geniza"
-        ],
-        "partial": [
-            "cdh-web",
-            "geniza"
-        ],
+        "projects": ["cdh-web", "ppa", "geniza"],
+        "partial": ["cdh-web", "geniza"],
         "notes": {
-            "cdh-web": [
-                "chartering + design problem identification"
-            ],
-            "ppa": [
-                "Gale/ECCO import"
-            ],
-            "geniza": [
-                "visual design"
-            ]
+            "cdh-web": ["chartering + design problem identification"],
+            "ppa": ["Gale/ECCO import"],
+            "geniza": ["visual design"]
         }
     },
     {
@@ -318,74 +254,33 @@
     {
         "from": "2021-07-05",
         "to": "2021-07-23",
-        "projects": [
-            "maintenance",
-            "ppa",
-            "cdh-web",
-            "derrida"
-        ],
-        "partial": [
-            "ppa",
-            "cdh-web",
-            "derrida",
-            "maintenance"
-        ],
+        "projects": ["maintenance", "ppa", "cdh-web", "derrida"],
+        "partial": ["ppa", "cdh-web", "derrida", "maintenance"],
         "notes": {
-            "ppa": [
-                "excerpt support"
-            ],
-            "cdh-web": [
-                "design"
-            ],
-            "derrida": [
-                "planning"
-            ],
-            "maintenance": [
-                "ansible updates"
-            ]
+            "ppa": ["excerpt support"],
+            "cdh-web": ["design"],
+            "derrida": ["planning"],
+            "maintenance": ["ansible updates"]
         }
     },
     {
         "from": "2021-07-26",
         "to": "2021-08-06",
-        "projects": [
-            "cdh-web",
-            "ppa",
-            "derrida"
-        ],
-        "partial": [
-            "maintenance",
-            "ppa",
-            "derrida"
-        ],
+        "projects": ["cdh-web", "ppa", "derrida"],
+        "partial": ["maintenance", "ppa", "derrida"],
         "notes": {
-            "cdh-web": [
-                "site search"
-            ],
-            "ppa": [
-                "",
-                "3.7 release"
-            ],
-            "derrida": [
-                "v1.2.5 bugfix release"
-            ]
+            "cdh-web": ["site search"],
+            "ppa": ["", "3.7 release"],
+            "derrida": ["v1.2.5 bugfix release"]
         }
     },
     {
         "from": "2021-08-09",
         "to": "2021-08-20",
-        "projects": [
-            "cdh-web",
-            "geniza"
-        ],
-        "partial": [
-            "geniza"
-        ],
+        "projects": ["cdh-web", "geniza"],
+        "partial": ["geniza"],
         "notes": {
-            "cdh-web": [
-                "",
-                "release v3.2"
-            ],
+            "cdh-web": ["", "release v3.2"],
             "geniza": [
                 "styling + prototyping (transcription, search)",
                 "charter prep"
@@ -395,133 +290,72 @@
     {
         "from": "2021-08-23",
         "to": "2021-09-03",
-        "projects": [
-            "geniza",
-            "maintenance",
-            "derrida",
-            "mep"
-        ],
-        "partial": [
-            "geniza",
-            "maintenance",
-            "derrida",
-            "mep"
-        ],
+        "projects": ["geniza", "maintenance", "derrida", "mep"],
+        "partial": ["geniza", "maintenance", "derrida", "mep"],
         "notes": {
-            "geniza": [
-                "chartering Y2"
-            ],
-            "maintenance": [
-                "design systematization"
-            ],
-            "derrida": [
-                "",
-                "data exports"
-            ],
-            "mep": [
-                "PUL migration"
-            ]
+            "geniza": ["chartering Y2"],
+            "maintenance": ["design systematization"],
+            "derrida": ["", "data exports"],
+            "mep": ["PUL migration"]
         }
     },
     {
         "from": "2021-09-06",
         "to": "2021-09-24",
-        "projects": [
-            "geniza",
-            "derrida",
-            "mep"
-        ],
-        "partial": [
-            "geniza",
-            "derrida",
-            "mep"
-        ],
+        "projects": ["geniza", "derrida", "mep"],
+        "partial": ["geniza", "derrida", "mep"],
         "notes": {
-            "derrida": [
-                "",
-                "data exports"
-            ],
-            "mep": [
-                "PUL migration"
-            ]
+            "derrida": ["", "data exports"],
+            "mep": ["PUL migration"]
         }
     },
     {
         "from": "2021-09-27",
         "to": "2021-10-08",
-        "projects": [
-            "geniza",
-            "derrida"
-        ],
-        "partial": [
-            "derrida",
-            "geniza"
-        ],
+        "projects": ["geniza", "derrida"],
+        "partial": ["derrida", "geniza"],
         "notes": {
-            "derrida": [
-                "archive site"
-            ]
+            "derrida": ["archive site"]
         }
     },
     {
         "from": "2021-10-11",
         "to": "2021-10-22",
-        "projects": [
-            "geniza",
-            "derrida"
-        ],
+        "projects": ["geniza", "derrida"],
         "partial": ["derrida"],
         "notes": {}
     },
     {
         "from": "2021-10-25",
         "to": "2021-11-05",
-        "projects": [
-            "geniza",
-            "derrida"
-        ],
+        "projects": ["geniza", "derrida"],
         "partial": ["derrida"]
     },
     {
         "from": "2021-11-08",
         "to": "2021-11-19",
-        "projects": [
-            "geniza",
-            "derrida"
-        ],
+        "projects": ["geniza", "derrida"],
         "partial": ["derrida"]
     },
     {
         "from": "2021-11-22",
         "to": "2021-12-03",
-        "projects": [
-            "geniza",
-            "startwords"
-        ],
-        "partial": [
-            "geniza"
-        ],
+        "projects": ["geniza", "startwords"],
+        "partial": ["geniza"],
         "notes": {}
     },
     {
         "from": "2021-12-06",
         "to": "2021-12-31",
-        "projects": [
-            "startwords",
-            "geniza"
-        ],
+        "projects": ["startwords", "geniza"],
         "notes": {
-            "startwords": [
-                "Issue 2", "", "Issue 3 prep"
-            ]
+            "startwords": ["Issue 2", "", "Issue 3 prep"]
         }
     },
     {
         "from": "2022-01-03",
         "to": "2022-01-14",
-        "projects": [
-            "geniza"
-        ]
+        "projects": ["geniza"]
     },
     {
         "from": "2022-01-17",
@@ -532,191 +366,129 @@
     {
         "from": "2022-01-24",
         "to": "2022-02-04",
-        "projects": [
-            "geniza"
-        ],
-        "notes": {"geniza": ["", "v4.0 (MVP)"]}
+        "projects": ["geniza"],
+        "notes": { "geniza": ["", "v4.0 (MVP)"] }
     },
     {
         "from": "2022-02-07",
         "to": "2022-02-18",
-        "projects": [
-            "geniza",
-            "startwords"
-        ],
+        "projects": ["geniza", "startwords"],
         "partial": ["startwords"],
-        "notes": {"startwords": ["", "design for issue 3"]}
+        "notes": { "startwords": ["", "design for issue 3"] }
     },
     {
         "from": "2022-02-21",
         "to": "2022-03-04",
-        "projects": [
-            "geniza",
-            "startwords"
-        ],
-        "notes": {"startwords": ["issue 3 design/dev"]},
+        "projects": ["geniza", "startwords"],
+        "notes": { "startwords": ["issue 3 design/dev"] },
         "partial": ["ppa", "geniza", "startwords"]
     },
     {
         "from": "2022-03-07",
         "to": "2022-03-18",
-        "projects": [
-            "geniza"
-        ],
+        "projects": ["geniza"],
         "partial": ["geniza"]
     },
     {
         "from": "2022-03-21",
         "to": "2022-04-01",
-        "projects": [
-            "geniza",
-            "startwords"
-        ],
+        "projects": ["geniza", "startwords"],
         "partial": ["geniza"],
         "notes": {
-            "startwords": [
-                "Issue 3"
-            ]
+            "startwords": ["Issue 3"]
         }
     },
     {
         "from": "2022-04-04",
         "to": "2022-04-15",
-        "projects": [
-            "geniza",
-            "ppa",
-            "startwords"
-        ],
+        "projects": ["geniza", "ppa", "startwords"],
         "partial": ["ppa", "geniza", "startwords"],
         "notes": {
-            "ppa": [
-                "Gale/ECCO API planning"
-            ]
+            "ppa": ["Gale/ECCO API planning"]
         }
     },
     {
         "from": "2022-04-18",
         "to": "2022-04-29",
-        "projects": [
-            "geniza",
-            "startwords"
-        ],
+        "projects": ["geniza", "startwords"],
         "partial": ["startwords", "geniza"],
         "notes": {
-            "startwords": [
-                "issue 3"
-            ]
+            "startwords": ["issue 3"]
         }
     },
     {
         "from": "2022-05-02",
         "to": "2022-05-13",
-        "projects": [
-            "geniza", "startwords"
-        ],
+        "projects": ["geniza", "startwords"],
         "partial": ["startwords"]
     },
     {
         "from": "2022-05-16",
         "to": "2022-06-03",
-        "projects": [
-            "geniza", "startwords"
-        ]
+        "projects": ["geniza", "startwords"]
     },
     {
         "from": "2022-06-06",
         "to": "2022-06-17",
-        "projects": [
-            "geniza", "other"
-        ],
+        "projects": ["geniza", "other"],
         "notes": {
-            "other": [
-                "RP planning"
-            ]
+            "other": ["RP planning"]
         }
     },
     {
         "from": "2022-06-20",
         "to": "2022-07-01",
-        "projects": [
-            "geniza", "other"
-        ],
+        "projects": ["geniza", "other"],
         "notes": {
-            "other": [
-                "RP planning"
-            ]
+            "other": ["RP planning"]
         }
     },
     {
         "from": "2022-07-04",
         "to": "2022-07-22",
-        "projects": [
-            "geniza", "other"
-        ],
+        "projects": ["geniza", "other"],
         "notes": {
-            "other": [
-                "RP planning", "", "R&D week"
-            ]
+            "other": ["RP planning", "", "R&D week"]
         }
     },
     {
         "from": "2022-07-25",
         "to": "2022-08-05",
-        "projects": [
-            "geniza", "other", "ppa"
-        ],
-        "partial": [
-            "geniza", "ppa"
-        ],
+        "projects": ["geniza", "other", "ppa"],
+        "partial": ["geniza", "ppa"],
         "notes": {
-            "other": [
-                "DH2022"
-            ]
+            "other": ["DH2022"]
         }
     },
     {
         "from": "2022-08-08",
         "to": "2022-08-19",
-        "projects": [
-            "geniza", "ppa"
-        ],
-        "partial": [
-            "geniza", "ppa"
-        ]
+        "projects": ["geniza", "ppa"],
+        "partial": ["geniza", "ppa"]
     },
     {
         "from": "2022-08-22",
         "to": "2022-09-02",
-        "projects": [
-            "geniza"
-        ]
+        "projects": ["geniza"]
     },
     {
         "from": "2022-09-05",
         "to": "2022-09-16",
-        "projects": [
-            "geniza", "lenape"
-        ],
+        "projects": ["geniza", "lenape"],
         "partial": ["lenape"]
     },
     {
         "from": "2022-09-19",
         "to": "2022-09-30",
-        "projects": [
-            "geniza", "lenape"
-        ],
+        "projects": ["geniza", "lenape"],
         "partial": ["lenape"]
     },
     {
         "from": "2022-10-03",
         "to": "2022-10-14",
-        "projects": [
-            "geniza", "lenape"
-        ],
+        "projects": ["geniza", "lenape"],
         "notes": {
-            "geniza": [
-                "end of grant Y2"
-            ]
+            "geniza": ["end of grant Y2"]
         },
         "partial": ["lenape", "geniza", "ppa"]
     },
@@ -740,7 +512,6 @@
         "to": "2022-11-25",
         "projects": ["lenape", "ppa"],
         "partial": ["ppa"]
-
     },
     {
         "from": "2022-11-28",
@@ -777,7 +548,6 @@
         "notes": {
             "other": ["HDSI"]
         }
-
     },
     {
         "from": "2023-01-16",
@@ -814,7 +584,7 @@
         "to": "2023-03-24",
         "projects": ["lenape", "other"],
         "partial": ["lenape"],
-         "notes": {
+        "notes": {
             "other": ["spring break"]
         }
     },
@@ -840,14 +610,13 @@
         "to": "2023-05-19",
         "projects": ["lenape", "risk"],
         "partial": ["risk"]
-
     },
     {
         "from": "2023-05-22",
         "to": "2023-06-09",
         "projects": ["risk", "startwords", "lenape", "other"],
         "partial": ["startwords", "lenape"],
-         "notes": {
+        "notes": {
             "other": ["", "", "HDSI"]
         }
     },
@@ -886,7 +655,6 @@
         "notes": {
             "startwords": ["essays due"]
         }
-
     },
     {
         "from": "2023-09-04",
@@ -906,7 +674,6 @@
         "notes": {
             "startwords": ["", "Publish Issue 4"]
         }
-
     },
     {
         "from": "2023-10-02",
@@ -998,7 +765,7 @@
             "ppa": ["code", "planning"],
             "lenape": ["paused"],
             "kreike": ["planning"],
-            "mep": ["maintenance", "test"]
+            "derrida": ["paused"]
         }
     },
     {
@@ -1006,17 +773,90 @@
         "to": "2024-01-19",
         "work": {
             "risk": ["writing", "code", "data"],
-            "geotaste": ["writing", "wrapup"],
+            "geotaste": ["writing"],
             "lenape": ["paused"],
             "kreike": ["planning"],
-            "ppa": ["planning", "code"]
+            "ppa": ["planning", "code", "maintenance"],
+            "shxco": ["code", "data"],
+            "derrida": ["paused"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
         }
     },
     {
         "from": "2024-01-22",
         "to": "2024-02-02",
         "work": {
-            "risk": ["wrapup"]
+            "risk": ["writing", "code", "data"],
+            "ppa": ["planning", "code", "maintenance"],
+            "lenape": ["paused"],
+            "kreike": ["planning"],
+            "shxco": ["code", "data"],
+            "derrida": ["maintenance"],
+            "geotaste": ["writing", "wrapup"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
+        }
+    },
+    {
+        "from": "2024-02-05",
+        "to": "2024-02-16",
+        "work": {
+            "risk": ["writing", "data"],
+            "ppa": ["planning", "code"],
+            "lenape": ["paused"],
+            "kreike": ["planning"],
+            "shxco": ["release"],
+            "derrida": ["paused"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
+        }
+    },
+    {
+        "from": "2024-02-19",
+        "to": "2024-03-01",
+        "work": {
+            "risk": ["wrapup"],
+            "ppa": ["planning", "code"],
+            "lenape": ["paused"],
+            "kreike": ["planning"],
+            "derrida": ["paused"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
+        }
+    },
+    {
+        "from": "2024-03-04",
+        "to": "2024-03-15",
+        "work": {
+            "ppa": ["planning", "code", "writing"],
+            "lenape": ["paused"],
+            "kreike": ["code"],
+            "derrida": ["paused"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
+        }
+    },
+    {
+        "from": "2024-03-18",
+        "to": "2024-03-29",
+        "work": {
+            "ppa": ["planning", "code", "writing"],
+            "lenape": ["paused"],
+            "kreike": ["code"],
+            "derrida": ["paused"],
+            "startwords": ["paused"],
+            "geniza": ["consulting"]
+        }
+    },
+    {
+        "from": "2024-04-01",
+        "to": "2024-04-12",
+        "work": {
+            "ppa": ["planning", "code", "writing"],
+            "lenape": ["paused"],
+            "kreike": ["code"],
+            "startwords": ["paused"]
         }
     }
 ]
