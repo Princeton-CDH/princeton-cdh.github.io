@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2024 Q1 Schedule</title><link>/blog/2024/01/2024-q1-schedule/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/2024-q1-schedule/</guid><description/></item><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
 &lt;p>In the last iteration of 2023, we made significant progress on multiple maintenance projects and completed a major feature on PPA looking towards research planned for 2024.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>PPA&lt;/strong>: We completed work on a new script to export a full-text corpus with page-level content corresponding to what&amp;rsquo;s available on the public site in Solr.&lt;/li>
@@ -580,4 +580,4 @@ alt="Screenshot of revised image rights and permalink on document details page"/
 &lt;p>Screenshot of revised image rights and permalink on document details page&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p></description></item><item><title>Blog: 2022 Q2 Schedule</title><link>/blog/2022/04/2022-q2-schedule/</link><pubDate>Tue, 19 Apr 2022 11:54:48 -0400</pubDate><guid>/blog/2022/04/2022-q2-schedule/</guid><description/></item></channel></rss>
+&lt;/p></description></item></channel></rss>
