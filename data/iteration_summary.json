@@ -3435,9 +3435,8 @@
             "kreike": [
                 "planning"
             ],
-            "mep": [
-                "maintenance",
-                "test"
+            "derrida": [
+                "paused"
             ]
         },
         "dev": {
@@ -3470,8 +3469,7 @@
                 "data"
             ],
             "geotaste": [
-                "writing",
-                "wrapup"
+                "writing"
             ],
             "lenape": [
                 "paused"
@@ -3481,12 +3479,81 @@
             ],
             "ppa": [
                 "planning",
-                "code"
+                "code",
+                "maintenance"
+            ],
+            "shxco": [
+                "code",
+                "data"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
             ]
         },
         "dev": {
             "points": 0,
+            "issues": 3,
             "velocity": 2.67
+        },
+        "design": {
+            "points": 0,
+            "issues": 1,
+            "velocity": 0.0
+        },
+        "project_issues": {
+            "ppa-django": 4
+        },
+        "project_points": {
+            "ppa-django": 0
+        }
+    },
+    {
+        "from": "2024-01-22",
+        "to": "2024-02-02",
+        "work": {
+            "risk": [
+                "writing",
+                "code",
+                "data"
+            ],
+            "ppa": [
+                "planning",
+                "code",
+                "maintenance"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "shxco": [
+                "code",
+                "data"
+            ],
+            "derrida": [
+                "maintenance"
+            ],
+            "geotaste": [
+                "writing",
+                "wrapup"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 1.67
         },
         "design": {
             "points": 0,
@@ -3496,16 +3563,179 @@
         "project_points": {}
     },
     {
-        "from": "2024-01-22",
-        "to": "2024-02-02",
+        "from": "2024-02-05",
+        "to": "2024-02-16",
         "work": {
             "risk": [
-                "wrapup"
+                "writing",
+                "data"
+            ],
+            "ppa": [
+                "planning",
+                "code"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "shxco": [
+                "release"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
             ]
         },
         "dev": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-02-19",
+        "to": "2024-03-01",
+        "work": {
+            "risk": [
+                "wrapup"
+            ],
+            "ppa": [
+                "planning",
+                "code"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-03-04",
+        "to": "2024-03-15",
+        "work": {
+            "ppa": [
+                "planning",
+                "code",
+                "writing"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "code"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-03-18",
+        "to": "2024-03-29",
+        "work": {
+            "ppa": [
+                "planning",
+                "code",
+                "writing"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "code"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "startwords": [
+                "paused"
+            ],
+            "geniza": [
+                "consulting"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-04-01",
+        "to": "2024-04-12",
+        "work": {
+            "ppa": [
+                "planning",
+                "code",
+                "writing"
+            ],
+            "lenape": [
+                "paused"
+            ],
+            "kreike": [
+                "code"
+            ],
+            "startwords": [
+                "paused"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
         },
         "design": {
             "points": 0,
