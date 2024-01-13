@@ -13608,9 +13608,8 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1470",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-12T16:21:15Z",
     "labels": [
-      "\u2753 question",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
@@ -13619,6 +13618,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "In Progress"
     ]
   },
@@ -14026,7 +14026,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1505",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-12T14:55:40Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14036,6 +14036,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "Development Complete"
     ]
   },
@@ -14044,7 +14045,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1506",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-12T14:38:46Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14054,6 +14055,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "Development Complete"
     ]
   },
@@ -14167,9 +14169,12 @@
       "performant"
     ],
     "milestone": "Performant Q1 2024 high priority bugs",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14196,12 +14201,16 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "Performant Q1 2024 high priority bugs",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14220,6 +14229,38 @@
     ],
     "pipeline": [
       "Backlog"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want there to be a notes field in the places pages so that I can add more detail about places that are hard-to-find.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1520",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want a provenance field on the document detail page so that I can note the origin and aquisition history of fragments when available.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1521",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -22816,6 +22857,19 @@
     "assignees": [],
     "pipeline": [
       "New Issues"
+    ]
+  },
+  {
+    "issue": "Migrate geotaste website to PUL servers via ansible",
+    "project": "geotaste",
+    "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/102",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Epics"
     ]
   },
   {
@@ -36920,9 +36974,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/132",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T21:07:55Z",
     "labels": [
-      "enhancement"
+      "enhancement",
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [],
@@ -37144,8 +37199,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/151",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T20:57:56Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -37157,8 +37214,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/152",
     "estimate": 2,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:19:29Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -37170,8 +37229,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/153",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T20:54:59Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -37183,9 +37244,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/154",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T20:54:15Z",
     "labels": [
-      "question"
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [],
@@ -37198,8 +37259,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/155",
     "estimate": 2,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:06:46Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -37211,8 +37274,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/156",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:03:02Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -37224,8 +37289,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/157",
     "estimate": 2,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T20:58:31Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -38275,8 +38342,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/262",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T21:09:50Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": "",
@@ -38396,13 +38464,15 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/273",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:09:26Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38511,15 +38581,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/283",
     "estimate": 3,
-    "closed": null,
+    "closed": "2024-01-10T21:06:24Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38527,15 +38598,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/284",
     "estimate": 2,
-    "closed": null,
+    "closed": "2024-01-10T21:07:10Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38738,15 +38810,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/301",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T21:05:51Z",
     "labels": [
-      "bug"
+      "bug",
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38795,13 +38868,15 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/307",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:00:17Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38809,13 +38884,15 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/309",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-10T21:01:10Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -38882,7 +38959,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/315",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T20:18:51Z",
     "labels": [
       "accessibility"
     ],
@@ -39081,7 +39158,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/331",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T20:19:22Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -39090,8 +39167,8 @@
       "gissoo"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -39099,17 +39176,18 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/332",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T20:59:00Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design"
+      "\ud83d\uddfa\ufe0f design",
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [
       "gissoo"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -39394,8 +39472,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/365",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T21:08:52Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": "",
@@ -39403,8 +39482,8 @@
       "thatbudakguy"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -40983,7 +41062,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/534",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-10T20:16:17Z",
     "labels": [
       "chore"
     ],
@@ -40992,8 +41071,8 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -41398,15 +41477,14 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/566",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-11T19:10:23Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -41455,6 +41533,36 @@
     "milestone": "v0.9.0",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "Investigate viability of EEBO-TCP integration",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/571",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "upgrade to Solr 9",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/572",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
   },
   {
     "issue": "reindex script",
@@ -41871,6 +41979,19 @@
     "milestone": "v0.11.0",
     "assignees": [
       "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/4",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "quadrismegistus"
     ],
     "pipeline": []
   },
