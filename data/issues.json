@@ -608,6 +608,21 @@
     "pipeline": []
   },
   {
+    "issue": "update playbooks for running on multiple VMs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/175",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
     "issue": "rename to 'devops'",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/18",
@@ -14060,18 +14075,21 @@
     ]
   },
   {
-    "issue": "Indexing issues with adding new DocumentTypes",
+    "issue": "Indexing issues with creating documents in Hebrew or Arabic admin",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1507",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-18T02:49:08Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
     ],
     "milestone": "Performant Q1 2024 high priority bugs",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Review/QA",
       "Backlog"
     ]
   },
@@ -14144,10 +14162,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1513",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-18T03:01:38Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -14155,7 +14172,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "In Progress",
+      "Review/QA"
     ]
   },
   {
@@ -14163,7 +14181,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1514",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-18T02:37:33Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14173,8 +14191,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14218,7 +14236,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1517",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-18T02:35:05Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14228,6 +14246,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "Backlog"
     ]
   },
@@ -14260,6 +14279,24 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Software release checklist for v4.16",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1527",
+    "estimate": "",
+    "closed": "2024-01-18T17:59:43Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -34829,6 +34866,23 @@
     ]
   },
   {
+    "issue": "viaf lookup for birth/death dates are not working properly",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/801",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit library item records so that I can review, correct, and expand on basic metadata for imported library item stub data.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/83",
@@ -37055,12 +37109,15 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/141",
     "estimate": 1,
-    "closed": null,
-    "labels": [],
+    "closed": "2024-01-16T20:05:05Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -38400,8 +38457,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -38450,13 +38506,13 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "chore",
       "accessibility"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -38553,12 +38609,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/280",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -38795,14 +38852,13 @@
     "issue": "Decrease responsiveness of title and author search fields only",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/300",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -39906,7 +39962,7 @@
     "issue": "As a user, I want to harvest metadata for book excerpts and articles so that I can save them for citation.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/399",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "question"
@@ -39914,7 +39970,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -40125,10 +40181,10 @@
     ]
   },
   {
-    "issue": "regularly synchronize HathiTrust pairtree data",
+    "issue": "As an admin, I want HathiTrust pairtree data regularly synchronized so that we have the most current version of HathiTrust content.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/428",
-    "estimate": "",
+    "estimate": 5,
     "closed": null,
     "labels": [
       "enhancement"
@@ -40136,8 +40192,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -40440,9 +40495,7 @@
       "chore"
     ],
     "milestone": "v3.10",
-    "assignees": [
-      "quadrismegistus"
-    ],
+    "assignees": [],
     "pipeline": [
       "Backlog"
     ]
@@ -40735,12 +40788,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/496",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -40748,13 +40802,12 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/497",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-16T19:44:46Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -40933,15 +40986,15 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/518",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-16T19:46:56Z",
     "labels": [
-      "chore"
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "In Progress",
-      "Icebox"
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -41016,16 +41069,13 @@
     "issue": " As a public site user, I want to be able to search works for words or phrases in quotations, so that I can find exact matches for my search terms.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/528",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [
-      "quadrismegistus"
-    ],
+    "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41053,8 +41103,7 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41177,12 +41226,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/543",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41195,12 +41245,9 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [
-      "quadrismegistus"
-    ],
+    "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41331,12 +41378,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/555",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -41415,14 +41463,13 @@
     "issue": "Adapt HathiTrust excerpt script to automate fixing updated digital page ranges from a spreadsheet",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/560",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41463,7 +41510,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/565",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -41540,14 +41589,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/571",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -41556,12 +41606,28 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/572",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Thumbnails and snippets occasionally mismatched",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/574",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
@@ -42289,7 +42355,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/18",
     "estimate": 2,
-    "closed": null,
+    "closed": "2024-01-18T16:10:18Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
@@ -42433,9 +42499,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -42554,7 +42622,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/45",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-01-18T16:10:19Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
@@ -42602,7 +42670,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/49",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-01-18T15:59:45Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
       "Flaw"
@@ -42635,7 +42703,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/50",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-01-18T15:59:46Z",
     "labels": [
       "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness",
@@ -42707,6 +42775,36 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "document hawk/dove convergence logic",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/61",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "update model data collector to include counts of agents for each risk attitude",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/62",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
     ]
   },
   {
