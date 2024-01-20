@@ -3497,9 +3497,9 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "issues": 3,
-            "velocity": 2.67
+            "points": 5,
+            "issues": 9,
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
@@ -3507,10 +3507,14 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "ppa-django": 4
+            "ppa-django": 5,
+            "geniza": 1,
+            "simulating-risk": 4
         },
         "project_points": {
-            "ppa-django": 0
+            "ppa-django": 0,
+            "geniza": 0,
+            "simulating-risk": 5
         }
     },
     {
@@ -3553,7 +3557,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 3.33
         },
         "design": {
             "points": 0,
@@ -3595,7 +3599,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.67
         },
         "design": {
             "points": 0,
