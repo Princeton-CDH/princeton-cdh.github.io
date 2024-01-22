@@ -24,7 +24,7 @@ EXCLUDE_REPOS = [
 DATA_FILENAME = "data/issues.json"
 
 
-def get_issues(all_issues=False):
+def get_issues(all_issues=False, limit_repos=None):
     """
     Use ZenHub and GitHub API to generate a CSV of all issues in
     all repositories in this GitHub organization, excluding any in the
@@ -54,6 +54,9 @@ def get_issues(all_issues=False):
 
     github_org = os.environ["GITHUB_REPOSITORY"].split("/")[0]
     repos = ghub.get_org_repos(github_org)
+    # if specified, limit to specific repos
+    if limit_repos:
+        repos = {key: val for key, val in repos.items() if key in limit_repos}
 
     # NOTE: possible/useful to only include closed issues?
     get_issue_params = {}
@@ -120,6 +123,9 @@ if __name__ == "__main__":
         help="Get all issues (by default only gets issues since "
         + "data file was last changed in git)",
     )
+    parser.add_argument(
+        "--repo", action="append", help="Only get issues for specified repository"
+    )
 
     args = parser.parse_args()
-    get_issues(all_issues=args.all)
+    get_issues(all_issues=args.all, limit_repos=args.repo)
