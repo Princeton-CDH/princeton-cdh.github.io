@@ -14289,15 +14289,16 @@
     "estimate": "",
     "closed": "2024-01-18T17:59:43Z",
     "labels": [
-      "chore"
+      "chore",
+      "performant"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -37108,7 +37109,7 @@
     "issue": "As a content editor, I want the title of content pages to update on the nav bar when edited so that the title is consistent across the site. ",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/141",
-    "estimate": 1,
+    "estimate": "",
     "closed": "2024-01-16T20:05:05Z",
     "labels": [
       "wontfix"
@@ -37116,8 +37117,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -37255,7 +37256,7 @@
     "issue": "As a content editor, I want to tag editorial content so that I can categorize the types of content on the site.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/151",
-    "estimate": 1,
+    "estimate": "",
     "closed": "2024-01-10T20:57:56Z",
     "labels": [
       "wontfix"
@@ -37270,7 +37271,7 @@
     "issue": "As a user, I want to see and filter editorial content by tags so that I can find editorials I'm interested in.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/152",
-    "estimate": 2,
+    "estimate": "",
     "closed": "2024-01-10T21:19:29Z",
     "labels": [
       "wontfix"
@@ -37285,7 +37286,7 @@
     "issue": "As a content editor, I want to optionally enter caption and copyright information for images in editorial content so that I can properly attribute images.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/153",
-    "estimate": 1,
+    "estimate": "",
     "closed": "2024-01-10T20:54:59Z",
     "labels": [
       "wontfix"
@@ -37315,7 +37316,7 @@
     "issue": "As a content editor, I want to set a featured image for an editorial post so that I can control how the post is represented when previewed and shared.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/155",
-    "estimate": 2,
+    "estimate": "",
     "closed": "2024-01-10T21:06:46Z",
     "labels": [
       "wontfix"
@@ -37345,7 +37346,7 @@
     "issue": "As a content editor, I want to have tags and other metadata about my posts exposed so that they can be better searched and shared.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/157",
-    "estimate": 2,
+    "estimate": "",
     "closed": "2024-01-10T20:58:31Z",
     "labels": [
       "wontfix"
@@ -38527,8 +38528,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -38600,7 +38601,7 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -38637,7 +38638,7 @@
     "issue": "Refactor main archive search to typescript",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/283",
-    "estimate": 3,
+    "estimate": "",
     "closed": "2024-01-10T21:06:24Z",
     "labels": [
       "wontfix",
@@ -38646,15 +38647,15 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
     "issue": "convert jasmine/karma tests to use jest",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/284",
-    "estimate": 2,
+    "estimate": "",
     "closed": "2024-01-10T21:07:10Z",
     "labels": [
       "wontfix",
@@ -38663,8 +38664,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -38788,8 +38789,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -38874,8 +38874,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -38931,8 +38931,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -38947,8 +38947,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -39223,8 +39223,8 @@
       "gissoo"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -39242,8 +39242,8 @@
       "gissoo"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -39434,7 +39434,6 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
       "Icebox"
     ]
   },
@@ -39450,7 +39449,6 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
       "Icebox"
     ]
   },
@@ -39486,8 +39484,8 @@
       "thatbudakguy"
     ],
     "pipeline": [
-      "In Progress",
-      "Review/QA"
+      "Review/QA",
+      "In Progress"
     ]
   },
   {
@@ -39519,8 +39517,8 @@
       "thatbudakguy"
     ],
     "pipeline": [
-      "In Progress",
-      "Review/QA"
+      "Review/QA",
+      "In Progress"
     ]
   },
   {
@@ -39538,8 +39536,8 @@
       "thatbudakguy"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -39807,8 +39805,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -40709,8 +40706,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -40803,7 +40800,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/497",
     "estimate": "",
     "closed": "2024-01-16T19:44:46Z",
-    "labels": [],
+    "labels": [
+      "duplicate"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -40842,8 +40841,8 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "In Progress",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -40993,8 +40992,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -41120,8 +41119,8 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -41153,8 +41152,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -41169,8 +41167,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41200,7 +41197,6 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
       "Icebox"
     ]
   },
@@ -41216,8 +41212,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41262,8 +41257,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41295,8 +41289,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41346,14 +41339,13 @@
     "issue": "Implement different styles for images for print CSS",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/551",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41368,8 +41360,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
@@ -41414,36 +41405,33 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Backlog"
     ]
   },
   {
     "issue": "As a content admin, I want an override publication date field for editorial posts so that I can decide what date to display for reposts or corrected posts.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/558",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
     "issue": "Add a workflow for generating PDFs without developer assistance to use the new print styles/DOI fields feature in editorial",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/559",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
     "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -41486,8 +41474,8 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -41500,8 +41488,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -41522,12 +41510,14 @@
     ]
   },
   {
-    "issue": "Small fixes for generate_textcorpus.py",
+    "issue": "Small fixes for generate_textcorpus script",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/566",
     "estimate": "",
     "closed": "2024-01-11T19:10:23Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "quadrismegistus"
@@ -41550,8 +41540,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -41568,8 +41557,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -42317,7 +42305,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -42357,7 +42345,6 @@
     "estimate": 2,
     "closed": "2024-01-18T16:10:18Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
     ],
     "milestone": "",
@@ -42492,10 +42479,10 @@
     ]
   },
   {
-    "issue": "batch run + analysis for hawk/dove sim across different starting hawk odds",
+    "issue": "large-scale batch run + analysis for hawk/dove multi risk sim across different parameter combinations",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/30",
-    "estimate": "",
+    "estimate": 3,
     "closed": null,
     "labels": [],
     "milestone": "",
@@ -42624,7 +42611,6 @@
     "estimate": 1,
     "closed": "2024-01-18T16:10:19Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness"
     ],
     "milestone": "",
@@ -42672,7 +42658,6 @@
     "estimate": 1,
     "closed": "2024-01-18T15:59:45Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "Flaw"
     ],
     "milestone": "",
@@ -42705,7 +42690,6 @@
     "estimate": 1,
     "closed": "2024-01-18T15:59:46Z",
     "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing",
       "Robustness",
       "Flaw"
     ],
