@@ -1,4 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2024 Q1 Schedule</title><link>/blog/2024/01/2024-q1-schedule/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/2024-q1-schedule/</guid><description/></item><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 8 - Jan 19, 2024</title><link>/blog/2024/01/22/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/22/</guid><description>
+&lt;img src="/blog/2024/01/22/featured-simrisk-distributions_hua9efb9a17b390a28f553435181609927_214337_640x0_resize_catmullrom_3.png" width="640" height="508"/>
+&lt;p>This iteration, on the Simulating Risk project we completed review and acceptance testing of the last planned issues for refining the model to address known flaws and improve robustness, including an option to set initial risk attitudes based on different distributions (random, normal, skewed left or right, bimodal).&lt;/p>
+&lt;p>On PPA, we did a substantial amount of cleanup on GitHub in preparation for the upcoming work; we closed one chore completed in this iteration, and a few issues that we discovered have been resolved. We closed a large number of old issues (bugs and features both) that we&amp;rsquo;ve decided not to work on since they are not aligned with our priorities for the project. (These are tagged as &amp;ldquo;wontfix&amp;rdquo; and are not reflected in the totals for the iteration, since we did not work on them.)&lt;/p>
+&lt;p>Our rolling velocity is &lt;strong>4.3&lt;/strong>, which likely reflects somewhat slow progress on both development and testing due to holidays and other commitments in January, as well as the amount of time we&amp;rsquo;ve been spending on project planning and maintenance.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2024/01/22/featured-simrisk-distributions.png"
+alt="Screenshot of Simulating Risk hawk/dove game with multiple risk attitudes showing new options or initial distribution of risk attitudes (bimodal distribution pictured)."/> &lt;figcaption>
+&lt;p>Screenshot of Simulating Risk hawk/dove game with multiple risk attitudes showing new options or initial distribution of risk attitudes (bimodal distribution pictured).&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: 2024 Q1 Schedule</title><link>/blog/2024/01/2024-q1-schedule/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/2024-q1-schedule/</guid><description/></item><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
 &lt;p>In the last iteration of 2023, we made significant progress on multiple maintenance projects and completed a major feature on PPA looking towards research planned for 2024.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>PPA&lt;/strong>: We completed work on a new script to export a full-text corpus with page-level content corresponding to what&amp;rsquo;s available on the public site in Solr.&lt;/li>
@@ -553,31 +564,4 @@ alt="Screenshot of the development version of Startwords showing the newly redes
 &lt;h2 id="geniza">Geniza&lt;/h2>
 &lt;p>We made progress on a number of design and development issues and both rolling velocity and iteration development work are at &lt;strong>6 points&lt;/strong>. This doesn&amp;rsquo;t reflect the large amount of in-progress work on transcription functionality (delivered for first-round testing but still very much in progress) and several related features around date/calendar conversion.&lt;/p>
 &lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>No development work this iteration, but design work for issue 3 is nearly complete and editorial and design work will be ready soon for final handoff for development on the remaining items needed for completing this issue.&lt;/p></description></item><item><title>Blog: Apr 18 - Apr 29, 2022</title><link>/blog/2022/05/02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/</guid><description>
-&lt;img src="/blog/2022/05/02/featured-geniza-doc-details_hu6e508823ce402b666b0a6fbd9a76aa08_128232_640x0_resize_catmullrom_3.png" width="640" height="528"/>
-&lt;p>This iteration we made progress on Geniza and closed out several issues for Startwords. We weren&amp;rsquo;t able to get a release out with the Geniza updates due to team commitments and availability at the end of the iteration, but we hope to get a release out early this iteration with the completed work. Our development velocity is fairly steady at &lt;strong>5&lt;/strong> points, but we closed &lt;strong>8&lt;/strong> development points and &lt;strong>17&lt;/strong> issues. We&amp;rsquo;re also continuing to make good progress with design work on both projects.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>Notable work includes improvements to the public search — a filter for documents with images, options to sort by input date and shelfmark, and our first foray into Judaeo-Arabic conversion, making it possible to search on Judaeo-Arabic transcription content when inputting Arabic search terms. We updated the admin document view so that it uses the same image and transcription viewer as the public site, and improved the display and functionality in the IIIF image rights in that section. We also made progress on RTL design implementations, resolved a long-standing font loading issue in Percy, and finally set up Sphinx code documentation. We&amp;rsquo;re continuing to make progress on design and development for the new transcription functionality, although we have not yet been able to deliver it for testing.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>We finalized designs for the new author list and linking to the author page in the footer, and completed testing on issues for reading articles and issues in translation and toggling between languages. We delivered a draft version of Issue 3 to the contributors with their revisions, so we are getting closer to publishing this issue.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img src="/blog/2022/05/02/featured-geniza-doc-details.png"
-alt="Screenshot of revised document details page"/> &lt;figcaption>
-&lt;p>Screenshot of revised document details page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/05/02/geniza-sort-options.png"
-alt="Screenshot of document search with new sorts and filters"/> &lt;figcaption>
-&lt;p>Screenshot of document search with new sorts and filters&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/05/02/geniza-image-rights.png"
-alt="Screenshot of revised image rights and permalink on document details page"/> &lt;figcaption>
-&lt;p>Screenshot of revised image rights and permalink on document details page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item></channel></rss>
+&lt;p>No development work this iteration, but design work for issue 3 is nearly complete and editorial and design work will be ready soon for final handoff for development on the remaining items needed for completing this issue.&lt;/p></description></item></channel></rss>

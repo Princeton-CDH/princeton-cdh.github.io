@@ -1,4 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 8 - Jan 19, 2024</title><link>/blog/2024/01/22/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/22/</guid><description>
+&lt;img src="/blog/2024/01/22/featured-simrisk-distributions_hua9efb9a17b390a28f553435181609927_214337_640x0_resize_catmullrom_3.png" width="640" height="508"/>
+&lt;p>This iteration, on the Simulating Risk project we completed review and acceptance testing of the last planned issues for refining the model to address known flaws and improve robustness, including an option to set initial risk attitudes based on different distributions (random, normal, skewed left or right, bimodal).&lt;/p>
+&lt;p>On PPA, we did a substantial amount of cleanup on GitHub in preparation for the upcoming work; we closed one chore completed in this iteration, and a few issues that we discovered have been resolved. We closed a large number of old issues (bugs and features both) that we&amp;rsquo;ve decided not to work on since they are not aligned with our priorities for the project. (These are tagged as &amp;ldquo;wontfix&amp;rdquo; and are not reflected in the totals for the iteration, since we did not work on them.)&lt;/p>
+&lt;p>Our rolling velocity is &lt;strong>4.3&lt;/strong>, which likely reflects somewhat slow progress on both development and testing due to holidays and other commitments in January, as well as the amount of time we&amp;rsquo;ve been spending on project planning and maintenance.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2024/01/22/featured-simrisk-distributions.png"
+alt="Screenshot of Simulating Risk hawk/dove game with multiple risk attitudes showing new options or initial distribution of risk attitudes (bimodal distribution pictured)."/> &lt;figcaption>
+&lt;p>Screenshot of Simulating Risk hawk/dove game with multiple risk attitudes showing new options or initial distribution of risk attitudes (bimodal distribution pictured).&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Dec 26 - Jan 6, 2024</title><link>/blog/2024/01/09/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/09/</guid><description>
 &lt;p>In the last iteration of 2023, we made significant progress on multiple maintenance projects and completed a major feature on PPA looking towards research planned for 2024.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>PPA&lt;/strong>: We completed work on a new script to export a full-text corpus with page-level content corresponding to what&amp;rsquo;s available on the public site in Solr.&lt;/li>
@@ -715,19 +726,4 @@ when most of the team was out. During this iteration, we published &lt;a href="h
 &lt;h2 id="geniza">geniza&lt;/h2>
 &lt;p>We made progress on the public document search, implementing styles and typography, and a preliminary implementation for synchronizing TEI transcriptions for search and display on the new site.&lt;/p>
 &lt;h2 id="derrida">derrida&lt;/h2>
-&lt;p>We developed a custom driver for browsertrix-crawler so that we could archive the historgram visualization pages and the deep-zoom image content on the site.&lt;/p></description></item><item><title>Blog: Oct 25 - Nov 5, 2021</title><link>/blog/2021/11/08/</link><pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate><guid>/blog/2021/11/08/</guid><description>
-&lt;img src="/blog/2021/11/08/featured-geniza-kwic_hu183aa54baf7030e3cd19aa3fb2aea662_57198_640x0_resize_catmullrom_3.png" width="640" height="355"/>
-&lt;p>Our rolling development velocity after this iteration is low (only &lt;strong>4 points&lt;/strong>), but we&amp;rsquo;re starting to gain momentum on the geniza development work and we&amp;rsquo;rec lose to wrapping up maintenance and chore work. For development work, we completed 17 issues and 9 points; we also made progress on geniza design work this iteration.&lt;/p>
-&lt;h2 id="geniza">geniza&lt;/h2>
-&lt;p>We&amp;rsquo;re starting to make progress on the public site features planned for the first public release (PGP v4.0): adding functionality to the public document search, document details, implementing styles, and working to use localization and internationalization consistently. We&amp;rsquo;re also making progress on visual design and typography.&lt;/p>
-&lt;h2 id="derrida">derrida&lt;/h2>
-&lt;p>For the work to archive Derrida&amp;rsquo;s Margins, we completed the remaining work to complete the web archiving (which included a custom web driver to capture the visualization and deep zoom images), and gathered needed information for customizing and configuring the deployed archive site.&lt;/p>
-&lt;h2 id="startwords">startwords&lt;/h2>
-&lt;p>Startwords is not scheduled for active development until next iteration, but as we identified and addressed one small item that was determined to be helpful for editing and publication prep; in this case, so the editors could give contributors a preview of how their revised essay might be presented on the site.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2021/11/08/featured-geniza-kwic.png"
-alt="Screenshot of the Geniza search interface showing matching search terms in context in the document description"/> &lt;figcaption>
-&lt;p>Screenshot of the Geniza search interface showing matching search terms in context in the document description&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;p>We developed a custom driver for browsertrix-crawler so that we could archive the historgram visualization pages and the deep-zoom image content on the site.&lt;/p></description></item></channel></rss>
