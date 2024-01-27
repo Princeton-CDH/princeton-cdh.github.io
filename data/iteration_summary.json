@@ -3554,15 +3554,27 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 3.33
+            "points": 3,
+            "issues": 6,
+            "velocity": 4.33
         },
         "design": {
             "points": 0,
+            "issues": 1,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-ansible": 2,
+            "cdh-web": 1,
+            "simulating-risk": 1,
+            "geniza": 3
+        },
+        "project_points": {
+            "cdh-ansible": 0,
+            "cdh-web": 0,
+            "simulating-risk": 3,
+            "geniza": 0
+        }
     },
     {
         "from": "2024-02-05",
@@ -3597,7 +3609,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 1.67
+            "velocity": 2.67
         },
         "design": {
             "points": 0,
@@ -3635,7 +3647,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
