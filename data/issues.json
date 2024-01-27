@@ -333,7 +333,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/138",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-23T21:42:34Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -612,12 +612,14 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/175",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-22T21:24:20Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "In Progress"
     ]
@@ -4671,6 +4673,24 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "images / styles sometimes don't load properly since the migration to two vms",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/432",
+    "estimate": "",
+    "closed": "2024-01-22T17:47:35Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -9314,7 +9334,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -10711,7 +10732,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -13942,7 +13964,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1499",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-24T16:29:32Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -13950,6 +13972,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "Backlog",
       "New Issues"
     ]
   },
@@ -14297,8 +14320,28 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "PGPIDs without images will not save transcription content",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1528",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "performant"
+    ],
+    "milestone": "Performant Q1 2024 high priority bugs",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -17998,6 +18041,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "Icebox",
       "New Issues"
     ]
   },
@@ -19416,7 +19460,8 @@
       "blms"
     ],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -19925,7 +19970,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/727",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-24T17:32:32Z",
     "labels": [
       "chore"
     ],
@@ -20657,7 +20702,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/786",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-24T16:59:29Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -21244,7 +21289,8 @@
       "blms"
     ],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -21304,6 +21350,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "Icebox",
       "New Issues"
     ]
   },
@@ -21312,13 +21359,14 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/860",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-01-24T16:54:33Z",
     "labels": [
       "Epic"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "Icebox",
       "New Issues"
     ]
   },
@@ -21510,7 +21558,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -21802,6 +21851,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "Icebox",
       "New Issues"
     ]
   },
@@ -41585,7 +41635,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -42483,7 +42533,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/30",
     "estimate": 3,
-    "closed": null,
+    "closed": "2024-01-23T21:20:39Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -42771,9 +42821,11 @@
       "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
