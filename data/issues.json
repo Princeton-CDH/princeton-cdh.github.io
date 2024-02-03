@@ -9327,15 +9327,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1046",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-02T18:16:05Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udeab wontfix"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -9753,12 +9753,12 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1087",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-02T18:17:14Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
       "rlskoeser"
     ],
@@ -10723,13 +10723,13 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1179",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-02T19:18:00Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
-      "rlskoeser"
+      "blms"
     ],
     "pipeline": [
       "Icebox",
@@ -11264,12 +11264,13 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -11990,7 +11991,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13292,10 +13294,11 @@
       "\ud83d\udee0\ufe0f chore",
       "\ud83e\uddf1 blocked"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13309,7 +13312,7 @@
       "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
       "blms"
     ],
@@ -13465,10 +13468,11 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13588,7 +13592,8 @@
       "kseniaryzhova"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13621,7 +13626,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13802,10 +13808,11 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13870,12 +13877,13 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13966,14 +13974,15 @@
     "estimate": "",
     "closed": "2024-01-24T16:29:32Z",
     "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
       "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -14329,10 +14338,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1528",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-01T19:32:15Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant Q1 2024 high priority bugs",
@@ -14340,7 +14348,97 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
+      "New Issues",
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "People",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1530",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Places",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1531",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Documents",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1532",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Search",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1533",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Events",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1534",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Prob. out of scope",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1535",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
       "New Issues"
     ]
   },
@@ -15571,9 +15669,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/271",
     "estimate": 1,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "performant"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "Backlog"
     ]
@@ -15673,7 +15775,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -18041,8 +18144,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -19460,8 +19563,8 @@
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -21284,13 +21387,13 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -21347,11 +21450,11 @@
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -21535,8 +21638,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/874",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-02T15:13:16Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": "",
@@ -21848,11 +21952,11 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "CDH Maintenance",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -22655,7 +22759,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -34934,6 +35039,38 @@
     ]
   },
   {
+    "issue": "Duplicate names in Subject database table?",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/803",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "update npm package dependencies so deploy production install works as expected",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/806",
+    "estimate": "",
+    "closed": "2024-01-30T21:10:53Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit library item records so that I can review, correct, and expand on basic metadata for imported library item stub data.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/83",
@@ -40830,18 +40967,21 @@
     ]
   },
   {
-    "issue": "Upgrading wagtail/django",
+    "issue": "Upgrade to newer versions of wagtail/django/python",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/496",
     "estimate": "",
     "closed": null,
     "labels": [
+      "awaiting testing",
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41547,7 +41687,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/565",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-02T21:43:41Z",
     "labels": [
       "chore"
     ],
@@ -41556,6 +41696,7 @@
       "rlskoeser"
     ],
     "pipeline": [
+      "Development complete",
       "In Progress"
     ]
   },
@@ -41590,7 +41731,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41680,6 +41821,40 @@
       "rlskoeser"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "npm packages are out of date and server build fails when omitting dev packages",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/581",
+    "estimate": "",
+    "closed": "2024-01-31T14:25:31Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "update local settings handling",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/583",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "Snippet: single search result",
