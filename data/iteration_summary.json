@@ -3555,7 +3555,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 6,
+            "issues": 11,
             "velocity": 4.33
         },
         "design": {
@@ -3567,13 +3567,17 @@
             "cdh-ansible": 2,
             "cdh-web": 1,
             "simulating-risk": 1,
-            "geniza": 3
+            "geniza": 5,
+            "mep-django": 1,
+            "ppa-django": 2
         },
         "project_points": {
             "cdh-ansible": 0,
             "cdh-web": 0,
             "simulating-risk": 3,
-            "geniza": 0
+            "geniza": 0,
+            "mep-django": 0,
+            "ppa-django": 0
         }
     },
     {
