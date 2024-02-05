@@ -802,11 +802,11 @@
         "from": "2024-02-05",
         "to": "2024-02-16",
         "work": {
-            "risk": ["writing", "data"],
-            "ppa": ["planning", "code"],
+            "risk": ["data", "code"],
+            "ppa": ["planning", "code", "maintenance"],
             "lenape": ["paused"],
             "kreike": ["planning"],
-            "shxco": ["release"],
+            "shxco": ["test", "code"],
             "derrida": ["paused"],
             "startwords": ["paused"],
             "geniza": ["consulting"]
@@ -822,6 +822,7 @@
             "kreike": ["planning"],
             "derrida": ["paused"],
             "startwords": ["paused"],
+            "shxco": ["release"],
             "geniza": ["consulting"]
         }
     },
