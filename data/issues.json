@@ -334,7 +334,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/138",
     "estimate": "",
     "closed": "2024-01-23T21:42:34Z",
-    "labels": [],
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
       "kayiwa",
@@ -9085,8 +9087,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1010",
     "estimate": 2,
-    "closed": null,
+    "closed": "2024-02-05T20:45:44Z",
     "labels": [
+      "\u2753 question",
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": "",
@@ -9753,7 +9757,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1087",
     "estimate": "",
-    "closed": "2024-02-02T18:17:14Z",
+    "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
@@ -10615,7 +10619,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -11564,7 +11569,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -11607,12 +11613,14 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -11657,13 +11665,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83d\uddfa\ufe0f design",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -11744,12 +11754,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -11919,12 +11931,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -12186,7 +12200,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -12528,12 +12543,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13627,7 +13644,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Icebox"
+      "Dev Complete"
     ]
   },
   {
@@ -13791,12 +13808,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13942,13 +13961,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -14030,7 +14051,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -14548,7 +14570,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/162",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -15376,7 +15400,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -16480,7 +16506,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/342",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-05T01:40:39Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -16891,7 +16917,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/385",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -18171,7 +18199,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/504",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -18638,6 +18668,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -20075,7 +20106,8 @@
     "estimate": "",
     "closed": "2024-01-24T17:32:32Z",
     "labels": [
-      "chore"
+      "chore",
+      "performant"
     ],
     "milestone": "",
     "assignees": [],
@@ -20807,6 +20839,7 @@
     "estimate": "",
     "closed": "2024-01-24T16:59:29Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
@@ -21310,6 +21343,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -21464,13 +21498,14 @@
     "estimate": "",
     "closed": "2024-01-24T16:54:33Z",
     "labels": [
+      "\ud83d\udeab wontfix",
       "Epic"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -22570,6 +22605,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -22617,12 +22653,14 @@
     "estimate": "",
     "closed": null,
     "labels": [
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -22755,7 +22793,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/965",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u2753 question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -33902,9 +33942,11 @@
       "enhancement"
     ],
     "milestone": "1.6 - Dataset enhancements",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -34930,9 +34972,11 @@
     "closed": null,
     "labels": [],
     "milestone": "1.6 - Dataset enhancements",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -34941,11 +34985,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/791",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "1.6 - Dataset enhancements",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -34954,11 +35002,15 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/792",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "1.6 - Dataset enhancements",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41767,7 +41819,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/571",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-05T17:56:50Z",
     "labels": [
       "chore"
     ],
@@ -42987,35 +43039,31 @@
     ]
   },
   {
-    "issue": "document hawk/dove convergence logic",
+    "issue": "document hawk/dove convergence logic and include converged status in data collection",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/61",
-    "estimate": "",
+    "estimate": 2,
     "closed": null,
-    "labels": [
-      "\ud83d\udee0\ufe0f chore"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
     "issue": "update model data collector to include counts of agents for each risk attitude",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/62",
-    "estimate": "",
+    "estimate": 1,
     "closed": null,
-    "labels": [
-      "\ud83d\udee0\ufe0f chore"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
