@@ -643,6 +643,36 @@
     ]
   },
   {
+    "issue": "NFS permission + ownership should be set on NFS server ",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/181",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "enable id_mapping on the client",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/185",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -9089,7 +9119,6 @@
     "estimate": 2,
     "closed": "2024-02-05T20:45:44Z",
     "labels": [
-      "\u2753 question",
       "\ud83d\udeab wontfix",
       "performant"
     ],
@@ -10619,8 +10648,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -11566,7 +11595,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -11613,10 +11642,9 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -11665,11 +11693,10 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83d\uddfa\ufe0f design",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -11704,7 +11731,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "Performant Q1 2024 high priority bugs",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -11754,10 +11781,9 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udeab wontfix",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -11931,10 +11957,9 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -11997,7 +12022,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1318",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-07T20:50:08Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "performant"
@@ -12127,7 +12152,7 @@
       "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
-    "milestone": "Performant Q1 2024 high priority bugs",
+    "milestone": "Search",
     "assignees": [
       "blms"
     ],
@@ -12193,11 +12218,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1342",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T15:41:02Z",
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": "",
+    "milestone": "Events",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -12493,10 +12518,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -12543,10 +12569,9 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -12563,10 +12588,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -12731,10 +12757,11 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -12747,7 +12774,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
@@ -13039,10 +13066,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13242,9 +13270,10 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
+      "Icebox",
       "Backlog"
     ]
   },
@@ -13468,11 +13497,12 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Places",
     "assignees": [
       "blms"
     ],
     "pipeline": [
+      "Backlog",
       "In Progress"
     ]
   },
@@ -13571,10 +13601,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13643,8 +13674,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Dev Complete",
+      "New Issues"
     ]
   },
   {
@@ -13657,10 +13688,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -13726,10 +13758,13 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
-    "assignees": [],
+    "milestone": "Search",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "In Progress"
     ]
   },
   {
@@ -13760,12 +13795,13 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Places",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13778,10 +13814,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13794,10 +13831,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13805,17 +13843,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1481",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T16:43:29Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues",
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -13879,11 +13916,12 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [
       "blms"
     ],
     "pipeline": [
+      "Backlog",
       "In Progress"
     ]
   },
@@ -13915,10 +13953,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13931,10 +13970,11 @@
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -13961,15 +14001,14 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues",
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -13980,9 +14019,10 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14016,10 +14056,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -14074,7 +14115,7 @@
     ]
   },
   {
-    "issue": "eScriptorium line-level ingest",
+    "issue": "eScriptorium line-level ingest and editor",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1504",
     "estimate": "",
@@ -14087,7 +14128,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14157,7 +14199,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "Performant Q1 2024 high priority bugs",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Backlog"
@@ -14173,7 +14215,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14189,7 +14231,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14205,7 +14247,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Events",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14257,9 +14299,10 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14314,7 +14357,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Places",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14330,7 +14373,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -14379,7 +14422,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1530",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:18Z",
     "labels": [
       "Epic"
     ],
@@ -14394,7 +14437,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1531",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:19Z",
     "labels": [
       "Epic"
     ],
@@ -14409,7 +14452,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1532",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:19Z",
     "labels": [
       "Epic"
     ],
@@ -14424,7 +14467,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1533",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:19Z",
     "labels": [
       "Epic"
     ],
@@ -14439,7 +14482,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1534",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:20Z",
     "labels": [
       "Epic"
     ],
@@ -14454,7 +14497,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1535",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T19:38:20Z",
     "labels": [
       "Epic"
     ],
@@ -14569,11 +14612,11 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/162",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T16:44:13Z",
     "labels": [
-      "\u2753 question"
+      "\ud83d\udeab wontfix"
     ],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -15400,10 +15443,8 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u2753 question"
-    ],
-    "milestone": "",
+    "labels": [],
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -15698,7 +15739,7 @@
     "labels": [
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [
       "blms"
     ],
@@ -16917,10 +16958,8 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/385",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u2753 question"
-    ],
-    "milestone": "",
+    "labels": [],
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -18199,10 +18238,8 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/504",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u2753 question"
-    ],
-    "milestone": "",
+    "labels": [],
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -18668,10 +18705,9 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -18686,7 +18722,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -19069,7 +19105,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -19866,7 +19902,7 @@
     "labels": [
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -20309,7 +20345,7 @@
     "estimate": 1,
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -20824,7 +20860,7 @@
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [
       "gissoo"
     ],
@@ -21177,7 +21213,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -21343,10 +21379,9 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -21387,12 +21422,13 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/848",
     "estimate": 0,
-    "closed": null,
+    "closed": "2024-02-08T16:05:00Z",
     "labels": [],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -21694,11 +21730,11 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "Backlog",
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -22147,14 +22183,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/908",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-08T16:42:31Z",
     "labels": [
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "Icebox"
+      "Icebox",
+      "Backlog"
     ]
   },
   {
@@ -22605,10 +22642,9 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
       "Icebox"
@@ -22653,10 +22689,9 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -22793,10 +22828,8 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/965",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "\u2753 question"
-    ],
-    "milestone": "",
+    "labels": [],
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -30067,9 +30100,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/39",
     "estimate": "",
     "closed": "2017-11-15T16:01:34Z",
-    "labels": [
-      "tested needs attention"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [
       "meg-codes"
@@ -35117,6 +35148,52 @@
     "assignees": [
       "rlskoeser"
     ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Fix code scanning alert - Incomplete URL substring sanitization",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/807",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Fix code scanning alert - Potentially unsafe external link",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/808",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Fix code scanning alert - DOM text reinterpreted as HTML",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/809",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -41482,9 +41559,12 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -41600,9 +41680,12 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "Development complete"
     ]
   },
   {
@@ -41903,6 +41986,24 @@
     ],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Investigate using conda yaml file for setting up environment",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/585",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -43061,9 +43162,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
