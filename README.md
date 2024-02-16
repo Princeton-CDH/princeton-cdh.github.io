@@ -12,6 +12,16 @@ GitHub Actions are used to collect data on releases (via repository tags) and is
 
 The dev/design site is generated with [Hugo](https://gohugo.io/) using the [Docsy](https://www.docsy.dev/) theme. The Hugo site is automatically compiled from the `main` branch and published to `gh-pages`.
 
+## prerequisits
+
+Hugo requires the following to be installed locally:
+
+- go
+- hugo
+- node
+
+All can be installed using brew.
+
 ## setup
 
 This site uses the docsy theme, which is installed as a go module. Modules can be installed or updated by runnning:
