@@ -673,6 +673,40 @@
     ]
   },
   {
+    "issue": "create a qa and production playbooks",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/186",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "deal with large file system error / repository over quota",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/187",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -9786,7 +9820,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1087",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-12T22:19:48Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
       "\u267f accessibility"
@@ -11596,10 +11630,12 @@
       "performant"
     ],
     "milestone": "Search",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues",
-      "Icebox"
+      "Dev Complete"
     ]
   },
   {
@@ -11645,10 +11681,12 @@
       "performant"
     ],
     "milestone": "Search",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues",
-      "Icebox"
+      "Dev Complete"
     ]
   },
   {
@@ -11729,12 +11767,16 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "Search",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -12149,7 +12191,6 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Search",
@@ -12157,6 +12198,7 @@
       "blms"
     ],
     "pipeline": [
+      "Dev Complete",
       "In Progress"
     ]
   },
@@ -13266,7 +13308,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1428",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-14T19:04:34Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
@@ -13801,7 +13843,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Backlog"
+      "Dev Complete"
     ]
   },
   {
@@ -13944,7 +13986,7 @@
     ]
   },
   {
-    "issue": "As a content admin, I want to drop down a pin on the places map and then be able to move the pin around so that I can manually adjust the coordinates of a place before saving the location.",
+    "issue": "As a content admin, I want to drop down a pin on a map and then be able to move the pin around so that I can manually adjust the coordinates of a place before saving the location.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1494",
     "estimate": "",
@@ -13954,10 +13996,12 @@
       "performant"
     ],
     "milestone": "Documents",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues",
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -14023,9 +14067,12 @@
       "performant"
     ],
     "milestone": "Search",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14299,13 +14346,13 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -14316,16 +14363,13 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
       "performant"
     ],
-    "milestone": "Performant Q1 2024 high priority bugs",
-    "assignees": [
-      "blms"
-    ],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Icebox"
     ]
   },
   {
@@ -35200,6 +35244,21 @@
     ]
   },
   {
+    "issue": "admin geonames lookup is broken",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/810",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit library item records so that I can review, correct, and expand on basic metadata for imported library item stub data.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/83",
@@ -41100,9 +41159,8 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/496",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-14T20:45:29Z",
     "labels": [
-      "awaiting testing",
       "chore"
     ],
     "milestone": "",
@@ -41479,14 +41537,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/539",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-14T20:15:52Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41554,7 +41614,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/544",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-12T21:34:13Z",
     "labels": [
       "bug"
     ],
@@ -41563,8 +41623,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress",
-      "Development complete"
+      "Review/QA"
     ]
   },
   {
@@ -41574,12 +41633,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "tested needs attention"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41675,7 +41737,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/554",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-14T19:33:06Z",
     "labels": [
       "bug"
     ],
@@ -41684,8 +41746,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog",
-      "Development complete"
+      "Review/QA"
     ]
   },
   {
