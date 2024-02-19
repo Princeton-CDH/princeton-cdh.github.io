@@ -1,4 +1,15 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Jan 22 - Feb 2, 2024</title><link>/blog/2024/02/05/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/2024/02/05/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 5 - Feb 16, 2024</title><link>/blog/2024/02/19/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/2024/02/19/</guid><description>
+&lt;p>Early February was split between wrapping up existing projects, administrative tasks related to annual performance reviews and job descriptions, as well as progress on the current priorities of the PPA and the Kreike project.&lt;/p>
+&lt;p>For Shakespeare and Company / GeoTaste, the goal for this iteration was to complete dev work on the GeoTaste application and deploy to the Google Cloud sandbox, as well as finish the export and import commands. Both the import and export commands have open pull requests.&lt;/p>
+&lt;p>For Simulating Risk, Lara has requested some data analysis ahead of her talk on the 28th. There is an open pull request waiting for feedback from Lara and a meeting scheduled for the week of the 19th.&lt;/p>
+&lt;p>For Aerial CV, Jeri, Mary, and Laure met with Emmanuel, Wangyal, and Bill (the Time Traveling Trees Team) for a meet-and-greet, as well as early scoping meeting.&lt;/p>
+&lt;p>For PPA, Mary completed acceptance testing on a number of cluster-bug related issues. We are also waiting on ProQuest for permission related to the content in EEBO.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>Potential in meeting demos:&lt;/p>
+&lt;ul>
+&lt;li>import functionality on S&amp;amp;Co&lt;/li>
+&lt;li>SimRisk data analysis&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Jan 22 - Feb 2, 2024</title><link>/blog/2024/02/05/</link><pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/2024/02/05/</guid><description>
 &lt;p>We made a lot of progress on a number of maintenance tasks this iteration, including some VM upgrades in collaboration with PUL and updating npm packages. We also fixed a glaring bug with image and style displays on the CDH website that was caused by the VM upgrade and the shift to having two machines for load-balancing.&lt;/p>
 &lt;p>On Simulating Risk, we completed work on a custom batch-runner for the hawk/dove multi risk attitude game to support large-scale data collection across a wide range of parameter combinations.&lt;/p>
 &lt;p>The larger number of issues closed on the geniza github is due to the project team doing review to clean up and prioritize work.&lt;/p></description></item><item><title>Blog: Jan 8 - Jan 19, 2024</title><link>/blog/2024/01/22/</link><pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024/01/22/</guid><description>
@@ -562,4 +573,4 @@ alt="Screenshot of Startwords author list page."/> &lt;figcaption>
 alt="Screenshot of the development version of Startwords showing the newly redesigned and reimplemented text shadows and three-feature essay layout."/> &lt;figcaption>
 &lt;p>Screenshot of the development version of &lt;em>Startwords&lt;/em> showing the newly redesigned and reimplemented text shadows and three-feature essay layout.&lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: 2022 Q3 Schedule</title><link>/blog/2022/05/2022-q3-schedule/</link><pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/2022-q3-schedule/</guid><description/></item></channel></rss>
+&lt;/figure></description></item></channel></rss>
