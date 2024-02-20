@@ -816,7 +816,7 @@
         "from": "2024-02-19",
         "to": "2024-03-01",
         "work": {
-            "risk": ["wrapup"],
+            "risk": ["data", "code"],
             "ppa": ["planning", "code"],
             "lenape": ["paused"],
             "kreike": ["planning"],

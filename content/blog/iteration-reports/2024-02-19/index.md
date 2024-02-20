@@ -21,7 +21,7 @@ For PPA, Mary completed acceptance testing on a number of cluster-bug related is
 
 ## Demos
 
-Potential in meeting demos:
+Potential in-meeting demos:
 
 - import functionality on S&Co
 - SimRisk data analysis
