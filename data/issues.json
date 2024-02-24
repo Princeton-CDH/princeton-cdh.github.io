@@ -707,6 +707,42 @@
     ]
   },
   {
+    "issue": "update replicate playbook to work better with multiple VMs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/189",
+    "estimate": "",
+    "closed": "2024-02-23T14:58:24Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "switch staging apps that use solr to the new jammy solr staging server",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/190",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -11627,6 +11663,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -11634,8 +11671,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -11678,6 +11715,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -11685,8 +11723,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -11767,7 +11805,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -11775,8 +11813,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -12191,6 +12229,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -12198,7 +12237,7 @@
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "In Progress"
     ]
   },
@@ -13709,6 +13748,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13716,7 +13756,7 @@
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -13798,7 +13838,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "Search",
     "assignees": [
@@ -13806,7 +13847,7 @@
     ],
     "pipeline": [
       "Backlog",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -13835,6 +13876,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Places",
@@ -13842,8 +13884,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -13956,14 +13998,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "Search",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
+      "Review/QA",
       "In Progress"
     ]
   },
@@ -14012,13 +14055,14 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14567,6 +14611,22 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Update \"how to search\" page with information about Arabic/JA exact matches",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1547",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -41527,7 +41587,9 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "Backlog"
     ]
@@ -43205,7 +43267,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/61",
     "estimate": 2,
-    "closed": null,
+    "closed": "2024-02-21T20:44:30Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43220,7 +43282,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/62",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-02-21T20:46:38Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43228,6 +43290,38 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "test alternate convergence logic for hawk/dove multi simulation",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/67",
+    "estimate": 3,
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "data analysis for hawk/dove multi risk attitude parameter significance",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/68",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
