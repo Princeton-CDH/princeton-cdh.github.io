@@ -3635,7 +3635,8 @@
         "to": "2024-03-01",
         "work": {
             "risk": [
-                "wrapup"
+                "data",
+                "code"
             ],
             "ppa": [
                 "planning",
@@ -3661,15 +3662,22 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "velocity": 1.0
+            "points": 3,
+            "issues": 3,
+            "velocity": 2.0
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "simulating-risk": 2,
+            "cdh-ansible": 1
+        },
+        "project_points": {
+            "simulating-risk": 3,
+            "cdh-ansible": 0
+        }
     },
     {
         "from": "2024-03-04",
@@ -3698,7 +3706,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
@@ -3734,7 +3742,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
