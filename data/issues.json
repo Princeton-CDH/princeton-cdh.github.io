@@ -677,11 +677,14 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/186",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-02-29T17:54:43Z",
+    "labels": [
+      "chore"
+    ],
     "milestone": "",
     "assignees": [
-      "kayiwa"
+      "kayiwa",
+      "rlskoeser"
     ],
     "pipeline": [
       "New Issues",
@@ -729,7 +732,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/190",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-01T19:57:32Z",
     "labels": [
       "chore"
     ],
@@ -738,8 +741,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "In Progress"
     ]
   },
   {
@@ -11660,10 +11662,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1269",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-27T20:37:25Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -11712,10 +11713,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1275",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-26T18:08:28Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -11805,7 +11805,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Search",
@@ -12229,7 +12229,8 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\u2753 question",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Search",
@@ -13745,10 +13746,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1467",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-26T01:42:03Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -13836,18 +13836,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1476",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-26T02:07:20Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": "Search",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "Review/QA"
+      "Review/QA",
+      "Backlog"
     ]
   },
   {
@@ -13876,7 +13875,6 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Places",
@@ -13884,7 +13882,7 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
+      "Dev Complete",
       "New Issues"
     ]
   },
@@ -13996,10 +13994,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1487",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-26T01:48:49Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": "Search",
     "assignees": [
@@ -14038,13 +14035,13 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "Documents",
+    "milestone": "Places",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -14052,10 +14049,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1495",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-26T01:39:29Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -14104,10 +14100,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1498",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-02-28T03:11:40Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "Search",
@@ -14115,8 +14110,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -14155,7 +14150,7 @@
     ]
   },
   {
-    "issue": "Alignment issues with translations in editor display (related to Safari 17.1)",
+    "issue": "Alignment issues with translations in editor display when zooming in and out",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1501",
     "estimate": "",
@@ -14167,7 +14162,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -14183,8 +14179,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -14646,6 +14642,22 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to see the translation/transcription editor on the \"select bibliography\" tab of the doc detail page so that I can clearly see which scholarship records have been digitized on PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1554",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -23234,12 +23246,16 @@
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/102",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-02-29T15:19:27Z",
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "quadrismegistus"
+    ],
     "pipeline": [
-      "Epics"
+      "New Issues"
     ]
   },
   {
@@ -23850,9 +23866,11 @@
     "issue": "enhance data export scripts",
     "project": "geotaste",
     "url": "https://api.github.com/repos/Princeton-CDH/geotaste/issues/7",
-    "estimate": 3,
-    "closed": null,
-    "labels": [],
+    "estimate": "",
+    "closed": "2024-02-29T15:29:42Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -35111,7 +35129,7 @@
       "quadrismegistus"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41591,7 +41609,7 @@
       "laurejt"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -41646,14 +41664,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/542",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-01T17:41:35Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41693,17 +41713,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/545",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-01T15:34:03Z",
     "labels": [
-      "bug",
-      "tested needs attention"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41901,7 +41920,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/560",
     "estimate": 3,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "question"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -41976,7 +41997,7 @@
     ]
   },
   {
-    "issue": "Discrepancy between total works / pages as reported by database and solr:",
+    "issue": "Discrepancy between total works / pages as reported by database and solr",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/567",
     "estimate": "",
@@ -42142,6 +42163,37 @@
     "milestone": "Search Filtering and Highlighting",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "Newly added excerpts not indexing when there are multiple excerpts from a single source",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/591",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "page index script chokes in expedited mode if page count is not set",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/596",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "As a user, I want to search and browse digitized volumes by keyword so that I can see what materials are in the archive.",
@@ -43147,9 +43199,11 @@
       "New Data"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -43304,7 +43358,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
