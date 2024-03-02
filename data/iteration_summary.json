@@ -3663,7 +3663,7 @@
         },
         "dev": {
             "points": 3,
-            "issues": 3,
+            "issues": 10,
             "velocity": 2.0
         },
         "design": {
@@ -3672,11 +3672,17 @@
         },
         "project_issues": {
             "simulating-risk": 2,
-            "cdh-ansible": 1
+            "cdh-ansible": 3,
+            "geniza": 2,
+            "geotaste": 1,
+            "ppa-django": 2
         },
         "project_points": {
             "simulating-risk": 3,
-            "cdh-ansible": 0
+            "cdh-ansible": 0,
+            "geniza": 0,
+            "geotaste": 0,
+            "ppa-django": 0
         }
     },
     {
