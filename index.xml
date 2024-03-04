@@ -1,4 +1,68 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 5 - Feb 16, 2024</title><link>/blog/2024/02/19/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/2024/02/19/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
+&lt;p>It was an incredibly productive iteration at the CDH. Here are some highlights across all the different areas we work!&lt;/p>
+&lt;p>PPA&lt;/p>
+&lt;ul>
+&lt;li>Data work
+&lt;ul>
+&lt;li>Completed all Brogan data work for 1925-1928 (99 new works imported)&lt;/li>
+&lt;li>Emailed Joe Marciniak about PUL-HT workflow&lt;/li>
+&lt;li>Followed up with Matt Chandler about TigerData (answer: we&amp;rsquo;re in the queue, should be available &amp;ldquo;soon&amp;rdquo;)&lt;/li>
+&lt;li>Completed checking the IIIF works to see if they are already in PPA / available in HT/ECCO/EEBO (report in #ppa)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Laure’s dev environment got set up (and broken)&lt;/li>
+&lt;li>HathiTrust excerpt reindexing planning&lt;/li>
+&lt;li>Progress made on PPA hathi/pairtree code&lt;/li>
+&lt;/ul>
+&lt;p>Kreike&lt;/p>
+&lt;ul>
+&lt;li>Planning&lt;/li>
+&lt;li>Data Access achieved&lt;/li>
+&lt;li>LOI submitted for larger project&lt;/li>
+&lt;li>Rereading and mind-mapping&lt;/li>
+&lt;/ul>
+&lt;p>SimRisk&lt;/p>
+&lt;ul>
+&lt;li>implemented new convergence logic and wealth chart for simrisk&lt;/li>
+&lt;li>generated population category charts across starting distributions&lt;/li>
+&lt;li>joined Lara&amp;rsquo;s Philosophy faculty WIP talk&lt;/li>
+&lt;li>hypothesis testing / feature evaluation collaboration with preliminary linear regression and a few statistical paired tests on simulating risk batch run data (thanks to Laure for advice!)&lt;/li>
+&lt;/ul>
+&lt;p>Ansible and Deploys&lt;/p>
+&lt;ul>
+&lt;li>not one but 2 PPA patch releases deployed to production&lt;/li>
+&lt;li>a little bit of ansible and geotase cleanup&lt;/li>
+&lt;li>finishing/merging PRs for playbook consolidation (needed for ansible tower)&lt;/li>
+&lt;li>finish &amp;amp; merge geotaste playbook&lt;/li>
+&lt;li>geotaste deploy to PUL servers (not yet completed&amp;hellip;)&lt;/li>
+&lt;li>helped fix failing unit tests for s&amp;amp;co import/export code&lt;/li>
+&lt;/ul>
+&lt;p>General Support&lt;/p>
+&lt;ul>
+&lt;li>Library IT OPS fellowship meeting &amp;amp; 1 phone interview&lt;/li>
+&lt;li>DHTech steering committee meeting&lt;/li>
+&lt;li>IDS candidate meetings&lt;/li>
+&lt;li>Joined PGP team for a really productive quarterly check-in&lt;/li>
+&lt;li>DH code review working group&lt;/li>
+&lt;/ul>
+&lt;p>General Strategy and Planning&lt;/p>
+&lt;ul>
+&lt;li>Grant reviewing&lt;/li>
+&lt;li>LOI submitted for 4th RSE line&lt;/li>
+&lt;li>Initial program development planning for project development and data design&lt;/li>
+&lt;li>Continued APR work&lt;/li>
+&lt;li>Science Fiction Group launched&lt;/li>
+&lt;/ul>
+&lt;p>Guests and Events&lt;/p>
+&lt;ul>
+&lt;li>David Bamman&lt;/li>
+&lt;li>Laura McGrath&lt;/li>
+&lt;li>Simon DeDeo&lt;/li>
+&lt;li>LLM reading group&lt;/li>
+&lt;li>GeoTaste colloquium&lt;/li>
+&lt;/ul>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>Simulating Risk with new convergence logic&lt;/p></description></item><item><title>Blog: Feb 5 - Feb 16, 2024</title><link>/blog/2024/02/19/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><guid>/blog/2024/02/19/</guid><description>
 &lt;p>Early February was split between wrapping up existing projects, administrative tasks related to annual performance reviews and job descriptions, as well as progress on the current priorities of the PPA and the Kreike project.&lt;/p>
 &lt;p>For Shakespeare and Company / GeoTaste, the goal for this iteration was to complete dev work on the GeoTaste application and deploy to the Google Cloud sandbox, as well as finish the export and import commands. Both the import and export commands have open pull requests.&lt;/p>
 &lt;p>For Simulating Risk, Lara has requested some data analysis ahead of her talk on the 28th. There is an open pull request waiting for feedback from Lara and a meeting scheduled for the week of the 19th.&lt;/p>
@@ -557,20 +621,5 @@ alt="Screenshot of Princeton Geniza Project search page with document date filte
 &lt;img src="/blog/2022/06/21/startwords-authors.png"
 alt="Screenshot of Startwords author list page."/> &lt;figcaption>
 &lt;p>Screenshot of Startwords author list page.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: May 23 - Jun 3, 2022</title><link>/blog/2022/06/06/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/06/</guid><description>
-&lt;img src="/blog/2022/06/06/featured_startwords-textshadows_hueb450c0ae95931c0a7535cfca2ce0352_362871_640x0_resize_catmullrom_3.png" width="640" height="544"/>
-&lt;p>We adjusted the schedule to make the past iteration a three-week iteration due to the Memorial holiday resulting in a very short week. Due to holidays, team member availability, and the chunks of work that are in progress, we didn&amp;rsquo;t publish any releases, but we did complete a lot of work. Our development velocity is up to &lt;strong>9.3&lt;/strong> points (14 points, 21 issues). We have the same exact velocity for design work (&lt;strong>9.3&lt;/strong>), with 12 points and 7 issues closed.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>Major design work closed related to the new image and transcription panel, for which implementation are underway. We also completed designs for the related documents page. We also finished work on a number of features related to date filtering and historical calendar conversion, which we hope to make available in production soon.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>We completed much of the remaining work needed for issue 3, including: revised shadow text styles for the site homepage and single issue pages (pictured below), generalized the interlude styles invented for SW issue 1 so it can be used in any article in future; improved DOI display for translated articles; and fixed a couple of bugs.&lt;/p>
-&lt;h2 id="cdh-ansible">cdh-ansible&lt;/h2>
-&lt;p>A small improvement in our project deploy scripts, suggested by PUL staff, resulted in a huge improvement in the time it takes to deploy projects, by configuring the deploy scripts to skip one-time setup tasks by default.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/06/06/featured_startwords-textshadows.png"
-alt="Screenshot of the development version of Startwords showing the newly redesigned and reimplemented text shadows and three-feature essay layout."/> &lt;figcaption>
-&lt;p>Screenshot of the development version of &lt;em>Startwords&lt;/em> showing the newly redesigned and reimplemented text shadows and three-feature essay layout.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
