@@ -830,11 +830,13 @@
         "from": "2024-03-04",
         "to": "2024-03-15",
         "work": {
-            "ppa": ["planning", "code", "writing"],
+            "risk": ["writing"],
+            "ppa": ["planning", "code"],
             "lenape": ["paused"],
-            "kreike": ["code"],
+            "kreike": ["planning"],
             "derrida": ["paused"],
             "startwords": ["paused"],
+            "shxco": ["problem"],
             "geniza": ["consulting"]
         }
     },
@@ -854,7 +856,7 @@
         "from": "2024-04-01",
         "to": "2024-04-12",
         "work": {
-            "ppa": ["planning", "code", "writing"],
+            "ppa": ["planning", "code", "wriing"],
             "lenape": ["paused"],
             "kreike": ["code"],
             "startwords": ["paused"]
