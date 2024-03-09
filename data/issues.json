@@ -11802,10 +11802,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1286",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-04T20:39:27Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Search",
@@ -13574,7 +13573,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1453",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-04T20:41:39Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -13584,8 +13583,8 @@
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "In Progress"
+      "In Progress",
+      "Review/QA"
     ]
   },
   {
@@ -13768,13 +13767,16 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "Documents",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -13872,7 +13874,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1478",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-04T20:46:21Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -13882,7 +13884,7 @@
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -13891,16 +13893,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1479",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-04T20:54:53Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -13914,10 +13918,12 @@
       "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Dev Complete",
+      "New Issues"
     ]
   },
   {
@@ -14030,7 +14036,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1494",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-06T03:11:43Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -14040,7 +14046,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -14206,7 +14212,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1504",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-04T21:18:31Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore"
     ],
@@ -14215,8 +14221,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14335,8 +14341,11 @@
       "performant"
     ],
     "milestone": "Events",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -14442,8 +14451,11 @@
       "performant"
     ],
     "milestone": "Places",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Dev Complete",
       "New Issues"
     ]
   },
@@ -14458,8 +14470,11 @@
       "performant"
     ],
     "milestone": "Documents",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Dev Complete",
       "New Issues"
     ]
   },
@@ -21847,9 +21862,11 @@
       "performant"
     ],
     "milestone": "Documents",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "Icebox",
+      "Dev Complete",
       "Backlog"
     ]
   },
@@ -39050,9 +39067,7 @@
     "closed": null,
     "labels": [],
     "milestone": "v3.10",
-    "assignees": [
-      "quadrismegistus"
-    ],
+    "assignees": [],
     "pipeline": [
       "Icebox"
     ]
@@ -40640,9 +40655,12 @@
       "enhancement"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -40874,7 +40892,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -41373,7 +41392,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41553,9 +41572,7 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [
-      "quadrismegistus"
-    ],
+    "assignees": [],
     "pipeline": [
       "Backlog"
     ]
@@ -41600,7 +41617,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/538",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-07T20:36:13Z",
     "labels": [
       "bug"
     ],
@@ -41609,7 +41626,7 @@
       "laurejt"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -41915,18 +41932,18 @@
     "pipeline": []
   },
   {
-    "issue": "Adapt HathiTrust excerpt script to automate fixing updated digital page ranges from a spreadsheet",
+    "issue": "work on a script to automate reporting on and potentially fixing updated digital page ranges for excerpted works",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/560",
     "estimate": 3,
     "closed": null,
-    "labels": [
-      "question"
-    ],
+    "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -42001,7 +42018,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/567",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-06T18:57:39Z",
     "labels": [
       "bug"
     ],
@@ -42010,7 +42027,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -42068,9 +42085,11 @@
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -42083,9 +42102,12 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -42171,14 +42193,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -42187,12 +42210,61 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/596",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "bug"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "occasional server error page appears randomly during navigation",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/597",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "update HathiTrust rsync",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/598",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "EEBO-TCP import & functionality (full works / excerpts)",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/599",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -42209,6 +42281,146 @@
     "pipeline": []
   },
   {
+    "issue": "As an admin, I want a bulk import of metadata and full text from EEBO-TCP works so that I can add content to the site that is not available from HathiTrust or Gale/ECCO.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/600",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As an admin, I want to add one or several new items from EEBO-TCP via the admin interface so that I can add content to the site after initial bulk import without developer assistance.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/601",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user, I want to search and browse digitized volumes across all sources so that I can find any materials in the archive, whether from HathiTrust, Gale/ECCO, or EEBO-TCP.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/602",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user viewing keyword search results, I want to see a few text snippets from the full text of a work from EEBO-TCP so that I can see how my search terms are used in context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/603",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user, I want to view a page for content from ProQuest by clicking its thumbnail or page number in a search result so that I can quickly and easily see my search result in its full context.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/604",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user viewing an item from EEBO-TCP in keyword search results, I want to see page image thumbnails and text snippets that match my search terms so I can see how many and what kind of pages match my search terms.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/605",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user, when I'm viewing an item from EEBO-TCP, I want to see the source identifier and link to view the item on EEBO-TCP so that I can get to the EEBO-TCP version of the document",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/606",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user, I want to search within a single EEBO-TCP item so that I can find more page results and keywords in context than are available on the main archive search.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/607",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a user, I want to add an EEBO-TCP work to my Zotero library from the item page or the search results page, so that I can save references for later research or citation.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/608",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As an admin, I want to include book excerpts and articles as well as full volumes from EEBO-TCP, so that I can include material that is specifically about prosody from longer works about other subjects.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/609",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Error page styles and content",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/61",
@@ -42218,6 +42430,70 @@
     "milestone": "v0.9.0",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "As a user, I want to see the actual rather than digital page number on keyword search results of EEBO-TCP items so that I can more accurately cite items.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/610",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Editorial enhancements",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/612",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "Epic"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "fix deprecation warnings",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/613",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Get the METS-XML and pairtree data in a shareable form so that other Princeton researchers can use it",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/617",
+    "estimate": "",
+    "closed": "2024-03-08T18:16:43Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
   },
   {
     "issue": "Style updates: content page",
