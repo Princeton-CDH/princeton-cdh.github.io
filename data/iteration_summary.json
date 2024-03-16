@@ -3717,7 +3717,7 @@
         },
         "dev": {
             "points": 0,
-            "issues": 4,
+            "issues": 7,
             "velocity": 1.0
         },
         "design": {
@@ -3726,7 +3726,7 @@
         },
         "project_issues": {
             "geniza": 1,
-            "ppa-django": 3
+            "ppa-django": 6
         },
         "project_points": {
             "geniza": 0,
