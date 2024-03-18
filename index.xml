@@ -1,4 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 4 - Mar 15, 2024</title><link>/blog/2024/03/18/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/18/</guid><description>
+&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="featured-###.png"
+alt=" "/> &lt;figcaption>
+&lt;p>&lt;h2 id="heading">&lt;/h2>
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
 &lt;p>It was an incredibly productive iteration at the CDH. Here are some highlights across all the different areas we work!&lt;/p>
 &lt;p>PPA&lt;/p>
 &lt;ul>
@@ -602,24 +614,5 @@ alt="Screenshot of the new image and transcription panel interface from the Prin
 &lt;img src="/blog/2022/07/25/geniza_new_tag.png"
 alt="Screenshot of Princeton Geniza Project search results with revised tag styles."/> &lt;figcaption>
 &lt;p>Screenshot of Princeton Geniza Project search results with revised tag styles.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jun 7 - Jun 18, 2022</title><link>/blog/2022/06/21/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/21/</guid><description>
-&lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter_hu37daa875e16c4aed843a1ec6b98ccb96_93893_640x0_resize_catmullrom_3.png" width="640" height="751"/>
-&lt;p>This iteration our primary focus was on Princeton Geniza Project, but we did close a few more issues related to the upcoming Startwords issue 3. Our development velocity is on an upward trend — we closed &lt;strong>21&lt;/strong> development points (16 issues), which gives us a rolling velocity of &lt;strong>13.7&lt;/strong>.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>This iteration we released version 4.5, which adds several features related to document date functionality: calendar conversion in admin for simple cases with Anno Mundi and Hijri calendars, improved date display on document details, and sorting and filtering search results by date. We also rolled out the new &amp;ldquo;related documents&amp;rdquo; page, improved image credits display for JTS content, and fixed a bug with handling Heidelberg IIIF. This update required a supporting release of &lt;code>djiffy&lt;/code>, to add support for displaying Creative Commons licenses in addition to rightstatements.org licenses. Several features for the new image+transcription panel viewer were tested but not released; they won&amp;rsquo;t go out until we have a full replacement for the current display, hopefully in the next release.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>We finished work on the new authors list page, adjusted the footer to add a link to the authors page, and completed a few other small style-related changes.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter.png"
-alt="Screenshot of Princeton Geniza Project search page with document date filter and sort options."/> &lt;figcaption>
-&lt;p>Screenshot of Princeton Geniza Project search page with document date filter and sort options.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/06/21/startwords-authors.png"
-alt="Screenshot of Startwords author list page."/> &lt;figcaption>
-&lt;p>Screenshot of Startwords author list page.&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
