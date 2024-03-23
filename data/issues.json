@@ -11812,8 +11812,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -12843,7 +12843,7 @@
     ]
   },
   {
-    "issue": "Within the admin site, I want a person with 10+ associated documents to automatically generate a front-end People Page, so that content editors do not have to manually make significant people pages live. ",
+    "issue": "As a content admin, I want a person with 10+ associated documents to automatically generate a front-end People Page, so that content editors do not have to manually make significant people pages live. ",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1381",
     "estimate": "",
@@ -14176,7 +14176,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -14184,8 +14183,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14340,7 +14339,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "Events",
@@ -14348,8 +14346,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14671,6 +14669,59 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a page to view details about an individual person, so that I can learn more about their life and presence in documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1566",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a way to browse all the people in the database, so that I can find a specific person I am looking for, or get an overview of all people",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1568",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public user, I want to see a properly-formatted citation at the bottom of each individual person page, so that I can be sure I am citing my sources (and the PGP) correctly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1569",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "",
     "assignees": [],
@@ -15872,7 +15923,6 @@
     "closed": "2024-03-11T17:30:05Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -21865,7 +21915,6 @@
     "closed": "2024-03-11T17:09:54Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -22974,8 +23023,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -40655,7 +40704,7 @@
     ]
   },
   {
-    "issue": "As an admin, I want HathiTrust pairtree data regularly synchronized so that we have the most current version of HathiTrust content.",
+    "issue": "As an admin, I want to regularly rsync and reindex full works that HathiTrust has updated so that we have the most current version of HathiTrust content. ",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/428",
     "estimate": 5,
@@ -41865,7 +41914,9 @@
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "Backlog"
     ]
@@ -41944,14 +41995,14 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/560",
     "estimate": 3,
-    "closed": null,
+    "closed": "2024-03-21T20:07:45Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -42201,7 +42252,7 @@
     "closed": null,
     "labels": [
       "bug",
-      "tested needs attention"
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
@@ -42498,8 +42549,25 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Redirect aggregated cluster URLs to main search page so that bots stop causing errors by crawling those fake URLs",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/619",
+    "estimate": "",
+    "closed": "2024-03-20T13:46:51Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA"
     ]
   },
   {
@@ -42512,6 +42580,70 @@
     "milestone": "v3.0 - Initial public version (soft launch)",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "Investigate scraping version labels from HathiTrust excerpts to determine frequency of rescanning/range changes",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/620",
+    "estimate": "",
+    "closed": "2024-03-21T20:31:29Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Development complete"
+    ]
+  },
+  {
+    "issue": "As a developer, I want to one-time bulk fix HathiTrust excerpt page ranges from a spreadsheet so that we can pull correct page content when we reindex.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/625",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "As an admin, I want to regularly rsync and reindex excerpts and articles that HathiTrust has updated so that we have the most current version of HathiTrust content.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/626",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "As an admin, I want to see a list of volumes that need to be manually reviewed so that I can resolve issues related to updates on HathiTrust\u2019s end.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/627",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "Snippet: search form",
@@ -42882,6 +43014,32 @@
     "milestone": "",
     "assignees": [
       "quadrismegistus"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "As a researcher, I want to be able to get the text corpus for a subset of record IDs so that I can conduct textual analysis within particular groups of texts.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/5",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "As a researcher, I want a set of 20-25 representative texts so that I can conduct controlled experiments on a sample corpus.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/6",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
     ],
     "pipeline": []
   },
@@ -43477,7 +43635,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/48",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-21T17:49:59Z",
     "labels": [
       "New Data"
     ],
@@ -43634,7 +43792,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/67",
     "estimate": 3,
-    "closed": null,
+    "closed": "2024-03-21T17:50:23Z",
     "labels": [],
     "milestone": "",
     "assignees": [
