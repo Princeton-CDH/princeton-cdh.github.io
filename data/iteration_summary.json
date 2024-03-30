@@ -3759,20 +3759,20 @@
             ]
         },
         "dev": {
-            "points": 6,
-            "issues": 5,
-            "velocity": 3.0
+            "points": 12,
+            "issues": 10,
+            "velocity": 5.0
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
         "project_issues": {
-            "ppa-django": 3,
+            "ppa-django": 8,
             "simulating-risk": 2
         },
         "project_points": {
-            "ppa-django": 3,
+            "ppa-django": 9,
             "simulating-risk": 3
         }
     },
@@ -3797,7 +3797,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 2.0
+            "velocity": 4.0
         },
         "design": {
             "points": 0,
