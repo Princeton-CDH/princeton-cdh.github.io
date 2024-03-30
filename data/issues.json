@@ -12225,7 +12225,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1335",
     "estimate": "",
-    "closed": "2024-03-11T16:50:10Z",
+    "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14742,6 +14742,41 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "Incorrect words are highlighted in complete word quotation search (Hebrew script)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1570",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to be able to filter people in the browse page by gender, social role, and relation to documents, so that I can narrow down my browse results",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1571",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -39135,14 +39170,14 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/280",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-27T15:35:05Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -40704,21 +40739,20 @@
     ]
   },
   {
-    "issue": "As an admin, I want to regularly rsync and reindex full works that HathiTrust has updated so that we have the most current version of HathiTrust content. ",
+    "issue": "As a developer, I want a script to update all HathiTrust content so that I can refresh locally cached data with OCR improvements and other changes.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/428",
     "estimate": 5,
-    "closed": null,
+    "closed": "2024-03-27T16:22:40Z",
     "labels": [
-      "enhancement",
-      "awaiting testing"
+      "enhancement"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA"
+      "In Progress"
     ]
   },
   {
@@ -41757,12 +41791,13 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "wontfix"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -41915,7 +41950,7 @@
     ],
     "milestone": "",
     "assignees": [
-      "laurejt"
+      "rlskoeser"
     ],
     "pipeline": [
       "Backlog"
@@ -42028,8 +42063,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/564",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-03-27T15:43:04Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -42094,16 +42131,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/568",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-28T19:15:27Z",
     "labels": [
-      "bug"
+      "invalid"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Icebox"
     ]
   },
   {
@@ -42145,7 +42182,8 @@
     ],
     "milestone": "",
     "assignees": [
-      "laurejt"
+      "laurejt",
+      "rlskoeser"
     ],
     "pipeline": [
       "In Progress"
@@ -42249,10 +42287,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/591",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-26T20:09:33Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -42267,14 +42304,17 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/596",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-03-29T12:51:26Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "In Progress"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -42358,12 +42398,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/601",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Icebox"
     ]
   },
   {
@@ -42456,12 +42497,13 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/608",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Icebox"
     ]
   },
   {
@@ -42520,7 +42562,7 @@
     ]
   },
   {
-    "issue": "fix deprecation warnings",
+    "issue": "fix python deprecation warnings",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/613",
     "estimate": "",
@@ -42531,8 +42573,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -42603,16 +42644,15 @@
     "issue": "As a developer, I want to one-time bulk fix HathiTrust excerpt page ranges from a spreadsheet so that we can pull correct page content when we reindex.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/625",
-    "estimate": "",
-    "closed": null,
+    "estimate": 1,
+    "closed": "2024-03-28T20:56:55Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Review/QA"
     ]
   },
   {
@@ -42655,6 +42695,47 @@
     "milestone": "Search Filtering and Highlighting",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "Investigate image mining permissions for HathiTrust works",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/630",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a team member, I want a way to generate PDFs of Editorial content so I can deposit them elsewhere.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/631",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "As a researcher, I want metadata about the PPA records for use with full-text corpus or other research.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/632",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog"
+    ]
   },
   {
     "issue": "Snippet: sorting controls",
