@@ -46,7 +46,7 @@ simulating-risk:
   color: "#fcd030"
 
 ppa-nlp:
-  color: "F28C28"
+  color: "#F28C28"
 
 # map shorthand name for iteration summary/report to github repo
 lenape:
