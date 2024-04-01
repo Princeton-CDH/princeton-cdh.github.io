@@ -7,7 +7,7 @@ hideDesignVelocity: true  # control visibility of design chart
 slug: "18"
 ---
 
-## PPA
+### PPA
 
 * added Ends of Prosody people to the mailing list
 * support of Brian/Laure as they work on excerpts issue
@@ -28,26 +28,26 @@ slug: "18"
 *  Emailed Jon Stroop who confirmed PUL doesn't have an easy way to submit things to HT, but suggested we follow up with Esme Cowles who has done it before (apparently it's only easy if you're Google or Internet Archive)
 
 
-## AAP
+### AAP
 
 *  Obtained Kreike data for local use
 *  Met with Wangyal to better understand what the shared files are and also gained more general insights about the history of this decades-in-the-making project
 *  Debriefed with Jeri on my meeting with Wangyal and discussed where this leaves us
 
 
-## Other RSE-related:
+### Other RSE-related:
 
 * Agile/Scrum/Lean trainings 
 * Work on project closeout ahead of conversations about GeoTaste and Sim Risk
 *  RSE team overview of how we create pull requests on GitHub (edited) 
 
-## PM work
+### PM work
 
 * huge headway on Project Design curriculum
 * Staff meeting and discussion on new (revamped) programming
 * Project Design planning session with Mary
 
-## Other CDH / University work 
+### Other CDH / University work 
 
 * Got Mallet installed after running into a Java 21 backwards incompatibility issue (David really is the one to thank here)
 * Began prepping for Wouter's classes on topic modeling (this got delayed by the Mallet issue)
