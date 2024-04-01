@@ -1,11 +1,13 @@
 ---
-title: "Mar 18 * Mar 29, 2024"
+title: "Mar 18 - Mar 29, 2024"
 date: 2024-04-01
 iteration_start: 2024-03-18
 layout: iterationreport
 hideDesignVelocity: true  # control visibility of design chart
 slug: "01"
 ---
+It was another busy iteration at the CDH. There was a lot of activity on the PPA core issues, as well as initial planning and progress for the NLP part of the research collaboration. Our other active projects saw smaller movements as they either ramp up or down. We also had a number of meetings, internal and with external collaborators.
+
 
 ### PPA
 * Worked with Mary to fix the save-as-new issue and new excerpt save problems
@@ -46,7 +48,7 @@ slug: "01"
 * helped with two dhtech code review working group submissions to dhtech miniconf (presentation + workshop)
 * attended formal philosophy working group with Lara for presentation on simulating risk work
 * Springload Meetings
-    * tech kickoff meeting for cdhweb redesign
+    * Tech kickoff meeting for cdhweb redesign
     * Website stakeholder interview
 * communicated with Tony Williams (Technology Licensing) to get and document language about Princeton rights + permission to release as open source
 * History department recruitment breakfast
@@ -72,7 +74,8 @@ slug: "01"
 * Started process to post job ad for 3rd RSE position
 
 ## Demos
-* add demo links or screenshots
+
+No demos for this iteration?
 
 {{< figure src="featured-###.png" caption="##">}}
 
