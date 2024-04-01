@@ -1,16 +1,135 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 4 - Mar 15, 2024</title><link>/blog/2024/03/18/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/18/</guid><description>
-&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 18 - Mar 29, 2024</title><link>/blog/2024/04/01/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/01/</guid><description>
+&lt;p>It was another busy iteration at the CDH. There was a lot of activity on the PPA core issues, as well as initial planning and progress for the NLP part of the research collaboration. Our other active projects saw smaller movements as they either ramp up or down. We also had a number of meetings, internal and with external collaborators.&lt;/p>
+&lt;h3 id="ppa">PPA&lt;/h3>
 &lt;ul>
-&lt;li>add demo links or screenshots&lt;/li>
+&lt;li>Worked with Mary to fix the save-as-new issue and new excerpt save problems&lt;/li>
+&lt;li> Helped with rescoping and planning; hathi rsync work now complete for current needs&lt;/li>
+&lt;li> Implemented script to update excerpt digital page ranges from a CS&lt;/li>
+&lt;li> Error handling for page index script when running in &amp;ldquo;expedite&amp;rdquo; mode (based on page counts in db and solr)&lt;/li>
+&lt;li> Solr 9 upgrade progress&lt;/li>
+&lt;li> named nlp package (corppa!) and did basic setup&lt;/li>
+&lt;li> implemented method to filter corpus by source id&lt;/li>
+&lt;li>test corpus for small-scale NLP experiments compiled and reviewed&lt;/li>
+&lt;li>Retested and closed the save-as-new issue&lt;/li>
+&lt;li>Cleaned up the EEBO-TCP data work and Lottie is sending that out to Early Modernists for review&lt;/li>
+&lt;li>Cleaned up the excerpt-range-changes spreadsheet and tested and closed that related issue (unexpected &amp;amp; HUGE!)&lt;/li>
+&lt;li>Confirmed we have computational analysis permissions on page images and reached out to HathiTrust for additional clarification on specifics&lt;/li>
+&lt;li>Confirmed project metadata with TigerData, they&amp;rsquo;re setting up our space&lt;/li>
+&lt;li>Started drafting an &amp;ldquo;Ends of Prosody&amp;rdquo; landing page (I made a placeholder image in Canva!)&lt;/li>
+&lt;li>Groomed the backlog during Q2 planning&lt;/li>
+&lt;li>Whiteboarding session with Rebecca and Meredith to set big picture goals and priorities&lt;/li>
+&lt;li>Developmental editing for the introduction of Poetry&amp;rsquo;s Data&lt;/li>
+&lt;li>Responded to Gale about the thumbnail thing&lt;/li>
+&lt;li>Reached out to Esme about getting PUL stuff into HT&lt;/li>
+&lt;li>Finished testing the excerpts export&lt;/li>
+&lt;li>Made a cool flowchart for the rsync workflow and put 3 new related issues into Github and into the rsync epic&lt;/li>
+&lt;li>Cluster bug hotfix&lt;/li>
+&lt;li>Completed ad hoc script for collecting HathiTrust version timestamps&lt;/li>
 &lt;/ul>
+&lt;h3 id="aap">AAP&lt;/h3>
+&lt;ul>
+&lt;li>Continue exploring working with the data / setting up my dev environment&lt;/li>
+&lt;li>Scheduled meeting with Kreike team for 4/3&lt;/li>
+&lt;/ul>
+&lt;h3 id="other-rse-projects">Other RSE Projects&lt;/h3>
+&lt;ul>
+&lt;li>PGP: reviewed two PRs and provided feedback on a Solr highlighting problem&lt;/li>
+&lt;li>GeoTaste: added license to repo, invited Ryan as external collaborator, scheduled 1-1 with Josh&lt;/li>
+&lt;li>Simrisk: cleanup * merged PR, closed issues, shared custom batch run code on related mesa issue&lt;/li>
+&lt;/ul>
+&lt;h3 id="other-cdh--library--outside">Other CDH / Library / Outside&lt;/h3>
+&lt;ul>
+&lt;li>two in-person interviews for PUL devops fellow&lt;/li>
+&lt;li>helped with two dhtech code review working group submissions to dhtech miniconf (presentation + workshop)&lt;/li>
+&lt;li>attended formal philosophy working group with Lara for presentation on simulating risk work&lt;/li>
+&lt;li>Springload Meetings
+&lt;ul>
+&lt;li>Tech kickoff meeting for cdhweb redesign&lt;/li>
+&lt;li>Website stakeholder interview&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>communicated with Tony Williams (Technology Licensing) to get and document language about Princeton rights + permission to release as open source&lt;/li>
+&lt;li>History department recruitment breakfast&lt;/li>
+&lt;li>Attended/participated in Wouter&amp;rsquo;s class on Tuesday and ran the class today&lt;/li>
+&lt;li>Attended/co-facilitated the CDH Grad Fellows Meeting&lt;/li>
+&lt;/ul>
+&lt;h3 id="meetings">Meetings&lt;/h3>
+&lt;ul>
+&lt;li>All CDH Exec Meeting All Monday&lt;/li>
+&lt;li>Q2 Planning&lt;/li>
+&lt;li>Schmidt Sciences chat&lt;/li>
+&lt;li>talk with Francis&lt;/li>
+&lt;/ul>
+&lt;h3 id="consults">Consults&lt;/h3>
+&lt;ul>
+&lt;li>Data Fellows Consult for Alessia&lt;/li>
+&lt;li>Consult+ for Fernanda&lt;/li>
+&lt;li>Consult for Teddy Leane&lt;/li>
+&lt;/ul>
+&lt;h3 id="other">Other&lt;/h3>
+&lt;ul>
+&lt;li>Schedule workshop for humanities folks applying for an RSE&lt;/li>
+&lt;li>Started process to post job ad for 3rd RSE position&lt;/li>
+&lt;/ul>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>No demos for this iteration?&lt;/p>
 &lt;figure>
 &lt;img src="featured-###.png"
 alt=" "/> &lt;figcaption>
 &lt;p>&lt;h2 id="heading">&lt;/h2>
 &lt;/p>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
+&lt;/figure></description></item><item><title>Blog: Mar 4 - Mar 15, 2024</title><link>/blog/2024/03/18/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/18/</guid><description>
+&lt;h3 id="ppa">PPA&lt;/h3>
+&lt;ul>
+&lt;li>added Ends of Prosody people to the mailing list&lt;/li>
+&lt;li>support of Brian/Laure as they work on excerpts issue&lt;/li>
+&lt;li>inventory of NLP work from the fall (part 2 next week)&lt;/li>
+&lt;li>acceptance testing for 4 issues (2/4 closed)&lt;/li>
+&lt;li>undergrad wrangling&lt;/li>
+&lt;li>Collected the version information for the PPA excerpts; found that the vast majority of these volumes were mostly recently updated in 2022+ and that at least in one instance the page range has updated since the excerpts were last checked/verified&lt;/li>
+&lt;li>PPA-NLP planning&lt;/li>
+&lt;li>Completed the fix for the pairtree files issue (#538) and helped resolve the initial failures in testing&lt;/li>
+&lt;li>Began work on upgrading PPA to Solr 9 (#572)&lt;/li>
+&lt;li>made progress on various ppa rsync and excerpt related improvements&lt;/li>
+&lt;li>completed work to recalculate page counts for PPA records&lt;/li>
+&lt;li> Revised the NLP portion of the PPA Charter&lt;/li>
+&lt;li> Organized Github issues into epics&lt;/li>
+&lt;li> Added all of the EEBO-TCP issues into Github&lt;/li>
+&lt;li> Tested issues #538 and #567&lt;/li>
+&lt;li> Responded to and met with Brian to discuss excerpts fix&lt;/li>
+&lt;li> Emailed Jon Stroop who confirmed PUL doesn&amp;rsquo;t have an easy way to submit things to HT, but suggested we follow up with Esme Cowles who has done it before (apparently it&amp;rsquo;s only easy if you&amp;rsquo;re Google or Internet Archive)&lt;/li>
+&lt;/ul>
+&lt;h3 id="aap">AAP&lt;/h3>
+&lt;ul>
+&lt;li> Obtained Kreike data for local use&lt;/li>
+&lt;li> Met with Wangyal to better understand what the shared files are and also gained more general insights about the history of this decades-in-the-making project&lt;/li>
+&lt;li> Debriefed with Jeri on my meeting with Wangyal and discussed where this leaves us&lt;/li>
+&lt;/ul>
+&lt;h3 id="other-rse-related">Other RSE-related:&lt;/h3>
+&lt;ul>
+&lt;li>Agile/Scrum/Lean trainings&lt;/li>
+&lt;li>Work on project closeout ahead of conversations about GeoTaste and Sim Risk&lt;/li>
+&lt;li> RSE team overview of how we create pull requests on GitHub (edited) &lt;/li>
+&lt;/ul>
+&lt;h3 id="pm-work">PM work&lt;/h3>
+&lt;ul>
+&lt;li>huge headway on Project Design curriculum&lt;/li>
+&lt;li>Staff meeting and discussion on new (revamped) programming&lt;/li>
+&lt;li>Project Design planning session with Mary&lt;/li>
+&lt;/ul>
+&lt;h3 id="other-cdh--university-work">Other CDH / University work&lt;/h3>
+&lt;ul>
+&lt;li>Got Mallet installed after running into a Java 21 backwards incompatibility issue (David really is the one to thank here)&lt;/li>
+&lt;li>Began prepping for Wouter&amp;rsquo;s classes on topic modeling (this got delayed by the Mallet issue)&lt;/li>
+&lt;li>Grant applications summaries and write up&lt;/li>
+&lt;li>Lunch, Dinner, Talk, and Dinner with Jo&lt;/li>
+&lt;li> RSE town hall and start planning for a proposal workshop&lt;/li>
+&lt;li> attended spring Research Computing Advisory Group meeting and shared notes&lt;/li>
+&lt;li> attended intro to pytorch workshop&lt;/li>
+&lt;li> two planning meetings for PUL DEI devops fellowship search committee&lt;/li>
+&lt;li> Closing out APRs&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
 &lt;p>It was an incredibly productive iteration at the CDH. Here are some highlights across all the different areas we work!&lt;/p>
 &lt;p>PPA&lt;/p>
 &lt;ul>
@@ -756,31 +875,6 @@ alt="Completed designs for new PGP logo and logotype"/> &lt;figcaption>
 &lt;img src="/blog/2022/02/21/pgp-search-images.png"
 alt="Screenshot showing PGP search results with image thumbnails"/> &lt;figcaption>
 &lt;p>Screenshot showing PGP search results with image thumbnails&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p></description></item><item><title>Blog: Jan 24 - Feb 4, 2022</title><link>/blog/2022/02/07/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/07/</guid><description>
-&lt;img src="/blog/2022/02/07/featured-404-error_hu94ac8d84e3dc675b803d8c1cbeabc3e1_600221_640x0_resize_catmullrom_3.png" width="640" height="493"/>
-&lt;p>At long last, we tagged and released the 4.0 version of Princeton Geniza Project! This is meets our agreement for a &amp;ldquo;Minimum Viable Product&amp;rdquo; to replace the current PGP v3.0. The new site isn&amp;rsquo;t publicly available just yet, but we&amp;rsquo;re planning to turn off IP access restriction by Thursday of this week at the latest and hoping to switch it to the official URL within another week.&lt;/p>
-&lt;p>We closed &lt;strong>24&lt;/strong> development issues this iteration, but only completed &lt;strong>8&lt;/strong> story points — likely because much of our focus was on finishing implementing visual designs, fixing bugs, and finishing chores in preparation for this release. Our rolling development velocity is 20 points, due to the huge iteration in December and the fact that we&amp;rsquo;re no longer counting the zero-point iteration around Thanksgiving.&lt;/p>
-&lt;p>The mep-django releases were related to publication of the 1.2 version of the Shakespeare and Company Project datasets, which were published on Princeton&amp;rsquo;s DataSpace on January 31st.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;p>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/featured-404-error.png"
-alt="Geniza 404 Not Found error page"/> &lt;figcaption>
-&lt;p>Geniza 404 Not Found error page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/500-error.png"
-alt="Geniza 500 Server Error page"/> &lt;figcaption>
-&lt;p>Geniza 500 Server Error page&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/02/07/credits.png"
-alt="Geniza credits page, showing content page styles"/> &lt;figcaption>
-&lt;p>Geniza credits page, showing content page styles&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p></description></item></channel></rss>
