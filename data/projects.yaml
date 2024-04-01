@@ -45,6 +45,9 @@ lenape-timetree:
 simulating-risk:
   color: "#fcd030"
 
+ppa-nlp:
+  color: "F28C28"
+
 # map shorthand name for iteration summary/report to github repo
 lenape:
   repo: lenape-timetree
@@ -67,7 +70,7 @@ status_icon:
   code: ":laptop:"
   writing: ":writing_hand:"
   data: ":input_numbers:"
-  planning: ":calendar:"
+  planning: ":thinking_face:"
   maintenance: ":construction:"
   paused: ":pause_button:"
   presenting: ":speaking_head:"

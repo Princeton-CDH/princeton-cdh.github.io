@@ -856,10 +856,75 @@
         "from": "2024-04-01",
         "to": "2024-04-12",
         "work": {
-            "ppa": ["planning", "code", "wriing"],
-            "lenape": ["paused"],
-            "kreike": ["code"],
-            "startwords": ["paused"]
+            "ppa": ["code", "test", "release"],
+            "ppa-nlp": ["planning"],
+            "kreike": ["planning"],
+            "shxco": ["paused"],
+            "risk": ["writing"],
+            "derrida": ["paused"],
+            "cdh-web": ["code", "test", "release"]
+
+        }
+    },
+    {
+        "from": "2024-04-15",
+        "to": "2024-04-26",
+        "work": {
+            "ppa": ["code"],
+            "ppa-nlp": ["code"],
+            "kreike": ["planning"],
+            "shxco": ["code", "test", "release"],
+            "risk": ["writing"],
+            "derrida": ["code"],
+            "cdh-web": ["wrapup"]
+        }
+    },
+    {
+        "from": "2024-04-29",
+        "to": "2024-05-10",
+        "work": {
+            "ppa": ["code", "test", "release"],
+            "ppa-nlp": ["code", "release"],
+            "kreike": ["planning"],
+            "shxco": ["wrapup"],
+            "risk": ["writing", "release"],
+            "derrida": ["code"]
+        }
+    },
+    {
+        "from": "2024-05-13",
+        "to": "2024-05-24",
+        "work": {
+            "ppa": ["code", "writing"],
+            "ppa-nlp": ["code","writing"],
+            "kreike": ["planning"],
+            "derrida": ["code", "test", "release"]
+        }
+    },
+    {
+        "from": "2024-05-27",
+        "to": "2024-06-07",
+        "work": {
+            "ppa": ["code", "writing"],
+            "ppa-nlp": ["code", "writing"],
+            "kreike": ["planning"],
+            "derrida": ["wrapup"]
+        }
+    },
+    {
+        "from": "2024-06-10",
+        "to": "2024-06-28",
+        "work": {
+            "ppa": ["code", "writing"],
+            "ppa-nlp": ["code", "writing"],
+            "kreike": ["planning", "release"]
+        }
+    },
+    {
+        "from": "2024-07-01",
+        "to": "2024-07-12",
+        "work": {
         }
     }
+
 ]
