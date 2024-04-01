@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Mar 18 - Mar 29, 2024</title><link>/blog/2024/04/01/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: 2024 Q2 Schedule</title><link>/blog/2024/04/2024-q2-schedule/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/2024-q2-schedule/</guid><description/></item><item><title>Blog: Mar 18 - Mar 29, 2024</title><link>/blog/2024/04/01/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/01/</guid><description>
 &lt;p>It was another busy iteration at the CDH. There was a lot of activity on the PPA core issues, as well as initial planning and progress for the NLP part of the research collaboration. Our other active projects saw smaller movements as they either ramp up or down. We also had a number of meetings, internal and with external collaborators.&lt;/p>
 &lt;h3 id="ppa">PPA&lt;/h3>
 &lt;ul>
@@ -80,6 +80,7 @@ alt=" "/> &lt;figcaption>
 &lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item><item><title>Blog: Mar 4 - Mar 15, 2024</title><link>/blog/2024/03/18/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/18/</guid><description>
+&lt;p>Late summary of activity over the first iteration of March. Quite busy despite the reduced work over spring break.&lt;/p>
 &lt;h3 id="ppa">PPA&lt;/h3>
 &lt;ul>
 &lt;li>added Ends of Prosody people to the mailing list&lt;/li>
@@ -124,11 +125,11 @@ alt=" "/> &lt;figcaption>
 &lt;li>Began prepping for Wouter&amp;rsquo;s classes on topic modeling (this got delayed by the Mallet issue)&lt;/li>
 &lt;li>Grant applications summaries and write up&lt;/li>
 &lt;li>Lunch, Dinner, Talk, and Dinner with Jo&lt;/li>
-&lt;li> RSE town hall and start planning for a proposal workshop&lt;/li>
-&lt;li> attended spring Research Computing Advisory Group meeting and shared notes&lt;/li>
-&lt;li> attended intro to pytorch workshop&lt;/li>
-&lt;li> two planning meetings for PUL DEI devops fellowship search committee&lt;/li>
-&lt;li> Closing out APRs&lt;/li>
+&lt;li>RSE town hall and start planning for a proposal workshop&lt;/li>
+&lt;li>attended spring Research Computing Advisory Group meeting and shared notes&lt;/li>
+&lt;li>attended intro to pytorch workshop&lt;/li>
+&lt;li>two planning meetings for PUL DEI devops fellowship search committee&lt;/li>
+&lt;li>Closing out APRs&lt;/li>
 &lt;/ul></description></item><item><title>Blog: Feb 19 - Mar 1, 2024</title><link>/blog/2024/03/04/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>/blog/2024/03/04/</guid><description>
 &lt;p>It was an incredibly productive iteration at the CDH. Here are some highlights across all the different areas we work!&lt;/p>
 &lt;p>PPA&lt;/p>
@@ -702,20 +703,5 @@ alt="Screenshot from Princeton Geniza Project showing new display for images tha
 &lt;img src="/blog/2022/08/22/geniza-lightdark-toggle.gif"
 alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle in action"/> &lt;figcaption>
 &lt;p>Screen capture of Princeton Geniza Project showing light/dark mode toggle in action&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
-&lt;img src="/blog/2022/08/15/featured-sw3-home-es_hu69c047a2f4fcedf58044d2b58d1f46ce_322226_640x0_resize_catmullrom_3.png" width="640" height="424"/>
-&lt;p>Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>We finally published &lt;a href="https://startwords.cdh.princeton.edu/issues/3/">Startwords issue 3&lt;/a>! GitHub issues completed in this iteration were chores related to getting the release out and quick bug fixes to address problems we discovered after the issue was published.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>Version 4.6 went into production, with the new image + transcription viewer. We also tested closed a number of features related to the transcription editor.&lt;/p>
-&lt;h2 id="ppa">PPA&lt;/h2>
-&lt;p>We started ramping back up on PPA development work this iteration, beginning with some python package updates and a few small chores.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/08/15/featured-sw3-home-es.png"
-alt="Screenshot of Startwords home page in Spanish with Issue 3 published"/> &lt;figcaption>
-&lt;p>Screenshot of Startwords home page in Spanish with Issue 3 published&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
