@@ -6,6 +6,7 @@ layout: iterationreport
 hideDesignVelocity: true  # control visibility of design chart
 slug: "18"
 ---
+Late summary of activity over the first iteration of March. Quite busy despite the reduced work over spring break. 
 
 ### PPA
 
@@ -53,11 +54,11 @@ slug: "18"
 * Began prepping for Wouter's classes on topic modeling (this got delayed by the Mallet issue)
 * Grant applications summaries and write up
 * Lunch, Dinner, Talk, and Dinner with Jo
-*  RSE town hall and start planning for a proposal workshop
-*  attended spring Research Computing Advisory Group meeting and shared notes
-*  attended intro to pytorch workshop
-*  two planning meetings for PUL DEI devops fellowship search committee
-*  Closing out APRs
+* RSE town hall and start planning for a proposal workshop
+* attended spring Research Computing Advisory Group meeting and shared notes
+* attended intro to pytorch workshop
+* two planning meetings for PUL DEI devops fellowship search committee
+* Closing out APRs
 
 
 
