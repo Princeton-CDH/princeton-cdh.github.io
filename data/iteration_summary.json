@@ -3781,23 +3781,223 @@
         "to": "2024-04-12",
         "work": {
             "ppa": [
-                "planning",
                 "code",
-                "wriing"
+                "test",
+                "release"
             ],
-            "lenape": [
-                "paused"
+            "ppa-nlp": [
+                "planning"
             ],
             "kreike": [
+                "planning"
+            ],
+            "shxco": [
+                "paused"
+            ],
+            "risk": [
+                "writing"
+            ],
+            "derrida": [
+                "paused"
+            ],
+            "cdh-web": [
+                "code",
+                "test",
+                "release"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "issues": 3,
+            "velocity": 4.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {
+            "ppa-django": 2,
+            "ppa-nlp": 1
+        },
+        "project_points": {
+            "ppa-django": 0,
+            "ppa-nlp": 0
+        }
+    },
+    {
+        "from": "2024-04-15",
+        "to": "2024-04-26",
+        "work": {
+            "ppa": [
                 "code"
             ],
-            "startwords": [
-                "paused"
+            "ppa-nlp": [
+                "code"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "shxco": [
+                "code",
+                "test",
+                "release"
+            ],
+            "risk": [
+                "writing"
+            ],
+            "derrida": [
+                "code"
+            ],
+            "cdh-web": [
+                "wrapup"
             ]
         },
         "dev": {
             "points": 0,
             "velocity": 4.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-04-29",
+        "to": "2024-05-10",
+        "work": {
+            "ppa": [
+                "code",
+                "test",
+                "release"
+            ],
+            "ppa-nlp": [
+                "code",
+                "release"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "shxco": [
+                "wrapup"
+            ],
+            "risk": [
+                "writing",
+                "release"
+            ],
+            "derrida": [
+                "code"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-05-13",
+        "to": "2024-05-24",
+        "work": {
+            "ppa": [
+                "code",
+                "writing"
+            ],
+            "ppa-nlp": [
+                "code",
+                "writing"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "derrida": [
+                "code",
+                "test",
+                "release"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-05-27",
+        "to": "2024-06-07",
+        "work": {
+            "ppa": [
+                "code",
+                "writing"
+            ],
+            "ppa-nlp": [
+                "code",
+                "writing"
+            ],
+            "kreike": [
+                "planning"
+            ],
+            "derrida": [
+                "wrapup"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-06-10",
+        "to": "2024-06-28",
+        "work": {
+            "ppa": [
+                "code",
+                "writing"
+            ],
+            "ppa-nlp": [
+                "code",
+                "writing"
+            ],
+            "kreike": [
+                "planning",
+                "release"
+            ]
+        },
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "design": {
+            "points": 0,
+            "velocity": 0.0
+        },
+        "project_issues": {},
+        "project_points": {}
+    },
+    {
+        "from": "2024-07-01",
+        "to": "2024-07-12",
+        "work": {},
+        "dev": {
+            "points": 0,
+            "velocity": 0.0
         },
         "design": {
             "points": 0,
