@@ -14346,8 +14346,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14755,8 +14755,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -23058,8 +23061,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -41946,14 +41949,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -42242,15 +42246,17 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/583",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-04T20:22:19Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -42566,14 +42572,17 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/613",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-04T20:18:36Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "In Progress",
+      "Development complete"
     ]
   },
   {
@@ -43086,6 +43095,52 @@
     "pipeline": []
   },
   {
+    "issue": "As a researcher, I want to be able to get page images for the PPA dataset off the ECCO hard drives so that I can analyze them computationally. ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/10",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "As a researcher, I want a test set of 20-25 works with definitions so that I can investigate methods for identifying direct and indirect citation.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/11",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "As a researcher, I want a list of possible NLP/CV tools to try so that I can investigate their utility for answering our research questions.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/12",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "As a researcher, I want the option of applying OCR cleanup rules to the corpus so that my computational analysis will yield more accurate results.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/13",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
     "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/4",
@@ -43103,7 +43158,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/5",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-04T14:46:08Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43117,10 +43172,27 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/6",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udddc\ufe0f awaiting testing"
+    ],
     "milestone": "",
     "assignees": [
       "mnaydan"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "Investigate utility of DINOv2 on page images from the test set",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/9",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83e\uddea experiment"
+    ],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
     ],
     "pipeline": []
   },
