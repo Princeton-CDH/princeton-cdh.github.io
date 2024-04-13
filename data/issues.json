@@ -4798,6 +4798,43 @@
     ]
   },
   {
+    "issue": "upgrade to wagtail 5.2",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/434",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "awaiting testing",
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "update app to use django-split-settings to manage settings, including local settings",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/436",
+    "estimate": "",
+    "closed": "2024-04-11T21:47:06Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "Review/QA"
+    ]
+  },
+  {
     "issue": "Navigation - links disappear after resizing ",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/44",
@@ -13889,9 +13926,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1479",
     "estimate": "",
-    "closed": "2024-03-04T20:54:53Z",
+    "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "People",
@@ -13899,8 +13937,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -14339,6 +14377,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Events",
@@ -14346,8 +14385,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14780,6 +14819,22 @@
     "pipeline": [
       "New Issues",
       "In Progress"
+    ]
+  },
+  {
+    "issue": "Navigation bar on document search in admin (right hand side) not alphabetized for languages ",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1575",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -23054,15 +23109,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/965",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-04-08T18:53:59Z",
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
     "milestone": "Documents",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -35256,7 +35314,7 @@
     ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
-      "quadrismegistus"
+      "rlskoeser"
     ],
     "pipeline": [
       "Review/QA"
@@ -35273,7 +35331,7 @@
     ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
-      "quadrismegistus"
+      "rlskoeser"
     ],
     "pipeline": [
       "Review/QA"
@@ -40733,12 +40791,14 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/427",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-04-09T18:15:31Z",
     "labels": [],
     "milestone": "v3.10",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -41947,10 +42007,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/555",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-09T18:12:44Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -42264,7 +42323,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/585",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-08T17:52:15Z",
     "labels": [
       "chore"
     ],
@@ -42273,8 +42332,7 @@
       "laurejt"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -42747,6 +42805,23 @@
     ]
   },
   {
+    "issue": "prep v3.12 - software release checklist ",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/639",
+    "estimate": "",
+    "closed": "2024-04-11T21:49:16Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Backlog"
+    ]
+  },
+  {
     "issue": "Snippet: sorting controls",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/64",
@@ -43110,8 +43185,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/11",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-04-10T19:18:23Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "mnaydan"
@@ -43171,10 +43248,8 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/6",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\ud83d\udddc\ufe0f awaiting testing"
-    ],
+    "closed": "2024-04-10T19:16:47Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "mnaydan"
