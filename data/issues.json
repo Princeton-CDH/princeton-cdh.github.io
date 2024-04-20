@@ -12265,6 +12265,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -12272,7 +12273,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress"
+      "In Progress",
+      "Review/QA"
     ]
   },
   {
@@ -13929,7 +13931,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -13938,7 +13940,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -14791,6 +14793,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14798,8 +14801,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -14834,6 +14837,25 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to be able to sort people in the browse page by date, name, and other criteria so that I can quickly find the most relevant result",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1578",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -34257,20 +34279,21 @@
     ]
   },
   {
-    "issue": "Write a new django manage command to export creator information",
+    "issue": "As a content admin, I want to export information about creators from the database so I can work with the data using other tools.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/684",
     "estimate": 2,
     "closed": null,
     "labels": [
-      "enhancement"
+      "enhancement",
+      "awaiting testing"
     ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
-      "quadrismegistus"
+      "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -35289,15 +35312,17 @@
     "pipeline": []
   },
   {
-    "issue": "Write a new django manage command to export member addresses",
+    "issue": "As a content admin, I want to export member addresses with more details in a separate file so I can more easily work with member locations.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/790",
     "estimate": 2,
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
-      "quadrismegistus"
+      "rlskoeser"
     ],
     "pipeline": [
       "Review/QA"
@@ -35404,14 +35429,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
     ]
   },
   {
@@ -35499,12 +35525,31 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Backlog"
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "Add imports and improve data exports",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/815",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -42249,7 +42294,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -42450,10 +42495,11 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "Backlog"
     ]
   },
   {
@@ -42833,6 +42879,82 @@
     "pipeline": []
   },
   {
+    "issue": "Write the mapping to read EEBO-TCP XML structure",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/641",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Write a version of the import that does metadata only",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/642",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Support full-text indexing",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/643",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "work with PUL to get ppa application logs into datadog",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/644",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "work with PUL to investigate load balancer timeout possibility",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/645",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a user, I want my results updated as soon as I change my search options so that I can refine my search without losing my place in the form and have results load more quickly.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/65",
@@ -43176,7 +43298,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "compile entire page image corpus",
     "assignees": [],
     "pipeline": []
   },
@@ -43203,7 +43325,10 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -43215,6 +43340,19 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "As an NLP expert, I want to review the text corpus of the PPA test set, the existing preprocessing code, and the decision log so that I can offer a recommendation on how the team should preprocess the text corpus moving forward. ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/14",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": []
   },
   {
@@ -43261,7 +43399,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/9",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-17T14:30:37Z",
     "labels": [
       "\ud83e\uddea experiment"
     ],
@@ -47424,6 +47562,21 @@
     ],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "maintenance updates",
+    "project": "viapy",
+    "url": "https://api.github.com/repos/Princeton-CDH/viapy/issues/5",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues"
     ]
