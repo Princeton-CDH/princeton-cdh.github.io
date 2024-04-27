@@ -4812,8 +4812,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "Review/QA"
+      "Review/QA",
+      "Icebox"
     ]
   },
   {
@@ -12262,10 +12262,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1335",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-24T01:24:59Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -12337,13 +12336,14 @@
     "estimate": "",
     "closed": "2024-02-08T15:41:02Z",
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "Events",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -13928,10 +13928,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1479",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-22T19:59:28Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
+      "\ud83d\udc1b bug",
       "performant"
     ],
     "milestone": "People",
@@ -13939,8 +13938,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14790,10 +14789,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1570",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-22T20:04:00Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14801,8 +14799,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14849,6 +14847,74 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want a way to manually override a person's date range, so that I can track dates of people's activity in the PGP with additional information",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1580",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to see document dates and inferred dates displayed for people pages in admin so that I can see at a glance a person's active dates and where that information comes from",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1581",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "When searching in Hebrew, search results are excluded when the keyword searched is longer than the word that appears in transcriptions",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1582",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Software release checklist for v4.17",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1583",
+    "estimate": "",
+    "closed": "2024-04-24T19:41:08Z",
+    "labels": [
+      "chore"
     ],
     "milestone": "",
     "assignees": [
@@ -21724,13 +21790,13 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/848",
     "estimate": 0,
-    "closed": "2024-02-08T16:05:00Z",
+    "closed": null,
     "labels": [],
     "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -35350,10 +35416,8 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/792",
     "estimate": 3,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-04-23T22:20:07Z",
+    "labels": [],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
@@ -35427,10 +35491,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/801",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-23T00:02:47Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -35523,10 +35586,9 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/810",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-22T23:56:55Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -35548,8 +35610,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -42284,7 +42346,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/572",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-24T14:43:42Z",
     "labels": [
       "chore"
     ],
@@ -42890,8 +42952,7 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -43318,11 +43379,11 @@
     "pipeline": []
   },
   {
-    "issue": "As a researcher, I want a list of possible NLP/CV tools to try so that I can investigate their utility for answering our research questions.",
+    "issue": "As a researcher, I want a list of possible NLP tools to try so that I can investigate their utility for answering our research questions.",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/12",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-24T15:00:57Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43338,21 +43399,106 @@
     "estimate": "",
     "closed": null,
     "labels": [],
+    "milestone": "compile clean, accurate, complete full-text corpus",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "As an NLP expert, I want to review the text corpus of the PPA test set, the existing preprocessing code, the decision log, and existing literature on OCR quality so that I can offer a recommendation on how the team should preprocess the text corpus moving forward. ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/14",
+    "estimate": "",
+    "closed": "2024-04-24T17:25:56Z",
+    "labels": [],
+    "milestone": "compile clean, accurate, complete full-text corpus",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "As a developer, I want a script that will download the HathiTrust page images for the PPA corpus from the HathiTrust image server.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/16",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "compile entire page image corpus",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "revise the corppa filter script to work with the new stabilized unique work IDs for excerpts and articles ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/17",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
     "milestone": "",
     "assignees": [],
     "pipeline": []
   },
   {
-    "issue": "As an NLP expert, I want to review the text corpus of the PPA test set, the existing preprocessing code, and the decision log so that I can offer a recommendation on how the team should preprocess the text corpus moving forward. ",
+    "issue": "Investigate line length/word counts to see how far this method gets in detecting poetry",
     "project": "ppa-nlp",
-    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/14",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/18",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "detect when poems are being quoted in the PPA corpus",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "I want a list of UTF-8 characters in the corpus and their frequencies",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/19",
+    "estimate": "",
+    "closed": "2024-04-24T17:34:18Z",
+    "labels": [],
+    "milestone": "compile clean, accurate, complete full-text corpus",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "I want a character normalization strategy",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/20",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "compile clean, accurate, complete full-text corpus",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "As an NLP expert, I want to assess the OCR quality of the pages in the test set so that I can offer a data-based recommendation on whether to re-OCR certain volumes.",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/21",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "compile clean, accurate, complete full-text corpus",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "Take John Foley's code out for a spin",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/22",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [
-      "laurejt"
-    ],
+    "assignees": [],
     "pipeline": []
   },
   {
@@ -47556,7 +47702,7 @@
     "project": "viapy",
     "url": "https://api.github.com/repos/Princeton-CDH/viapy/issues/3",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-24T18:39:19Z",
     "labels": [
       "bug"
     ],
@@ -47571,7 +47717,7 @@
     "project": "viapy",
     "url": "https://api.github.com/repos/Princeton-CDH/viapy/issues/5",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-24T18:34:43Z",
     "labels": [],
     "milestone": "",
     "assignees": [
