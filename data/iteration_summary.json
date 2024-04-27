@@ -3614,7 +3614,7 @@
         },
         "dev": {
             "points": 0,
-            "issues": 16,
+            "issues": 14,
             "velocity": 2.67
         },
         "design": {
@@ -3622,7 +3622,7 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "geniza": 11,
+            "geniza": 9,
             "ppa-django": 5
         },
         "project_points": {
@@ -3855,19 +3855,27 @@
             ]
         },
         "dev": {
-            "points": 0,
-            "issues": 1,
-            "velocity": 4.33
+            "points": 3,
+            "issues": 11,
+            "velocity": 5.33
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
         "project_issues": {
-            "ppa-nlp": 1
+            "ppa-nlp": 4,
+            "mep-django": 3,
+            "geniza": 1,
+            "ppa-django": 1,
+            "viapy": 2
         },
         "project_points": {
-            "ppa-nlp": 0
+            "ppa-nlp": 0,
+            "mep-django": 3,
+            "geniza": 0,
+            "ppa-django": 0,
+            "viapy": 0
         }
     },
     {
@@ -3899,7 +3907,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.33
+            "velocity": 1.33
         },
         "design": {
             "points": 0,
@@ -3931,7 +3939,7 @@
         },
         "dev": {
             "points": 0,
-            "velocity": 0.0
+            "velocity": 1.0
         },
         "design": {
             "points": 0,
