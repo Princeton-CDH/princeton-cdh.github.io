@@ -1,4 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 1 - Apr 12, 2024</title><link>/blog/2024/04/15/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/15/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Iteration Reports</title><link>/blog/iteration-reports/</link><description>Recent content in Iteration Reports on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 15 - Apr 26, 2024</title><link>/blog/2024/04/29/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/29/</guid><description>
+&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="featured-###.png"
+alt=" "/> &lt;figcaption>
+&lt;p>&lt;h2 id="heading">&lt;/h2>
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 1 - Apr 12, 2024</title><link>/blog/2024/04/15/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/15/</guid><description>
 &lt;p>add summary paragraphs(s) about the iteration&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
@@ -840,30 +852,5 @@ alt="Screenshot of Startwords issue list, which now includes indicators for avai
 &lt;img src="/blog/2022/03/21/featured-document-detail.png"
 alt="Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent."/> &lt;figcaption>
 &lt;p>Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Feb 21 - Mar 4, 2022</title><link>/blog/2022/03/07/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/07/</guid><description>
-&lt;img src="/blog/2022/03/07/featured-geniza-filters_hu56b64b3cea7385267f391b2335cd3a21_670917_640x0_resize_catmullrom_3.png" width="640" height="347"/>
-&lt;p>This iteration we were primarily focused on Geniza, but did devote some efforts towards Startwords. Our development velocity has stabilized a bit: 13 points, 20 issues, for a rolling velocity of 13.&lt;/p>
-&lt;h2 id="geniza">Geniza&lt;/h2>
-&lt;p>We released another update (version 4.2) with more new features and improvements to the public site. The most visible change is the filter panel on the &lt;a href="https://geniza.princeton.edu/en/documents/">document search&lt;/a>, which now includes three new filters related to scholarship records. We&amp;rsquo;re also making progress on designs and backend support for the RTL versions of the site.&lt;/p>
-&lt;h2 id="startwords">Startwords&lt;/h2>
-&lt;p>This iteration we made some small progress on design and infrastructure updates needed for Issue 3.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/03/07/featured-geniza-filters.png"
-alt="Geniza search filters expanded on desktop, with one selected."/> &lt;figcaption>
-&lt;p>Geniza search filters expanded on desktop, with one selected.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/03/07/geniza-active-filter-icon.png"
-alt="Geniza active filter icon, to indicate when search filters are applied."/> &lt;figcaption>
-&lt;p>Geniza active filter icon, to indicate when search filters are applied.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/03/07/geniza-favicon.png"
-alt="Geniza browser tab &amp;amp;amp; bookmark icon"/> &lt;figcaption>
-&lt;p>Geniza browser tab &amp;amp; bookmark icon&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>

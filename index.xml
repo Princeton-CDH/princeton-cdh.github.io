@@ -1,4 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 1 - Apr 12, 2024</title><link>/blog/2024/04/15/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/15/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – CDH Research Software Team</title><link>/</link><description>Recent content in CDH Research Software Team on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 15 - Apr 26, 2024</title><link>/blog/2024/04/29/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/29/</guid><description>
+&lt;p>add summary paragraphs(s) about the iteration&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>add demo links or screenshots&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="featured-###.png"
+alt=" "/> &lt;figcaption>
+&lt;p>&lt;h2 id="heading">&lt;/h2>
+&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 1 - Apr 12, 2024</title><link>/blog/2024/04/15/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/15/</guid><description>
 &lt;p>add summary paragraphs(s) about the iteration&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
@@ -673,22 +685,5 @@ alt="Screenshot showing the Geniza project image re-ordering feature in action"/
 &lt;img src="/blog/2022/09/19/shxco_footer.png"
 alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/> &lt;figcaption>
 &lt;p>Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;rsquo;s ISSN&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
-&lt;img src="/blog/2022/09/06/featured-cdh-affiliates_hu8eabf4e248fc08229aaaa06d513fc504_1088016_640x0_resize_catmullrom_3.png" width="640" height="651"/>
-&lt;p>We had another very productive iteration; we had &lt;strong>18&lt;/strong> points total accepted on the Princeton Geniza Project, and we completed &lt;strong>18&lt;/strong> development points. This results in a rolling development velocity of &lt;strong>15.7&lt;/strong> points, continuing our upward trend. We closed a total of 23 development issues, which includes a high number of chores and bugs; some of these were on other projects.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>The high number of points this iteration is largely due to significant progress on the transcription migration and new transcription editor functionality. We did also address some small bugs and other minor fixes; we did not release these changes to production during the iteration because we decided to prioritize other things, including making progress on the transcription editor.&lt;/p>
-&lt;h2 id="cdh-website">CDH website&lt;/h2>
-&lt;p>We needed to update the CDH website so that Humanities + Data Science Institute instructors and participants could be included on our affiliates pages. We also corrected a few small bugs and accessibility problems in the process.&lt;/p>
-&lt;h2 id="ppa">PPA&lt;/h2>
-&lt;p>No development activity, but the remaining issues completed in the previous iteration were accepted. The completed work should be released and deployed early this iteration.&lt;/p>
-&lt;h2 id="sco">S&amp;amp;co&lt;/h2>
-&lt;p>We squeezed in two very minor updates to the Shakespeare and Company site; we hope these also will be released and deployed early this iteration.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/09/06/featured-cdh-affiliates.png"
-alt="Affiliates page on the CDH website, which now includes Humanities &amp;#43; Data Science Institute instructors and participants"/> &lt;figcaption>
-&lt;p>&lt;a href="https://cdh.princeton.edu/people/affiliates/">Affiliates page on the CDH website&lt;/a>, which now includes Humanities + Data Science Institute instructors and participants&lt;/p>
 &lt;/figcaption>
 &lt;/figure></description></item></channel></rss>
