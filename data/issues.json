@@ -745,6 +745,20 @@
     ]
   },
   {
+    "issue": "add datadog logs",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/199",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -4802,9 +4816,8 @@
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/434",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-04-29T16:33:23Z",
     "labels": [
-      "awaiting testing",
       "chore"
     ],
     "milestone": "",
@@ -14923,6 +14936,44 @@
     "pipeline": [
       "In Progress",
       "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a page to view details about an individual place, so that I can learn more about it and its presence in geniza documents.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1584",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a tab where I can list and sort documents related to a person, so I can see where they actually appear in the PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1586",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -34359,7 +34410,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -35391,7 +35443,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -35408,7 +35461,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -35611,6 +35665,42 @@
     ],
     "pipeline": [
       "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "S&co v1.6 software release checklist",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/818",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a data editor, I want people records with VIAF URIs and no birth or death date to have dates automatically populated from VIAF data.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/819",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "awaiting testing"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -42561,7 +42651,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Backlog"
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -42945,7 +43036,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/641",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-02T19:23:13Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -42956,31 +43047,35 @@
     ]
   },
   {
-    "issue": "Write a version of the import that does metadata only",
+    "issue": "Write a version of the EEBO-TCP import that does metadata only",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/642",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
-    "issue": "Support full-text indexing",
+    "issue": "Support full-text indexing for EEBO-TCP content",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/643",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -43449,7 +43544,9 @@
     "assignees": [
       "rlskoeser"
     ],
-    "pipeline": []
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "I want a list of UTF-8 characters in the corpus and their frequencies",
@@ -43488,7 +43585,9 @@
     "assignees": [
       "laurejt"
     ],
-    "pipeline": []
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "Take John Foley's code out for a spin",
@@ -43498,8 +43597,42 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
-    "pipeline": []
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Create PPA page-level OCR quality evaluation",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/23",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Augment PPA Character Stats with document frequency",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/24",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
