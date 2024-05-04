@@ -3907,14 +3907,21 @@
         },
         "dev": {
             "points": 0,
+            "issues": 2,
             "velocity": 1.33
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-web": 1,
+            "ppa-django": 1
+        },
+        "project_points": {
+            "cdh-web": 0,
+            "ppa-django": 0
+        }
     },
     {
         "from": "2024-05-13",
