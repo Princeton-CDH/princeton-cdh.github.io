@@ -35,6 +35,8 @@ The issues with timeouts continues, and PUL has added datadog to the production 
 
 And in preparation for next week, the VMs for the Derrida Archive are ready to go.
 
+On the process front, we are working with GitHub Projects for managing each iteration and learning to use the built in charts, as well as how to export data from Projects. Jeri found a script for exporting a project board to a CSV, which we can use to capture our historical data (https://github.com/fiedl/github-project-to-csv).
+
 ### Writing
 
 The long-awaited article-proofs arrived for the Shakespeare and Company cluster, which Rebecca was able to review, as well as finalize the corresponding replication code. In addition, she submitted the "Trust Your Code" article for publication; and submitted to the DH Mini Conference on Simulating Risk.
@@ -46,3 +48,5 @@ Looking ahead, we will be focused next on completing the archive of Derrida's Ma
 ## Demos
 
 Interactive figures for the Shakespeare and Company article: https://viz.shakespeareandco.princeton.edu/
+
+{{< figure src="2024-05-10-Iteration2Points.png" caption="Total Story Points at the end of Iteration 2: 34 points queued; 22 points completed">}}
