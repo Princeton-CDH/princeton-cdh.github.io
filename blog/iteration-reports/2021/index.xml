@@ -1,0 +1,328 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – 2021</title><link>/blog/iteration-reports/2021/</link><description>Recent content in 2021 on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/2021/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Nov 22 - Dec 3, 2021</title><link>/blog/2021/12/06/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>/blog/2021/12/06/</guid><description>
+&lt;p>We made progress on multiple projects, but didn&amp;rsquo;t close anything with points; this is due to the Thanksgiving holiday and the shift to working on Startwords to prep issue 2 for publication.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We completed a number of updates in preparation for publishing Startwords issue 2, which looks to be in good shape to go out on time as planned.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>The issues closed largely related to design and design implementation. We do have a large issue in-progress and nearly complete to update the scholarship details for individual documents; this issue was larger than expected due to the need to format references more like a citation, which involved some data model changes. Due to the holidays and rolling work on the MVP, we have not made any releases in a while to update production with the latest changes; we probably should do this sometime soon.&lt;/p>
+&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
+&lt;p>We released a micro update with maintenance updates, including python package upgrades and two minor adjustments in support of publishing new versions of the datasets. While we made the update, we added Zenode metadata and a citation file to make the GitHub repository more citable.&lt;/p>
+&lt;h2 id="archiving-derridas-margins">Archiving Derrida&amp;rsquo;s Margins&lt;/h2>
+&lt;p>This work is still not complete, but we made a small amount of progress on the final configuration needed for the archive site.&lt;/p></description></item><item><title>Blog: Nov 8 - Nov 19, 2021</title><link>/blog/2021/11/22/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>/blog/2021/11/22/</guid><description>
+&lt;p>Our rolling development velocity after this iteration is picking up (7.8) as geniza work gains momentum. For development work, we completed 21 issues and 13 points. We made what we hope to be the final Derrida release.&lt;/p>
+&lt;h2 id="geniza">geniza&lt;/h2>
+&lt;p>We made progress on the public document search, implementing styles and typography, and a preliminary implementation for synchronizing TEI transcriptions for search and display on the new site.&lt;/p>
+&lt;h2 id="derrida">derrida&lt;/h2>
+&lt;p>We developed a custom driver for browsertrix-crawler so that we could archive the historgram visualization pages and the deep-zoom image content on the site.&lt;/p></description></item><item><title>Blog: Oct 25 - Nov 5, 2021</title><link>/blog/2021/11/08/</link><pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate><guid>/blog/2021/11/08/</guid><description>
+&lt;img src="/blog/2021/11/08/featured-geniza-kwic_hu183aa54baf7030e3cd19aa3fb2aea662_57198_640x0_resize_catmullrom_3.png" width="640" height="355"/>
+&lt;p>Our rolling development velocity after this iteration is low (only &lt;strong>4 points&lt;/strong>), but we&amp;rsquo;re starting to gain momentum on the geniza development work and we&amp;rsquo;rec lose to wrapping up maintenance and chore work. For development work, we completed 17 issues and 9 points; we also made progress on geniza design work this iteration.&lt;/p>
+&lt;h2 id="geniza">geniza&lt;/h2>
+&lt;p>We&amp;rsquo;re starting to make progress on the public site features planned for the first public release (PGP v4.0): adding functionality to the public document search, document details, implementing styles, and working to use localization and internationalization consistently. We&amp;rsquo;re also making progress on visual design and typography.&lt;/p>
+&lt;h2 id="derrida">derrida&lt;/h2>
+&lt;p>For the work to archive Derrida&amp;rsquo;s Margins, we completed the remaining work to complete the web archiving (which included a custom web driver to capture the visualization and deep zoom images), and gathered needed information for customizing and configuring the deployed archive site.&lt;/p>
+&lt;h2 id="startwords">startwords&lt;/h2>
+&lt;p>Startwords is not scheduled for active development until next iteration, but as we identified and addressed one small item that was determined to be helpful for editing and publication prep; in this case, so the editors could give contributors a preview of how their revised essay might be presented on the site.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/11/08/featured-geniza-kwic.png"
+alt="Screenshot of the Geniza search interface showing matching search terms in context in the document description"/> &lt;figcaption>
+&lt;p>Screenshot of the Geniza search interface showing matching search terms in context in the document description&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 11 - Oct 22, 2021</title><link>/blog/2021/10/25/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate><guid>/blog/2021/10/25/</guid><description>
+&lt;img src="/blog/2021/10/25/featured-derrida-archive-banner_hue2d9c0845a5a26ef49287aa91a87af47_1434552_640x0_resize_catmullrom_3.png" width="640" height="403"/>
+&lt;p>This iteration we closed 9 development issues but had zero points, because those issues were all chores and bugs. Our rolling velocity is &lt;strong>5.67&lt;/strong> but should pick up as we gain momentum on geniza work, especially since we&amp;rsquo;ve added contractor developers to help out.&lt;/p>
+&lt;p>We had a &lt;strong>cdh web&lt;/strong> bugfix release that addressed two bugs, and a &lt;strong>derrida&lt;/strong> release with the code for the final data exports. We&amp;rsquo;re ramping up on &lt;strong>geniza&lt;/strong> work for the fall, which is reflected in the number of issues closed, including some frontend setup work, planning, and progress on design for content pages and document detail page.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/10/25/featured-derrida-archive-banner.png"
+alt="Screenshot of preliminary Derrida&amp;amp;rsquo;s Margins archive site with read-only banner"/> &lt;figcaption>
+&lt;p>Screenshot of preliminary Derrida&amp;rsquo;s Margins archive site with read-only banner&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Sep 27 - Oct 8, 2021</title><link>/blog/2021/10/11/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate><guid>/blog/2021/10/11/</guid><description>
+&lt;img src="/blog/2021/10/11/featured-geniza-darkmode_huae789e660e93d1b28032acb9e191836d_156320_640x0_resize_catmullrom_3.png" width="640" height="304"/>
+&lt;p>We closed a rather small number of issues this iteration (5 development issues, 3 points) bringing our rolling velocity down a bit to &lt;strong>6.33&lt;/strong>. This is likely because our efforts were directed elsewhere; notably on completing the Geniza year 2 charter, which has now been finalized and signed.&lt;/p>
+&lt;p>We made some progress closing out in-progress frontend development work on Geniza, finished the last set of updates on the Derrida data exports, and also released a bugfix for CDH web. (The bug is not listed below because it was reopened when we discovered the problem had only been partially solved.)&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/10/11/featured-geniza-darkmode.png"
+alt="Screenshot of the latest style updates on the Geniza document search, including setup for dark mode"/> &lt;figcaption>
+&lt;p>Screenshot of the latest style updates on the Geniza document search, including setup for dark mode&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Sep 13 - Sep 24, 2021</title><link>/blog/2021/09/27/</link><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate><guid>/blog/2021/09/27/</guid><description>
+&lt;p>This iteration, we continued working on planned maintenance work and finishing the charter for the next year of work on the Geniza research partnership. Our rolling velocity is up to &lt;strong>7.7&lt;/strong>; points for this iteration were high because work included a large feature on the Geniza project that was finally completed and several features for Derrida data exports that had been in-progress for multiple iterations.&lt;/p>
+&lt;h2 id="derridas-margins">Derrida&amp;rsquo;s Margins&lt;/h2>
+&lt;p>We completed revisions on three of the four dataset exports, and corrected one bug in the previous version of the data exports and one bug in the IIIF image endpoint handling.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We finally completed the script to merge documents, and fixed a bug that made it into production when part of the incompletely tested merge code was included in the last release. We also made progress on design work towards visual identity and color selection.&lt;/p>
+&lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
+&lt;p>We successsfully completed the migration to PUL infrastructure without hiccups, including switching the 100 years twitter bot cron job over to the new server. This update includes upgrades to python 3.6, Solr 8, and a switch from MySQL to Postgresql. Most crucially, this gets the code off of python 3.5 which has not been supported for nearly a year. Looking foward, we know have a path for testing and updating the application to newer versions of python, since the infrastructure on the PUL VMs is fully managed by our ansible deploy scripts.&lt;/p></description></item><item><title>Blog: Aug 23 - Sep 3, 2021</title><link>/blog/2021/09/07/</link><pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate><guid>/blog/2021/09/07/</guid><description>
+&lt;img src="/blog/2021/09/07/featured-cdhweb-homepage_hu1bdbd80a0b6580c6bb28223084600abd_240245_640x0_resize_catmullrom_3.png" width="640" height="303"/>
+&lt;p>Completed points for this iteration are quite low (only &lt;strong>2 points&lt;/strong>). This brings our rolling velocity down to &lt;strong>6&lt;/strong>, which is the lowest it&amp;rsquo;s been in quite some time. This is likely due to the focus on maintenance work and chartering the next year of the Princeton Geniza Project; we also have some in-progress work on revised data exports for Derrida&amp;rsquo;s Margins that have not been completed.&lt;/p>
+&lt;h2 id="cdh-web">CDH web&lt;/h2>
+&lt;p>We released version 3.4 with the enhancements as planned in the charter, most notably a new site search. One new feature was completed this iteration, revising the home page to call attention to important information (about CDH and consults). We also fixed a small bug impacting the staff and executive committee pages.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released version 0.5 with high priority fixes and improvements that had been identified by the project team to help with ongoing data work. In progress work on a script to merge documents, which has been through multiple rounds of testing, was temporarily put in the ice box to prioritize work on the Geniza charter for the next year. We did also start work more seriously on frontend development and inftrastructure and visual design.&lt;/p>
+&lt;h2 id="derrida">Derrida&lt;/h2>
+&lt;p>Maintenance work is ongoing; we successfully set up continuous integration on GitHub Actions, to aid us in testing the remaining development (since Travis-CI is no longer reliable). We made progress on the data export scripts, but none of the issues were completed.&lt;/p>
+&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
+&lt;p>We made progress on maintenance work to migrate the application from the current host into PUL infrastructure, which includes a python version upgrade, new version of Solr, and switch from MySQL to Postgresql. The site is successfully running in the new QA environment, so after a bit more testing to confirm functionality and migrated data, we should be able to proceed and schedule a production migration.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/09/07/featured-cdhweb-homepage.png"
+alt="Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations"/> &lt;figcaption>
+&lt;p>Screenshot of the CDH home page showing the newly implemented design featuring the About page and Consultations&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Aug 9 - Aug 20, 2021</title><link>/blog/2021/08/23/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/23/</guid><description>
+&lt;img src="/blog/2021/08/23/featured-cdhweb-search_hu5bdc378edbfc8df771ea880f23028bee_103240_640x0_resize_catmullrom_3.png" width="640" height="360"/>
+&lt;p>This iteration &lt;a href="https://cdh.princeton.edu/updates/2021/08/15/rebecca-munson/">we lost Rebecca Munson&lt;/a>, who was a long-time collaborator of the CDH Development &amp;amp; Design Team, project manager &amp;amp; project coordinator for many of our projects. In spite of that terrible loss, it&amp;rsquo;s good to do work, and we did make some progress on our planned work. Among other things, we implemented a special purple mode for the CDH website and released v3.3.1 so we could turn it on to honor her.&lt;/p>
+&lt;p>We completed &lt;strong>7&lt;/strong> development story points for a rolling velocity of &lt;strong>8.67&lt;/strong>; we also completed &lt;strong>14&lt;/strong> design story points, as all the design work for the CDH web v3.4 release was finalized.&lt;/p>
+&lt;h2 id="cdh-web">CDH web&lt;/h2>
+&lt;p>The work for the 3.4 release is nearly done, and it should be completed and go into production soon. Completed work include designs for search, better visuals to highlight the about page and consultations on the home page, and the new site search.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We started up development on Geniza again, picking up some work that was left incomplete and small changes that will be helpful to the data team. Completed work includes capability to edit historic shelfmarks for Fragments, clean up of the India Book sources that were not grouped correctly on import, and a way to view actions on the admin site beyond the most recent ten or a specific document.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/08/23/featured-cdhweb-search.png"
+alt="Screenshot of the new CDH web search"/> &lt;figcaption>
+&lt;p>Screenshot of the new CDH web search&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 26 — Aug 6, 2021</title><link>/blog/2021/08/9/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>/blog/2021/08/9/</guid><description>
+&lt;img src="/blog/2021/08/9/featured-ppa-excerpts_hu25f15e2e6fb2a63c611d6ccbe3a67ee8_210994_640x0_resize_catmullrom_3.png" width="640" height="344"/>
+&lt;p>We had multiple projects active this iteration, roughly divided across developers on the team. The planned work for PPA spilled over and needed to be completed; work started on updates for CDH web identified in the recent project charter; and work continued on maintenance updates for Derrida&amp;rsquo;s Margins. We closed &lt;strong>24&lt;/strong> issues and a total of &lt;strong>9&lt;/strong> points for a rolling velocity of &lt;strong>11.3&lt;/strong>. The lower velocity reflects the kind of work we&amp;rsquo;re doing (including some maintenance), as well as other things going on, including the transition with some staff starting to work on campus again.&lt;/p>
+&lt;h2 id="project-specific-updates">Project-specific updates&lt;/h2>
+&lt;h3 id="ppa">PPA&lt;/h3>
+&lt;p>This iteration we completed the work on 3.7 and released the new features to production. This update includes support for Gale/ECCO content as well as excerpt support for HathiTrust materials, which is a fairly major change to the collection. We&amp;rsquo;re looking forward to a write up from the team publicizing the changes and explaining what this means for PPA.&lt;/p>
+&lt;h3 id="cdhweb">CDHweb&lt;/h3>
+&lt;p>We released version 3.3 with support for oEmbed of Media Central videos, a new accessibility checker tool for content editors, and improved handling for moved and renamed pages. Implementation and design for the new site search is in progress, and has been successfully prototyped.&lt;/p>
+&lt;h3 id="derridas-margins">Derrida&amp;rsquo;s Margins&lt;/h3>
+&lt;p>We made progress on maintenance updates to Derrida&amp;rsquo;s Margins, including a bugfix release that corrects an image display problem that has been impacting the sites for several months. Work is underway to generate revised data exports and prep the site for archiving.&lt;/p>
+&lt;h3 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h3>
+&lt;p>We completed work on two trivial changes and one data report to support data work for the next version of the data exports; the changes should go to production soon.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;h3 id="ppa-1">PPA&lt;/h3>
+&lt;figure>
+&lt;img src="/blog/2021/08/9/featured-ppa-excerpts.png"
+alt="Screenshot of Princeton Prosody Archive search result for a book excerpt."/> &lt;figcaption>
+&lt;p>Screenshot of &lt;em>Princeton Prosody Archive&lt;/em> search result for a book excerpt.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3 id="cdh-web">CDH Web&lt;/h3>
+&lt;figure>
+&lt;img src="/blog/2021/08/9/cdhweb-editoria11y.png"
+alt="Screenshot of CDH website showing the editoria11y accessibility tool which has been integrated and enabled for content editors."/> &lt;figcaption>
+&lt;p>Screenshot of CDH website showing the &lt;a href="https://itmaybejj.github.io/editoria11y/">editoria11y accessibility tool&lt;/a> which has been integrated and enabled for content editors.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/08/9/cdhweb-video-embed.png"
+alt="Screenshot of CDH web admin and public view showing the video embed functionality."/> &lt;figcaption>
+&lt;p>Screenshot of CDH web admin and public view showing the video embed functionality.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 5 — 23, 2021</title><link>/blog/2021/07/26/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>/blog/2021/07/26/</guid><description>
+&lt;img src="/blog/2021/07/26/featured-percy-visualreview_hufac49881638799c2446d75f54e1a48a2_386534_640x0_resize_catmullrom_3.png" width="640" height="472"/>
+&lt;p>This iteration we made significant progress on PPA. All remaining planned work to support Gale/ECCO import and HathiTrust excerpts were moved to &amp;ldquo;development complete&amp;rdquo; status, but unfortunately testing issues related to indexing and keyword search were problematic and held up testing on a cluster of issues.&lt;/p>
+&lt;p>There was a smattering of progress on other projects as well. For the CDH website, we completed work to setup a new visual testing review workflow with &lt;a href="https://percy.io/">Percy&lt;/a>, which we hope will save time and improve our design implementation testing across projects. We continued to be paused on Geniza, but we had one issue closed that should have been accepted before, but was left open based on design feedback and changes requested rather than functionality. On Startwords, we also had a very minor style bugfix resolved.&lt;/p>
+&lt;p>We extended this iteration for 3 weeks to account for vacation and the ACH2021 conference last week. We completed 10 development points, and have a rolling development velocity of 14.3 points.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/07/26/featured-percy-visualreview.png"
+alt="Screenshot from Percy showing an example of visual review for a page on CDH web"/> &lt;figcaption>
+&lt;p>Screenshot from Percy showing an example of visual review for a page on CDH web&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jun 7 — 25, 2021</title><link>/blog/2021/07/06/</link><pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate><guid>/blog/2021/07/06/</guid><description>
+&lt;img src="/blog/2021/07/06/featured-cdhweb-embed_hu401108991c7d5a326e154ec8d24d8d4e_160474_640x0_resize_catmullrom_3.png" width="640" height="692"/>
+&lt;p>This past iteration, we split our focus between PPA and CDH web. On PPA, we worked on adding support for importing Gale/ECCO content. For CDH web, we worked on the first charter for CDH web, to articulate the roles and responsibilities and prioritize for the next phases of work (chartering is not reflected in the GitHub issues reported here). We extended the iteration to three weeks, to work around an off week for June 28 — July 2 (CDH staff R&amp;amp;D week).&lt;/p>
+&lt;p>Rolling velocity is 17 points, with 15 points accepted in this iteration and 28 issues closed. This is higher than we might expect, but due to the longer 3-week iteration and also a number of chores and duplicate issues that were cleaned up on GitHub.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We made substantial progress on support for importing and searching across Gale/ECCO content alongside existing HathiTrust content. We also completed design work to update PPA display to handle multiple sources and different item types (excerpts and book sections).&lt;/p>
+&lt;h2 id="cdh-web">CDH web&lt;/h2>
+&lt;p>We fixed a couple of small bugs, and adjusted the affiliates and students page so that the new Data Fellows would be included. We also ported a custom embed finder from the Shakespeare and Company codebase to allow embedding dynamic content in blog posts and other wagtail pages.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We fixed a few small bugs that were found in production after the release and data import, and also completed a few chores and small stories to help with data work in the new interface, including adding very simple date fields and a script to import Fragment image and IIIF urls from a CSV.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/07/06/featured-cdhweb-embed.png"
+alt="Screenshot of dynamic content embedded in a CDH web post; see the essay for the interactive version."/> &lt;figcaption>
+&lt;p>Screenshot of dynamic content embedded in a CDH web post; see the &lt;a href="https://cdh.princeton.edu/updates/2021/07/01/old-project-new-database-geniza/">essay&lt;/a> for the interactive version.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 24 — Jun 4, 2021</title><link>/blog/2021/06/07/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>/blog/2021/06/07/</guid><description>
+&lt;img src="/blog/2021/06/07/featured_geniza_prelim_search_hua1ec862dfc1584070957db372a1cd828_91060_640x0_resize_catmullrom_3.png" width="640" height="508"/>
+&lt;p>Our focus this iteration was on Geniza work as we finished out the second phase of work and created our first production release: we successfully migrated the Princeton Geniza Project metadata from a Google Sheets spreadsheet into the new relational database!&lt;/p>
+&lt;p>Work leading up to the 0.3 release included further refinements to the editor/translator data import, various CSV exports for content editors and a feed to keep the current public PGP site up to date with changes made in the database. After the release, we did some follow up work to make some adjustments to the admin interface, address a couple of bugs found after the code went to production, and a very preliminary version of the public document search. Those updates have not yet been deployed, and another set of updates are still in progress or awaiting testing, so some wrap-up work will continue into the next iteration. As part of wrapping up this phase of work, we closed a number of experimental tasks on GitHub that are no longer relevant.&lt;/p>
+&lt;p>The story points trend for the last two iterations (18 points each, rolling velocity of 15) shows the kind of momentum that is possible at this phase of a project, but also reflects the staffing adjustments we made to ensure we met our deadline to finish the metadata migration before the end of May.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/06/07/featured_geniza_prelim_search.png"
+alt="Screenshot of the preliminary version of the Geniza public search"/> &lt;figcaption>
+&lt;p>Screenshot of the preliminary version of the Geniza public search&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 10 — 21, 2021</title><link>/blog/2021/05/24/</link><pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/24/</guid><description>
+&lt;img src="/blog/2021/05/24/featured-ppa-focus-styles_hu6c4290d7aabc7625ef86de2acc93b221_73095_640x0_resize_catmullrom_3.png" width="640" height="291"/>
+&lt;p>This iteration we completed 18 development points on Geniza as we work towards a first release and migrating the metadata from the spreadsheet to the new relational database. We also completed a smattering of bugfixes and chores as part of planned maintenance work, and one unplanned bugfix. The 18 point total brings our rolling velocity up to 13.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>Notable development work completed this iteration are related to scholarship record data import and editing functionality, as well as handling demerge on import and improving the admin document search. For design, we made progress on content pages, updates to the auto-layout in Figma, and progress on typefaces, even though no design issues were closed this iteration.&lt;/p>
+&lt;h2 id="princeton-prosody-archive">Princeton Prosody Archive&lt;/h2>
+&lt;p>Planned maintenance work on PPA included an update to switch out the frontend library Semantic UI, which is no longer being maintained, for the community fork, Fomantic UI. The other notable change is an improvement to hover and focus styles, for better accessibility and consistency.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We released minor update with a trivial bugfix to address something we missed in the 3.0 release, so that content editors can customize the preview text displayed for blog posts. We also closed a few more bug issues that are no longer relevant now that we&amp;rsquo;ve switched from Mezzanine to Wagtail.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2021/05/24/geniza-footnote-transcription.png"
+alt="Screenshot of Geniza admin interface for a scholarship record footnote with transcription"/> &lt;figcaption>
+&lt;p>Screenshot of Geniza admin interface for a scholarship record footnote with transcription&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/05/24/featured-ppa-focus-styles.png"
+alt="Screenshot of PPA archive search showing new focus styles for improved accessibility"/> &lt;figcaption>
+&lt;p>Screenshot of PPA archive search showing new focus styles for improved accessibility&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Apr 26 — May 7, 2021</title><link>/blog/2021/05/10/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>/blog/2021/05/10/</guid><description>
+&lt;img src="/blog/2021/05/10/featured-geniza-document-detail_hu2f9aee1d5d69e0ebe1a73f8355b78149_2751041_640x0_resize_catmullrom_3.png" width="640" height="441"/>
+&lt;p>This iteration we closed 10 development points for a rolling velocity of 8. Our primary focus was on Princeton Geniza Project, but we did a small amount of planned work on the CDH website, ansible deploy scripts, and a very small amount of unplanned work on Shakespeare and Company Project to fix a time-sensitive bug.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>Accepted development work consists of a preliminary document detail page for the public site and admin editing enhancements, including a footnote count for the source list in admin, a way to edit and link to documents on the fragment edit view, and a certainty flag for TextBlocks to handle potential joins.&lt;/p>
+&lt;p>Completed design work includes a decision on document titles for detail pages as well as search and browse, revisions to the document detail page based on the initial implementation, and completed wireframes for sort and filter on search for all screens.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We completed planned maintenance and released version 3.0.2 — this update removes all mezzanine dependencies and resets database migrations, making it possible for the site to finally be upgraded to newer versions of django and wagtail. This also resolved a bug in the 3.0 release.&lt;/p>
+&lt;h2 id="shakespeare-and-company-project">Shakespeare and Company Project&lt;/h2>
+&lt;p>The bugfix release was a small change to address a limitation on the 100 years twitter code — it did not handle subscriptions and renewals with no known duration, as revealed by a tweet on Monday. The bugfix was out in time to handle the next occurrence on Friday.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/05/10/featured-geniza-document-detail.png"
+alt="Screenshot of preliminary document detail page for Princeton Geniza Project"/> &lt;figcaption>
+&lt;p>Screenshot of preliminary document detail page for Princeton Geniza Project&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 12 — 23, 2021</title><link>/blog/2021/04/26/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/26/</guid><description>
+&lt;img src="/blog/2021/04/26/featured-pgp-change-history_hu9f9e5ad30b3f4175f68327304d5cb344_33364_640x0_resize_catmullrom_3.png" width="640" height="123"/>
+&lt;p>This iteration we closed 11 development points for a rolling velocity of 19, still coming down from the massive number of points closed three iterations ago.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We made more improvements to the data import, fixing Language+Script mapping based on the new display names and resolving all previously unhandled languages, and most notably parsing history input information (names and dates) into structured django log entries to preserve the known edit history of PGP documents. We also completed preliminary work on footnote models for linking scholarship records to documents.&lt;/p>
+&lt;p>For design, wireframes for cluster view browse and search results pages for all screens (desktop, tablet, mobile) were all completed.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We fixed a couple more bugs in the 3.0 version and released a planned 3.0.1 cleanup release to remove exodus code specific to the shift to wagtail. This is a necessary step to removing mezzanine, which will finally let us upgrade to newer versions of Dljango and python.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/04/26/featured-pgp-change-history.png"
+alt="Screenshot of change history for a test imported document showing historic changes"/> &lt;figcaption>
+&lt;p>Screenshot of change history for a test imported document showing historic changes&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/04/26/pgp-first-last-edits.png"
+alt="Screenshot of earliest and most recent changes for a test import document, shown on the document dit form"/> &lt;figcaption>
+&lt;p>Screenshot of earliest and most recent changes for a test import document, shown on the document dit form&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 29 — Apr 9, 2021</title><link>/blog/2021/04/12/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/2021/04/12/</guid><description>
+&lt;img src="/blog/2021/04/12/featured-sco_map_essay_hu5a7f23e9c9277fbc92bf6da0a0ea5ae8_1305134_640x0_resize_catmullrom_3.png" width="640" height="331"/>
+&lt;p>The development points for this iteration were quite low (only 4 points), but our rolling velocity continues to be unnusually high (26 points) based on the last two iterations, which were included an enormous amount of work.&lt;/p>
+&lt;p>Based on the design velocidy graph, we might be finding a new rhythm with design work on our new adjusted design schedule.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We finally finished and deployed the 3.0 release, migrating content from the outdated and unsupported Mezzanine to Wagtail. This iteration included a few issues to close out the release, deploying the update and running the exodus script to convert content, and then some bugfixes and clean up work for a planned 3.0.1 release.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>This iteration we finished some smaller work related to the database and admin sorting, and made progress on document detail designs. Multiple larger features were delivered late in the iteration, which didn&amp;rsquo;t give enough time for testing to be completed.&lt;/p>
+&lt;p>Low points this iteration may in part be a result of successful acceptance testing last iteration, which meant we had no in-progress work at the start of the iteration, as we&amp;rsquo;ve had in the past. Rolling velocity will smooth out the volatility here, as intended.&lt;/p>
+&lt;h2 id="shakespeare-and-company">Shakespeare and Company&lt;/h2>
+&lt;p>We had a small release for S&amp;amp;co with one bug fix (tested last iteration) and an enhancement adapted from PPA, to support embedding dynamic content (such as the map below) in Analysis essays and other site content pages.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/04/12/featured-sco_map_essay.png"
+alt="Screenshot of the dynamic map embedded in the newly published essay on the Literary Right Bank on Shakespeare and Company Project"/> &lt;figcaption>
+&lt;p>Screenshot of the dynamic map embedded in the newly published essay on the &lt;a href="https://shakespeareandco.princeton.edu/analysis/2021/04/literary-right-bank/">Literary Right Bank&lt;/a> on Shakespeare and Company Project&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 15 — 29, 2021</title><link>/blog/2021/03/29/</link><pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/29/</guid><description>
+&lt;img src="/blog/2021/03/29/featured-cdhweb-page-history_hu3ccb080dc3feaf0cdac3a01620139301_83318_640x0_resize_catmullrom_3.png" width="640" height="359"/>
+&lt;p>The points and total number of issues closed for the last iteration is quite high — 42 points total, 25 for cdhweb and 17 for geniza, which results in a rolling velocity of 27. I&amp;rsquo;d like to think this is a sign that we&amp;rsquo;re gaining momentum on geniza work, but suspect that the high numbers are due to work that rolled over from the last iteration and a significant push to finish cdhweb 3.0.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We&amp;rsquo;re continuing to make progress on building out the database and importing existing data. New features include a document suppression feature, automatic tracking of historic shelfmarks, and a &amp;ldquo;needs review&amp;rdquo; field where content editors can add notes about problems or questions in the data that are used to create a queue of records with problems to be addressed. We also finished testing on data import issues from previous iterations, most notably preliminary document &amp;amp; fragment import.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>We completed features related to blog migration and managing site menus and navigation via wagtail, and resolved a number of longstanding bugs that are no longer an issue now that the site is on wagtail instead of mezzanine. There are only a few small issues rolling over for final testing and review before the 3.0 release can be created and deployed production.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2021/03/29/geniza-awaiting-review.png"
+alt="Screenshot of Geniza admin interface with new awaiting review feature"/> &lt;figcaption>
+&lt;p>Screenshot of Geniza admin interface with new awaiting review feature&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/03/29/cdhweb-wagtail-recents.png"
+alt="Screenshot of cdhweb wagtail interface showing recent edits, based on page history events"/> &lt;figcaption>
+&lt;p>Screenshot of cdhweb wagtail interface showing recent edits, based on page history events&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/03/29/featured-cdhweb-page-history.png"
+alt="Screenshot of cdhweb wagtail interface showing page history with migration event"/> &lt;figcaption>
+&lt;p>Screenshot of cdhweb wagtail interface showing page history with migration event&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Mar 1 — 12, 2021</title><link>/blog/2021/03/15/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/15/</guid><description>
+&lt;img src="/blog/2021/03/15/featured-geniza-tagnetwork-detail_hu92be73fe69a8d7f2888c82f5551e2265_5116992_640x0_resize_catmullrom_3.png" width="640" height="400"/>
+&lt;p>Rolling velocity for this iteration increased from about 10 points to about 15 points, largely due to a substantial chunk of CDH website user stories that completed the testing process together after multiple iterations.&lt;/p>
+&lt;h2 id="cdh-website">CDH Website&lt;/h2>
+&lt;p>This iteration we completed testing on a large set of issues that have been rolling over through multiple iterations, including major changes to:&lt;/p>
+&lt;ul>
+&lt;li>Events&lt;/li>
+&lt;li>People &amp;amp; Profiles&lt;/li>
+&lt;li>Project, Grants, and Grant Memberships&lt;/li>
+&lt;/ul>
+&lt;p>Work is still in progress on content management updates for Blog Posts, the last major module to migrate as part of the v3.0 update.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>This iteration we completed the admin management interface for Documents, the primary model in the Geniza database. In addition, we added new functionality to track where and how often languages &amp;amp; scripts are used by Documents, including provision for probable or uncertain language identification.&lt;/p>
+&lt;p>To support upcoming functionality for de-merging composite documents, we added an option to &amp;ldquo;clone&amp;rdquo; Documents with a record of the process stored in the database. We also experimented with clustering tags assigned to documents in order to start finding patterns in the data.&lt;/p>
+&lt;p>On the design side, we completed revisions to the sitemap diagram and created a low-fidelity mockup of the public view for Documents to spark discussion on content structure and hierarchy.&lt;/p>
+&lt;p>Four user stories related to the interface and data import process for Fragments are still in-progress.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2021/03/15/featured-geniza-tagnetwork-detail.png"
+alt="Visualization of tag network generated from Geniza document tags"/> &lt;figcaption>
+&lt;p>Visualization of tag network generated from Geniza document tags&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2021/03/15/geniza-document-admin.png"
+alt="Screenshot of administrative interface for Geniza document database"/> &lt;figcaption>
+&lt;p>Screenshot of administrative interface for Geniza document database&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Feb 15 - 26, 2021</title><link>/blog/2021/03/01/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>/blog/2021/03/01/</guid><description>
+&lt;img src="/blog/2021/03/01/featured-geniza-language-admin_huddcbf6b09e7aaa0ac1befe273c5630ef_107246_640x0_resize_catmullrom_3.png" width="640" height="479"/>
+&lt;p>This iteration we continued to make progress on building out the new relational database for the Geniza project and importing existing data from spreadsheets. Database structure, admin interface, and data import for languages &amp;amp; scripts are complete; data import for library collections are complete but the admin editing story is not yet complete due to changes in the requirements. Database structure, and admin interface for documents and fragments are underway and far enough along to share a list of questions and necessary data work for the import to proceed, but have not yet been delivered for testing. In terms of design work, issues were delivered with proposed sitemap for sign off and mockups for the structure and content of the document detail page, but neither were closed.&lt;/p>
+&lt;p>Progress on the CDH website migration continues, and while some testing took place this iteration no stories were accepted and completed. There are now eight issues (24 story points) awaiting testing, up from the seven issues (18 points) reported at the beginning of the end of the last iteration. This could be due to a new acceptance tester learning the process combined with complicated issues, but it raises concerns, especially since some issues have already been tested more than once and are not yet accepted.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/03/01/featured-geniza-language-admin.png"
+alt="Screenshot of Django admin interface for Languages and Scripts in the test Geniza database"/> &lt;figcaption>
+&lt;p>Screenshot of Django admin interface for Languages and Scripts in the test Geniza database&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 1 - 13, 2021</title><link>/blog/2021/02/15/</link><pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021/02/15/</guid><description>
+&lt;p>This iteration we closed a significant number of issues for the Geniza project; the completed development work was all related to prototypes from the first phase (IIIF images with transcription, experimenting with eScriptorium, and two stories for a multilingual prototype). We also closed two design issues related to the sitemap &amp;amp; site flow diagram and the holistic search. We started implementing the new Geniza database and admin site, but have not yet delivered any issues for testing.&lt;/p>
+&lt;p>We&amp;rsquo;re continuing to make progress on the CDH web development, but testing was blocked since we lost our previous acceptance tester. Seven issues (18 story points) are in &amp;ldquo;development complete&amp;rdquo; status, and a new tester has been identified and will be trained this iteration, so hope to see significant progress there.&lt;/p>
+&lt;p>The rolling development velocity of &lt;strong>8.7&lt;/strong> is plausible, but it&amp;rsquo;s hard to say how accurate that will be as we move from prototyping into database development and data import scripts.&lt;/p></description></item><item><title>Blog: Jan 11 - 22, 2021</title><link>/blog/2021/02/01/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>/blog/2021/02/01/</guid><description>
+&lt;img src="/blog/2021/02/01/featured-geniza-sitemap_hu460cea3d9fdce17d8ee1dbdbd941b1b8_1071960_640x0_resize_catmullrom_3.png" width="640" height="207"/>
+&lt;p>Last iteration we made substantial progress on the cdhweb &amp;ldquo;exodus&amp;rdquo; from mezzanine to wagtail: features related to editing and &amp;ldquo;exodizing&amp;rdquo; content pages and uploaded images have been tested and accepted, and more work is underway.&lt;/p>
+&lt;p>Active development was paused on Geniza, but design work continued on a revised sitemap / site flow diagram for the new PGP site and reports to share information from usability testing.&lt;/p>
+&lt;p>Development work on Shakespeare and Company Project was to support updated data exports; version 1.1 of the datasets were published January 29th. The parasolr hotfix was due to a problem identified in prepping the Shakespeare and Company Project release.&lt;/p>
+&lt;p>We also deployed version 3.5 of PPA to production at the beginning of this iteration (the release updates and prep were completed before the holidays), which enabled the team to finally add new content from HathiTrust. (Read a &lt;a href="https://twitter.com/ProsodyArchive/status/1349391218296434692">twitter thread of new works added&lt;/a>).&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2021/02/01/featured-geniza-sitemap.png"
+alt="Sitemap/site flow diagram for new Princeton Geniza Project site (view on Figma)"/> &lt;figcaption>
+&lt;p>Sitemap/site flow diagram for new Princeton Geniza Project site (&lt;a href="https://www.figma.com/file/HpGBOZi9lO8B3nCAx3d4Fj/Princeton-Geniza?node-id=415%3A2">view on Figma&lt;/a>)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Version 1.1 of &lt;a href="https://dataspace.princeton.edu/handle/88435/dsp01fx719q532">Shakespeare and Company Project Datasets&lt;/a>, including updated readmes and change logs.&lt;/p></description></item><item><title>Blog: Dec 14, 2020 - Jan 8, 2021</title><link>/blog/2021/01/11/</link><pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate><guid>/blog/2021/01/11/</guid><description>
+&lt;p>Due to the holidays and planned vacations, we decided to take a long iteration spanning from December 14th to the end of the first week in January.&lt;/p>
+&lt;p>We spent the majority of the time on maintenance and addressing some technical debt. The CDH website was successfully moved from Research Computing and a MySQL database to its new home on a PUL VM and running on the PUL Postgresql database server. We&amp;rsquo;re also making progress on CDH web 3.0, which involves the transition (which we&amp;rsquo;ve decided to call &amp;ldquo;exodus&amp;rdquo; to avoid confusion with &amp;ldquo;migration&amp;rdquo;) from Mezzanine to Wagtail.&lt;/p>
+&lt;p>This iteration we also finally successfully addressed the problem in PPA for adding new HathiTrust content. The release was tagged December 22nd, along with a supporting release of parasolr, but rather than deploy an update right before the holidays, it was held. That release will go into production early this iteration.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>The &lt;a href="https://cdh.princeton.edu">CDH website&lt;/a> v2.8.1 update was largely an infrastructural one, so there is little that is visible to display and we expect and want it to look it exactly as before.
+&lt;ul>
+&lt;li>One visible change: emoji are now supported! See &lt;a href="https://cdh.princeton.edu/updates/2020/11/18/dating-problems-ask-princeton-geniza-project-team/">Marina&amp;rsquo;s post on dates and dating&lt;/a> to see the emojis she originally included, which were not supported on the previous version of the site.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

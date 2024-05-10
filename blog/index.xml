@@ -1,4 +1,31 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 15 - Apr 26, 2024</title><link>/blog/2024/04/29/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/29/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – Dev/Design Posts</title><link>/blog/</link><description>Recent content in Dev/Design Posts on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Apr 29 - May 8, 2024</title><link>/blog/2024/05/09/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><guid>/blog/2024/05/09/</guid><description>
+&lt;p>This marked the second iteration of the new RSE team cycle, with a 8 day development sprint, followed by 2 days of R&amp;amp;D. The RSE team was focused on the PPA, as well as wrapping up some maintenance issues that carried over from last sprint.&lt;/p>
+&lt;h3 id="releases">Releases&lt;/h3>
+&lt;p>The team wrapped up two major releases this week. We started the iteration with the release of the Wagtail upgrade for CDH web ahead of the technical phase of the website redesign. And we closed the iteration with the release of version 1.6 and 1.6.1 of Shakespeare and Company, which closed out a cluster of issues around improving data imports and exports.&lt;/p>
+&lt;p>The Springload redesign is moving forward with the implementation of the website redesign: &lt;a href="https://github.com/springload/cdh-web/">https://github.com/springload/cdh-web/&lt;/a>&lt;/p>
+&lt;h4 id="ppa">PPA&lt;/h4>
+&lt;p>For the main PPA application, the focus this iteration was on the integration with EEBO and addressing the shift in Gale&amp;rsquo;s approach to serving images. Both are underway and moving forward smoothly.&lt;/p>
+&lt;p>For the NLP project, worked continued on assessing and preparing the corpus for analysis, as well as initial planning for the creating of annotations. Laure completed the evaluation of the existing OCR, with a recommendation to re-OCR the text from Gale. The resulting data on detected languages also proved useful as a way to filter pages and to identify where the OCR error rate is likely high.&lt;/p>
+&lt;h3 id="aerial-archival-photography">Aerial Archival Photography&lt;/h3>
+&lt;p>We continue to make progress with assessing the work completed by Microsoft. We have a copy of the package developed for Prof. Kreike&amp;rsquo;s data. Next iteration we will have a call with the Microsoft to clarify any questions / procedures and attempt to run the package on Princeton hardware.&lt;/p>
+&lt;h3 id="maintenace-projects">Maintenace Projects&lt;/h3>
+&lt;p>We continue to support and consult on the Geniza project, particularly around issues of search and solr.&lt;/p>
+&lt;p>The bug with Ansible Tower was addressed by PUL, which clears the way to set up the deploy of our major web applications (CDH Web, Geniza, S&amp;amp;Co) through this interface. This will improve our workflow for collaborating with external partners and contractors.&lt;/p>
+&lt;p>The issues with timeouts continues, and PUL has added datadog to the production applications so that we can get better visibility on what is happening.&lt;/p>
+&lt;p>And in preparation for next week, the VMs for the Derrida Archive are ready to go.&lt;/p>
+&lt;p>On the process front, we are working with GitHub Projects for managing each iteration and learning to use the built in charts, as well as how to export data from Projects. Jeri found a script for exporting a project board to a CSV, which we can use to capture our historical data (&lt;a href="https://github.com/fiedl/github-project-to-csv)">https://github.com/fiedl/github-project-to-csv)&lt;/a>.&lt;/p>
+&lt;h3 id="writing">Writing&lt;/h3>
+&lt;p>The long-awaited article-proofs arrived for the Shakespeare and Company cluster, which Rebecca was able to review, as well as finalize the corresponding replication code. In addition, she submitted the &amp;ldquo;Trust Your Code&amp;rdquo; article for publication; and submitted to the DH Mini Conference on Simulating Risk.&lt;/p>
+&lt;h3 id="upcoming-priorities">Upcoming Priorities&lt;/h3>
+&lt;p>Looking ahead, we will be focused next on completing the archive of Derrida&amp;rsquo;s Margins (ahead of the server being shut down), interfacing with Microsoft regarding their object detection pipeline, completing the itegration with EEBO data on PPA, and determining the work plan for identifying poems in the PPA data. We are also ramping up our preparations for the London RSE site visits and the DARIAH conference.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>Interactive figures for the Shakespeare and Company article: &lt;a href="https://viz.shakespeareandco.princeton.edu/">https://viz.shakespeareandco.princeton.edu/&lt;/a>&lt;/p>
+&lt;figure>
+&lt;img src="/blog/2024/05/09/2024-05-10-Iteration2Points.png"
+alt="Total Story Points at the end of Iteration 2: 34 points queued; 22 points completed"/> &lt;figcaption>
+&lt;p>Total Story Points at the end of Iteration 2: 34 points queued; 22 points completed&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Apr 15 - Apr 26, 2024</title><link>/blog/2024/04/29/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><guid>/blog/2024/04/29/</guid><description>
 &lt;p>add summary paragraphs(s) about the iteration&lt;/p>
 &lt;h2 id="demos">Demos&lt;/h2>
 &lt;ul>
@@ -662,28 +689,4 @@ which were designed in a previous iteration (before we decided to postpone that 
 and were reviewed and closed at the beginning of this iteration.&lt;/p>
 &lt;p>We did not release a new version of the PGP site this iteration, but expect to release an update in the first half of this iteration and go live with the transcription migration and editor.&lt;/p>
 &lt;h2 id="lenape-timetree">Lenape timetree&lt;/h2>
-&lt;p>We completed a task to improve the summary display of imported &amp;ldquo;leaf&amp;rdquo; data; the design work for sitemap and site flow was not yet being tracked in GitHub. Other improvements to the prototype site and design are ongoing.&lt;/p></description></item><item><title>Blog: 2022 Q4 Schedule</title><link>/blog/2022/09/2022-q4-schedule/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/2022-q4-schedule/</guid><description/></item><item><title>Blog: Sep 5 - Sep 16, 2022</title><link>/blog/2022/09/19/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/19/</guid><description>
-&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images_hubdae640f3fa12ed42074144434d29035_449003_640x0_resize_catmullrom_3.png" width="640" height="352"/>
-&lt;p>Our primary focus continues to be Princeton Geniza Project, but we&amp;rsquo;re also
-starting to track work on the Lenape Timetree project, and had a few releases
-for other projects for maintenance and other updates. We closed &lt;strong>14&lt;/strong> development points and development velocity held nearly steady at &lt;strong>15&lt;/strong> points. We also closed a whopping &lt;strong>11&lt;/strong> design points across 8 issues.&lt;/p>
-&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
-&lt;p>We completed work on a feature to allow admins to reorder images for a document, which was released in version 4.8; this caused a bug in editing documents without images, which necessitated a quick bugfix and releasing 4.8.1. We continued to make progress on the transcription migration &amp;amp; editor functionality. On the design side, we closed a number of issues related to the Hebrew version of the site.&lt;/p>
-&lt;h2 id="lenape-princeton-timetree">Lenape Princeton Timetree&lt;/h2>
-&lt;p>We just started tracking work on this project in GitHub, which at this point consists of preliminary versions of a static site to work and a script to parse existing data,
-as a way of prototyping and proposing a data model and site structure.&lt;/p>
-&lt;h2 id="other-releases">Other releases&lt;/h2>
-&lt;p>We released a bugfix for the CDH website that was needed to help with freshening the site for thef all semester. We also released PPA version 3.8, with extended Gale/ECCO functionality.&lt;/p>
-&lt;h2 id="demos">Demos&lt;/h2>
-&lt;figure>
-&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images.png"
-alt="Screenshot showing the Geniza project image re-ordering feature in action"/> &lt;figcaption>
-&lt;p>Screenshot showing the Geniza project image re-ordering feature in action&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="/blog/2022/09/19/shxco_footer.png"
-alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/> &lt;figcaption>
-&lt;p>Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;rsquo;s ISSN&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+&lt;p>We completed a task to improve the summary display of imported &amp;ldquo;leaf&amp;rdquo; data; the design work for sitemap and site flow was not yet being tracked in GitHub. Other improvements to the prototype site and design are ongoing.&lt;/p></description></item><item><title>Blog: 2022 Q4 Schedule</title><link>/blog/2022/09/2022-q4-schedule/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/2022-q4-schedule/</guid><description/></item></channel></rss>

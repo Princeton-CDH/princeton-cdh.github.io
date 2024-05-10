@@ -1,0 +1,418 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research Software @ CDH – 2022</title><link>/blog/iteration-reports/2022/</link><description>Recent content in 2022 on Research Software @ CDH</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/blog/iteration-reports/2022/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Nov 28 - Dec 9, 2022</title><link>/blog/2022/12/12/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>/blog/2022/12/12/</guid><description>
+&lt;img src="/blog/2022/12/12/featured_lenape-timetree-leaves-graph_hu051c0535ab9f2a0b46e61fd7cb1923c1_203745_640x0_resize_catmullrom_3.png" width="640" height="333"/>
+&lt;p>It&amp;rsquo;s a busy time of year and we had a lot of other work going on in the past two that impacted what we were able to complete in terms of development and design work. For development, we closed 3 points and 13 issues for a rolling velocity of &lt;strong>5.3&lt;/strong> points. Design work is in progress, but none of it was completed since we&amp;rsquo;re still ramping back up on work that was paused.&lt;/p>
+&lt;h2 id="lenape-timetree">Lenape timetree&lt;/h2>
+&lt;p>We&amp;rsquo;re finally starting to make more progress, including deciding who will review and sign off on development and design work for the project. We completed one story for the algorithmic layout of the leaves in the timetree, and completed some chores that will help set us up to work more efficiently moving forward (visual review with Percy, automated Lighthouse checks for accessibility, SEO, and page efficiency).&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>Following up on our recent migration, we closed a number of chores and bugs (some of which were resolved by the migration). We didn&amp;rsquo;t complete the major next feature because other commitmennts didn&amp;rsquo;t give us enough time to follow up on tackling something so complex.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We completed a couple of bug fixes, two of which were introduced in the last release. Hopefully we can release a micro update with those bug fixes and get them out to production soon.&lt;/p>
+&lt;p>&lt;em>Note:&lt;/em> starting this iteration, we&amp;rsquo;re adding a new ignored tag, &lt;code>performant&lt;/code>. Issues with this label will be included in the list of closed issues but ignored when summarizing work completed and calculating velocity, since that work is being completed by a contractor and not done by this team.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/12/12/featured_lenape-timetree-leaves-graph.png"
+alt="Screenshot of the draft Lenape timetree site showing the leaves algorithmically laid out using a network and d3.js forces"/> &lt;figcaption>
+&lt;p>Screenshot of the draft Lenape timetree site showing the leaves algorithmically laid out using a network and d3.js forces&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Nov 14 - Nov 25, 2022</title><link>/blog/2022/11/28/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/28/</guid><description>
+&lt;img src="/blog/2022/11/28/featured_pgp-metadata-flatviewer_hu8e1fe046dc5df851ef3634891c442444_190567_640x0_resize_catmullrom_3.png" width="640" height="370"/>
+&lt;p>We completed a couple of major things before the Thanksgiving holiday — completed the PPA migration to PUL infrastructure, and completed the dataset export work for PGP. We
+completed &lt;strong>12&lt;/strong> development points for a rolling velocity of &lt;strong>5.33&lt;/strong> - the low velocity is due to the number of chores required to complete the PPA migration. We also finally completed the charter for the Lenape Timetree project, and will be circulating it to project stakeholders soon.&lt;/p>
+&lt;h2 id="princeton-prosody-archive">Princeton Prosody Archive&lt;/h2>
+&lt;p>We completed the last few steps for the migration, released version &lt;strong>3.8.1&lt;/strong> and switched the production site over so it is running on PUL infrastructure. We&amp;rsquo;ve already completed some initial upgrades (python version) that are easier to manage now, and are circling back to in-progress that wasn&amp;rsquo;t completed when PPA was in active development in August.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We released version &lt;strong>4.11&lt;/strong> with a few search improvements needed to decommission PGPv3 and completed work on dataset exports which will be the basis for published datasets from the project data. We also setup Zenodo sync for the codebase, registering a DOI and adding a citation file to make the code more citable.&lt;/p>
+&lt;p>We also have a large number of old issues that were closed thanks to some work from PGP project managers going through and reviewing — some of them have already been addressed, others are duplicates, and others are no longer priorities.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/featured_pgp-metadata-flatviewer.png"
+alt="Princeton Geniza Project documents data export displayed in Flat GitHub&amp;amp;rsquo;s Flat viewer."/> &lt;figcaption>
+&lt;p>Princeton Geniza Project &lt;a href="https://flatgithub.com/princetongenizalab/pgp-metadata?filename=data%2Fdocuments.csv&amp;amp;sha=549836002cd41abf84e61829439b7b4bf3505af0">documents data export displayed in Flat GitHub&amp;rsquo;s Flat viewer&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/pgp-metadata-commits.png"
+alt="Princeton Geniza Project metadata repository showing commit history with co-author information."/> &lt;figcaption>
+&lt;p>Princeton Geniza Project metadata repository showing &lt;a href="https://github.com/princetongenizalab/pgp-metadata/commits/main">commit history with co-author information&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/11/28/pgp-description-bigram-search.png"
+alt="Princeton Geniza Project search showing partial word searching on document descriptions."/> &lt;figcaption>
+&lt;p>Princeton Geniza Project search showing &lt;a href="https://geniza.princeton.edu/en/documents/?q=al-fad">partial word searching on document descriptions&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 31 - Nov 11, 2022</title><link>/blog/2022/11/14/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022/11/14/</guid><description>
+&lt;p>The points completed in the last iteration are low due to staffing
+and the fact that our work has been focused on migrations and bug fixes.
+Our rolling velocity is &lt;strong>7.3&lt;/strong>, but that may be artificially inflated
+by the high point total three iterations ago when we were closing out
+the official charter period for the Geniza project.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We&amp;rsquo;ve made substantial progress on the PPA migration, as evidenced by the
+number of closed issues. We&amp;rsquo;ve figured out and resolved several problems,
+so now it&amp;rsquo;s just a matter of getting everything setup on the new production
+server. We&amp;rsquo;re hopeful that we&amp;rsquo;ll be able to complete the migration this iteration.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released a hotfix (version 4.10.1) because we discovered a high priority
+bug that needed to be corrected quickly. The script that runs as a cron job to
+export annotations and transcription content to GitHub for a versioned backup
+was broken by a scenario we didn&amp;rsquo;t consider or encounter in testing: deleting
+an annotation and then deleting (in this case via merge) the document it belonged to.
+We were able to resolve this, along with a fix for a sorting regression in v4.10.
+We&amp;rsquo;re continuing to make progress on the data export work for dataset publication,
+and supporting the project under the CDH warranty.&lt;/p></description></item><item><title>Blog: Oct 17 - Oct 28, 2022</title><link>/blog/2022/10/31/</link><pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/31/</guid><description>
+&lt;img src="/blog/2022/10/31/featured-pgp-partialsearch_hu84a8998a02e048c7e2b3a06f1f41117d_271955_640x0_resize_catmullrom_3.png" width="640" height="508"/>
+&lt;p>This iteration marked the end of the charter for year 2 of the
+CDH Research Partnership on Princeton Geniza Project (PGP). We released version
+4.10 of PGP, with some bugfixes and small search and data improvements.&lt;/p>
+&lt;p>We&amp;rsquo;re ramping up on other projects (PPA migration and the Lenape timetree),
+but didn&amp;rsquo;t close any issues on those projects in the past iteration.&lt;/p>
+&lt;p>Our rolling development velocity is &lt;strong>15&lt;/strong> but only &lt;strong>3&lt;/strong> development points
+for this iteration; we expect velocity to go down now that we&amp;rsquo;re not working on
+the Geniza project.&lt;/p>
+&lt;figure>
+&lt;img src="/blog/2022/10/31/featured-pgp-partialsearch.png"
+alt="Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##"/> &lt;figcaption>
+&lt;p>Screenshot of Princeton Geniza Project search results showing partial matches and Arabic font##&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Oct 4 - Oct 15, 2022</title><link>/blog/2022/10/18/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/18/</guid><description>
+&lt;img src="/blog/2022/10/18/featured_pgp_transcription_editor_hu7d3222f71ef9700af0749bd8c35fcd23_1056625_640x0_resize_catmullrom_3.png" width="640" height="346"/>
+&lt;p>Another high point iteration, as we made the final push to finish work
+for the CDH/Geniza Research Partnership. For development, we closed &lt;strong>18 points&lt;/strong> across 31 issues, resulting in a rolling velocity of &lt;strong>18.67&lt;/strong> (&lt;em>exactly&lt;/em> the same as last iteration).
+Design also had a big push, closing &lt;strong>14 points&lt;/strong> across 9 issues.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released v4.9 of Princeton Geniza Project mid-iteration. This was a major update
+which included the long-awaited transcription migration from TEI to the new W3C
+annotation format, and rolled out the new transcription editor tool, annotorious-tahqiq. This includes full functionality needed to add, edit, and delete transcriptions
+with support for right-to-left text, as well as a new automated backup that
+synchronizes transcription content to a GitHub repository, with co-author commits
+to track contributions. As part of this release, we also loaded a number
+of new images from Bodleian and JRL collections. After the release went out,
+we started tackling bugs with the editor not found in testing and finishing
+the remaining committed functionality for the CDH/PGP charter, prioritizing
+search improvements for sunsetting PGPv3 and CSV exports for data publication,
+with a smaller amount of effort going to localization functionality.&lt;/p>
+&lt;h2 id="lenape-timetree">Lenape Timetree&lt;/h2>
+&lt;p>We made significant progress on sitemap and wireframe designs for this project,
+making a big push to get things ready for development while design is paused
+for a month.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/princetongenizalab/pgp-text">PGP transcription export&lt;/a> — browse the transcription content synchronized from the application, in annotation format and compiled into html and text&lt;/li>
+&lt;/ul>
+&lt;figure>
+&lt;img src="/blog/2022/10/18/featured_pgp_transcription_editor.png"
+alt="Screenshot of transcription editor on the Princeton Geniza Project site"/> &lt;figcaption>
+&lt;p>Screenshot of transcription editor on the Princeton Geniza Project site&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="https://user-images.githubusercontent.com/7234006/194160646-e55abbcb-ef27-4482-b204-c19536d28091.gif"
+alt="Screen capture showing transcription with tahqiq"/> &lt;figcaption>
+&lt;p>Screen capture showing transcription with tahqiq&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Sep 19 - Sep 30, 2022</title><link>/blog/2022/10/03/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>/blog/2022/10/03/</guid><description>
+&lt;p>We had a massive iteration, as we make a push to complete the major remaining
+deliverables on the Princeton Geniza Project before the partnership grant ends.
+We also made some small progress on the Lenape timetree project. We completed
+&lt;strong>48&lt;/strong> total points and closed &lt;strong>35&lt;/strong> issues for the Geniza project.
+Looking just at development work, we &lt;strong>24&lt;/strong> development points across
+the same number of issues, and our rolling development velocity is
+at &lt;strong>18.7&lt;/strong>. For design, we closed an astounding &lt;strong>25&lt;/strong> points, all on Geniza.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>On the development side, we&amp;rsquo;re making the last push to complete the steps needed to migrate the transcription content and launch the new transcription editor. This included a number of improvements to the editor, as well as the majority of the implementation of the functionality for backing up and versioning transcription content on GitHub. We fixed a bug in the Arabic to Judaeo-Arabic search syntax that was breaking exact phrase searching in Arabic. We also addressed several small accessibility problems that were flagged by the University&amp;rsquo;s new scanning tool, DubBot. For design, work completed
+includes Arabic fonts and typography. Design work closed this iteration also includes a number of issues
+related to site flow and preliminary designs for the cluster search,
+which were designed in a previous iteration (before we decided to postpone that work),
+and were reviewed and closed at the beginning of this iteration.&lt;/p>
+&lt;p>We did not release a new version of the PGP site this iteration, but expect to release an update in the first half of this iteration and go live with the transcription migration and editor.&lt;/p>
+&lt;h2 id="lenape-timetree">Lenape timetree&lt;/h2>
+&lt;p>We completed a task to improve the summary display of imported &amp;ldquo;leaf&amp;rdquo; data; the design work for sitemap and site flow was not yet being tracked in GitHub. Other improvements to the prototype site and design are ongoing.&lt;/p></description></item><item><title>Blog: Sep 5 - Sep 16, 2022</title><link>/blog/2022/09/19/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/19/</guid><description>
+&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images_hubdae640f3fa12ed42074144434d29035_449003_640x0_resize_catmullrom_3.png" width="640" height="352"/>
+&lt;p>Our primary focus continues to be Princeton Geniza Project, but we&amp;rsquo;re also
+starting to track work on the Lenape Timetree project, and had a few releases
+for other projects for maintenance and other updates. We closed &lt;strong>14&lt;/strong> development points and development velocity held nearly steady at &lt;strong>15&lt;/strong> points. We also closed a whopping &lt;strong>11&lt;/strong> design points across 8 issues.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>We completed work on a feature to allow admins to reorder images for a document, which was released in version 4.8; this caused a bug in editing documents without images, which necessitated a quick bugfix and releasing 4.8.1. We continued to make progress on the transcription migration &amp;amp; editor functionality. On the design side, we closed a number of issues related to the Hebrew version of the site.&lt;/p>
+&lt;h2 id="lenape-princeton-timetree">Lenape Princeton Timetree&lt;/h2>
+&lt;p>We just started tracking work on this project in GitHub, which at this point consists of preliminary versions of a static site to work and a script to parse existing data,
+as a way of prototyping and proposing a data model and site structure.&lt;/p>
+&lt;h2 id="other-releases">Other releases&lt;/h2>
+&lt;p>We released a bugfix for the CDH website that was needed to help with freshening the site for thef all semester. We also released PPA version 3.8, with extended Gale/ECCO functionality.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/09/19/featured-geniza-reorder-images.png"
+alt="Screenshot showing the Geniza project image re-ordering feature in action"/> &lt;figcaption>
+&lt;p>Screenshot showing the Geniza project image re-ordering feature in action&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/09/19/shxco_footer.png"
+alt="Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;amp;rsquo;s ISSN"/> &lt;figcaption>
+&lt;p>Screenshot of revised Shakespeare and Company Project showing the revised footer, which allows for more pages and includes the Project&amp;rsquo;s ISSN&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Aug 23 - Sep 3, 2022</title><link>/blog/2022/09/06/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>/blog/2022/09/06/</guid><description>
+&lt;img src="/blog/2022/09/06/featured-cdh-affiliates_hu8eabf4e248fc08229aaaa06d513fc504_1088016_640x0_resize_catmullrom_3.png" width="640" height="651"/>
+&lt;p>We had another very productive iteration; we had &lt;strong>18&lt;/strong> points total accepted on the Princeton Geniza Project, and we completed &lt;strong>18&lt;/strong> development points. This results in a rolling development velocity of &lt;strong>15.7&lt;/strong> points, continuing our upward trend. We closed a total of 23 development issues, which includes a high number of chores and bugs; some of these were on other projects.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>The high number of points this iteration is largely due to significant progress on the transcription migration and new transcription editor functionality. We did also address some small bugs and other minor fixes; we did not release these changes to production during the iteration because we decided to prioritize other things, including making progress on the transcription editor.&lt;/p>
+&lt;h2 id="cdh-website">CDH website&lt;/h2>
+&lt;p>We needed to update the CDH website so that Humanities + Data Science Institute instructors and participants could be included on our affiliates pages. We also corrected a few small bugs and accessibility problems in the process.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>No development activity, but the remaining issues completed in the previous iteration were accepted. The completed work should be released and deployed early this iteration.&lt;/p>
+&lt;h2 id="sco">S&amp;amp;co&lt;/h2>
+&lt;p>We squeezed in two very minor updates to the Shakespeare and Company site; we hope these also will be released and deployed early this iteration.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/09/06/featured-cdh-affiliates.png"
+alt="Affiliates page on the CDH website, which now includes Humanities &amp;#43; Data Science Institute instructors and participants"/> &lt;figcaption>
+&lt;p>&lt;a href="https://cdh.princeton.edu/people/affiliates/">Affiliates page on the CDH website&lt;/a>, which now includes Humanities + Data Science Institute instructors and participants&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Aug 8 - Aug 19, 2022</title><link>/blog/2022/08/22/</link><pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/22/</guid><description>
+&lt;img src="/blog/2022/08/22/featured-geniza-nondocument-image_hu0bea99bbc63d5b21f7df3f8c8e1be338_356321_640x0_resize_catmullrom_3.png" width="640" height="560"/>
+&lt;p>We had a productive iteration, making good progress on both Princeton Geniza Project and Princeton Prosody Archive (PPA). We closed &lt;strong>13&lt;/strong> development points (18 issues); with three strong iterations in a row, we&amp;rsquo;re up to a rolling development velocity of &lt;strong>12&lt;/strong> points. We didn&amp;rsquo;t close design issues, but that&amp;rsquo;s because we have larger design tasks in progress.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released version 4.7, which includes some content editor improvements for tagging; improved display for non-document images in the image+transcription panel viewer for documents; the newly designed light/dark mode toggle was also implemented.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We completed the remaining work on Gale/ECCO import and support that was leftover from last year&amp;rsquo;s enhancements, in particular: admin import for small batches,
+excerpt support for Gale/ECCO works, and data improvements that were delayed pending API changes on Gale&amp;rsquo;s end. We started on functionality to group works into clusters to gather reprints and editions. We also did some other minor updates to improve performance, accessibility, and make the site more consistent.&lt;/p>
+&lt;h2 id="other">Other&lt;/h2>
+&lt;ul>
+&lt;li>updated the Startwords site with fixes for a couple of small display issues&lt;/li>
+&lt;li>created a new organization-wide GitHub template for our team software release checklist (previously tracked as a template task in Asana)&lt;/li>
+&lt;/ul>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/08/22/featured-geniza-nondocument-image.png"
+alt="Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document"/> &lt;figcaption>
+&lt;p>Screenshot from Princeton Geniza Project showing new display for images that are part of a shelfmark or fragment but not part of the current document&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/08/22/geniza-lightdark-toggle.gif"
+alt="Screen capture of Princeton Geniza Project showing light/dark mode toggle in action"/> &lt;figcaption>
+&lt;p>Screen capture of Princeton Geniza Project showing light/dark mode toggle in action&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 25 - Aug 5, 2022</title><link>/blog/2022/08/15/</link><pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate><guid>/blog/2022/08/15/</guid><description>
+&lt;img src="/blog/2022/08/15/featured-sw3-home-es_hu69c047a2f4fcedf58044d2b58d1f46ce_322226_640x0_resize_catmullrom_3.png" width="640" height="424"/>
+&lt;p>Belated iteration report, due to vacations last week. We closed a lot of development work (16 points, 23 issues); this is likely due to the transcription editor functionality that was tested and accepted and the number of small chores in the final push to get Startwords issue 3 out the door.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We finally published &lt;a href="https://startwords.cdh.princeton.edu/issues/3/">Startwords issue 3&lt;/a>! GitHub issues completed in this iteration were chores related to getting the release out and quick bug fixes to address problems we discovered after the issue was published.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Version 4.6 went into production, with the new image + transcription viewer. We also tested closed a number of features related to the transcription editor.&lt;/p>
+&lt;h2 id="ppa">PPA&lt;/h2>
+&lt;p>We started ramping back up on PPA development work this iteration, beginning with some python package updates and a few small chores.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/08/15/featured-sw3-home-es.png"
+alt="Screenshot of Startwords home page in Spanish with Issue 3 published"/> &lt;figcaption>
+&lt;p>Screenshot of Startwords home page in Spanish with Issue 3 published&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jul 4 - Jul 22, 2022</title><link>/blog/2022/07/25/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/25/</guid><description>
+&lt;img src="/blog/2022/07/25/featured_geniza_itt_huc4dd34ec8528b5941c858b1d744782a9_3118254_640x0_resize_catmullrom_3.png" width="640" height="313"/>
+&lt;p>This iteration we completed implementation of the MVP for the new image + transcription viewing panel on the document details page on the Princeton Geniza Project site. Specific features completed include image zoom controls (zoom is no longer enabled by default, which resolves some accessibility problems and avoids making the zoom a scroll trap) and switching between editions when a document has more than one transcription. We also completed work on a revised tag style, a change which was needed to properly handle accessibility checks and making sure that tags are always big enough tap targets. Although we completed the MVP functionality for the new viewer, we were delayed with releasing it to the production site due to a change in the interim transcription format and problems synchronizing transcriptions for documents with more than one edition, which requires data work to resolve.&lt;/p>
+&lt;p>We completed 7 points of development work (10 issues) for a rolling velocity of 9.3; design work was impacted by staff unavailability.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/07/25/featured_geniza_itt.png"
+alt="Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls."/> &lt;figcaption>
+&lt;p>Screenshot of the new image and transcription panel interface from the Princeton Geniza Project, showing image zoom controls.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/07/25/geniza_new_tag.png"
+alt="Screenshot of Princeton Geniza Project search results with revised tag styles."/> &lt;figcaption>
+&lt;p>Screenshot of Princeton Geniza Project search results with revised tag styles.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Jun 7 - Jun 18, 2022</title><link>/blog/2022/06/21/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/21/</guid><description>
+&lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter_hu37daa875e16c4aed843a1ec6b98ccb96_93893_640x0_resize_catmullrom_3.png" width="640" height="751"/>
+&lt;p>This iteration our primary focus was on Princeton Geniza Project, but we did close a few more issues related to the upcoming Startwords issue 3. Our development velocity is on an upward trend — we closed &lt;strong>21&lt;/strong> development points (16 issues), which gives us a rolling velocity of &lt;strong>13.7&lt;/strong>.&lt;/p>
+&lt;h2 id="princeton-geniza-project">Princeton Geniza Project&lt;/h2>
+&lt;p>This iteration we released version 4.5, which adds several features related to document date functionality: calendar conversion in admin for simple cases with Anno Mundi and Hijri calendars, improved date display on document details, and sorting and filtering search results by date. We also rolled out the new &amp;ldquo;related documents&amp;rdquo; page, improved image credits display for JTS content, and fixed a bug with handling Heidelberg IIIF. This update required a supporting release of &lt;code>djiffy&lt;/code>, to add support for displaying Creative Commons licenses in addition to rightstatements.org licenses. Several features for the new image+transcription panel viewer were tested but not released; they won&amp;rsquo;t go out until we have a full replacement for the current display, hopefully in the next release.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We finished work on the new authors list page, adjusted the footer to add a link to the authors page, and completed a few other small style-related changes.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/06/21/featured_geniza_datesortfilter.png"
+alt="Screenshot of Princeton Geniza Project search page with document date filter and sort options."/> &lt;figcaption>
+&lt;p>Screenshot of Princeton Geniza Project search page with document date filter and sort options.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/06/21/startwords-authors.png"
+alt="Screenshot of Startwords author list page."/> &lt;figcaption>
+&lt;p>Screenshot of Startwords author list page.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 23 - Jun 3, 2022</title><link>/blog/2022/06/06/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/06/</guid><description>
+&lt;img src="/blog/2022/06/06/featured_startwords-textshadows_hueb450c0ae95931c0a7535cfca2ce0352_362871_640x0_resize_catmullrom_3.png" width="640" height="544"/>
+&lt;p>We adjusted the schedule to make the past iteration a three-week iteration due to the Memorial holiday resulting in a very short week. Due to holidays, team member availability, and the chunks of work that are in progress, we didn&amp;rsquo;t publish any releases, but we did complete a lot of work. Our development velocity is up to &lt;strong>9.3&lt;/strong> points (14 points, 21 issues). We have the same exact velocity for design work (&lt;strong>9.3&lt;/strong>), with 12 points and 7 issues closed.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Major design work closed related to the new image and transcription panel, for which implementation are underway. We also completed designs for the related documents page. We also finished work on a number of features related to date filtering and historical calendar conversion, which we hope to make available in production soon.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We completed much of the remaining work needed for issue 3, including: revised shadow text styles for the site homepage and single issue pages (pictured below), generalized the interlude styles invented for SW issue 1 so it can be used in any article in future; improved DOI display for translated articles; and fixed a couple of bugs.&lt;/p>
+&lt;h2 id="cdh-ansible">cdh-ansible&lt;/h2>
+&lt;p>A small improvement in our project deploy scripts, suggested by PUL staff, resulted in a huge improvement in the time it takes to deploy projects, by configuring the deploy scripts to skip one-time setup tasks by default.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/06/06/featured_startwords-textshadows.png"
+alt="Screenshot of the development version of Startwords showing the newly redesigned and reimplemented text shadows and three-feature essay layout."/> &lt;figcaption>
+&lt;p>Screenshot of the development version of &lt;em>Startwords&lt;/em> showing the newly redesigned and reimplemented text shadows and three-feature essay layout.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: May 2 - May 13, 2022</title><link>/blog/2022/05/16/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/16/</guid><description>
+&lt;p>We released Geniza v4.4 early in this iteration to deliver work completed in the previous iteration, and then quickly discovered and fixed a bug with the menu button that made the site unnavigable on mobile. We did not get another release out during the iteration.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We made progress on a number of design and development issues and both rolling velocity and iteration development work are at &lt;strong>6 points&lt;/strong>. This doesn&amp;rsquo;t reflect the large amount of in-progress work on transcription functionality (delivered for first-round testing but still very much in progress) and several related features around date/calendar conversion.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>No development work this iteration, but design work for issue 3 is nearly complete and editorial and design work will be ready soon for final handoff for development on the remaining items needed for completing this issue.&lt;/p></description></item><item><title>Blog: Apr 18 - Apr 29, 2022</title><link>/blog/2022/05/02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>/blog/2022/05/02/</guid><description>
+&lt;img src="/blog/2022/05/02/featured-geniza-doc-details_hu6e508823ce402b666b0a6fbd9a76aa08_128232_640x0_resize_catmullrom_3.png" width="640" height="528"/>
+&lt;p>This iteration we made progress on Geniza and closed out several issues for Startwords. We weren&amp;rsquo;t able to get a release out with the Geniza updates due to team commitments and availability at the end of the iteration, but we hope to get a release out early this iteration with the completed work. Our development velocity is fairly steady at &lt;strong>5&lt;/strong> points, but we closed &lt;strong>8&lt;/strong> development points and &lt;strong>17&lt;/strong> issues. We&amp;rsquo;re also continuing to make good progress with design work on both projects.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Notable work includes improvements to the public search — a filter for documents with images, options to sort by input date and shelfmark, and our first foray into Judaeo-Arabic conversion, making it possible to search on Judaeo-Arabic transcription content when inputting Arabic search terms. We updated the admin document view so that it uses the same image and transcription viewer as the public site, and improved the display and functionality in the IIIF image rights in that section. We also made progress on RTL design implementations, resolved a long-standing font loading issue in Percy, and finally set up Sphinx code documentation. We&amp;rsquo;re continuing to make progress on design and development for the new transcription functionality, although we have not yet been able to deliver it for testing.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We finalized designs for the new author list and linking to the author page in the footer, and completed testing on issues for reading articles and issues in translation and toggling between languages. We delivered a draft version of Issue 3 to the contributors with their revisions, so we are getting closer to publishing this issue.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/featured-geniza-doc-details.png"
+alt="Screenshot of revised document details page"/> &lt;figcaption>
+&lt;p>Screenshot of revised document details page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/geniza-sort-options.png"
+alt="Screenshot of document search with new sorts and filters"/> &lt;figcaption>
+&lt;p>Screenshot of document search with new sorts and filters&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/05/02/geniza-image-rights.png"
+alt="Screenshot of revised image rights and permalink on document details page"/> &lt;figcaption>
+&lt;p>Screenshot of revised image rights and permalink on document details page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Apr 5 - Apr 16, 2022</title><link>/blog/2022/04/18/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/18/</guid><description>
+&lt;img src="/blog/2022/04/18/featured-startwords-multilingual_hu323df8a84995277b79811538ff69610f_256815_640x0_resize_catmullrom_3.png" width="640" height="382"/>
+&lt;p>This iteration we made progress on the remaining multilingual functionality and other features needed to publish &lt;em>Startwords&lt;/em> issue 3. We didn&amp;rsquo;t close a lot of points on the Geniza project because the major work going on at this point is prototyping and beginning to implement the new transcription functionality, and sketching out design ideas for the public display and interaction of images with transcription and translation content. Our rolling development velocity is &lt;strong>4.67&lt;/strong>, due to the low number of points completed in the last two iterations (3, 4). We expect this to pick up once we move out of the transcription prototyping phase and finish work on the Startwords issue.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/04/18/featured-startwords-multilingual.png"
+alt="Screenshot of Startwords development site with multilingual functionality: translated navigation and paratext, available language indicators"/> &lt;figcaption>
+&lt;p>Screenshot of Startwords development site with multilingual functionality: translated navigation and paratext, available language indicators&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Mar 21 - Apr 1, 2022</title><link>/blog/2022/04/04/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/04/</guid><description>
+&lt;img src="/blog/2022/04/04/featured-startwords-issue-langs_hu4c7ef2aa063be4f046914b1e883493b9_94528_640x0_resize_catmullrom_3.png" width="640" height="347"/>
+&lt;p>This iteration we worked on needed functionality for &lt;em>Startwords&lt;/em> Issue 3, and made more progress prototyping and testing functionality for a transcription solution for the Geniza project. Because much of the development work consisted of chores, exploratory or prototyping, our iteration velocity and rolling velocity are both fairly low. We did make significant progress with Design work, both for Geniza and Startwords.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/04/04/featured-startwords-issue-langs.png"
+alt="Screenshot of Startwords issue list, which now includes indicators for available languages."/> &lt;figcaption>
+&lt;p>Screenshot of &lt;em>Startwords&lt;/em> issue list, which now includes indicators for available languages.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>Published new &lt;em>Startwords&lt;/em> documentation pages: &lt;a href="https://startwords.cdh.princeton.edu/guides/editorial-guidelines/">Editorial Guidelines&lt;/a> and &lt;a href="https://startwords.cdh.princeton.edu/guides/style-guide/">Contributor Style Guide&lt;/a> (both linked from the About page)&lt;/li>
+&lt;li>&lt;a href="https://pgp-transcription-prototype.glitch.me/">Geniza transcription experiments and prototypes&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Mar 7 - Mar 18, 2022</title><link>/blog/2022/03/21/</link><pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/21/</guid><description>
+&lt;img src="/blog/2022/03/21/featured-document-detail_hu887688024267b446f1b1936aa274aecc_84252_640x0_resize_catmullrom_3.png" width="640" height="777"/>
+&lt;p>This iteration our focus again was solely on the Geniza project. We put out a bug-fix release early in the iteration to address several highly noticeable problems that were identified by various members of the team, and then a feature release with new functionality, most notably implementing Turbo and Stimulus to make the document search more responsive and load changes more quickly. We also made some small changes to the document details page, including displaying primary and secondary languages, linking to other documents on the same fragments, and moving secondary metadata lower on the page.&lt;/p>
+&lt;p>Our development rolling velocity is steady at &lt;strong>13 points&lt;/strong>, although this iteration we only closed &lt;strong>7&lt;/strong> story points. However, that&amp;rsquo;s in line with what we should expect, since it was effectively a half iteration in terms of developer staffing.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/03/21/featured-document-detail.png"
+alt="Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent."/> &lt;figcaption>
+&lt;p>Updates to document details page, including language, links to other documents on the same fragments, and secondary metadata made less prominent.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 21 - Mar 4, 2022</title><link>/blog/2022/03/07/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/07/</guid><description>
+&lt;img src="/blog/2022/03/07/featured-geniza-filters_hu56b64b3cea7385267f391b2335cd3a21_670917_640x0_resize_catmullrom_3.png" width="640" height="347"/>
+&lt;p>This iteration we were primarily focused on Geniza, but did devote some efforts towards Startwords. Our development velocity has stabilized a bit: 13 points, 20 issues, for a rolling velocity of 13.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>We released another update (version 4.2) with more new features and improvements to the public site. The most visible change is the filter panel on the &lt;a href="https://geniza.princeton.edu/en/documents/">document search&lt;/a>, which now includes three new filters related to scholarship records. We&amp;rsquo;re also making progress on designs and backend support for the RTL versions of the site.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>This iteration we made some small progress on design and infrastructure updates needed for Issue 3.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/featured-geniza-filters.png"
+alt="Geniza search filters expanded on desktop, with one selected."/> &lt;figcaption>
+&lt;p>Geniza search filters expanded on desktop, with one selected.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/geniza-active-filter-icon.png"
+alt="Geniza active filter icon, to indicate when search filters are applied."/> &lt;figcaption>
+&lt;p>Geniza active filter icon, to indicate when search filters are applied.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/03/07/geniza-favicon.png"
+alt="Geniza browser tab &amp;amp;amp; bookmark icon"/> &lt;figcaption>
+&lt;p>Geniza browser tab &amp;amp; bookmark icon&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Feb 7 - Feb 18, 2022</title><link>/blog/2022/02/21/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/21/</guid><description>
+&lt;img src="/blog/2022/02/21/featured-pgp-logotype_huee92df934de27e87a094628979144288_497057_640x0_resize_catmullrom_3.png" width="640" height="407"/>
+&lt;p>This iteration our focus was entirely on the Princeton Geniza Project as we worked to address issues identified in the 4.0 release that we wanted to address before switching the site to the official &lt;a href="https://geniza.princeton.edu">https://geniza.princeton.edu&lt;/a> url (which we did on Thursday!).&lt;/p>
+&lt;p>Notable work completed in this iteration includes:&lt;/p>
+&lt;ul>
+&lt;li>completion of design work on the new logo and logotype (shown below), which will be integrated into the site this week.&lt;/li>
+&lt;li>search results now include image thumbnails when available&lt;/li>
+&lt;li>an admin document merge function, so that duplicate documents and joins can be merged manually in the admin site instead of relying on spreadsheets and script to handle merging (we discovered the script method was error-prone since merging needs to be done carefully).&lt;/li>
+&lt;/ul>
+&lt;p>Our rolling velocity for development is &lt;strong>13&lt;/strong> points; this iteration we completed 19 points (16 issues).&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/02/21/featured-pgp-logotype.png"
+alt="Completed designs for new PGP logo and logotype"/> &lt;figcaption>
+&lt;p>Completed designs for new PGP logo and logotype&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/02/21/pgp-search-images.png"
+alt="Screenshot showing PGP search results with image thumbnails"/> &lt;figcaption>
+&lt;p>Screenshot showing PGP search results with image thumbnails&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Jan 24 - Feb 4, 2022</title><link>/blog/2022/02/07/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/07/</guid><description>
+&lt;img src="/blog/2022/02/07/featured-404-error_hu94ac8d84e3dc675b803d8c1cbeabc3e1_600221_640x0_resize_catmullrom_3.png" width="640" height="493"/>
+&lt;p>At long last, we tagged and released the 4.0 version of Princeton Geniza Project! This is meets our agreement for a &amp;ldquo;Minimum Viable Product&amp;rdquo; to replace the current PGP v3.0. The new site isn&amp;rsquo;t publicly available just yet, but we&amp;rsquo;re planning to turn off IP access restriction by Thursday of this week at the latest and hoping to switch it to the official URL within another week.&lt;/p>
+&lt;p>We closed &lt;strong>24&lt;/strong> development issues this iteration, but only completed &lt;strong>8&lt;/strong> story points — likely because much of our focus was on finishing implementing visual designs, fixing bugs, and finishing chores in preparation for this release. Our rolling development velocity is 20 points, due to the huge iteration in December and the fact that we&amp;rsquo;re no longer counting the zero-point iteration around Thanksgiving.&lt;/p>
+&lt;p>The mep-django releases were related to publication of the 1.2 version of the Shakespeare and Company Project datasets, which were published on Princeton&amp;rsquo;s DataSpace on January 31st.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/featured-404-error.png"
+alt="Geniza 404 Not Found error page"/> &lt;figcaption>
+&lt;p>Geniza 404 Not Found error page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/500-error.png"
+alt="Geniza 500 Server Error page"/> &lt;figcaption>
+&lt;p>Geniza 500 Server Error page&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="/blog/2022/02/07/credits.png"
+alt="Geniza credits page, showing content page styles"/> &lt;figcaption>
+&lt;p>Geniza credits page, showing content page styles&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog: Jan 17 - Jan 28, 2022</title><link>/blog/2022/01/31/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/31/</guid><description>
+&lt;img src="/blog/2022/01/31/featured-geniza-search_hu7216f1b6a544a4d2818a5a27908e21fd_224478_640x0_resize_catmullrom_3.png" width="640" height="440"/>
+&lt;p>Belated report on the first iteration of January 2022. This was effectively a long iteration, since it included work completed during the week of January 17th, which was a scheduled R&amp;amp;D week for CDH staff.&lt;/p>
+&lt;p>Our focus continues to be exclusively on Geniza, as we work closer and closer to completing the initial MVP that will be made public. We made tremendous progress on completing design work for site visuals, implementing the designs, finishing some of the final remaining functionality, and resolving a number of small bugs and chores that needed to be addressed.&lt;/p>
+&lt;p>We closed 21 development issues, for a total of 11 story points and a rolling velocity of 17.3.&lt;/p>
+&lt;h2 id="demos">Demos&lt;/h2>
+&lt;figure>
+&lt;img src="/blog/2022/01/31/featured-geniza-search.png"
+alt="Geniza search page, showing the implementation of new site visuals and colors"/> &lt;figcaption>
+&lt;p>Geniza search page, showing the implementation of new site visuals and colors&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Blog: Dec 6 - Dec 31, 2022</title><link>/blog/2022/01/04/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022/01/04/</guid><description>
+&lt;p>We extend this iteration to four weeks, which included the Christmas and New Year&amp;rsquo;s holidays
+when most of the team was out. During this iteration, we published &lt;a href="https://startwords.cdh.princeton.edu/issues/2/">the second issue of &lt;em>Startwords&lt;/em>&lt;/a> and made significant progress on the Geniza 4.0 release. We have an enormous total of &lt;strong>41&lt;/strong> development story points closed this iteration and a rolling velocity of &lt;strong>18&lt;/strong> — this is due in part to the lengthened iteration, but also due to the significant push to complete the Geniza MVP and closing out a number of large issues (three 8-point development issues and two 5s!). We also have a huge total of &lt;strong>37&lt;/strong> points (16 issues) for design work, completing the majority of the design work for the Geniza MVP. The unevenness of the design velocity likely reflects Gissoo&amp;rsquo;s observation that visual design does not fit well with an Agile development workflow, since so many things need to be designed and reviewed together.&lt;/p>
+&lt;h2 id="startwords">Startwords&lt;/h2>
+&lt;p>We completed the remaining work to publish &lt;a href="https://startwords.cdh.princeton.edu/issues/2/">Startwords Issue 2&lt;/a>; work in this iteration included miscellaneous cleanup items for final publication of the essays in issue 2, and some minor cleanup work after the publication. We also started on prep work for functionality needed for issue 3, but none of those issues were closed.&lt;/p>
+&lt;h2 id="geniza">Geniza&lt;/h2>
+&lt;p>Although we postponed the 4.0 public MVP release until January, we did make a significant amount of progress towards completing the work targeted for that MVP, and we did release a 0.7 version with a significant number of updates since the previous release. Updates include improved citation formatting for footnotes and sources, revised scholarship record view for individual documents, an import of data from the PGP v3 links database (information now included in PGP v4 scholarship records), setting up Wagtail for management of content pages, and progress with interim transcription solution for synchronization from TEI to the database, including in search results, and displaying with or without images on document detail pages.&lt;/p>
+&lt;p>We also made tremendous progress on design: nearly all of the design work needed for the MVP has been completed and approved, and a significant amount of work was done towards implementing site visuals implement them.&lt;/p>
+&lt;p>New versions of djiffy and parasolr were released in support of the Geniza 0.7 release, with support for newer versions of Python &amp;amp; Django and improved functionality needed for the new Geniza search.&lt;/p></description></item></channel></rss>
