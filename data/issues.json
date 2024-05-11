@@ -759,6 +759,20 @@
     ]
   },
   {
+    "issue": "setup playbooks to run in ansible-tower",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/202",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -14958,7 +14972,7 @@
     ]
   },
   {
-    "issue": "As a public site user, I want a tab where I can list and sort documents related to a person, so I can see where they actually appear in the PGP.",
+    "issue": "As a public site user, I want a tab where I can list and sort documents related to a person or place, so I can see where they actually appear in the PGP.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1586",
     "estimate": "",
@@ -34400,18 +34414,17 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/684",
     "estimate": 2,
-    "closed": null,
+    "closed": "2024-05-07T01:01:46Z",
     "labels": [
-      "enhancement",
-      "awaiting testing"
+      "enhancement"
     ],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -35434,17 +35447,15 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/790",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-05-07T00:59:17Z",
+    "labels": [],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -35452,17 +35463,15 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/791",
     "estimate": 2,
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-05-08T16:18:33Z",
+    "labels": [],
     "milestone": "1.6 - Dataset enhancements",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -35657,15 +35666,15 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/815",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-08T22:05:25Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -35673,7 +35682,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/818",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-08T21:48:34Z",
     "labels": [
       "chore"
     ],
@@ -35682,8 +35691,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -35691,17 +35700,15 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/819",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-05-05T16:47:38Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -42645,7 +42652,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/600",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "question"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -43624,12 +43633,51 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/24",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-07T19:48:10Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "laurejt"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Get an image and text aligned dataset for HathiTrust",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/26",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Write a script to aggregate the results",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/27",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Grab images and text from HathiTrust for the entire corpus at the same time",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/28",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
