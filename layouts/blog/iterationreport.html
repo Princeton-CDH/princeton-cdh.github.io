@@ -167,8 +167,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ with $next_iteration.projects }} Scheduled projects: {{ delimit . ", "}}.{{ end }}
 </p>
 
-{{ $upcoming_issues := where $.Site.Data.issues "closed" "eq" nil }}
-<ul>
+<p>View the planned issues for the current iteration on <a href="https://github.com/orgs/Princeton-CDH/projects/8/views/2">GitHub Projects</a></p>
+
+
+<!-- {{ $upcoming_issues := where $.Site.Data.issues "closed" "eq" nil }} -->
+<!-- <ul>
     {{ range $project, $status := $next_iteration.work }}
     {{/* display project short name + status icons for next iteration */}}
     <li>{{ $project }}
@@ -212,12 +215,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ end }} {{/* end list of issues by status */}}
     {{ end }} {{/* end iterating over projects */}}
     </li>
-</ul>
+</ul> -->
 </section>
 
 {{ end }}
 
-{{/* Get issues that need estimation based on label  */}}
+<!-- {{/* Get issues that need estimation based on label  */}}
 {{ $estimate_issues := where $.Site.Data.issues "labels" "intersect" (slice "needs estimation") }}
 {{ if $estimate_issues }}
 <section class="needs-estimation">
@@ -228,7 +231,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ end }}
 </ul>
 </section>
-{{ end }}
+{{ end }} -->
 
 </div>
 

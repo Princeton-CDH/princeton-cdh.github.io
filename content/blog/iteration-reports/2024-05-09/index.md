@@ -49,4 +49,6 @@ Looking ahead, we will be focused next on completing the archive of Derrida's Ma
 
 Interactive figures for the Shakespeare and Company article: https://viz.shakespeareandco.princeton.edu/
 
+## Final Status of Project Board 
+
 {{< figure src="2024-05-10-Iteration2Points.png" caption="Total Story Points at the end of Iteration 2: 34 points queued; 22 points completed">}}
