@@ -7881,11 +7881,11 @@
     ],
     "milestone": "",
     "assignees": [
-      "kmcelwee"
+      "rlskoeser"
     ],
     "pipeline": [
-      "In Progress",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -7956,17 +7956,17 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/291",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-16T18:08:17Z",
     "labels": [
       "chore"
     ],
     "milestone": "",
     "assignees": [
-      "kmcelwee"
+      "rlskoeser"
     ],
     "pipeline": [
-      "In Progress",
-      "Icebox"
+      "Icebox",
+      "In Progress"
     ]
   },
   {
@@ -43131,6 +43131,22 @@
     "pipeline": []
   },
   {
+    "issue": "modify the generate_corpus.py script to include timestamp in output file name",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/652",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "JS: publication date histogram",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/66",
@@ -43457,15 +43473,19 @@
     "pipeline": []
   },
   {
-    "issue": "As a researcher, I want to be able to get page images for the PPA dataset off the ECCO hard drives so that I can analyze them computationally. ",
+    "issue": "Write a script to get page images for the PPA dataset off the ECCO hard drives and into TigerData",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/10",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "compile entire page image corpus",
-    "assignees": [],
-    "pipeline": []
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As a researcher, I want a test set of 20-25 works with definitions so that I can investigate methods for identifying direct and indirect citation.",
@@ -43618,7 +43638,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/23",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-13T18:32:25Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43644,14 +43664,16 @@
     ]
   },
   {
-    "issue": "Get an image and text aligned dataset for HathiTrust",
+    "issue": "Get an image and text aligned dataset for the new test set",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/26",
     "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -43678,6 +43700,21 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Gather new poem-focused PPA test set in a spreadsheet",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/29",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
     "pipeline": [
       "New Issues"
     ]
