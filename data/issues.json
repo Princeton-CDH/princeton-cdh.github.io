@@ -7875,7 +7875,7 @@
     "project": "derrida-django",
     "url": "https://api.github.com/repos/Princeton-CDH/derrida-django/issues/287",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-20T18:13:10Z",
     "labels": [
       "chore"
     ],
@@ -14751,6 +14751,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14758,8 +14759,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14770,6 +14771,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14777,8 +14779,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14838,6 +14840,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14845,8 +14848,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14873,6 +14876,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14880,7 +14884,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -14960,6 +14964,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14967,8 +14972,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14988,6 +14993,59 @@
     "pipeline": [
       "New Issues",
       "In Progress"
+    ]
+  },
+  {
+    "issue": "Update outdated dev notes",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1589",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want the image/transcription/translation viewer on the document detail page to have a 3-up display, and default to this display when possible, so that I can see image, transcription, AND translation together.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1591",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want the image/transcription/translation viewer on the document detail page to use buttons instead of headers to open and close sections, so that it is less confusing how to interact with them.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1592",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Backlog",
+      "New Issues"
     ]
   },
   {
@@ -35712,6 +35770,22 @@
     ]
   },
   {
+    "issue": "Dates for VIAF Autofill",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/824",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit library item records so that I can review, correct, and expand on basic metadata for imported library item stub data.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/83",
@@ -43709,7 +43783,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/29",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-05-21T15:23:18Z",
     "labels": [],
     "milestone": "",
     "assignees": [
