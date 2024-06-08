@@ -14419,7 +14419,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "Events",
@@ -14428,7 +14427,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Dev Complete"
     ]
   },
   {
@@ -14765,7 +14764,6 @@
     "closed": "2024-05-31T16:30:47Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14785,7 +14783,6 @@
     "closed": "2024-05-31T16:52:38Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14804,12 +14801,16 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
-    "milestone": "",
-    "assignees": [],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -14854,7 +14855,6 @@
     "closed": "2024-05-31T16:29:37Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14890,16 +14890,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
     "pipeline": [
       "New Issues",
-      "Review/QA"
+      "Dev Complete"
     ]
   },
   {
@@ -14907,18 +14906,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1580",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-06-07T13:41:16Z",
     "labels": [
-      "\ud83c\udd95 enhancement",
-      "performant"
+      "\ud83d\udd87\ufe0f duplicate"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -14931,8 +14929,10 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
-    "assignees": [],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -14978,7 +14978,6 @@
     "closed": "2024-05-31T16:40:12Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15000,13 +14999,13 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Dev Complete"
     ]
   },
   {
@@ -15060,6 +15059,44 @@
     "pipeline": [
       "Backlog",
       "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a tab where I can list and sort other people related to a person, so I can understand their interpersonal relationships throughout the PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1595",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to be able to sort and filter people in the browse page by dates active in geniza documents, so that I can narrow down my browse results.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1597",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -42687,6 +42724,7 @@
       "rlskoeser"
     ],
     "pipeline": [
+      "New Issues",
       "Review/QA"
     ]
   },
@@ -42740,9 +42778,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/600",
     "estimate": "",
     "closed": null,
-    "labels": [
-      "question"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -43168,6 +43204,7 @@
     "labels": [],
     "milestone": "",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
@@ -43196,7 +43233,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/645",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-06-05T19:46:17Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -43204,7 +43241,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Icebox"
+      "In Progress"
     ]
   },
   {
@@ -43756,7 +43793,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/26",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-06-05T19:46:04Z",
     "labels": [],
     "milestone": "",
     "assignees": [
