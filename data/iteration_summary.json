@@ -3987,7 +3987,7 @@
         },
         "dev": {
             "points": 0,
-            "issues": 2,
+            "issues": 4,
             "velocity": 2.0
         },
         "design": {
@@ -3995,12 +3995,14 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "ppa-nlp": 1,
-            "cdh-ansible": 1
+            "ppa-nlp": 2,
+            "cdh-ansible": 1,
+            "ppa-django": 1
         },
         "project_points": {
             "ppa-nlp": 0,
-            "cdh-ansible": 0
+            "cdh-ansible": 0,
+            "ppa-django": 0
         }
     },
     {
