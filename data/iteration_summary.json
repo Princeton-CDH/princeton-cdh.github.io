@@ -4024,14 +4024,21 @@
         },
         "dev": {
             "points": 0,
+            "issues": 6,
             "velocity": 0.0
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "cdh-ansible": 4,
+            "ppa-nlp": 2
+        },
+        "project_points": {
+            "cdh-ansible": 0,
+            "ppa-nlp": 0
+        }
     },
     {
         "from": "2024-07-01",
