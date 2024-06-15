@@ -787,6 +787,70 @@
     ]
   },
   {
+    "issue": "write ansible playbook for prodigy deploy",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/211",
+    "estimate": "",
+    "closed": "2024-06-14T19:17:56Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Follow up with Alicia to set up Ansible playbooks",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/212",
+    "estimate": "",
+    "closed": "2024-06-11T19:46:37Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "convert ansible encrypted variable files to encrypt variable values only, for compatibility with tower",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/213",
+    "estimate": "",
+    "closed": "2024-06-12T14:43:19Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "update cdh web deploy playbook to deploy Springload version of the site",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/214",
+    "estimate": "",
+    "closed": "2024-06-14T19:13:59Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -4887,6 +4951,24 @@
       "rlskoeser"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "build springload version of CDH Web",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/440",
+    "estimate": "",
+    "closed": "2024-06-14T19:25:50Z",
+    "labels": [
+      "duplicate"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "Landing page - banner image",
@@ -15100,6 +15182,36 @@
     ]
   },
   {
+    "issue": "As an admin user, I would like to be able to choose which images are selected in the same place as order and rotation, so that I do not have to scroll back and forth between them.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1598",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Can't save, can't cancel",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1599",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a data editor, I want to access links to external records where available so that I can view other versions of the item more easily.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/16",
@@ -15130,6 +15242,25 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a way to browse all the places in the database, so that I can find a specific place I am looking for, or get an overview of all places.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1600",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "Places",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -43208,8 +43339,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -43838,6 +43969,82 @@
     "labels": [],
     "milestone": "",
     "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Sketch out the NLP experimental steps for PPA",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/33",
+    "estimate": "",
+    "closed": "2024-06-11T19:37:48Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Outline CHR paper for OCR",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/34",
+    "estimate": "",
+    "closed": "2024-06-11T19:48:41Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Get Laure the new data export with ESTCs from ECCO-TCP",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/35",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "transfer ECCO data from harddrives to SSD",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/36",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "mark single author/single poems in PPA metadata",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/37",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "WHaverals",
       "mnaydan"
     ],
     "pipeline": [
