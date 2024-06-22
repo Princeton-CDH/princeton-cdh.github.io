@@ -15264,6 +15264,79 @@
     ]
   },
   {
+    "issue": "As a public site user, I want a tab where I can list and sort places related to a person, so I can understand their geographical movement throughout the PGP",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1601",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want a filter for automatic transcriptions so that I can easily compile a list of transcriptions that need to be checked.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1602",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a tab where I can list and sort people related to a place, so I can understand geographical groupings of people in the PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1604",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want applied filters to appear above the browse results at all time, without having the filters menu open, so that I can quickly tell which filters are applied and remove them one by one",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1606",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
     "issue": "As a content editor, when editor and translator information is imported I want urls associated with the footnote so I can get to the resource if available.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/161",
