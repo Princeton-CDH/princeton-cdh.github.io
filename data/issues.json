@@ -15115,13 +15115,13 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -15134,12 +15134,12 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
+      "In Progress",
       "New Issues"
     ]
   },
@@ -15172,13 +15172,13 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -15273,7 +15273,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [
       "blms"
     ],
@@ -15308,7 +15308,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Places",
     "assignees": [
       "blms"
     ],
@@ -15327,13 +15327,31 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "Description snippets in search results appear inaccurately continuous when joined",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1607",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Dev Complete"
     ]
   },
   {
@@ -15349,6 +15367,25 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to be able to see a bibliography of formatted citations for a person, so I can find out where the information came from and learn more about them offsite.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1610",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
