@@ -4046,13 +4046,18 @@
         "work": {},
         "dev": {
             "points": 0,
+            "issues": 1,
             "velocity": 0.0
         },
         "design": {
             "points": 0,
             "velocity": 0.0
         },
-        "project_issues": {},
-        "project_points": {}
+        "project_issues": {
+            "ppa-nlp": 1
+        },
+        "project_points": {
+            "ppa-nlp": 0
+        }
     }
 ]
