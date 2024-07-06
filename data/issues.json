@@ -15389,6 +15389,44 @@
     ]
   },
   {
+    "issue": "As a public site user, I want the documents search page to match the designs of the People and Places browse pages, so that I am not confused by inconsistency.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1614",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Use self-hosted TinyMCE",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1615",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Backlog",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to be able to view what a single document editor has edited, so that I can learn more about documentary geniza scholarship and help solve metadata problems.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/162",
@@ -44120,7 +44158,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/35",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-01T16:05:30Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44162,6 +44200,36 @@
     ]
   },
   {
+    "issue": "adjust Hale script to prepare to re-OCR Gale material using Google Vision API",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/38",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Code and Prodigy configuration for poem annotation task",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/39",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "pull page level genre metadata for HT volumes in the for-use-in-schools dataset ",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/4",
@@ -44173,6 +44241,62 @@
       "quadrismegistus"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "move util functions in  scripts/helper.py to corppa utils",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/41",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Gather images and text for 35 overlap items for CHR paper",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/44",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "extract texts from ECCO-TCP xmls",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/45",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "automate page image conversion and resizing",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/46",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As a researcher, I want to be able to get the text corpus for a subset of record IDs so that I can conduct textual analysis within particular groups of texts.",
