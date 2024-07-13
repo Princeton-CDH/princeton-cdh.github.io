@@ -4046,7 +4046,7 @@
         "work": {},
         "dev": {
             "points": 0,
-            "issues": 1,
+            "issues": 2,
             "velocity": 0.0
         },
         "design": {
@@ -4054,10 +4054,12 @@
             "velocity": 0.0
         },
         "project_issues": {
-            "ppa-nlp": 1
+            "ppa-nlp": 1,
+            "cdh-ansible": 1
         },
         "project_points": {
-            "ppa-nlp": 0
+            "ppa-nlp": 0,
+            "cdh-ansible": 0
         }
     }
 ]
