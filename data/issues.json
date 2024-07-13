@@ -851,6 +851,22 @@
     ]
   },
   {
+    "issue": "update cdh web deploy for pre-production environment",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/219",
+    "estimate": "",
+    "closed": "2024-07-12T20:15:14Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -13926,6 +13942,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -13933,8 +13950,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -14466,6 +14483,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -14473,8 +14491,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -14485,12 +14503,16 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -14501,6 +14523,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Events",
@@ -14509,7 +14532,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -14884,6 +14907,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -14892,7 +14916,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -14972,6 +14996,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -14980,7 +15005,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15009,6 +15034,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15016,7 +15042,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15079,6 +15106,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15087,7 +15115,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15113,6 +15141,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -15120,8 +15149,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15132,6 +15161,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -15139,8 +15169,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15170,6 +15200,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15177,8 +15208,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15271,6 +15302,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15279,7 +15311,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15306,6 +15338,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Places",
@@ -15314,7 +15347,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15325,6 +15358,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15333,7 +15367,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15343,7 +15377,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing"
     ],
     "milestone": "",
     "assignees": [
@@ -15351,7 +15386,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15377,6 +15412,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15385,7 +15421,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15415,6 +15451,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15422,8 +15459,8 @@
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
