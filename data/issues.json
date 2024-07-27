@@ -5020,6 +5020,22 @@
     ]
   },
   {
+    "issue": "reporting and investigating related to cdh web 4.0 content and functionality",
+    "project": "cdh-web",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/443",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Landing page - banner image",
     "project": "cdh-web",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-web/issues/45",
@@ -13983,8 +13999,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -14886,9 +14902,12 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -15526,6 +15545,83 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want the document detail page to match the designs of the Person and Place detail pages, so I am not confused by the inconsistency.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1621",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to see a section on the document detail page telling me \"what's in the PGP\", so that at a glance I can tell whether there is a transcription or translation without scrolling down.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1623",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want lists of related people and places, by category of relation, with links, on the document detail page, so that I can get an overview of all relations.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1625",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "Documents",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to see the translation/transcription editor on the \"select bibliography\" tab of the doc detail page so that I can clearly see which scholarship records have been digitized on PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1627",
+    "estimate": "",
+    "closed": "2024-07-24T22:37:11Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate",
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -43742,6 +43838,34 @@
     ]
   },
   {
+    "issue": "As a developer, I want a script that will download the HathiTrust page images for the PPA corpus from the HathiTrust image server.",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/663",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Grab images and text from HathiTrust for the entire corpus at the same time",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/664",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a user, I want to search digitized volumes by keyword author names in a clearly marked author search field so that I can see what materials are in the archive by a certain author.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/67",
@@ -44061,7 +44185,7 @@
     "estimate": "",
     "closed": "2024-05-28T14:00:13Z",
     "labels": [],
-    "milestone": "compile entire page image corpus",
+    "milestone": "",
     "assignees": [
       "laurejt"
     ],
@@ -44103,11 +44227,13 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/13",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T15:22:18Z",
     "labels": [],
-    "milestone": "compile clean, accurate, complete full-text corpus",
+    "milestone": "",
     "assignees": [],
-    "pipeline": []
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As an NLP expert, I want to review the text corpus of the PPA test set, the existing preprocessing code, the decision log, and existing literature on OCR quality so that I can offer a recommendation on how the team should preprocess the text corpus moving forward. ",
@@ -44116,7 +44242,7 @@
     "estimate": "",
     "closed": "2024-04-24T17:25:56Z",
     "labels": [],
-    "milestone": "compile clean, accurate, complete full-text corpus",
+    "milestone": "",
     "assignees": [
       "laurejt"
     ],
@@ -44149,9 +44275,9 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/18",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T15:20:49Z",
     "labels": [],
-    "milestone": "detect when poems are being quoted in the PPA corpus",
+    "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
@@ -44166,7 +44292,7 @@
     "estimate": "",
     "closed": "2024-04-24T17:34:18Z",
     "labels": [],
-    "milestone": "compile clean, accurate, complete full-text corpus",
+    "milestone": "",
     "assignees": [
       "laurejt"
     ],
@@ -44179,11 +44305,13 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "compile clean, accurate, complete full-text corpus",
+    "milestone": "",
     "assignees": [
       "laurejt"
     ],
-    "pipeline": []
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As an NLP expert, I want to assess the OCR quality of the pages in the test set so that I can offer a data-based recommendation on whether to re-OCR certain volumes.",
@@ -44192,7 +44320,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "compile clean, accurate, complete full-text corpus",
+    "milestone": "",
     "assignees": [
       "laurejt"
     ],
@@ -44205,7 +44333,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/22",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T15:21:54Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44265,7 +44393,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/27",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T15:20:27Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -44368,7 +44496,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Data curation work completed",
     "assignees": [
       "WHaverals",
       "mnaydan"
@@ -44384,8 +44512,9 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Corpus preparation work completed",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
@@ -44397,10 +44526,11 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/39",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T18:21:03Z",
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
@@ -44412,13 +44542,13 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/4",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T15:21:20Z",
     "labels": [],
     "milestone": "",
-    "assignees": [
-      "quadrismegistus"
-    ],
-    "pipeline": []
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "move util functions in  scripts/helper.py to corppa utils",
@@ -44470,7 +44600,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -44483,7 +44613,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [
       "rlskoeser"
     ],
@@ -44496,7 +44626,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/48",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-23T19:09:35Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44511,9 +44641,9 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/49",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T18:32:39Z",
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [
       "laurejt",
       "rlskoeser"
@@ -44542,7 +44672,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [
       "laurejt"
     ],
@@ -44557,10 +44687,124 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Text reuse detection completed",
     "assignees": [
       "laurejt",
       "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "run Gale images through Google Vision OCR",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/52",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Corpus preparation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "test exporting annotations from Prodigy",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/53",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "export annotations and implement assessment for round 1 annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/54",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "export annotations and implement assessment for round 2 annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/55",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "export annotations and implement assessment for round 3 annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/56",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "load Gale images and text into Prodigy for round 2",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/57",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "load randomly sampled pages from Gale and HathiTrust into Prodigy for round 3",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/58",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "export final collective annotation set from Prodigy",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/59",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "laurejt"
     ],
     "pipeline": [
       "New Issues"
@@ -44578,6 +44822,19 @@
       "mnaydan"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "update Python recipe to hide ignore button",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/60",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "Investigate utility of DINOv2 on page images from the test set",
@@ -45390,7 +45647,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/70",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T20:39:07Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45401,11 +45658,11 @@
     ]
   },
   {
-    "issue": "fix calculation flagged by review (divide by 9 instead of 8)",
+    "issue": "fix calculation flagged by review (should divide by 8, not 9)",
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/71",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-26T21:02:42Z",
     "labels": [],
     "milestone": "",
     "assignees": [
