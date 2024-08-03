@@ -15647,6 +15647,24 @@
     ]
   },
   {
+    "issue": "As a public site user, I want a search that strictly matches character sequences in transcriptions, and allows the use of regular expressions, so that I can get results like PGPv3 and make more flexible searches.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1631",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Implement Black python linter",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/164",
@@ -44506,11 +44524,11 @@
     ]
   },
   {
-    "issue": "adjust Hale script to prepare to re-OCR Gale material using Google Vision API",
+    "issue": "review/update Hale script to prepare to re-OCR Gale material using Google Vision API",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/38",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-07-29T13:51:13Z",
     "labels": [],
     "milestone": "Corpus preparation work completed",
     "assignees": [
