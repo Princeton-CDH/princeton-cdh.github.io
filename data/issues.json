@@ -15665,6 +15665,22 @@
     ]
   },
   {
+    "issue": "Remove edition information from the top of the doc detail page",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1632",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Implement Black python linter",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/164",
