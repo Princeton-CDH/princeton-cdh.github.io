@@ -900,6 +900,34 @@
     ]
   },
   {
+    "issue": "get solr 9 replication working",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/225",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "change ansible playbook solr configset uploading to use zip + api instead of cli",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/226",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -12594,13 +12622,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "Backlog"
     ]
   },
@@ -13991,7 +14021,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -14000,7 +14030,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -14899,6 +14929,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -14907,7 +14938,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15325,6 +15356,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Places",
@@ -15332,8 +15364,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15398,7 +15430,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15406,8 +15438,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15470,6 +15502,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15477,8 +15510,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15555,6 +15588,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15563,7 +15597,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Review/QA"
     ]
   },
   {
@@ -15574,6 +15608,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15582,7 +15617,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15593,6 +15628,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Documents",
@@ -15601,7 +15637,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15673,6 +15709,21 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a front end user, I want to be able to access up-to-date metadata about people and places via GitHub, so that I can use that data in my own research.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1633",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
     ],
     "milestone": "",
     "assignees": [],
@@ -36321,12 +36372,31 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/824",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-14T14:09:27Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "automate running and sharing data exports",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/827",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -43220,8 +43290,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -43775,15 +43845,17 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/652",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-08-14T19:40:39Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "laurejt"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -43791,18 +43863,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/659",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-08-16T18:35:36Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser",
       "mnaydan"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -43839,18 +43909,16 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/661",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-08-15T20:49:14Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser",
       "mnaydan"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -43858,7 +43926,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/662",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-14T19:24:29Z",
     "labels": [
       "awaiting testing"
     ],
@@ -43867,8 +43935,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -43894,6 +43962,22 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "write code so that all note types in eebo-xml appear at bottom of page instead of inline",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/665",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -44513,8 +44597,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/36",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-08-14T19:36:47Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "laurejt"
@@ -44540,7 +44626,7 @@
     ]
   },
   {
-    "issue": "review/update Hale script to prepare to re-OCR Gale material using Google Vision API",
+    "issue": "review Hale script to prepare to re-OCR Gale material using Google Vision API",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/38",
     "estimate": "",
@@ -44649,6 +44735,7 @@
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
@@ -44719,9 +44806,9 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/51",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-14T15:52:53Z",
     "labels": [],
-    "milestone": "Text reuse detection completed",
+    "milestone": "Poem excerpt dataset complete",
     "assignees": [
       "laurejt",
       "rlskoeser"
@@ -44748,7 +44835,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/53",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-15T18:02:16Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [],
@@ -44865,6 +44952,161 @@
     "closed": null,
     "labels": [],
     "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "debug Prodigy session issue",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/61",
+    "estimate": "",
+    "closed": "2024-08-15T14:51:49Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "adjudicate all annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/62",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "update baseline Google Vision OCR script with new parameters",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/63",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "provide basic documentation on ppa-nlp readme of existing utilities, including filter script",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/64",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "for small dataset, identify all poetry excerpts and identify Chadwyck-Healy ID for each excerpt",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/66",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Poem excerpt dataset complete",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Write a script to run basic Passim pipeline",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/67",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Poem excerpt dataset complete",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "adjust Prodigy recipe to include new configs",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/68",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "implement a way for Mary to adjudicate annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/69",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Annotation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Convert script form to span data structures",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/70",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Poem excerpt dataset complete",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "write evaluation scripts for comparing reference annotations and model annotations ",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/71",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Poem excerpt dataset complete",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Refine Passim methods and parameters",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/72",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Poem excerpt dataset complete",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -45711,7 +45953,7 @@
     "project": "simulating-risk",
     "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/72",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-14T16:32:59Z",
     "labels": [],
     "milestone": "",
     "assignees": [
