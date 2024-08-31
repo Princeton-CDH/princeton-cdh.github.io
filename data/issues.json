@@ -15379,8 +15379,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15734,6 +15734,22 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content editor, when I enter more than one relation between the same two people, I want to receive a message letting me know there's already an existing relationship, and asking me to confirm that I do indeed want to enter this relationship, so that we avoid duplicating relationships between two people.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1639",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "",
     "assignees": [],
@@ -37152,6 +37168,20 @@
     ]
   },
   {
+    "issue": "Raise Python exception on solr 500 error response",
+    "project": "parasolr",
+    "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/88",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Investigate SolrClient travis build/unit tests",
     "project": "parasolr",
     "url": "https://api.github.com/repos/Princeton-CDH/parasolr/issues/9",
@@ -44681,11 +44711,11 @@
     ]
   },
   {
-    "issue": "move util functions in  scripts/helper.py to corppa utils",
+    "issue": "move util functions in scripts/helper.py to corppa utils",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/41",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-08-28T19:21:55Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
