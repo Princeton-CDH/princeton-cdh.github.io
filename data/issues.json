@@ -12638,7 +12638,6 @@
     "closed": "2024-08-22T14:37:50Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -14034,7 +14033,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1469",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-06T17:34:07Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -14044,8 +14043,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -14944,7 +14943,6 @@
     "closed": "2024-08-22T14:29:33Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15368,10 +15366,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1600",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-06T17:21:09Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Places",
@@ -15379,8 +15376,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -15442,7 +15439,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1606",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-06T17:24:06Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -15452,8 +15449,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -15700,6 +15697,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15707,6 +15705,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -15727,7 +15726,7 @@
     ]
   },
   {
-    "issue": "As a front end user, I want to be able to access up-to-date metadata about people and places via GitHub, so that I can use that data in my own research.",
+    "issue": "As a front end user, I want to be able to access up-to-date metadata exports about people and places via GitHub, so that I can use that data in my own research.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1633",
     "estimate": "",
@@ -15751,7 +15750,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -44827,7 +44826,7 @@
     "pipeline": []
   },
   {
-    "issue": "Design and implement mechanisms for evaluating poetry detection & annotator agreement",
+    "issue": "Design mechanisms for evaluating poetry detection & annotator agreement",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/50",
     "estimate": "",
@@ -45206,6 +45205,19 @@
     "assignees": [
       "rlskoeser"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Extend corppa-filter-corpus so that specific pages can be specified",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/82",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
