@@ -15694,7 +15694,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1631",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-09T17:58:00Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -15705,8 +15705,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15771,6 +15771,22 @@
     ],
     "pipeline": [
       "Development Complete"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want to downloand csvs of people and places so that I can filter them offline/mass upload them into other databases.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1641",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -36439,6 +36455,40 @@
     "pipeline": []
   },
   {
+    "issue": "Address Data Export Fields",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/831",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "enhancement"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "document s&co data package folder better (formatting, install reqs)",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/834",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit publishers so that I can manage publication information for library items.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/84",
@@ -42794,6 +42844,7 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "New Issues",
       "Icebox"
     ]
   },
@@ -44023,6 +44074,20 @@
     ]
   },
   {
+    "issue": "Modify web app code to pull Gale OCR locally instead of API",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/668",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a user, I want to search digitized volumes by keyword author names in a clearly marked author search field so that I can see what materials are in the archive by a certain author.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/67",
@@ -44861,10 +44926,12 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/52",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-09T17:52:56Z",
     "labels": [],
     "milestone": "Corpus preparation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45033,7 +45100,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Corpus preparation work completed",
     "assignees": [
       "laurejt"
     ],
@@ -45076,7 +45143,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/67",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-11T19:58:22Z",
     "labels": [],
     "milestone": "Poem excerpt dataset complete",
     "assignees": [
@@ -45188,7 +45255,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Annotation work completed",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -45199,10 +45266,11 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/77",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-09T14:13:35Z",
     "labels": [],
     "milestone": "",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
@@ -45213,6 +45281,103 @@
     "issue": "Extend corppa-filter-corpus so that specific pages can be specified",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/82",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "Corpus preparation work completed",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Integrate Chadwyck-Healey corpus building code into `corppa`",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/83",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Integrate passim-related code into `corppa`",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/84",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Generalize bash script for testing parameters",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/85",
+    "estimate": "",
+    "closed": "2024-09-12T12:57:00Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Generalize bash script for testing parameters",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/86",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Document details learned about passim",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/87",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Testing adding linear issues with Github sync",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/88",
+    "estimate": "",
+    "closed": "2024-09-12T14:56:27Z",
+    "labels": [
+      "Feature"
+    ],
+    "milestone": "",
+    "assignees": [
+      "jerielizabeth"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Testing two way sync",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/89",
     "estimate": "",
     "closed": null,
     "labels": [],
