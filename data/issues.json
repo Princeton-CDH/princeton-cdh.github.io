@@ -369,8 +369,9 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/14",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-20T15:18:27Z",
     "labels": [
+      "wontfix",
       "chore",
       "\ud83d\udea7 maintenance"
     ],
@@ -508,7 +509,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -571,7 +572,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -647,8 +648,10 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/181",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-09-20T15:32:17Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "kayiwa"
@@ -696,7 +699,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/187",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-20T15:22:38Z",
     "labels": [
       "chore"
     ],
@@ -763,10 +766,12 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/202",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-20T15:30:31Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -779,7 +784,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -873,14 +878,14 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [
       "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -890,13 +895,13 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -906,7 +911,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -920,7 +925,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1044,7 +1049,7 @@
       "chore",
       "\ud83d\udea7 maintenance"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [
       "kayiwa"
     ],
@@ -1063,7 +1068,7 @@
       "enhancement",
       "\ud83d\udea7 maintenance"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [
       "kayiwa"
     ],
@@ -1114,7 +1119,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1130,7 +1135,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1142,7 +1147,7 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/59",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-20T15:23:46Z",
     "labels": [
       "bug",
       "\ud83d\udea7 maintenance"
@@ -1238,7 +1243,7 @@
     "labels": [
       "enhancement"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1254,7 +1259,7 @@
     "labels": [
       "chore"
     ],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1302,7 +1307,7 @@
     "estimate": "",
     "closed": null,
     "labels": [],
-    "milestone": "",
+    "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
       "New Issues",
@@ -1378,8 +1383,10 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/99",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-09-20T15:21:09Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "kayiwa"
@@ -15265,9 +15272,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1595",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-18T14:45:52Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15275,8 +15283,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -15782,6 +15790,21 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Date conversion: Add Marheshvan as alias for Heshvan",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1642",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [],
@@ -36433,7 +36456,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/827",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "awaiting testing"
+    ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -44081,7 +44106,10 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -44839,8 +44867,7 @@
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
-      "laurejt",
-      "rlskoeser"
+      "laurejt"
     ],
     "pipeline": [
       "New Issues"
@@ -44895,7 +44922,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/50",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-16T16:16:19Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
@@ -44999,8 +45026,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/57",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-09-20T15:17:48Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
+    ],
     "milestone": "Annotation work completed",
     "assignees": [],
     "pipeline": [
@@ -45161,7 +45190,9 @@
     "closed": null,
     "labels": [],
     "milestone": "Annotation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45184,8 +45215,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/70",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-09-20T15:20:07Z",
+    "labels": [
+      "\u274c invalid"
+    ],
     "milestone": "Poem excerpt dataset complete",
     "assignees": [],
     "pipeline": [
@@ -45249,7 +45282,7 @@
     ]
   },
   {
-    "issue": "write a custom recipe for adjudication for first round to convert to character-level indexing",
+    "issue": "write a custom recipe for adjudication for round 1",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/75",
     "estimate": "",
@@ -45285,7 +45318,9 @@
     "closed": null,
     "labels": [],
     "milestone": "Corpus preparation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45401,6 +45436,34 @@
       "laurejt"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "data prep for Prodigy annotations round 2",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/90",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "implement IAA",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/92",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "Design a search interface that allows users to search for more than one tag a time so that I can ensure nothing is left out of my search",
