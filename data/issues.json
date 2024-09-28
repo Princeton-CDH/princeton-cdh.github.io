@@ -666,10 +666,12 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/185",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-25T17:08:26Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -15417,7 +15419,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -15561,7 +15563,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -15727,7 +15729,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Documents",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -15742,7 +15744,7 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -15791,7 +15793,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "People",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -15809,6 +15811,41 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want to see a list of events related to a person, so I can get an overview of events in their life.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1644",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Dev Complete",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want a grid view for the people browse page, so that I can visualize the information differently.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1646",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "People",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -36455,10 +36492,8 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/827",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "awaiting testing"
-    ],
+    "closed": "2024-09-22T19:36:09Z",
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -36484,7 +36519,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/831",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-25T19:55:23Z",
     "labels": [
       "enhancement"
     ],
@@ -44042,9 +44077,7 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/662",
     "estimate": "",
     "closed": "2024-08-14T19:24:29Z",
-    "labels": [
-      "awaiting testing"
-    ],
+    "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
@@ -44103,7 +44136,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/668",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-24T15:21:20Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44127,6 +44160,39 @@
       "rlskoeser"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "Improve Gale indexing speed for local OCR",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/673",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Software release checklist 3.13",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/674",
+    "estimate": "",
+    "closed": "2024-09-25T19:46:29Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "As a user, I want to search digitized volumes by title keywords in a clearly marked title field so that I can see what materials are in the archive with a certain title.",
@@ -44510,15 +44576,19 @@
     "pipeline": []
   },
   {
-    "issue": "revise the corppa filter script to work with the new stabilized unique work IDs for excerpts and articles ",
+    "issue": "revise the corppa filter script to work with the new stabilized unique work IDs for excerpts and articles",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/17",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-25T17:13:38Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
-    "pipeline": []
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "Investigate line length/word counts to see how far this method gets in detecting poetry",
@@ -45188,7 +45258,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/68",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\u26a0\ufe0ftested needs attention"
+    ],
     "milestone": "Annotation work completed",
     "assignees": [
       "laurejt"
@@ -45315,7 +45387,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/82",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-09-25T17:11:39Z",
     "labels": [],
     "milestone": "Corpus preparation work completed",
     "assignees": [
