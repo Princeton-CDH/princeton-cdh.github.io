@@ -13128,9 +13128,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1381",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-03T13:16:20Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -13138,6 +13139,7 @@
       "blms"
     ],
     "pipeline": [
+      "Review/QA",
       "Backlog"
     ]
   },
@@ -15819,14 +15821,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1644",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-10-03T13:22:11Z",
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "performant"
+    ],
     "milestone": "People",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -15835,7 +15841,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1646",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-03T14:22:05Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -15845,7 +15851,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -36549,6 +36555,39 @@
     ]
   },
   {
+    "issue": "add plausible analytics to S&co",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/835",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "release S&co dataset changes and deploy with rclone setup",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/836",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit publishers so that I can manage publication information for library items.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/84",
@@ -44095,10 +44134,12 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -44109,10 +44150,12 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -44192,6 +44235,41 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "add plausible analytics to ppa",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/676",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "export digitizedwork broken",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/677",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -45051,12 +45129,12 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/54",
     "estimate": "",
-    "closed": null,
-    "labels": [],
-    "milestone": "Annotation work completed",
-    "assignees": [
-      "laurejt"
+    "closed": "2024-10-03T19:53:53Z",
+    "labels": [
+      "\ud83d\udd87\ufe0f duplicate"
     ],
+    "milestone": "Annotation work completed",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
@@ -45197,7 +45275,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/63",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-02T18:23:50Z",
     "labels": [],
     "milestone": "Corpus preparation work completed",
     "assignees": [
@@ -45257,10 +45335,8 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/68",
     "estimate": "",
-    "closed": null,
-    "labels": [
-      "\u26a0\ufe0ftested needs attention"
-    ],
+    "closed": "2024-10-02T14:14:44Z",
+    "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
       "laurejt"
@@ -45354,7 +45430,7 @@
     ]
   },
   {
-    "issue": "write a custom recipe for adjudication for round 1",
+    "issue": "load adjudication recipe on second VM",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/75",
     "estimate": "",
@@ -45533,6 +45609,68 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "confirm annotators are done and export round 1 annotations",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/94",
+    "estimate": "",
+    "closed": "2024-09-30T16:47:38Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "deploy round 2 Prodigy recipe to production",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/95",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Add an option to cdh-ansible to delete & reinstall python environment",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/96",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "decide on approach for Prodigy deploy",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/97",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues"
     ]
