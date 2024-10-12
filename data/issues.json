@@ -12047,7 +12047,7 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "Search",
@@ -15760,6 +15760,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "People",
@@ -15852,6 +15853,22 @@
     ],
     "pipeline": [
       "Review/QA",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public user, I want to see which PGPIDs are tied to events on people's events timelines so that I can see the origin of the information.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1649",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "People",
+    "assignees": [],
+    "pipeline": [
       "New Issues"
     ]
   },
@@ -25242,6 +25259,54 @@
     "pipeline": [
       "New Issues"
     ]
+  },
+  {
+    "issue": "refine local install for beta testers (non-HPC integration)",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/10",
+    "estimate": "",
+    "closed": "2024-10-10T15:49:19Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "assess local deploy",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/11",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "strategize new user handling",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/19",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "Further configuration tracking",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/20",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
   },
   {
     "issue": "Set up initial Hugo site with proposed site and data structure",
@@ -36559,7 +36624,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/835",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-09T13:47:57Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -36567,8 +36632,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -36576,15 +36641,15 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/836",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-08T20:46:46Z",
     "labels": [],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44242,7 +44307,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/676",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-08T19:16:55Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44250,8 +44315,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44273,6 +44338,24 @@
     ]
   },
   {
+    "issue": "Version 3.13.1",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/679",
+    "estimate": "",
+    "closed": "2024-10-08T21:02:39Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a user, I want to search digitized volumes by title keywords in a clearly marked title field so that I can see what materials are in the archive with a certain title.",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/68",
@@ -44285,6 +44368,22 @@
       "meg-codes"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "uploading new image to CMS causes 500 server error",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/683",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "Grappelli / Mezzanine not properly saving page keywords ",
@@ -44582,6 +44681,37 @@
     "milestone": "",
     "assignees": [
       "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Refactor generate page set script to (1) support nonconsecutive works and (2) simplify page selection logic",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/101",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Version 0.2",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/104",
+    "estimate": "",
+    "closed": "2024-10-07T19:52:40Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
     ],
     "pipeline": [
       "New Issues"
@@ -45011,8 +45141,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/47",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-10-09T19:56:51Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "Annotation work completed",
     "assignees": [
       "laurejt"
@@ -45290,7 +45422,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/64",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-07T16:01:54Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45430,7 +45562,7 @@
     ]
   },
   {
-    "issue": "load adjudication recipe on second VM",
+    "issue": "load adjudication recipe on second VM or local environment",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/75",
     "estimate": "",
@@ -45590,7 +45722,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/90",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-07T19:41:11Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45633,7 +45765,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/95",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-07T20:08:34Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45664,7 +45796,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/97",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-09T19:27:08Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -46507,6 +46639,19 @@
     "assignees": [
       "rlskoeser"
     ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Update to Mesa 3.0 beta",
+    "project": "simulating-risk",
+    "url": "https://api.github.com/repos/Princeton-CDH/simulating-risk/issues/78",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": [
       "New Issues"
     ]
