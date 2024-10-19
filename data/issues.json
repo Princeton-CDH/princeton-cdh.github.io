@@ -15744,12 +15744,16 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -15887,6 +15891,59 @@
     ],
     "pipeline": [
       "Development Complete"
+    ]
+  },
+  {
+    "issue": "Turbo page loads prevent page title from changing",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1651",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "When actively editing a translation, you cannot choose between transcription options to display (if there is more than one transcription)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1652",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Dev Complete"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want content pages to match the style of the rest of the website, so that I am not confused by the inconsistency.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1656",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -25274,11 +25331,11 @@
     "pipeline": []
   },
   {
-    "issue": "assess local deploy",
+    "issue": "server assessments and status for local deploy",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/11",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-15T21:32:03Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -36653,6 +36710,24 @@
     ]
   },
   {
+    "issue": "Location information not included in data exports.",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/838",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "As a content editor, I want to create and edit publishers so that I can manage publication information for library items.",
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/84",
@@ -44277,7 +44352,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -44376,10 +44453,13 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -45485,7 +45565,9 @@
     "closed": null,
     "labels": [],
     "milestone": "Annotation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45569,7 +45651,9 @@
     "closed": null,
     "labels": [],
     "milestone": "Annotation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
