@@ -25366,6 +25366,39 @@
     "pipeline": []
   },
   {
+    "issue": "Determine configurations to improve process runtimes",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/21",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "Some PDF imports failing with no error message",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/22",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "Some model imports failing with error message",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/23",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
     "issue": "Set up initial Hugo site with proposed site and data structure",
     "project": "lenape-timetree",
     "url": "https://api.github.com/repos/Princeton-CDH/lenape-timetree/issues/1",
@@ -44307,11 +44340,12 @@
     "labels": [],
     "milestone": "",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -44463,6 +44497,22 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "unit tests generate a text corpus folder in the current working directory",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/685",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -45644,7 +45694,7 @@
     ]
   },
   {
-    "issue": "load adjudication recipe on second VM or local environment",
+    "issue": "load adjudication recipe on local environment",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/75",
     "estimate": "",
