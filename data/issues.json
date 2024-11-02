@@ -12138,7 +12138,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "Documents",
     "assignees": [],
@@ -12751,14 +12751,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1355",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T13:56:43Z",
     "labels": [
       "Epic"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "In Progress"
+      "In Progress",
+      "Icebox"
     ]
   },
   {
@@ -13422,16 +13423,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1402",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T15:20:27Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
     "assignees": [],
     "pipeline": [
       "New Issues",
-      "Icebox"
+      "Review/QA"
     ]
   },
   {
@@ -13560,14 +13562,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1417",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T13:58:12Z",
     "labels": [
       "Epic"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "In Progress"
+      "In Progress",
+      "Icebox"
     ]
   },
   {
@@ -14568,7 +14571,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1509",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-29T16:38:36Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -15332,7 +15335,8 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "",
     "assignees": [],
@@ -15913,9 +15917,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1652",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T14:31:27Z",
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15924,7 +15929,7 @@
     ],
     "pipeline": [
       "New Issues",
-      "Dev Complete"
+      "Review/QA"
     ]
   },
   {
@@ -15932,9 +15937,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1656",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T15:56:10Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15943,7 +15949,43 @@
     ],
     "pipeline": [
       "New Issues",
-      "In Progress"
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a content editor, I want the collection name to come first before collection abbreviation when I go to add a collection (to facilitate data entry)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1658",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want an interactive network graph of related people, so that I can visually comprehend a person's interpersonal relationships.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1660",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -19973,7 +20015,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/576",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-29T16:37:35Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -19988,7 +20030,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/577",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-29T15:00:40Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -20374,7 +20416,9 @@
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/611",
     "estimate": "",
     "closed": null,
-    "labels": [],
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "Other Dreams",
     "assignees": [],
     "pipeline": [
@@ -22126,7 +22170,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/785",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-29T14:54:43Z",
     "labels": [
       "\ud83d\uddfa\ufe0f design"
     ],
@@ -25344,6 +25388,19 @@
     "pipeline": []
   },
   {
+    "issue": "HPC integration option 1 - ssh ",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/15",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
     "issue": "strategize new user handling",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/19",
@@ -25377,11 +25434,11 @@
     "pipeline": []
   },
   {
-    "issue": "Some PDF imports failing with no error message",
+    "issue": "Some PDF and ZIP imports failing with no error message",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/22",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-01T15:28:28Z",
     "labels": [],
     "milestone": "",
     "assignees": [],
@@ -25392,10 +25449,25 @@
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/23",
     "estimate": "",
+    "closed": "2024-11-01T15:28:13Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "command-line utility to export data, train, and update model with eScriptorium API and slurm",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/24",
+    "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -44308,11 +44380,12 @@
     "labels": [],
     "milestone": "",
     "assignees": [
+      "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44336,7 +44409,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/665",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-29T13:53:24Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44344,8 +44417,9 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "In Progress",
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44485,10 +44559,9 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/683",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-28T17:02:13Z",
     "labels": [
-      "bug",
-      "awaiting testing"
+      "bug"
     ],
     "milestone": "",
     "assignees": [
@@ -44513,6 +44586,20 @@
     "pipeline": [
       "Icebox",
       "New Issues"
+    ]
+  },
+  {
+    "issue": "debug Gale thumbnail display",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/687",
+    "estimate": "",
+    "closed": "2024-10-30T13:50:58Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44848,6 +44935,21 @@
     ]
   },
   {
+    "issue": "Version 0.3",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/108",
+    "estimate": "",
+    "closed": "2024-11-01T14:47:39Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a researcher, I want a test set of 20-25 works with definitions so that I can investigate methods for identifying direct and indirect citation.",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/11",
@@ -44861,6 +44963,37 @@
       "mnaydan"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "setup sphinx documentation",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/111",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt",
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Prodigy recipe for reporting progress customized to our page annotation task",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/112",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As a researcher, I want a list of possible NLP tools to try so that I can investigate their utility for answering our research questions.",
@@ -45612,7 +45745,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/69",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-30T15:40:24Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
@@ -45698,7 +45831,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/75",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-10-30T20:13:22Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
