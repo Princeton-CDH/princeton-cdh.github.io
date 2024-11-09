@@ -935,6 +935,42 @@
     ]
   },
   {
+    "issue": "Refactor: Convert build_dependencies Role to Use Molecule for Testing",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/244",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": "",
+    "assignees": [
+      "VickieKarasic"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Refactor: Convert build_dependencies Role to Use Molecule for Testing",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/245",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udea7 maintenance"
+    ],
+    "milestone": "",
+    "assignees": [
+      "Beck-Davis"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -13132,7 +13168,6 @@
     "closed": "2024-10-03T13:16:20Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -13426,7 +13461,6 @@
     "closed": "2024-11-01T15:20:27Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Search",
@@ -14462,6 +14496,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -15282,7 +15317,6 @@
     "closed": "2024-09-18T14:45:52Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15290,8 +15324,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15713,7 +15747,6 @@
     "closed": "2024-09-09T17:58:00Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15802,12 +15835,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15833,7 +15868,6 @@
     "closed": "2024-10-03T13:22:11Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15841,8 +15875,8 @@
       "blms"
     ],
     "pipeline": [
-      "Review/QA",
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15869,15 +15903,18 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1649",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-07T16:04:36Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Review/QA"
     ]
   },
   {
@@ -15920,7 +15957,6 @@
     "closed": "2024-11-01T14:31:27Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15940,7 +15976,6 @@
     "closed": "2024-11-01T15:56:10Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -15977,6 +16012,25 @@
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\udddc\ufe0f awaiting testing",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a public user, I want a fragment's collection name and holding institution name written out on the doc detail page (with links to the holding instiution library) so that it's clear to me what all the shelfmark abbreviations stand for and where to look for this information.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1662",
+    "estimate": "",
+    "closed": "2024-11-07T17:01:41Z",
+    "labels": [
+      "\ud83c\udd95 enhancement",
       "performant"
     ],
     "milestone": "",
@@ -44457,7 +44511,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/673",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-04T19:12:44Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -44577,15 +44631,17 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/685",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-04T18:41:44Z",
     "labels": [
       "bug"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
-      "Icebox",
-      "New Issues"
+      "New Issues",
+      "Icebox"
     ]
   },
   {
@@ -44596,7 +44652,28 @@
     "closed": "2024-10-30T13:50:58Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser",
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Software release checklist \u2014 ppa v3.14",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/689",
+    "estimate": "",
+    "closed": "2024-11-04T19:12:30Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues",
       "Icebox"
@@ -44614,6 +44691,42 @@
     "milestone": "",
     "assignees": [],
     "pipeline": []
+  },
+  {
+    "issue": "Gale local ocr code doesn't handle json decode error",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/692",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
+  },
+  {
+    "issue": "Configure Gale pages to reindex on the first Saturday of every month",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/693",
+    "estimate": "",
+    "closed": "2024-11-05T15:20:21Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues",
+      "Icebox"
+    ]
   },
   {
     "issue": "As a user, I want to see basic details for individual items in the archive so that I can see the record details and get to the HathiTrust version.",
@@ -45535,11 +45648,11 @@
     ]
   },
   {
-    "issue": "export annotations and implement assessment for round 2 annotations",
+    "issue": "export annotations for round 2 annotations",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/55",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-06T20:46:33Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [
@@ -45627,7 +45740,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/60",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-08T21:27:35Z",
     "labels": [],
     "milestone": "Annotation work completed",
     "assignees": [],
