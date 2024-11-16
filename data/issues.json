@@ -953,7 +953,7 @@
     ]
   },
   {
-    "issue": "Refactor: Convert build_dependencies Role to Use Molecule for Testing",
+    "issue": "Refactor: Convert build_npm Role to Use Molecule for Testing",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/245",
     "estimate": "",
@@ -966,8 +966,8 @@
       "Beck-Davis"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -14504,8 +14504,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -15801,12 +15801,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "People",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Backlog",
       "New Issues"
     ]
   },
@@ -15832,17 +15834,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1641",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-12T02:07:11Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u26a0\ufe0f tested needs attention",
       "performant"
     ],
     "milestone": "People",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16008,10 +16009,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1660",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-12T15:22:25Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -16019,8 +16019,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16043,6 +16043,41 @@
     ]
   },
   {
+    "issue": "As a public site user, I want to see formatted citations at the bottom of the doc detail pages so that I know how to cite the doc detail page as a whole.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1668",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Dev Complete",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, in the network graph, I want the number of relationships between people to be represented by differing line thicknesses, with an option to hover over and see the exact number, so that I can see at a glance the strength of certain relationships in the documentary record.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1669",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "generate a csv of unique sources from the RIS file of the Cambridge Bibliography",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/167",
@@ -16057,6 +16092,40 @@
     ],
     "pipeline": [
       "Development Complete"
+    ]
+  },
+  {
+    "issue": "Software release checklist for v4.18",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1670",
+    "estimate": "",
+    "closed": "2024-11-13T16:35:09Z",
+    "labels": [
+      "chore"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Line numbers for transcription not appearing in admin transcription editor (but they appear fine on the public site)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1672",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -36831,8 +36900,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -36873,17 +36942,18 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/838",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-15T16:25:45Z",
     "labels": [
-      "bug"
+      "bug",
+      "awaiting testing"
     ],
     "milestone": "",
     "assignees": [
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -43769,7 +43839,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/597",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-13T18:58:41Z",
     "labels": [
       "bug"
     ],
@@ -44430,20 +44500,19 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/663",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-15T17:24:21Z",
     "labels": [],
     "milestone": "",
     "assignees": [
-      "laurejt",
-      "rlskoeser"
+      "laurejt"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
-    "issue": "Grab images and text from HathiTrust for the entire corpus at the same time",
+    "issue": "Grab images and text from HathiTrust for the literary collection at the same time",
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/664",
     "estimate": "",
@@ -44451,7 +44520,7 @@
     "labels": [],
     "milestone": "",
     "assignees": [
-      "rlskoeser"
+      "laurejt"
     ],
     "pipeline": [
       "Icebox",
@@ -44697,7 +44766,7 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/692",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-11T17:28:48Z",
     "labels": [
       "bug"
     ],
@@ -44706,8 +44775,8 @@
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -44726,6 +44795,36 @@
     "pipeline": [
       "New Issues",
       "Icebox"
+    ]
+  },
+  {
+    "issue": "Revise Hathi images command to improve efficiency and allow subsetting",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/696",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "remove one-off scripts",
+    "project": "ppa-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/698",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -45103,6 +45202,49 @@
     "milestone": "",
     "assignees": [
       "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Export preliminary round 1 adjudication data",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/115",
+    "estimate": "",
+    "closed": "2024-11-13T19:32:00Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Decide on data structure, format, location, release",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/116",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Find ECCO-TCP overlap spreadsheet to use with XML tags",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/117",
+    "estimate": "",
+    "closed": "2024-11-13T19:10:32Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
     ],
     "pipeline": [
       "New Issues"
@@ -45504,10 +45646,14 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/46",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-11-13T18:53:17Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "Annotation work completed",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45697,8 +45843,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/58",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-11-13T18:52:59Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "Annotation work completed",
     "assignees": [
       "laurejt"
@@ -46117,8 +46265,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/92",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-11-13T18:56:04Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
