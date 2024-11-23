@@ -507,13 +507,13 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/158",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-18T20:09:13Z",
     "labels": [],
     "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -971,6 +971,24 @@
     ]
   },
   {
+    "issue": "Replace Snap-Installed Rclone with Manually Installed Version",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/248",
+    "estimate": "",
+    "closed": "2024-11-22T17:08:09Z",
+    "labels": [
+      "bug"
+    ],
+    "milestone": "",
+    "assignees": [
+      "kayiwa"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Production deploys fail on context check",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/25",
@@ -1293,15 +1311,16 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/75",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-18T20:09:33Z",
     "labels": [
+      "wontfix",
       "chore"
     ],
     "milestone": "Fall cleaning",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -15192,11 +15211,15 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Dev Complete",
       "New Issues"
     ]
   },
@@ -16072,8 +16095,11 @@
       "performant"
     ],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "Dev Complete",
       "New Issues"
     ]
   },
@@ -16129,6 +16155,91 @@
     ]
   },
   {
+    "issue": "As a public site user/content admin, I want the image in the transcription editor to rotate clockwise so it goes to the right margin first to facilitate the reading and transcription of the text.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1673",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Collections on document detail page sometimes listed in the wrong order for joins",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1674",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Merge the creators O. Zinger and Oded Zinger",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1675",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Backlog",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "New Place slugs are not being generated",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1676",
+    "estimate": "",
+    "closed": "2024-11-19T16:53:58Z",
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "In Progress",
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a frontend user, I want to search in Judaeo-Arabic (Hebrew script) and get search results from both Arabic and Judaeo-Arabic transcriptions so that I can find more content that matches my search.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1679",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "Backlog",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "Append missing PGPID rows to demerge spreadsheet",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/168",
@@ -16143,6 +16254,21 @@
     ],
     "pipeline": [
       "Development Complete"
+    ]
+  },
+  {
+    "issue": "Transcription and translation alignment fails at non-100% zoom levels",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1680",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -25581,7 +25707,7 @@
     "pipeline": []
   },
   {
-    "issue": "command-line utility to export data, train, and update model with eScriptorium API and slurm",
+    "issue": "command-line utility to export data, run segmentation training, and update model with eScriptorium API and slurm",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/24",
     "estimate": "",
@@ -25591,6 +25717,52 @@
     "assignees": [
       "rlskoeser"
     ],
+    "pipeline": []
+  },
+  {
+    "issue": "test compute/time requirements for different train tasks",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/26",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "cmroughan"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "expand htr2hpc script to support recognition training",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/27",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "create or update model in eScriptorium via API after segmentation training completes",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/29",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "clean up temporary data after segmentation training completes",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/30",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
     "pipeline": []
   },
   {
@@ -45230,7 +45402,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -45251,6 +45425,21 @@
     ]
   },
   {
+    "issue": "Run passim experiments with preliminary round 1 page texts",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/118",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a researcher, I want a list of possible NLP tools to try so that I can investigate their utility for answering our research questions.",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/12",
@@ -45263,6 +45452,19 @@
       "rlskoeser"
     ],
     "pipeline": []
+  },
+  {
+    "issue": "create utility script for building basic text corpus jsonl",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/121",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
   },
   {
     "issue": "As a researcher, I want the option of applying OCR cleanup rules to the corpus so that my computational analysis will yield more accurate results.",
