@@ -1006,6 +1006,20 @@
     ]
   },
   {
+    "issue": "Feature: switch to uv for creating python virtualenvs and installing python dependencies",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/251",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "fix invalid group characters in cdh-web group name (deprecation warning)",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/29",
@@ -9575,7 +9589,7 @@
     "estimate": "",
     "closed": "2022-08-18T22:21:45Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -9592,7 +9606,7 @@
     "estimate": "",
     "closed": "2022-08-26T17:30:12Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -10050,7 +10064,7 @@
     "estimate": "",
     "closed": "2022-09-12T21:09:22Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -10945,8 +10959,8 @@
     "estimate": "",
     "closed": "2022-10-05T17:20:54Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "assignees": [
@@ -11012,7 +11026,7 @@
     "estimate": "",
     "closed": "2022-10-06T22:08:00Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "Transcription migration + transcription editor",
     "assignees": [
@@ -11545,7 +11559,7 @@
     "estimate": "",
     "closed": "2022-10-26T16:24:03Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "CDH/PGP end of grant year 2",
     "assignees": [
@@ -11771,7 +11785,7 @@
     "estimate": "",
     "closed": "2022-11-22T17:07:39Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "CDH/PGP end of grant year 2",
     "assignees": [
@@ -12174,7 +12188,7 @@
     "estimate": "",
     "closed": "2023-01-10T21:39:19Z",
     "labels": [
-      "chore",
+      "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
@@ -12471,7 +12485,7 @@
     "estimate": "",
     "closed": "2023-03-01T21:25:53Z",
     "labels": [
-      "chore",
+      "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
@@ -12931,13 +12945,14 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\u2753 question",
       "performant"
     ],
-    "milestone": "People",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues",
-      "Backlog"
+      "In Progress"
     ]
   },
   {
@@ -13289,7 +13304,7 @@
     "estimate": "",
     "closed": "2023-06-15T20:11:54Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -14140,7 +14155,7 @@
     "estimate": "",
     "closed": "2023-10-11T15:53:59Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -14829,7 +14844,7 @@
     "estimate": "",
     "closed": "2024-01-18T17:59:43Z",
     "labels": [
-      "chore",
+      "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
@@ -14837,8 +14852,8 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -15212,14 +15227,15 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -15230,15 +15246,15 @@
     "estimate": "",
     "closed": "2024-04-24T19:41:08Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -15805,6 +15821,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "People",
@@ -15812,8 +15829,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16073,6 +16090,7 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "",
@@ -16080,7 +16098,7 @@
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -16092,14 +16110,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Dev Complete",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -16127,15 +16146,15 @@
     "estimate": "",
     "closed": "2024-11-13T16:35:09Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "In Progress",
-      "New Issues"
+      "New Issues",
+      "In Progress"
     ]
   },
   {
@@ -16148,7 +16167,7 @@
       "\ud83d\udc1b bug",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -16164,7 +16183,7 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -16179,7 +16198,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -16228,14 +16247,15 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -16264,6 +16284,87 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Please format automatic date field for person page (in admin and public) to delete commas after days and to remove spaces around the en-dash between years.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1683",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "Performant retainer 2024-2025",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public user, I want to be able to filter people records by those who do and do not have people pages.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1684",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "Performant retainer 2024-2025",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Weiss PhD and MA transcription ingest",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1685",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\u2753 question",
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "Performant retainer 2024-2025",
+    "assignees": [
+      "blms"
+    ],
+    "pipeline": [
+      "New Issues",
+      "In Progress"
+    ]
+  },
+  {
+    "issue": "As a content editor, I would like a new box in the footnote/source section of the document page specifically for \"minor emendations\" so that the notes field does not get messy.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1686",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public user and content admin, I want to see two seaprate automatic date fields for people: one of only documents where they are mentioned as deceased and one with all other dated person-doc relations, so that I have a better understanding of a person's active dates and their afterlives in the documentary record.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1687",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "",
     "assignees": [],
@@ -20153,7 +20254,7 @@
     "estimate": "",
     "closed": "2022-11-17T19:28:30Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -20392,8 +20493,8 @@
     "estimate": "",
     "closed": "2022-10-03T15:44:24Z",
     "labels": [
-      "\ud83d\uddfa\ufe0f design",
-      "chore"
+      "\ud83d\udee0\ufe0f chore",
+      "\ud83d\uddfa\ufe0f design"
     ],
     "milestone": "",
     "assignees": [
@@ -21109,7 +21210,7 @@
     "closed": "2022-05-03T17:23:49Z",
     "labels": [
       "\ud83d\udeab wontfix",
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [],
@@ -21705,7 +21806,7 @@
     "estimate": "",
     "closed": "2024-01-24T17:32:32Z",
     "labels": [
-      "chore",
+      "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
     "milestone": "",
@@ -21977,7 +22078,7 @@
     "estimate": "",
     "closed": "2022-04-22T23:01:29Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -22024,7 +22125,7 @@
     "estimate": "",
     "closed": "2022-04-20T20:51:57Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -24377,7 +24478,7 @@
     "estimate": "",
     "closed": "2022-08-11T21:25:35Z",
     "labels": [
-      "chore"
+      "\ud83d\udee0\ufe0f chore"
     ],
     "milestone": "",
     "assignees": [
@@ -25751,7 +25852,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -25762,7 +25865,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -45369,7 +45474,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/112",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-25T17:21:34Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45458,10 +45563,12 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/121",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-11-25T21:04:34Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
