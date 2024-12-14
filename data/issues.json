@@ -14510,16 +14510,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1501",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:29:54Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -14751,16 +14751,16 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1515",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:28:28Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "performant"
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "Documents",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -14768,7 +14768,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1516",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:26:48Z",
     "labels": [
       "\ud83d\udc1b bug",
       "performant"
@@ -14776,8 +14776,8 @@
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -16158,7 +16158,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1672",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-09T02:49:26Z",
     "labels": [
       "\ud83d\udc1b bug",
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -16178,7 +16178,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1673",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-09T02:51:23Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "\ud83d\udddc\ufe0f awaiting testing",
@@ -16198,10 +16198,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1674",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T17:02:19Z",
     "labels": [
-      "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing"
+      "\ud83d\udc1b bug"
     ],
     "milestone": "Performant retainer 2024-2025",
     "assignees": [
@@ -16344,7 +16343,6 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\u2753 question",
       "\ud83d\udee0\ufe0f chore",
       "performant"
     ],
@@ -16353,8 +16351,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "In Progress",
+      "New Issues"
     ]
   },
   {
@@ -16390,6 +16388,83 @@
     "issue": "As a content admin, I do not want the button to delete a document-place relationship type to appear inline, as it may appear to indicate only removing one relationship and not the type.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1688",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Update Geniza Lab logo on mobile and desktop in public",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1695",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udee0\ufe0f chore",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public user, I want to see related places on a place page on the main individual place page (not in a separate tab) so that I can see associated neighborhoods and also places that have similar names but are distinct",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1696",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want any JA or Arabic search to link to the equivalent search on the Arabic Papyrology Database website, so that I can find additional content not present in the PGP.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1697",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Transcription/translation alignment fails, during editing only",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1698",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want generated slugs to ignore the characters \u02bf and \u02be rather than convert them to hyphens, so that person URLs are more readable.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1699",
     "estimate": "",
     "closed": null,
     "labels": [
@@ -17131,8 +17206,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/249",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-12-13T16:09:39Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "Documents",
     "assignees": [],
     "pipeline": [
@@ -17526,15 +17603,15 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/286",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:08:41Z",
     "labels": [
       "\ud83d\udc1b bug"
     ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -19928,7 +20005,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/504",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:38:52Z",
     "labels": [],
     "milestone": "Documents",
     "assignees": [],
@@ -21313,7 +21390,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/670",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T16:37:54Z",
     "labels": [
       "\ud83d\udc1b bug",
       "\u26a0\ufe0f tested needs attention"
@@ -21323,8 +21400,8 @@
       "blms"
     ],
     "pipeline": [
-      "Icebox",
-      "Backlog"
+      "Backlog",
+      "Icebox"
     ]
   },
   {
@@ -25867,10 +25944,12 @@
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/27",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-13T13:54:28Z",
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": []
   },
   {
@@ -25903,6 +25982,30 @@
     "issue": "set accuracy for models uploaded via api",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/34",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": []
+  },
+  {
+    "issue": "improved error handling for htr2hpc train script",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/36",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "modify training script to update the model it starts with",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/39",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -37210,7 +37313,7 @@
     "project": "mep-django",
     "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/834",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-09T17:00:49Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -37286,6 +37389,22 @@
     "assignees": [],
     "pipeline": [
       "Icebox"
+    ]
+  },
+  {
+    "issue": "script to generate data dictionary from data package",
+    "project": "mep-django",
+    "url": "https://api.github.com/repos/Princeton-CDH/mep-django/issues/841",
+    "estimate": "",
+    "closed": "2024-12-09T17:04:13Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -45618,10 +45737,42 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/122",
     "estimate": "",
+    "closed": "2024-12-10T14:46:28Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "adjudicate round 2 data",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/123",
+    "estimate": "",
+    "closed": "2024-12-13T17:14:36Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mnaydan"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "rename repo",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/124",
+    "estimate": "",
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "rlskoeser"
+    ],
     "pipeline": [
       "New Issues"
     ]
