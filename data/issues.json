@@ -878,16 +878,18 @@
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/222",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-12-18T20:47:08Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "Fall cleaning",
     "assignees": [
       "laurejt",
       "rlskoeser"
     ],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -13013,16 +13015,17 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1369",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-17T19:55:47Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udeab wontfix",
       "performant"
     ],
     "milestone": "Search",
     "assignees": [],
     "pipeline": [
-      "New Issues",
-      "Icebox"
+      "Icebox",
+      "New Issues"
     ]
   },
   {
@@ -15801,7 +15804,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1632",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-16T20:33:07Z",
     "labels": [
       "\ud83c\udd95 enhancement",
       "performant"
@@ -15832,7 +15835,7 @@
     ]
   },
   {
-    "issue": "As a content editor, when I enter more than one relation between the same two people, I want to receive a message letting me know there's already an existing relationship, and asking me to confirm that I do indeed want to enter this relationship, so that we avoid duplicating relationships between two people.",
+    "issue": "As a content editor, when entering person-person relationships, I want help text pointing towards both automatic and manual relationships, so that we avoid duplicating relationships between two people.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1639",
     "estimate": "",
@@ -15841,13 +15844,13 @@
       "\ud83c\udd95 enhancement",
       "performant"
     ],
-    "milestone": "People",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [
       "blms"
     ],
     "pipeline": [
-      "Backlog",
-      "New Issues"
+      "New Issues",
+      "Backlog"
     ]
   },
   {
@@ -16161,7 +16164,6 @@
     "closed": "2024-12-09T02:49:26Z",
     "labels": [
       "\ud83d\udc1b bug",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16169,8 +16171,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16181,7 +16183,6 @@
     "closed": "2024-12-09T02:51:23Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16189,8 +16190,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16251,10 +16252,9 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1679",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-17T21:37:25Z",
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16262,8 +16262,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Review/QA"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16344,6 +16344,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16351,7 +16352,7 @@
       "blms"
     ],
     "pipeline": [
-      "In Progress",
+      "Review/QA",
       "New Issues"
     ]
   },
@@ -16393,7 +16394,7 @@
     "labels": [
       "\ud83c\udd95 enhancement"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -16455,7 +16456,7 @@
     "labels": [
       "\ud83d\udc1b bug"
     ],
-    "milestone": "",
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
@@ -16490,6 +16491,36 @@
     ],
     "pipeline": [
       "Review/QA"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want visual indication in the search results if transcription/translation snippets come from two separate records, so that I can understand duplicate information.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1700",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public site user, I want the font to match the rest of the site when I encounter Latin script in search result transcription/translation snippets from other languages, so that I am not confused by visual inconsistency.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1701",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
     ]
   },
   {
@@ -20563,9 +20594,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/582",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-16T15:00:23Z",
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "\ud83d\udeab wontfix"
     ],
     "milestone": "",
     "assignees": [
@@ -45254,8 +45286,10 @@
     "project": "ppa-django",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-django/issues/698",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-12-18T20:52:54Z",
+    "labels": [
+      "wontfix"
+    ],
     "milestone": "",
     "assignees": [],
     "pipeline": [
@@ -45556,7 +45590,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/101",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-18T20:48:45Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45663,7 +45697,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/116",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-16T18:55:51Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45693,7 +45727,7 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/118",
     "estimate": "",
-    "closed": null,
+    "closed": "2024-12-16T19:04:25Z",
     "labels": [],
     "milestone": "",
     "assignees": [
@@ -45766,6 +45800,66 @@
     "issue": "rename repo",
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/124",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "get initial passim pipeline into develop",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/125",
+    "estimate": "",
+    "closed": "2024-12-20T00:10:55Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "write core evaluation script for passim",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/126",
+    "estimate": "",
+    "closed": "2024-12-19T22:20:58Z",
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "determine good enough passim parameters for our task",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/127",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "write a script to match poem annotation data to reference poem corpus",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/129",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -46669,7 +46763,9 @@
     "closed": null,
     "labels": [],
     "milestone": "",
-    "assignees": [],
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -46825,8 +46921,10 @@
     "project": "ppa-nlp",
     "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/96",
     "estimate": "",
-    "closed": null,
-    "labels": [],
+    "closed": "2024-12-18T20:46:24Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
     "milestone": "",
     "assignees": [
       "laurejt",
