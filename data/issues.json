@@ -16392,12 +16392,16 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83c\udd95 enhancement"
+      "\ud83c\udd95 enhancement",
+      "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -16454,12 +16458,16 @@
     "estimate": "",
     "closed": null,
     "labels": [
-      "\ud83d\udc1b bug"
+      "\ud83d\udc1b bug",
+      "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
-      "New Issues"
+      "New Issues",
+      "Dev Complete"
     ]
   },
   {
@@ -16518,6 +16526,54 @@
       "\ud83c\udd95 enhancement"
     ],
     "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want to merge person-document relationships so that I can keep the website current as our thinking changes (but without losing data)",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1709",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Partial search in RegEx introducing spaces before and after the search term even if it's part of a word",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1710",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug",
+      "performant"
+    ],
+    "milestone": "Performant retainer 2024-2025",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a public user, I want a keyword search in the people module so that I can easily find people entries.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1711",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "Performant retainer 2024-2025",
     "assignees": [],
     "pipeline": [
       "New Issues"
