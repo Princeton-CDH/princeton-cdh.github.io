@@ -16580,6 +16580,19 @@
     ]
   },
   {
+    "issue": "As a content editor, I want to easily access training materials from the backend to ensure I add metadata correctly.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1712",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
     "issue": "As a content editor, I want scholarship records from known journals imported as articles even if no title is present, so I can identify the resources and augment them later.",
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/172",
@@ -22201,7 +22214,7 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/745",
     "estimate": 1,
-    "closed": null,
+    "closed": "2024-12-30T18:25:17Z",
     "labels": [],
     "milestone": "Other Dreams",
     "assignees": [],
