@@ -1022,6 +1022,22 @@
     ]
   },
   {
+    "issue": "Document geniza application architecture",
+    "project": "cdh-ansible",
+    "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/254",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "rlskoeser"
+    ],
+    "pipeline": [
+      "Icebox",
+      "New Issues"
+    ]
+  },
+  {
     "issue": "fix invalid group characters in cdh-web group name (deprecation warning)",
     "project": "cdh-ansible",
     "url": "https://api.github.com/repos/Princeton-CDH/cdh-ansible/issues/29",
@@ -14533,7 +14549,6 @@
     "closed": null,
     "labels": [
       "\ud83c\udd95 enhancement",
-      "\u2753 question",
       "performant"
     ],
     "milestone": "",
@@ -15839,9 +15854,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1639",
     "estimate": "",
-    "closed": null,
+    "closed": "2025-01-08T22:36:29Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -15849,8 +15865,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Backlog"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16303,9 +16319,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1683",
     "estimate": "",
-    "closed": null,
+    "closed": "2025-01-08T22:26:59Z",
     "labels": [
       "\ud83d\udee0\ufe0f chore",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16313,8 +16330,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16322,9 +16339,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1684",
     "estimate": "",
-    "closed": null,
+    "closed": "2025-01-08T22:34:57Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16332,8 +16350,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "In Progress"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16390,9 +16408,10 @@
     "project": "geniza",
     "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1688",
     "estimate": "",
-    "closed": null,
+    "closed": "2025-01-08T22:23:46Z",
     "labels": [
       "\ud83c\udd95 enhancement",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16400,8 +16419,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16459,6 +16478,7 @@
     "closed": null,
     "labels": [
       "\ud83d\udc1b bug",
+      "\ud83d\udddc\ufe0f awaiting testing",
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
@@ -16466,8 +16486,8 @@
       "blms"
     ],
     "pipeline": [
-      "New Issues",
-      "Dev Complete"
+      "Review/QA",
+      "New Issues"
     ]
   },
   {
@@ -16574,8 +16594,11 @@
       "performant"
     ],
     "milestone": "Performant retainer 2024-2025",
-    "assignees": [],
+    "assignees": [
+      "blms"
+    ],
     "pipeline": [
+      "In Progress",
       "New Issues"
     ]
   },
@@ -16588,6 +16611,53 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "As a content admin, I want a checkbox for regions to select when entering places so that these entries have a different icon and signal to public users that it's a different type of place.",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1713",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83c\udd95 enhancement",
+      "performant"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Translations in Hebrew script do not pick up correct Hebrew font",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1714",
+    "estimate": "",
+    "closed": null,
+    "labels": [
+      "\ud83d\udc1b bug"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": [
+      "New Issues",
+      "Backlog"
+    ]
+  },
+  {
+    "issue": "Manage python requirements in a pyproject.toml file",
+    "project": "geniza",
+    "url": "https://api.github.com/repos/Princeton-CDH/geniza/issues/1716",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "mabdellatif88"
+    ],
     "pipeline": [
       "New Issues"
     ]
@@ -25958,6 +26028,19 @@
     "pipeline": []
   },
   {
+    "issue": "HPC integration option 2 -  Open OnDemand app",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/16",
+    "estimate": "",
+    "closed": "2025-01-09T15:53:09Z",
+    "labels": [
+      "\ud83d\udeab wontfix"
+    ],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
     "issue": "strategize new user handling",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/19",
@@ -26107,6 +26190,17 @@
     "issue": "modify training script to update the model it starts with",
     "project": "htr2hpc",
     "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/39",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [],
+    "pipeline": []
+  },
+  {
+    "issue": "update cli script to request appropriate hpc resources based on input data",
+    "project": "htr2hpc",
+    "url": "https://api.github.com/repos/Princeton-CDH/htr2hpc/issues/40",
     "estimate": "",
     "closed": null,
     "labels": [],
@@ -45949,6 +46043,21 @@
     "labels": [],
     "milestone": "",
     "assignees": [],
+    "pipeline": [
+      "New Issues"
+    ]
+  },
+  {
+    "issue": "Wrap up evaluation code",
+    "project": "ppa-nlp",
+    "url": "https://api.github.com/repos/Princeton-CDH/ppa-nlp/issues/131",
+    "estimate": "",
+    "closed": null,
+    "labels": [],
+    "milestone": "",
+    "assignees": [
+      "laurejt"
+    ],
     "pipeline": [
       "New Issues"
     ]
